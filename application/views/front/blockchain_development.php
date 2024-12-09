@@ -35,7 +35,7 @@
 <section class="section_padding bg_azure">
     <div class="container">
         <div class="row align-items-center justify-content-between g-4">
-            <div class="col-lg-5 order-last order-sm-first">
+            <div class="col-lg-5">
                 <img src="<?= base_url() ?>assets/images/blockchain_securing.webp" alt="The Best SaaS & Enterprise Software Development company">
             </div>
             <div class="col-lg-6">

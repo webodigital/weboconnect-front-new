@@ -1510,6 +1510,21 @@ footer {
 .back_contain{
   background-size: contain !important;
 }
+.back_center{
+  background-position: center !important;
+}
+.back_left{
+  background-position: left !important;
+}
+.back_right{
+  background-position: right !important;
+}
+.back_top{
+  background-position: top !important;
+}
+.back_bottom{
+  background-position: bottom !important;
+}
 .pg_bnr{
   background-position: center;
   background-size: contain;

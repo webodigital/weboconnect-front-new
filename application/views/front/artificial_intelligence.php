@@ -32,7 +32,7 @@
 <section class="section_padding bg_azure">
     <div class="container">
         <div class="row align-items-center justify-content-between g-4">
-            <div class="col-lg-5 order-last order-sm-first">
+            <div class="col-lg-5">
                 <img src="<?= base_url() ?>assets/images/AI/what_we_do.webp" alt="The Best SaaS & Enterprise Software Development company">
             </div>
             <div class="col-lg-6">
@@ -50,7 +50,7 @@
 <section class="section_padding bg-white">
     <div class="container">
         <div class="row align-items-center justify-content-between g-4">
-            <div class="col-lg-6">
+            <div class="col-lg-6 order-last order-sm-first">
                 <div class="b_rds_15 bg_azure p-3">
                     <h3 class="fs-30 fw-700">Why Choose Us ?</h3>
                     <p class="fs-16 fw-500">TBeing one of the competitive AI service providers we can help you achieve high-accuracy, high-quality Artificial Intelligence capabilities that allows building cost-effective and highly accessible digital products and solutions. We will help you achieve the advantage of minimized infrastructure and labor cost.</p>
@@ -88,7 +88,7 @@
 <section class="section_padding on_img_">
     <div class="container position-relative" style="z-index:+1;">
         <div class="row align-items-center g-4 g-md-0">
-            <div class="col-md-5">
+            <div class="col-md-5 order-last order-sm-first">
                 <div class="">
                     <img src="<?= base_url() ?>assets/images/AI/what_we_offer.webp" alt="What We Offer">
                 </div>
