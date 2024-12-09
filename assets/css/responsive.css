@@ -116,7 +116,35 @@
           max-width: 80px;
       }
     }
+  }
+  .google_ratings_card{
+    font-size: 8px;
+    width: 145px;
+  }
+  .industry-card img {
+    max-width: 30px;
+    max-height: 40px;
+    margin-bottom: 0;
+  }
 }
+@media (max-width: 350px) {
+  .google_ratings_card{
+    font-size: 7px;
+    width: 135px;
+  }
+  .industry-card img {
+    max-width: 25px;
+    max-height: 30px;
+  }
+  .webo_testimonials {
+    ul.nav .nav-item .nav-link {
+      width: 135px;
+      height: 50px;
+      img {
+          max-width: 65px;
+      }
+    }
+  }
 }
 @media screen and (width < 578px) {
   html {
@@ -129,8 +157,8 @@
     font-size: 44.5%;
   }
   .industry-card {
-    justify-content: space-between;
-    padding: 0 2rem;
+    /* justify-content: space-between; */
+    padding: 0 1rem;
   }
 }
 
@@ -228,7 +256,18 @@
     }
   }
 }
+
+
 @media screen and (width > 991px) {
+  .on_img_card{
+    margin-left: -50px;
+  }
+  .whfw_card_list{
+    li:nth-child(odd),
+    li:nth-child(even){
+      margin-top: -30px;
+    }
+  }
   .header.header-v3{
     .full_width_mega_menu{
       width: 100%;
@@ -241,5 +280,17 @@
       padding: 40px 0px;
       display: block;
     }
+    .megamenu-panel.nav-submenu{
+      background: transparent;
+      ul{
+        display: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .modal-xl {
+      --bs-modal-width: 1200px;
   }
 }

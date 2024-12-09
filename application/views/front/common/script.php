@@ -1,5 +1,8 @@
+<script>
+              new WOW().init();
+              </script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script> -->
 
 <script src="<?=base_url()?>assets/js/jquery.min.js"></script>
 

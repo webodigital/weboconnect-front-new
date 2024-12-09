@@ -25,7 +25,7 @@
         <div class="row align-items-center justify-content-between">
             <div class="col-lg-5 h-100">
                 <span style="margin-left: -40px;">
-                    <img src="<?=base_url()?>assets/images/shapes/4_corner.png" alt="">
+                    <img src="<?=base_url()?>assets/images/shapes/4_corner.webp" alt="">
                 </span>
                 <div class="text-white my-5">
                     <div class="d-flex align-items-center">

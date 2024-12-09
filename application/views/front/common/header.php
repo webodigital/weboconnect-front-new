@@ -12,6 +12,9 @@
                     <a href="#" class="btn btn-light get_estimate_btn">
                         Get An Estimate 
                     </a>
+                    <a href="#" class="b_rds_5 ms-2 btn btn-danger" style="background:#FF492C;">
+                        <i class="bi bi-telephone-fill"></i>
+                    </a>
                 </span>
                 <div class="nav-toggle"></div>
             </div>
@@ -126,7 +129,7 @@
                                                 <a href="<?=base_url()?>maintenance-and-support">
                                                     <img height="150" src="<?=base_url()?>assets/images/mega_menu/m_s.webp" alt="about">
                                                     <div class="_menu_">
-                                                        <p>Maintenance & Support</p>
+                                                        <h5>Maintenance & Support</h5>
                                                     </div>
                                                 </a>
                                             </div>
@@ -195,7 +198,7 @@
                                                 <a href="<?=base_url()?>javascript-framework">
                                                     <img height="150" src="<?=base_url()?>assets/images/mega_menu/javascript_framework.webp" alt="about">
                                                     <div class="_menu_">
-                                                        <p>Javascipt Framework</p>
+                                                        <h5>Javascipt Framework</h5>
                                                     </div>
                                                 </a>
                                             </div>
@@ -322,10 +325,15 @@
                 </div> -->
             </div>
             <div class="d-lg-block d-none d-lg-block"> 
-                <ul class="m-0 ">
+                <ul class="nav m-0 ">
                     <li class="">
-                        <a href="#" class="btn btn-light get_estimate_btn">
+                        <a href="#" class="btn btn-light get_estimate_btn" data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal">
                             Get An Estimate 
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#" class="b_rds_5 ms-2 btn btn-danger" style="background:#FF492C;">
+                            <i class="bi bi-telephone-fill"></i>
                         </a>
                     </li>
                 </ul>

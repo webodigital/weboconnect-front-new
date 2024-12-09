@@ -188,13 +188,18 @@
 </section>
 
 
-<section class="section_padding talk_our_experts">
-    <div class="container text-white">
-        <h3 class="fs-24 fw-700">Want to accelerate JavaScript Development at your company? <br>
-        See how we can help.</h3>
-        <a href="" class="btn btn-primary btn-rounded mt-4 px-4">Talk To Our Experts</a>
+
+<section class="section_padding pg_bnr bg-white back_cover" style="background-image: url('<?= base_url() ?>assets/images/pg_bnr/javascript-framework.webp');">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8 text-center text-lg-start">
+                <h3 class="fs-24 fw-700 text-white">Want to accelerate JavaScript Development at your company? <br>
+                See how we can help.</h3>
+                <a href="" class="btn btn-primary-gradient btn-rounded mt-4 px-4">Talk To Our Experts</a>
+            </div>
+        </div>
     </div>
-</section>
+</section> 
 
 <section class="section_padding ">
     <div class="container">

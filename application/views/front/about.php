@@ -340,63 +340,70 @@
 <section class="bg_azure section_padding">
   <div class="container">
     <div class="row justify-content-between align-items-center g-4">
-      <div class="col-lg-6  order-last order-sm-first">
-        <!-- <img style="max-height:500px;" class="" src="<?= base_url() ?>assets/images/about/innovation_meets.webp" alt="ABOUT US" /> -->
-        <ul class="whfw_card_list">
-            <li class="">
-                <div class="whfw_card">
-                    <div class="d-flex align-items-center justify-content-center">
-                      <span>
-                        <img src="<?= base_url() ?>assets/images/icons/expert_team.png" alt="Expert Team">
-                      </span>
-                      <div class="">
-                        <h5 class="fs-15 fw-500">Expert Team</h5>
-                        <h4 class="fs-15 fw-700">Unmatched Skills</h4>
+      <div class="col-lg-6 order-last order-sm-first">
+       <div class="innovation_meets">
+          <span class="imr_top">
+            <img width="250" src="<?= base_url() ?>assets/images/shapes/imr_logo_shape.png.webp" alt="logo">
+          </span>
+          <ul class="whfw_card_list">
+              <li class="">
+                  <div class="whfw_card">
+                      <div class="d-flex align-items-center justify-content-center">
+                        <span>
+                          <img src="<?= base_url() ?>assets/images/icons/expert_team.png" alt="Expert Team">
+                        </span>
+                        <div class="">
+                          <h5 class="fs-15 fw-500">Expert Team</h5>
+                          <h4 class="fs-15 fw-700">Unmatched Skills</h4>
+                        </div>
                       </div>
-                    </div>
-                </div>
-            </li>
-            <li class="">
-                <div class="whfw_card">
-                    <div class="d-flex align-items-center justify-content-center">
-                      <span>
-                        <img src="<?= base_url() ?>assets/images/icons/global_reach.png" alt="Global Reach">
-                      </span>
-                      <div class="">
-                        <h5 class="fs-15 fw-500">Global Reach</h5>
-                        <h4 class="fs-15 fw-700">Local Insight</h4>
+                  </div>
+              </li>
+              <li class="">
+                  <div class="whfw_card">
+                      <div class="d-flex align-items-center justify-content-center">
+                        <span>
+                          <img src="<?= base_url() ?>assets/images/icons/global_reach.png" alt="Global Reach">
+                        </span>
+                        <div class="">
+                          <h5 class="fs-15 fw-500">Global Reach</h5>
+                          <h4 class="fs-15 fw-700">Local Insight</h4>
+                        </div>
                       </div>
-                    </div>
-                </div>
-            </li>
-            <li class="">
-                <div class="whfw_card">
-                    <div class="d-flex align-items-center justify-content-center">
-                      <span>
-                        <img src="<?= base_url() ?>assets/images/icons/custom_solutions.png" alt="Custom Solutions">
-                      </span>
-                      <div class="">
-                        <h5 class="fs-15 fw-500">Custom Solutions</h5>
-                        <h4 class="fs-15 fw-700">Tailored Excellence</h4>
+                  </div>
+              </li>
+              <li class="">
+                  <div class="whfw_card">
+                      <div class="d-flex align-items-center justify-content-center">
+                        <span>
+                          <img src="<?= base_url() ?>assets/images/icons/custom_solutions.png" alt="Custom Solutions">
+                        </span>
+                        <div class="">
+                          <h5 class="fs-15 fw-500">Custom Solutions</h5>
+                          <h4 class="fs-15 fw-700">Tailored Excellence</h4>
+                        </div>
                       </div>
-                    </div>
-                </div>
-            </li>
-            <li class="">
-                <div class="whfw_card">
-                    <div class="d-flex align-items-center justify-content-center">
-                      <span>
-                        <img src="<?= base_url() ?>assets/images/icons/client_focus.png" alt="Client Focus">
-                      </span>
-                      <div class="">
-                        <h5 class="fs-15 fw-500">Client Focus</h5>
-                        <h4 class="fs-15 fw-700">Satisfaction
-                        Guaranteed</h4>
+                  </div>
+              </li>
+              <li class="">
+                  <div class="whfw_card">
+                      <div class="d-flex align-items-center justify-content-center">
+                        <span>
+                          <img src="<?= base_url() ?>assets/images/icons/client_focus.png" alt="Client Focus">
+                        </span>
+                        <div class="">
+                          <h5 class="fs-15 fw-500">Client Focus</h5>
+                          <h4 class="fs-15 fw-700">Satisfaction
+                          Guaranteed</h4>
+                        </div>
                       </div>
-                    </div>
-                </div>
-            </li>
-        </ul>
+                  </div>
+              </li>
+          </ul>
+          <span class="imr_btm">
+            <img width="250" src="<?= base_url() ?>assets/images/shapes/qc_btm.png" alt="logo">
+          </span>
+        </div>
       </div>
       <div class="col-lg-6">
         <div class="about_corner_content">
@@ -568,7 +575,7 @@
         </div>
       </div>
       <div class="col-12 text-center">
-        <a href="#" class="btn btn-light btn-rounded">
+        <a href="<?= base_url() ?>testimonials" class="btn btn-light btn-rounded">
         View Reviews/Testimonials
         </a>
       </div>

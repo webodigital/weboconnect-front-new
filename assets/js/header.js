@@ -11,7 +11,7 @@
     if ($("#navigation1").length > 0) {
         $("#navigation1").navigation({
             effect: "fade",
-            mobileBreakpoint: 992,
+            mobileBreakpoint: 991,
         });
 
  

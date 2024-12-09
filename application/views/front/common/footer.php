@@ -47,8 +47,8 @@
                     <h4>Insights</h4>
                     <ul class="links">
                       <li><a href="<?=base_url()?>portfolio">Portfolio</a></li>
-                      <li><a href="<?=base_url()?>contact">CONTACT US</a></li>
-                      <li><a href="<?=base_url()?>testimonials">TESTIMONIALS</a></li>
+                      <li><a href="<?=base_url()?>contact"> Contact Us</a></li>
+                      <li><a href="<?=base_url()?>testimonials">Testimonials</a></li>
                       <li><a target="_blank" href="https://bihar.weboconnect.com/">Startup Bihar</a></li>
                     </ul>
                   </div>
@@ -59,7 +59,7 @@
                     <ul class="links">
                       <li><a href="<?=base_url()?>saas-development">SaaS Development</a></li>
                       <li><a href="<?=base_url()?>mobile-app-development">Mobile App Development</a></li>
-                      <li><a href="<?=base_url()?>hire-dedicated-resources">Hire DEDICATED RESOURCES</a></li>
+                      <li><a href="<?=base_url()?>hire-dedicated-resources">Hire Dedicated Resources</a></li>
                       <li><a href="<?=base_url()?>maintenance-and-support">Maintenance &amp; Support</a></li>
                     </ul>
                   </div>
@@ -78,71 +78,8 @@
             
               <div class="google_ratings_bg">
                 <div class="row g-3 justify-content-center justify-content-lg-between align-items-center">
-                  <div class="col-auto  text-center">
-                    <div class="google_ratings_card">
-                      <a href="https://www.goodfirms.co/company/weboconnect-technlogies-pvt-ltd">
-                        <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm.webp" alt="goodfirm" title="goodfirm">
-                        <div class="d-flex flex-wrap">
-                          <span>Excellent</span>
-                          <span>.</span>
-                          <span>5/5</span>
-                          <span>.</span>
-                          <span>36 REVIEWS</span>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-
-                  <div class="col-auto  text-center">
-                    <div class="google_ratings_card">
-                      <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/google_ratings.webp" alt="google ratings" title="google ratings">
-                      <div class="d-flex flex-wrap">
-                        <span>4.7/5</span>
-                        <span>.</span>
-                        <span>26 Google reviews</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-auto  text-center">
-                    <div class="google_ratings_card">
-                      <a href="https://clutch.co/profile/weboconnect-technologies?utm_source=widget&amp;utm_medium=1&amp;utm_campaign=widget&amp;utm_content=num_reviews&amp;utm_term=localhost#reviews">
-                        <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/clutch.webp" alt="clutch" title="clutch">
-                        <div class="d-flex flex-wrap">
-                          <span>5/5</span>
-                          <span>12 REVIEWS</span>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-
-                  <div class="col-auto  text-center">
-                    <div class="google_ratings_card">
-                      <a target="_blank" href="https://www.trustpilot.com/review/weboconnect.com">
-                        <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot.webp" alt="trustpilot" title="trustpilot">
-                        <div class="d-flex flex-wrap">
-                          <span>4.6/5</span>
-                          <span>.</span>
-                          <span>23 Reviews</span>
-                          <span>.</span>
-                          <span>Excellent</span>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-
-                  <div class="col-auto  text-center">
-                    <div class="google_ratings_card">
-                      <a target="_blank" href="https://www.trustpilot.com/review/weboconnect.com">
-                        <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/design_rush.webp" alt="trustpilot" title="trustpilot">
-                        <div class="d-flex flex-wrap">
-                          <span>4.8</span>
-                          <span>.</span>
-                          <span>(8 Reviews)</span>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
+                  
+                <?php $this->load->view('front/common/all_reviews_ratings') ?>
 
                 </div>
               </div>
@@ -197,3 +134,6 @@
   </div>
 </footer>
         
+
+
+<?php $this->load->view('front/common/lets_discuss_project_modal') ?>

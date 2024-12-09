@@ -367,23 +367,19 @@
 </section>
 
 
-
-<section class="pt-5 tyir_">
+<section class="section_padding pg_bnr bg-white back_cover" style="background-image: url('<?= base_url() ?>assets/images/pg_bnr/mob_app_devlp.webp'); min-height:300px;">
     <div class="container">
-        <div class="row align-items-center justify-content-center g-4">
+        <div class="row align-items-center">
             <div class="col-lg-8">
                 <div class=" text-center text-lg-start">
                     <h2 class="fs-30 fw-700 text-white">Transform Your Ideas into Reality</h2>
                     <h6 class="fs-18 fw-500 text-white mb-3">Dive into the digital era with Weboconnect, where your vision meets our mobile app development expertise. Let's create something extraordinary together and set new benchmarks in the app world.</h6>
-                    <a href="" class="btn btn-outline-light btn-rounded">Contact Us</a>
+                    <a href="<?= base_url() ?>contact" class="btn btn-outline-light btn-rounded">Contact Us</a>
                 </div>
-            </div>
-            <div class="col-lg-4">
-                <img class="w-100" src="<?= base_url() ?>assets/images/mob_app_devl/transform_ur_ideas.webp" alt="Transform Your Ideas into Reality" />
             </div>
         </div>
     </div>
-</section>
+</section>  
 
 <section class="section_padding ">
     <div class="container">

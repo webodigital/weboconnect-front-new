@@ -22,15 +22,15 @@
 
 
 
-<section class="section_padding homeSection1">
+<section class="section_padding our_team_banner">
   <div class="container"  >
-    <div class="row justify-content-between align-items-center g-4">
+    <div class="row justify-content-center align-items-center g-4">
       <!-- Text Content Column -->
-      <div class="col-lg-5 col-12" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
-        <div class="text-center text-lg-start">
+      <div class="col-md-6" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+        <div class="text-center">
           <p class="fs-20 fw-500">OUR LEADERSHIP TEAM</p>
-          <h1 class="fs-30 fw-700">Industry-recognized. <br>
-          Award-winning.</h1>
+          <h1 class="fs-30 fw-600">It's about the thoughts and souls
+          that work behind Konstant</h1>
   
         </div>
       </div>       
@@ -38,63 +38,77 @@
 
 
 
-       <div class="col-lg-5">
+       <!-- <div class="col-lg-5">
         <div class="row g-3 align-items-start justify-content-center">
-          <div class="col-6 col-lg-6 pb-4">
-            <div class="google_ratings_card">
-              <a href="https://www.goodfirms.co/company/weboconnect-technlogies-pvt-ltd">
-                <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm.webp" alt="goodfirm" title="goodfirm">
-                <div class="d-flex flex-wrap">
-                  <span>Excellent</span>
-                  <span>.</span>
-                  <span>5/5</span>
-                  <span>.</span>
-                  <span>36 REVIEWS</span>
-                </div>
-              </a>
-            </div>
-          </div>
+          <?php $this->load->view('front/common/all_reviews_ratings') ?>
+        </div>
+      </div> -->
+                   
+    </div>
+  </div>
+</section>
 
-          <div class="col-6 col-lg-6 pb-4">
-            <div class="google_ratings_card">
-              <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/google_ratings.webp" alt="google ratings" title="google ratings">
-              <div class="d-flex flex-wrap">
-                <span>4.7/5</span>
-                <span>.</span>
-                <span>26 Google reviews</span>
+<section class="section_padding meet_our_leader">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="fs-34 fw-700 text_brand_color1">Meet our leaders</h2>
+      <h6 class="fs-20 fw-600 text_brand_color1">Under their stewardship, we secured many industry-recognized accolades.</h6>
+    </div>
+    <div class="row justify-content-center mt-5">
+      <div class="col-xl-10">
+
+        <div class="row justify-content-center g-4">
+          <div class="col-6 col-lg-3">
+            <div class="management_team_card">
+              <img class="" src="<?= base_url() ?>assets/images/about/gaurav.webp" alt="Gaurav" />
+              <div class="management_team_content">
+                <div>
+                  <h5 class="fs-14 fw-700">Gaurav Kumar</h5>
+                  <h6 class="fs-12 fw-500">CEO, MD & FOUNDER</h6>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-6 col-lg-6 pb-4">
-            <div class="google_ratings_card">
-              <a href="https://clutch.co/profile/weboconnect-technologies?utm_source=widget&amp;utm_medium=1&amp;utm_campaign=widget&amp;utm_content=num_reviews&amp;utm_term=localhost#reviews">
-                <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/clutch.webp" alt="clutch" title="clutch">
-                <div class="d-flex flex-wrap">
-                  <span>5/5</span>
-                  <span>12 REVIEWS</span>
+          <div class="col-6 col-lg-3">
+            <div class="management_team_card">
+              <img class="" src="<?= base_url() ?>assets/images/about/rajiv.webp" alt="Rajiv" />
+              <div class="management_team_content">
+                <div>
+                  <h5 class="fs-14 fw-700">Rajiv Ranjan Kumar</h5>
+                  <h6 class="fs-12 fw-500">COO, CFO, MD & CO-FOUNDER</h6>
                 </div>
-              </a>
+              </div>
             </div>
           </div>
-
-          <div class="col-6 col-lg-6 pb-4">
-            <div class="google_ratings_card">
-              <a target="_blank" href="https://www.trustpilot.com/review/weboconnect.com">
-                <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot.webp" alt="trustpilot" title="trustpilot">
-                <div class="d-flex flex-wrap">
-                  <span>4.6/5</span>
-                  <span>.</span>
-                  <span>23 Reviews</span>
-                  <span>.</span>
-                  <span>Excellent</span>
+          
+          <div class="col-6 col-lg-3">
+            <div class="management_team_card">
+              <img class="" src="<?= base_url() ?>assets/images/about/mlc.png" alt="Gaurav" />
+              <div class="management_team_content">
+                <div>
+                  <h5 class="fs-14 fw-700">Mikkel Lund Christensen</h5>
+                  <h6 class="fs-12 fw-500">CMO & Co-Founder(Europe)</h6>
                 </div>
-              </a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-6 col-lg-3">
+            <div class="management_team_card">
+              <img class="" src="<?= base_url() ?>assets/images/about/nirbhay.png" alt="Gaurav" />
+              <div class="management_team_content">
+                <div>
+                  <h5 class="fs-14 fw-700">Nirbhay Kant</h5>
+                  <h6 class="fs-12 fw-500">CTO, MD & CO-FOUNDER</h6>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
       </div>
-                   
+
     </div>
   </div>
 </section>
@@ -152,6 +166,24 @@
             </div>
         </div>
     </div>
+</section>
+
+<section class="section_padding pg_bnr bg-white back_cover" style="background-image: url('<?= base_url() ?>assets/images/pg_bnr/our_team.webp');">
+    <div class="container">
+        <div class="row align-items-center justify-content-end">
+            <div class="col-lg-5">
+                <div class="text-center text-lg-end">
+                    <h2 class="fs-24 fw-700 text-white">Partner with us to work with the best dedicated developers in the industry.</h2>
+                    <a href="<?= base_url() ?>contact" class="btn btn-primary-gradient btn-rounded px-5">Hire Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+
+
+<section class="section_padding bg-white">
+    <?php $this->load->view('front/common/our_clients_videos') ?>
 </section>
 
 <?php $this->load->view('front/common/footer_form') ?>

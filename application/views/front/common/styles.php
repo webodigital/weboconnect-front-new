@@ -15,6 +15,7 @@
 <link rel="stylesheet" href="<?=base_url()?>assets/css/owl.carousel.min.css">
 <link rel="stylesheet" href="<?=base_url()?>assets/css/owl.theme.default.min.css">
 <link rel="stylesheet" href="<?=base_url()?>assets/css/bootstrap.min.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
 <link rel="stylesheet" href="<?=base_url()?>assets/css/animate.css">
 <link rel="stylesheet" href="<?=base_url()?>assets/css/navigation.css">
 <!--vendor css end -->

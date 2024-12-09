@@ -13,14 +13,17 @@ body {
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
   line-height: 1.5;
 }
-.b_rds_20{
-  border-radius: 20px !important;
+.b_rds_5{
+  border-radius: 5px !important;
 }
 .b_rds_10{
   border-radius: 10px !important;
 }
 .b_rds_15{
   border-radius: 15px !important;
+}
+.b_rds_20{
+  border-radius: 20px !important;
 }
 .fw-600{
   font-weight: 600 !important;
@@ -244,7 +247,12 @@ footer {
   left: 100%;
   transition: all 0.5s;
 }
-
+.btn-danger,
+.btn-danger:hover {
+  background-color: #FF492C !important;
+  border-color: #FF492C !important;
+  color: #ffffff;
+}
 .btn-primary,
 .btn-primary:hover {
   background-color: #004489 !important;
@@ -311,7 +319,9 @@ footer {
 }
 
 .btn-primary-gradient,
-.btn-primary-gradient:hover{
+.btn-gradient-primary,
+.btn-primary-gradient:hover,
+.btn-gradient-primary:hover{
   background: linear-gradient(244.35deg, #001123 -28%, #004489 66.22%);
   border-color: #004489;
   color: #ffffff;
@@ -478,6 +488,29 @@ footer {
       }
   }
 }
+
+
+.innovation_meets{
+  position: relative;
+  padding-top: 75px;
+  .imr_top{
+    max-width: 200px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .imr_btm{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 0;
+  }
+  .whfw_card_list{
+    position: relative;
+    z-index: +1;
+  }
+}
+
 .about_corner_content{
   background-color: #ffffff;
   padding: 20px;
@@ -563,7 +596,7 @@ footer {
 }
 
 .pillars_our_success{
-  background: url('../images/about/pillars.webp');
+  background: url('../images/about/management_team_bg.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -590,6 +623,7 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 .webo_form_sec,
 .webo_contact_form_sec{
@@ -604,7 +638,7 @@ footer {
       padding: 10px;
   }
   .contact_details{
-    background: linear-gradient(90deg, #00458E 0%, #001431 100%);
+    /* background: linear-gradient(90deg, #00458E 0%, #001431 100%); */
     padding: 20px;
   }
 }
@@ -621,8 +655,8 @@ footer {
       display: flex;
       align-items: center;
       img{
-          max-height: 110px;
-          max-width: 100%;
+          max-height: 2.5rem;
+          max-width: 2.5rem;
       }
       a{
         text-decoration: none;
@@ -633,6 +667,7 @@ footer {
   .contact_details {
       .contact_details_list_card {
           padding: 10px 10px;
+          height: auto;
       }
   }
   .footer-social-links,
@@ -658,6 +693,13 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.meet_our_leader{
+  background-image: linear-gradient(to right, rgba(1, 69, 142, 0.3), rgba(1, 69, 142, 0.3)), url('../images/about/management_team_bg.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 .management_team_card{
   border-radius: 20px;
@@ -812,7 +854,7 @@ footer {
         left: 50%;
         transform: translateX(-50%);
         top: 25px;
-        background-image: url('../images/shapes/half_ellipse.png');
+        background-image: url('../images/shapes/half_ellipse.webp');
         background-repeat: no-repeat;
         background-size: contain;
       }
@@ -1306,7 +1348,7 @@ footer {
     bottom: -100px;
     width: 400px;
     height: 400px;
-    background-image: url('../images/shapes/iwe_shapes.png');
+    background-image: url('../images/shapes/iwe_shapes_.webp');
     background-size: contain;
     background-repeat: no-repeat;
     /* transform: rotate(-75deg); */
@@ -1461,6 +1503,21 @@ footer {
       height: 60px;
     }
   }
+}
+.back_cover{
+  background-size: cover !important;
+}
+.back_contain{
+  background-size: contain !important;
+}
+.pg_bnr{
+  background-position: center;
+  background-size: contain;
+  background-position: right;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .tyir_{
   background-image: linear-gradient(to right, #01458E 50%, rgba(0, 20, 49, 0)), url('../images/tyir_bg.webp');
@@ -1756,7 +1813,7 @@ footer {
   padding: 5px 10px;
   font-size: 10px;
   font-weight: 600;
-  margin: 3px;
+  /* margin: 3px; */
   height: 100%;
   width: 175px;
   .d-flex{
@@ -1780,6 +1837,21 @@ footer {
   .google_ratings_card{
     border-radius: 0px;
   }
+}
+
+.our_team_banner {
+  padding-top: 30px;
+
+  background-image: linear-gradient(270.17deg, rgba(255, 255, 255, 0) 0.15%, rgba(255, 255, 255, 0.7) 41.47%),
+    
+    url("./../images/banner.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
 }
 .our_team{
   background: #EBF1F5;
@@ -1849,7 +1921,7 @@ footer {
   
 }
 .whfw_card{
-  width: 300px;
+  max-width: 300px;
   min-height:125px;
   padding: 20px 20px 30px 20px;
   border-radius: 20px;
@@ -1866,14 +1938,14 @@ footer {
 .whfw_card_list{
   list-style: none;
   li:nth-child(odd){
-    margin-top: -30px;
+    margin-top: 10px;
     .whfw_card{
       margin-right: auto;
       margin-left: 0px;
     }
   }
   li:nth-child(even){
-    margin-top: -30px;
+    margin-top: 10px;
     .whfw_card{
       margin-left: auto;
     }
@@ -1892,7 +1964,7 @@ footer {
     left: 50%;
     top: 50%;
     transform: translate(-50% , -50%);
-    background-image: url('../images/shapes/sphdd.png');
+    background-image: url('../images/shapes/sphdd.webp');
     background-size: 1100px 550px;
     background-repeat: no-repeat;
     background-position: center;
@@ -1934,7 +2006,7 @@ footer {
     height: 100%;
     left: 0;
     top: 0;
-    background-image: url('../images/shapes/qc.png');
+    background-image: url('../images/shapes/qc.webp');
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -1948,7 +2020,7 @@ footer {
     right: 0;
     bottom: 0;
     transform: rotate(180deg);
-    background-image: url('../images/shapes/qc.png');
+    background-image: url('../images/shapes/qc.webp');
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -2060,19 +2132,19 @@ footer {
   display: flex;
   align-items: center;
 }
-.on_img_{}
 .on_img_card{
   background: #EBF1F5;
   border: 5px solid #ffffff;
   padding: 20px;
   border-radius: 15px;
   position: relative;
-  margin-left: -50px;
+  margin-left: 0px;
   ul li{
     font-size: 16px;
     font-weight: 500;
   }
 }
+
 .what_clients_like_about{
   background-image: linear-gradient(to right, rgb(255, 255, 255) 40%, rgba(255, 255, 255, 0.788)), 
   url('../images/AI/w_c_l_a.webp');
@@ -2110,5 +2182,77 @@ footer {
   &:hover{
     background-color: #ebf1f5;
     color: #01458E;
+  }
+}
+.iot_banner{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25) 40%, rgba(0, 0, 0, .25)), 
+  url('../images/iot/banner_bg.webp');
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  .iot_banner_card{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: +1;
+    padding: 20px;
+    *{
+      position: relative;
+      z-index: +1;
+    }
+    &::before{
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 20, 49, 0.502);
+      backdrop-filter: blur(6px);
+      left: 0;
+      top: 0;
+      border-radius: 30px;
+    }
+  }
+}
+
+
+.Lets_build_ur_project{
+  position: relative;
+  background-image: linear-gradient(to right, rgb(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0)), 
+  url('../images/iot/Lets_build_ur_project.webp');
+  background-position: right;
+  background-size:  cover;
+  background-repeat: no-repeat;
+}
+.discuss_project_modal{
+  z-index: +99999;
+  .modal-content{
+    background-image: linear-gradient(to right, rgb(1, 69, 142, 0.5), rgba(1, 69, 142, 0.5)), 
+    url('../images/handshake.webp');
+    border-radius: 20px;
+    padding: 15px;
+    position: relative;
+    form{
+      border-radius: 20px;
+      background: rgba(0, 20, 49, 0.2);
+      padding: 30px 20px;
+    }
+  }
+  .btn_close{
+    width: 35px;
+    height: 35px;
+    top: 3px;
+    right: 3px;
+    gap: 0px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 0px solid rgba(255, 255, 255, 0.5);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border-radius: 50%;
   }
 }

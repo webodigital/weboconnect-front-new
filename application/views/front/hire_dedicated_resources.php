@@ -44,71 +44,7 @@
 
   <div class="container mt-5">
     <div class="row g-3 align-items-start justify-content-between">
-        <div class="col-auto">
-            <div class="google_ratings_card">
-                <a href="https://www.goodfirms.co/company/weboconnect-technlogies-pvt-ltd">
-                    <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm.webp" alt="goodfirm" title="goodfirm">
-                    <div class="d-flex flex-wrap">
-                        <span>Excellent</span>
-                        <span>.</span>
-                        <span>5/5</span>
-                        <span>.</span>
-                        <span>36 REVIEWS</span>
-                    </div>
-                </a>
-            </div>
-        </div>
-
-        <div class="col-auto">
-            <div class="google_ratings_card">
-                <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/google_ratings.webp" alt="google ratings" title="google ratings">
-                <div class="d-flex flex-wrap">
-                    <span>4.7/5</span>
-                    <span>.</span>
-                    <span>26 Google reviews</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-auto">
-            <div class="google_ratings_card">
-                <a href="https://clutch.co/profile/weboconnect-technologies?utm_source=widget&amp;utm_medium=1&amp;utm_campaign=widget&amp;utm_content=num_reviews&amp;utm_term=localhost#reviews">
-                    <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/clutch.webp" alt="clutch" title="clutch">
-                    <div class="d-flex flex-wrap">
-                        <span>5/5</span>
-                        <span>12 REVIEWS</span>
-                    </div>
-                </a>
-            </div>
-        </div>
-
-        <div class="col-auto">
-            <div class="google_ratings_card">
-                <a target="_blank" href="https://www.trustpilot.com/review/weboconnect.com">
-                <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot.webp" alt="trustpilot" title="trustpilot">
-                    <div class="d-flex flex-wrap">
-                        <span>4.6/5</span>
-                        <span>.</span>
-                        <span>23 Reviews</span>
-                        <span>.</span>
-                        <span>Excellent</span>
-                    </div>
-                </a>
-            </div>
-        </div>
-
-        <div class="col-auto">
-            <div class="google_ratings_card">
-                <a target="_blank" href="https://www.trustpilot.com/review/weboconnect.com">
-                    <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/design_rush.webp" alt="trustpilot" title="trustpilot">
-                    <div class="d-flex flex-wrap">
-                        <span>4.8</span>
-                        <span>.</span>
-                        <span>(8 Reviews)</span>
-                    </div>
-                </a>
-            </div>
-        </div>
+        <?php $this->load->view('front/common/all_reviews_ratings') ?>
     </div>
   </div>
 </section>
@@ -664,21 +600,18 @@
 </section>
 
 
-<section class="pt-5 vsai_">
+<section class="section_padding pg_bnr bg-white back_cover" style="background-image: url('<?= base_url() ?>assets/images/pg_bnr/our_team.webp');">
     <div class="container">
-        <div class="row align-items-center justify-content-between g-4">
-            <div class="col-lg-4">
-                <img class="w-100" src="<?= base_url() ?>assets/images/mob_app_devl/transform_ur_ideas.webp" alt="Transform Your Ideas into Reality" />
-            </div>
+        <div class="row align-items-center justify-content-end">
             <div class="col-lg-5">
-                <div class=" text-center text-lg-end">
+                <div class="text-center text-lg-end">
                     <h2 class="fs-24 fw-700 text-white">Partner with us to work with the best dedicated developers in the industry.</h2>
-                    <a href="" class="btn btn-primary-gradient btn-rounded px-5">Hire Us</a>
+                    <a href="<?= base_url() ?>contact" class="btn btn-primary-gradient btn-rounded px-5">Hire Us</a>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</section> 
 
 
 <section class="section_padding bg_azure">

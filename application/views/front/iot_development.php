@@ -17,16 +17,15 @@
 
 <?php $this->load->view('front/common/header') ?>
 
-<section class="section_padding bdc_banner">
+<section class="section_padding iot_banner">
     <div class="container">
         <div class="row align-items-center g-4">
-            <div class="col-md-6">
-                <h1 class="fs-30 fw-600 text-white">Blockchain Development Company</h1>
-                <h6 class="fs-18 fw-500 text-white">Making your business proceeding simpler is what we aim at WeboConnect. We make you experience the smooth and modern implementation of blockchain technology to boost the functionality of your business organizations.</h6>
-                <h6 class="fs-18 fw-500 text-white">We believe in smart work and utilize the custom development modules with the motive to deliver the customized blockchain app development service in your budget. We have marked a position by providing some successful blockchain-based software solutions on etherium, hyper ledger, smart contacts, etc. While choosing our fully-loaded blockchain development services, you can save your time & cost as well.</h6>
-            </div>
-            <div class="col-md-6">
-                <img class="w-100" src="<?= base_url() ?>assets/images/bdc.webp" alt="JavaScript FrameWork">
+            <div class="col-md-12 text-center">
+                <div class="iot_banner_card">
+                    <h1 class="fs-30 fw-600 text-white">IoT</h1>
+                    <h6 class="fs-18 fw-500 text-white mb-3">If you are amazed on IoT app development, then get the answer to all your queries here. IoT is a connectivity of all physical devices which are connected through the internet and able to exchange (send and receive) data. The objects include automobiles, gadgets, smartphones, wearable devices, home appliances, and many other physical devices.</h6>
+                    <h6 class="fs-18 fw-500 text-white">IoT app works as a connection that enables the physical devices to communicate with each other. This is possible through data exchange or a sensor using the different communication modes like Bluetooth, Wi-Fi, NFC, iBeacon, Bluetooth Smart, Rfid Etc. We fulfill the demands of IoT app development in the best way. As a prominent IoT solutions and services provider, WebOConnect offers hi-end IoT Application Development services based on custom-made requirements of our customers from different industry verticals</h6>
+                </div>
             </div>
         </div>
     </div>
@@ -35,14 +34,14 @@
 <section class="section_padding bg_azure">
     <div class="container">
         <div class="row align-items-center justify-content-between g-4">
-            <div class="col-lg-5 order-last order-sm-first">
-                <img src="<?= base_url() ?>assets/images/blockchain_securing.webp" alt="The Best SaaS & Enterprise Software Development company">
+            <div class="col-lg-5">
+                <img src="<?= base_url() ?>assets/images/iot/why_choose_us.webp" alt="The Best SaaS & Enterprise Software Development company">
             </div>
             <div class="col-lg-6">
                 <div class="b_rds_15 bg-white p-3">
-                    <h3 class="fs-30 fw-700">Securing The Way You Transact</h3>
-                    <p class="fs-16 fw-500">Our blockchain solutions record the transactions between two parties efficiently and provide a secure way of making and recording transactions, agreements, and contracts.</p>
-                    <p class="fs-16 fw-500">We are one of the leading blockchain development companies in India, focused on building innovative products using blockchain and smart contracts. The mechanism of cryptography is the source behind it. We make your data stored securely in multiple areas, reducing the overall cost of data storage. Get through with the technology which supports the cryptocurrencies and Digital currencies.</p>
+                    <h3 class="fs-30 fw-700">Why Choose Us ?</h3>
+                    <p class="fs-16 fw-500">Looking For an IoT App Developer for Your Project? We have got the best IoT App Development teams to serve the modern tech-savvy clients by having command on the challenges on their bespoken requirement.</p>
+                    <p class="fs-16 fw-500">Our IoT solutions develop a reflective impact on the class of lives of users by providing them supreme luxury. We make users control or manage every device by giving commands through a unified and simplified app.</p>
                 </div>
             </div>
         </div>
@@ -50,73 +49,111 @@
 </section>
 
 
-<section class="section_padding talk_our_experts">
-    <div class="container text-white">
-        <div class="row">
-            <div class="col-lg-7">
-                <h3 class="fs-24 fw-700">Let's Build Your Next Project Together</h3>
-                <h6 class="fs-18 fw-500">Ready to take your web development to the next level?
-                Contact us today to discuss your Blockchain Development requirements. </h6>
-                <a href="" class="btn btn-primary-gradient btn-rounded mt-4 px-4">Contact us</a>
-            </div>
-        </div>
-    </div>
-</section>
 
-
-
-
-<section class="section_padding innovation_with_enterprise">
-    <div class="container position-relative" style="z-index:+1;">
-        <div class="row justify-content-center g-4">
+<section class="section_padding pg_bnr bg-white back_cover" style="background-image: url('<?= base_url() ?>assets/images/pg_bnr/iot.webp'); min-height:300px;">
+    <div class="container">
+        <div class="row align-items-center">
             <div class="col-lg-8">
-                <div class="text-center">
-                    <h2 class="fs-30 fw-700 text_brand_color1">Our Blockchain Development Services</h2>
-                    <h6 class="fs-18 fw-500 text_brand_color1">Being a leader in advanced blockchain development, we can meet any of
-                    your requirements with high-performance Custom Blockchain Development Service.</h6>
+                <div class="text-center text-md-start">
+                    <h3 class="fs-24 fw-700 text-white">Let's Build Your Next Project Together</h3>
+                    <h6 class="fs-18 fw-500 text-white">Ready to take your web development to the next level?</h6>
+                    <h6 class="fs-18 fw-500 text-white">Contact us today to discuss your PHP development requirements.</h6>
+                    <a href="" class="btn btn-primary btn-rounded mt-4 px-4">Contact us</a>
                 </div>
             </div>
         </div>
-        <div class="row align-items-center g-4 mt-4">
-            <div class="col-6 col-md-4">
-                <div class="innovation_with_enterprise_card">
-                    <h4 class="fs-20 fw-700">Custom Blockchain Development</h4>
-                    <h5 class="fs-14 fw-500">Whatever be your requirements, place your trust on us for high-performance custom Blockchain development service.</h5>
+    </div>
+</section>  
+
+
+
+
+
+<section class="section_padding bg_azure what_clients_like_about">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-10 text-center">
+                <h3 class="fs-30 fw-700 text_brand_color2">What Do We Offer ?</h3>
+                <h6 class="fs-18 fw-500 mb-4">At WebOConnect, we present a complete range of Internet of Things Development services with the implementation of the most advanced technology and proficiency of our team of expert IoT App Developers.</h6>
+                <h6 class="fs-18 fw-500">Our expert IoT solutions simply help you transform your devices into smart devices which include</h6>
+            </div>
+        </div>
+        <div class="row align-items-center mt-4 g-4">
+            <div class="col-sm-6 col-lg-4">
+                <div class="start_card">
+                    <h4 class="fs-20 fw-700 m-0">✦ IoT App Development</h4>
                 </div>
             </div>
-            <div class="col-6 col-md-4">
-                <div class="innovation_with_enterprise_card">
-                    <h4 class="fs-20 fw-700">Blockchain Consulting</h4>
-                    <h5 class="fs-14 fw-500">We provide experienced consultants to bring in the advanced software which is reliable according to the market and can able to manage your data securely.</h5>
+            <div class="col-sm-6 col-lg-4">
+                <div class="start_card">
+                    <h4 class="fs-20 fw-700 m-0">✦	IoT Implementation & Support</h4>
                 </div>
             </div>
-            <div class="col-6 col-md-4">
-                <div class="innovation_with_enterprise_card">
-                    <h4 class="fs-20 fw-700">Cryptocurrency Development</h4>
-                    <h5 class="fs-14 fw-500">We have productively catered various clients with custom Cryptocurrency Development based on optimized, scalable, and highly secured blockchain technology for enabling easy and secure transactions.</h5>
+            <div class="col-sm-6 col-lg-4">
+                <div class="start_card">
+                    <h4 class="fs-20 fw-700 m-0">✦	IoT Gateway</h4>
                 </div>
             </div>
-            <div class="col-6 col-md-4">
-                <div class="innovation_with_enterprise_card">
-                    <h4 class="fs-20 fw-700">Wallets development</h4>
-                    <h5 class="fs-14 fw-500">We develop wallets that interact with various blockchain to enable users to send and receive digital currency to offer safe and reliable transactions with complete anonymity.</h5>
+            <div class="col-sm-6 col-lg-4">
+                <div class="start_card">
+                    <h4 class="fs-20 fw-700 m-0">✦	IoT Solution with Rich Architecture</h4>
                 </div>
             </div>
-            <div class="col-6 col-md-4">
-                <div class="innovation_with_enterprise_card">
-                    <h4 class="fs-20 fw-700">HyperLedger and Multichain</h4>
-                    <h5 class="fs-14 fw-500">We expertly develop decentralized applications using permissioned Blockchains like HyperLedger Fabric and Multichain for Finance, Healthcare, Retail, Manufacturing, etc. according to your business requirements.</h5>
+            <div class="col-sm-6 col-lg-4">
+                <div class="start_card">
+                    <h4 class="fs-20 fw-700 m-0">✦	Connectivity</h4>
                 </div>
             </div>
-            <div class="col-6 col-md-4">
-                <div class="innovation_with_enterprise_card">
-                    <h4 class="fs-20 fw-700">Smart Contract Development</h4>
-                    <h5 class="fs-14 fw-500">We provide this service to unlock the potential of blockchain business. Our developers have prepared several smart contracts across various industries</h5>
+            <div class="col-sm-6 col-lg-4">
+                <div class="start_card">
+                    <h4 class="fs-20 fw-700 m-0">✦	App Security Consulting</h4>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="start_card">
+                    <h4 class="fs-20 fw-700 m-0">✦	Voice-Enabled Technology Solutions</h4>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="start_card">
+                    <h4 class="fs-20 fw-700 m-0">✦	IoT Cloud Platform</h4>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="start_card">
+                    <h4 class="fs-20 fw-700 m-0">✦	IoT Maintenance Services</h4>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+
+
+<section class="section_padding on_img_">
+    <div class="container position-relative" style="z-index:+1;">
+        <div class="row align-items-center g-4 g-md-0">
+            <div class="col-md-5">
+                <div class="">
+                    <img src="<?= base_url() ?>assets/images/iot/major_benefits.webp" alt="What We Offer">
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="on_img_card">
+                    <h4 class="fs-30 fw-600">Major benefits you can get through with our IoT App Development</h4>
+                    <ul>
+                        <li>New business opportunities</li>
+                        <li>Enhance the efficiency of your product</li>
+                        <li>Let your devices talk</li>
+                        <li>Technology to reach Potential users</li>
+                        <li>Stay aheTad of the competition</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <section class="section_padding bg_azure">
     <?php $this->load->view('front/common/our_clients_videos') ?>

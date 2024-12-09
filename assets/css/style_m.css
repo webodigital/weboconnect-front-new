@@ -308,12 +308,13 @@ body {
   }
 }
 .clients-section {
-  background: linear-gradient(to right, #01122dc7, #000000a9, #01122dc7),
+  background: linear-gradient(to right, rgba(0, 20, 49, 0.78), rgba(0, 20, 49, 0.78)),
     url("./../images/clientbg.webp") no-repeat center center/cover;
   color: white;
   text-align: center;
   /* padding: 10rem 20px; */
   position: relative;
+  background-attachment: fixed;
 }
 
 .clients-section h1 {
@@ -394,6 +395,7 @@ body {
   background-repeat: no-repeat;
   text-align: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 .tech-stack-section h1 {
   font-size: 3rem;
@@ -617,6 +619,7 @@ body {
   background: url("./../images/bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .trusted-alliances h2 {
@@ -698,6 +701,7 @@ body {
   background: url("./../images/bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .section-title {
@@ -716,12 +720,12 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  gap: 2rem;
+  gap: 10px;
   height: 8rem;
   width: 100%;
 
   p {
-    text-align: center;
+    /* text-align: center; */
   }
 }
 

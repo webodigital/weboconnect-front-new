@@ -22,7 +22,7 @@
 
 
 
-<section class="homeSection1">
+<section class="homeSection1 py-4 py-xl-0">
   <div class="container"  >
     <div class="row g-3 g-lg-2 align-items-center">
       <!-- Text Content Column -->
@@ -48,78 +48,15 @@
       <!-- Image Column -->
 
 
-      <div class="col-lg-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
-        <div class="p-4 pb-0 position-relative h-100 d-lg-flex d-md-none d-none justify-content-lg-end justify-content-md-end justify-content-center align-items-center">
+      <div class="col-3 d-xl-block d-none " data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+        <div class="p-4 pb-0 position-relative h-100 justify-content-lg-end justify-content-md-end justify-content-center align-items-center">
           <img class="max-w-100 hero" src="<?=base_url()?>assets/images/CEO.webp" alt="CEO Of WeboConnect">  
         </div>                          
       </div>  
-       <div class="col-lg-4">
+       <div class="col col-xl-4">
         <div class="row g-4 align-items-start justify-content-center">
-          <div class="col-auto">
-            <div class="google_ratings_card">
-              <a href="https://www.goodfirms.co/company/weboconnect-technlogies-pvt-ltd">
-                <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm.webp" alt="goodfirm" title="goodfirm">
-                <div class="d-flex flex-wrap">
-                  <span>Excellent</span>
-                  <span>.</span>
-                  <span>5/5</span>
-                  <span>.</span>
-                  <span>36 REVIEWS</span>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-auto">
-            <div class="google_ratings_card">
-              <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/google_ratings.webp" alt="google ratings" title="google ratings">
-              <div class="d-flex flex-wrap">
-                <span>4.7/5</span>
-                <span>.</span>
-                <span>26 Google reviews</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-auto">
-            <div class="google_ratings_card">
-              <a href="https://clutch.co/profile/weboconnect-technologies?utm_source=widget&amp;utm_medium=1&amp;utm_campaign=widget&amp;utm_content=num_reviews&amp;utm_term=localhost#reviews">
-                <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/clutch.webp" alt="clutch" title="clutch">
-                <div class="d-flex flex-wrap">
-                  <span>5/5</span>
-                  <span>12 REVIEWS</span>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-auto">
-            <div class="google_ratings_card">
-              <a target="_blank" href="https://www.trustpilot.com/review/weboconnect.com">
-                <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot.webp" alt="trustpilot" title="trustpilot">
-                <div class="d-flex flex-wrap">
-                  <span>4.6/5</span>
-                  <span>.</span>
-                  <span>23 Reviews</span>
-                  <span>.</span>
-                  <span>Excellent</span>
-                </div>
-              </a>
-            </div>
-          </div>
           
-          <div class="col-auto">
-            <div class="google_ratings_card">
-                <a target="_blank" href="https://www.trustpilot.com/review/weboconnect.com">
-                    <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/design_rush.webp" alt="trustpilot" title="trustpilot">
-                    <div class="d-flex flex-wrap">
-                        <span>4.8</span>
-                        <span>.</span>
-                        <span>(8 Reviews)</span>
-                    </div>
-                </a>
-            </div>
-          </div>
+          <?php $this->load->view('front/common/all_reviews_ratings') ?>
 
         </div>
       </div>
@@ -230,7 +167,7 @@
               <img src="<?=base_url()?>assets/images/saas.png" alt="SaaS Development" class="content-image w-100 rounded-5">
               <div class="content-overlay text-start">
                 <p>Our team specializes in creating seamless and efficient SaaS solutions that redefine how businesses operate. With a focus on precision, reliability, and industry best practices, we deliver systems that drive performance and success.</p>
-                <button class="btn btn-outline-primary btn-rounded">View More</button>
+                <a href="<?=base_url()?>saas-development" class="btn btn-outline-primary btn-rounded">View More</a>
                 <button class="btn btn-primary btn-rounded">View Portfolio</button>
               </div>
             </div>
@@ -243,7 +180,7 @@
               <img src="<?=base_url()?>assets/images/network.webp" alt="Web & Mobile Application Development" class="content-image w-100 rounded-5">
               <div class="content-overlay text-start">
                 <p>Our custom web and mobile applications enhance operational efficiency, improve user interaction, and deliver impactful digital experiences tailored to your business goals and ever-evolving market demands.</p>
-                <button class="btn btn-outline-primary btn-rounded">View More</button>
+                <a href="<?=base_url()?>mobile-app-development" class="btn btn-outline-primary btn-rounded">View More</a>
                 <button class="btn btn-primary btn-rounded">View Portfolio</button>
               </div>
             </div>
@@ -253,7 +190,7 @@
               <img src="<?=base_url()?>assets/images/techno.webp" alt="Healthcare Staffing App Development" class="content-image w-100 rounded-5">
               <div class="content-overlay text-start">
                 <p>From recruitment to resource allocation, our healthcare staffing apps optimize every aspect of workforce management, enabling organizations to meet growing demands while focusing on patient care.</p>
-                <button class="btn btn-outline-primary btn-rounded">View More</button>
+                <a href="https://staffinc.io/" target="_blank" class="btn btn-outline-primary btn-rounded">View More</a>
                 <button class="btn btn-primary btn-rounded">View Portfolio</button>
               </div>
             </div>
@@ -264,7 +201,7 @@
               <img src="<?=base_url()?>assets/images/tech.webp" alt="Maintenance & Support" class="content-image w-100 rounded-5">
               <div class="content-overlay text-start">
                 <p>We provide continuous system monitoring, timely updates, and expert issue resolution, ensuring your digital platforms operate seamlessly with maximum uptime and minimal disruptions.</p>
-                <button class="btn btn-outline-primary btn-rounded">View More</button>
+                <a href="<?=base_url()?>maintenance-and-support" class="btn btn-outline-primary btn-rounded">View More</a>
                 <button class="btn btn-primary btn-rounded">View Portfolio</button>
               </div>
             </div>
@@ -275,7 +212,7 @@
               <img src="<?=base_url()?>assets/images/handshake.webp" alt="Hire Dedicated Resources" class="content-image w-100 rounded-5">
               <div class="content-overlay text-start">
                 <p>Our dedicated resources provide the focus and technical expertise you need to drive project success, meeting goals faster and delivering results that exceed expectations.</p>
-                <button class="btn btn-outline-primary btn-rounded">View More</button>
+                <a href="<?=base_url()?>hire-dedicated-resources" class="btn btn-outline-primary btn-rounded">View More</a>
                 <button class="btn btn-primary btn-rounded">View Portfolio</button>
               </div>
             </div>
@@ -349,18 +286,15 @@
   </div>
  </div>
 </section>
-<section class="pt-5 tyir_ bg-white">
+<section class="section_padding pg_bnr bg-white back_cover" style="background-image: url('<?= base_url() ?>assets/images/pg_bnr/home.webp'); min-height:300px;">
     <div class="container">
-        <div class="row align-items-center justify-content-center g-4">
+        <div class="row align-items-center">
             <div class="col-lg-8">
                 <div class=" text-center text-lg-start">
                     <h2 class="fs-30 fw-700 text_brand_color2">Transform Your Ideas into Reality</h2>
                     <h6 class="fs-18 fw-500 text_brand_color2 mb-3">Dive into the digital era with Weboconnect, where your vision meets our mobile app development expertise. Let's create something extraordinary together and set new benchmarks in the app world.</h6>
-                    <a href="" class="btn btn-outline-primary btn-rounded">Contact Us</a>
+                    <a href="<?= base_url() ?>contact" class="btn btn-outline-primary btn-rounded">Contact Us</a>
                 </div>
-            </div>
-            <div class="col-lg-4">
-                <img class="w-100" src="<?= base_url() ?>assets/images/mob_app_devl/transform_ur_ideas.webp" alt="Transform Your Ideas into Reality" />
             </div>
         </div>
     </div>
@@ -536,7 +470,7 @@
 
     </div>
 
-    <button data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="100" class="btn btn-light fs-18 fw-600 px-5 btn-rounded">Discuss Your Project</button>
+    <button data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="100" class="btn btn-light fs-18 fw-600 px-5 btn-rounded"  data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal">Discuss Your Project</button>
   </div>
 
 </section>
@@ -566,7 +500,7 @@
           <h3>Your Trust, Our Strength</h3>
           <p class="my-4">Every partnership reflects the trust and confidence our clients place in us. Together, we create impactful solutions that inspire growth and pave the way for long-term success.</p>
           <div class="d-none d-lg-block">
-          <a class="btn btn-light btn-rounded px-4 mt-3 ">Discuss Your Next Project</a>
+          <a class="btn btn-light btn-rounded px-4 mt-3" data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal">Discuss Your Next Project</a>
           </div>
         </div>
       </div>
@@ -603,7 +537,7 @@
         </div>
       </div>
       <div class="col-12 text-center mt-3 d-clock d-lg-none">
-        <a class="btn btn-light btn-rounded px-4">Discuss Your Next Project</a>
+        <a class="btn btn-light btn-rounded px-4"  data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal">Discuss Your Next Project</a>
       </div>
 
     </div>
@@ -932,7 +866,7 @@
         </div>
     </div>
     <div class="text-center mt-4">
-        <button class="btn btn-custom">Discuss Your Project</button>
+        <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal">Discuss Your Project</button>
     </div>
   </div>
 </div>

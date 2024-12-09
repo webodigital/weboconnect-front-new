@@ -98,17 +98,17 @@
     </div>
 </section>
 
-<section class="section_padding wondering_collaboration">
-    <div class="container text-white">
-        <div class="row">
+
+<section class="section_padding pg_bnr bg-white back_cover" style="background-image: url('<?= base_url() ?>assets/images/pg_bnr/maintenance-and-support.webp');">
+    <div class="container">
+        <div class="row align-items-center">
             <div class="col-lg-7 text-center text-lg-start">
-                <h3 class="fs-30 fw-700">Wondering which type of collaboration suits your business needs better?</h3>
-                <a href="" class="btn btn-primary btn-rounded mt-4 px-4">Talk To Our Experts</a>
+                <h3 class="fs-30 fw-700 text-white">Wondering which type of collaboration suits your business needs better?</h3>
+                <a href="" class="btn btn-primary-gradient btn-rounded mt-4 px-4">Talk To Our Experts</a>
             </div>
         </div>
     </div>
-</section>
-
+</section> 
 
 <section class="section_padding bg-white">
     <div class="container">

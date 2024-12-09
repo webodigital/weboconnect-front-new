@@ -50,19 +50,20 @@
 </section>
 
 
-<section class="section_padding talk_our_experts">
-    <div class="container text-white">
-        <div class="row">
-            <div class="col-lg-7">
-                <h3 class="fs-24 fw-700">Let's Build Your Next Project Together</h3>
-                <h6 class="fs-18 fw-500">Ready to take your web development to the next level?
-                Contact us today to discuss your Blockchain Development requirements. </h6>
-                <a href="" class="btn btn-primary-gradient btn-rounded mt-4 px-4">Contact us</a>
+<section class="section_padding pg_bnr bg-white back_cover" style="background-image: url('<?= base_url() ?>assets/images/pg_bnr/blockchain-development.webp'); min-height:300px;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <div class="text-center text-md-start">
+                    <h3 class="fs-24 fw-700 text-white">Let's Build Your Next Project Together</h3>
+                    <h6 class="fs-18 fw-500 text-white">Ready to take your web development to the next level?</h6>
+                    <h6 class="fs-18 fw-500 text-white">Contact us today to discuss your PHP development requirements.</h6>
+                    <a href="" class="btn btn-primary btn-rounded mt-4 px-4">Contact us</a>
+                </div>
             </div>
         </div>
     </div>
-</section>
-
+</section>  
 
 
 
