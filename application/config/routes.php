@@ -72,6 +72,9 @@ $route['artificial-intelligence'] = 'home/artificial_intelligence';
 $route['IOT'] = 'home/iot_development';
 
 $route['our-team'] = 'home/our_team';
+$route['careers'] = 'home/careers';
+$route['privacy-policy'] = 'home/privacy_policy';
+$route['refund-policy'] = 'home/refund_policy';
 
 
 // $route['default_controller'] = 'welcome';

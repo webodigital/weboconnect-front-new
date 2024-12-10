@@ -130,7 +130,7 @@
       <div class="col-md-5">
         <img class="w-100" src="<?= base_url() ?>assets/images/about/webo.webp" alt="weboconnect about" />
       </div>
-      <div class="col-md-7 col-lg-6">
+      <div class="col-md-7">
         <div class="about_award_bg">
           <div class="row justify-content-center g-4">
             <div class="col-lg-3 col-md-4 col-4">
@@ -179,7 +179,7 @@
         <div class="our_business_modal_card light_bg">
           <div class="text-center">
             <span>
-              <img src="<?= base_url() ?>assets/images/about/icons/outsource_project.png" alt="Outsource Project">
+              <img src="<?= base_url() ?>assets/images/about/icons/outsource_project.webp" alt="Outsource Project">
             </span>
             <h4 class="text-black fs-20 fw-700 my-3">Outsource Project</h4>
             <div class="d-flex">
@@ -211,7 +211,7 @@
         <div class="our_business_modal_card light_bg">
           <div class="text-center">
             <span>
-              <img src="<?= base_url() ?>assets/images/about/icons/white_label.png" alt="white Label Partnership">
+              <img src="<?= base_url() ?>assets/images/about/icons/white_label.webp" alt="white Label Partnership">
             </span>
             <h4 class="text-black fs-20 fw-700 my-3">White Label Partnership</h4>
             <div class="d-flex">
@@ -227,7 +227,7 @@
         <div class="our_business_modal_card dark_bg">
           <div class="text-center">
             <span>
-              <img src="<?= base_url() ?>assets/images/about/icons/product_partnership.png" alt="Product Partnership">
+              <img src="<?= base_url() ?>assets/images/about/icons/product_partnership.webp" alt="Product Partnership">
             </span>
             <h4 class="text-white fs-20 fw-700 my-3">Product Partnership</h4>
             <div class="d-flex">
@@ -249,7 +249,7 @@
       <div class="col-md-6 col-lg-5 text-center text-lg-start">
         <h2 class="fs-34 fw-700 text-white">Craft Your Future with Us</h2>
         <h6 class="fs-18 fw-700 text-white">Ready to make a mark in the digital world? Join Weboconnect, where your career journey meets innovation and growth.</h6>
-        <a href="" class="btn btn-primary-gradient btn-rounded btn-md px-5">APPLY NOW</a>
+        <a href="" class="btn btn-primary-gradient btn-rounded btn-md px-5 my-3" style="">APPLY NOW</a>
       </div>
       <div class="col-md-6">
         <span class="craft_future_img">
@@ -273,7 +273,7 @@
       <div class="col-sm-4 col-md-3 col-6">
         <div class="pillars_our_success_card">
           <span>
-            <img src="<?= base_url() ?>assets/images/about/icons/listen_clients.png" alt="We listen to our Clients">
+            <img src="<?= base_url() ?>assets/images/about/icons/listen_clients.webp" alt="We listen to our Clients">
           </span>
           <h4 class="fs-14 fw-700 lh-1_3 text-white m-0">We listen to our <br> Clients</h4>
         </div>
@@ -282,7 +282,7 @@
       <div class="col-sm-4 col-md-3 col-6">
         <div class="pillars_our_success_card">
           <span>
-            <img src="<?= base_url() ?>assets/images/about/icons/focus_solutions.png" alt="We focus on solutions">
+            <img src="<?= base_url() ?>assets/images/about/icons/focus_solutions.webp" alt="We focus on solutions">
           </span>
           <h4 class="fs-14 fw-700 lh-1_3 text-white m-0">We focus on <br> solutions</h4>
         </div>
@@ -291,7 +291,7 @@
       <div class="col-sm-4 col-md-3 col-6">
         <div class="pillars_our_success_card">
           <span>
-            <img src="<?= base_url() ?>assets/images/about/icons/develop_strategies.png" alt="We develop strategies First">
+            <img src="<?= base_url() ?>assets/images/about/icons/develop_strategies.webp" alt="We develop strategies First">
           </span>
           <h4 class="fs-14 fw-700 lh-1_3 text-white m-0">We develop <br> strategies First</h4>
         </div>
@@ -300,7 +300,7 @@
       <div class="col-sm-4 col-md-3 col-6">
         <div class="pillars_our_success_card">
           <span>
-            <img src="<?= base_url() ?>assets/images/about/icons/deliver_promise.png" alt="We deliver what we promise">
+            <img src="<?= base_url() ?>assets/images/about/icons/deliver_promise.webp" alt="We deliver what we promise">
           </span>
           <h4 class="fs-14 fw-700 lh-1_3 text-white m-0">We deliver what <br> we promise</h4>
         </div>
@@ -309,7 +309,7 @@
       <div class="col-sm-4 col-md-3 col-6">
         <div class="pillars_our_success_card">
           <span>
-            <img src="<?= base_url() ?>assets/images/about/icons/believe_teamwork.png" alt="we believe in teamwork">
+            <img src="<?= base_url() ?>assets/images/about/icons/believe_teamwork.webp" alt="we believe in teamwork">
           </span>
           <h4 class="fs-14 fw-700 lh-1_3 text-white m-0">we believe in <br>  teamwork</h4>
         </div>
@@ -318,7 +318,7 @@
       <div class="col-sm-4 col-md-3 col-6">
         <div class="pillars_our_success_card">
           <span>
-            <img src="<?= base_url() ?>assets/images/about/icons/friendly_approaches.png" alt="we are friendly in  approaches">
+            <img src="<?= base_url() ?>assets/images/about/icons/friendly_approaches.webp" alt="we are friendly in  approaches">
           </span>
           <h4 class="fs-14 fw-700 lh-1_3 text-white m-0">we are friendly in <br>  approaches</h4>
         </div>
@@ -327,7 +327,7 @@
       <div class="col-sm-4 col-md-3 col-6">
         <div class="pillars_our_success_card">
           <span>
-            <img src="<?= base_url() ?>assets/images/about/icons/methodical_logical.png" alt="We deliver what we promise">
+            <img src="<?= base_url() ?>assets/images/about/icons/methodical_logical.webp" alt="We deliver what we promise">
           </span>
           <h4 class="fs-14 fw-700 lh-1_3 text-white m-0">We are Methodical & <br> logical</h4>
         </div>
@@ -343,14 +343,14 @@
       <div class="col-lg-6 order-last order-sm-first">
        <div class="innovation_meets">
           <span class="imr_top">
-            <img width="250" src="<?= base_url() ?>assets/images/shapes/imr_logo_shape.png.webp" alt="logo">
+            <img width="250" src="<?= base_url() ?>assets/images/shapes/imr_logo_shape.webp" alt="logo">
           </span>
           <ul class="whfw_card_list">
               <li class="">
                   <div class="whfw_card">
                       <div class="d-flex align-items-center justify-content-center">
                         <span>
-                          <img src="<?= base_url() ?>assets/images/icons/expert_team.png" alt="Expert Team">
+                          <img src="<?= base_url() ?>assets/images/icons/expert_team.webp" alt="Expert Team">
                         </span>
                         <div class="">
                           <h5 class="fs-15 fw-500">Expert Team</h5>
@@ -363,7 +363,7 @@
                   <div class="whfw_card">
                       <div class="d-flex align-items-center justify-content-center">
                         <span>
-                          <img src="<?= base_url() ?>assets/images/icons/global_reach.png" alt="Global Reach">
+                          <img src="<?= base_url() ?>assets/images/icons/global_reach.webp" alt="Global Reach">
                         </span>
                         <div class="">
                           <h5 class="fs-15 fw-500">Global Reach</h5>
@@ -376,7 +376,7 @@
                   <div class="whfw_card">
                       <div class="d-flex align-items-center justify-content-center">
                         <span>
-                          <img src="<?= base_url() ?>assets/images/icons/custom_solutions.png" alt="Custom Solutions">
+                          <img src="<?= base_url() ?>assets/images/icons/custom_solutions.webp" alt="Custom Solutions">
                         </span>
                         <div class="">
                           <h5 class="fs-15 fw-500">Custom Solutions</h5>
@@ -389,7 +389,7 @@
                   <div class="whfw_card">
                       <div class="d-flex align-items-center justify-content-center">
                         <span>
-                          <img src="<?= base_url() ?>assets/images/icons/client_focus.png" alt="Client Focus">
+                          <img src="<?= base_url() ?>assets/images/icons/client_focus.webp" alt="Client Focus">
                         </span>
                         <div class="">
                           <h5 class="fs-15 fw-500">Client Focus</h5>
@@ -401,7 +401,7 @@
               </li>
           </ul>
           <span class="imr_btm">
-            <img width="250" src="<?= base_url() ?>assets/images/shapes/qc_btm.png" alt="logo">
+            <img width="250" src="<?= base_url() ?>assets/images/shapes/qc_btm.webp" alt="logo">
           </span>
         </div>
       </div>

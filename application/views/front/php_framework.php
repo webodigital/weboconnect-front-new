@@ -36,32 +36,34 @@
     <div class="row justify-content-between align-items-center g-4">
       <div class="col-lg-4 col-md-12 col-12" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
         <h3 class="fs-24 fw-600 mb-3">Key Java Script Technology Competence</h3>
-        <ul class="nav nav-flex justify-content-center nav-pills vertical_tab_nav gap-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="v-pills-frameworks-tab" data-bs-toggle="pill" data-bs-target="#v-pills-frameworks" type="button" role="tab" aria-controls="v-pills-frameworks" aria-selected="true">Frameworks</button>
-          </li>
-        
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="v-pills-CMS-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CMS" type="button" role="tab" aria-controls="v-pills-CMS" aria-selected="true">Content Management Systems</button>
-          </li>
-        
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="v-pills-data-management-tab" data-bs-toggle="pill" data-bs-target="#v-pills-data-management" type="button" role="tab" aria-controls="v-pills-data-management" aria-selected="true">Data Management</button>
-          </li>
-        
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="v-pills-queue-tab" data-bs-toggle="pill" data-bs-target="#v-pills-queue" type="button" role="tab" aria-controls="v-pills-queue" aria-selected="true">Queue</button>
-          </li>
-          
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="v-pills-CCP-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CCP" type="button" role="tab" aria-controls="v-pills-CCP" aria-selected="true">Cloud Computing Platforms</button>
-          </li>
-          
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="v-pills-third_party_APIs-tab" data-bs-toggle="pill" data-bs-target="#v-pills-third_party_APIs" type="button" role="tab" aria-controls="v-pills-third_party_APIs" aria-selected="true">Third-Party APIs</button>
-          </li>
-        
-        </ul>
+        <div class="overflow_x_auto">
+            <ul class="scroll_horizontal_m_screen mx-auto nav nav-flex justify-content-center nav-pills vertical_tab_nav gap-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="v-pills-frameworks-tab" data-bs-toggle="pill" data-bs-target="#v-pills-frameworks" type="button" role="tab" aria-controls="v-pills-frameworks" aria-selected="true">Frameworks</button>
+            </li>
+            
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="v-pills-CMS-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CMS" type="button" role="tab" aria-controls="v-pills-CMS" aria-selected="true">Content Management Systems</button>
+            </li>
+            
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="v-pills-data-management-tab" data-bs-toggle="pill" data-bs-target="#v-pills-data-management" type="button" role="tab" aria-controls="v-pills-data-management" aria-selected="true">Data Management</button>
+            </li>
+            
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="v-pills-queue-tab" data-bs-toggle="pill" data-bs-target="#v-pills-queue" type="button" role="tab" aria-controls="v-pills-queue" aria-selected="true">Queue</button>
+            </li>
+            
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="v-pills-CCP-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CCP" type="button" role="tab" aria-controls="v-pills-CCP" aria-selected="true">Cloud Computing Platforms</button>
+            </li>
+            
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="v-pills-third_party_APIs-tab" data-bs-toggle="pill" data-bs-target="#v-pills-third_party_APIs" type="button" role="tab" aria-controls="v-pills-third_party_APIs" aria-selected="true">Third-Party APIs</button>
+            </li>
+            
+            </ul>
+        </div>
       </div>
 
       
@@ -253,7 +255,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/healthcare.png" alt="Healthcare">
+                        <img src="<?= base_url() ?>/assets/images/icons/dr.webp" alt="Healthcare">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Healthcare</h5>
                 </div>
@@ -261,7 +263,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/finance.png" alt="Finance">
+                        <img src="<?= base_url() ?>/assets/images/icons/business.webp" alt="Finance">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Finance</h5>
                 </div>
@@ -269,7 +271,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/ecommerce-website.png" alt="Retail & E-commerce">
+                        <img src="<?= base_url() ?>/assets/images/icons/ecommerce-website.webp" alt="Retail & E-commerce">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Retail &
                     E-commerce</h5>
@@ -278,7 +280,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/education.png" alt="Education">
+                        <img src="<?= base_url() ?>/assets/images/icons/education.webp" alt="Education">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Education</h5>
                 </div>
@@ -286,7 +288,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/travel.png" alt="Travel & Tourism">
+                        <img src="<?= base_url() ?>/assets/images/icons/travel.webp" alt="Travel & Tourism">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Travel & Tourism</h5>
                 </div>
@@ -294,7 +296,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/home.png" alt="Real Estate">
+                        <img src="<?= base_url() ?>/assets/images/icons/home.webp" alt="Real Estate">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Real Estate</h5>
                 </div>
@@ -302,7 +304,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/media_entertainment.png" alt="Media & Entertainment">
+                        <img src="<?= base_url() ?>/assets/images/icons/media_entertainment.webp" alt="Media & Entertainment">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Media & Entertainment</h5>
                 </div>
@@ -310,7 +312,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/car_svg.png" alt="Automotive">
+                        <img src="<?= base_url() ?>/assets/images/icons/car_svg.webp" alt="Automotive">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Automotive</h5>
                 </div>
@@ -318,7 +320,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/lifestyle.png" alt="Lifestyle">
+                        <img src="<?= base_url() ?>/assets/images/icons/lifestyle.webp" alt="Lifestyle">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Lifestyle</h5>
                 </div>
@@ -326,7 +328,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/productivity.png" alt="Productivity">
+                        <img src="<?= base_url() ?>/assets/images/icons/dating.webp" alt="Productivity">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Productivity</h5>
                 </div>
@@ -334,7 +336,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/beauty.png" alt="Beauty">
+                        <img src="<?= base_url() ?>/assets/images/icons/beauty.webp" alt="Beauty">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Beauty</h5>
                 </div>
@@ -342,7 +344,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/communication.png" alt="Communication">
+                        <img src="<?= base_url() ?>/assets/images/icons/communication.webp" alt="Communication">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Communication</h5>
                 </div>

@@ -101,7 +101,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/ecommerce-website.png" alt="Retail & E-commerce">
+                        <img src="<?= base_url() ?>/assets/images/icons/ecommerce-website.webp" alt="Retail & E-commerce">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Retail & E-commerce</h5>
                 </div>
@@ -109,7 +109,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/education.png" alt="Education">
+                        <img src="<?= base_url() ?>/assets/images/icons/education.webp" alt="Education">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Education</h5>
                 </div>
@@ -117,7 +117,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/travel.png" alt="travel">
+                        <img src="<?= base_url() ?>/assets/images/icons/travel.webp" alt="travel">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Travel & Tourism</h5>
                 </div>
@@ -125,7 +125,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/home.png" alt="Real Estate">
+                        <img src="<?= base_url() ?>/assets/images/icons/home.webp" alt="Real Estate">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Real Estate</h5>
                 </div>
@@ -133,7 +133,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/beauty.png" alt="Beauty">
+                        <img src="<?= base_url() ?>/assets/images/icons/beauty.webp" alt="Beauty">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Beauty</h5>
                 </div>
@@ -141,7 +141,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/communication.png" alt="Communication">
+                        <img src="<?= base_url() ?>/assets/images/icons/communication.webp" alt="Communication">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Communication</h5>
                 </div>
@@ -149,7 +149,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/food_delivery.png" alt="Food Delivery">
+                        <img src="<?= base_url() ?>/assets/images/icons/food_delivery.webp" alt="Food Delivery">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Food Delivery & Ordering</h5>
                 </div>
@@ -157,7 +157,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/booking_appointment.png" alt="Booking & Appointment">
+                        <img src="<?= base_url() ?>/assets/images/icons/booking_appointment.webp" alt="Booking & Appointment">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Booking & Appointment</h5>
                 </div>
@@ -165,7 +165,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/beauty.png" alt="Niche & Specialized">
+                        <img src="<?= base_url() ?>/assets/images/icons/beauty.webp" alt="Niche & Specialized">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Niche & Specialized</h5>
                 </div>
@@ -173,7 +173,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/caller_image.png" alt="Caller Image Identifier">
+                        <img src="<?= base_url() ?>/assets/images/icons/caller_image.webp" alt="Caller Image Identifier">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Caller Image Identifier</h5>
                 </div>
@@ -181,7 +181,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/brand_identifier.png" alt="Brand Identifier">
+                        <img src="<?= base_url() ?>/assets/images/icons/brand_identifier.webp" alt="Brand Identifier">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Brand Identifier</h5>
                 </div>
@@ -189,7 +189,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/virtual_time_capsule.png" alt="Virtual Time Capsule">
+                        <img src="<?= base_url() ?>/assets/images/icons/virtual_time_capsule.webp" alt="Virtual Time Capsule">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Virtual Time Capsule</h5>
                 </div>
@@ -197,7 +197,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/story_writing.png" alt="Story Writing & Sharing">
+                        <img src="<?= base_url() ?>/assets/images/icons/story_writing.webp" alt="Story Writing & Sharing">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Story Writing & Sharing</h5>
                 </div>
@@ -205,7 +205,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/party_planning_invitation.png" alt="Party Planning & Invitation">
+                        <img src="<?= base_url() ?>/assets/images/icons/party_planning_invitation.webp" alt="Party Planning & Invitation">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Party Planning & Invitation</h5>
                 </div>
@@ -213,7 +213,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/event_management.png" alt="Event Management">
+                        <img src="<?= base_url() ?>/assets/images/icons/event_management.webp" alt="Event Management">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Event Management</h5>
                 </div>
@@ -221,7 +221,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/dating.png" alt="Dating">
+                        <img src="<?= base_url() ?>/assets/images/icons/dating.webp" alt="Dating">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Dating</h5>
                 </div>

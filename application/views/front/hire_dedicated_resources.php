@@ -350,7 +350,7 @@
                             <div class="form-group">
                                 <label class="form-label" for="">
                                     <span>
-                                        <img src="<?=base_url()?>assets/images/icons/skill_requirement.png" alt="skills">
+                                        <img src="<?=base_url()?>assets/images/icons/skill_requirement.webp" alt="skills">
                                     </span>
                                     Required Skills
                                 </label>
@@ -363,7 +363,7 @@
                             <div class="form-group">
                                 <label class="form-label" for="lname">
                                     <span>
-                                        <img src="<?=base_url()?>assets/images/icons/code.png" alt="Technology">
+                                        <img src="<?=base_url()?>assets/images/icons/code.webp" alt="Technology">
                                     </span>
                                     Technology
                                 </label>
@@ -376,7 +376,7 @@
                             <div class="form-group">
                                 <label class="form-label" for="">
                                     <span>
-                                        <img src="<?=base_url()?>assets/images/icons/experience_level.png" alt="Experience Level">
+                                        <img src="<?=base_url()?>assets/images/icons/experience_level.webp" alt="Experience Level">
                                     </span>
                                     Experience Level
                                 </label>
@@ -400,7 +400,7 @@
                             <div class="form-group">
                                 <label class="form-label" for="">
                                     <span>
-                                        <img src="<?=base_url()?>assets/images/icons/clock.png" alt="Time Zone">
+                                        <img src="<?=base_url()?>assets/images/icons/clock.webp" alt="Time Zone">
                                     </span>
                                     Time Zone
                                 </label>
@@ -425,7 +425,7 @@
                             <div class="form-group">
                                 <label class="form-label" for="">
                                     <span>
-                                        <img src="<?=base_url()?>assets/images/icons/time_attack.png" alt="Engagement Model">
+                                        <img src="<?=base_url()?>assets/images/icons/time_attack.webp" alt="Engagement Model">
                                     </span>
                                     Engagement Model
                                 </label>
@@ -446,7 +446,7 @@
                             <div class="form-group">
                                 <label class="form-label" for="">
                                     <span>
-                                        <img src="<?=base_url()?>assets/images/icons/office_chair.png" alt="Premises">
+                                        <img src="<?=base_url()?>assets/images/icons/office_chair.webp" alt="Premises">
                                     </span>
                                     Select Premises
                                 </label>
@@ -469,7 +469,7 @@
                                     <div class="form-group">
                                         <label class="form-label" for="">
                                             <span>
-                                                <img src="<?=base_url()?>assets/images/icons/contract_period.png" alt="Premises">
+                                                <img src="<?=base_url()?>assets/images/icons/contract_period.webp" alt="Premises">
                                             </span>
                                             Contract Period
                                         </label>
@@ -484,7 +484,7 @@
                                     <div class="form-group">
                                         <label class="form-label" for="">
                                             <span>
-                                                <img src="<?=base_url()?>assets/images/icons/currency.png" alt="Premises">
+                                                <img src="<?=base_url()?>assets/images/icons/currency.webp" alt="Premises">
                                             </span>
                                             Currency
                                         </label>
@@ -529,10 +529,10 @@
                                     <td scope="col" class="fs-14 fw-500">$15/Hr</td>
                                     <td scope="col">
                                         <button class="">
-                                            <img width="20" src="<?=base_url()?>assets/images/icons/edit.png" alt="edit">
+                                            <img width="20" src="<?=base_url()?>assets/images/icons/edit.webp" alt="edit">
                                         </button>
                                         <button class="">
-                                            <img width="20" src="<?=base_url()?>assets/images/icons/delete.png" alt="delete">
+                                            <img width="20" src="<?=base_url()?>assets/images/icons/delete.webp" alt="delete">
                                         </button>
                                     </td>
                                 </tr>
@@ -551,7 +551,7 @@
                                 <div class="form-group">
                                     <label class="form-label" for="">
                                         <span>
-                                            <img src="<?=base_url()?>assets/images/icons/freebies.png" alt="freebies">
+                                            <img src="<?=base_url()?>assets/images/icons/freebies.webp" alt="freebies">
                                         </span>
                                         Freebies
                                     </label>

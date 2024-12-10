@@ -21,9 +21,13 @@
 
   .sidebar,
   .vertical_tab_nav {
+    width: max-content;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-y: auto;
     .nav-item {
       /* margin-bottom: 2rem; */
-      max-width: 140px;
+      /* max-width: 140px; */
       width: 100%;
   
       .nav-link {
@@ -110,7 +114,7 @@
   }
   .webo_testimonials {
     ul.nav .nav-item .nav-link {
-      width: 140px;
+      /* width: 140px; */
       height: 60px;
       img {
           max-width: 80px;
@@ -138,7 +142,7 @@
   }
   .webo_testimonials {
     ul.nav .nav-item .nav-link {
-      width: 135px;
+      /* width: 135px; */
       height: 50px;
       img {
           max-width: 65px;

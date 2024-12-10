@@ -52,29 +52,31 @@
                     <div class="row justify-content-between align-items-center g-4 mt-4">
                         <div class="col-lg-4 col-md-12 col-12" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
                             <h3 class="fs-24 fw-600 mb-3">
-                                <span><img width="50" src="<?= base_url() ?>assets/images/icons/android_card.png" alt="Android"></span> Android
+                                <span><img width="50" src="<?= base_url() ?>assets/images/icons/android_card.webp" alt="Android"></span> Android
                             </h3>
-                            <ul class="nav nav-flex justify-content-center nav-pills vertical_tab_nav gap-2" id="v-pills_native_android-tab" role="tablist" aria-orientation="vertical">
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="v-pills_native_android-SDK-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_android-SDK" type="button" role="tab" aria-controls="v-pills_native_android-SDK" aria-selected="true">Software Development Kit</button>
-                                </li>
-                                
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="v-pills_native_android-AADT-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_android-AADT" type="button" role="tab" aria-controls="v-pills_native_android-AADT" aria-selected="true">Android App Designing Tools</button>
-                                </li>
-                                
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="v-pills_native_android-MAAPL-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_android-MAAPL" type="button" role="tab" aria-controls="v-pills_native_android-MAAPL" aria-selected="true">Major Android App Programming (development) Languages</button>
-                                </li>
-                                
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="v-pills_native_android-MAATT-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_android-MAATT" type="button" role="tab" aria-controls="v-pills_native_android-MAATT" aria-selected="true">Major Android App Testing Tools</button>
-                                </li>
-                                
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="v-pills_native_android-emulator-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_android-emulator" type="button" role="tab" aria-controls="v-pills_native_android-emulator" aria-selected="true">Emulator</button>
-                                </li>
-                            </ul>
+                            <div class="overflow_x_auto">
+                                <ul class="scroll_horizontal_m_screen mx-auto nav nav-flex justify-content-center nav-pills vertical_tab_nav gap-2" id="v-pills_native_android-tab" role="tablist" aria-orientation="vertical">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="v-pills_native_android-SDK-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_android-SDK" type="button" role="tab" aria-controls="v-pills_native_android-SDK" aria-selected="true">Software Development Kit</button>
+                                    </li>
+                                    
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="v-pills_native_android-AADT-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_android-AADT" type="button" role="tab" aria-controls="v-pills_native_android-AADT" aria-selected="true">Android App Designing Tools</button>
+                                    </li>
+                                    
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="v-pills_native_android-MAAPL-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_android-MAAPL" type="button" role="tab" aria-controls="v-pills_native_android-MAAPL" aria-selected="true">Major Android App Programming (development) Languages</button>
+                                    </li>
+                                    
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="v-pills_native_android-MAATT-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_android-MAATT" type="button" role="tab" aria-controls="v-pills_native_android-MAATT" aria-selected="true">Major Android App Testing Tools</button>
+                                    </li>
+                                    
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="v-pills_native_android-emulator-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_android-emulator" type="button" role="tab" aria-controls="v-pills_native_android-emulator" aria-selected="true">Emulator</button>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
 
                         <div class="col-lg-7 col-md-12 col-12" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
@@ -211,39 +213,41 @@
 
                         <div class="col-lg-4" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
                             <h3 class="fs-24 fw-600 mb-3">
-                                <span><img width="50" src="<?= base_url() ?>assets/images/icons/ios_card.png" alt="IOS"></span> IOS
+                                <span><img width="50" src="<?= base_url() ?>assets/images/icons/ios_card.webp" alt="IOS"></span> IOS
                             </h3>
-                            <ul class="nav nav-flex justify-content-center nav-pills vertical_tab_nav gap-2" id="v-pills_native_IOS-tab" role="tablist" aria-orientation="vertical">
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="v-pills_native_IOS-SDK-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_IOS-SDK" type="button" role="tab" aria-controls="v-pills_native_IOS-SDK" aria-selected="true">Software Development Kit</button>
-                                </li>
-                                
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="v-pills_native_IOS-AADT-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_IOS-AADT" type="button" role="tab" aria-controls="v-pills_native_IOS-AADT" aria-selected="true">IOS App Designing Tools</button>
-                                </li>
-                                
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="v-pills_native_IOS-MAAPL-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_IOS-MAAPL" type="button" role="tab" aria-controls="v-pills_native_IOS-MAAPL" aria-selected="true">Programming languages</button>
-                                </li>
-                                
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="v-pills_native_IOS-MAATT-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_IOS-MAATT" type="button" role="tab" aria-controls="v-pills_native_IOS-MAATT" aria-selected="true">Toolkit</button>
-                                </li>
-                                
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="v-pills_native_IOS-emulator-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_IOS-emulator" type="button" role="tab" aria-controls="v-pills_native_IOS-emulator" aria-selected="true">Major IOS App Testing Tools</button>
-                                </li>
+                            <div class="overflow_x_auto">
+                                <ul class="scroll_horizontal_m_screen mx-auto nav nav-flex justify-content-center nav-pills vertical_tab_nav gap-2" id="v-pills_native_IOS-tab" role="tablist" aria-orientation="vertical">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="v-pills_native_IOS-SDK-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_IOS-SDK" type="button" role="tab" aria-controls="v-pills_native_IOS-SDK" aria-selected="true">Software Development Kit</button>
+                                    </li>
+                                    
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="v-pills_native_IOS-AADT-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_IOS-AADT" type="button" role="tab" aria-controls="v-pills_native_IOS-AADT" aria-selected="true">IOS App Designing Tools</button>
+                                    </li>
+                                    
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="v-pills_native_IOS-MAAPL-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_IOS-MAAPL" type="button" role="tab" aria-controls="v-pills_native_IOS-MAAPL" aria-selected="true">Programming languages</button>
+                                    </li>
+                                    
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="v-pills_native_IOS-MAATT-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_IOS-MAATT" type="button" role="tab" aria-controls="v-pills_native_IOS-MAATT" aria-selected="true">Toolkit</button>
+                                    </li>
+                                    
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="v-pills_native_IOS-emulator-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_IOS-emulator" type="button" role="tab" aria-controls="v-pills_native_IOS-emulator" aria-selected="true">Major IOS App Testing Tools</button>
+                                    </li>
 
-                                
-                                
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="v-pills_native_IOS-CCP-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_IOS-CCP" type="button" role="tab" aria-controls="v-pills_native_IOS-CCP" aria-selected="true">Cloud Computing Platforms</button>
-                                </li>
+                                    
+                                    
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="v-pills_native_IOS-CCP-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_IOS-CCP" type="button" role="tab" aria-controls="v-pills_native_IOS-CCP" aria-selected="true">Cloud Computing Platforms</button>
+                                    </li>
 
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="v-pills_native_IOS-third_party_APIs-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_IOS-third_party_APIs" type="button" role="tab" aria-controls="v-pills_native_IOS-third_party_APIs" aria-selected="true">Third-Party APIs</button>
-                                </li>
-                            </ul>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="v-pills_native_IOS-third_party_APIs-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_IOS-third_party_APIs" type="button" role="tab" aria-controls="v-pills_native_IOS-third_party_APIs" aria-selected="true">Third-Party APIs</button>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
 

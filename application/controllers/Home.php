@@ -82,5 +82,17 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('front/iot_development');
 	}
+	public function careers()
+	{
+		$this->load->view('front/careers');
+	}
+	public function privacy_policy()
+	{
+		$this->load->view('front/privacy_policy');
+	}
+	public function refund_policy()
+	{
+		$this->load->view('front/refund_policy');
+	}
 }
 

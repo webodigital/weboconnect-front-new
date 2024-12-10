@@ -163,7 +163,7 @@
                 <div class="d-grid">
                     <a href="" class="btn arrow_btn">Contact Us
                         <span class="ms-4">
-                            <img width="30" src="<?= base_url() ?>assets/images/icons/arrow_btn.png" alt="Contact Us">
+                            <img width="30" src="<?= base_url() ?>assets/images/icons/arrow_btn.webp" alt="Contact Us">
                         </span>
                     </a>
                 </div>

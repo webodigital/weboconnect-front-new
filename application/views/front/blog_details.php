@@ -38,7 +38,7 @@
             <div class="col">
               <div class="d-flex align-items-center">
                 <span class="webo_logo">
-                  <img src="<?= base_url() ?>assets/images/thnk_logo.png" alt="logo" />
+                  <img src="<?= base_url() ?>assets/images/thnk_logo.webp" alt="logo" />
                 </span>
                 <div class="ms-3">
                   <h3 class="fs-24 fw-600 m-0">weboconnect</h3>
@@ -189,7 +189,7 @@
                   <div class="col-auto">
                     <div class="user" style="width:50px;">
                       <span>
-                        <img src="<?= base_url() ?>assets/images/icons/user.png" alt="Outsource Project">
+                        <img src="<?= base_url() ?>assets/images/icons/user.webp" alt="Outsource Project">
                       </span>
                     </div>
                   </div>
@@ -220,7 +220,7 @@
                   <div class="col-auto">
                     <div class="user" style="width:50px;">
                       <span>
-                        <img src="<?= base_url() ?>assets/images/icons/user.png" alt="Outsource Project">
+                        <img src="<?= base_url() ?>assets/images/icons/user.webp" alt="Outsource Project">
                       </span>
                     </div>
                   </div>
@@ -251,7 +251,7 @@
                   <div class="col-auto">
                     <div class="user" style="width:50px;">
                       <span>
-                        <img src="<?= base_url() ?>assets/images/icons/user.png" alt="Outsource Project">
+                        <img src="<?= base_url() ?>assets/images/icons/user.webp" alt="Outsource Project">
                       </span>
                     </div>
                   </div>

@@ -17,7 +17,7 @@
                     <div class="col-md-8">
                         <div class="client_words">
                             <span>
-                                <img height="60" src="<?=base_url()?>assets/images/icons/quote_up.png" alt="quotes" />
+                                <img height="60" src="<?=base_url()?>assets/images/icons/quote_up.webp" alt="quotes" />
                             </span>
                             <p class="fs-24 fw-500">Since hiring team from Weboconnect  , we've seen a significant increase in productivity and a reduction in errors. We couldn't be happier with the results.</p>
                         </div>
@@ -36,7 +36,7 @@
                     <div class="col-md-8">
                         <div class="client_words">
                             <span>
-                                <img height="60" src="<?=base_url()?>assets/images/icons/quote_up.png" alt="quotes" />
+                                <img height="60" src="<?=base_url()?>assets/images/icons/quote_up.webp" alt="quotes" />
                             </span>
                             <p class="fs-24 fw-500">Since hiring team from Weboconnect  , we've seen a significant increase in productivity and a reduction in errors. We couldn't be happier with the results.</p>
                         </div>
@@ -55,7 +55,7 @@
                     <div class="col-md-8">
                         <div class="client_words">
                             <span>
-                                <img height="60" src="<?=base_url()?>assets/images/icons/quote_up.png" alt="quotes" />
+                                <img height="60" src="<?=base_url()?>assets/images/icons/quote_up.webp" alt="quotes" />
                             </span>
                             <p class="fs-24 fw-500">Since hiring team from Weboconnect  , we've seen a significant increase in productivity and a reduction in errors. We couldn't be happier with the results.</p>
                         </div>

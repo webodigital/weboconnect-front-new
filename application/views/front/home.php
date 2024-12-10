@@ -54,10 +54,74 @@
         </div>                          
       </div>  
        <div class="col col-xl-4">
-        <div class="row g-4 align-items-start justify-content-center">
+        <div class="row g-3 align-items-start justify-content-center">
           
-          <?php $this->load->view('front/common/all_reviews_ratings') ?>
+          <div class="col-lg-6 col-auto text-center animate__animated animate__bounceInDown">
+            <div class="google_ratings_card">
+              <a href="https://www.goodfirms.co/company/weboconnect-technlogies-pvt-ltd">
+                <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm.webp" alt="goodfirm" title="goodfirm">
+                <div class="d-flex flex-wrap">
+                  <span>Excellent</span>
+                  <span>.</span>
+                  <span>5/5</span>
+                  <span>.</span>
+                  <span>36 REVIEWS</span>
+                </div>
+              </a>
+            </div>
+          </div>
 
+          <div class="col-lg-6 col-auto text-center animate__animated animate__bounceInDown">
+            <div class="google_ratings_card">
+              <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/google_ratings.webp" alt="google ratings" title="google ratings">
+              <div class="d-flex flex-wrap">
+                <span>4.7/5</span>
+                <span>.</span>
+                <span>26 Google reviews</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-auto text-center animate__animated animate__bounceInDown">
+            <div class="google_ratings_card">
+              <a href="https://clutch.co/profile/weboconnect-technologies?utm_source=widget&amp;utm_medium=1&amp;utm_campaign=widget&amp;utm_content=num_reviews&amp;utm_term=localhost#reviews">
+                <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/clutch.webp" alt="clutch" title="clutch">
+                <div class="d-flex flex-wrap">
+                  <span>5/5</span>
+                  <span>12 REVIEWS</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-auto text-center animate__animated animate__bounceInDown">
+            <div class="google_ratings_card">
+              <a target="_blank" href="https://www.trustpilot.com/review/weboconnect.com">
+                <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot.webp" alt="trustpilot" title="trustpilot">
+                <div class="d-flex flex-wrap">
+                  <span>4.6/5</span>
+                  <span>.</span>
+                  <span>23 Reviews</span>
+                  <span>.</span>
+                  <span>Excellent</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+
+          <div class="col-lg-6 col-auto text-center animate__animated animate__bounceInDown" data-wow-duration="2s" data-wow-delay="5s">
+            <div class="google_ratings_card">
+              <a target="_blank" href="https://www.trustpilot.com/review/weboconnect.com">
+                <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/design_rush.webp" alt="trustpilot" title="trustpilot">
+                <div class="d-flex flex-wrap">
+                  <span>4.8</span>
+                  <span>.</span>
+                  <span>(8 Reviews)</span>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
                    
@@ -122,39 +186,41 @@
 <section class="homeSection3 section_padding">
   <div class="container">
     <div class="row justify-content-between align-items-center g-4">
-      <div class="col-lg-4 col-md-12 col-12" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
-        <ul class="nav nav-flex justify-content-center nav-pills sidebar gap-2" id="myTab" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="saas-tab1" data-bs-toggle="tab" data-bs-target="#saas1" type="button" role="tab" aria-controls="saas1" aria-selected="true">
-              <i class="fas fa-cloud"></i> SaaS Development
-            </button>
-          </li>
-        
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="web-mobile-tab" data-bs-toggle="tab" data-bs-target="#web-mobile1" type="button" role="tab" aria-controls="web-mobile1" aria-selected="false">
-              <i class="fas fa-laptop-code"></i> Web & Mobile Application Development
-            </button>
-          </li>
-        
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="healthcare-tab" data-bs-toggle="tab" data-bs-target="#healthcare1" type="button" role="tab" aria-controls="healthcare1" aria-selected="false">
-              <i class="fas fa-user-md"></i> Healthcare Staffing App Development
-            </button>
-          </li>
-        
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="maintenance-tab" data-bs-toggle="tab" data-bs-target="#maintenance1" type="button" role="tab" aria-controls="maintenance1" aria-selected="false">
-              <i class="fas fa-tools"></i> Maintenance & Support
-            </button>
-          </li>
+      <div class="col-lg-4 col-md-12 col-12">
+        <div class="overflow_x_auto">
+          <ul class="nav nav-flex justify-content-center nav-pills sidebar gap-2" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="saas-tab1" data-bs-toggle="tab" data-bs-target="#saas1" type="button" role="tab" aria-controls="saas1" aria-selected="true">
+                <i class="fas fa-cloud"></i> SaaS Development
+              </button>
+            </li>
           
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="hire-tab1" data-bs-toggle="tab" data-bs-target="#hire1" type="button" role="tab" aria-controls="hire" aria-selected="false">
-              <i class="fas fa-users"></i> Hire Dedicated Resources
-            </button>
-          </li>
-        
-        </ul>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="web-mobile-tab" data-bs-toggle="tab" data-bs-target="#web-mobile1" type="button" role="tab" aria-controls="web-mobile1" aria-selected="false">
+                <i class="fas fa-laptop-code"></i> Web & Mobile Application Development
+              </button>
+            </li>
+          
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="healthcare-tab" data-bs-toggle="tab" data-bs-target="#healthcare1" type="button" role="tab" aria-controls="healthcare1" aria-selected="false">
+                <i class="fas fa-user-md"></i> Healthcare Staffing App Development
+              </button>
+            </li>
+          
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="maintenance-tab" data-bs-toggle="tab" data-bs-target="#maintenance1" type="button" role="tab" aria-controls="maintenance1" aria-selected="false">
+                <i class="fas fa-tools"></i> Maintenance & Support
+              </button>
+            </li>
+            
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="hire-tab1" data-bs-toggle="tab" data-bs-target="#hire1" type="button" role="tab" aria-controls="hire" aria-selected="false">
+                <i class="fas fa-users"></i> Hire Dedicated Resources
+              </button>
+            </li>
+          
+          </ul>
+        </div>
       </div>
 
 
@@ -773,7 +839,7 @@
         <!-- Healthcare Card -->
         <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
             <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/dr.png" alt="Healthcare Icon">
+                <img src="<?=base_url()?>assets/images/icons/dr.webp" alt="Healthcare Icon">
                 <p>Healthcare</p>
             </div>
         </div>
@@ -781,7 +847,7 @@
         <!-- Finance Card -->
         <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
             <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/business.png" alt="Finance Icon">
+                <img src="<?=base_url()?>assets/images/icons/business.webp" alt="Finance Icon">
                 <p>Finance</p>
             </div>
         </div>
@@ -789,7 +855,7 @@
         <!-- Retail & E-commerce Card -->
         <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
             <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/ecommerce-website.png" alt="Retail & E-commerce Icon">
+                <img src="<?=base_url()?>assets/images/icons/ecommerce-website.webp" alt="Retail & E-commerce Icon">
                 <p>Retail & E-commerce</p>
             </div>
         </div>
@@ -797,7 +863,7 @@
         <!-- Education Card -->
         <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
             <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/education.png" alt="Education Icon">
+                <img src="<?=base_url()?>assets/images/icons/education.webp" alt="Education Icon">
                 <p>Education</p>
             </div>
         </div>
@@ -805,7 +871,7 @@
         <!-- Travel & Tourism Card -->
         <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
             <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/travel.png" alt="Travel & Tourism Icon">
+                <img src="<?=base_url()?>assets/images/icons/travel.webp" alt="Travel & Tourism Icon">
                 <p>Travel & Tourism</p>
             </div>
         </div>
@@ -813,7 +879,7 @@
         <!-- Real Estate Card -->
         <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
             <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/home.png" alt="Real Estate Icon">
+                <img src="<?=base_url()?>assets/images/icons/home.webp" alt="Real Estate Icon">
                 <p>Real Estate</p>
             </div>
         </div>
@@ -821,7 +887,7 @@
         <!-- Media & Entertainment Card -->
         <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
             <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/avatar.png" alt="Media & Entertainment Icon">
+                <img src="<?=base_url()?>assets/images/icons/avatar.webp" alt="Media & Entertainment Icon">
                 <p>Media & Entertainment</p>
             </div>
         </div>
@@ -829,14 +895,14 @@
         <!-- Automotive Card -->
         <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
             <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/car_svg.png" alt="Automotive Icon">
+                <img src="<?=base_url()?>assets/images/icons/car_svg.webp" alt="Automotive Icon">
                 <p>Automotive</p>
             </div>
         </div>
         
         <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
             <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/lifestyle.png" alt="Lifestyle">
+                <img src="<?=base_url()?>assets/images/icons/lifestyle.webp" alt="Lifestyle">
                 <p>Lifestyle</p>
             </div>
         </div>
@@ -844,7 +910,7 @@
         <!-- Real Estate Card -->
         <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
             <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/productivity.png" alt="Productivity">
+                <img src="<?=base_url()?>assets/images/icons/dating.webp" alt="Productivity">
                 <p>Productivity</p>
             </div>
         </div>
@@ -852,7 +918,7 @@
         <!-- Media & Entertainment Card -->
         <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
             <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/beauty.png" alt="Beauty Icon">
+                <img src="<?=base_url()?>assets/images/icons/beauty.webp" alt="Beauty Icon">
                 <p>Beauty</p>
             </div>
         </div>
@@ -860,7 +926,7 @@
         <!-- Automotive Card -->
         <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
             <div class="industry-card">
-            <img src="<?= base_url() ?>/assets/images/icons/communication.png" alt="Communication">
+            <img src="<?= base_url() ?>/assets/images/icons/communication.webp" alt="Communication">
                 <p>Communication</p>
             </div>
         </div>

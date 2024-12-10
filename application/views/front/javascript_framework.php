@@ -37,32 +37,34 @@
     <div class="row justify-content-between align-items-center g-4">
       <div class="col-lg-4 col-md-12 col-12" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
         <h3 class="fs-24 fw-600 mb-3">Key Java Script Technology Competence</h3>
-        <ul class="nav nav-flex justify-content-center nav-pills vertical_tab_nav gap-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="v-pills-frameworks-tab" data-bs-toggle="pill" data-bs-target="#v-pills-frameworks" type="button" role="tab" aria-controls="v-pills-frameworks" aria-selected="true">Frameworks</button>
-          </li>
-        
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="v-pills-CMS-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CMS" type="button" role="tab" aria-controls="v-pills-CMS" aria-selected="true">Content Management Systems</button>
-          </li>
-        
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="v-pills-data-management-tab" data-bs-toggle="pill" data-bs-target="#v-pills-data-management" type="button" role="tab" aria-controls="v-pills-data-management" aria-selected="true">Data Management</button>
-          </li>
-        
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="v-pills-queue-tab" data-bs-toggle="pill" data-bs-target="#v-pills-queue" type="button" role="tab" aria-controls="v-pills-queue" aria-selected="true">Queue</button>
-          </li>
-          
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="v-pills-CCP-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CCP" type="button" role="tab" aria-controls="v-pills-CCP" aria-selected="true">Cloud Computing Platforms</button>
-          </li>
-          
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="v-pills-third_party_APIs-tab" data-bs-toggle="pill" data-bs-target="#v-pills-third_party_APIs" type="button" role="tab" aria-controls="v-pills-third_party_APIs" aria-selected="true">Third-Party APIs</button>
-          </li>
-        
-        </ul>
+        <div class="overflow_x_auto">
+            <ul class="scroll_horizontal_m_screen mx-auto nav nav-flex justify-content-center nav-pills vertical_tab_nav gap-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="v-pills-frameworks-tab" data-bs-toggle="pill" data-bs-target="#v-pills-frameworks" type="button" role="tab" aria-controls="v-pills-frameworks" aria-selected="true">Frameworks</button>
+            </li>
+            
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="v-pills-CMS-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CMS" type="button" role="tab" aria-controls="v-pills-CMS" aria-selected="true">Content Management Systems</button>
+            </li>
+            
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="v-pills-data-management-tab" data-bs-toggle="pill" data-bs-target="#v-pills-data-management" type="button" role="tab" aria-controls="v-pills-data-management" aria-selected="true">Data Management</button>
+            </li>
+            
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="v-pills-queue-tab" data-bs-toggle="pill" data-bs-target="#v-pills-queue" type="button" role="tab" aria-controls="v-pills-queue" aria-selected="true">Queue</button>
+            </li>
+            
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="v-pills-CCP-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CCP" type="button" role="tab" aria-controls="v-pills-CCP" aria-selected="true">Cloud Computing Platforms</button>
+            </li>
+            
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="v-pills-third_party_APIs-tab" data-bs-toggle="pill" data-bs-target="#v-pills-third_party_APIs" type="button" role="tab" aria-controls="v-pills-third_party_APIs" aria-selected="true">Third-Party APIs</button>
+            </li>
+            
+            </ul>
+        </div>
       </div>
 
       

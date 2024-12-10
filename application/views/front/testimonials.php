@@ -30,33 +30,35 @@
 
             <div class="row mt-5">
                 <div class="col-12 webo_testimonials">
-                    <ul class="nav nav-pills justify-content-center gap-4 mt-4" id="pills-tab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="pills-weboconnect-tab" data-bs-toggle="pill" data-bs-target="#pills-weboconnect" type="button" role="tab" aria-controls="pills-weboconnect" aria-selected="true">
-                                <img src="<?=base_url()?>assets/images/weboconnect_assets/webo_logo.png" alt="weboconnect testimonials">
-                            </button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-goodfirm-tab" data-bs-toggle="pill" data-bs-target="#pills-goodfirm" type="button" role="tab" aria-controls="pills-goodfirm" aria-selected="false">
-                                <img src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_logo.png" alt="weboconnect testimonials">
-                            </button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-trustpilot-tab" data-bs-toggle="pill" data-bs-target="#pills-trustpilot" type="button" role="tab" aria-controls="pills-trustpilot" aria-selected="false">
-                                <img src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_logo.png" alt="weboconnect testimonials">
-                            </button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-clutch-tab" data-bs-toggle="pill" data-bs-target="#pills-clutch" type="button" role="tab" aria-controls="pills-clutch" aria-selected="false">
-                                <img src="<?=base_url()?>assets/images/weboconnect_assets/clutch_logo.png" alt="weboconnect testimonials">
-                            </button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-google-tab" data-bs-toggle="pill" data-bs-target="#pills-google" type="button" role="tab" aria-controls="pills-google" aria-selected="false">
-                                <img src="<?=base_url()?>assets/images/weboconnect_assets/google_logo.png" alt="weboconnect testimonials">
-                            </button>
-                        </li>
-                    </ul>
+                    <div class="overflow_x_auto">
+                        <ul class="scroll_horizontal_m_screen mx-auto nav nav-pills justify-content-center gap-4 mt-4" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-weboconnect-tab" data-bs-toggle="pill" data-bs-target="#pills-weboconnect" type="button" role="tab" aria-controls="pills-weboconnect" aria-selected="true">
+                                    <img src="<?=base_url()?>assets/images/weboconnect_assets/webo_logo.png" alt="weboconnect testimonials">
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-goodfirm-tab" data-bs-toggle="pill" data-bs-target="#pills-goodfirm" type="button" role="tab" aria-controls="pills-goodfirm" aria-selected="false">
+                                    <img src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_logo.png" alt="weboconnect testimonials">
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-trustpilot-tab" data-bs-toggle="pill" data-bs-target="#pills-trustpilot" type="button" role="tab" aria-controls="pills-trustpilot" aria-selected="false">
+                                    <img src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_logo.png" alt="weboconnect testimonials">
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-clutch-tab" data-bs-toggle="pill" data-bs-target="#pills-clutch" type="button" role="tab" aria-controls="pills-clutch" aria-selected="false">
+                                    <img src="<?=base_url()?>assets/images/weboconnect_assets/clutch_logo.png" alt="weboconnect testimonials">
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-google-tab" data-bs-toggle="pill" data-bs-target="#pills-google" type="button" role="tab" aria-controls="pills-google" aria-selected="false">
+                                    <img src="<?=base_url()?>assets/images/weboconnect_assets/google_logo.png" alt="weboconnect testimonials">
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
                     <div class="tab-content" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-weboconnect" role="tabpanel" aria-labelledby="pills-weboconnect-tab">
 
@@ -138,11 +140,11 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>During the project flow we were very pleased by the work of Weboconnect’s business analysts and developers, who demonstrated high level of skills and competence. They made many significant contributions to our products both in terms of functionality and quality.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -175,7 +177,7 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>Weboconnect is a highly skilled and uniquely capable firm
                                                 with multitudes of talent on-board. We have collaborated
@@ -184,7 +186,7 @@
                                                 are working to expand our collaboration with them and
                                                 highly recommend them to others as well.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -213,7 +215,7 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>Weboconnect designed and developed a native iOS app
                                                 that offers a Step by Step Salah meant for instructing
@@ -225,7 +227,7 @@
                                                 communication skills and mobile competences of both the
                                                 management team and developers.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -254,7 +256,7 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>Weboconnect's blockchain experience proved to be quite
                                                 useful. They contributed to the general system architecture,
@@ -266,7 +268,7 @@
                                                 made them a valuable partner, while their niche expertise
                                                 contributed to a superior product.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -295,7 +297,7 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>Weboconnect is one of the rare providers who can
                                                 transform a pure idea that started on a napkin into a
@@ -307,7 +309,7 @@
                                                 recommend Weboconnect as a reliable adviser and
                                                 executor for all your software initiatives.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -336,7 +338,7 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>Weboconnect team successfully perfomed business
                                                 analysis in Document Management system notably
@@ -347,7 +349,7 @@
                                                 domain experience (in this case nuclear filed) so that the
                                                 developers and testers can correctly interpret the guideline.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -376,14 +378,14 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>From start to finish, their commitment to understanding
                                                 our unique needs and delivering a tailored solution was
                                                 exceptional. We've achieved unprecedented growth thanks
                                                 to their innovative software.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -416,14 +418,14 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>The custom software solution they developed has
                                                 streamlined our operations beyond our expectations. Their
                                                 team's technical expertise and collaborative approach
                                                 made working with them a truly rewarding experience.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -452,14 +454,14 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>The custom software solution they developed has
                                                 streamlined our operations beyond our expectations. Their
                                                 team's technical expertise and collaborative approach
                                                 made working with them a truly rewarding experience.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -488,13 +490,13 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>Amazing team to work with! I have collaborate with them
                                                 on multiple projects and we continue to engage for all our
                                                 Web and Mobile apps requirements.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -523,12 +525,12 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>All discussed and required elements were delivered
                                                 satisfactorily... They have qualified experts for every job.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -557,12 +559,12 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>We would definitely recommend Weboconnect as skilled
                                                 and trustworthy consulting and development partner.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -591,14 +593,14 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>I’m so impressed with Weboconnect's work that I’m
                                                 continuing to work with them on further enhancements to
                                                 the application, and plan re-engage them on other separate
                                                 projects as well</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -627,14 +629,14 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>WebOConnect's professionalism, transparency, and
                                                 dedication to quality are second to none. The software they
                                                 built for us has revolutionized our processes and given us a
                                                 significant competitive advantage.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -663,14 +665,14 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>As a healthcare provider, we needed a robust solution that
                                                 could enhance patient care while optimizing our workflows.
                                                 Their deep industry knowledge and cutting-edge software
                                                 have exceeded our expectations.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -699,14 +701,14 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>What impressed us most was their collaborative approach
                                                 and willingness to go the extra mile. The software they
                                                 developed has streamlined our operations and boosted our
                                                 bottom line.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -735,13 +737,13 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>Their passion for innovation and ability to deliver future-
                                                 proof solutions have been invaluable assets. We now have
                                                 a competitive edge thanks to their cutting-edge software.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -770,13 +772,13 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>The custom software they developed has streamlined our
                                                 operations and helped us achieve unprecedented growth
                                                 and efficiency, exceeding our expectations.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -805,14 +807,14 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>From start to finish, their customer service and attention to
                                                 detail were truly exceptional. The software they built has
                                                 transformed our business and exceeded our wildest
                                                 expectations.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -841,14 +843,14 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>Their ability to translate our vision into a custom software
                                                 solution has been game-changing for our business. We've
                                                 achieved operational efficiencies and cost savings that have
                                                 improved our bottom line.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -877,14 +879,14 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>WebOConnect's deep understanding of the retail industry
                                                 and e-commerce trends allowed them to develop a robust
                                                 platform that has significantly boosted our online sales and
                                                 customer satisfaction</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -913,14 +915,14 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>Their ability to translate our vision into a custom software
                                                 solution has been game-changing for our business. We've
                                                 achieved operational efficiencies we never thought
                                                 possible.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -949,14 +951,14 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>Transparent communication and timely delivery are just a
                                                 few of the qualities that make them stand out. The software
                                                 they developed has transformed our operations and given
                                                 us a competitive advantage.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -985,14 +987,14 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>WebOConnect's expertise in the insurance industry and
                                                 commitment to quality have been instrumental in
                                                 developing a solution that has streamlined our claims
                                                 processing and improved customer satisfaction.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -1021,13 +1023,13 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>Not only are they technically brilliant, but their collaborative
                                                 and responsive approach ensured our project's success
                                                 every step of the way</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -1056,13 +1058,13 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>The custom software they developed has streamlined our
                                                 operations and helped us achieve unprecedented efficiency
                                                 and cost savings, exceeding our expectations.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -1091,13 +1093,13 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>Their deep industry knowledge and ability to deliver
                                                 tailored solutions have given us a cutting-edge software
                                                 that has transformed our business processes.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -1126,13 +1128,13 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>WebOConnect's passion for innovation and commitment to
                                                 staying ahead of the curve have given us a truly future-
                                                 proof solution that has set us apart from our competitors.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -1161,14 +1163,14 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>From start to finish, their commitment to quality and
                                                 attention to detail were truly exceptional. The software they
                                                 developed has transformed our operations and exceeded
                                                 our wildest expectations.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -1197,14 +1199,14 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>Transparent communication and timely delivery are just a
                                                 few of the qualities that make them stand out. The software
                                                 they developed has streamlined our operations and given
                                                 us a competitive advantage.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -1233,14 +1235,14 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>WebOConnect's expertise in the insurance industry and
                                                 commitment to quality have been instrumental in
                                                 developing a robust solution that has streamlined our
                                                 claims processing and improved customer satisfaction.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -1269,14 +1271,14 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>Their deep industry knowledge and ability to deliver
                                                 tailored solutions have given us a cutting-edge software
                                                 that has transformed our business processes and boosted
                                                 our bottom line.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -1305,13 +1307,13 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>The innovative software they developed has given us a
                                                 competitive edge and helped us achieve unprecedented
                                                 growth and market share.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -1340,13 +1342,13 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>The custom software they developed has streamlined our
                                                 operations and helped us achieve unprecedented growth
                                                 and efficiency, exceeding our expectations.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -1375,14 +1377,14 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>WebOConnect's expertise in the healthcare industry and
                                                 commitment to quality have been instrumental in
                                                 developing a robust solution that has improved patient
                                                 care and streamlined our operations.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>
@@ -1411,14 +1413,14 @@
                                             </div>
                                             <div class="client_words">
                                                 <span class="quotes">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes.webp" alt="quotes" title="quotes">
                                                 </span>
                                                 <p>Their deep industry knowledge and ability to deliver
                                                 tailored solutions have given us a cutting-edge software
                                                 that has transformed our business processes and boosted
                                                 our bottom line.</p>
                                                 <span class="quotes quotes_rev">
-                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.png" alt="quotes" title="quotes">
+                                                    <img width="30" src="<?=base_url()?>assets/images/icons/quotes_rev.webp" alt="quotes" title="quotes">
                                                 </span>
                                             </div>
                                         </div>

@@ -62,7 +62,7 @@
                 <div class="col-lg-4">
                     <div class="over_banner_card">
                         <span>
-                            <img height="60" src="<?=base_url()?>assets/images/icons/front_end.png" alt="front end">
+                            <img height="60" src="<?=base_url()?>assets/images/icons/front_end.webp" alt="front end">
                         </span>
                         <div class="text_brand_color1 ms-4">
                             <h5 class="fs-24 fw-600 m-0">Front-end</h5>
@@ -73,7 +73,7 @@
                 <div class="col-lg-4">
                     <div class="over_banner_card">
                         <span>
-                            <img height="60" src="<?=base_url()?>assets/images/icons/back_end.png" alt="front end">
+                            <img height="60" src="<?=base_url()?>assets/images/icons/back_end.webp" alt="front end">
                         </span>
                         <div class="text_brand_color1 ms-4">
                             <h5 class="fs-24 fw-600 m-0">Back-end</h5>
@@ -84,7 +84,7 @@
                 <div class="col-lg-4">
                     <div class="over_banner_card">
                         <span>
-                            <img height="60" src="<?=base_url()?>assets/images/icons/app_type.png" alt="front end">
+                            <img height="60" src="<?=base_url()?>assets/images/icons/app_type.webp" alt="front end">
                         </span>
                         <div class="text_brand_color1 ms-4">
                             <h5 class="fs-24 fw-600 m-0">App Type</h5>
@@ -118,21 +118,21 @@
                             
                             <a href="" class="btn btn_dark_primary btn-rounded px-4">
                                 <span>
-                                    <img height="30" src="<?=base_url()?>assets/images/icons/android.png" alt="android">
+                                    <img height="30" src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                 </span>
                                 <span class="fs-20 fw-500">Android</span>
                             </a>
                             
                             <a href="" class="btn btn_dark_primary btn-rounded px-4">
                                 <span>
-                                    <img height="30" src="<?=base_url()?>assets/images/icons/ios.png" alt="IOS">
+                                    <img height="30" src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                 </span>
                                 <span class="fs-20 fw-500">IOS</span>
                             </a>
                             
                             <a href="" class="btn btn_dark_primary btn-rounded px-4">
                                 <span>
-                                    <img height="30" src="<?=base_url()?>assets/images/icons/web.png" alt="web">
+                                    <img height="30" src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
                                 </span>
                                 <span class="fs-20 fw-500">Web</span>
                             </a>

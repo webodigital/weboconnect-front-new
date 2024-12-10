@@ -89,7 +89,7 @@
                                     <div>
                                       <div class="d-flex align-items-center">
                                           <span class="me-2">
-                                              <img src="<?=base_url()?>assets/images/icons/text.png" width="30" alt="call" title="call">
+                                              <img src="<?=base_url()?>assets/images/icons/text.webp" width="30" alt="call" title="call">
                                           </span>
                                           <h4 class="fs-20 fw-600">Text</h4>
                                       </div>
@@ -105,7 +105,7 @@
                                   <div>
                                     <div class="d-flex align-items-center">
                                         <span class="me-2">
-                                            <img src="<?=base_url()?>assets/images/icons/whatsapp.png " width="30" alt="whatsapp" title="whatsapp">
+                                            <img src="<?=base_url()?>assets/images/icons/whatsapp.webp " width="30" alt="whatsapp" title="whatsapp">
                                         </span>
                                         <h4 class="fs-20 fw-600">Whatsapp</h4>
                                       </div>
@@ -119,7 +119,7 @@
                                   <div>
                                       <div class="d-flex align-items-center">
                                           <span class="me-2">
-                                              <img src="<?=base_url()?>assets/images/icons/telegram.png " width="30" alt="Telegram" title="Telegram">
+                                              <img src="<?=base_url()?>assets/images/icons/telegram.webp " width="30" alt="Telegram" title="Telegram">
                                           </span>
                                           <h4 class="fs-20 fw-600">Telegram</h4>
                                       </div>
@@ -133,7 +133,7 @@
                                     <div>
                                       <div class="d-flex align-items-center">
                                           <span class="me-2">
-                                              <img src="<?=base_url()?>assets/images/icons/email.png " width="30" alt="Email" title="Email">
+                                              <img src="<?=base_url()?>assets/images/icons/email.webp " width="30" alt="Email" title="Email">
                                           </span>
                                           <h4 class="fs-20 fw-600">Email us</h4>
                                       </div>

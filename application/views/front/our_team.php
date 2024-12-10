@@ -28,7 +28,7 @@
       <!-- Text Content Column -->
       <div class="col-md-6" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
         <div class="text-center">
-          <p class="fs-20 fw-500">OUR LEADERSHIP TEAM</p>
+          <p class="fs-20 fw-500">Our Leadership Team</p>
           <h1 class="fs-30 fw-600">It's about the thoughts and souls
           that work behind Konstant</h1>
   
