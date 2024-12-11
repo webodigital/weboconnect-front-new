@@ -63,7 +63,7 @@
             
             checkSubmenus();
             
-            $(element).find(".nav-toggle").on("click touchstart", function(e){
+            $(element).find(".nav_toggle_btn").on("click touchstart", function(e){
                 e.stopPropagation(); 
                 e.preventDefault();
                 plugin.showOffcanvas();

@@ -26,8 +26,8 @@
       <div class="col-lg-6 ">
         <div class="about_corner_content text-lg-start text-center">
           <p class="fs-16 fw-600" style="color:#01448A;">ABOUT US</p>
-          <h1 class="fs-34 fw-800 my-4">Empowering Digital Futures With Expertise, Dedication, and Innovation</h1>
-          <p class="fs-18 fw-700">At Weboconnect, we blend innovation with expertise to sculpt the digital landscapes of tomorrow. Based in the vibrant heart of London and extending our creative reach globally, we are your partners in crafting mobile and web solutions that resonate worldwide.</p>
+          <h1 class="fs-34 fw-600 my-4">Empowering Digital Futures With Expertise, Dedication, and Innovation</h1>
+          <p class="fs-18 fw-500">At Weboconnect, we blend innovation with expertise to sculpt the digital landscapes of tomorrow. Based in the vibrant heart of London and extending our creative reach globally, we are your partners in crafting mobile and web solutions that resonate worldwide.</p>
         </div>
       </div>
     </div>
@@ -35,87 +35,87 @@
 </section>
 
 <section class="section_padding our_journey">
-  <div class="container">
+  <div class="container ">
 
     <div class="text-center">
-      <h2 class="fs-34 fw-700 text_brand_color1">Our Journey to Excellence</h2>
-      <h6 class="fs-18 fw-700 text_brand_color1">Dive into the figures that paint our story of success and innovation. These numbers reflect our journey, our achievements, and the trust that businesses worldwide place in Weboconnect.</h6>
+      <h2 class="fs-34 fw-600 text_brand_color1">Our Journey to Excellence</h2>
+      <h6 class="fs-18 fw-500 text_brand_color1">Dive into the figures that paint our story of success and innovation. These numbers reflect our journey, our achievements, and the trust that businesses worldwide place in Weboconnect.</h6>
     </div>
-
-    <div class="row g-4 mt-5">
-      <div class="col-lg-3 col-6">
+  <div class="">
+    <div class="row scrolling_row pb-3 g-4 mt-5">
+      <div class="col-lg-3">
         <div class="our_journey_card text-center text-white">
           <div>
-            <h3 class="fs-24 fw-700 mb-4">Global Presence</h3>
-            <h6 class="fs-14 fw-700">Teams in Asia, Europe, and North America ensuring round-the-clock innovation.</h6>
+            <h3 class="fs-24 fw-600 mb-4">Global Presence</h3>
+            <h6 class="fs-14 fw-500">Teams in Asia, Europe, and North America ensuring round-the-clock innovation.</h6>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-3 col-6">
+      <div class="col-lg-3">
         <div class="our_journey_card_bg text-black" style="background-image:url('<?= base_url() ?>assets/images/about/clients_ghlobal_reach.webp')">
           <div>
             <h3 class="fs-34 fw-700 mb-4">200+</h3>
-            <h6 class="fs-14 fw-700">Clients Global Reach, Local Impact</h6>
+            <h6 class="fs-14 fw-500">Clients Global Reach, Local Impact</h6>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-3 col-6">
+      <div class="col-lg-3">
         <div class="our_journey_card text-center text-white">
           <div>
-            <h3 class="fs-24 fw-700 mb-4">Custom Solutions</h3>
-            <h6 class="fs-14 fw-700">Tailored strategies that align with your unique digital aspirations.</h6>
+            <h3 class="fs-24 fw-600 mb-4">Custom Solutions</h3>
+            <h6 class="fs-14 fw-500">Tailored strategies that align with your unique digital aspirations.</h6>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-3 col-6">
+      <div class="col-lg-3">
         <div class="our_journey_card_bg text-black" style="background-image:url('<?= base_url() ?>assets/images/about/satisfaction_beyond.webp')">
           <div>
             <h3 class="fs-34 fw-700 mb-4">98%</h3>
-            <h6 class="fs-14 fw-700">Satisfaction Beyond Expectations</h6>
+            <h6 class="fs-14 fw-500">Satisfaction Beyond Expectations</h6>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-3 col-6">
+      <div class="col-lg-3">
         <div class="our_journey_card_bg text-black" style="background-image:url('<?= base_url() ?>assets/images/about/innovating_digital.webp')">
           <div>
             <h3 class="fs-34 fw-700 mb-4">8+ Years</h3>
-            <h6 class="fs-14 fw-700">Innovating Digital Solutions</h6>
+            <h6 class="fs-14 fw-500">Innovating Digital Solutions</h6>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-3 col-6">
+      <div class="col-lg-3">
         <div class="our_journey_card text-center text-white">
           <div>
-            <h3 class="fs-24 fw-700 mb-4">Agile Approach</h3>
-            <h6 class="fs-14 fw-700">Adaptability and efficiency in every project phase.</h6>
+            <h3 class="fs-24 fw-600 mb-4">Agile Approach</h3>
+            <h6 class="fs-14 fw-500">Adaptability and efficiency in every project phase.</h6>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-3 col-6">
+      <div class="col-lg-3">
         <div class="our_journey_card_bg text-black" style="background-image:url('<?= base_url() ?>assets/images/about/on_demand_service.webp')">
           <div>
             <h3 class="fs-34 fw-700 mb-4">Top #1</h3>
-            <h6 class="fs-14 fw-700">On-demand service provider</h6>
+            <h6 class="fs-14 fw-500">On-demand service provider</h6>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-3 col-6">
+      <div class="col-lg-3">
         <div class="our_journey_card text-center text-white">
           <div>
-            <h3 class="fs-24 fw-700 mb-4">Tech Pioneers</h3>
-            <h6 class="fs-14 fw-700">Leading with cutting-edge technologies and creative foresight.</h6>
+            <h3 class="fs-24 fw-600 mb-4">Tech Pioneers</h3>
+            <h6 class="fs-14 fw-500">Leading with cutting-edge technologies and creative foresight.</h6>
           </div>
         </div>
       </div>
-      
     </div>
+  </div>
   </div>
 </section>
 
@@ -126,35 +126,35 @@
       <h6 class="fs-18 fw-700 text_brand_color1">Our accolades reflect our unwavering commitment to quality and innovation.</h6>
     </div>
 
-    <div class="row justify-content-between align-items-center g-4 mt-5">
-      <div class="col-md-5">
+    <div class="row justify-content-center align-items-center g-4 mt-5">
+      <div class="col-md-5 col-6">
         <img class="w-100" src="<?= base_url() ?>assets/images/about/webo.webp" alt="weboconnect about" />
       </div>
       <div class="col-md-7">
         <div class="about_award_bg">
           <div class="row justify-content-center g-4">
-            <div class="col-lg-3 col-md-4 col-4">
+            <div class="col-lg-3 col-md-4 col-3">
               <img class="w-100" src="<?= base_url() ?>assets/images/about/awards/award-good-firms.webp" alt="good firms" />
             </div>
-            <div class="col-lg-3 col-md-4 col-4">
+            <div class="col-lg-3 col-md-4 col-3">
               <img class="w-100" src="<?= base_url() ?>assets/images/about/awards/badge.webp" alt="top 10 app development" />
             </div>
-            <div class="col-lg-3 col-md-4 col-4">
+            <div class="col-lg-3 col-md-4 col-3">
               <img class="w-100" src="<?= base_url() ?>assets/images/about/awards/top_leader.webp" alt="top leader" />
             </div>
-            <div class="col-lg-3 col-md-4 col-4">
+            <div class="col-lg-3 col-md-4 col-3">
               <img class="w-100" src="<?= base_url() ?>assets/images/about/awards/expert.webp" alt="expert" />
             </div>
-            <div class="col-lg-3 col-md-4 col-4">
+            <div class="col-lg-3 col-md-4 col-3">
               <img class="w-100" src="<?= base_url() ?>assets/images/about/awards/top_it_services.webp" alt="top it services" />
             </div>
-            <div class="col-lg-3 col-md-4 col-4">
+            <div class="col-lg-3 col-md-4 col-3">
               <img class="w-100" src="<?= base_url() ?>assets/images/about/awards/web-development-top-services.webp" alt="web development top services" />
             </div>
-            <div class="col-lg-3 col-md-4 col-4">
+            <div class="col-lg-3 col-md-4 col-3">
               <img class="w-100" src="<?= base_url() ?>assets/images/about/awards/top-app-development-company.webp" alt="top app development company" />
             </div>
-            <div class="col-lg-3 col-md-4 col-4">
+            <div class="col-lg-3 col-md-4 col-3">
               <img class="w-100" src="<?= base_url() ?>assets/images/about/awards/clutch.webp" alt="clutch" />
             </div>
             
@@ -195,7 +195,7 @@
         <div class="our_business_modal_card dark_bg">
           <div class="text-center">
             <span>
-              <img src="<?= base_url() ?>assets/images/about/icons/hire_dedicated.png" alt="Hire Dedicated Resources">
+              <img src="<?= base_url() ?>assets/images/about/icons/hire_dedicated.webp" alt="Hire Dedicated Resources">
             </span>
             <h4 class="text-white fs-20 fw-700 my-3">Hire Dedicated Resources</h4>
             <div class="d-flex">
@@ -264,8 +264,8 @@
 <section class="section_padding pillars_our_success">
   <div class="container">
     <div class="text-center">
-      <h2 class="fs-34 fw-700 text_brand_color1">Pillars of Our Success, Our Values</h2>
-      <h6 class="fs-18 fw-700 text-text_brand_color1">These principles drive our dedication to innovation, excellence, and building lasting relationships.</h6>
+      <h2 class="fs-34 fw-600 text_brand_color1">Pillars of Our Success, Our Values</h2>
+      <h6 class="fs-18 fw-500 text-text_brand_color1">These principles drive our dedication to innovation, excellence, and building lasting relationships.</h6>
     </div>
 
     <div class="row justify-content-center g-4 mt-5">
@@ -340,7 +340,7 @@
 <section class="bg_azure section_padding">
   <div class="container">
     <div class="row justify-content-between align-items-center g-4">
-      <div class="col-lg-6 order-last order-sm-first">
+      <div class="col-md-6 order-last order-sm-first">
        <div class="innovation_meets">
           <span class="imr_top">
             <img width="250" src="<?= base_url() ?>assets/images/shapes/imr_logo_shape.webp" alt="logo">
@@ -405,7 +405,7 @@
           </span>
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-md-6">
         <div class="about_corner_content">
           <h1 class="fs-34 fw-800 my-4">Innovation Meets Reliability</h1>
           <p class="fs-18 fw-800">Choosing Weboconnect means partnering with a team that understands the heartbeat of digital innovation. Our commitment to excellence and client satisfaction sets us apart.</p>
@@ -493,8 +493,8 @@
     <div class="row justify-content-center mt-5">
       <div class="col-xl-10">
 
-        <div class="row justify-content-center g-4">
-          <div class="col-6 col-lg-3">
+        <div class="row scrolling_row g-4">
+          <div class="col-lg-3">
             <div class="management_team_card">
               <img class="" src="<?= base_url() ?>assets/images/about/gaurav.webp" alt="Gaurav" />
               <div class="management_team_content">
@@ -506,7 +506,7 @@
             </div>
           </div>
 
-          <div class="col-6 col-lg-3">
+          <div class="col-lg-3">
             <div class="management_team_card">
               <img class="" src="<?= base_url() ?>assets/images/about/rajiv.webp" alt="Rajiv" />
               <div class="management_team_content">
@@ -518,9 +518,9 @@
             </div>
           </div>
           
-          <div class="col-6 col-lg-3">
+          <div class="col-lg-3">
             <div class="management_team_card">
-              <img class="" src="<?= base_url() ?>assets/images/about/mlc.png" alt="Gaurav" />
+              <img class="" src="<?= base_url() ?>assets/images/about/mlc.webp" alt="Gaurav" />
               <div class="management_team_content">
                 <div>
                   <h5 class="fs-14 fw-700">Mikkel Lund Christensen</h5>
@@ -530,9 +530,9 @@
             </div>
           </div>
           
-          <div class="col-6 col-lg-3">
+          <div class="col-lg-3">
             <div class="management_team_card">
-              <img class="" src="<?= base_url() ?>assets/images/about/nirbhay.png" alt="Gaurav" />
+              <img class="" src="<?= base_url() ?>assets/images/about/nirbhay.webp" alt="Gaurav" />
               <div class="management_team_content">
                 <div>
                   <h5 class="fs-14 fw-700">Nirbhay Kant</h5>

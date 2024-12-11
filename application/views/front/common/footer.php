@@ -91,40 +91,47 @@
   </div>
   <div class="copright_sec">
     <div class="container">
-        <div class="row g-3 justify-content-between">
-          <div class="col col-lg-6">
-              <div class="text-lg-start text-md-start text-center">
-                  <p class="m-0"> Weboconnect Technologies Pvt Ltd  © All Rights Reserved 2024</p>
-              </div>
-          </div>
-            <div class="col-auto">
-                <div class="footerbtm">
-                    <div class="footer_social_links">
-                        <a href="https://www.facebook.com/WeboConnect/" title="Facebook" target="_blank">
-                          <i class="bi bi-facebook"></i>
-                        </a>
-                        <a href="https://twitter.com/weboconnect/" title="Twitter" target="_blank">
-                          <i class="bi bi-linkedin"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/weboconnect/" title="LinkedIn+" target="_blank">
-                          <i class="bi bi-twitter-x"></i>
-                        </a>
-                    </div>
+        <div class="row g-4 justify-content-between">
+          <div class="col col-lg-7 order-last order-sm-first">
+
+              <div class="row align-items-center justify-content-between g-4">
+                <div class="col-lg-auto col-12  order-last order-sm-first">
+                  <div class="text-lg-start text-md-start text-center">
+                      <p class="m-0"> Weboconnect Technologies Pvt Ltd  © All Rights Reserved 2024</p>
+                  </div>
                 </div>
-            </div>
+                <div class="col-lg-auto col-12">
+                  <div class="text-center">
+                      <div class="footer_social_links align-items-center justify-content-between">
+                          <a href="https://www.facebook.com/WeboConnect/" title="Facebook" target="_blank">
+                            <i class="bi bi-facebook"></i>
+                          </a>
+                          <a href="https://twitter.com/weboconnect/" title="Twitter" target="_blank">
+                            <i class="bi bi-linkedin"></i>
+                          </a>
+                          <a href="https://www.linkedin.com/in/weboconnect/" title="LinkedIn+" target="_blank">
+                            <i class="bi bi-twitter-x"></i>
+                          </a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              
+          </div>
             <div class="col-sm-12 col-lg-4">
                 <div class="term_section">
-                    <ul class="list-inline polices m-0 d-flex gap-4">
-                        <li><a href="<?=base_url()?>careers" style="color:#fbaa00">We are hiring</a></li>
+                    <ul class="list-inline polices m-0 d-flex gap-2 justify-content-center justify-content-lg-end">
+                        <li><a href="<?=base_url()?>careers">We are hiring</a></li>
                         <li>|</li>
                         <li><a href="<?=base_url()?>privacy-policy">Privacy Policy</a></li>
                         <li>|</li>
                         <li><a href="<?=base_url()?>refund-policy">Refund Policy</a></li>
                     </ul>
-                    <div class="ftr_hr_area">
+                    <!-- <div class="ftr_hr_area">
                       <a style="color:#fbaa00" href="mailto:hr@weboconnect.com">hr@weboconnect.com</a> 
                       <span style="margin:0px 10px;">|</span>
-                      <a style="color:#fbaa00" href="tel:+919974149677">+919974149677</a></div>
+                      <a style="color:#fbaa00" href="tel:+919974149677">+919974149677</a>
+                    </div> -->
                 </div>
                 
             </div>
@@ -137,3 +144,5 @@
 
 
 <?php $this->load->view('front/common/lets_discuss_project_modal') ?>
+
+<?php $this->load->view('front/common/call_popup_modal') ?>

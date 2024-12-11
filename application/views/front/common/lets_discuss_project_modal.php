@@ -65,7 +65,7 @@
                             <div class="col-auto">
                                 <div class="g-recaptcha" data-sitekey="6LeRZKkUAAAAAP6oTGBp5GVkdkz_NRx1ytqSDpGe"></div>
                             </div>
-                            <div class="col-3 d-grid field">
+                            <div class="col-lg-3 d-grid field">
                                 <button type="submit" id="submit-enquiry" class="btn btn-light fs-18 fw-600">Submit</button>
                             </div>
                         </div>

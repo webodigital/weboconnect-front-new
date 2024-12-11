@@ -312,8 +312,30 @@ $(document).ready(function () {
   // });
 
 
+  $('.single_slider').owlCarousel({
+    loop:true,
+    nav:false,
+    dots:false,
+    loop:true,
+    margin:10,
+    items:1,
+    autoplay:true,
+  });
+   
 
-  
+  $('.single_slider_zooming').owlCarousel({
+    loop:true,
+    nav:false,
+    dots:false,
+    loop:true,
+    margin:10,
+    items:1,
+    autoplay:true,
+    animateOut: 'fadeOut',
+    animateIn: 'zoomIn',
+  });
+
+
   $('.trusted_top_companies_slider').owlCarousel({
     loop:true,
     nav:false,

@@ -182,6 +182,10 @@ html {
 .text_gray {
   color: rgba(40, 41, 56, 0.7) !important;
 }
+.text_danger,
+.text-danger {
+  color: #FF492C !important;
+}
 
 @media (max-width: 768px){
 .fs-24{

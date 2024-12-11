@@ -34,27 +34,27 @@
                         <ul class="scroll_horizontal_m_screen mx-auto nav nav-pills justify-content-center gap-4 mt-4" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link active" id="pills-weboconnect-tab" data-bs-toggle="pill" data-bs-target="#pills-weboconnect" type="button" role="tab" aria-controls="pills-weboconnect" aria-selected="true">
-                                    <img src="<?=base_url()?>assets/images/weboconnect_assets/webo_logo.png" alt="weboconnect testimonials">
+                                    <img src="<?=base_url()?>assets/images/weboconnect_assets/webo_logo.webp" alt="weboconnect testimonials">
                                 </button>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="pills-goodfirm-tab" data-bs-toggle="pill" data-bs-target="#pills-goodfirm" type="button" role="tab" aria-controls="pills-goodfirm" aria-selected="false">
-                                    <img src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_logo.png" alt="weboconnect testimonials">
+                                    <img src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_logo.webp" alt="weboconnect testimonials">
                                 </button>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="pills-trustpilot-tab" data-bs-toggle="pill" data-bs-target="#pills-trustpilot" type="button" role="tab" aria-controls="pills-trustpilot" aria-selected="false">
-                                    <img src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_logo.png" alt="weboconnect testimonials">
+                                    <img src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_logo.webp" alt="weboconnect testimonials">
                                 </button>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="pills-clutch-tab" data-bs-toggle="pill" data-bs-target="#pills-clutch" type="button" role="tab" aria-controls="pills-clutch" aria-selected="false">
-                                    <img src="<?=base_url()?>assets/images/weboconnect_assets/clutch_logo.png" alt="weboconnect testimonials">
+                                    <img src="<?=base_url()?>assets/images/weboconnect_assets/clutch_logo.webp" alt="weboconnect testimonials">
                                 </button>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="pills-google-tab" data-bs-toggle="pill" data-bs-target="#pills-google" type="button" role="tab" aria-controls="pills-google" aria-selected="false">
-                                    <img src="<?=base_url()?>assets/images/weboconnect_assets/google_logo.png" alt="weboconnect testimonials">
+                                    <img src="<?=base_url()?>assets/images/weboconnect_assets/google_logo.webp" alt="weboconnect testimonials">
                                 </button>
                             </li>
                         </ul>
@@ -1440,88 +1440,88 @@
                         <div class="tab-pane fade" id="pills-goodfirm" role="tabpanel" aria-labelledby="pills-goodfirm-tab">
                             <div class="row my-5 g-4">
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw1.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw1.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw2.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw2.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw3.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw3.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw4.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw4.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw5.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw5.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw6.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw6.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw7.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw7.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw8.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw8.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw9.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw9.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw10.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw10.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw11.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw11.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw12.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw12.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw13.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw13.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw14.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw14.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw15.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw15.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw16.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw16.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw17.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw17.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw18.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw18.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw19.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw19.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw20.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw20.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw21.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw21.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw22.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw22.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw23.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw23.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw24.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw24.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw25.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw25.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw26.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw26.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw27.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw27.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw28.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw28.webp" alt="weboconnect testimonials">
                                 </div>
                             </div>
                         </div>
@@ -1529,64 +1529,64 @@
                         <div class="tab-pane fade" id="pills-trustpilot" role="tabpanel" aria-labelledby="pills-trustpilot-tab">
                             <div class="row my-5 g-4">
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review1.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review1.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review2.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review2.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review3.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review3.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review4.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review4.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review5.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review5.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review6.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review6.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review7.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review7.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review8.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review8.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review9.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review9.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review10.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review10.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review11.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review11.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review12.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review12.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review13.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review13.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review14.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review14.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review15.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review15.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review16.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review16.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review17.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review17.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review18.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review18.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review19.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review19.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review20.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review20.webp" alt="weboconnect testimonials">
                                 </div>
                             </div>
                         </div>
@@ -1594,34 +1594,34 @@
                         <div class="tab-pane fade" id="pills-clutch" role="tabpanel" aria-labelledby="pills-clutch-tab">
                             <div class="row my-5 g-4">
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/clutch_review1.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/clutch_review1.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/clutch_review2.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/clutch_review2.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/clutch_review3.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/clutch_review3.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/clutch_review4.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/clutch_review4.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/clutch_review5.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/clutch_review5.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/clutch_review6.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/clutch_review6.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/clutch_review7.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/clutch_review7.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/clutch_review8.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/clutch_review8.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/clutch_review9.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/clutch_review9.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/clutch_review10.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/clutch_review10.webp" alt="weboconnect testimonials">
                                 </div>
                             </div>
                         </div>
@@ -1629,79 +1629,79 @@
                         <div class="tab-pane fade" id="pills-google" role="tabpanel" aria-labelledby="pills-google-tab">
                             <div class="row my-5 g-4">
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review1.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review1.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review2.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review2.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review3.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review3.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review4.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review4.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review5.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review5.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review6.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review6.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review7.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review7.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review8.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review8.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review9.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review9.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review10.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review10.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review11.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review11.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review12.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review12.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review13.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review13.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review14.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review14.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review15.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review15.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review16.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review16.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review17.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review17.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review18.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review18.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review19.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review19.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review20.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review20.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review21.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review21.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review22.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review22.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review23.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review23.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review24.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review24.webp" alt="weboconnect testimonials">
                                 </div>
                                 <div class="col-12">
-                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review25.png" alt="weboconnect testimonials">
+                                    <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review25.webp" alt="weboconnect testimonials">
                                 </div>
                             </div>
                         </div>

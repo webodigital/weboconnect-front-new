@@ -84,7 +84,7 @@
           
           <div class="col-6 col-lg-3">
             <div class="management_team_card">
-              <img class="" src="<?= base_url() ?>assets/images/about/mlc.png" alt="Gaurav" />
+              <img class="" src="<?= base_url() ?>assets/images/about/mlc.webp" alt="Gaurav" />
               <div class="management_team_content">
                 <div>
                   <h5 class="fs-14 fw-700">Mikkel Lund Christensen</h5>
@@ -96,7 +96,7 @@
           
           <div class="col-6 col-lg-3">
             <div class="management_team_card">
-              <img class="" src="<?= base_url() ?>assets/images/about/nirbhay.png" alt="Gaurav" />
+              <img class="" src="<?= base_url() ?>assets/images/about/nirbhay.webp" alt="Gaurav" />
               <div class="management_team_content">
                 <div>
                   <h5 class="fs-14 fw-700">Nirbhay Kant</h5>

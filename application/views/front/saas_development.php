@@ -85,7 +85,7 @@
                         <img class="w-100" src="<?= base_url() ?>assets/images/saas_development/bsd_rnd1.webp" alt="">
                     </div>
                     <div class="logos">
-                        <img src="<?= base_url() ?>assets/images/thnk_logo.png" alt="">
+                        <img src="<?= base_url() ?>assets/images/thnk_logo.webp" alt="">
                     </div>
                     <div class="col align-self-end">
                         <img class="w-100" src="<?= base_url() ?>assets/images/saas_development/bsd_rnd2.webp" alt="">
@@ -271,7 +271,7 @@
                     <img src="<?= base_url() ?>assets/images/saas_development/5_sd_process.png" alt="SaaS Development">
                     <div class="_sdp_logos">
                         <span>
-                            <img src="<?= base_url() ?>assets/images/thnk_logo.png" alt="">
+                            <img src="<?= base_url() ?>assets/images/thnk_logo.webp" alt="">
                         </span>
                     </div>
                 </div>

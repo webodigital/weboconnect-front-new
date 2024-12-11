@@ -228,7 +228,7 @@
           </h2>
         </div>
         <div class="col-12 text-center">
-          <img src="<?= base_url() ?>assets/images/thnk_logo.png" alt="logo" />
+          <img src="<?= base_url() ?>assets/images/thnk_logo.webp" alt="logo" />
         </div>
         <div class="col-12 text-center">
           <a href="https://calendly.com/schedulemeetingwithweboconnect/30min?back=1&month=2024-11" class="fs-24 fw-600 btn btn-primary px-5">Schedule a call</a>

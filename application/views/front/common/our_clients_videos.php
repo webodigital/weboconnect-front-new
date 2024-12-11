@@ -13,27 +13,27 @@
                     <ul class="scroll_horizontal_m_screen mx-auto nav nav-pills justify-content-center gap-4 mt-4" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="pills-weboconnect-tab" data-bs-toggle="pill" data-bs-target="#pills-weboconnect" type="button" role="tab" aria-controls="pills-weboconnect" aria-selected="true">
-                                <img src="<?=base_url()?>assets/images/weboconnect_assets/webo_logo.png" alt="weboconnect testimonials">
+                                <img src="<?=base_url()?>assets/images/weboconnect_assets/webo_logo.webp" alt="weboconnect testimonials">
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="pills-goodfirm-tab" data-bs-toggle="pill" data-bs-target="#pills-goodfirm" type="button" role="tab" aria-controls="pills-goodfirm" aria-selected="false">
-                                <img src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_logo.png" alt="weboconnect testimonials">
+                                <img src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_logo.webp" alt="weboconnect testimonials">
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="pills-trustpilot-tab" data-bs-toggle="pill" data-bs-target="#pills-trustpilot" type="button" role="tab" aria-controls="pills-trustpilot" aria-selected="false">
-                                <img src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_logo.png" alt="weboconnect testimonials">
+                                <img src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_logo.webp" alt="weboconnect testimonials">
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="pills-clutch-tab" data-bs-toggle="pill" data-bs-target="#pills-clutch" type="button" role="tab" aria-controls="pills-clutch" aria-selected="false">
-                                <img src="<?=base_url()?>assets/images/weboconnect_assets/clutch_logo.png" alt="weboconnect testimonials">
+                                <img src="<?=base_url()?>assets/images/weboconnect_assets/clutch_logo.webp" alt="weboconnect testimonials">
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="pills-google-tab" data-bs-toggle="pill" data-bs-target="#pills-google" type="button" role="tab" aria-controls="pills-google" aria-selected="false">
-                                <img src="<?=base_url()?>assets/images/weboconnect_assets/google_logo.png" alt="weboconnect testimonials">
+                                <img src="<?=base_url()?>assets/images/weboconnect_assets/google_logo.webp" alt="weboconnect testimonials">
                             </button>
                         </li>
                     </ul>
@@ -105,7 +105,7 @@
                     <div class="tab-pane fade" id="pills-goodfirm" role="tabpanel" aria-labelledby="pills-goodfirm-tab">
                         <div class="row my-5">
                             <div class="col-12">
-                                <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw1.png" alt="weboconnect testimonials">
+                                <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw1.webp" alt="weboconnect testimonials">
                             </div>
                         </div>
                     </div>
@@ -113,7 +113,7 @@
                     <div class="tab-pane fade" id="pills-trustpilot" role="tabpanel" aria-labelledby="pills-trustpilot-tab">
                         <div class="row my-5">
                             <div class="col-12">
-                                <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review1.png" alt="weboconnect testimonials">
+                                <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review1.webp" alt="weboconnect testimonials">
                             </div>
                         </div>
                     </div>
@@ -121,7 +121,7 @@
                     <div class="tab-pane fade" id="pills-clutch" role="tabpanel" aria-labelledby="pills-clutch-tab">
                         <div class="row my-5">
                             <div class="col-12">
-                                <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/clutch_review1.png" alt="weboconnect testimonials">
+                                <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/clutch_review1.webp" alt="weboconnect testimonials">
                             </div>
                         </div>
                     </div>
@@ -129,7 +129,7 @@
                     <div class="tab-pane fade" id="pills-google" role="tabpanel" aria-labelledby="pills-google-tab">
                         <div class="row my-5">
                             <div class="col-12">
-                                <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review1.png" alt="weboconnect testimonials">
+                                <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review1.webp" alt="weboconnect testimonials">
                             </div>
                         </div>
                     </div>

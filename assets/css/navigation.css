@@ -307,9 +307,12 @@
 }
 
 .nav-toggle {
-  width: 30px;
+  /* width: 30px; */
   height: 30px;
-  padding: 6px 2px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
   /* position: absolute;
   top: 50%; */
   /* margin-top: -14px; */
@@ -323,13 +326,15 @@
   position: absolute;
   width: 24px;
   height: 2px;
-  background-color: #70798b;
+  /* background-image: url('../images/icons/nav_toggle.webp'); */
+  /* background-size: contain; */
+  /* background-color: #70798b;
   border-radius: 10px;
-  box-shadow: 0 0.5em 0 0 #70798b, 0 1em 0 0 #70798b;
+  box-shadow: 0 0.5em 0 0 #70798b, 0 1em 0 0 #70798b; */
 }
 
 .navigation-portrait .nav-toggle {
-  display: block;
+  display: flex;
 }
 
 .navigation-portrait .nav-menus-wrapper {

@@ -22,24 +22,24 @@
 
 
 
-<section class="homeSection1 py-4 py-xl-0">
-  <div class="container"  >
-    <div class="row g-3 g-lg-2 align-items-center">
+<section class="homeSection1 py-4 pb-xl-0">
+  <div class="container">
+    <div class="row gy-5 align-items-center">
       <!-- Text Content Column -->
-      <div class="col-lg-5 col-12" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+      <div class="col-lg-5 col-12">
         <div class="text-center text-lg-start">
-          <h1 class="fs-30 fw-700 text-uppercase">Empowering Business Through Technology</h1>
-          <p class="fs-20 fw-500">Pioneering customized web and mobile application development with a focus on excellence.</p>
+          <h1 class="fs-30 fw-700 text-uppercase m-0">Empowering Business Through Technology</h1>
+          <p class="fs-20 fw-500 my-4">Pioneering customized web and mobile application development with a focus on excellence.</p>
         
-          <div class="row g-3 mb-3">
+          <div class="row g-3 mt-3">
             <div class="col-sm-6 col-6">
               <div class="d-grid">
-                <a href="#" class="btn btn-primary btn-md btn-rounded">Schedule a Call</a>
+                <a href="#" class="btn btn-primary btn-md btn-rounded text-uppercase">Schedule a Call</a>
               </div>
             </div>
             <div class="col-sm-6 col-6">
               <div class="d-grid">   
-                <a href="<?=base_url()?>case-studies" class="btn btn-outline-primary btn-md btn-rounded View">View Success Stories</a>
+                <a href="<?=base_url()?>case-studies" class="btn btn-primary btn-md btn-rounded text-uppercase">View Case studies</a>
               </div>  
             </div>     
           </div>    
@@ -48,15 +48,15 @@
       <!-- Image Column -->
 
 
-      <div class="col-3 d-xl-block d-none " data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+      <div class="col-3 d-xl-block d-none ">
         <div class="p-4 pb-0 position-relative h-100 justify-content-lg-end justify-content-md-end justify-content-center align-items-center">
           <img class="max-w-100 hero" src="<?=base_url()?>assets/images/CEO.webp" alt="CEO Of WeboConnect">  
         </div>                          
       </div>  
        <div class="col col-xl-4">
-        <div class="row g-3 align-items-start justify-content-center">
+        <div class="row g-4 g-lg-5 align-items-start justify-content-center">
           
-          <div class="col-lg-6 col-auto text-center animate__animated animate__bounceInDown">
+          <div class="col-lg-6 col-auto text-center">
             <div class="google_ratings_card">
               <a href="https://www.goodfirms.co/company/weboconnect-technlogies-pvt-ltd">
                 <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm.webp" alt="goodfirm" title="goodfirm">
@@ -71,7 +71,7 @@
             </div>
           </div>
 
-          <div class="col-lg-6 col-auto text-center animate__animated animate__bounceInDown">
+          <div class="col-lg-6 col-auto text-center">
             <div class="google_ratings_card">
               <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/google_ratings.webp" alt="google ratings" title="google ratings">
               <div class="d-flex flex-wrap">
@@ -82,7 +82,7 @@
             </div>
           </div>
 
-          <div class="col-lg-6 col-auto text-center animate__animated animate__bounceInDown">
+          <div class="col-lg-6 col-auto text-center">
             <div class="google_ratings_card">
               <a href="https://clutch.co/profile/weboconnect-technologies?utm_source=widget&amp;utm_medium=1&amp;utm_campaign=widget&amp;utm_content=num_reviews&amp;utm_term=localhost#reviews">
                 <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/clutch.webp" alt="clutch" title="clutch">
@@ -94,7 +94,7 @@
             </div>
           </div>
 
-          <div class="col-lg-6 col-auto text-center animate__animated animate__bounceInDown">
+          <div class="col-lg-6 col-auto text-center">
             <div class="google_ratings_card">
               <a target="_blank" href="https://www.trustpilot.com/review/weboconnect.com">
                 <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot.webp" alt="trustpilot" title="trustpilot">
@@ -110,7 +110,7 @@
           </div>
 
 
-          <div class="col-lg-6 col-auto text-center animate__animated animate__bounceInDown" data-wow-duration="2s" data-wow-delay="5s">
+          <div class="col-lg-6 col-auto text-center">
             <div class="google_ratings_card">
               <a target="_blank" href="https://www.trustpilot.com/review/weboconnect.com">
                 <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/design_rush.webp" alt="trustpilot" title="trustpilot">
@@ -131,37 +131,27 @@
 
 <section class="homeSection2 stats-section">
   <div class="container">
-    <div class="row justify-content-between g-4">
+    <div class="row justify-content-between g-4 g-lg-5">
       <div class="col-lg-3 col-6">
         <div class="stat-card">
           <div class="stat-content text-center">
             <div class="d-flex justify-content-center gap-4 align-items-center">
-              <i class="fas fa-users mt-2"></i>
+              <img width="40" src="<?=base_url()?>assets/images/icons/global_clients.webp" alt="Global Clients">
               <div class="stat-number" data-target="200">200+</div>
             </div>
-            <p>Global Clients</p>
+            <p class="fs-16 fw-600">Global Clients</p>
           </div>
         </div>
       </div>
+
       <div class="col-lg-3 col-6">
         <div class="stat-card">
           <div class="stat-content text-center">
           <div class="d-flex justify-content-center gap-4 align-items-center">
-            <i class="fas fa-award"></i>
+            <img width="40" src="<?=base_url()?>assets/images/icons/completed_projects.webp" alt="Successfully Delivered">
             <div class="stat-number" data-target="8">250+</div>
           </div>
-            <p>Successfully Delivered</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-6">
-        <div class="stat-card">
-          <div class="stat-content text-center">
-            <div class="d-flex justify-content-center gap-4 align-items-center">
-              <i class="fas fa-sync-alt"></i>
-              <div class="stat-number" data-target="97">8+</div>
-            </div>
-            <p>Years of Excellence</p>
+            <p class="fs-16 fw-600">Successfully Delivered</p>
           </div>
         </div>
       </div>
@@ -170,10 +160,22 @@
         <div class="stat-card">
           <div class="stat-content text-center">
             <div class="d-flex justify-content-center gap-4 align-items-center">
-              <i class="fas fa-tasks"></i>
+              <img width="40" src="<?=base_url()?>assets/images/icons/yrs_experiences.webp" alt="Years of Excellence">
+              <div class="stat-number" data-target="97">8+</div>
+            </div>
+            <p class="fs-16 fw-600">Years of Excellence</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-6">
+        <div class="stat-card">
+          <div class="stat-content text-center">
+            <div class="d-flex justify-content-center gap-4 align-items-center">
+              <img width="40" src="<?=base_url()?>assets/images/icons/client_retention.webp" alt="client retention">
               <div class="stat-number" data-target="250">97%</div>
             </div>
-            <p>Client Retention</p>
+            <p class="fs-16 fw-600">Client Retention</p>
           </div>
         </div>
       </div>
@@ -185,37 +187,57 @@
 
 <section class="homeSection3 section_padding">
   <div class="container">
-    <div class="row justify-content-between align-items-center g-4">
-      <div class="col-lg-4 col-md-12 col-12">
+    <div class="row justify-content-between g-4 g-lg-5">
+      <div class="col-lg-3 col-md-12 col-12">
         <div class="overflow_x_auto">
-          <ul class="nav nav-flex justify-content-center nav-pills sidebar gap-2" id="myTab" role="tablist">
+          <ul class="nav nav-flex justify-content-center nav-pills sidebar gap-4" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
               <button class="nav-link active" id="saas-tab1" data-bs-toggle="tab" data-bs-target="#saas1" type="button" role="tab" aria-controls="saas1" aria-selected="true">
-                <i class="fas fa-cloud"></i> SaaS Development
+                <span>
+                  <img class="wht_icon" src="<?=base_url()?>assets/images/icons/wht_saas_devp.webp" alt="SaaS Development">
+                  <img src="<?=base_url()?>assets/images/icons/saas_devp.webp" alt="SaaS Development">
+                </span> 
+                <p>SaaS Development</p>
               </button>
             </li>
           
             <li class="nav-item" role="presentation">
               <button class="nav-link" id="web-mobile-tab" data-bs-toggle="tab" data-bs-target="#web-mobile1" type="button" role="tab" aria-controls="web-mobile1" aria-selected="false">
-                <i class="fas fa-laptop-code"></i> Web & Mobile Application Development
+                <span>
+                  <img class="wht_icon" src="<?=base_url()?>assets/images/icons/wht_w_m_devp.webp" alt="Web & Mobile Application Development">
+                  <img src="<?=base_url()?>assets/images/icons/w_m_devp.webp" alt="Web & Mobile Application Development">
+                </span>  
+                <p>Web & Mobile Application Development</p>
               </button>
             </li>
           
             <li class="nav-item" role="presentation">
               <button class="nav-link" id="healthcare-tab" data-bs-toggle="tab" data-bs-target="#healthcare1" type="button" role="tab" aria-controls="healthcare1" aria-selected="false">
-                <i class="fas fa-user-md"></i> Healthcare Staffing App Development
+                <span>
+                  <img class="wht_icon" src="<?=base_url()?>assets/images/icons/wht_h_s_a_p.webp" alt="Healthcare Staffing App Development">
+                  <img src="<?=base_url()?>assets/images/icons/h_s_a_p.webp" alt="Healthcare Staffing App Development">
+                </span> 
+                <p>Healthcare Staffing App Development</p>
               </button>
             </li>
           
             <li class="nav-item" role="presentation">
               <button class="nav-link" id="maintenance-tab" data-bs-toggle="tab" data-bs-target="#maintenance1" type="button" role="tab" aria-controls="maintenance1" aria-selected="false">
-                <i class="fas fa-tools"></i> Maintenance & Support
+                <span>
+                  <img class="wht_icon" src="<?=base_url()?>assets/images/icons/wht_m_s.webp" alt="Maintenance & Support">
+                  <img src="<?=base_url()?>assets/images/icons/m_s.webp" alt="Maintenance & Support">
+                </span>  
+                <p>Maintenance & Support</p>
               </button>
             </li>
             
             <li class="nav-item" role="presentation">
               <button class="nav-link" id="hire-tab1" data-bs-toggle="tab" data-bs-target="#hire1" type="button" role="tab" aria-controls="hire" aria-selected="false">
-                <i class="fas fa-users"></i> Hire Dedicated Resources
+                <span>
+                  <img class="wht_icon" src="<?=base_url()?>assets/images/icons/wht_h_d_r.webp" alt="Hire Dedicated Resources">
+                  <img src="<?=base_url()?>assets/images/icons/h_d_r.webp" alt="Hire Dedicated Resources">
+                </span>  
+                <p>Hire Dedicated Resources</p>
               </button>
             </li>
           
@@ -225,16 +247,24 @@
 
 
       <!-- Content Area -->
-      <div class="col-lg-7 col-md-12 col-12" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+      <div class="col-lg-9 col-md-12 col-12">
         <div class="tab-content" id="myTabContent">
           <!-- SaaS Development Content -->
           <div class="tab-pane fade show active" id="saas1" role="tabpanel" aria-labelledby="saas-tab1">
-            <div class="content-area" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
-              <img src="<?=base_url()?>assets/images/saas.png" alt="SaaS Development" class="content-image w-100 rounded-5">
+            <div class="content-area">
+              <img src="<?=base_url()?>assets/images/saas.webp" alt="SaaS Development" class="content-image w-100 rounded-5">
               <div class="content-overlay text-start">
-                <p>Our team specializes in creating seamless and efficient SaaS solutions that redefine how businesses operate. With a focus on precision, reliability, and industry best practices, we deliver systems that drive performance and success.</p>
-                <a href="<?=base_url()?>saas-development" class="btn btn-outline-primary btn-rounded">View More</a>
-                <button class="btn btn-primary btn-rounded">View Portfolio</button>
+                <p class="fs-20 fw-500">Our team specializes in creating seamless and efficient SaaS solutions that redefine how businesses operate. With a focus on precision, reliability, and industry best practices, we deliver systems that drive performance and success.</p>
+                <div class="row g-3">
+                  <div class="col d-grid">
+                    <a href="<?=base_url()?>saas-development" class="text-uppercase btn btn-outline-primary btn-rounded m-0">View More</a>
+                  </div>
+                  <div class="col d-grid">
+                    <a href="<?=base_url()?>portfolio"  class="text-uppercase btn btn-primary btn-rounded m-0">View Portfolio</a>
+                  </div>
+                </div>
+                
+                
               </div>
             </div>
           </div>
@@ -245,9 +275,16 @@
             <div class="content-area">
               <img src="<?=base_url()?>assets/images/network.webp" alt="Web & Mobile Application Development" class="content-image w-100 rounded-5">
               <div class="content-overlay text-start">
-                <p>Our custom web and mobile applications enhance operational efficiency, improve user interaction, and deliver impactful digital experiences tailored to your business goals and ever-evolving market demands.</p>
-                <a href="<?=base_url()?>mobile-app-development" class="btn btn-outline-primary btn-rounded">View More</a>
-                <button class="btn btn-primary btn-rounded">View Portfolio</button>
+                <p class="fs-20 fw-500">Our custom web and mobile applications enhance operational efficiency, improve user interaction, and deliver impactful digital experiences tailored to your business goals and ever-evolving market demands.</p>
+                <div class="row g-3">
+                  <div class="col d-grid">
+                    <a href="<?=base_url()?>mobile-app-development" class="text-uppercase btn btn-outline-primary btn-rounded m-0">View More</a>
+                  </div>
+                  <div class="col d-grid">
+                    <a href="<?=base_url()?>portfolio"  class="text-uppercase btn btn-primary btn-rounded m-0">View Portfolio</a>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
@@ -255,9 +292,16 @@
             <div class="content-area">
               <img src="<?=base_url()?>assets/images/techno.webp" alt="Healthcare Staffing App Development" class="content-image w-100 rounded-5">
               <div class="content-overlay text-start">
-                <p>From recruitment to resource allocation, our healthcare staffing apps optimize every aspect of workforce management, enabling organizations to meet growing demands while focusing on patient care.</p>
-                <a href="https://staffinc.io/" target="_blank" class="btn btn-outline-primary btn-rounded">View More</a>
-                <button class="btn btn-primary btn-rounded">View Portfolio</button>
+                <p class="fs-20 fw-500">From recruitment to resource allocation, our healthcare staffing apps optimize every aspect of workforce management, enabling organizations to meet growing demands while focusing on patient care.</p>
+                <div class="row g-3">
+                  <div class="col d-grid">
+                    <a href="https://staffinc.io/" target="_blank"class="text-uppercase btn btn-outline-primary btn-rounded m-0">View More</a>
+                  </div>
+                  <div class="col d-grid">
+                    <a href="<?=base_url()?>portfolio"  class="text-uppercase btn btn-primary btn-rounded m-0">View Portfolio</a>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
@@ -266,9 +310,17 @@
             <div class="content-area">
               <img src="<?=base_url()?>assets/images/tech.webp" alt="Maintenance & Support" class="content-image w-100 rounded-5">
               <div class="content-overlay text-start">
-                <p>We provide continuous system monitoring, timely updates, and expert issue resolution, ensuring your digital platforms operate seamlessly with maximum uptime and minimal disruptions.</p>
-                <a href="<?=base_url()?>maintenance-and-support" class="btn btn-outline-primary btn-rounded">View More</a>
-                <button class="btn btn-primary btn-rounded">View Portfolio</button>
+                <p class="fs-20 fw-500">We provide continuous system monitoring, timely updates, and expert issue resolution, ensuring your digital platforms operate seamlessly with maximum uptime and minimal disruptions.</p>
+                
+                <div class="row g-3">
+                  <div class="col d-grid">
+                    <a href="<?=base_url()?>maintenance-and-support" class="text-uppercase btn btn-outline-primary btn-rounded m-0">View More</a>
+                  </div>
+                  <div class="col d-grid">
+                    <a href="<?=base_url()?>portfolio"  class="text-uppercase btn btn-primary btn-rounded m-0">View Portfolio</a>
+                  </div>
+                </div>
+                
               </div>
             </div>
           </div>
@@ -277,9 +329,16 @@
             <div class="content-area">
               <img src="<?=base_url()?>assets/images/handshake.webp" alt="Hire Dedicated Resources" class="content-image w-100 rounded-5">
               <div class="content-overlay text-start">
-                <p>Our dedicated resources provide the focus and technical expertise you need to drive project success, meeting goals faster and delivering results that exceed expectations.</p>
-                <a href="<?=base_url()?>hire-dedicated-resources" class="btn btn-outline-primary btn-rounded">View More</a>
-                <button class="btn btn-primary btn-rounded">View Portfolio</button>
+                <p class="fs-20 fw-500">Our dedicated resources provide the focus and technical expertise you need to drive project success, meeting goals faster and delivering results that exceed expectations.</p>
+                
+                <div class="row g-3">
+                  <div class="col d-grid">
+                    <a href="<?=base_url()?>hire-dedicated-resources" class="text-uppercase btn btn-outline-primary btn-rounded m-0">View More</a>
+                  </div>
+                  <div class="col d-grid">
+                    <a href="<?=base_url()?>portfolio"  class="text-uppercase btn btn-primary btn-rounded m-0">View Portfolio</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -294,25 +353,25 @@
 
 
 <section class="section_padding clients-section  homeSection4">
- <div class="container w-100" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+ <div class="container w-100">
  <h1><b>WE UNDERSTAND OUR CLIENTS</b></h1>
   <div class="row g-5 w-100 justify-content-center mt-2">
     <div class="col-lg-3 col-md-4 col-6">
-      <div class="icon-box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="100" >
+      <div class="icon-box" >
           <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Listen.png" alt="">
           <h5 class="">We Listen and Understand</h5>
           <p class="">Your goals shape our solutions.</p>
         </div>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
-        <div class="icon-box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="100">
+        <div class="icon-box">
           <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Focus.png" alt="">
           <h5 class="">We Offer Real Solutions</h5>
           <p>Smart ideas that deliver real-world impact.</p>
         </div>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
-      <div class="icon-box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="100">
+      <div class="icon-box">
         <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/create-stratgies.png" alt=""> 
         <h5 class="">We Prioritize Strategic Thinking</h5>
         <p>Strong foundations lead to stronger outcomes.</p>
@@ -320,30 +379,30 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
-      <div class="icon-box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="100">
+      <div class="icon-box">
         <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Deliver.png" alt="">  
         <h5 class="">We Deliver Without Compromise</h5>
         <p>Results that exceed expectations every time.</p>
       </div>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
-      <div class="icon-box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="100">
+      <div class="icon-box">
         <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Teamwork.png" alt="">  
           <h5 class="">We Believe in Unified Efforts</h5>
           <p>Collaboration is key to innovation.</p>
       </div>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
-      <div class="icon-box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="100">
+      <div class="icon-box">
         <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Friendly.png" alt="">  
         <h5 class="">We Are Supportive and Accessible</h5>
         <p>Always here to guide and help.</p>
       </div>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
-      <div class="icon-box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="100">
+      <div class="icon-box">
         <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/logical.png" alt="">
-        <h5 class="">We Think Strategically and Logically</h5>
+        <h5 class="">We Think Strategically</h5>
         <p>Balanced approaches to tackle challenges effectively.</p>              
       </div>
     </div>
@@ -358,213 +417,243 @@
             <div class="col-lg-8">
                 <div class=" text-center text-lg-start">
                     <h2 class="fs-30 fw-700 text_brand_color2">Transform Your Ideas into Reality</h2>
-                    <h6 class="fs-18 fw-500 text_brand_color2 mb-3">Dive into the digital era with Weboconnect, where your vision meets our mobile app development expertise. Let's create something extraordinary together and set new benchmarks in the app world.</h6>
-                    <a href="<?= base_url() ?>contact" class="btn btn-outline-primary btn-rounded">Contact Us</a>
+                    <h6 class="fs-20 fw-400 text_brand_color2 my-4">Dive into the digital era with Weboconnect, where your vision meets our mobile app development expertise. Let's create something extraordinary together and set new benchmarks in the app world.</h6>
+                    <a href="<?= base_url() ?>contact" class="btn btn-outline-primary btn-rounded px-4">Contact Us</a>
                 </div>
             </div>
         </div>
     </div>
 </section>        
 
-<!-- <div class="section_padding testimonials-section  homeSection5" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
-  <div class="container">   
-    <h1>Reviews/Testimonials</h1>                                      
-      <h1><b>What Our Clients Say About Us</b></h1>
-      <div class="arrow_nav_slider">
-        <div class="owl-carousel owl-theme what_our_clients_say_carousel position-relative">
-                
-          <div class="item">
-            <div class="testimonial-item">
-              <div class="testimonial-header">
-                <img src="<?=base_url()?>assets/images/david.png" alt="Profile Picture">
-                <div>
-                  <div class="name">XAVIER GOULA</div>
-                  <div class="title">Architectural Travel</div>
-                </div>
-              </div>
-                <p class="description text-center">During the project flow we were very pleased by the work of Weboconnect’s business analysts and developers, who demonstrated high level of skills and competence. They made many significant contributions to our products both in terms of functionality and quality.</p>
-              <div class="testimonial-rating fs-2">★★★★☆</div>
-            </div>
-          </div> 
-          <div class="item">
-            <div class="testimonial-item">
-              <div class="testimonial-header">
-                <img src="<?=base_url()?>assets/images/david.png" alt="Profile Picture">
-                <div>
-                  <div class="name">XAVIER GOULA</div>
-                  <div class="title">Architectural Travel</div>
-                </div>
-              </div>
-                <p class="description text-center">During the project flow we were very pleased by the work of Weboconnect’s business analysts and developers, who demonstrated high level of skills and competence. They made many significant contributions to our products both in terms of functionality and quality.</p>
-              <div class="testimonial-rating fs-2">★★★★☆</div>
-            </div>
-          </div>       
-          <div class="item">
-            <div class="testimonial-item">
-              <div class="testimonial-header">
-                <img src="<?=base_url()?>assets/images/david.png" alt="Profile Picture">
-                <div>
-                  <div class="name">XAVIER GOULA</div>
-                  <div class="title">Architectural Travel</div>
-                </div>
-              </div>
-                <p class="description text-center">During the project flow we were very pleased by the work of Weboconnect’s business analysts and developers, who demonstrated high level of skills and competence. They made many significant contributions to our products both in terms of functionality and quality.</p>
-              <div class="testimonial-rating fs-2">★★★★☆</div>
-            </div>
-          </div>      
-          <div class="item">
-            <div class="testimonial-item">
-              <div class="testimonial-header">
-                <img src="<?=base_url()?>assets/images/david.png" alt="Profile Picture">
-                <div>
-                  <div class="name">XAVIER GOULA</div>
-                  <div class="title">Architectural Travel</div>
-                </div>
-              </div>
-                <p class="description text-center">During the project flow we were very pleased by the work of Weboconnect’s business analysts and developers, who demonstrated high level of skills and competence. They made many significant contributions to our products both in terms of functionality and quality.</p>
-              <div class="testimonial-rating fs-2">★★★★☆</div>
-            </div>
-          </div>      
-          <div class="item">
-            <div class="testimonial-item">
-              <div class="testimonial-header">
-                <img src="<?=base_url()?>assets/images/david.png" alt="Profile Picture">
-                <div>
-                  <div class="name">XAVIER GOULA</div>
-                  <div class="title">Architectural Travel</div>
-                </div>
-              </div>
-                <p class="description text-center">During the project flow we were very pleased by the work of Weboconnect’s business analysts and developers, who demonstrated high level of skills and competence. They made many significant contributions to our products both in terms of functionality and quality.</p>
-              <div class="testimonial-rating fs-2">★★★★☆</div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-  </div>   
-</div> -->
 
 <section class="section_padding tech-stack-section homeSection6" >
   <div class="container">
-    <h1>We Master Every Corner of Technology</h1>
-    <p>With expertise in almost every programming language, our 4,000+ team delivers dynamic solutions that align with modern business demands.</p>
-    <div class="row g-4 my-5">
+    <h2 class="fs-30 fw-700">We Master Every Corner of Technology</h2>
+    <p class="fs-20 fw-300">Our 4,000+ team has expertise in almost every programming language.</p>
+  </div>
+  <div class="container d-lg-block d-none">
+    <div class="row g-4 g-lg-5 my-5">
 
       <div class="col-lg-3 col-sm-6 col-6">
-        <div class="tech-item text-center"  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="400" >
-          <img src="https://img.icons8.com/windows/32/node-js.png" alt="Node Js Logo">
-          <p>Node Js</p>   
+        <div class="tech-item text-center">
+          <img src="<?=base_url()?>assets/images/icons/nodejs.webp" alt="Node Js Logo">
+          <p class="fs-20 fw-600">Node Js</p>   
         </div>
       </div>
       
       <div class="col-lg-3 col-sm-6 col-6">
         <div class="tech-item text-center">
-          <img src="https://img.icons8.com/external-kmg-design-flat-kmg-design/32/external-atom-education-kmg-design-flat-kmg-design.png" alt="React Js Logo">
-          <p>React Js</p>
+          <img src="<?=base_url()?>assets/images/icons/react.webp" alt="React Js Logo">
+          <p class="fs-20 fw-600">React Js</p>
         </div>
       </div>
 
       <div class="col-lg-3 col-sm-6 col-6">
         <div class="tech-item text-center">
-          <img src="https://img.icons8.com/fluency/48/laravel.png" alt="Laravel Logo">
-          <p>Laravel</p>
+          <img src="<?=base_url()?>assets/images/icons/laravel.webp" alt="Laravel Logo">
+          <p class="fs-20 fw-600">Laravel</p>
         </div>
       </div>
 
       <div class="col-lg-3 col-sm-6 col-6">
         <div class="tech-item text-center">
-          <img src="https://img.icons8.com/color/48/python--v1.png" alt="Python Logo">
-          <p>Python</p>
+          <img src="<?=base_url()?>assets/images/icons/python.webp" alt="Python Logo">
+          <p class="fs-20 fw-600">Python</p>
         </div>
       </div>
 
       <div class="col-lg-3 col-sm-6 col-6">
         <div class="tech-item text-center">
-          <img src="https://img.icons8.com/color/48/flutter.png" alt="Flutter Logo">
-          <p>Flutter</p>
+          <img src="<?=base_url()?>assets/images/icons/flutter.webp" alt="Flutter Logo">
+          <p class="fs-20 fw-600">Flutter</p>
         </div>
       </div>
 
       <div class="col-lg-3 col-sm-6 col-6">
         <div class="tech-item text-center">
-          <img src="https://img.icons8.com/3d-fluency/94/java-coffee-cup-logo.png" alt="Java Logo">
-          <p>Java</p>
+          <img src="<?=base_url()?>assets/images/icons/java.webp" alt="Java Logo">
+          <p class="fs-20 fw-600">Java</p>
         </div>
       </div>
 
       <div class="col-lg-3 col-sm-6 col-6">
         <div class="tech-item text-center">
-          <img src="https://img.icons8.com/fluency/48/swift.png" alt="Swift Logo">
-          <p>Swift</p>
+          <img src="<?=base_url()?>assets/images/icons/swift.webp" alt="Swift Logo">
+          <p class="fs-20 fw-600">Swift</p>
         </div>
       </div>
 
       <div class="col-lg-3 col-sm-6 col-6">
         <div class="tech-item text-center">
-          <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-codeigniter-is-an-open-source-software-rapid-development-web-framework-logo-color-tal-revivo.png" alt="Codeigniter Logo">
-          <p>Codeigniter</p>
+          <img src="<?=base_url()?>assets/images/icons/codeigniter.webp" alt="Codeigniter Logo">
+          <p class="fs-20 fw-600">Codeigniter</p>
         </div>
       </div>
 
       <div class="col-lg-3 col-sm-6 col-6">
         <div class="tech-item text-center">
-          <img src="https://img.icons8.com/external-vectorslab-glyph-vectorslab/50/external-29-data-science-and-big-data-vectorslab-glyph-vectorslab.png" alt="Artificial Intelligence Logo">
-          <p>Artificial Intelligence</p>
+          <img src="<?=base_url()?>assets/images/icons/ai.webp" alt="Artificial Intelligence Logo">
+          <p class="fs-20 fw-600">Artificial Intelligence</p>
         </div>
       </div>
 
       <div class="col-lg-3 col-sm-6 col-6">
         <div class="tech-item text-center">
-          <img src="https://img.icons8.com/external-soft-fill-juicy-fish/60/external-machine-voice-technology-soft-fill-soft-fill-juicy-fish.png" alt="Machine Learning Logo">
-          <p>Machine Learning</p>
+          <img src="<?=base_url()?>assets/images/icons/machine_learning.webp" alt="Machine Learning Logo">
+          <p class="fs-20 fw-600">Machine Learning</p>
         </div>
       </div>
 
       <div class="col-lg-3 col-sm-6 col-6">
         <div class="tech-item text-center">
-          <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-kotlin-a-cross-platform-statically-typed-general-purpose-programming-language-with-type-inference-logo-color-tal-revivo.png" alt="Kotlin Logo">
-          <p>Kotlin</p>
+          <img src="<?=base_url()?>assets/images/icons/kotlin.webp" alt="Kotlin Logo">
+          <p class="fs-20 fw-600">Kotlin</p>
         </div>
       </div>
 
       <div class="col-lg-3 col-sm-6 col-6">
         <div class="tech-item text-center">
-          <img src="https://img.icons8.com/cute-clipart/64/react-native.png" alt="React Native Logo">
-          <p>React Native</p>
+          <img src="<?=base_url()?>assets/images/icons/react.webp" alt="React Native Logo">
+          <p class="fs-20 fw-600">React Native</p>
         </div>
       </div>
-
     </div>
-
-    <button data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="100" class="btn btn-light fs-18 fw-600 px-5 btn-rounded"  data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal">Discuss Your Project</button>
   </div>
 
+
+  <div class="container d-block d-lg-none">
+    <div class="owl-carousel owl-theme single_slider">
+      <div class="item">
+        <div class="row g-4 my-5">
+
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/nodejs.webp" alt="Node Js Logo">
+              <p class="fs-20 fw-600">Node Js</p>   
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/react.webp" alt="React Js Logo">
+              <p class="fs-20 fw-600">React Js</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/laravel.webp" alt="Laravel Logo">
+              <p class="fs-20 fw-600">Laravel</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/python.webp" alt="Python Logo">
+              <p class="fs-20 fw-600">Python</p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="item">
+        <div class="row g-4 my-5">
+
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/flutter.webp" alt="Flutter Logo">
+              <p class="fs-20 fw-600">Flutter</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/java.webp" alt="Java Logo">
+              <p class="fs-20 fw-600">Java</p>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/swift.webp" alt="Swift Logo">
+              <p class="fs-20 fw-600">Swift</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/codeigniter.webp" alt="Codeigniter Logo">
+              <p class="fs-20 fw-600">Codeigniter</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="item">
+        <div class="row g-4 my-5">
+
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/ai.webp" alt="Artificial Intelligence Logo">
+              <p class="fs-20 fw-600">Artificial Intelligence</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/machine_learning.webp" alt="Machine Learning Logo">
+              <p class="fs-20 fw-600">Machine Learning</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/kotlin.webp" alt="Kotlin Logo">
+              <p class="fs-20 fw-600">Kotlin</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/react.webp" alt="React Native Logo">
+              <p class="fs-20 fw-600">React Native</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <button class="btn btn-light fs-18 fw-600 px-5 btn-rounded mt-3"  data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal">Discuss Your Project</button>
 </section>
 
-<section id="gallery" class="section_padding homeSection7 container" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="400" >
+
+<section id="gallery" class="section_padding homeSection7 container">
   <div class="text-center mb-4">
-    <h3 class="fs-30 fw-600">UNIQUE DESIGNS. OUTSTANDING SERVICES</h3>
+    <h3 class="fs-30 fw-700">UNIQUE DESIGNS. OUTSTANDING SERVICES</h3>
     <p class="fs-20 fw-400 text_brand_color2">When excellence matters, choose WebOConnect. We combine creativity and precision to deliver superior web and mobile solutions, tailored for your success.</p>
   </div>
   
   <?php $this->load->view('front/common/portfolio') ?>
 
   <div class="text-center">
-    <a href="#" class="btn btn-primary btn-rounded px-5 my-5">VIEW ALL</a>
+    <a href="#" class="btn btn-outline-primary btn-rounded px-5 my-5">VIEW ALL</a>
   </div>
 
 </section>
 
-<section class="trusted-alliances homeSection8 py-5 text-white">
-  <div class="container">
-    <h2 class="text-center mb-4">Our Trusted Alliances</h2>
+<section class="trusted-alliances homeSection8 section_padding text-white">
+  <div class="container py-5">
+    <h2 class="text-center mb-4 fs-30 fw-600">Our Trusted Alliances</h2>
                
-    <div class="row align-items-center justify-content-between" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+    <div class="row align-items-center justify-content-between">
       
-      <div class="col-lg-5 mb-4" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+      <div class="col-lg-5 mb-4">
         <div class="text-center text-lg-start">
           <h3>Your Trust, Our Strength</h3>
-          <p class="my-4">Every partnership reflects the trust and confidence our clients place in us. Together, we create impactful solutions that inspire growth and pave the way for long-term success.</p>
+          <p class="fs-20 fw-400 my-4">Every partnership reflects the trust and confidence our clients place in us. Together, we create impactful solutions that inspire growth and pave the way for long-term success.</p>
           <div class="d-none d-lg-block">
           <a class="btn btn-light btn-rounded px-4 mt-3" data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal">Discuss Your Next Project</a>
           </div>
@@ -572,33 +661,81 @@
       </div>
 
       <div class="col-lg-6">
-        <div class="row text-center align-items-center justify-content-center g-4">        
-          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="col-6 col-md-4">
-            <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances1.png" alt="Angela Simeone" class="alliance-logo img-fluid">
+        <div class="d-lg-block d-none">
+          <div class="row text-center align-items-center justify-content-center g-4 g-lg-5">        
+            <div class="col-6 col-md-4">
+              <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances1.png" alt="Angela Simeone" class="alliance-logo img-fluid">
+            </div>
+            <div class="col-6 col-md-4">
+              <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances2.jpg" alt="One Hope" class="alliance-logo img-fluid">
+            </div>
+            <div class="col-6 col-md-4">
+              <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances3.svg" alt="Pro Rider" class="alliance-logo img-fluid">
+            </div>
+            <div class="col-6 col-md-4">
+              <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances4.jpg" alt="LuLu Diamonds" class="alliance-logo img-fluid">
+            </div>
+            <div class="col-6 col-md-4">
+              <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances5.svg" alt="Philcoin" class="alliance-logo img-fluid">
+            </div>
+            <div class="col-6 col-md-4">
+              <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances6.svg" alt="Wallet Cab" class="alliance-logo img-fluid">
+            </div>
+            <div class="col-6 col-md-4">
+              <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances7.svg" alt="Venturewell" class="alliance-logo img-fluid">
+            </div>
+            <div class="col-6 col-md-4">
+              <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances8.svg" alt="Nurseify" class="alliance-logo img-fluid">
+            </div>
+            <div class="col-6 col-md-4">
+              <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances9.svg" alt="ICNA" class="alliance-logo img-fluid">
+            </div>
           </div>
-          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="col-6 col-md-4">
-            <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances2.jpg" alt="One Hope" class="alliance-logo img-fluid">
-          </div>
-          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="col-6 col-md-4">
-            <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances3.svg" alt="Pro Rider" class="alliance-logo img-fluid">
-          </div>
-          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="col-6 col-md-4">
-            <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances4.jpg" alt="LuLu Diamonds" class="alliance-logo img-fluid">
-          </div>
-          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="col-6 col-md-4">
-            <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances5.svg" alt="Philcoin" class="alliance-logo img-fluid">
-          </div>
-          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="col-6 col-md-4">
-            <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances6.svg" alt="Wallet Cab" class="alliance-logo img-fluid">
-          </div>
-          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="col-6 col-md-4">
-            <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances7.svg" alt="Venturewell" class="alliance-logo img-fluid">
-          </div>
-          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="col-6 col-md-4">
-            <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances8.svg" alt="Nurseify" class="alliance-logo img-fluid">
-          </div>
-          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="col-6 col-md-4">
-            <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances9.svg" alt="ICNA" class="alliance-logo img-fluid">
+        </div>
+
+        <div class="d-block d-lg-none">
+          <div class="owl-carousel owl-theme single_slider_zooming">
+            <div class="item">
+              <div class="row g-4 my-5">
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances1.png" alt="Angela Simeone" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances2.jpg" alt="One Hope" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances3.svg" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances4.jpg" alt="LuLu Diamonds" class="alliance-logo img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row g-4 my-5">
+
+                <div class="col-6 col-md-4">
+                <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances5.svg" alt="Philcoin" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances6.svg" alt="Wallet Cab" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances7.svg" alt="Venturewell" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances8.svg" alt="Nurseify" class="alliance-logo img-fluid">
+                </div>
+
+              </div>
+            </div>
+            <div class="item">
+              <div class="row g-4 my-5">
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances9.svg" alt="ICNA" class="alliance-logo img-fluid">
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -608,17 +745,21 @@
 
     </div>
   </div>
+
+
 </section>
 
-<section class="why-choose-us homeSection9 py-5">
+<section class="why-choose-us homeSection9 py-5" id="whyChooseAccordion">
   <div class="container">
     <h1 class="text-center"><b>Why Trust Us?</b></h1>
-    <div class="row justify-content-center gx-4 accordion mt-5" id="whyChooseAccordion">
+  </div>
+  <div class="container d-none d-lg-block">
+    <div class="row justify-content-center gx-4  gx-lg-5 accordion mt-5">
       <!-- First Column -->
       <div class="col-md-6">
-        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="accordion-item mb-4">
+        <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button fs-4 collapsed rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            <button class="accordion-button fs-4 collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
               <i class="fas fa-users me-2"></i>Deep Expertise
             </button>
           </h2>
@@ -629,9 +770,9 @@
       </div>
 
       <div class="col-md-6">
-        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="accordion-item mb-4">
+        <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed fs-4 rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
               <i class="fas fa-clock me-2"></i>Round-the-Clock Communication
             </button>
           </h2>
@@ -642,9 +783,9 @@
       </div>
 
       <div class="col-md-6">
-        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="accordion-item mb-4">
+        <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed fs-4 rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
               <i class="fas fa-heart me-2"></i>Proven Results
             </button>
           </h2>
@@ -655,9 +796,9 @@
       </div>
 
       <div class="col-md-6">
-        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="accordion-item mb-4">
+        <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingFour">
-            <button class="accordion-button collapsed fs-4 rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
               <i class="fas fa-lightbulb me-2"></i>Strategic Technical Insights
             </button>
           </h2>
@@ -668,9 +809,9 @@
       </div>
 
       <div class="col-md-6">
-        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="accordion-item mb-4">
+        <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingFive">
-            <button class="accordion-button collapsed fs-4 rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
               <i class="fas fa-dollar-sign me-2"></i>Efficient & Affordable
             </button>
           </h2>
@@ -681,9 +822,9 @@
       </div>
 
       <div class="col-md-6">
-        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="accordion-item mb-4">
+        <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingSix">
-            <button class="accordion-button collapsed fs-4 rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
               <i class="fas fa-briefcase me-2"></i>Diverse Capabilities
             </button>
           </h2>
@@ -693,11 +834,10 @@
         </div>
       </div>
       
-      <!-- Second Column -->
       <div class="col-md-6">
-        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="accordion-item mb-4">
+        <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingSeven">
-            <button class="accordion-button collapsed fs-4 rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
               <i class="fas fa-users-cog me-2"></i>Bold Leadership
             </button>
           </h2>
@@ -708,9 +848,9 @@
       </div>
 
       <div class="col-md-6">
-        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="accordion-item mb-4">
+        <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingEight">
-            <button class="accordion-button collapsed fs-4 rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+            <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
               <i class="fas fa-cogs me-2"></i>Industry Knowledge
             </button>
           </h2>
@@ -721,9 +861,9 @@
       </div>
 
       <div class="col-md-6">
-        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="accordion-item mb-4">
+        <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingNine">
-            <button class="accordion-button collapsed fs-4 rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+            <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
               <i class="fas fa-tasks me-2"></i>Decades of Expertise
             </button>
           </h2>
@@ -734,9 +874,9 @@
       </div>
 
       <div class="col-md-6">
-        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="accordion-item mb-4">
+        <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingTen">
-            <button class="accordion-button collapsed fs-4 rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+            <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
               <i class="fas fa-thumbs-up me-2"></i>Inspired Team
             </button>
           </h2>
@@ -747,9 +887,9 @@
       </div>
 
       <div class="col-md-6"> 
-        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="accordion-item mb-4">
+        <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingEleven">
-            <button class="accordion-button collapsed fs-4 rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+            <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
               <i class="fas fa-thumbs-up me-2"></i>Personalized Flexibility
             </button>
           </h2>
@@ -760,9 +900,9 @@
       </div>
 
       <div class="col-md-6">
-        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="accordion-item mb-4">
+        <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingTwelve">
-            <button class="accordion-button collapsed fs-4 rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+            <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
               <i class="fas fa-thumbs-up me-2"></i>Smart Management
             </button>
           </h2>
@@ -773,9 +913,9 @@
       </div>
 
       <div class="col-md-6"> 
-        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="accordion-item mb-4">
+        <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingThirteen">
-            <button class="accordion-button collapsed fs-4 rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+            <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
               <i class="fas fa-thumbs-up me-2"></i>Result-Oriented Project Managers
             </button>
           </h2>
@@ -786,9 +926,9 @@
       </div>
 
       <div class="col-md-6"> 
-        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="accordion-item mb-4">
+        <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingFourteen">
-            <button class="accordion-button collapsed fs-4 rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+            <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
               <i class="fas fa-thumbs-up me-2"></i>Affordable Excellence
             </button>
           </h2>
@@ -798,12 +938,10 @@
         </div>  
       </div>
 
-
-
       <div class="col-md-6"> 
-        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="accordion-item mb-4">
+        <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingFifteen">
-            <button class="accordion-button collapsed fs-4 rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+            <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
               <i class="fas fa-thumbs-up me-2"></i>Attention That Matters
             </button>
           </h2>
@@ -813,11 +951,10 @@
         </div>  
       </div>
 
-
       <div class="col-md-6"> 
-        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" class="accordion-item mb-4">
+        <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingSixteen">
-            <button class="accordion-button collapsed fs-4 rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
+            <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
               <i class="fas fa-thumbs-up me-2"></i>Cutting-Edge Technology
             </button>
           </h2>
@@ -828,16 +965,247 @@
       </div>
 
     </div>
+  </div>  
+  <div class="container accordion d-block d-lg-none mt-4">
+    <div class="owl-carousel owl-theme single_slider">
+      <div class="item">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="accordion-item mb-4">
+              <h2 class="accordion-header" id="m_headingOne">
+                <button class="accordion-button fs-4 collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  <i class="fas fa-users me-2"></i>Deep Expertise
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="m_headingOne" data-bs-parent="#whyChooseAccordion">
+                <div class="accordion-body fs-4">Pioneering innovative solutions with technical excellence.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="accordion-item mb-4">
+              <h2 class="accordion-header" id="m_headingTwo">
+                <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <i class="fas fa-clock me-2"></i>Round-the-Clock Communication
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="m_headingTwo" data-bs-parent="#whyChooseAccordion">
+                <div class="accordion-body fs-4">We’re here for you, 24/7.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="accordion-item mb-4">
+              <h2 class="accordion-header" id="m_headingThree">
+                <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <i class="fas fa-heart me-2"></i>Proven Results
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="m_headingThree" data-bs-parent="#whyChooseAccordion">
+                <div class="accordion-body fs-4">A portfolio that speaks for itself.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="accordion-item mb-4">
+              <h2 class="accordion-header" id="m_headingFour">
+                <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <i class="fas fa-lightbulb me-2"></i>Strategic Technical Insights
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="m_headingFour" data-bs-parent="#whyChooseAccordion">
+                <div class="accordion-body fs-4">Every solution is tailored for impact.</div>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+      <div class="item">
+        <div class="row">
+
+          <div class="col-md-6">
+            <div class="accordion-item mb-4">
+              <h2 class="accordion-header" id="m_headingFive">
+                <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  <i class="fas fa-dollar-sign me-2"></i>Efficient & Affordable
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="m_headingFive" data-bs-parent="#whyChooseAccordion">
+                <div class="accordion-body fs-4">Smart solutions for your time and money.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="accordion-item mb-4">
+              <h2 class="accordion-header" id="m_headingSix">
+                <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  <i class="fas fa-briefcase me-2"></i>Diverse Capabilities
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="m_headingSix" data-bs-parent="#whyChooseAccordion">
+                <div class="accordion-body fs-4">From ideation to execution, we do it all.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="accordion-item mb-4">
+              <h2 class="accordion-header" id="m_headingSeven">
+                <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  <i class="fas fa-users-cog me-2"></i>Bold Leadership
+                </button>
+              </h2>
+              <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="m_headingSeven" data-bs-parent="#whyChooseAccordion">
+                <div class="accordion-body fs-4">Transformative strategies from experienced visionaries.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="accordion-item mb-4">
+              <h2 class="accordion-header" id="m_headingEight">
+                <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                  <i class="fas fa-cogs me-2"></i>Industry Knowledge
+                </button>
+              </h2>
+              <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="m_headingEight" data-bs-parent="#whyChooseAccordion">
+                <div class="accordion-body fs-4">Specialized solutions for every domain.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="row">
+
+          <div class="col-md-6">
+            <div class="accordion-item mb-4">
+              <h2 class="accordion-header" id="m_headingNine">
+                <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                  <i class="fas fa-tasks me-2"></i>Decades of Expertise
+                </button>
+              </h2>
+              <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="m_headingNine" data-bs-parent="#whyChooseAccordion">
+                <div class="accordion-body fs-4">A history of consistent success.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="accordion-item mb-4">
+              <h2 class="accordion-header" id="m_headingTen">
+                <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                  <i class="fas fa-thumbs-up me-2"></i>Inspired Team
+                </button>
+              </h2>
+              <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="m_headingTen" data-bs-parent="#whyChooseAccordion">
+                <div class="accordion-body fs-4">Passionate experts ready to innovate.</div>
+              </div>
+            </div> 
+          </div>
+
+          <div class="col-md-6"> 
+            <div class="accordion-item mb-4">
+              <h2 class="accordion-header" id="m_headingEleven">
+                <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                  <i class="fas fa-thumbs-up me-2"></i>Personalized Flexibility
+                </button>
+              </h2>
+              <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="m_headingEleven" data-bs-parent="#whyChooseAccordion">
+                <div class="accordion-body fs-4">Your needs define our approach.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="accordion-item mb-4">
+              <h2 class="accordion-header" id="m_headingTwelve">
+                <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                  <i class="fas fa-thumbs-up me-2"></i>Smart Management
+                </button>
+              </h2>
+              <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="m_headingTwelve" data-bs-parent="#whyChooseAccordion">
+                <div class="accordion-body fs-4">Delivering clarity and results, every time.</div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="row">
+
+          <div class="col-md-6"> 
+            <div class="accordion-item mb-4">
+              <h2 class="accordion-header" id="m_headingThirteen">
+                <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                  <i class="fas fa-thumbs-up me-2"></i>Result-Oriented Project Managers
+                </button>
+              </h2>
+              <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="m_headingThirteen" data-bs-parent="#whyChooseAccordion">
+                <div class="accordion-body fs-4">Focusing only on what matters—your success.</div>
+              </div>
+            </div>  
+          </div>
+
+          <div class="col-md-6"> 
+            <div class="accordion-item mb-4">
+              <h2 class="accordion-header" id="m_headingFourteen">
+                <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                  <i class="fas fa-thumbs-up me-2"></i>Affordable Excellence
+                </button>
+              </h2>
+              <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="m_headingFourteen" data-bs-parent="#whyChooseAccordion">
+                <div class="accordion-body fs-4">Delivering exceptional value within your budget.</div>
+              </div>
+            </div>  
+          </div>
+
+          <div class="col-md-6"> 
+            <div class="accordion-item mb-4">
+              <h2 class="accordion-header" id="m_headingFifteen">
+                <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                  <i class="fas fa-thumbs-up me-2"></i>Attention That Matters
+                </button>
+              </h2>
+              <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="m_headingFifteen" data-bs-parent="#whyChooseAccordion">
+                <div class="accordion-body fs-4">Your project is always our top priority.</div>
+              </div>
+            </div>  
+          </div>
+
+          <div class="col-md-6"> 
+            <div class="accordion-item mb-4">
+              <h2 class="accordion-header" id="m_headingSixteen">
+                <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
+                  <i class="fas fa-thumbs-up me-2"></i>Cutting-Edge Technology
+                </button>
+              </h2>
+              <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="m_headingSixteen" data-bs-parent="#whyChooseAccordion">
+                <div class="accordion-body fs-4">Solutions powered by the latest innovations.</div>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+
 </section>
 
 
 <div class="industries-section">
   <div class="container">
-    <h2 class="fs-30 fw-600 text-center text-white mb-4">Industries We Serve</h2>
-    <div class="row">
+    <h2 class="fs-30 fw-700 text-center text-white mb-4">Industries We Serve</h2>
+  </div>
+  <div class="container d-lg-block d-none">
+    <div class="row g-4 g-lg-5 my-4">
         <!-- Healthcare Card -->
-        <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+        <div class="col-md-3 col-sm-6 col-6">
             <div class="industry-card">
                 <img src="<?=base_url()?>assets/images/icons/dr.webp" alt="Healthcare Icon">
                 <p>Healthcare</p>
@@ -845,7 +1213,7 @@
         </div>
         
         <!-- Finance Card -->
-        <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+        <div class="col-md-3 col-sm-6 col-6">
             <div class="industry-card">
                 <img src="<?=base_url()?>assets/images/icons/business.webp" alt="Finance Icon">
                 <p>Finance</p>
@@ -853,7 +1221,7 @@
         </div>
         
         <!-- Retail & E-commerce Card -->
-        <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+        <div class="col-md-3 col-sm-6 col-6">
             <div class="industry-card">
                 <img src="<?=base_url()?>assets/images/icons/ecommerce-website.webp" alt="Retail & E-commerce Icon">
                 <p>Retail & E-commerce</p>
@@ -861,7 +1229,7 @@
         </div>
         
         <!-- Education Card -->
-        <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+        <div class="col-md-3 col-sm-6 col-6">
             <div class="industry-card">
                 <img src="<?=base_url()?>assets/images/icons/education.webp" alt="Education Icon">
                 <p>Education</p>
@@ -869,7 +1237,7 @@
         </div>
         
         <!-- Travel & Tourism Card -->
-        <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+        <div class="col-md-3 col-sm-6 col-6">
             <div class="industry-card">
                 <img src="<?=base_url()?>assets/images/icons/travel.webp" alt="Travel & Tourism Icon">
                 <p>Travel & Tourism</p>
@@ -877,7 +1245,7 @@
         </div>
         
         <!-- Real Estate Card -->
-        <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+        <div class="col-md-3 col-sm-6 col-6">
             <div class="industry-card">
                 <img src="<?=base_url()?>assets/images/icons/home.webp" alt="Real Estate Icon">
                 <p>Real Estate</p>
@@ -885,7 +1253,7 @@
         </div>
         
         <!-- Media & Entertainment Card -->
-        <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+        <div class="col-md-3 col-sm-6 col-6">
             <div class="industry-card">
                 <img src="<?=base_url()?>assets/images/icons/avatar.webp" alt="Media & Entertainment Icon">
                 <p>Media & Entertainment</p>
@@ -893,14 +1261,14 @@
         </div>
         
         <!-- Automotive Card -->
-        <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+        <div class="col-md-3 col-sm-6 col-6">
             <div class="industry-card">
                 <img src="<?=base_url()?>assets/images/icons/car_svg.webp" alt="Automotive Icon">
                 <p>Automotive</p>
             </div>
         </div>
         
-        <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+        <div class="col-md-3 col-sm-6 col-6">
             <div class="industry-card">
                 <img src="<?=base_url()?>assets/images/icons/lifestyle.webp" alt="Lifestyle">
                 <p>Lifestyle</p>
@@ -908,7 +1276,7 @@
         </div>
         
         <!-- Real Estate Card -->
-        <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+        <div class="col-md-3 col-sm-6 col-6">
             <div class="industry-card">
                 <img src="<?=base_url()?>assets/images/icons/dating.webp" alt="Productivity">
                 <p>Productivity</p>
@@ -916,7 +1284,7 @@
         </div>
         
         <!-- Media & Entertainment Card -->
-        <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+        <div class="col-md-3 col-sm-6 col-6">
             <div class="industry-card">
                 <img src="<?=base_url()?>assets/images/icons/beauty.webp" alt="Beauty Icon">
                 <p>Beauty</p>
@@ -924,22 +1292,133 @@
         </div>
         
         <!-- Automotive Card -->
-        <div class="col-md-3 col-sm-6 col-6 mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+        <div class="col-md-3 col-sm-6 col-6">
             <div class="industry-card">
             <img src="<?= base_url() ?>/assets/images/icons/communication.webp" alt="Communication">
                 <p>Communication</p>
             </div>
         </div>
-    </div>
-    <div class="text-center mt-4">
-        <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal">Discuss Your Project</button>
+        
     </div>
   </div>
+
+    <div class="container d-block d-lg-none">
+
+      <div class="owl-carousel owl-theme single_slider">
+        <div class="item">
+            <div class="row g-4 g-lg-5 my-4">
+
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="industry-card">
+                        <img src="<?=base_url()?>assets/images/icons/dr.webp" alt="Healthcare Icon">
+                        <p>Healthcare</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="industry-card">
+                        <img src="<?=base_url()?>assets/images/icons/business.webp" alt="Finance Icon">
+                        <p>Finance</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="industry-card">
+                        <img src="<?=base_url()?>assets/images/icons/ecommerce-website.webp" alt="Retail & E-commerce Icon">
+                        <p>Retail & E-commerce</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="industry-card">
+                        <img src="<?=base_url()?>assets/images/icons/education.webp" alt="Education Icon">
+                        <p>Education</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="item">
+                <div class="row g-4 g-lg-5 my-4">
+
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="industry-card">
+                        <img src="<?=base_url()?>assets/images/icons/travel.webp" alt="Travel & Tourism Icon">
+                        <p>Travel & Tourism</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="industry-card">
+                        <img src="<?=base_url()?>assets/images/icons/home.webp" alt="Real Estate Icon">
+                        <p>Real Estate</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="industry-card">
+                        <img src="<?=base_url()?>assets/images/icons/avatar.webp" alt="Media & Entertainment Icon">
+                        <p>Media & Entertainment</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="industry-card">
+                        <img src="<?=base_url()?>assets/images/icons/car_svg.webp" alt="Automotive Icon">
+                        <p>Automotive</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row g-4 g-lg-5 my-4">
+                  <div class="col-md-3 col-sm-6 col-6">
+                      <div class="industry-card">
+                          <img src="<?=base_url()?>assets/images/icons/lifestyle.webp" alt="Lifestyle">
+                          <p>Lifestyle</p>
+                      </div>
+                  </div>
+                  
+                  <div class="col-md-3 col-sm-6 col-6">
+                      <div class="industry-card">
+                          <img src="<?=base_url()?>assets/images/icons/dating.webp" alt="Productivity">
+                          <p>Productivity</p>
+                      </div>
+                  </div>
+                  
+                  <div class="col-md-3 col-sm-6 col-6">
+                      <div class="industry-card">
+                          <img src="<?=base_url()?>assets/images/icons/beauty.webp" alt="Beauty Icon">
+                          <p>Beauty</p>
+                      </div>
+                  </div>
+                  
+                  <div class="col-md-3 col-sm-6 col-6">
+                      <div class="industry-card">
+                      <img src="<?= base_url() ?>/assets/images/icons/communication.webp" alt="Communication">
+                          <p>Communication</p>
+                      </div>
+                  </div>
+                
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+          <div class="col-12 mt-5">
+            <div class="text-center">
+              <button class="btn btn-light btn-rounded px-4" data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal">Discuss Your Project</button>
+            </div>
+          </div>
+      </div>
+    </div>
 </div>
 
 <section class="section_padding">
   <div class="container">
     <h2 class="fs-30 fw-700 text-uppercase text-center">OUR LATEST BLOGS</h2>
+  </div>
+  <div class="container d-lg-block d-none">
     <div class="row justify-content-center g-4 mt-5">
         <div class="col-lg-4 col-sm-6">
             <div class="blogs_card">
@@ -977,6 +1456,55 @@
                 </div>
             </div>
         </div>
+    </div>
+  </div>
+  <div class="container d-block d-lg-none">
+    <div class="owl-carousel owl-theme single_slider">
+      <div class="item">
+        <div class="blogs_card">
+          <img class="w-100" src="<?= base_url() ?>assets/images/blogs/blogs_img5.webp" alt="blogs images" />
+          <div class="blogs_card_content">
+            <small class="fs-12 fw-400">04 oct 2024</small>
+            <h4 class="fs-18 fw-600">How to Build a Scalable Web
+            Application</h4>
+            <p class="fs-14 fw-400">In this digital world, any business organization requires scalable web applications that erfectly with its user base. Whenever an application fails...</p>
+            <a class="fs-14 fw-500" href="<?= base_url() ?>blog-details">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="blogs_card">
+          <img class="w-100" src="<?= base_url() ?>assets/images/blogs/blogs_img4.webp" alt="blogs images" />
+          <div class="blogs_card_content">
+            <small class="fs-12 fw-400">03 oct 2024</small>
+            <h4 class="fs-18 fw-600">The Role of APIs in Modern Web
+            Development</h4>
+            <p class="fs-14 fw-400">Applications make today&#39;s world of modern web development more interconnected than ever before. Due to the presence of APIs in web.....</p>
+            <a class="fs-14 fw-500" href="<?= base_url() ?>blog-details">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="blogs_card">
+          <img class="w-100" src="<?= base_url() ?>assets/images/blogs/blogs_img6.webp" alt="blogs images" />
+          <div class="blogs_card_content">
+            <small class="fs-12 fw-400">21 oct 2024</small>
+            <h4 class="fs-18 fw-600">Top 5 Programming Languages
+            for Web Development in 2024</h4>
+            <p class="fs-14 fw-400">As we enter into 2024, web development trends change very rapidly; therefore, when it comes to the choice of a programming language, it will...</p>
+            <a class="fs-14 fw-500" href="<?= base_url() ?>blog-details">Read More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row mt-4">
+      <div class="col-12 text-center">
+          <a class="btn view_all_button fs-16 fw-600 " href="<?= base_url() ?>blogs">View All</a>
+      </div>
     </div>
   </div>
 </section>

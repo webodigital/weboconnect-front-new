@@ -5,18 +5,28 @@
         <nav id="navigation1" class="navigation align-items-center justify-content-between">
 
             <div class="nav-header">
-                <a class="nav-brand px-2" href="<?=base_url()?>">
+                <a class="nav-brand px-2 d-lg-block d-none" href="<?=base_url()?>">
                     <img width="100" src="<?=base_url()?>assets/images/logo/logo.png" alt="logo" title="logo">
                 </a>
-                <span class="d-block d-lg-none">                    
-                    <a href="#" class="btn btn-light get_estimate_btn">
-                        Get An Estimate 
-                    </a>
-                    <a href="#" class="b_rds_5 ms-2 btn btn-danger" style="background:#FF492C;">
-                        <i class="bi bi-telephone-fill"></i>
-                    </a>
-                </span>
-                <div class="nav-toggle"></div>
+                <a class="nav-brand px-2 d-block d-lg-none" href="<?=base_url()?>">
+                    <img width="100" src="<?=base_url()?>assets/images/logo/logo_m.png" alt="logo" title="logo">
+                </a>
+                
+                <div class="nav-toggle">
+                    <span class="d-block d-lg-none">                    
+                        <a href="#" class="btn btn-light get_estimate_btn" data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal" >
+                            Get An Estimate 
+                        </a>
+                    </span>
+                    <span class="d-block d-lg-none">
+                        <a href="#" class="b_rds_5 btn btn-danger px-3" data-bs-toggle="modal" data-bs-target="#lets_call_popup_modal">
+                            <i class="bi bi-telephone-fill"></i>
+                        </a>
+                    </span>
+                    <div class="nav_toggle_btn">
+                        <img src="<?= base_url() ?>/assets/images/icons/nav_toggle.webp" alt="">
+                    </div>
+                </div>
             </div>
         
             <div class="nav-menus-wrapper xs-menu ">
@@ -332,7 +342,7 @@
                         </a>
                     </li>
                     <li class="">
-                        <a href="#" class="b_rds_5 ms-2 btn btn-danger" style="background:#FF492C;">
+                        <a href="#" class="b_rds_5 ms-4 btn btn-danger px-3"  data-bs-toggle="modal" data-bs-target="#lets_call_popup_modal">
                             <i class="bi bi-telephone-fill"></i>
                         </a>
                     </li>
