@@ -154,7 +154,8 @@ footer {
       color: #fff;
     }
     .links {
-      font-size: 1.8rem;
+      font-size: 1.7rem;
+      font-weight: 300;
       list-style: none;
       padding: 0px;
       /* margin-top: 25px; */
@@ -2273,15 +2274,19 @@ footer {
   .modal-content{
     background-image: linear-gradient(to right, rgb(1, 69, 142, 0.5), rgba(1, 69, 142, 0.5)), 
     url('../images/handshake.webp');
+    background-size: cover;
+    background-position: center;
     border-radius: 20px;
     padding: 15px;
     position: relative;
+    overflow: hidden;
     form{
       border-radius: 20px;
       background: rgba(0, 20, 49, 0.2);
       padding: 30px 20px;
     }
   }
+
   .btn_close{
     width: 35px;
     height: 35px;
@@ -2296,9 +2301,28 @@ footer {
     justify-content: center;
     color: #ffffff;
     border-radius: 50%;
+    z-index: +9;
   }
 }
+.discuss_project_modal.need_help{
+  .contact_details{
+    position: relative;
+    z-index: +1;
+  }
 
+  .modal-content::before{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 150%;
+    background-color: rgba(255, 255, 255, 0.2);
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+}
 
 
 @media screen and (width < 992px) {
