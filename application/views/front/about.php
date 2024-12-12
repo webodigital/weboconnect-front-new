@@ -19,14 +19,14 @@
 
 <section class="bg_azure section_padding">
   <div class="container">
-    <div class="row justify-content-between align-items-center g-4">
+    <div class="row justify-content-between align-items-center g-4 g-lg-5">
       <div class="col-lg-6 order-last order-sm-first">
         <img class="w-100" src="<?= base_url() ?>assets/images/about/empowering_digital_futures.webp" alt="ABOUT US" />
       </div>
-      <div class="col-lg-6 ">
+      <div class="col-lg-6">
         <div class="about_corner_content text-lg-start text-center">
           <p class="fs-16 fw-600" style="color:#01448A;">ABOUT US</p>
-          <h1 class="fs-34 fw-600 my-4">Empowering Digital Futures With Expertise, Dedication, and Innovation</h1>
+          <h1 class="fs-30 fw-700 my-4">Empowering Digital Futures With Expertise, Dedication, and Innovation</h1>
           <p class="fs-18 fw-500">At Weboconnect, we blend innovation with expertise to sculpt the digital landscapes of tomorrow. Based in the vibrant heart of London and extending our creative reach globally, we are your partners in crafting mobile and web solutions that resonate worldwide.</p>
         </div>
       </div>
@@ -182,9 +182,9 @@
               <img src="<?= base_url() ?>assets/images/about/icons/outsource_project.webp" alt="Outsource Project">
             </span>
             <h4 class="text-black fs-20 fw-700 my-3">Outsource Project</h4>
-            <div class="d-flex">
-            <a href="" class="btn btn-sm btn-outline-primary btn-rounded">View Details</a>
-            <a href="" class="btn btn-sm btn-outline-primary btn-rounded">View Case Studies</a>
+              <div class="d-flex">
+              <a href="" class="btn btn-sm btn-outline-primary btn-rounded px-3">View Details</a>
+              <a href="" class="btn btn-sm btn-outline-primary btn-rounded px-3">View Case Studies</a>
             </div>
           </div>
         </div>
@@ -198,9 +198,9 @@
               <img src="<?= base_url() ?>assets/images/about/icons/hire_dedicated.webp" alt="Hire Dedicated Resources">
             </span>
             <h4 class="text-white fs-20 fw-700 my-3">Hire Dedicated Resources</h4>
-            <div class="d-flex">
-            <a href="" class="btn btn-sm btn-outline-light btn-rounded">View Details</a>
-            <a href="" class="btn btn-sm btn-outline-light btn-rounded">View Case Studies</a>
+              <div class="d-flex">
+              <a href="" class="btn btn-sm btn-outline-light btn-rounded px-3">View Details</a>
+              <a href="" class="btn btn-sm btn-outline-light btn-rounded px-3">View Case Studies</a>
             </div>
           </div>
         </div>
@@ -214,9 +214,9 @@
               <img src="<?= base_url() ?>assets/images/about/icons/white_label.webp" alt="white Label Partnership">
             </span>
             <h4 class="text-black fs-20 fw-700 my-3">White Label Partnership</h4>
-            <div class="d-flex">
-            <a href="" class="btn btn-sm btn-outline-primary btn-rounded">View Details</a>
-            <a href="" class="btn btn-sm btn-outline-primary btn-rounded">View Case Studies</a>
+              <div class="d-flex">
+              <a href="" class="btn btn-sm btn-outline-primary btn-rounded px-3">View Details</a>
+              <a href="" class="btn btn-sm btn-outline-primary btn-rounded px-3">View Case Studies</a>
             </div>
           </div>
         </div>
@@ -231,8 +231,8 @@
             </span>
             <h4 class="text-white fs-20 fw-700 my-3">Product Partnership</h4>
             <div class="d-flex">
-            <a href="" class="btn btn-sm btn-outline-light btn-rounded">View Details</a>
-            <a href="" class="btn btn-sm btn-outline-light btn-rounded">View Case Studies</a>
+              <a href="" class="btn btn-sm btn-outline-light btn-rounded px-3">View Details</a>
+              <a href="" class="btn btn-sm btn-outline-light btn-rounded px-3">View Case Studies</a>
             </div>
           </div>
         </div>
@@ -245,10 +245,10 @@
 
 <section class="craft_future">
   <div class="container">
-    <div class="row align-items-center justify-content-between g-4 py-5">
-      <div class="col-md-6 col-lg-5 text-center text-lg-start">
+    <div class="row align-items-center justify-content-between g-4 g-lg-5 py-5">
+      <div class="col-md-6 col-lg-6 text-center text-lg-start">
         <h2 class="fs-34 fw-700 text-white">Craft Your Future with Us</h2>
-        <h6 class="fs-18 fw-700 text-white">Ready to make a mark in the digital world? Join Weboconnect, where your career journey meets innovation and growth.</h6>
+        <h6 class="fs-18 fw-500 text-white my-4">Ready to make a mark in the digital world? Join Weboconnect, where your career journey meets innovation and growth.</h6>
         <a href="" class="btn btn-primary-gradient btn-rounded btn-md px-5 my-3" style="">APPLY NOW</a>
       </div>
       <div class="col-md-6">
@@ -268,7 +268,7 @@
       <h6 class="fs-18 fw-500 text-text_brand_color1">These principles drive our dedication to innovation, excellence, and building lasting relationships.</h6>
     </div>
 
-    <div class="row justify-content-center g-4 mt-5">
+    <div class="row justify-content-center g-4 g-lg-5 mt-5">
 
       <div class="col-sm-4 col-md-3 col-6">
         <div class="pillars_our_success_card">
@@ -339,7 +339,7 @@
 
 <section class="bg_azure section_padding">
   <div class="container">
-    <div class="row justify-content-between align-items-center g-4">
+    <div class="row justify-content-between align-items-center g-4 g-lg-5">
       <div class="col-md-6 order-last order-sm-first">
        <div class="innovation_meets">
           <span class="imr_top">
@@ -407,8 +407,8 @@
       </div>
       <div class="col-md-6">
         <div class="about_corner_content">
-          <h1 class="fs-34 fw-800 my-4">Innovation Meets Reliability</h1>
-          <p class="fs-18 fw-800">Choosing Weboconnect means partnering with a team that understands the heartbeat of digital innovation. Our commitment to excellence and client satisfaction sets us apart.</p>
+          <h1 class="fs-30 fw-700 my-4">Innovation Meets Reliability</h1>
+          <p class="fs-18 fw-500">Choosing Weboconnect means partnering with a team that understands the heartbeat of digital innovation. Our commitment to excellence and client satisfaction sets us apart.</p>
         </div>
       </div>
     </div>
@@ -555,7 +555,7 @@
     <div class="text-center">
       <h2 class="fs-34 fw-700 text-white">What do clients like about us ?</h2>
     </div>
-    <div class="row g-4 align-items-center mt-5">
+    <div class="row align-items-center g-4 g-lg-5 mt-5">
       <div class="col-lg-6">
         <div class="wcla_content_card">
           <div class="wcla_content_list">

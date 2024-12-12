@@ -354,7 +354,7 @@
 
 <section class="section_padding clients-section  homeSection4">
  <div class="container w-100">
- <h1><b>WE UNDERSTAND OUR CLIENTS</b></h1>
+  <h2 class="fs-30 fw-600">WE UNDERSTAND OUR CLIENTS</h2>
   <div class="row g-5 w-100 justify-content-center mt-2">
     <div class="col-lg-3 col-md-4 col-6">
       <div class="icon-box" >
@@ -636,7 +636,7 @@
     <p class="fs-20 fw-400 text_brand_color2">When excellence matters, choose WebOConnect. We combine creativity and precision to deliver superior web and mobile solutions, tailored for your success.</p>
   </div>
   
-  <?php $this->load->view('front/common/portfolio') ?>
+  <?php $this->load->view('front/common/common_portfolio') ?>
 
   <div class="text-center">
     <a href="#" class="btn btn-outline-primary btn-rounded px-5 my-5">VIEW ALL</a>
@@ -751,7 +751,7 @@
 
 <section class="why-choose-us homeSection9 py-5" id="whyChooseAccordion">
   <div class="container">
-    <h1 class="text-center"><b>Why Trust Us?</b></h1>
+    <h2 class="text-center fs-30 fw-600"><b>Why Trust Us?</b></h2>
   </div>
   <div class="container d-none d-lg-block">
     <div class="row justify-content-center gx-4  gx-lg-5 accordion mt-5">

@@ -7,7 +7,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row my-4">
             <div class="col-12 webo_testimonials">
                 <div class="overflow_x_auto">
                     <ul class="scroll_horizontal_m_screen mx-auto nav nav-pills justify-content-center gap-4 mt-4" id="pills-tab" role="tablist">
@@ -38,7 +38,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="tab-content" id="pills-tabContent">
+                <div class="tab-content mt-5" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="pills-weboconnect" role="tabpanel" aria-labelledby="pills-weboconnect-tab">
                         <div class="row my-5">
                             <div class="col-12">

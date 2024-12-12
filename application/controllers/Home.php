@@ -94,5 +94,9 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('front/refund_policy');
 	}
+	public function portfolio()
+	{
+		$this->load->view('front/portfolio');
+	}
 }
 

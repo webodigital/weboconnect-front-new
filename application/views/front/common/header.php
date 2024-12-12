@@ -172,16 +172,22 @@
 
                             <div class="full_width_mega_menu">
                                 <div class="container">
-                                    <div class="row g-4">
+                                    <div class="row g-4 align-items-center">
 
-                                        <div class="col-md-3">
-                                            <div class="mega_menu_card">
+                                        <div class="col-md-9">
+                                            <div class="">
                                                 <a href="https://staffinc.io/" target="_blank">
-                                                    <img height="150" src="<?=base_url()?>assets/images/mega_menu/health_care_staffing.webp" alt="about">
-                                                    <div class="_menu_">
+                                                    <img height="" src="<?=base_url()?>assets/images/mega_menu/h_c_f.webp" alt="about">
+                                                    <!-- <div class="_menu_">
                                                         <h5>Health Care Staffing</h5>
-                                                    </div>
+                                                    </div> -->
                                                 </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="_menu_ center d-grid text-center">
+                                                <a class="nav-link text-dark fs-16 fw-600 mb-3" href="www.Staffing.Io">www.Staffing.Io</a>
+                                                <button class="btn btn-rounded btn-light btn_thick_bdr">Visit Now</button>
                                             </div>
                                         </div>
 
@@ -270,7 +276,7 @@
 
                                         <div class="col-md-4">
                                             <div class="mega_menu_card">
-                                                <a href="<?=base_url()?>saas-development">
+                                                <a href="<?=base_url()?>portfolio">
                                                     <img height="250" src="<?=base_url()?>assets/images/mega_menu/portfolio.webp" alt="about">
                                                     <div class="our_work_cntnt">
                                                         <div class="">
@@ -342,7 +348,7 @@
                         </a>
                     </li>
                     <li class="">
-                        <a href="#" class="b_rds_5 ms-4 btn btn-danger px-3"  data-bs-toggle="modal" data-bs-target="#need_help_modal">
+                        <a href="#" class="b_rds_5 ms-4 btn btn-danger px-3"  data-bs-toggle="modal" data-bs-target="#lets_call_popup_modal">
                             <i class="bi bi-telephone-fill"></i>
                         </a>
                     </li>

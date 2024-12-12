@@ -75,6 +75,7 @@ $route['our-team'] = 'home/our_team';
 $route['careers'] = 'home/careers';
 $route['privacy-policy'] = 'home/privacy_policy';
 $route['refund-policy'] = 'home/refund_policy';
+$route['portfolio'] = 'home/portfolio';
 
 
 // $route['default_controller'] = 'welcome';
