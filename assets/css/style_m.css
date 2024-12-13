@@ -506,6 +506,34 @@ body {
   }
 }
 
+.dnld_and_links{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(254, 254, 254, 1);
+  border-top: 1px solid #001431;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h4{
+    font-size: 1.6rem;
+    font-family: 300;
+    color: #001431;
+    word-spacing: 1px;
+  }
+  .btn{
+    font-size: 1.4rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    img{
+      height: 20px;
+      padding-right: 5px;
+    }
+  }
+}
 #overlay {
   background: rgba(0, 0, 0, 0.7);
   width: 100%;

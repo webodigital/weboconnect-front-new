@@ -49,7 +49,30 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/web/fundlink_web.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">Fundlink</h4>
+                                    <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                        </span>
+                                        <span class="">Android</span>
+                                    </a>
+                                    
+                                    <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                        </span>
+                                        <span class="">IOS</span>
+                                    </a>
+                                    
+                                    <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -547,7 +570,7 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/web/fundlink_web.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
                                     </div>
                                 </div>
                             </div>
