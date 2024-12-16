@@ -21,7 +21,7 @@
   <div class="container">
     <div class="row justify-content-between align-items-center g-4 g-lg-5">
       <div class="col-lg-6 order-last order-sm-first">
-        <img class="w-100" src="<?= base_url() ?>assets/images/about/empowering_digital_futures.webp" alt="ABOUT US" />
+        <img class="w-100" src="<?= base_url() ?>assets/images/about/empowering_digital_futures.webp" alt="About Us" />
       </div>
       <div class="col-lg-6">
         <div class="about_corner_content text-lg-start text-center">
@@ -407,7 +407,7 @@
       </div>
       <div class="col-md-6">
         <div class="about_corner_content">
-          <h1 class="fs-30 fw-700 my-4">Innovation Meets Reliability</h1>
+          <h2 class="fs-30 fw-700 my-4">Innovation Meets Reliability</h2>
           <p class="fs-18 fw-500">Choosing Weboconnect means partnering with a team that understands the heartbeat of digital innovation. Our commitment to excellence and client satisfaction sets us apart.</p>
         </div>
       </div>

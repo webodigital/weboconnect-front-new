@@ -121,7 +121,7 @@
 
 <section class="section_padding tech-stack-section homeSection6" >
     <div class="container">
-        <h1>We Cover Your Tech Stack.</h1>
+        <h2 class="fs-30 fw-600">We Cover Your Tech Stack.</h2>
         <p>Our 4,000+ team has expertise in almost every programming language.</p>
         <div class="row g-4 my-5">
 
