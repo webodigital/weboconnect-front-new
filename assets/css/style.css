@@ -433,18 +433,43 @@ footer {
         }
     }
 }
-
+.navigation .btn-danger{
+  position: relative;
+  overflow: visible;
+  margin-right: 20px;
+  @media (max-width: 768px) {
+    margin-right: 0px;
+  }
+  &::after{
+    display: none !important;
+  }
+  &::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-image: url('../images/icons/chevron_down.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: -16px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+}
 .homeSection1 {
   padding-top: 30px;
   background-image: linear-gradient(
-      to right,
-      rgba(255, 255, 255, .95),
-      rgba(255, 255, 255, 0.5)
+      to left,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, .5)
     ),
     url("./../images/banner.webp");
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;

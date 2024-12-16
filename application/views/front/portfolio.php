@@ -49,25 +49,11 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/web/fundlink_web.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
                                 </div>
                                 <div class="dnld_and_links">
-                                    <h4 class="fs-20 fw-700">Fundlink</h4>
-                                    <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
-                                        <span>
-                                            <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
-                                        </span>
-                                        <span class="">Android</span>
-                                    </a>
-                                    
-                                    <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
-                                        <span>
-                                            <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
-                                        </span>
-                                        <span class="">IOS</span>
-                                    </a>
-                                    
-                                    <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                    <h4 class="fs-20 fw-700">Fundlink</h4>                                    
+                                    <a href="https://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                         <span>
                                             <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
                                         </span>
@@ -82,7 +68,16 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/web/legacy83business_web.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">legacy83business</h4>                                    
+                                    <a href="https://legacy83business.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -92,7 +87,16 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/web/angela_web.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">Angela Simeone</h4>                                    
+                                    <a href="https://angelasimeone.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -102,7 +106,16 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/web/cycle_exchange_web.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">Cycle Exchange</h4>                                    
+                                    <a href="https://www.cycleexchange.co.uk/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -112,7 +125,16 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/web/national_light_web.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">National Lighting</h4>                                    
+                                    <a href="https://www.nationallighting.co.uk/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -122,7 +144,16 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/web/onehopewine_web.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">Onehopewine</h4>                                    
+                                    <a href="https://www.onehopewine.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -132,8 +163,17 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/web/db_alliance_web.webp" alt="Design 7" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
                                 </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">Db Alliance</h4>                                    
+                                    <!-- <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a> -->
+                                </div> 
                             </div>
                         </div>
                         <div class="col-sm-6 image">
@@ -142,7 +182,16 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/web/miami_web.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">Miami Tropical Plants</h4>                                    
+                                    <a href="https://miamitropicalplants.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -152,7 +201,16 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/web/ronlearyreach_web.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">Ronlearyreach</h4>                                    
+                                    <a href="https://www.ronlearyreach.org/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -162,7 +220,16 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/web/servare_cms_web.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">Servare</h4>                                    
+                                    <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -172,7 +239,16 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/web/venturevell_web.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">Venturewell</h4>                                    
+                                    <a href="https://venturewell.org/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -182,7 +258,16 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/web/terp2go_web.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">Terp2go</h4>                                    
+                                    <a href="https://www.terp2go.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -192,7 +277,16 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/web/nurseify_web.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">Nurseify</h4>                                    
+                                    <a href="https://www.nurseify.app/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -202,7 +296,16 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/web/weddingwire_web.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">Weddingwire</h4>                                    
+                                    <a href="https://www.weddingwire.in/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -212,7 +315,16 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/web/iot_web.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">India On Track</h4>                                    
+                                    <a href="https://indiaontrack.in/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -222,7 +334,16 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/web/goodwork_web.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">Goodwork</h4>                                    
+                                    <a href="https://www.goodwork.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -232,7 +353,16 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/web/vaffix_web.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">Vaffix</h4>                                    
+                                    <!-- <a href="https://www.vaffix.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a> -->
                                 </div>
                             </div>
                         </div>
@@ -242,7 +372,16 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/web/smartlinks_web.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">Smart Linkscs</h4>                                    
+                                    <!-- <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a> -->
                                 </div>
                             </div>
                         </div>
@@ -260,7 +399,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/airix.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">Airix</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -271,7 +428,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/wallet_cab.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">wallet cab</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -282,7 +457,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/anyshyft.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">anyshyft</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -293,7 +486,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/theIslandMarket.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">theIslandMarket</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -304,7 +515,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/thinkndo.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">thinkndonow</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -315,7 +544,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/nurseify.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">nurseify</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -326,7 +573,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/book_a_ride.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">book a ride</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -338,7 +603,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/doctor_locam.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">doctor locum</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -349,7 +632,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/finowiz.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">finowiz</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -360,7 +661,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/fixd.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">fixd</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -371,7 +690,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/golf_me.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">golf me</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -382,7 +719,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/good_work.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">goodwork</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -393,7 +748,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/icna.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700 text-uppercase">ICNA</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -404,7 +777,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/iot.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">India On Track</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -415,7 +806,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/liebe_live.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">liebeLive</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -426,7 +835,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/loppekortet.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">loppekortet</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -437,7 +864,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/monkyshine.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">monkyshine</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -448,7 +893,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/musicfix.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">musicfix</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -459,7 +922,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/personality.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">personality</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -470,7 +951,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/prorider.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">prorider</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -481,7 +980,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/qoach.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">qoach</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -492,7 +1009,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/quality_couriers.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">quality couriers</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -503,7 +1038,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/staffinc.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">staffinc</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -514,7 +1067,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/terp2go.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">terp2go</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -525,7 +1096,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/vafffix_app.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">vafffix</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -536,7 +1125,25 @@
                                     <img src="<?=base_url()?>assets/images/portfolio/mobile/work_timer.webp" class="img-responsive" />
                                 </a>
                                 <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">worktimer</h4>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                            </span>
+                                            <span class="">Android</span>
+                                        </a>
+                                        
+                                        <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                            </span>
+                                            <span class="">IOS</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -570,7 +1177,16 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/web/fundlink_web.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">Fundlink</h4>                                    
+                                        <a href="https://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                            </span>
+                                            <span class="">Web</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -582,7 +1198,16 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/web/legacy83business_web.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">legacy83business</h4>                                    
+                                        <a href="https://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                            </span>
+                                            <span class="">Web</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -594,7 +1219,16 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/web/angela_web.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">Angela Simeone</h4>                                    
+                                        <a href="https://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                            </span>
+                                            <span class="">Web</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -606,7 +1240,16 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/web/cycle_exchange_web.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">cycle exchange</h4>                                    
+                                        <a href="https://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                            </span>
+                                            <span class="">Web</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -618,7 +1261,16 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/web/national_light_web.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">national light</h4>                                    
+                                        <a href="https://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                            </span>
+                                            <span class="">Web</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -630,7 +1282,16 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/web/onehopewine_web.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">onehopewine</h4>                                    
+                                        <a href="https://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                            </span>
+                                            <span class="">Web</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -642,7 +1303,16 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/web/db_alliance_web.webp" alt="Design 7" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">DB Alliance</h4>                                    
+                                        <a href="https://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                            </span>
+                                            <span class="">Web</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -654,7 +1324,16 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/web/miami_web.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">miami</h4>                                    
+                                        <a href="https://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                            </span>
+                                            <span class="">Web</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -666,7 +1345,16 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/web/ronlearyreach_web.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">ronlearyreach</h4>                                    
+                                        <a href="https://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                            </span>
+                                            <span class="">Web</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -678,7 +1366,16 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/web/servare_cms_web.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">servare</h4>                                    
+                                        <a href="https://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                            </span>
+                                            <span class="">Web</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -690,7 +1387,16 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/web/venturevell_web.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">venturevell</h4>                                    
+                                        <a href="https://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                            </span>
+                                            <span class="">Web</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -702,7 +1408,16 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/web/terp2go_web.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">terp2go</h4>                                    
+                                        <a href="https://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                            </span>
+                                            <span class="">Web</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -714,7 +1429,16 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/web/nurseify_web.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">nurseify</h4>                                    
+                                        <a href="https://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                            </span>
+                                            <span class="">Web</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -726,7 +1450,16 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/web/weddingwire_web.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">weddingwire</h4>                                    
+                                        <a href="https://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                            </span>
+                                            <span class="">Web</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -738,7 +1471,16 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/web/iot_web.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">India On Track</h4>                                    
+                                        <a href="https://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                            </span>
+                                            <span class="">Web</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -750,7 +1492,16 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/web/goodwork_web.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">goodwork</h4>                                    
+                                        <a href="https://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                            </span>
+                                            <span class="">Web</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -762,7 +1513,16 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/web/vaffix_web.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">vaffix</h4>                                    
+                                        <a href="https://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                            </span>
+                                            <span class="">Web</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -774,7 +1534,16 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/web/smartlinks_web.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">smartlinks</h4>                                    
+                                        <a href="https://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                            </span>
+                                            <span class="">Web</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -793,7 +1562,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/airix.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">Airix</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -805,7 +1589,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/wallet_cab.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">walletcab</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -817,7 +1616,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/anyshyft.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">anyshyft</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -829,7 +1643,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/theIslandMarket.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">The Island Market</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -841,7 +1670,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/thinkndo.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">thinkndoNow</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -853,7 +1697,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/nurseify.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">nurseify</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -865,7 +1724,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/book_a_ride.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">book a ride</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -877,7 +1751,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/doctor_locam.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">doctor Locum</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -889,7 +1778,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/finowiz.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">finowiz</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -901,7 +1805,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/fixd.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">Fixd</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -913,7 +1832,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/golf_me.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">Golf Me</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -925,7 +1859,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/good_work.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">Goodwork</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -937,7 +1886,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/icna.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">ICNA</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -949,7 +1913,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/iot.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">India On Track</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -961,7 +1940,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/liebe_live.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">LiebeLive</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -973,7 +1967,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/loppekortet.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">loppekortet</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -985,7 +1994,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/monkyshine.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">monkyshine</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -997,7 +2021,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/musicfix.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">musicfix</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1009,7 +2048,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/personality.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">personality</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1021,7 +2075,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/prorider.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">prorider</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1033,7 +2102,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/qoach.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">qoach</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1045,7 +2129,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/quality_couriers.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">quality couriers</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1057,7 +2156,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/staffinc.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">staffinc</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>                        
@@ -1069,7 +2183,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/terp2go.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">terp2go</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1081,7 +2210,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/vafffix_app.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">vafffix</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1093,7 +2237,22 @@
                                         <img src="<?=base_url()?>assets/images/portfolio/mobile/work_timer.webp" class="img-responsive" />
                                     </a>
                                     <div class="img-overlay">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                    </div>
+                                    <div class="dnld_and_links">
+                                        <h4 class="fs-20 fw-700">worktimer</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
+                                                </span>
+                                            </a>
+                                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

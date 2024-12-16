@@ -253,13 +253,13 @@ $(document).ready(function () {
     navText: ["<i class='bi bi-arrow-left'></i>","<i class='bi bi-arrow-right'></i>"],
     responsive:{
         0:{
-            items:2,
+            items:1,
         },
         500:{
-            items:2,
+            items:1,
         },
         700:{
-            items:3,
+            items:2,
         },
     }
   });
@@ -272,13 +272,13 @@ $(document).ready(function () {
     navText: ["<i class='bi bi-arrow-left'></i>","<i class='bi bi-arrow-right'></i>"],
     responsive:{
         0:{
-            items:2,
+            items:1,
         },
         500:{
-            items:2,
+            items:1,
         },
         700:{
-            items:3,
+            items:2,
         },
     }
   });

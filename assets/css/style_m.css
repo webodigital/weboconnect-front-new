@@ -92,11 +92,16 @@ body {
   }
 
   .hero {
+    padding: 0px 30px;
     /* width: 35rem;
     height: 53rem;
     border-radius: 5px;
     position: absolute;
     bottom: 0rem; */
+    background-image: url('../images/shapes/herobg.webp');
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
   }
 }
 
@@ -373,6 +378,7 @@ body {
 .icon-box h5 {
   font-size: 1.5rem;
   /* margin: 0; */
+  font-weight: 300;
   letter-spacing: 5px;
 }
 .icon-box p {
@@ -485,12 +491,60 @@ body {
 .img-wrapper {
   position: relative;
   margin-top: 15px;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 100%;
   img {
     width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  
+}
+.dnld_and_links{
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(254, 254, 254, 1);
+  border-radius:0px 0px 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border: 1px solid #d8d8d886;
+  transition: all 0.5s;
+  h4{
+    font-size: 1.6rem;
+    font-family: 300;
+    color: #001431;
+    word-spacing: 1px;
+    text-transform: capitalize;
+  }
+  .btn{
+    font-size: 1.4rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    img{
+      height: 20px !important;
+      padding-right: 5px;
+      margin: 0px !important;
+    }
+  }
+  @media (max-width: 768px) {
+    bottom: 0px;
+  }
+}
+.img-wrapper:hover{
+  .dnld_and_links{
+    bottom: 0px;
+    transition: all 0.5s;
   }
 }
 .img-overlay {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(255, 255, 255, 0.5);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -499,41 +553,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 20px;
   opacity: 0;
   i {
     color: #fff;
     font-size: 3em;
   }
+  img{
+    max-width: 100px;
+    transform: rotate(-90deg);
+  }
 }
 
-.dnld_and_links{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 70px;
-  background-color: rgba(254, 254, 254, 1);
-  border-top: 1px solid #001431;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  h4{
-    font-size: 1.6rem;
-    font-family: 300;
-    color: #001431;
-    word-spacing: 1px;
-  }
-  .btn{
-    font-size: 1.4rem;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    img{
-      height: 20px;
-      padding-right: 5px;
-    }
-  }
-}
+
 #overlay {
   background: rgba(0, 0, 0, 0.7);
   width: 100%;
