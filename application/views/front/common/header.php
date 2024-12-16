@@ -24,7 +24,7 @@
                         </a>
                     </span>
                     <div class="nav_toggle_btn">
-                        <img src="<?= base_url() ?>/assets/images/icons/nav_toggle.webp" alt="">
+                        <img src="<?= base_url() ?>/assets/images/icons/nav_toggle.webp" alt="toggle">
                     </div>
                 </div>
             </div>

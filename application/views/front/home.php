@@ -358,21 +358,21 @@
   <div class="row g-5 w-100 justify-content-center mt-2">
     <div class="col-lg-3 col-md-4 col-6">
       <div class="icon-box" >
-          <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Listen.png" alt="">
+          <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Listen.png" alt="We Listen To Our Clients">
           <h5 class="">We Listen To Our Clients</h5>
           <!-- <p class="">Your goals shape our solutions.</p> -->
         </div>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
         <div class="icon-box">
-          <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Focus.png" alt="">
+          <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Focus.png" alt="We Focus On Solutionss<">
           <h5 class="">We Focus On Solutionss</h5>
           <!-- <p>Smart ideas that deliver real-world impact.</p> -->
         </div>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
       <div class="icon-box">
-        <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/create-stratgies.png" alt=""> 
+        <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/create-stratgies.png" alt="We Develop Straggles First"> 
         <h5 class="">We Develop Straggles First</h5>
         <!-- <p>Strong foundations lead to stronger outcomes.</p> -->
         <p></p>
@@ -380,28 +380,28 @@
     </div>
     <div class="col-lg-3 col-md-4 col-6">
       <div class="icon-box">
-        <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Deliver.png" alt="">  
+        <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Deliver.png" alt="We Deliver what we promise">  
         <h5 class="">We Deliver what we promise</h5>
         <!-- <p>Results that exceed expectations every time.</p> -->
       </div>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
       <div class="icon-box">
-        <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Teamwork.png" alt="">  
-          <h5 class="">We believe in teamwork </h5>
+        <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Teamwork.png" alt="We believe in teamwork">  
+          <h5 class="">We believe in teamwork</h5>
           <!-- <p>Collaboration is key to innovation.</p> -->
       </div>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
       <div class="icon-box">
-        <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Friendly.png" alt="">  
+        <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Friendly.png" alt="We are friendly">  
         <h5 class="">We are friendly</h5>
         <!-- <p>Always here to guide and help.</p> -->
       </div>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
       <div class="icon-box">
-        <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/logical.png" alt="">
+        <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/logical.png" alt="We are methodical & logical">
         <h5 class="">We are methodical & logical</h5>
         <!-- <p>Balanced approaches to tackle challenges effectively.</p>               -->
       </div>

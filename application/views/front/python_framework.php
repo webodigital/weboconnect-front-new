@@ -124,25 +124,19 @@
   </div>
 </section>
 
-
-
-<section class="section_padding talk_our_experts" >
-    <div class="container text-white">
+<section class="section_padding pg_bnr bg-white back_cover" style="background-image: url('<?= base_url() ?>assets/images/pg_bnr/python_framework.webp');">
+    <div class="container">
         <div class="row align-items-center">
-            <div class="col-md-7">
-                <div class="text-center text-md-start">
-                    <h3 class="fs-24 fw-700">Want to accelerate Python developement at your company?
-                    See how we can help.</h3>
-                    <a href="" class="btn btn-primary btn-rounded mt-4 px-4">Talk To Our Experts</a>
+            <div class="col-lg-7">
+                <div class="text-center text-lg-start">
+                    <h2 class="fs-24 fw-700 text-white">Want to accelerate Python developement at your company? See how we can help.</h2>
+                    <a href="<?= base_url() ?>contact" class="btn btn-primary-gradient btn-rounded px-5 mt-4">Talk To Our Experts</a>
                 </div>
-            </div>
-            
-            <div class="col-md-5">
-                <img src="<?= base_url() ?>assets/images/python_framework/python_.webp" alt="python FrameWork">
             </div>
         </div>
     </div>
-</section>
+</section> 
+
 
 <section class="section_padding ">
     <div class="container">

@@ -562,6 +562,7 @@ body {
   img{
     max-width: 100px;
     transform: rotate(-90deg);
+    height: auto;
   }
 }
 

@@ -600,7 +600,7 @@
 </section>
 
 
-<section class="section_padding pg_bnr bg-white back_cover" style="background-image: url('<?= base_url() ?>assets/images/pg_bnr/our_team.webp');">
+<section class="section_padding pg_bnr bg-white back_cover" style="background-image: url('<?= base_url() ?>assets/images/pg_bnr/h_d_r.webp');">
     <div class="container">
         <div class="row align-items-center justify-content-end">
             <div class="col-lg-5">

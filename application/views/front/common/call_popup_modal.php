@@ -76,9 +76,9 @@
                                   <div class="text_white fs-20 fw-600 m-3 ">OR</div>
                                   <a href="https://calendly.com/schedulemeetingwithweboconnect/30min?back=1&month=2024-11" class="btn btn-dark btn-rounded px-5">
                                     <span>
-                                      <img src="<?=base_url()?>assets/images/icons/group-discussion-meeting_svg.svg" alt="">
+                                      <img src="<?=base_url()?>assets/images/icons/group-discussion-meeting_svg.svg" alt="Schedule A Meeting">
                                     </span>    
-                                    <span class="text_white ms-2">Schedule A Meeting </span>
+                                    <span class="text_white ms-2">Schedule A Meeting</span>
                                   </a>
                                 </div>
                             </div>                        
