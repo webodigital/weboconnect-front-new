@@ -387,7 +387,7 @@
     <div class="col-lg-4 col-md-4 col-6">
       <div class="icon-box">
         <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Teamwork.png" alt="We believe in teamwork">  
-          <h5 class="">We Believe in Unified Efforts</h5>
+          <h5 class="">We Believe inUnified <br>  Efforts</h5>
           <p class="fs-14">Collaboration is key to innovation.</p>
       </div>
     </div>
@@ -401,7 +401,7 @@
     <div class="col-lg-4 col-md-4 col-6">
       <div class="icon-box">
         <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/logical.png" alt="We are methodical & logical">
-        <h5 class="">We Think Strategically and Logically</h5>
+        <h5 class="">We Think Strategically <br> and Logically</h5>
         <p class="fs-14">Balanced approaches to tackle challenges effectively.</p>              
       </div>
     </div>

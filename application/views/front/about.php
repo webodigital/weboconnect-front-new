@@ -183,8 +183,8 @@
             </span>
             <h4 class="text-black fs-20 fw-700 my-3">Outsource Project</h4>
               <div class="d-flex">
-              <a href="" class="btn btn-sm btn-outline-primary btn-rounded px-3">View Details</a>
-              <a href="" class="btn btn-sm btn-outline-primary btn-rounded px-3">View Case Studies</a>
+              <a href="<?= base_url() ?>outsource-projects" class="btn btn-sm btn-outline-primary btn-rounded px-3">View Details</a>
+              <a href="<?= base_url() ?>case-studies" class="btn btn-sm btn-outline-primary btn-rounded px-3">View Case Studies</a>
             </div>
           </div>
         </div>
@@ -199,8 +199,8 @@
             </span>
             <h4 class="text-white fs-20 fw-700 my-3">Hire Dedicated Resources</h4>
               <div class="d-flex">
-              <a href="" class="btn btn-sm btn-outline-light btn-rounded px-3">View Details</a>
-              <a href="" class="btn btn-sm btn-outline-light btn-rounded px-3">View Case Studies</a>
+              <a href="<?= base_url() ?>hire-dedicated-resources" class="btn btn-sm btn-outline-light btn-rounded px-3">View Details</a>
+              <a href="<?= base_url() ?>case-studies" class="btn btn-sm btn-outline-light btn-rounded px-3">View Case Studies</a>
             </div>
           </div>
         </div>
@@ -215,8 +215,8 @@
             </span>
             <h4 class="text-black fs-20 fw-700 my-3">White Label Partnership</h4>
               <div class="d-flex">
-              <a href="" class="btn btn-sm btn-outline-primary btn-rounded px-3">View Details</a>
-              <a href="" class="btn btn-sm btn-outline-primary btn-rounded px-3">View Case Studies</a>
+              <a href="<?= base_url() ?>white-label-partnership" class="btn btn-sm btn-outline-primary btn-rounded px-3">View Details</a>
+              <a href="<?= base_url() ?>case-studies" class="btn btn-sm btn-outline-primary btn-rounded px-3">View Case Studies</a>
             </div>
           </div>
         </div>
@@ -231,8 +231,8 @@
             </span>
             <h4 class="text-white fs-20 fw-700 my-3">Product Partnership</h4>
             <div class="d-flex">
-              <a href="" class="btn btn-sm btn-outline-light btn-rounded px-3">View Details</a>
-              <a href="" class="btn btn-sm btn-outline-light btn-rounded px-3">View Case Studies</a>
+              <a href="<?= base_url() ?>product-partnership" class="btn btn-sm btn-outline-light btn-rounded px-3">View Details</a>
+              <a href="<?= base_url() ?>case-studies" class="btn btn-sm btn-outline-light btn-rounded px-3">View Case Studies</a>
             </div>
           </div>
         </div>

@@ -2417,6 +2417,24 @@ footer {
   }
 }
 
+.outsource_projects_banner{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 40%, rgba(0, 20, 49, 0)),
+  url('../images/outsource_projects/outsource_projects_bg.webp');
+  background-position: right;
+  background-size: cover;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+}
+.why_outsource{
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 40%, rgba(255, 255, 255, 0.9)),
+  url('../images/outsource_projects/why_outsource_bg.webp');
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+}
 
 
 
