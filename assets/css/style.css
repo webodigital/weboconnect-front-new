@@ -2432,6 +2432,13 @@ footer {
   url('../images/outsource_projects/why_outsource_bg.webp');
   background-position: center;
   background-size: cover;
+}
+
+.white_label_partnership_banner{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 40%, rgba(0, 20, 49, 0)),
+  url('../images/white_label_partnership/white_label_partnership_banner.webp');
+  background-position: center;
+  background-size: cover;
   min-height: 500px;
   display: flex;
   align-items: center;
@@ -2460,3 +2467,7 @@ footer {
 
 
 
+.error{
+  font-size: 11px;
+  color: red;
+}

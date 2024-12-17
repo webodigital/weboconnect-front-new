@@ -76,7 +76,7 @@
 
 
 
-<section class="section_padding pg_bnr bg-white back_cover back_center" style="background-image: url('<?= base_url() ?>assets/images/pg_bnr/iot.webp'); min-height:300px;">
+<section class="section_padding pg_bnr bg-white back_cover back_center" style="background-image: url('<?= base_url() ?>assets/images/pg_bnr/outsource_projects.webp'); min-height:300px;">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-8">
