@@ -9,7 +9,7 @@
             <div class="row g-4 justify-content-between align-items-center">
                 <div class="col-lg-6">
                     
-                    <form method="post" id="newEnquiryForm" action="javascript:void(0);">
+                    <form method="post" id="newEnquiryModalForm" action="javascript:void(0);">
 
                         <div class="row g-4 justify-content-between align-items-center">
                             <div class="col-sm-6">

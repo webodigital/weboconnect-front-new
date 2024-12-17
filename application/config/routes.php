@@ -82,3 +82,65 @@ $route['portfolio'] = 'home/portfolio';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+
+////////////////////////////////////////////////////////
+$route['contact_user'] = 'home/contactUser';
+$route['submit-contactus'] = 'home/save_contactus';
+$route['submit-getintouch'] = 'home/getintouch';
+$route['submit-careers'] = 'home/save_careers';
+$route['submit-enquiry'] = 'home/save_enquiry';
+$route['new-submit-enquiry'] = 'home/new_save_enquiry';
+
+$route['thank-you'] = 'home/thankyou';
+$route['contacted'] = 'home/thankyou';
+
+////////////////////////////////////////////////////////
+
+// user blog
+$route['blogs'] = 'blog';
+$route['blog/(:any)'] = 'blog/singleBlog/$1';
+$route['add-blog-comment'] = 'blog/addBlogComment';
+$route['toggle-like'] = 'blog/toggleLike';
+
+// login
+$route['login'] = 'login/index';
+$route['login/authenticate'] = 'login/authenticate';
+$route['logout'] = 'login/logout';
+// $route['register'] = 'register/index';
+// $route['register/store'] = 'register/store';
+
+// Admin page
+$route['dashboard'] = 'dashboard/index'; 
+
+// Admin blog
+$route['admin-blogs'] = 'blog/adminBlog';
+$route['create-blog'] = 'blog/createBlog';
+$route['submit-blog'] = 'blog/submitBlog';
+$route['delete-blog/(:num)'] = 'blog/deleteBlog/$1';
+$route['edit-blog/(:any)'] = 'blog/editBlog/$1';
+$route['update-blog'] = 'blog/updateBlog';
+$route['update-all-blog'] = 'blog/updateAllBlogsInSitemap';
+
+// sponsors
+$route['admin-sponsor'] = 'sponsor/index';
+$route['get-sponsors'] = 'sponsor/getSponsors';
+$route['add-sponsor'] = 'sponsor/addSponsor';
+$route['update-sponsor'] = 'sponsor/updateSponsor';
+$route['delete-sponsor/(:num)'] = 'sponsor/deleteSponsor/$1';
+$route['get-sponsor/(:num)'] = 'sponsor/getSponsor/$1';
+
+// color theme
+$route['color/admin-color-theme'] = 'theme/index';
+$route['color/save'] = 'theme/save';
+$route['color/get-color-codes'] = 'theme/getColorCodes';
+
+// Dynamic css
+$route['styles/dynamic.css'] = 'theme/dynamicCss';
+
+// Menu 
+$route['menu'] = 'menu/index'; 
+$route['menu/add'] = 'menu/add'; 
+$route['menu/fetch'] = 'menu/fetch'; 
+$route['menu/delete/(:num)'] = 'menu/delete/$1'; 
+$route['menu/get/(:num)'] = 'menu/get/$1';
+$route['menu/update/(:num)'] = 'menu/update/$1'; 
