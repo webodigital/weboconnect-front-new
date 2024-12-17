@@ -78,8 +78,8 @@
             <div class="col-lg-6">
                 <div class="contact_details">
                     <div class="text-center d-none d-lg-block">
-                        <h2 class="fs-34 fw-700 text-white">Let’s Discuss Your Next Project</h2>
-                        <h6 class="fs-18 fw-700 text-white">Partner with seasoned experts to transform your vision into a seamless, innovative app.</h6>
+                        <h2 class="fs-34 fw-700 text-white">Ready to Build Something Extraordinary?</h2>
+                        <h6 class="fs-18 fw-700 text-white">Join hands with our expert team to create impactful, cutting-edge applications that redefine excellence.</h6>
                     </div>
                     <div class="row justify-content-center g-4 mt-3">
                         <div class="col-lg-5 col-6">
