@@ -26,8 +26,8 @@
       <div class="col-lg-6">
         <div class="about_corner_content text-lg-start text-center">
           <p class="fs-16 fw-600" style="color:#01448A;">ABOUT US</p>
-          <h1 class="fs-30 fw-700 my-4">Empowering Digital Futures With Expertise, Dedication, and Innovation</h1>
-          <p class="fs-18 fw-500">At Weboconnect, we blend innovation with expertise to sculpt the digital landscapes of tomorrow. Based in the vibrant heart of London and extending our creative reach globally, we are your partners in crafting mobile and web solutions that resonate worldwide.</p>
+          <h1 class="fs-30 fw-700 my-4">Driving Transformation Through Innovation and Dedication</h1>
+          <p class="fs-18 fw-500">WebOConnect brings together technology and imagination to shape tomorrow’s digital experiences. From our vibrant London base to clients across the globe, we partner with businesses to create scalable, user-driven solutions that redefine possibilities.</p>
         </div>
       </div>
     </div>
@@ -39,7 +39,7 @@
 
     <div class="text-center">
       <h2 class="fs-34 fw-600 text_brand_color1">Our Journey to Excellence</h2>
-      <h6 class="fs-18 fw-500 text_brand_color1">Dive into the figures that paint our story of success and innovation. These numbers reflect our journey, our achievements, and the trust that businesses worldwide place in Weboconnect.</h6>
+      <h6 class="fs-18 fw-500 text_brand_color1">Explore the milestones that define our legacy of innovation and success. These numbers represent the confidence global businesses place in WebOConnect to drive impactful digital transformation.</h6>
     </div>
   <div class="">
     <div class="row scrolling_row pb-3 g-4 mt-5">
@@ -47,7 +47,7 @@
         <div class="our_journey_card text-center text-white">
           <div>
             <h3 class="fs-24 fw-600 mb-4">Global Presence</h3>
-            <h6 class="fs-14 fw-500">Teams in Asia, Europe, and North America ensuring round-the-clock innovation.</h6>
+            <h6 class="fs-14 fw-500">Round-the-clock innovation with teams spanning Asia, Europe, and North America.</h6>
           </div>
         </div>
       </div>
@@ -56,7 +56,7 @@
         <div class="our_journey_card_bg text-black" style="background-image:url('<?= base_url() ?>assets/images/about/clients_ghlobal_reach.webp')">
           <div>
             <h3 class="fs-34 fw-700 mb-4">200+</h3>
-            <h6 class="fs-14 fw-500">Clients Global Reach, Local Impact</h6>
+            <h6 class="fs-14 fw-500">Clients who trust us to deliver global solutions with a local impact.</h6>
           </div>
         </div>
       </div>
@@ -65,7 +65,7 @@
         <div class="our_journey_card text-center text-white">
           <div>
             <h3 class="fs-24 fw-600 mb-4">Custom Solutions</h3>
-            <h6 class="fs-14 fw-500">Tailored strategies that align with your unique digital aspirations.</h6>
+            <h6 class="fs-14 fw-500">Unique strategies crafted to fit your digital aspirations perfectly.</h6>
           </div>
         </div>
       </div>
@@ -74,7 +74,7 @@
         <div class="our_journey_card_bg text-black" style="background-image:url('<?= base_url() ?>assets/images/about/satisfaction_beyond.webp')">
           <div>
             <h3 class="fs-34 fw-700 mb-4">98%</h3>
-            <h6 class="fs-14 fw-500">Satisfaction Beyond Expectations</h6>
+            <h6 class="fs-14 fw-500">Customer satisfaction achieved with our high-quality services.</h6>
           </div>
         </div>
       </div>
@@ -83,7 +83,7 @@
         <div class="our_journey_card_bg text-black" style="background-image:url('<?= base_url() ?>assets/images/about/innovating_digital.webp')">
           <div>
             <h3 class="fs-34 fw-700 mb-4">8+ Years</h3>
-            <h6 class="fs-14 fw-500">Innovating Digital Solutions</h6>
+            <h6 class="fs-14 fw-500">Delivering digital solutions that stand the test of time.</h6>
           </div>
         </div>
       </div>
@@ -92,7 +92,7 @@
         <div class="our_journey_card text-center text-white">
           <div>
             <h3 class="fs-24 fw-600 mb-4">Agile Approach</h3>
-            <h6 class="fs-14 fw-500">Adaptability and efficiency in every project phase.</h6>
+            <h6 class="fs-14 fw-500">Flexibility and precision embedded in every project we take on.</h6>
           </div>
         </div>
       </div>
@@ -101,7 +101,7 @@
         <div class="our_journey_card_bg text-black" style="background-image:url('<?= base_url() ?>assets/images/about/on_demand_service.webp')">
           <div>
             <h3 class="fs-34 fw-700 mb-4">Top #1</h3>
-            <h6 class="fs-14 fw-500">On-demand service provider</h6>
+            <h6 class="fs-14 fw-500">Leading as the go-to provider for on-demand tech services.</h6>
           </div>
         </div>
       </div>
@@ -110,7 +110,7 @@
         <div class="our_journey_card text-center text-white">
           <div>
             <h3 class="fs-24 fw-600 mb-4">Tech Pioneers</h3>
-            <h6 class="fs-14 fw-500">Leading with cutting-edge technologies and creative foresight.</h6>
+            <h6 class="fs-14 fw-500">Innovating through cutting-edge technologies to shape the future.</h6>
           </div>
         </div>
       </div>
@@ -122,8 +122,8 @@
 <section class="section_padding testament_excellence">
   <div class="container">
     <div class="text-center">
-      <h2 class="fs-34 fw-700 text_brand_color1">A Testament to Excellence</h2>
-      <h6 class="fs-18 fw-700 text_brand_color1">Our accolades reflect our unwavering commitment to quality and innovation.</h6>
+      <h2 class="fs-34 fw-700 text_brand_color1">Our Journey of Trusted Excellence</h2>
+      <h6 class="fs-18 fw-700 text_brand_color1">Our commitment to innovation and client success has earned us global recognition. These awards highlight the trust and excellence that define WebOConnect's journey.</h6>
     </div>
 
     <div class="row justify-content-center align-items-center g-4 mt-5">
@@ -183,8 +183,8 @@
             </span>
             <h4 class="text-black fs-20 fw-700 my-3">Outsource Project</h4>
               <div class="d-flex">
-              <a href="" class="btn btn-sm btn-outline-primary btn-rounded px-3">View Details</a>
-              <a href="" class="btn btn-sm btn-outline-primary btn-rounded px-3">View Case Studies</a>
+              <a href="<?= base_url() ?>outsource-projects" class="btn btn-sm btn-outline-primary btn-rounded px-3">View Details</a>
+              <a href="<?= base_url() ?>case-studies" class="btn btn-sm btn-outline-primary btn-rounded px-3">View Case Studies</a>
             </div>
           </div>
         </div>
@@ -199,8 +199,8 @@
             </span>
             <h4 class="text-white fs-20 fw-700 my-3">Hire Dedicated Resources</h4>
               <div class="d-flex">
-              <a href="" class="btn btn-sm btn-outline-light btn-rounded px-3">View Details</a>
-              <a href="" class="btn btn-sm btn-outline-light btn-rounded px-3">View Case Studies</a>
+              <a href="<?= base_url() ?>hire-dedicated-resources" class="btn btn-sm btn-outline-light btn-rounded px-3">View Details</a>
+              <a href="<?= base_url() ?>case-studies" class="btn btn-sm btn-outline-light btn-rounded px-3">View Case Studies</a>
             </div>
           </div>
         </div>
@@ -215,8 +215,8 @@
             </span>
             <h4 class="text-black fs-20 fw-700 my-3">White Label Partnership</h4>
               <div class="d-flex">
-              <a href="" class="btn btn-sm btn-outline-primary btn-rounded px-3">View Details</a>
-              <a href="" class="btn btn-sm btn-outline-primary btn-rounded px-3">View Case Studies</a>
+              <a href="<?= base_url() ?>white-label-partnership" class="btn btn-sm btn-outline-primary btn-rounded px-3">View Details</a>
+              <a href="<?= base_url() ?>case-studies" class="btn btn-sm btn-outline-primary btn-rounded px-3">View Case Studies</a>
             </div>
           </div>
         </div>
@@ -231,8 +231,8 @@
             </span>
             <h4 class="text-white fs-20 fw-700 my-3">Product Partnership</h4>
             <div class="d-flex">
-              <a href="" class="btn btn-sm btn-outline-light btn-rounded px-3">View Details</a>
-              <a href="" class="btn btn-sm btn-outline-light btn-rounded px-3">View Case Studies</a>
+              <a href="<?= base_url() ?>product-partnership" class="btn btn-sm btn-outline-light btn-rounded px-3">View Details</a>
+              <a href="<?= base_url() ?>case-studies" class="btn btn-sm btn-outline-light btn-rounded px-3">View Case Studies</a>
             </div>
           </div>
         </div>
@@ -247,8 +247,8 @@
   <div class="container">
     <div class="row align-items-center justify-content-between g-4 g-lg-5 py-5">
       <div class="col-md-6 col-lg-6 text-center text-lg-start">
-        <h2 class="fs-34 fw-700 text-white">Craft Your Future with Us</h2>
-        <h6 class="fs-18 fw-500 text-white my-4">Ready to make a mark in the digital world? Join Weboconnect, where your career journey meets innovation and growth.</h6>
+        <h2 class="fs-34 fw-700 text-white">Shape the Digital Future Together</h2>
+        <h6 class="fs-18 fw-500 text-white my-4">Step into a world where your ideas turn into impactful solutions. At WebOConnect, we empower you to push boundaries, grow your expertise, and make a difference in the ever-evolving tech landscape.</h6>
         <a href="" class="btn btn-primary-gradient btn-rounded btn-md px-5 my-3" style="">APPLY NOW</a>
       </div>
       <div class="col-md-6">
@@ -353,8 +353,8 @@
                           <img src="<?= base_url() ?>assets/images/icons/expert_team.webp" alt="Expert Team">
                         </span>
                         <div class="">
-                          <h5 class="fs-15 fw-500">Expert Team</h5>
-                          <h4 class="fs-15 fw-700">Unmatched Skills</h4>
+                          <h5 class="fs-15 fw-700">Expert Team</h5>
+                          <h4 class="fs-14 fw-400">Skilled professionals creating impactful digital transformations.</h4>
                         </div>
                       </div>
                   </div>
@@ -366,8 +366,8 @@
                           <img src="<?= base_url() ?>assets/images/icons/global_reach.webp" alt="Global Reach">
                         </span>
                         <div class="">
-                          <h5 class="fs-15 fw-500">Global Reach</h5>
-                          <h4 class="fs-15 fw-700">Local Insight</h4>
+                          <h5 class="fs-15 fw-700">Global Reach</h5>
+                          <h4 class="fs-14 fw-400">Global expertise combined with localized precision.</h4>
                         </div>
                       </div>
                   </div>
@@ -379,8 +379,8 @@
                           <img src="<?= base_url() ?>assets/images/icons/custom_solutions.webp" alt="Custom Solutions">
                         </span>
                         <div class="">
-                          <h5 class="fs-15 fw-500">Custom Solutions</h5>
-                          <h4 class="fs-15 fw-700">Tailored Excellence</h4>
+                          <h5 class="fs-15 fw-700">Custom Solutions</h5>
+                          <h4 class="fs-14 fw-400">Solutions designed exclusively for your business goals.</h4>
                         </div>
                       </div>
                   </div>
@@ -392,9 +392,8 @@
                           <img src="<?= base_url() ?>assets/images/icons/client_focus.webp" alt="Client Focus">
                         </span>
                         <div class="">
-                          <h5 class="fs-15 fw-500">Client Focus</h5>
-                          <h4 class="fs-15 fw-700">Satisfaction
-                          Guaranteed</h4>
+                          <h5 class="fs-15 fw-700">Client Focus</h5>
+                          <h4 class="fs-14 fw-400">Prioritizing your success with guaranteed satisfaction.</h4>
                         </div>
                       </div>
                   </div>
@@ -407,8 +406,8 @@
       </div>
       <div class="col-md-6">
         <div class="about_corner_content">
-          <h2 class="fs-30 fw-700 my-4">Innovation Meets Reliability</h2>
-          <p class="fs-18 fw-500">Choosing Weboconnect means partnering with a team that understands the heartbeat of digital innovation. Our commitment to excellence and client satisfaction sets us apart.</p>
+          <h2 class="fs-30 fw-700 my-4">Innovation You Can Rely On</h2>
+          <p class="fs-18 fw-500">At WebOConnect, we redefine innovation by delivering reliable, client-first solutions. Our approach ensures seamless integration of creativity, quality, and success for every project.</p>
         </div>
       </div>
     </div>
@@ -441,7 +440,7 @@
                   <div class="img_content text-white"  style="background-image:url('<?= base_url() ?>assets/images/about/growth_at_a_glance.webp')">
                     <div>
                       <h4 class="fs-24 fw-600">OUR GROWTH AT A GLANCE</h4>
-                      <p class="fs-16 fw-500">Till 2017, we kept on working with esteemed passion and integrity. This resulted in more clients, new and updated technologies, challenging projects, knowledgeable and efficient team. Regular and constructive feedbacks from the clients helped us to improve ourselves. We started to focus on learning to grow stronger as an entity.</p>
+                      <p class="fs-16 fw-500">By 2017, our journey was driven by passion and commitment to excellence. With every client and challenge, we adopted new technologies, built a skilled team, and refined our processes through valuable feedback, preparing us for future growth.</p>
                     </div>
                   </div>
                 </div>
@@ -468,7 +467,7 @@
                   <div class="img_content text-white"  style="background-image:url('<?= base_url() ?>assets/images/about/growth_at_a_glance.webp')">
                     <div>
                       <h4 class="fs-24 fw-600">OUR GROWTH AT A GLANCE</h4>
-                      <p class="fs-16 fw-500">Till 2017, we kept on working with esteemed passion and integrity. This resulted in more clients, new and updated technologies, challenging projects, knowledgeable and efficient team. Regular and constructive feedbacks from the clients helped us to improve ourselves. We started to focus on learning to grow stronger as an entity.</p>
+                      <p class="fs-16 fw-500">By 2017, our journey was driven by passion and commitment to excellence. With every client and challenge, we adopted new technologies, built a skilled team, and refined our processes through valuable feedback, preparing us for future growth.</p>
                     </div>
                   </div>
                 </div>
@@ -553,18 +552,18 @@
 <section class="section_padding wcla_">
   <div class="container">
     <div class="text-center">
-      <h2 class="fs-34 fw-700 text-white">What do clients like about us ?</h2>
+      <h2 class="fs-34 fw-700 text-white">What do clients like about us?</h2>
     </div>
     <div class="row align-items-center g-4 g-lg-5 mt-5">
       <div class="col-lg-6">
         <div class="wcla_content_card">
           <div class="wcla_content_list">
             <ul>
-              <li class="fs-16 fw-600">We believe in persistence and self ability.</li>
-              <li class="fs-16 fw-600">We treat each and every project with care and try to deliver our best.</li>
-              <li class="fs-16 fw-600">We stand by our clients in thick n thin.</li>
-              <li class="fs-16 fw-600">We make our clients comfortable by listening and understanding them.</li>
-              <li class="fs-16 fw-600">We educate them so that they get right understanding of technologies, server, design etc.</li>
+              <li class="fs-16 fw-600">We believe in staying consistent and confident in what we do.</li>
+              <li class="fs-16 fw-600">We handle every project with care and strive to deliver the best.</li>
+              <li class="fs-16 fw-600">We support our clients through every step of their journey.</li>
+              <li class="fs-16 fw-600">We make clients feel heard and understood by truly listening to them.</li>
+              <li class="fs-16 fw-600">We help clients understand technology and design with simple explanations.</li>
             </ul>
           </div>
         </div>
@@ -575,9 +574,7 @@
         </div>
       </div>
       <div class="col-12 text-center">
-        <a href="<?= base_url() ?>testimonials" class="btn btn-light btn-rounded">
-        View Reviews/Testimonials
-        </a>
+        <a href="<?= base_url() ?>testimonials" class="btn btn-light btn-rounded">View Reviews/Testimonials</a>
       </div>
     </div>
   </div>

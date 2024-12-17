@@ -76,6 +76,9 @@ $route['careers'] = 'home/careers';
 $route['privacy-policy'] = 'home/privacy_policy';
 $route['refund-policy'] = 'home/refund_policy';
 $route['portfolio'] = 'home/portfolio';
+$route['outsource-projects'] = 'home/outsource_projects';
+$route['white-label-partnership'] = 'home/white_label_partnership';
+$route['product-partnership'] = 'home/product_partnership';
 
 
 // $route['default_controller'] = 'welcome';

@@ -99,6 +99,18 @@ class Home extends CI_Controller {
 		$this->load->view('front/portfolio');
 	}
 
+	public function outsource_projects()
+	{
+		$this->load->view('front/outsource_projects');
+	}
+	public function white_label_partnership()
+	{
+		$this->load->view('front/white_label_partnership');
+	}
+	public function product_partnership()
+	{
+		$this->load->view('front/product_partnership');
+	}
 
 
 

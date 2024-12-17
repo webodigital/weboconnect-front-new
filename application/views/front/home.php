@@ -28,18 +28,18 @@
       <!-- Text Content Column -->
       <div class="col-lg-4 col-12">
         <div class="text-center text-lg-start">
-          <h1 class="fs-30 fw-700 text-uppercase m-0">WE TRANSFORM IDEAS INTO BUSINESSES</h1>
-          <p class="fs-20 fw-500 my-4">With a fOCUS on user-friendly, Custom web & mobile Applications  development.</p>
+          <h1 class="fs-30 fw-700 text-uppercase m-0">Empowering Business Through Technology</h1>
+          <p class="fs-20 fw-500 my-4">Pioneering customized web and mobile application development with a focus on excellence.</p>
         
           <div class="row g-3 mt-3">
             <div class="col-sm-6 col-6">
               <div class="d-grid">
-                <a href="#" class="btn btn-primary btn-md btn-rounded text-uppercase">Schedule a Call</a>
+                <a href="#" class="btn fs-14 btn-primary btn-md btn-rounded text-uppercase">Schedule a Call</a>
               </div>
             </div>
             <div class="col-sm-6 col-6">
               <div class="d-grid">   
-                <a href="<?=base_url()?>case-studies" class="btn btn-primary btn-md btn-rounded text-uppercase">View Case studies</a>
+                <a href="<?=base_url()?>testimonials" class="btn fs-14 btn-primary btn-md btn-rounded text-uppercase">View Success Stories</a>
               </div>  
             </div>     
           </div>    
@@ -139,7 +139,7 @@
               <img width="40" src="<?=base_url()?>assets/images/icons/global_clients.webp" alt="Global Clients">
               <div class="stat-number" data-target="200">200+</div>
             </div>
-            <p class="fs-16 fw-600">Clients & Partners</p>
+            <p class="fs-16 fw-600">Global Clients</p>
           </div>
         </div>
       </div>
@@ -151,7 +151,7 @@
             <img width="40" src="<?=base_url()?>assets/images/icons/completed_projects.webp" alt="Successfully Delivered">
             <div class="stat-number" data-target="8">250+</div>
           </div>
-            <p class="fs-16 fw-600">Completed Projects</p>
+            <p class="fs-16 fw-600">Successfully Delivered</p>
           </div>
         </div>
       </div>
@@ -359,51 +359,50 @@
     <div class="col-lg-3 col-md-4 col-6">
       <div class="icon-box" >
           <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Listen.png" alt="We Listen To Our Clients">
-          <h5 class="">We Listen To Our Clients</h5>
-          <!-- <p class="">Your goals shape our solutions.</p> -->
+          <h5 class="">We Listen and Understand</h5>
+          <p class="fs-14">Your goals shape our solutions.</p>
         </div>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
         <div class="icon-box">
           <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Focus.png" alt="We Focus On Solutionss<">
-          <h5 class="">We Focus On Solutionss</h5>
-          <!-- <p>Smart ideas that deliver real-world impact.</p> -->
+          <h5 class="">We Offer Real Solutions</h5>
+          <p class="fs-14">Smart ideas that deliver real-world impact.</p>
         </div>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
       <div class="icon-box">
         <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/create-stratgies.png" alt="We Develop Straggles First"> 
-        <h5 class="">We Develop Straggles First</h5>
-        <!-- <p>Strong foundations lead to stronger outcomes.</p> -->
-        <p></p>
+        <h5 class="">We Prioritize Strategic Thinking</h5>
+        <p class="fs-14">Strong foundations lead to stronger outcomes.</p>
       </div>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
       <div class="icon-box">
         <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Deliver.png" alt="We Deliver what we promise">  
-        <h5 class="">We Deliver what we promise</h5>
-        <!-- <p>Results that exceed expectations every time.</p> -->
+        <h5 class="">We Deliver Without Compromise</h5>
+        <p class="fs-14">Results that exceed expectations every time.</p>
       </div>
     </div>
-    <div class="col-lg-3 col-md-4 col-6">
+    <div class="col-lg-4 col-md-4 col-6">
       <div class="icon-box">
         <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Teamwork.png" alt="We believe in teamwork">  
-          <h5 class="">We believe in teamwork</h5>
-          <!-- <p>Collaboration is key to innovation.</p> -->
+          <h5 class="">We Believe inUnified <br>  Efforts</h5>
+          <p class="fs-14">Collaboration is key to innovation.</p>
       </div>
     </div>
-    <div class="col-lg-3 col-md-4 col-6">
+    <div class="col-lg-4 col-md-4 col-6">
       <div class="icon-box">
         <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Friendly.png" alt="We are friendly">  
-        <h5 class="">We are friendly</h5>
-        <!-- <p>Always here to guide and help.</p> -->
+        <h5 class="">We Are Supportive and Accessible</h5>
+        <p class="fs-14">Always here to guide and help.</p>
       </div>
     </div>
-    <div class="col-lg-3 col-md-4 col-6">
+    <div class="col-lg-4 col-md-4 col-6">
       <div class="icon-box">
         <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/logical.png" alt="We are methodical & logical">
-        <h5 class="">We are methodical & logical</h5>
-        <!-- <p>Balanced approaches to tackle challenges effectively.</p>               -->
+        <h5 class="">We Think Strategically <br> and Logically</h5>
+        <p class="fs-14">Balanced approaches to tackle challenges effectively.</p>              
       </div>
     </div>
   <div>
@@ -416,8 +415,8 @@
         <div class="row align-items-center">
             <div class="col-lg-8">
                 <div class=" text-center text-lg-start">
-                    <h2 class="fs-30 fw-700 text_brand_color2">Transform Your Ideas into Reality</h2>
-                    <h6 class="fs-20 fw-400 text_brand_color2 my-4">Dive into the digital era with Weboconnect, where your vision meets our mobile app development expertise. Let's create something extraordinary together and set new benchmarks in the app world.</h6>
+                    <h2 class="fs-30 fw-700 text_brand_color2">Turn Concepts into Reality</h2>
+                    <h6 class="fs-20 fw-400 text_brand_color2 my-4">Partner with WebOConnect to bring your ideas to life through cutting-edge technology and unmatched expertise. Together, let’s define the future of innovation.</h6>
                     <a href="<?= base_url() ?>contact" class="btn btn-outline-primary btn-rounded px-4">Contact Us</a>
                 </div>
             </div>
@@ -428,8 +427,12 @@
 
 <section class="section_padding tech-stack-section homeSection6" >
   <div class="container">
-    <h2 class="fs-30 fw-600">We cover your tech stack.</h2>
-    <p class="fs-20 fw-300">Our 4,000+ team has expertise in almost every programming language.</p>
+    <div class="row justify-content-center">
+      <div class="col-md-9">
+        <h2 class="fs-30 fw-600">We Master Every Corner of Technology</h2>
+        <p class="fs-20 fw-300">With expertise in almost every programming language, our 4,000+ team delivers dynamic solutions that align with modern business demands.</p>
+      </div>
+    </div>
   </div>
   <div class="container d-lg-block d-none">
     <div class="row g-4 g-lg-5 my-5">
@@ -631,9 +634,15 @@
 
 
 <section id="gallery" class="section_padding homeSection7 container">
-  <div class="text-center mb-4">
-    <h3 class="fs-30 fw-700">CUSTOM DESIGNS. QUALITY SERVICES.</h3>
-    <p class="fs-20 fw-400 text_brand_color2">When you work with the best, you get the best experience</p>
+  <div class="container mb-4">
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <div class="text-center mb-4">
+          <h3 class="fs-30 fw-700">UNIQUE DESIGNS. OUTSTANDING SERVICES</h3>
+          <p class="fs-20 fw-400 text_brand_color2">When excellence matters, choose WebOConnect. We combine creativity and precision to deliver superior web and mobile solutions, tailored for your success.</p>
+        </div>
+      </div>
+    </div>
   </div>
   
   <?php $this->load->view('front/common/common_portfolio') ?>
