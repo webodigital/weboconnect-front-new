@@ -75,6 +75,102 @@
     </div>
 </section>  
 
+
+<section class="section_padding ">
+    <div class="container position-relative" style="z-index:+1;">
+        <div class="row justify-content-center">
+            <div class="col-11">
+                <div class="text-center">
+                    <h2 class="fs-30 fw-700 text_brand_color1">Why Choose Us ?</h2>
+                    <h6 class="fs-18 fw-500 text_brand_color1">Ready to take your web development to the next level?</h6>
+                    <h6 class="fs-18 fw-500 text_brand_color1">Contact us today to discuss your Blockchain Development requirements. </h6>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4 g-lg-5 mt-4">
+            <div class="col-6 col-lg-4">
+                <div class="b_rds_20 bg_azure h-100 p-4">
+                    <div class="d-flex align-items-center gap-3">
+                        <span>
+                            <img width="50" src="<?= base_url() ?>assets/images/icons/tap_finger.webp" alt="Technologies at your fingerpoint">
+                        </span>
+                        <h4 class="fs-18 fw-700">Technologies at your fingerpoint</h4>
+                    </div>
+                    <h5 class="fs-15 fw-500">We deliver top-notch technical services as we have the right team with the required experience and skills. For us, quality is the most prominent aspect of any project.</h5>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-4">
+                <div class="b_rds_20 bg_azure h-100 p-4">
+                    <div class="d-flex align-items-center gap-3">
+                        <span>
+                            <img width="50" src="<?= base_url() ?>assets/images/icons/calendar.webp" alt="Technologies at your fingerpoint">
+                        </span>
+                        <h4 class="fs-18 fw-700">Time Stipulated Deliveries</h4>
+                    </div>
+                    <h5 class="fs-15 fw-500">We try to deliver all our projects in the requested time frame. This builds trust and a reliable bonding between our clients and us which is a win-win situation for all.</h5>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-4">
+                <div class="b_rds_20 bg_azure h-100 p-4">
+                    <div class="d-flex align-items-center gap-3">
+                        <span>
+                            <img width="50" src="<?= base_url() ?>assets/images/icons/ready_to_sign.webp" alt="Technologies at your fingerpoint">
+                        </span>
+                        <h4 class="fs-18 fw-700">Ready to sign NDA</h4>
+                    </div>
+                    <h5 class="fs-15 fw-500">We are ready to sign the Non-disclosure agreement to deliver you complete peace of mind and make you remain worry-free about your ideas.</h5>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-4">
+                <div class="b_rds_20 bg_azure h-100 p-4">
+                    <div class="d-flex align-items-center gap-3">
+                        <span>
+                            <img width="50" src="<?= base_url() ?>assets/images/icons/low_price.webp" alt="Technologies at your fingerpoint">
+                        </span>
+                        <h4 class="fs-18 fw-700">Lowest Price Guaranteed</h4>
+                    </div>
+                    <h5 class="fs-15 fw-500">Our solutions are being priced competitive and affordable for all. We ensure pocket friendly online solutions to avoid any load on you.</h5>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-4">
+                <div class="b_rds_20 bg_azure h-100 p-4">
+                    <div class="d-flex align-items-center gap-3">
+                        <span>
+                            <img width="50" src="<?= base_url() ?>assets/images/icons/experienced_efficient_workforce.webp" alt="Technologies at your fingerpoint">
+                        </span>
+                        <h4 class="fs-18 fw-700">Experienced and Efficient Workforce</h4>
+                    </div>
+                    <h5 class="fs-15 fw-500">All our solutions and products are rigorously tested and checked before deployment. We take pride in delivering the best, error-free and smooth products to our clients.</h5>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-4">
+                <div class="b_rds_20 bg_azure h-100 p-4">
+                    <div class="d-flex align-items-center gap-3">
+                        <span>
+                            <img width="50" src="<?= base_url() ?>assets/images/icons/technical_support.webp" alt="Technologies at your fingerpoint">
+                        </span>
+                        <h4 class="fs-18 fw-700">Round the Clock Technical Support</h4>
+                    </div>
+                    <h5 class="fs-15 fw-500">We are never away, available to support 24X7. You can always communicate with us regarding the products and services via phone, email or chats.</h5>
+                </div>
+            </div>
+
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <a href="<?= base_url() ?>contact" class="btn btn-outline-primary btn-rounded px-5">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
 <section class="section_padding bg_azure">
     <?php $this->load->view('front/common/our_clients_videos') ?>
 </section>
