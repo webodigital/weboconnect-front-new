@@ -42,7 +42,7 @@
           <div class="tab-content" id="pills-tabContent">
               <div class="tab-pane fade show active" id="pills-native" role="tabpanel" aria-labelledby="pills-native-tab" tabindex="0">
                   <div class="row justify-content-between g-4 mt-4">
-                      <div class="col-lg-3 col-md-12 col-12" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+                      <div class="col-lg-12 col-md-12 col-12" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
                           <!-- <h3 class="fs-24 fw-600 mb-3">
                               <span><img width="50" src="<?= base_url() ?>assets/images/icons/android_card.webp" alt="Android"></span> Android
                           </h3> -->
@@ -71,7 +71,7 @@
                           </div>
                       </div>
 
-                      <div class="col-lg-8 col-md-12 col-12" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+                      <div class="col-lg-12 col-md-12 col-12" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
           
                           <div class="tab-content" id="myTabContent">
                           <!-- SaaS Development Content -->
