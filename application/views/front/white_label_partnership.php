@@ -75,6 +75,7 @@
     </div>
 </section>  
 
+<<<<<<< Updated upstream
 
 <section class="section_padding ">
     <div class="container position-relative" style="z-index:+1;">
@@ -171,6 +172,8 @@
 
 
 
+=======
+>>>>>>> Stashed changes
 <section class="section_padding bg_azure">
     <?php $this->load->view('front/common/our_clients_videos') ?>
 </section>

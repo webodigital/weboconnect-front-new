@@ -124,6 +124,24 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  img.light{
+    display: block;
+    max-height: 40px;
+  }
+  img.dark{
+    display: none;
+    max-height: 40px;
+  }
+  &:hover{
+    background: #ffffff;
+    color: #00448A;
+    img.light{
+      display: none;
+    }
+    img.dark{
+      display: block;
+    }
+  }
 }
 
 .stat-content i {
