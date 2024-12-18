@@ -2477,6 +2477,7 @@ footer {
 .white_label_partnership_banner{
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 40%, rgba(0, 20, 49, 0)),
   url('../images/white_label_partnership/white_label_partnership_banner.webp');
   background-position: center;
@@ -2493,11 +2494,16 @@ footer {
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 40%, rgba(0, 20, 49, 0)),
   url('../images/white_label_partnership/white_label_partnership_banner.webp');
   background-position: center;
   background-size: cover;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -2517,6 +2523,7 @@ footer {
 
 
 
+<<<<<<< Updated upstream
 .error{
   font-size: 11px;
   color: red;
@@ -2524,5 +2531,27 @@ footer {
 }
 >>>>>>> Stashed changes
 =======
+}
+>>>>>>> Stashed changes
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.error{
+  font-size: 11px;
+  color: red;
 }
 >>>>>>> Stashed changes
