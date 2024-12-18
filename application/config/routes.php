@@ -115,6 +115,10 @@ $route['logout'] = 'login/logout';
 // Admin page
 $route['dashboard'] = 'dashboard/index'; 
 
+// Admin enquires
+$route['admin-enquires'] = 'enquire/adminEnquires';
+$route['admin-enquires/(:num)'] = 'enquire/adminEnquires/$1';
+
 // Admin blog
 $route['admin-blogs'] = 'blog/adminBlog';
 $route['create-blog'] = 'blog/createBlog';

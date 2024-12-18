@@ -113,7 +113,6 @@ class Home extends CI_Controller {
 	}
 
 
-
 	/////////////// Submit Form Requests ///////////////
 	public function contactUser(){
 		
@@ -491,18 +490,18 @@ class Home extends CI_Controller {
             //$error['budget'] = 'Please enter budget!';
         if (empty($message))
             $error['message'] = 'Please enter message!';        
-        //if (!$captcha)
-            //$error['captcha'] = 'Please check the captcha form.';
+        if (!$captcha)
+            $error['captcha'] = 'Please check the captcha form.';
 
         if (!empty($error)) {
             $result = ['s' => 'f', 'error' => $error];
         } else {
-            $data['phone'] = (($full_phone)?$full_phone:$phone);
-            $data['description'] = $message;
             $data['name'] = $first_name.' '.$last_name;
             $data['email'] = $email;
+            $data['phone'] = (($full_phone)?$full_phone:$phone);
             $data['development'] = $development?$development:'Other';
-            $data['budget'] = $budget?$budget:'Not Sure';
+            $data['description'] = $message;
+            //$data['budget'] = $budget?$budget:'Not Sure';
             
             $body = $this->load->view('front/emailer/newenquiry',$data,TRUE);
 
@@ -510,12 +509,13 @@ class Home extends CI_Controller {
             $this->load->model('Contact_Model');
             if ($this->Contact_Model->add('webo_enquiry_now',$data)) {
             
-    			$message = '';
+    			$message = 'We have new enquiry from '.$data['email'];
     			foreach ($data as $key => $val) {
-    				$message .="<p><b>$key</b>:- $val</p>";
+    				$message .="<p><b>".ucfirst($key)."</b>:- $val</p>";
     			}
     			$subject = "Enquiry from ".$phone;
-    			$this->send_mails('info@weboconnect.com', $subject, $message);
+    			//$this->send_mails('info@weboconnect.com', $subject, $message);
+    			$this->send_mails('maverick.php01@gmail.com', $subject, $message);
 
     			//send email to client
     			
