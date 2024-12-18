@@ -283,6 +283,13 @@ footer {
   left: 100%;
   transition: all 0.5s;
 }
+
+.btn-dark,
+.btn-dark:hover {
+  background-color: #001431 !important;
+  border-color: #001431 !important;
+  color: #ffffff;
+}
 .btn-danger,
 .btn-danger:hover {
   background-color: #FF492C !important;
@@ -2357,6 +2364,24 @@ footer {
     color: #ffffff;
     border-radius: 50%;
     z-index: +9;
+  }
+}
+
+.thankyou_modal{
+  .modal-content{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+    url('../images/banner.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+    form{
+      border-radius: 20px;
+      background: rgba(0, 20, 49, 0.2);
+      padding: 30px 20px;
+    }
   }
 }
 .discuss_project_modal.need_help{
