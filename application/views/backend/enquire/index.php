@@ -2,13 +2,13 @@
     <div class="row">
         <?php $this->load->view('frontend/common/sidemenu'); ?>
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 main-content h-100 p-5" style="min-height: calc(100vh - 100px);">
-            <!-- <div class="d-flex alignt-items-center justify-content-between">
-                <h1 class="fs-24 mb-5">All Blogs</h1>
+            <div class="d-flex alignt-items-center justify-content-between">
+                <h1 class="fs-24 mb-5">All Enquires</h1>
                 <div id="toaster-container"></div>
                 <div>
-                    <a href="<?php echo base_url('create-blog'); ?>" class="btn btn-primary submit-button">Add New Blog</a>
+                    <!-- <a href="<?php echo base_url('create-blog'); ?>" class="btn btn-primary submit-button">Add New Blog</a> -->
                 </div>
-            </div> -->
+            </div>
             <table class="table table-responsive">
                 <thead>
                     <tr>
@@ -20,7 +20,7 @@
                         <th>Message</th>
                         <!-- <th>Status</th> -->
                         <th>Date</th>
-                        <!-- <th>Action</th> -->
+                        <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -35,12 +35,12 @@
                                 <td><?php echo substr($enquire->message, 0, 100); ?>...</td>
                                 <!-- <td><?php echo ucfirst($enquire->contact_status); ?></td> -->
                                 <td><?php echo $enquire->created_at; ?></td>
-                                <!-- <td> -->
-                                    <!-- <i class="fas fa-eye"></i> -->
+                                <td>
+                                    <a href="<?php echo base_url("view-enquiry").'/'.$enquire->contact_id ?>"><i class="fas fa-eye"></i></a>
                                     <!-- <i class="me-2 fas fa-edit edit" style="cursor: pointer;"></i> -->
                                     <!-- <i class="me-2 fas fa-edit edit" data-id="<?php echo $blog->id; ?>" style="cursor: pointer;"></i>
                                     <i class="fas fa-trash-alt" data-id="<?php echo $blog->id; ?>" style="cursor: pointer;"></i> -->
-                                <!-- </td> -->
+                                </td>
                             </tr>
                         <?php endforeach; ?>
                     <?php else : ?>

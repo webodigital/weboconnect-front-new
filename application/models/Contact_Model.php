@@ -57,5 +57,19 @@ class Contact_Model extends CI_Model{
         return $result;
     }
     
+    public function getEnquiryById($id)
+    {
+        $this->db->select('webo_contact_us.*');
+        $this->db->from('webo_contact_us');
+        $this->db->where('webo_contact_us.contact_id', $id);
+        //$this->db->where('status' ,'publish');
+        $query = $this->db->get();
+
+        if ($query->num_rows() > 0) {
+            return $query->row();
+        } else {
+            return false;
+        }
+    }
 }
 ?>

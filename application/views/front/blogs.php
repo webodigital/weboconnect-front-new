@@ -22,7 +22,7 @@
             <h1 class="fs-34 fw-600 text_brand_color1">Our Blogs</h1>
         </div>
     </div>
-    <div class="container">
+    <div class="container d-none">
         <div class="blogs_filter_buttons">
             <button class="btn btn-light slides_btn active" onclick="filterBlog('all')">All</button>
             <button class="btn btn-light slides_btn" onclick="filterBlog('development')">Development</button>
@@ -31,12 +31,25 @@
             <button class="btn btn-light slides_btn" onclick="filterBlog('user_friendly')">USER-FRIENDLY INTERFACE</button>
             <button class="btn btn-light slides_btn" onclick="filterBlog('travel')">TRAVEL</button>
         </div>
-
-        
     </div>
     <div class="container mt-5">
         <div class="row g-4">
+
+            <?php foreach ($blogs as $blog) : ?>
             <div class="col-lg-4 col-sm-6 blogs_item" data-category="development">
+                <div class="blogs_card">
+                    <img class="w-100" src="<?php echo base_url('assets/images/blogs/uploads/thumbnails/' . $blog->thumbnail); ?>" alt="<?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?>" />
+                    <div class="blogs_card_content">
+                        <small class="fs-12 fw-400"><?php echo date('d M Y', strtotime($blog->publish_date)); ?></small>
+                        <h4 class="fs-18 fw-600"><?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?></h4>
+                        <p class="fs-14 fw-400"><?php echo htmlspecialchars($blog->content, ENT_QUOTES, 'UTF-8'); ?></p>
+                        <a class="fs-14 fw-500" href="<?php echo base_url('blog/' . $blog->slug); ?>">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <?php endforeach; ?>
+
+            <!-- <div class="col-lg-4 col-sm-6 blogs_item" data-category="development">
                 <div class="blogs_card">
                     <img class="w-100" src="<?= base_url() ?>assets/images/blogs/blogs_img1.webp" alt="blogs images" />
                     <div class="blogs_card_content">
@@ -145,14 +158,14 @@
                         <a class="fs-14 fw-500" href="<?= base_url() ?>blog-details">Read More</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </div>
     
 </section>
 
-<section class="section_padding stay_up_to_date">
+<!-- <section class="section_padding stay_up_to_date">
     <div class="container">
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-6">
@@ -172,10 +185,9 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
-
-<section class="section_padding">
+<!-- <section class="section_padding">
     <div class="container">
         <div class="row justify-content-center g-4 mt-5">
             <div class="col-lg-4 col-sm-6">
@@ -216,11 +228,7 @@
             </div>
         </div>
     </div>
-</section>
-
-
-
-
+</section> -->
 
 <?php $this->load->view('front/common/footer_form') ?>
 <?php $this->load->view('front/common/footer') ?>

@@ -11,6 +11,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo site_url('admin-blogs'); ?>">All Blogs</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo site_url('admin-case-studies'); ?>">All Case Studies</a>
+            </li>
             <!-- <li class="nav-item">
                 <a class="nav-link" href="<?php echo site_url('admin-sponsor'); ?>">All Sponsor</a>
             </li>

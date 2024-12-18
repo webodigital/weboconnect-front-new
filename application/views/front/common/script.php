@@ -93,9 +93,13 @@ $('#newEnquiryForm').validate({
                 console.log(res);
                 if (res.s == 's') {
                     $(form)[0].reset();
-                    window.location.href = "<?php echo site_url('thank-you'); ?>";
+                    //window.location.href = "<?php echo site_url('thank-you'); ?>";
+                    $('#thankyou_modal').modal('show');
                     $('.successMessage').show().html("<i>"+ res.m +"</i>");
-                    setTimeout(function(){ $('.successMessage').hide(); }, 5000);
+                    setTimeout(function(){ 
+                        $('.successMessage').hide(); 
+                        $('#thankyou_modal').modal('hide');
+                    }, 5000);
                 } else if (res.error) {
                     var erros = '';
                     $.each(res.error,function(i,v){
@@ -185,9 +189,14 @@ $('#newEnquiryModalForm').validate({
                 console.log(res);
                 if (res.s == 's') {
                     $(form)[0].reset();
-                    window.location.href = "<?php echo site_url('thank-you'); ?>";
+                    //window.location.href = "<?php echo site_url('thank-you'); ?>";
+                    $('#lets_discuss_project_modal').modal('hide');
+                    $('#thankyou_modal').modal('show');
                     $('#newEnquiryModalForm .successMessage').show().html("<i>"+ res.m +"</i>");
-                    setTimeout(function(){ $('#newEnquiryModalForm .successMessage').hide(); }, 5000);
+                    setTimeout(function(){ 
+                        $('#newEnquiryModalForm .successMessage').hide(); 
+                        $('#thankyou_modal').modal('hide');
+                    }, 5000);
                 } else if (res.error) {
                     var erros = '';
                     $.each(res.error,function(i,v){

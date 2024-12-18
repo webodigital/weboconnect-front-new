@@ -55,7 +55,7 @@ $route['contact'] = 'home/contact_us';
 $route['case-studies'] = 'home/case_study';
 $route['case-study-details'] = 'home/case_study_details';
 $route['blogs'] = 'home/blogs';
-$route['blog-details'] = 'home/blog_details';
+$route['blog/(:any)'] = 'home/blog_details/$1';
 $route['saas-development'] = 'home/saas_development';
 $route['mobile-app-development'] = 'home/mobile_app_development';
 $route['maintenance-and-support'] = 'home/maintenance_and_support';
@@ -100,10 +100,10 @@ $route['contacted'] = 'home/thankyou';
 ////////////////////////////////////////////////////////
 
 // user blog
-$route['blogs'] = 'blog';
-$route['blog/(:any)'] = 'blog/singleBlog/$1';
-$route['add-blog-comment'] = 'blog/addBlogComment';
-$route['toggle-like'] = 'blog/toggleLike';
+//$route['blogs'] = 'blog';
+//$route['blog/(:any)'] = 'blog/singleBlog/$1';
+//$route['add-blog-comment'] = 'blog/addBlogComment';
+//$route['toggle-like'] = 'blog/toggleLike';
 
 // login
 $route['login'] = 'login/index';
@@ -118,6 +118,7 @@ $route['dashboard'] = 'dashboard/index';
 // Admin enquires
 $route['admin-enquires'] = 'enquire/adminEnquires';
 $route['admin-enquires/(:num)'] = 'enquire/adminEnquires/$1';
+$route['view-enquiry/(:num)'] = 'enquire/viewEnquiry/$1';
 
 // Admin blog
 $route['admin-blogs'] = 'blog/adminBlog';

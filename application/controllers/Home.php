@@ -2,9 +2,13 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Home extends CI_Controller {
+
 	public function index()
 	{
-		$this->load->view('front/home');
+		$data = [];
+		$this->load->model('BlogModel');
+		$data['blogs'] = $this->BlogModel->getHomeBlogs();
+		$this->load->view('front/home', $data);
 	}
 	public function about()
 	{
@@ -24,11 +28,70 @@ class Home extends CI_Controller {
 	}
 	public function blogs()
 	{
-		$this->load->view('front/blogs');
+		$this->load->library('pagination');
+        $this->load->model('BlogModel');
+        $config = array();
+        $config['base_url'] = site_url('blog/adminBlog');
+        $config['total_rows'] = $this->BlogModel->getBlogCount();
+        // $config['per_page'] = 20;
+        $config['per_page'] = 0;
+        $config['uri_segment'] = 3;
+
+        // Bootstrap 4 Pagination Configuration
+        $config['full_tag_open'] = '<nav><ul class="pagination">';
+        $config['full_tag_close'] = '</ul></nav>';
+        $config['first_link'] = 'First';
+        $config['last_link'] = 'Last';
+        $config['first_tag_open'] = '<li class="page-item"><span class="page-link">';
+        $config['first_tag_close'] = '</span></li>';
+        $config['prev_link'] = '&laquo';
+        $config['prev_tag_open'] = '<li class="page-item"><span class="page-link">';
+        $config['prev_tag_close'] = '</span></li>';
+        $config['next_link'] = '&raquo';
+        $config['next_tag_open'] = '<li class="page-item"><span class="page-link">';
+        $config['next_tag_close'] = '</span></li>';
+        $config['last_tag_open'] = '<li class="page-item"><span class="page-link">';
+        $config['last_tag_close'] = '</span></li>';
+        $config['cur_tag_open'] = '<li class="page-item active"><span class="page-link">';
+        $config['cur_tag_close'] = '</span></li>';
+        $config['num_tag_open'] = '<li class="page-item"><span class="page-link">';
+        $config['num_tag_close'] = '</span></li>';
+
+        $this->pagination->initialize($config);
+
+        $page = ($this->uri->segment(3)) ? $this->uri->segment(3) : 0;
+
+        $data['blogs'] = $this->BlogModel->getBlogs($config['per_page'], $page);
+        $data['pagination'] = $this->pagination->create_links();
+
+		$this->load->view('front/blogs', $data);
 	}
-	public function blog_details()
+	public function blog_details($id)
 	{
-		$this->load->view('front/blog_details');
+        $this->load->model('BlogModel');
+		// Fetch blog details using $id
+        // $blog = $this->BlogModel->getBlogById($id);
+        $blog = $this->BlogModel->getBlogBySlug($id);
+
+        if (!$blog) {
+            // Handle case where blog with given ID is not found
+            show_404(); // Or redirect to an error page
+            return;
+        }
+        $comments = $this->BlogModel->getCommentsByBlogId($id);
+        $recentblogs = $this->BlogModel->getBlogs(3, 1, $blog->id);
+
+        // Pass blog data to the view
+        $data['title'] = 'Single Blog';
+        $data['blog'] = $blog;
+        $data['comments'] = $comments;
+        $data['recentblogs'] = $recentblogs;
+        $data['meta_title'] = $blog->meta_title ?? 'Single Blog Page';
+        $data['meta_description'] = $blog->meta_description ?? 'Single Blog Page';
+        $data['meta_og_img'] = $blog->image ?? '';
+        $data['meta_og_url'] = $blog->slug ?? '';
+
+		$this->load->view('front/blog_details', $data);
 	}
 	public function saas_development()
 	{

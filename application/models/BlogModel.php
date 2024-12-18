@@ -42,6 +42,28 @@ class BlogModel extends CI_Model
         return $result;
     }
 
+    public function getHomeBlogs()
+    {
+        $this->db->select('blogs.*, users.name AS author_name');
+        $this->db->from('blogs');
+        $this->db->join('users', 'users.id = blogs.user_id');
+        $this->db->where('status', 'publish');
+        $this->db->order_by('blogs.created_at', 'DESC');
+        $this->db->limit(3, 0);
+        $query = $this->db->get();
+        // Debugging: Uncomment for debugging in development only.
+        // echo $this->db->last_query();
+        $result = $query->result();
+        // Ensure $result is not empty before processing.
+        if (!$result) {
+            return [];
+        }
+        foreach ($result as &$blog) {
+            $blog->content = strip_tags($blog->content);
+        }
+        return $result;
+    }
+
     public function getBlogs($limit, $offset, $exclude_id = null)
     {
         $this->db->select('blogs.*, users.name AS author_name');
