@@ -76,6 +76,7 @@
 </section>  
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 <section class="section_padding ">
     <div class="container position-relative" style="z-index:+1;">
@@ -172,6 +173,8 @@
 
 
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 <section class="section_padding bg_azure">
