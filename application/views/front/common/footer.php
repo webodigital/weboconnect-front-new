@@ -143,6 +143,7 @@
         
 
 
+<?php $this->load->view('front/common/thankyou_modal') ?>
 <?php $this->load->view('front/common/lets_discuss_project_modal') ?>
 <?php $this->load->view('front/common/call_popup_modal') ?>
 <?php $this->load->view('front/common/need_help_modal') ?>
