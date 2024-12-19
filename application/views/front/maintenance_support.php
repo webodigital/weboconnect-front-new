@@ -29,6 +29,7 @@
         <div class="row justify-content-center mt-4">
             <div class="col-sm-3 col-6 d-grid">
                 <button class="btn btn-md btn-outline-light btn-rounded" data-bs-toggle="modal" data-bs-target="#lets_call_popup_modal">Talk To Our Experts</button>
+                <!-- <a href="https://calendly.com/schedulemeetingwithweboconnect/30min?back=1&month=2024-12" class="btn btn-primary-gradient btn-rounded px-5 mt-4">Talk To Our Experts</a> -->
             </div>
             <div class="col-sm-3 col-6 d-grid">
                 <a href="https://calendly.com/schedulemeetingwithweboconnect/30min?back=1&month=2024-12" class="btn btn-md btn-light btn-rounded">Schedule a Call</a>
@@ -104,7 +105,8 @@
         <div class="row align-items-center">
             <div class="col-lg-7 text-center text-lg-start">
                 <h3 class="fs-30 fw-700 text-white">Wondering which type of collaboration suits your business needs better?</h3>
-                <a href="" class="btn btn-primary-gradient btn-rounded mt-4 px-4">Talk To Our Experts</a>
+                <button class="btn btn-primary-gradient btn-rounded mt-4 px-4" data-bs-toggle="modal" data-bs-target="#lets_call_popup_modal">Talk To Our Experts</button>
+                <!-- <a href="https://calendly.com/schedulemeetingwithweboconnect/30min?back=1&month=2024-12" class="btn btn-primary-gradient btn-rounded px-5 mt-4">Talk To Our Experts</a> -->
             </div>
         </div>
     </div>

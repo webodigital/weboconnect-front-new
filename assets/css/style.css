@@ -2399,6 +2399,75 @@ footer {
     }
   }
 }
+
+.apply_new_modal{
+  z-index: +99999;
+  .modal-content{
+    background-color:#EBF1F5;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+    form{
+      border-radius: 20px;
+      background: #01458E;
+      padding: 30px 20px;
+    }
+  }
+
+  .btn_close{
+    width: 35px;
+    height: 35px;
+    top: 3px;
+    right: 3px;
+    gap: 0px;
+    background: #FF492C;
+    border: 0px solid #FF492C;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border-radius: 50%;
+    z-index: +9;
+  }
+  .contact_details_list_card{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 20px;
+  }
+  .upload_btn_wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block; 
+    cursor: pointer; 
+      .btn {
+      border: 2px solid #ffffff;
+      color: #01458E;
+      background-color: #ffffff;
+      padding: 8px 20px;
+      border-radius: 15px;
+      font-size: 1.4rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+  
+
+  
+  .upload_btn_wrapper input[type=file] {
+    /* font-size: 100px; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+    height: 45px;
+    width: 100%;
+  }
+}
 .discuss_project_modal.need_help{
   .contact_details{
     position: relative;

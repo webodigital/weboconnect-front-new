@@ -130,7 +130,8 @@
             <div class="col-lg-7">
                 <div class="text-center text-lg-start">
                     <h2 class="fs-24 fw-700 text-white">Want to accelerate Python developement at your company? See how we can help.</h2>
-                    <a href="https://calendly.com/schedulemeetingwithweboconnect/30min?back=1&month=2024-12" class="btn btn-primary-gradient btn-rounded px-5 mt-4">Talk To Our Experts</a>
+                    <button class="btn btn-primary-gradient btn-rounded mt-4 px-4" data-bs-toggle="modal" data-bs-target="#lets_call_popup_modal">Talk To Our Experts</button>
+                    <!-- <a href="https://calendly.com/schedulemeetingwithweboconnect/30min?back=1&month=2024-12" class="btn btn-primary-gradient btn-rounded px-5 mt-4">Talk To Our Experts</a> -->
                 </div>
             </div>
         </div>
