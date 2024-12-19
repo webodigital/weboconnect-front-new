@@ -348,7 +348,7 @@
                         </a>
                     </li>
                     <li class="">
-                        <a href="#" class="b_rds_5 ms-4 btn btn-danger px-3"  data-bs-toggle="modal" data-bs-target="#thankyou_modal">
+                        <a href="#" class="b_rds_5 ms-4 btn btn-danger px-3"  data-bs-toggle="modal" data-bs-target="#lets_call_popup_modal">
                             <i class="bi bi-telephone-fill"></i>
                         </a>
                     </li>
