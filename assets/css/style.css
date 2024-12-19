@@ -1710,9 +1710,24 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #00448A;
+  img.light{
+    display: none;
+    max-height: 40px;
+  }
+  img.dark{
+    display: block;
+    max-height: 40px;
+  }
   &:hover{
     background: #00448A;
     color: #ffffff;
+    img.light{
+      display: block;
+    }
+    img.dark{
+      display: none;
+    }
   }
 }
 .flex_card{
@@ -2444,7 +2459,7 @@ footer {
 
 
 .outsource_projects_banner{
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 40%, rgba(0, 20, 49, 0)),
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 40%, rgba(0, 20, 49, 0)),
   url('../images/outsource_projects/outsource_projects_bg.webp');
   background-position: right;
   background-size: cover;
@@ -2460,15 +2475,65 @@ footer {
 }
 
 .white_label_partnership_banner{
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 40%, rgba(0, 20, 49, 0)),
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 40%, rgba(0, 20, 49, 0)),
   url('../images/white_label_partnership/white_label_partnership_banner.webp');
   background-position: center;
   background-size: cover;
   min-height: 500px;
   display: flex;
   align-items: center;
-
 }
+.product_partnership_banner{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 40%, rgba(0, 20, 49, 0)),
+  url('../images/product_partnership/product_partnership_banner.webp');
+  background-position: center;
+  background-size: cover;
+=======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 40%, rgba(0, 20, 49, 0)),
+  url('../images/white_label_partnership/white_label_partnership_banner.webp');
+  background-position: center;
+  background-size: cover;
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+<<<<<<< Updated upstream
+.error{
+  font-size: 11px;
+  color: red;
+}
+=======
+
+
+
+
+
+<<<<<<< Updated upstream
+.error{
+  font-size: 11px;
+  color: red;
+<<<<<<< Updated upstream
+}
+>>>>>>> Stashed changes
+=======
+}
+>>>>>>> Stashed changes
+=======
 
 
 
@@ -2489,3 +2554,4 @@ footer {
   font-size: 11px;
   color: red;
 }
+>>>>>>> Stashed changes

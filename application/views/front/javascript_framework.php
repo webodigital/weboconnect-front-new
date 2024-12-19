@@ -182,7 +182,7 @@
             </div>
             <div class="col-6 col-md-4">
                 <div class="d-grid">
-                    <a href="" class="btn btn-md btn-rounded btn-primary">Contact Us</a>
+                    <a href="<?= base_url() ?>contact" class="btn btn-md btn-rounded btn-primary">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -197,7 +197,7 @@
             <div class="col-lg-8 text-center text-lg-start">
                 <h3 class="fs-24 fw-700 text-white">Want to accelerate JavaScript Development at your company? <br>
                 See how we can help.</h3>
-                <a href="" class="btn btn-primary-gradient btn-rounded mt-4 px-4">Talk To Our Experts</a>
+                <a href="https://calendly.com/schedulemeetingwithweboconnect/30min?back=1&month=2024-12" class="btn btn-primary-gradient btn-rounded mt-4 px-4">Talk To Our Experts</a>
             </div>
         </div>
     </div>

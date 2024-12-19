@@ -34,7 +34,7 @@
           <div class="row g-3 mt-3">
             <div class="col-sm-6 col-6">
               <div class="d-grid">
-                <a href="#" class="btn fs-14 btn-primary btn-md btn-rounded text-uppercase">Schedule a Call</a>
+                <a href="https://calendly.com/schedulemeetingwithweboconnect/30min?back=1&month=2024-12" target="_blank" class="btn fs-14 btn-primary btn-md btn-rounded text-uppercase">Schedule a Call</a>
               </div>
             </div>
             <div class="col-sm-6 col-6">
@@ -136,7 +136,10 @@
         <div class="stat-card">
           <div class="stat-content text-center">
             <div class="d-flex justify-content-center gap-4 align-items-center">
-              <img width="40" src="<?=base_url()?>assets/images/icons/global_clients.webp" alt="Global Clients">
+              <span>
+                <img class="light" src="<?=base_url()?>assets/images/icons/global_clients.webp" alt="Global Clients">
+                <img class="dark" src="<?=base_url()?>assets/images/icons/dark_global_clients.webp" alt="Global Clients">
+              </span>
               <div class="stat-number" data-target="200">200+</div>
             </div>
             <p class="fs-16 fw-600">Global Clients</p>
@@ -148,7 +151,10 @@
         <div class="stat-card">
           <div class="stat-content text-center">
           <div class="d-flex justify-content-center gap-4 align-items-center">
-            <img width="40" src="<?=base_url()?>assets/images/icons/completed_projects.webp" alt="Successfully Delivered">
+            <span>
+              <img class="light" src="<?=base_url()?>assets/images/icons/completed_projects.webp" alt="Successfully Delivered">
+              <img class="dark" src="<?=base_url()?>assets/images/icons/dark_completed_projects.webp" alt="Successfully Delivered">
+            </span>
             <div class="stat-number" data-target="8">250+</div>
           </div>
             <p class="fs-16 fw-600">Successfully Delivered</p>
@@ -160,7 +166,10 @@
         <div class="stat-card">
           <div class="stat-content text-center">
             <div class="d-flex justify-content-center gap-4 align-items-center">
-              <img width="40" src="<?=base_url()?>assets/images/icons/yrs_experiences.webp" alt="Years of Excellence">
+              <span>
+                <img class="light" src="<?=base_url()?>assets/images/icons/yrs_experiences.webp" alt="Years of Excellence">
+                <img class="dark" src="<?=base_url()?>assets/images/icons/dark_yrs_experiences.webp" alt="Years of Excellence">
+              </span>
               <div class="stat-number" data-target="97">8+</div>
             </div>
             <p class="fs-16 fw-600">Years of Excellence</p>
@@ -172,7 +181,10 @@
         <div class="stat-card">
           <div class="stat-content text-center">
             <div class="d-flex justify-content-center gap-4 align-items-center">
-              <img width="40" src="<?=base_url()?>assets/images/icons/client_retention.webp" alt="client retention">
+              <span>
+                <img class="light" src="<?=base_url()?>assets/images/icons/client_retention.webp" alt="client retention">
+                <img class="dark" src="<?=base_url()?>assets/images/icons/dark_client_retention.webp" alt="client retention">
+              </span>
               <div class="stat-number" data-target="250">97%</div>
             </div>
             <p class="fs-16 fw-600">Client Retention</p>

@@ -378,7 +378,7 @@
                 <div class=" text-center text-lg-start">
                     <h2 class="fs-30 fw-700 text-white">Transform Your Ideas into Reality</h2>
                     <h6 class="fs-18 fw-500 text-white mb-3">Dive into the digital era with Weboconnect, where your vision meets our mobile app development expertise. Let's create something extraordinary together and set new benchmarks in the app world.</h6>
-                    <a href="<?= base_url() ?>contact" class="btn btn-outline-light btn-rounded">Contact Us</a>
+                    <a href="<?= base_url() ?>contact" class="btn btn-outline-light btn-rounded px-4">Contact Us</a>
                 </div>
             </div>
         </div>
