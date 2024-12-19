@@ -21,8 +21,10 @@
     <div class="container">
         <div class="row align-items-center justify-content-between g-4">
             <div class="col-md-6">
-                <h1 class="fs-30 fw-600 text-white">Php FrameWork</h1>
-                <h6 class="fs-18 fw-500 text-white">At Weboconnect, we leverage the power of PHP frameworks to deliver efficient, scalable, and secure web applications. Our expert team has extensive experience in working with top-tier PHP frameworks, enabling us to tailor solutions to your specific business needs.</h6>
+                <h1 class="fs-30 fw-600 text-white">WebOConnect Builds Secure, Scalable Success with PHP Frameworks</h1>
+                <!-- <h6 class="fs-14 fw-700 text-white">PHP Framework</h6> -->
+                <h6 class="fs-18 fw-500 text-white">WebOConnect’s PHP development services focus on crafting secure, flexible, and efficient applications for businesses of all sizes. By utilizing modern PHP frameworks, we create custom solutions that deliver unparalleled results and drive long-term value.
+                Our expertise ensures robust, innovative, future-ready applications, and is designed for performance.</h6>
             </div>
             <div class="col-md-5">
                 <img class="w-100" src="<?= base_url() ?>assets/images/php_framework/php.webp" alt="JavaScript FrameWork">
@@ -142,41 +144,42 @@
         <div class="row justify-content-center g-4">
             <div class="col-11">
                 <div class="text-center">
-                    <h2 class="fs-30 fw-700 text_brand_color1">Why Choose Our PHP Framework Services?</h2>
+                    <h2 class="fs-30 fw-700 text_brand_color1">PHP Framework Services We Provide</h2>
                 </div>
             </div>
         </div>
         <div class="row align-items-center g-4 mt-4">
             <div class="col-6 col-md-4">
                 <div class="innovation_with_enterprise_card">
-                    <h4 class="fs-20 fw-700">Rapid Development</h4>
-                    <h5 class="fs-14 fw-500">Our frameworks provide pre-built components and libraries, significantly reducing development time.</h5>
+                    <h4 class="fs-20 fw-700">Tailored PHP Framework Solutions</h4>
+                    <h5 class="fs-14 fw-500">Offering end-to-end PHP framework services designed to meet your unique business requirements with precision and scalability.</h5>
                 </div>
             </div>
             <div class="col-6 col-md-4">
                 <div class="innovation_with_enterprise_card">
-                    <h4 class="fs-20 fw-700">Enhanced Security</h4>
-                    <h5 class="fs-14 fw-500">Benefit from built-in security features and regular updates to protect your applications.</h5>
+                    <h4 class="fs-20 fw-700">End-to-End PHP Development Expertisen</h4>
+                    <h5 class="fs-14 fw-500">From custom applications to enterprise-grade solutions, we leverage robust PHP frameworks to deliver excellence at every step.</h5>
                 </div>
             </div>
             <div class="col-6 col-md-4">
                 <div class="innovation_with_enterprise_card">
-                    <h4 class="fs-20 fw-700">Scalability</h4>
-                    <h5 class="fs-14 fw-500">Our solutions can easily adapt to growing user bases and increasing data volumes.</h5>
+                    <h4 class="fs-20 fw-700">PHP Framework Mastery for Dynamic Solutions</h4>
+                    <h5 class="fs-14 fw-500">Specializing in frameworks like Laravel, Symfony, and CodeIgniter, we provide secure, scalable, and high-performing PHP solutions.</h5>
                 </div>
             </div>
             <div class="col-6 col-md-4">
                 <div class="innovation_with_enterprise_card">
-                    <h4 class="fs-20 fw-700">Cost-Effective</h4>
-                    <h5 class="fs-14 fw-500">Reduce development and maintenance costs with our efficient frameworks.</h5>
+                    <h4 class="fs-20 fw-700">Advanced PHP Framework Services</h4>
+                    <h5 class="fs-14 fw-500">Empowering businesses with innovative, future-ready applications built using the power of leading PHP frameworks.</h5>
                 </div>
             </div>
+<!--             
             <div class="col-6 col-md-4">
                 <div class="innovation_with_enterprise_card">
                     <h4 class="fs-20 fw-700">Expert Support</h4>
                     <h5 class="fs-14 fw-500">Our dedicated team offers comprehensive support and maintenance services.</h5>
                 </div>
-            </div>
+            </div> -->
             <div class="col-6 col-md-4">
                 <div class="d-grid">
                     <a href="<?=base_url()?>contact" class="btn btn-md btn-rounded btn-primary">Contact Us</a>

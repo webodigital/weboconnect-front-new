@@ -106,13 +106,13 @@
                     <div class="dnld_and_links">
                         <h4 class="fs-20 fw-700">airix</h4>
                         <div class="d-flex align-items-center gap-3">
-                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                            <a href="https://play.google.com/store/apps/details?id=com.airixs" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                 <span>
                                     <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                 </span>
                                 <span class="">Android</span>
                             </a>
-                            <a href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                            <a href="https://apps.apple.com/us/app/talent-connects/id6736687377" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                 <span>
                                     <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                 </span>
@@ -327,12 +327,12 @@
                             <div class="dnld_and_links">
                                 <h4 class="fs-20 fw-700">airix</h4>
                                 <div class="d-flex align-items-center gap-3">
-                                    <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                    <a href="https://play.google.com/store/apps/details?id=com.airixs" class="btn btn-sm btn_dark_primary btn-rounded">
                                         <span>
                                             <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                         </span>
                                     </a>
-                                    <a href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                    <a href="https://apps.apple.com/us/app/talent-connects/id6736687377" class="btn btn-sm btn_dark_primary btn-rounded">
                                         <span>
                                             <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                         </span>

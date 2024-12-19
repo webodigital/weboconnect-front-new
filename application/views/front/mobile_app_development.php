@@ -29,7 +29,7 @@
         </div>
         <div class="row mt-4">
             <div class="col-sm-3 col-6 d-grid">
-                <a href="" class="btn btn-md btn-outline-light btn-rounded">Get a Quote</a>
+                <button class="btn btn-md btn-outline-light btn-rounded" data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal" >Get a Quote</button>
             </div>
             <div class="col-sm-3 col-6 d-grid">
                 <a href="https://calendly.com/schedulemeetingwithweboconnect/30min?back=1&month=2024-12" class="btn btn-md btn-primary btn-rounded">Schedule a Call</a>
@@ -377,7 +377,7 @@
     <div class="container text-center text-white">
         <h3 class="fs-30 fw-700">Our Portfolio</h3>
         <h6 class="fs-20 fw-600">We doesn't just make claims, our work speaks for itself.</h6>
-        <a href="" class="btn btn-outline-light btn-rounded mt-4 px-4">Checkout our portfolio</a>
+        <a href="<?=base_url()?>portfolio" class="btn btn-outline-light btn-rounded mt-4 px-4">Checkout our portfolio</a>
     </div>
 </section>
 

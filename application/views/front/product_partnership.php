@@ -87,7 +87,7 @@
                     <h3 class="fs-24 fw-700 text-white">Let's Build Your Next Project Together</h3>
                     <h6 class="fs-18 fw-500 text-white">Ready to take your web development to the next level?</h6>
                     <h6 class="fs-18 fw-500 text-white">Contact us today to discuss your PHP development requirements.</h6>
-                    <a href="" class="btn btn-primary btn-rounded mt-4 px-4">Contact us</a>
+                    <a href="<?=base_url()?>contact" class="btn btn-primary btn-rounded mt-4 px-4">Contact us</a>
                 </div>
             </div>
         </div>

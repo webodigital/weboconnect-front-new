@@ -395,7 +395,7 @@ footer {
       border: 0px !important;
       color: #000;
       border-radius: 15px;
-      font-size: 14px;
+      font-size: 1.6rem;
         &::placeholder {
           color: #000000;
           opacity: 0.5;
@@ -1454,7 +1454,7 @@ footer {
   }
   .innovation_with_enterprise_card{
     width: 100%;
-    /* min-height: 260px; */
+    height: 100%;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0px 4px 8.9px 0px #00458E4D;
@@ -2475,9 +2475,6 @@ footer {
 }
 
 .white_label_partnership_banner{
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 40%, rgba(0, 20, 49, 0)),
   url('../images/white_label_partnership/white_label_partnership_banner.webp');
   background-position: center;
@@ -2491,67 +2488,13 @@ footer {
   url('../images/product_partnership/product_partnership_banner.webp');
   background-position: center;
   background-size: cover;
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 40%, rgba(0, 20, 49, 0)),
-  url('../images/white_label_partnership/white_label_partnership_banner.webp');
-  background-position: center;
-  background-size: cover;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
   min-height: 500px;
   display: flex;
   align-items: center;
 }
 
-<<<<<<< Updated upstream
-.error{
-  font-size: 11px;
-  color: red;
-}
-=======
-
-
-
-
-
-<<<<<<< Updated upstream
-.error{
-  font-size: 11px;
-  color: red;
-<<<<<<< Updated upstream
-}
->>>>>>> Stashed changes
-=======
-}
->>>>>>> Stashed changes
-=======
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .error{
   font-size: 11px;
   color: red;
 }
->>>>>>> Stashed changes
