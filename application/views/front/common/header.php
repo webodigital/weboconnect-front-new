@@ -52,7 +52,7 @@
                                         <div class="col-md-3">
                                             <div class="mega_menu_card">
                                                 <a href="<?=base_url()?>blogs">
-                                                    <img height="150" src="<?=base_url()?>assets/images/mega_menu/blog.webp" alt="about">
+                                                    <img height="150" src="<?=base_url()?>assets/images/mega_menu/blog.webp" alt="Blogs">
                                                     <div class="_menu_">
                                                         <h5>Blogs</h5>
                                                     </div>
@@ -63,7 +63,7 @@
                                         <div class="col-md-3">
                                             <div class="mega_menu_card">
                                                 <a href="<?=base_url()?>our-team">
-                                                    <img height="150" src="<?=base_url()?>assets/images/mega_menu/our_team.webp" alt="about">
+                                                    <img height="150" src="<?=base_url()?>assets/images/mega_menu/our_team.webp" alt="Our Team">
                                                     <div class="_menu_">
                                                         <h5>Our Team</h5>
                                                     </div>
@@ -74,7 +74,7 @@
                                         <div class="col-md-3">
                                             <div class="mega_menu_card">
                                                 <a href="<?=base_url()?>contact">
-                                                    <img height="200" src="<?=base_url()?>assets/images/mega_menu/about.webp" alt="about">
+                                                    <img height="200" src="<?=base_url()?>assets/images/mega_menu/about.webp" alt="Contact Us">
                                                     <div class="_menu_ center d-grid">
                                                         <button class="btn btn-rounded">Contact Us</button>
                                                     </div>
@@ -104,7 +104,7 @@
                                         <div class="col-md-3">
                                             <div class="mega_menu_card">
                                                 <a href="<?=base_url()?>saas-development">
-                                                    <img height="150" src="<?=base_url()?>assets/images/mega_menu/s_d.webp" alt="about">
+                                                    <img height="150" src="<?=base_url()?>assets/images/mega_menu/s_d.webp" alt="SaaS Development">
                                                     <div class="_menu_">
                                                         <h5>SaaS Development</h5>
                                                     </div>
@@ -115,7 +115,7 @@
                                         <div class="col-md-3">
                                             <div class="mega_menu_card">
                                                 <a href="<?=base_url()?>mobile-app-development">
-                                                    <img height="150" src="<?=base_url()?>assets/images/mega_menu/mob_app.webp" alt="about">
+                                                    <img height="150" src="<?=base_url()?>assets/images/mega_menu/mob_app.webp" alt="Mobile App Development">
                                                     <div class="_menu_">
                                                         <h5>Mobile App Development</h5>
                                                     </div>
@@ -126,7 +126,7 @@
                                         <div class="col-md-3">
                                             <div class="mega_menu_card">
                                                 <a href="<?=base_url()?>hire-dedicated-resources">
-                                                    <img height="150" src="<?=base_url()?>assets/images/mega_menu/h_d_r.webp" alt="about">
+                                                    <img height="150" src="<?=base_url()?>assets/images/mega_menu/h_d_r.webp" alt="Hire Dedicated Resources">
                                                     <div class="_menu_">
                                                         <h5>Hire Dedicated Resources</h5>
                                                     </div>
@@ -137,7 +137,7 @@
                                         <div class="col-md-3">
                                             <div class="mega_menu_card">
                                                 <a href="<?=base_url()?>maintenance-and-support">
-                                                    <img height="150" src="<?=base_url()?>assets/images/mega_menu/m_s.webp" alt="about">
+                                                    <img height="150" src="<?=base_url()?>assets/images/mega_menu/m_s.webp" alt="Maintenance & Support">
                                                     <div class="_menu_">
                                                         <h5>Maintenance & Support</h5>
                                                     </div>
@@ -177,7 +177,7 @@
                                         <div class="col-md-9">
                                             <div class="">
                                                 <a href="https://staffinc.io/" target="_blank">
-                                                    <img height="" src="<?=base_url()?>assets/images/mega_menu/h_c_f.webp" alt="about">
+                                                    <img height="" src="<?=base_url()?>assets/images/mega_menu/h_c_f.webp" alt="Health Care Staffing">
                                                     <!-- <div class="_menu_">
                                                         <h5>Health Care Staffing</h5>
                                                     </div> -->
@@ -212,7 +212,7 @@
                                         <div class="col-md-3">
                                             <div class="mega_menu_card">
                                                 <a href="<?=base_url()?>javascript-framework">
-                                                    <img height="150" src="<?=base_url()?>assets/images/mega_menu/javascript_framework.webp" alt="about">
+                                                    <img height="150" src="<?=base_url()?>assets/images/mega_menu/javascript_framework.webp" alt="Javascipt Framework">
                                                     <div class="_menu_">
                                                         <h5>Javascipt Framework</h5>
                                                     </div>
@@ -223,7 +223,7 @@
                                         <div class="col-md-3">
                                             <div class="mega_menu_card">
                                                 <a href="<?=base_url()?>python-framework">
-                                                    <img height="150" src="<?=base_url()?>assets/images/mega_menu/python_framework.webp" alt="about">
+                                                    <img height="150" src="<?=base_url()?>assets/images/mega_menu/python_framework.webp" alt="Python FrameWork">
                                                     <div class="_menu_">
                                                         <h5>Python Framework</h5>
                                                     </div>
@@ -231,21 +231,21 @@
                                             </div>
                                         </div>
 
-                                        <!-- <div class="col-md-3">
+                                        <div class="col-md-3">
                                             <div class="mega_menu_card">
                                                 <a href="<?=base_url()?>php-framework">
-                                                    <img height="150" src="<?=base_url()?>assets/images/mega_menu/php.webp" alt="about">
+                                                    <img height="150" src="<?=base_url()?>assets/images/mega_menu/php.webp" alt="Php FrameWork">
                                                     <div class="_menu_">
                                                         <h5>Php FrameWork</h5>
                                                     </div>
                                                 </a>
                                             </div>
-                                        </div> -->
+                                        </div>
 
                                         <div class="col-md-3">
                                             <div class="mega_menu_card">
                                                 <a href="<?=base_url()?>mobile-application-framework">
-                                                    <img height="150" src="<?=base_url()?>assets/images/mega_menu/mob_app_framework.webp" alt="about">
+                                                    <img height="150" src="<?=base_url()?>assets/images/mega_menu/mob_app_framework.webp" alt="Mobile Application FrameWork">
                                                     <div class="_menu_">
                                                         <h5>Mobile Application FrameWork</h5>
                                                     </div>
@@ -277,7 +277,7 @@
                                         <div class="col-md-4">
                                             <div class="mega_menu_card">
                                                 <a href="<?=base_url()?>portfolio">
-                                                    <img height="250" src="<?=base_url()?>assets/images/mega_menu/portfolio.webp" alt="about">
+                                                    <img height="250" src="<?=base_url()?>assets/images/mega_menu/portfolio.webp" alt="Our Portfolio">
                                                     <div class="our_work_cntnt">
                                                         <div class="">
                                                             <h5>Our Portfolio</h5>
@@ -292,7 +292,7 @@
                                         <div class="col-md-4">
                                             <div class="mega_menu_card">
                                                 <a href="<?=base_url()?>case-studies">
-                                                    <img height="250" src="<?=base_url()?>assets/images/mega_menu/case_study.webp" alt="about">
+                                                    <img height="250" src="<?=base_url()?>assets/images/mega_menu/case_study.webp" alt="Case Studies">
                                                     <div class="our_work_cntnt">
                                                         <div class="">
                                                             <h5>Case Studies</h5>
@@ -307,7 +307,7 @@
                                         <div class="col-md-4">
                                             <div class="mega_menu_card">
                                                 <a href="<?=base_url()?>testimonials">
-                                                    <img height="250" src="<?=base_url()?>assets/images/mega_menu/testimony.webp" alt="about">
+                                                    <img height="250" src="<?=base_url()?>assets/images/mega_menu/testimony.webp" alt="Testimonials">
                                                     <div class="_menu_ bottom d-grid">
                                                         <button class="btn btn-rounded">Testimonials</button>
                                                     </div>

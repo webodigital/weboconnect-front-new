@@ -21,9 +21,11 @@
     <div class="container">
         <div class="row align-items-center g-4">
             <div class="col-md-6">
-                <h1 class="fs-30 fw-600 text-white">JavaScript FrameWork</h1>
-                <h6 class="fs-18 fw-500 text-white">Updated and advanced technologies are the most important aspect of IT industry. Here, at WebOConnect, we are proficient in working with JavaScript Framework. A JavaScript framework is an application framework written in JavaScript.</h6>
-                <h6 class="fs-18 fw-500 text-white">It differs from a JavaScript library in its control flow: a library offers functions to be called by its parent code, whereas a framework defines the entire application design. Thanks to our experience and expertise, we have become one of the most prominent players when it comes to working with JavaScript Framework.</h6>
+                <h1 class="fs-30 fw-600 text-white">Future-Ready Apps with JavaScript Frameworks</h1>
+                <h6 class="fs-18 fw-500 text-white">WebOConnect transforms your ideas into functional, scalable solutions using cutting-edge frameworks.</h6>
+                <!-- <h2 class="fs-30 fw-600 text-white">JavaScript Framework Expertise</h2>
+                <h6 class="fs-18 fw-500 text-white">JavaScript Frameworks are the building blocks of cutting-edge web solutions, and <b>WebOConnect</b> is at the forefront of their implementation. Our team utilizes these frameworks to design structured, fast, and responsive applications that drive business success.</h6>
+                <h6 class="fs-18 fw-500 text-white">A key distinction lies between libraries and frameworks—libraries offer tools, whereas frameworks define the workflow. We streamline complex projects with our expertise, making us the go-to partner for exceptional JavaScript-based solutions.</h6> -->
             </div>
             <div class="col-md-6">
                 <img class="w-100" src="<?= base_url() ?>assets/images/javascript_frm/javascript.webp" alt="JavaScript FrameWork">
@@ -145,7 +147,7 @@
         <div class="row justify-content-center g-4">
             <div class="col-11">
                 <div class="text-center">
-                    <h2 class="fs-30 fw-700 text_brand_color1">Our JavaScript Development Services</h2>
+                    <h2 class="fs-30 fw-700 text_brand_color1">Advanced JavaScript Development Services We Offer</h2>
                 </div>
             </div>
         </div>
@@ -153,31 +155,31 @@
             <div class="col-6 col-md-4">
                 <div class="innovation_with_enterprise_card">
                     <h4 class="fs-20 fw-700">Custom JavaScript Development</h4>
-                    <h5 class="fs-14 fw-500">We create tailored solutions that meet your unique business requirements, from building feature-rich applications to enhancing existing systems.</h5>
+                    <h5 class="fs-14 fw-500">At WebOConnect, we build bespoke JavaScript solutions that streamline processes, modernize workflows, and elevate your digital success.</h5>
                 </div>
             </div>
             <div class="col-6 col-md-4">
                 <div class="innovation_with_enterprise_card">
-                    <h4 class="fs-20 fw-700">Full-Stack Development</h4>
-                    <h5 class="fs-14 fw-500">Our expertise spans the entire stack, using JavaScript frameworks like Node.js for back-end development and React, Angular, or Vue.js for front-end excellence.</h5>
+                    <h4 class="fs-20 fw-700">End-to-End Full-Stack Development</h4>
+                    <h5 class="fs-14 fw-500">We specialize in both front-end (React, Vue.js) and back-end (Node.js) development to deliver seamless, scalable, and user-centric applications.</h5>
                 </div>
             </div>
             <div class="col-6 col-md-4">
                 <div class="innovation_with_enterprise_card">
-                    <h4 class="fs-20 fw-700">TypeScript Integration</h4>
-                    <h5 class="fs-14 fw-500">We incorporate TypeScript to improve code quality, enabling error prevention and scalable development.</h5>
+                    <h4 class="fs-20 fw-700">TypeScript Integration Services</h4>
+                    <h5 class="fs-14 fw-500">Leverage TypeScript for cleaner code, faster deployment, and a reduction in development errors to create sustainable, future-ready applications.</h5>
                 </div>
             </div>
             <div class="col-6 col-md-4">
                 <div class="innovation_with_enterprise_card">
-                    <h4 class="fs-20 fw-700">JavaScript Framework Expertise</h4>
-                    <h5 class="fs-14 fw-500">We utilize modern frameworks such as React, Angular, Vue.js, and more to create high-performance, maintainable applications.</h5>
+                    <h4 class="fs-20 fw-700">Framework Expertise</h4>
+                    <h5 class="fs-14 fw-500">Our JavaScript specialists utilize cutting-edge frameworks—React, Angular, and Vue.js—to build reliable and engaging web solutions.</h5>
                 </div>
             </div>
             <div class="col-6 col-md-4">
                 <div class="innovation_with_enterprise_card">
-                    <h4 class="fs-20 fw-700">Maintenance & Support</h4>
-                    <h5 class="fs-14 fw-500">Our team provides ongoing support to keep your JavaScript-based applications updated, secure, and optimized for performance.</h5>
+                    <h4 class="fs-20 fw-700">Ongoing Maintenance & Support</h4>
+                    <h5 class="fs-14 fw-500">We offer 24/7 maintenance, updates, and performance monitoring to ensure your applications are always optimized and secure.</h5>
                 </div>
             </div>
             <div class="col-6 col-md-4">
@@ -208,9 +210,10 @@
         <div class="row align-items-center justify-content-between g-4">
             <div class="col-lg-6">
                 <div class="b_rds_15 bg_azure p-3">
-                    <h3 class="fs-30 fw-700">We are the best when it comes to working with JavaScript Framework.</h3>
-                    <p class="fs-16 fw-500">WebOConnect offers a pool of certified JavaScript Framework developers who are well-versed in the technologies and methodologies your project needs to succeed. Our team is highly skilled and knowledgable when it comes to technologies like Angular, React, Native, Node, etc. Our Company has been committed to cultivating collective technical expertise. Through continuous education, mentoring, and training, we have built a unit of highly competent professionals who deliver top-notch web development services.</p>
-                    <p class="fs-16 fw-500">Our technical know-how and best practices were instrumental in helping our clients to initiate and transform their online presence. Armed with this experience, we can do the same for you.</p>
+                    <h3 class="fs-30 fw-700">Why WebOConnect is Your Premier Choice for JavaScript Excellence</h3>
+                    <p class="fs-16 fw-500">Our team at WebOConnect brings you unmatched JavaScript development expertise. With a deep understanding of frameworks like React, Angular, Node.js, and Vue.js, we craft innovative and scalable solutions tailored to meet your objectives</p>
+                    <p class="fs-16 fw-500">We prioritize knowledge-sharing, education, and technical growth, ensuring our developers remain at the forefront of technology. Our agile process, meticulous execution, and passion for excellence allow us to deliver superior web solutions every time.</p>
+                    <p class="fs-16 fw-500">Partner with WebOConnect to redefine your online presence with exceptional JavaScript development services that drive results and deliver value.</p>
                 </div>
             </div>
             <div class="col-lg-5">

@@ -395,7 +395,7 @@ footer {
       border: 0px !important;
       color: #000;
       border-radius: 15px;
-      font-size: 14px;
+      font-size: 1.6rem;
         &::placeholder {
           color: #000000;
           opacity: 0.5;
@@ -1454,7 +1454,7 @@ footer {
   }
   .innovation_with_enterprise_card{
     width: 100%;
-    /* min-height: 260px; */
+    height: 100%;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0px 4px 8.9px 0px #00458E4D;

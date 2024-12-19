@@ -224,7 +224,7 @@
                                 </div>
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">Servare</h4>                                    
-                                     <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                     <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                         <span>
                                             <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
                                         </span>
@@ -404,14 +404,14 @@
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">Airix</h4>
                                     <div class="d-flex align-items-center gap-3">
-                                        <a target="_blank" href="http://play.google.com/store/apps/details?id=airix.mobile&hl=en_IN" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.airixs" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                             </span>
                                             <span class="">Android</span>
                                         </a>
                                         
-                                        <a target="_blank" href="http://play.google.com/store/apps/details?id=airix.mobile&hl=en_IN" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <a target="_blank" href="https://apps.apple.com/us/app/talent-connects/id6736687377" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                             </span>
@@ -615,7 +615,7 @@
                                             <span class="">Android</span>
                                         </a>
                                         
-                                         <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                         <a target="_blank" href="https://apps.apple.com/in/app/doctor-locums/id6443468424" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                             </span>
@@ -637,14 +637,14 @@
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">finowiz</h4>
                                     <div class="d-flex align-items-center gap-3">
-                                         <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                         <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                             </span>
                                             <span class="">Android</span>
                                         </a>
                                         
-                                         <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                         <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                             </span>
@@ -666,14 +666,14 @@
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">fixd</h4>
                                     <div class="d-flex align-items-center gap-3">
-                                         <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                         <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                             </span>
                                             <span class="">Android</span>
                                         </a>
                                         
-                                         <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                         <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                             </span>
@@ -695,14 +695,14 @@
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">golf me</h4>
                                     <div class="d-flex align-items-center gap-3">
-                                         <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                         <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                             </span>
                                             <span class="">Android</span>
                                         </a>
                                         
-                                         <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                         <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                             </span>
@@ -724,14 +724,14 @@
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">goodwork</h4>
                                     <div class="d-flex align-items-center gap-3">
-                                         <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                         <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                             </span>
                                             <span class="">Android</span>
                                         </a>
                                         
-                                         <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                         <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                             </span>
@@ -782,14 +782,14 @@
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">India On Track</h4>
                                     <div class="d-flex align-items-center gap-3">
-                                         <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                         <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                             </span>
                                             <span class="">Android</span>
                                         </a>
                                         
-                                         <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                         <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                             </span>
@@ -818,7 +818,7 @@
                                             <span class="">Android</span>
                                         </a>
                                         
-                                        <!--  <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <!--  <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                             </span>
@@ -869,7 +869,7 @@
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">monkyshine</h4>
                                     <div class="d-flex align-items-center gap-3">
-                                        <!--  <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <!--  <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                             </span>
@@ -898,7 +898,7 @@
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">musicfix</h4>
                                     <div class="d-flex align-items-center gap-3">
-                                         <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                         <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                             </span>
@@ -927,14 +927,14 @@
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">personality</h4>
                                     <div class="d-flex align-items-center gap-3">
-                                         <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                         <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                             </span>
                                             <span class="">Android</span>
                                         </a>
                                         
-                                         <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                         <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                             </span>
@@ -963,7 +963,7 @@
                                             <span class="">Android</span>
                                         </a>
                                         
-                                         <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                         <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                             </span>
@@ -985,14 +985,14 @@
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">qoach</h4>
                                     <div class="d-flex align-items-center gap-3">
-                                         <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                         <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                             </span>
                                             <span class="">Android</span>
                                         </a>
                                         
-                                         <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                         <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                             </span>
@@ -1014,14 +1014,14 @@
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">quality couriers</h4>
                                     <div class="d-flex align-items-center gap-3">
-                                         <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                         <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                             </span>
                                             <span class="">Android</span>
                                         </a>
                                         
-                                         <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                         <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                             </span>
@@ -1043,14 +1043,14 @@
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">staffinc</h4>
                                     <div class="d-flex align-items-center gap-3">
-                                         <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                         <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                             </span>
                                             <span class="">Android</span>
                                         </a>
                                         
-                                         <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                         <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                             </span>
@@ -1072,14 +1072,14 @@
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">terp2go</h4>
                                     <div class="d-flex align-items-center gap-3">
-                                        <a target="_blank" href="http://play.google.com/store/apps/details?id=com.terp2go" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.terp2go" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                             </span>
                                             <span class="">Android</span>
                                         </a>
                                         
-                                         <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                         <a target="_blank" href="https://apps.apple.com/us/app/terp2go/id6738675366" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                             </span>
@@ -1567,12 +1567,12 @@
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">Airix</h4>
                                         <div class="d-flex align-items-center gap-3">
-                                            <a target="_blank" href="http://play.google.com/store/apps/details?id=airix.mobile&hl=en_IN" class="btn btn-sm btn_dark_primary btn-rounded">
+                                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.airixs" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                                 </span>
                                             </a>
-                                            <a target="_blank" href="http://play.google.com/store/apps/details?id=airix.mobile&hl=en_IN" class="btn btn-sm btn_dark_primary btn-rounded">
+                                            <a target="_blank" href="https://apps.apple.com/us/app/talent-connects/id6736687377" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                                 </span>
@@ -1761,11 +1761,11 @@
                                                     <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                                 </span>
                                             </a>
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <!-- <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                                 </span>
-                                            </a>
+                                            </a> -->
                                         </div>
                                     </div>
                                 </div>
@@ -1783,12 +1783,12 @@
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">finowiz</h4>
                                         <div class="d-flex align-items-center gap-3">
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                                 </span>
                                             </a>
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                                 </span>
@@ -1810,12 +1810,12 @@
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">Fixd</h4>
                                         <div class="d-flex align-items-center gap-3">
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                                 </span>
                                             </a>
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                                 </span>
@@ -1837,12 +1837,12 @@
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">Golf Me</h4>
                                         <div class="d-flex align-items-center gap-3">
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                                 </span>
                                             </a>
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                                 </span>
@@ -1864,12 +1864,12 @@
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">Goodwork</h4>
                                         <div class="d-flex align-items-center gap-3">
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                                 </span>
                                             </a>
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                                 </span>
@@ -1918,12 +1918,12 @@
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">India On Track</h4>
                                         <div class="d-flex align-items-center gap-3">
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                                 </span>
                                             </a>
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                                 </span>
@@ -1950,11 +1950,11 @@
                                                     <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                                 </span>
                                             </a>
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <!-- <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                                 </span>
-                                            </a>
+                                            </a> -->
                                         </div>
                                     </div>
                                 </div>
@@ -1999,11 +1999,11 @@
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">monkyshine</h4>
                                         <div class="d-flex align-items-center gap-3">
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <!-- <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                                 </span>
-                                            </a>
+                                            </a> -->
                                             <a target="_blank" href="http://apps.apple.com/in/app/monky-shine/id1643692067" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
@@ -2026,11 +2026,11 @@
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">musicfix</h4>
                                         <div class="d-flex align-items-center gap-3">
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <!-- <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                                 </span>
-                                            </a>
+                                            </a> -->
                                             <a target="_blank" href="http://apps.apple.com/in/app/musicfix-app/id6502290423" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
@@ -2053,12 +2053,12 @@
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">personality</h4>
                                         <div class="d-flex align-items-center gap-3">
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                                 </span>
                                             </a>
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                                 </span>
@@ -2085,11 +2085,11 @@
                                                     <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                                 </span>
                                             </a>
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <!-- <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                                 </span>
-                                            </a>
+                                            </a> -->
                                         </div>
                                     </div>
                                 </div>
@@ -2107,12 +2107,12 @@
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">qoach</h4>
                                         <div class="d-flex align-items-center gap-3">
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                                 </span>
                                             </a>
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                                 </span>
@@ -2134,12 +2134,12 @@
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">quality couriers</h4>
                                         <div class="d-flex align-items-center gap-3">
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                                 </span>
                                             </a>
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                                 </span>
@@ -2161,12 +2161,12 @@
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">staffinc</h4>
                                         <div class="d-flex align-items-center gap-3">
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                                 </span>
                                             </a>
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                                 </span>
@@ -2193,11 +2193,11 @@
                                                     <img src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                                 </span>
                                             </a>
-                                             <a target="_blank" href="" class="btn btn-sm btn_dark_primary btn-rounded">
+                                             <!-- <a target="_blank" href="javascript:void(0)" class="btn btn-sm btn_dark_primary btn-rounded">
                                                 <span>
                                                     <img src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                                 </span>
-                                            </a>
+                                            </a> -->
                                         </div>
                                     </div>
                                 </div>
