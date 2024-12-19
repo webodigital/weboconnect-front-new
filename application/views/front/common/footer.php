@@ -147,3 +147,19 @@
 <?php $this->load->view('front/common/lets_discuss_project_modal') ?>
 <?php $this->load->view('front/common/call_popup_modal') ?>
 <?php $this->load->view('front/common/need_help_modal') ?>
+
+<script>
+    // Get all video elements
+    const videos = document.querySelectorAll('video');
+    // Add click event listeners to each video
+    videos.forEach(video => {
+      video.addEventListener('play', () => {
+        // Pause all other videos
+        videos.forEach(otherVideo => {
+          if (otherVideo !== video) {
+            otherVideo.pause();
+          }
+        });
+      });
+    });
+</script>

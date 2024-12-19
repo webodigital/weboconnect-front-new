@@ -29,7 +29,7 @@
         </div>
         <div class="row mt-4">
             <div class="col-sm-3 col-6 d-grid">
-                <a href="" class="btn btn-md btn-outline-light btn-rounded">Get a Quote</a>
+                <button class="btn btn-md btn-outline-light btn-rounded" data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal" >Get a Quote</button>
             </div>
             <div class="col-sm-3 col-6 d-grid">
                 <a href="https://calendly.com/schedulemeetingwithweboconnect/30min?back=1&month=2024-12" class="btn btn-md btn-primary btn-rounded">Schedule a Call</a>

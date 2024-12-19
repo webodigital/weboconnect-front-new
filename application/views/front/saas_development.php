@@ -29,10 +29,10 @@
         </div>
         <div class="row mt-4">
             <div class="col-sm-3 col-6 d-grid">
-                <a href="" class="btn btn-md btn-primary btn-rounded">View Case studies</a>
+                <a href="<?= base_url() ?>case-studies" class="btn btn-md btn-primary btn-rounded">View Case studies</a>
             </div>
             <div class="col-sm-3 col-6 d-grid">
-                <a href="" class="btn btn-md btn-outline-light btn-rounded">Get a Quote</a>
+                <button class="btn btn-md btn-outline-light btn-rounded" data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal" >Get a Quote</button>
             </div>
         </div>
     </div>
@@ -63,10 +63,10 @@
 
                     <div class="row mt-4">
                         <div class="col-sm-6 col-6 d-grid">
-                            <a href="" class="btn btn-md btn-primary btn-rounded">View Case studies</a>
+                            <a href="<?= base_url() ?>case-studies" class="btn btn-md btn-primary btn-rounded">View Case studies</a>
                         </div>
                         <div class="col-sm-6 col-6 d-grid">
-                            <a href="" class="btn btn-md btn-outline-primary btn-rounded">Get a Quote</a>
+                            <button class="btn btn-md btn-outline-primary btn-rounded" data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal" >Get a Quote</button>
                         </div>
                     </div>
                 </div>
