@@ -27,7 +27,7 @@
                 <a class="nav-link" href="<?php echo site_url('admin-tracking-user-details'); ?>">User Track</a>
             </li> -->
             <li class="nav-item">
-                <a class="nav-link" href="#" id="logout">Logout</a>
+                <a class="nav-link" href="#" id="logoutuser">Logout</a>
             </li>
         </ul>
     </div>

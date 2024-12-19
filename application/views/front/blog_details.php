@@ -26,9 +26,9 @@
 
       <div class="col-lg-8">
         <div class="blog_details_img_card">
-          <img class="w-100" src="<?= base_url() ?>assets/images/blogs/blogs_img1.webp" alt="blogs images" />
+          <img class="w-100" src="<?php echo base_url('assets/images/blogs/uploads/' . $blog->image); ?>" alt="<?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?>" />
           <div class="p-3">
-            <h1 class="fs-26 fw-600 my-3">Unlocking the Future: Cloud Computing in Modern Web and App Development</h1>
+            <h1 class="fs-26 fw-600 my-3"><?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?></h1>
           </div>
         </div>
         <div class="blog_details_content">
@@ -41,20 +41,20 @@
                   <img src="<?= base_url() ?>assets/images/thnk_logo.webp" alt="logo" />
                 </span>
                 <div class="ms-3">
-                  <h3 class="fs-24 fw-600 m-0">weboconnect</h3>
-                  <small class="fs-12 fw-400">19 Jan 2022</small>
+                  <h3 class="fs-24 fw-600 m-0"><?php echo htmlspecialchars($blog->author_name, ENT_QUOTES, 'UTF-8'); ?></h3>
+                  <small class="fs-12 fw-400"><?php echo date('d M Y', strtotime($blog->publish_date)); ?></small>
                 </div>
               </div>
             </div>
             <div class="col-auto">
               <div class="likes_cmnt_card">
-                <div class="d-flex flex-wrap align-items-center">
+                <div class="d-flex flex-wrap align-items-center likeBtn">
                   <i class="text_brand_color2 fs-16 bi bi-hand-thumbs-up-fill"></i>
-                  <span class="fs-12 fw-500 ms-2">105</span>
+                  <span class="fs-12 fw-500 ms-2 likebtncount">0</span>
                 </div>
                 <div class="d-flex flex-wrap align-items-center">
                   <i class="text-black fs-16 bi bi-chat-text-fill"></i>
-                  <span class="fs-12 fw-500 ms-2">65</span>
+                  <span class="fs-12 fw-500 ms-2">0</span>
                 </div>
               </div>
             </div>
@@ -64,13 +64,19 @@
           <div class="row">
             <div class="col-12">
               <div class="d-flex flex-wrap gap-2 mt-4">
-                <span class="badge fs-14 fw-400">Technology</span>
+                <!-- <span class="badge fs-14 fw-400">Technology</span>
                 <span class="badge fs-14 fw-400">CLOUD COMPUTING</span>
                 <span class="badge fs-14 fw-400">MODERN WEB DEVELOPMENT</span>
                 <span class="badge fs-14 fw-400">Business</span>
                 <span class="badge fs-14 fw-400">Productivity</span>
                 <span class="badge fs-14 fw-400">Art</span>
-                <span class="badge fs-14 fw-400">Mindfullness</span>
+                <span class="badge fs-14 fw-400">Mindfullness</span> -->
+                <?php 
+                  $tags = explode(', ', $blog->tags); 
+                  foreach($tags as $tag) { 
+                      echo '<span class="badge fs-14 fw-400">' . htmlspecialchars($tag) . '</span>'; 
+                  }
+                ?>
               </div>
             </div>
           </div>
@@ -78,6 +84,9 @@
           <div class="row">
             <div class="col-12">
               <div class="mt-4">
+                <?php echo $blog->content ?>
+              </div>
+              <!-- <div class="mt-4">
                 <p class="fs-20 fw-400 mt-4">In today's digital world, every second counts. But with the looming increased pressure on modernizing solutions to faster, more scalable, and innovative ways, one solution has changed the face of web and app development-just that; cloud computing. Forget the drawbacks of server crashes, high hardware costs, and painfully slow implementation times. Cloud computing is going to change the face of application growth and deployment permanently. </p>
               </div>
               <div class="mt-4">
@@ -153,7 +162,7 @@
               <div class="mt-4">
                 <h6 class="fs-20 fw-600">Q3. How does the use of cloud computing facilitate cooperative efforts by the different development teams, and why is this cooperation important in today's increasingly dynamic technology landscape?</h6>
                 <p class="fs-20 fw-400">Ans. Cloud computing also enables developers and other members of your team to collaborate with one another in real-time. One does not have to be in the same room, even in the same country, since access is given to shared resources, tools, and applications all around the world. This means that if your team's members are spread across the globe or working from a common office, the possibility of making simultaneous contributions exists. </p>
-              </div>
+              </div> -->
             </div>
           </div>
 
@@ -169,13 +178,13 @@
             </div>
             <div class="col-auto">
               <div class="likes_cmnt_card">
-                <div class="d-flex flex-wrap align-items-center">
+                <div class="d-flex flex-wrap align-items-center likeBtn">
                   <i class="text_brand_color2 fs-16 bi bi-hand-thumbs-up-fill"></i>
-                  <span class="fs-12 fw-500 ms-2">105</span>
+                  <span class="fs-12 fw-500 ms-2 likebtncount">0</span>
                 </div>
                 <div class="d-flex flex-wrap align-items-center">
                   <i class="text-black fs-16 bi bi-chat-text-fill"></i>
-                  <span class="fs-12 fw-500 ms-2">65</span>
+                  <span class="fs-12 fw-500 ms-2" id="commentbtncount">0</span>
                 </div>
               </div>
             </div>
@@ -183,7 +192,7 @@
 
           <div class="row g-4 mt-4">
 
-            <div class="col-12">
+            <!-- <div class="col-12">
               <div class="comments_card">
                 <div class="row">
                   <div class="col-auto">
@@ -278,9 +287,9 @@
 
             <div class="col-12 text-center my-4">
               <a class="btn view_all_button fs-16 fw-600 " href="<?= base_url() ?>">View All</a>
-            </div>
-            
+            </div> -->
 
+            <div id="commentsContainer"></div>
 
           </div>
 
@@ -295,26 +304,26 @@
             <div class="row">
               <div class="col-7">
                 <div class="social_links">
-                  <a class="" href="#">
+                  <a class="" href="#" target="_blank" onclick="shareOnFacebook()">
                     <i class="fs-20 bi bi-facebook"></i>
                   </a>
 
-                  <a class="" href="#">
+                  <a class="" href="#" target="_blank" onclick="shareOnLinkedIn()">
                     <i class="fs-20 bi bi-linkedin"></i>
                   </a>
 
-                  <a class="" href="#">
+                  <a class="" href="#" target="_blank" class="" onclick="shareOnInstagram()">
                     <i class="fs-20 bi bi-instagram"></i>
                   </a>
   
-                  <a class="" href="#">
+                  <a class="" href="#" target="_blank" onclick="shareOnTwitter()">
                     <i class="fs-20 bi bi-twitter-x"></i>
                   </a>
                 </div>
               </div>
               <div class="col-5">
                 <div class="d-flex align-items-center">
-                  <span class="fs-14 fw-600">56</span> 
+                  <span class="fs-14 fw-600">0</span> 
                   <span class="fs-14 fw-600 text_brand_color2 ms-1">Share</span>
                   <i class="fs-16 bi bi-share-fill ms-3"></i>
                 </div>
@@ -328,7 +337,25 @@
                 <h3 class="fs-24 fw-700 m-0">Latest</h3>
             </div>
 
-            <div class="col-12">
+            <?php foreach ($recentblogs as $blog) : ?>
+              <div class="col-12">
+                <div class="side_latest_blog_card">
+                  <div class="row align-items-center">
+                    <div class="col-sm-4">
+                      <img class="w-100" src="<?php echo base_url('assets/images/blogs/uploads/thumbnails/' . $blog->thumbnail); ?>" alt="<?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?>" />
+                    </div>
+                    <div class="col-sm-8">
+                      <small class="fs-8 fw-400"><?php echo date('d M Y', strtotime($blog->publish_date)); ?></small>
+                      <h4 class="fs-12 fw-600"><?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?></h4>
+                      <p class="fs-10 fw-400 m-0"><?php echo htmlspecialchars(substr($blog->content, 0, 100), ENT_QUOTES, 'UTF-8'); ?>...</p>
+                      <a class="fs-10 fw-500 text_brand_color2" href="<?php echo base_url('blog/' . $blog->slug); ?>">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <?php endforeach; ?>  
+
+            <!-- <div class="col-12">
               <div class="side_latest_blog_card">
                 <div class="row align-items-center">
                   <div class="col-sm-4">
@@ -412,7 +439,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
           </div>
         </div>
@@ -496,28 +523,167 @@
 </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <?php $this->load->view('front/common/footer_form') ?>
 <?php $this->load->view('front/common/footer') ?>
 
 </body> 
 <?php $this->load->view('front/common/script') ?>
+<script>
+    $(document).ready(function() {
 
+        var comments = <?php echo json_encode($comments); ?>;
+        if (comments && comments.length > 0) {
+            displayComments(comments);
+        }
 
+        function getIdFromUrl() {
+            const url = window.location.href;
+            const parts = url.split('/');
+            return parts[parts.length - 1]; // Assuming the ID is the last part of the URL
+        }
 
+        const blogId = getIdFromUrl();
 
+        $('#commentForm').submit(function(event) {
+            event.preventDefault();
+            var formData = {
+                comment: $('#comment').val(),
+                blog_id: blogId
+            };
 
+            $.ajax({
+                url: '<?php echo base_url("blog/addBlogComment"); ?>',
+                type: 'POST',
+                data: formData,
+                dataType: 'json',
+                success: function(response) {
+                    if (response.status === 'success') {
+                        showToaster('success', response.message);
+                        $('#commentForm')[0].reset();
+                        displayComments(response.comments);
+                    } else if (response.status === 'error') {
+                        showToaster('error', response.message);
+                    }
+                },
+                error: function(xhr, status, error) {
+                    console.log(xhr.responseText);
+                    showToaster('error', 'An error occurred while submitting the form.');
+                }
+            });
+        });
+
+        function showToaster(type, message) {
+            var toaster = $('<div class="toaster toaster-' + type + '">' + message + '</div>');
+            $('#toaster-container').append(toaster);
+            toaster.fadeIn(400).delay(3000).fadeOut(400, function() {
+                $(this).remove();
+            });
+        }
+
+        function displayComments(comments) {
+            console.log(comments);
+            var commentsContainer = $('#commentsContainer');
+            commentsContainer.empty(); // Clear existing comments
+
+            comments.forEach(function(comment) {
+                /*var commentElement = `
+                <div class="d-flex align-items-top bg-body-secondary p-3 rounded mb-3">
+                    <img src="https://w7.pngwing.com/pngs/910/606/png-transparent-head-the-dummy-avatar-man-tie-jacket-user.png" alt="user" width="50px" height="50px" class="object-fit-cover rounded-circle">
+                    <div class="ms-2">
+                        <span class="fs-16 fw-500 text-dark d-block">${comment.user_name}</span>
+                        <p class="fs-14 m-0 text-body">
+                            ${comment.comment}
+                        </p>
+                    </div>
+                </div>`;*/
+                var commentElement = `<div class="col-12">
+                  <div class="comments_card">
+                    <div class="row">
+                      <div class="col-auto">
+                        <div class="user" style="width:50px;">
+                          <span>
+                            <img src="<?= base_url() ?>assets/images/icons/user.webp" alt="Outsource Project">
+                          </span>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <p class="fs-18 fw-400">${comment.comment}</p>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-auto">
+                        <div class="" style="width:50px;">
+                          <h5 class="fs-18 fw-400">${comment.user_name}</h5>
+                        </div>
+                      </div>
+                      <div class="col">
+                          <div class="d-flex">
+                            <h5 class="fs-18 fw-600 text_gray">Reply</h5>
+                            <span class="fs-18 fw-400 text_brand_color3 ms-3">a min ago</span>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>`;
+                commentsContainer.append(commentElement);
+            });
+        }
+
+        $('.likeBtn').click(function() {
+            $.ajax({
+                url: '<?php echo base_url("toggle-like"); ?>',
+                type: 'POST',
+                data: {
+                    blog_id: blogId
+                },
+                dataType: 'json',
+                success: function(response) {
+                    // if (response.liked) {
+                    //     console.log(response.likecount);
+                    //     $('#likebtncount').text(response.likecount);
+                    //     } else {
+                    //     console.log(response.likecount);
+                    //     $('#likebtncount').text(response.likecount);
+                    // }
+                    if (response.likecount !== undefined) {
+                        // $('#likebtncount').text(response.likecount);
+                        // document.getElementById('likebtncount').textContent = response.likecount;
+                        document.getElementById('likebtncount').innerHTML = response.likecount;
+                        console.log(response.likecount);
+                    }
+                },
+                error: function(xhr, status, error) {
+                    console.error(xhr.responseText);
+                    alert('An error occurred while processing the request.');
+                }
+            });
+        });
+
+    });
+
+    function shareOnFacebook() {
+        const url = encodeURIComponent(window.location.href);
+        const shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+        window.open(shareUrl, '_blank');
+    }
+
+    function shareOnTwitter() {
+        const url = encodeURIComponent(window.location.href);
+        const text = encodeURIComponent(document.title);
+        const shareUrl = `https://twitter.com/intent/tweet?url=${url}&text=${text}`;
+        window.open(shareUrl, '_blank');
+    }
+
+    function shareOnLinkedIn() {
+        const url = encodeURIComponent(window.location.href);
+        const shareUrl = `https://www.linkedin.com/shareArticle?mini=true&url=${url}`;
+        window.open(shareUrl, '_blank');
+    }
+
+    function shareOnInstagram() {
+        alert("Instagram does not support direct URL sharing. You can share this page by copying the URL and pasting it in your Instagram bio or story.");
+    }
+</script>
 </html>
+

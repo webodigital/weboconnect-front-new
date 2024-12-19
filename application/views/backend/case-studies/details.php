@@ -1,0 +1,229 @@
+<div class="container-fluid">
+    <div class="row">
+        <?php $this->load->view('frontend/common/sidemenu'); ?>
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 main-content h-100 p-5" style="min-height: calc(100vh - 100px);">
+            <div class="d-flex alignt-items-center justify-content-between">
+                <h1 class="fs-24 mb-5">Case Studies <?php echo $case_studies->title; ?></h1>
+                <div id="toaster-container"></div>
+                <div>
+                    <a href="#" class="btn btn-primary submit-button">Add New</a>
+                </div>
+            </div>
+            <div class="form-group col-md-6">
+                <label>Select Type</label>
+                <form method="POST" id="detailsForm">
+                    <select name="details_set" id="details_set" class="form-control" onchange="document.getElementById('detailsForm').submit();">            
+                        <?php if (!empty($details_set)) : ?>
+                            <?php foreach ($details_set as $key => $value) : ?>
+                                <option value="<?php echo $key; ?>" <?php echo ($key == $selected_detail) ? 'selected' : ''; ?>>
+                                    <?php echo $value; ?>
+                                </option>
+                            <?php endforeach; ?>
+                        <?php else : ?>
+                            <option disabled>No types available</option>
+                        <?php endif; ?>
+                    </select>
+                </form>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <!-- <th>Status</th>
+                        <th>Date</th> -->
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php if (!empty($case_studies_details)) : ?>
+                        <?php foreach ($case_studies_details as $key => $case_studies_detail) : ?>
+                            <tr>
+                                <td><?php echo $key+1; ?></td>
+                                <td><?php echo $case_studies_detail->img; ?></td>
+                                <td><?php echo $case_studies_detail->title; ?></td>
+                                <td><?php echo substr($case_studies_detail->description, 0, 100); ?>...</td>
+                                <!-- <td><?php echo ucfirst($case_studies_detail->status)?'Active':'Inactive'; ?></td>
+                                <td><?php echo date('d-m-Y h:i A', strtotime($case_studies_detail->created_at)); ?></td> -->
+                                <td>
+                                    <!-- <i class="fas fa-eye"></i> -->
+                                    <!-- <i class="me-2 fas fa-edit edit" style="cursor: pointer;"></i> -->
+                                    <i class="me-2 fas fa-edit edit" data-id="<?php echo $case_studies_detail->id; ?>" style="cursor: pointer;"></i>
+                                    <i class="fas fa-trash-alt" data-id="<?php echo $case_studies_detail->id; ?>" style="cursor: pointer;"></i>
+                                </td>
+                            </tr>
+                        <?php endforeach; ?>
+                    <?php else : ?>
+                        <tr>
+                            <td colspan="4">No case studies detail found</td>
+                        </tr>
+                    <?php endif; ?>
+                </tbody>
+            </table>
+            <div>
+                <?php echo $pagination; ?>
+            </div>
+        </main>
+    </div>
+</div>
+
+<!-- Add/Edit Modal -->
+<div class="modal fade" id="caseStudyModal" tabindex="-1" role="dialog" aria-labelledby="caseStudyModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form id="caseStudyForm">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="caseStudyModalLabel">Add/Edit Case Study</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="caseStudyId" name="id">
+                    <div class="form-group">
+                        <label for="type">Type</label>
+                        <select class="form-control" id="type" name="type" required>
+                            <option value="">Select Type</option>
+                            <option value="Type1">Type1</option>
+                            <option value="Type2">Type2</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="img">Image</label>
+                        <input type="file" class="form-control" id="img" name="img" accept="image/*">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Title</label>
+                        <input type="text" class="form-control" id="title" name="title" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Description</label>
+                        <textarea class="form-control" id="description" name="description" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+
+        $('.fa-trash-alt').on('click', function() {
+            var case_studieId = $(this).data('id');  // Retrieve the id from the data-id attribute
+            // console.log(blogId); 
+            if (confirm('Are you sure you want to delete this case studie?')) {
+                // var blogId = $(this).closest('tr').find('td:first').text();
+
+                $.ajax({
+                    url: '<?php echo base_url("delete-case-studies"); ?>/' + case_studieId,
+                    type: 'POST',
+                    dataType: 'json',
+                    success: function(response) {
+                        if (response.status === 'success') {
+                            // alert(response.message);
+                            location.reload(); // Reload the page to reflect the deletion
+                            showToaster('success', response.message);
+                        } else {
+                            // alert(response.message);
+                            showToaster('error', response.message);
+                        }
+                    },
+                    error: function(xhr, status, error) {
+                        // console.error(xhr.responseText);
+                        showToaster('error', 'An error occurred while deleting the blog.');
+                        // alert('An error occurred while deleting the blog.');
+                    }
+                });
+            }
+        });
+
+        function showToaster(type, message) {
+            var toaster = $('<div class="toaster toaster-' + type + '">' + message + '</div>');
+            $('#toaster-container').append(toaster);
+            toaster.fadeIn(400).delay(3000).fadeOut(400, function() {
+                $(this).remove();
+            });
+        }
+        $('.fa-edit').on('click', function() {
+            var case_studieId = $(this).data('id');  // Retrieve the id from the data-id attribute
+            console.log(case_studieId);  // Debugging: check the id value in the console
+            window.location.href = '<?php echo base_url("edit-case-studies"); ?>/' + case_studieId;
+        });
+
+        $('.fa-file').on('click', function() {
+            var case_studieId = $(this).data('id');  // Retrieve the id from the data-id attribute
+            console.log(case_studieId);  // Debugging: check the id value in the console
+            window.location.href = '<?php echo base_url("case-studies-details"); ?>/' + case_studieId;
+        });
+
+
+        ///////////////
+        // Open modal for "Add New"
+        $('.submit-button').on('click', function () {
+            $('#caseStudyModalLabel').text('Add New Case Study');
+            $('#caseStudyForm')[0].reset(); // Reset the form
+            $('#caseStudyId').val(''); // Clear ID field for new entry
+            $('#caseStudyModal').modal('show');
+        });
+
+         // Open modal for "Edit"
+        $('.fa-edit').on('click', function () {
+            var caseStudyId = $(this).data('id');
+            // Fetch data for the selected case study
+            $.ajax({
+                url: '<?php echo base_url("get-case-study"); ?>/' + caseStudyId,
+                type: 'GET',
+                dataType: 'json',
+                success: function (response) {
+                    if (response.status === 'success') {
+                        $('#caseStudyModalLabel').text('Edit Case Study');
+                        $('#caseStudyId').val(response.data.id);
+                        $('#type').val(response.data.type);
+                        $('#title').val(response.data.title);
+                        $('#description').val(response.data.description);
+                        $('#caseStudyModal').modal('show');
+                    } else {
+                        alert(response.message);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error(xhr.responseText);
+                    alert('An error occurred while fetching the case study details.');
+                }
+            });
+        });
+
+        // Submit form data (Add/Edit)
+        $('#caseStudyForm').on('submit', function (e) {
+            e.preventDefault();
+            var formData = new FormData(this);
+
+            $.ajax({
+                url: '<?php echo base_url("save-case-study"); ?>',
+                type: 'POST',
+                data: formData,
+                processData: false,
+                contentType: false,
+                dataType: 'json',
+                success: function (response) {
+                    if (response.status === 'success') {
+                        $('#caseStudyModal').modal('hide');
+                        location.reload(); // Reload to reflect changes
+                    } else {
+                        alert(response.message);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error(xhr.responseText);
+                    alert('An error occurred while saving the case study.');
+                }
+            });
+        });
+    });
+</script>

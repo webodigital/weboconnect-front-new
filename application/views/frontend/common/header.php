@@ -48,37 +48,3 @@
             </div>
         </nav>
     </header>
-    <script>
-        $(document).ready(function() {
-            $('#logoutuser').click(function(event) {
-                event.preventDefault(); // Prevent the default anchor click behavior
-                console.log('Starting logout process...');
-                $.ajax({
-                    url: '<?php echo site_url('logout'); ?>',
-                    type: 'POST',
-                    dataType: 'json',
-                    beforeSend: function() {
-                        console.log('Before sending AJAX request...');
-                    },
-                    success: function(response) {
-                        console.log('AJAX request successful.');
-                        if (response.status === 'success') {
-                            alert(response.message);
-                            console.log('Redirecting to login page...');
-                            window.location.href = '<?php echo site_url('login'); ?>'; // Redirect to login page or homepage
-                        } else {
-                            console.log('Logout failed.');
-                            alert('Logout failed');
-                        }
-                    },
-                    error: function(xhr, status, error) {
-                        console.log('AJAX request error.');
-                        console.error(status);
-                        console.error(error);
-                        console.error(xhr.responseText);
-                        alert('An error occurred while logging out');
-                    }
-                });
-            });
-        });
-    </script>

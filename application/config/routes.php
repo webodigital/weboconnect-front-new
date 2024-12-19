@@ -103,8 +103,8 @@ $route['contacted'] = 'home/thankyou';
 // user blog
 //$route['blogs'] = 'blog';
 //$route['blog/(:any)'] = 'blog/singleBlog/$1';
-//$route['add-blog-comment'] = 'blog/addBlogComment';
-//$route['toggle-like'] = 'blog/toggleLike';
+$route['add-blog-comment'] = 'blog/addBlogComment';
+$route['toggle-like'] = 'blog/toggleLike';
 
 // login
 $route['login'] = 'login/index';
@@ -131,26 +131,12 @@ $route['edit-blog/(:any)'] = 'blog/editBlog/$1';
 $route['update-blog'] = 'blog/updateBlog';
 $route['update-all-blog'] = 'blog/updateAllBlogsInSitemap';
 
-// sponsors
-$route['admin-sponsor'] = 'sponsor/index';
-$route['get-sponsors'] = 'sponsor/getSponsors';
-$route['add-sponsor'] = 'sponsor/addSponsor';
-$route['update-sponsor'] = 'sponsor/updateSponsor';
-$route['delete-sponsor/(:num)'] = 'sponsor/deleteSponsor/$1';
-$route['get-sponsor/(:num)'] = 'sponsor/getSponsor/$1';
-
-// color theme
-$route['color/admin-color-theme'] = 'theme/index';
-$route['color/save'] = 'theme/save';
-$route['color/get-color-codes'] = 'theme/getColorCodes';
-
-// Dynamic css
-$route['styles/dynamic.css'] = 'theme/dynamicCss';
-
-// Menu 
-$route['menu'] = 'menu/index'; 
-$route['menu/add'] = 'menu/add'; 
-$route['menu/fetch'] = 'menu/fetch'; 
-$route['menu/delete/(:num)'] = 'menu/delete/$1'; 
-$route['menu/get/(:num)'] = 'menu/get/$1';
-$route['menu/update/(:num)'] = 'menu/update/$1'; 
+// Admin case studies
+$route['admin-case-studies'] = 'casestudies/adminCaseStudies';
+$route['admin-case-studies/(:num)'] = 'casestudies/adminCaseStudies/$1';
+$route['create-case-studies'] = 'casestudies/createCaseStudies';
+$route['submit-case-studies'] = 'casestudies/submitCaseStudies';
+$route['delete-case-studies/(:num)'] = 'casestudies/deleteCaseStudies/$1';
+$route['edit-case-studies/(:any)'] = 'casestudies/editCaseStudies/$1';
+$route['update-case-studies'] = 'casestudies/updateCaseStudies';
+$route['case-studies-details/(:num)'] = 'casestudies/adminCaseStudiesDetails/$1';

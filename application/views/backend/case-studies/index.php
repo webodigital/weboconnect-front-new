@@ -3,10 +3,10 @@
         <?php $this->load->view('frontend/common/sidemenu'); ?>
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 main-content h-100 p-5" style="min-height: calc(100vh - 100px);">
             <div class="d-flex alignt-items-center justify-content-between">
-                <h1 class="fs-24 mb-5">All Blogs</h1>
+                <h1 class="fs-24 mb-5">All Case Studies</h1>
                 <div id="toaster-container"></div>
                 <div>
-                    <a href="<?php echo base_url('create-blog'); ?>" class="btn btn-primary submit-button">Add New Blog</a>
+                    <a href="<?php echo base_url('create-case-studies'); ?>" class="btn btn-primary submit-button">Add New Case Studies</a>
                 </div>
             </div>
             <table class="table">
@@ -14,32 +14,34 @@
                     <tr>
                         <th>ID</th>
                         <th>Title</th>
-                        <th>Content</th>
+                        <th>Description</th>
                         <th>Status</th>
                         <th>Date</th>
                         <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <?php if (!empty($blogs)) : ?>
-                        <?php foreach ($blogs as $key => $blog) : ?>
+                    <?php if (!empty($case_studies)) : ?>
+                        <?php foreach ($case_studies as $key => $case_studie) : ?>
                             <tr>
                                 <td><?php echo $key+1; ?></td>
-                                <td><?php echo $blog->title; ?></td>
-                                <td><?php echo substr($blog->content, 0, 100); ?>...</td>
-                                <td><?php echo ucfirst($blog->status); ?></td>
-                                <td><?php echo date('d-m-Y', strtotime($blog->publish_date)); ?> <?php echo date('h:i A', strtotime($blog->publish_time)); ?></td>
+                                <td><?php echo $case_studie->title; ?></td>
+                                <td><?php echo substr($case_studie->description, 0, 100); ?>...</td>
+                                <td><?php echo ucfirst($case_studie->status)?'Active':'Inactive'; ?></td>
+                                <td><?php echo date('d-m-Y h:i A', strtotime($case_studie->created_at)); ?></td>
                                 <td>
                                     <!-- <i class="fas fa-eye"></i> -->
                                     <!-- <i class="me-2 fas fa-edit edit" style="cursor: pointer;"></i> -->
-                                    <i class="me-2 fas fa-edit edit" data-id="<?php echo $blog->id; ?>" style="cursor: pointer;"></i>
-                                    <i class="fas fa-trash-alt" data-id="<?php echo $blog->id; ?>" style="cursor: pointer;"></i>
+                                    <i class="me-2 fas fa-file file" data-id="<?php echo $case_studie->id; ?>" style="cursor: pointer;" title="Add Details"></i>
+                                    <i class="me-2 fas fa-file-o file-o" data-id="<?php echo $case_studie->id; ?>" style="cursor: pointer;" title="Add Testimonials"></i>
+                                    <i class="me-2 fas fa-edit edit" data-id="<?php echo $case_studie->id; ?>" style="cursor: pointer;"></i>
+                                    <i class="fas fa-trash-alt" data-id="<?php echo $case_studie->id; ?>" style="cursor: pointer;"></i>
                                 </td>
                             </tr>
                         <?php endforeach; ?>
                     <?php else : ?>
                         <tr>
-                            <td colspan="4">No blogs found</td>
+                            <td colspan="4">No case studie found</td>
                         </tr>
                     <?php endif; ?>
                 </tbody>
@@ -54,13 +56,13 @@
 <script>
     $(document).ready(function() {
         $('.fa-trash-alt').on('click', function() {
-            var blogId = $(this).data('id');  // Retrieve the id from the data-id attribute
+            var case_studieId = $(this).data('id');  // Retrieve the id from the data-id attribute
             // console.log(blogId); 
-            if (confirm('Are you sure you want to delete this blog?')) {
+            if (confirm('Are you sure you want to delete this case studie?')) {
                 // var blogId = $(this).closest('tr').find('td:first').text();
 
                 $.ajax({
-                    url: '<?php echo base_url("delete-blog"); ?>/' + blogId,
+                    url: '<?php echo base_url("delete-case-studies"); ?>/' + case_studieId,
                     type: 'POST',
                     dataType: 'json',
                     success: function(response) {
@@ -90,9 +92,15 @@
             });
         }
         $('.fa-edit').on('click', function() {
-            var blogId = $(this).data('id');  // Retrieve the id from the data-id attribute
-            console.log(blogId);  // Debugging: check the id value in the console
-            window.location.href = '<?php echo base_url("edit-blog"); ?>/' + blogId;
+            var case_studieId = $(this).data('id');  // Retrieve the id from the data-id attribute
+            console.log(case_studieId);  // Debugging: check the id value in the console
+            window.location.href = '<?php echo base_url("edit-case-studies"); ?>/' + case_studieId;
+        });
+
+        $('.fa-file').on('click', function() {
+            var case_studieId = $(this).data('id');  // Retrieve the id from the data-id attribute
+            console.log(case_studieId);  // Debugging: check the id value in the console
+            window.location.href = '<?php echo base_url("case-studies-details"); ?>/' + case_studieId;
         });
     });
 </script>

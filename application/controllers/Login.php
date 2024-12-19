@@ -79,7 +79,7 @@ class Login extends CI_Controller
     //     }
     // }
 
-    public function logout()
+    public function logout1()
     {
         try {
             //code...
@@ -97,4 +97,29 @@ class Login extends CI_Controller
             print_r($th);
         }
     }
+
+    public function logout()
+    {
+        try {
+            // Clear the session data
+            $this->session->unset_userdata('user_id');
+            $this->session->sess_destroy();
+            if ($this->input->is_ajax_request()) {
+                // Respond with JSON for AJAX calls
+                echo json_encode(['status' => 'success', 'message' => 'You have been logged out']);
+            } else {
+                // Handle non-AJAX requests with redirection
+                $this->session->set_flashdata('success', 'You have been logged out');
+                redirect('login', 'refresh'); // Force a fresh GET request
+            }
+        } catch (Throwable $th) {
+            if ($this->input->is_ajax_request()) {
+                echo json_encode(['status' => 'error', 'message' => $th->getMessage()]);
+            } else {
+                show_error($th->getMessage());
+            }
+        }
+    }
+
+
 }

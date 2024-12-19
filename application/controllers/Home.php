@@ -577,8 +577,8 @@ class Home extends CI_Controller {
     				$message .="<p><b>".ucfirst($key)."</b>:- $val</p>";
     			}
     			$subject = "Enquiry from ".$phone;
-    			//$this->send_mails('info@weboconnect.com', $subject, $message);
-    			$this->send_mails('maverick.php01@gmail.com', $subject, $message);
+    			$this->send_mails('info@weboconnect.com', $subject, $message);
+    			//$this->send_mails('maverick.php01@gmail.com', $subject, $message);
 
     			//send email to client
     			
