@@ -377,7 +377,7 @@
     <div class="container text-center text-white">
         <h3 class="fs-30 fw-700">Our Portfolio</h3>
         <h6 class="fs-20 fw-600">We doesn't just make claims, our work speaks for itself.</h6>
-        <a href="" class="btn btn-outline-light btn-rounded mt-4 px-4">Checkout our portfolio</a>
+        <a href="<?=base_url()?>portfolio" class="btn btn-outline-light btn-rounded mt-4 px-4">Checkout our portfolio</a>
     </div>
 </section>
 

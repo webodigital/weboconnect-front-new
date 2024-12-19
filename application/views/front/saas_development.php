@@ -83,7 +83,7 @@
     <div class="container text-center text-white">
         <h3 class="fs-30 fw-700">Our Portfolio</h3>
         <h6 class="fs-20 fw-600">We let our results do the talking. See how we’ve delivered success for our clients.</h6>
-        <a href="" class="btn btn-outline-light btn-rounded mt-4 px-4">Check Out Our Portfolio</a>
+        <a href="<?= base_url() ?>portfolio" class="btn btn-outline-light btn-rounded mt-4 px-4">Check Out Our Portfolio</a>
     </div>
 </section>
 
@@ -182,7 +182,7 @@
                 <div class="">
                     <h2 class="fs-30 fw-700 text-white">The Missing Link to Your Success</h2>
                     <h6 class="fs-18 fw-500 text-white mb-3">At WebOConnect, we bridge the gap between your vision and reality. With extensive experience and a stellar record of success, we’re here to help you achieve your goals seamlessly.</h6>
-                    <a class="btn btn-outline-light btn-rounded px-5" href="">Contact Us</a>
+                    <a class="btn btn-outline-light btn-rounded px-5" href="<?=base_url()?>contact">Contact Us</a>
                 </div>
             </div>
             <div class="col-lg-6">

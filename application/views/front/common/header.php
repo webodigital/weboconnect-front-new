@@ -326,7 +326,7 @@
                         </div>
                     </li>
                     <!-- <li class="menu_list">
-                        <a href="">Contact Us</a>
+                        <a href="<?= base_url() ?>contact">Contact Us</a>
                     </li> -->
                     
                 </ul>

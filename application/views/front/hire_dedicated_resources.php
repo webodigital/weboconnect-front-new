@@ -31,7 +31,7 @@
                 <li class="fs-20 fw-500">Efficient, Cost-Effective, and Scalable Engagements</li>
                 <li class="fs-20 fw-500">Focus on Growth with Our Reliable Experts</li>
             </ul>
-            <a href="" class="btn btn-primary-gradient btn-rounded px-4">Request 3 Days Free Trial</a>
+            <button class="btn btn-primary-gradient btn-rounded px-4" data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal">Request 3 Days Free Trial</button>
             </div>
         </div>       
 

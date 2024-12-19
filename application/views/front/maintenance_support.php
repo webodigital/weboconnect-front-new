@@ -92,7 +92,7 @@
                 Framework</div>
             </div>
             <div class="col-12 text-center">
-                <a href="" class="btn btn-outline-primary btn-rounded fs-14 fw-600 mt-4 px-5 py-3">Contact Us</a>
+                <a href="<?=base_url()?>contact" class="btn btn-outline-primary btn-rounded fs-14 fw-600 mt-4 px-5 py-3">Contact Us</a>
             </div>
         </div>
     </div>
