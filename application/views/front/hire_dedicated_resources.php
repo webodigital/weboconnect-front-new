@@ -240,34 +240,42 @@
             <div class="col-md-6">
                 <h3 class="fs-30 fw-700">Why Hire From Weboconnect?</h3>
                 <div class="b_rds_15 bg_dark_gradient p-4 text-white mt-5">
-                    <h4 class="fs-30 fw-700">Discover the Right Dedicated Resource for Your Project</h4>
-                    <p class="fs-18 fw-500">When you choose Us, you gain access to a diverse team of specialized developers. Our dedicated developers cater to a wide range of project needs, ensuring you have the right expertise for your specific requirements.</p>
+                    <h4 class="fs-30 fw-700">Our Resource Hiring Models</h4>
+                    <p class="fs-18 fw-500">WebOConnect offers flexible and tailored hiring models to suit your business needs, ensuring you have the right expertise, the right way.</p>
                 </div>
             </div>
             <div class="col-md-6">
                 <ul class="whfw_card_list">
                     <li class="">
                         <div class="whfw_card">
-                            <h4 class="fs-14 fw-600">Mobile App Developers</h4>
-                            <h6 class="fs-12 fw-400">Our mobile app developers are experts in creating intuitive and high-performing applications for iOS and Android platforms.</h6>
+                            <div>
+                                <h4 class="fs-14 fw-600">Full-Time Hiring</h4>
+                                <h6 class="fs-12 fw-400">Hire dedicated resources who work exclusively on your project with complete commitment and guaranteed productivity.</h6>
+                            </div>
                         </div>
                     </li>
                     <li class="">
                         <div class="whfw_card">
-                            <h4 class="fs-14 fw-600">Software Developers</h4>
-                            <h6 class="fs-12 fw-400">Our software developers specialize in building robust and scalable software solutions tailored to your business needs.</h6>
+                            <div>
+                                <h4 class="fs-14 fw-600">Part-Time Hiring</h4>
+                                <h6 class="fs-12 fw-400">Opt for resources who offer flexibility and focused contributions based on your specific project requirements.</h6>
+                            </div>
                         </div>
                     </li>
                     <li class="">
                         <div class="whfw_card">
-                            <h4 class="fs-14 fw-600">Web Developers</h4>
-                            <h6 class="fs-12 fw-400">Our web developers craft responsive and dynamic websites that provide an exceptional user experience. They are skilled in various web technologies to create sites.</h6>
+                            <div>
+                                <h4 class="fs-14 fw-600">Hourly Hiring</h4>
+                                <h6 class="fs-12 fw-400">Engage skilled professionals on an hourly basis to manage tasks efficiently, providing cost-effective solutions.</h6>
+                            </div>
                         </div>
                     </li>
                     <li class="">
                         <div class="whfw_card">
-                            <h4 class="fs-14 fw-600">UI/UX Designers</h4>
-                            <h6 class="fs-12 fw-400">Our UI/UX designers focus on creating user-friendly interfaces and engaging user experiences. They work closely with you to understand your vision and transform.</h6>
+                            <div>
+                                <h4 class="fs-14 fw-600">Project-Based Hiring</h4>
+                                <h6 class="fs-12 fw-400">Get dedicated resources aligned with specific milestones and deliverables for your project’s success.</h6>
+                            </div>
                         </div>
                     </li>
                 </ul>
@@ -293,8 +301,8 @@
         <div class="row justify-content-center">
             <div class="col-sm-9">
                 <div class="text-center text-white">
-                    <h2 class="fs-30 fw-600">Seamless Process to Hire Dedicated Developers</h2>
-                    <h6 class="fs-18 fw-500">Hiring dedicated developers from Weboconnect is straightforward and efficient. Follow these simple steps to build your dream team of expert developers.</h6>
+                    <h2 class="fs-30 fw-600">Effortless Hiring Process for Dedicated Teams</h2>
+                    <h6 class="fs-18 fw-500">With WebOConnect, finding and hiring the right developers is easier than ever. Follow our structured process to kick-start your project.</h6>
                 </div>
             </div>
         </div>
@@ -303,40 +311,40 @@
             <div class="col-6 col-lg-3">
                 <div class="sphdd_card">
                     <div class="d-flex align-items-end justify-content-between">
-                        <span class="fs-14 fw-600">Initial Consultation</span>
+                        <span class="fs-14 fw-600">Consultation Phase</span>
                         <strong class="fs-60 fw-700">1</strong>
                     </div>
-                    <p>Discuss your project requirements and goals</p>
+                    <p>Discuss your ideas, project requirements, and goals to set the right foundation.</p>
                 </div>
             </div>
 
             <div class="col-6 col-lg-3">
                 <div class="sphdd_card">
                     <div class="d-flex align-items-end justify-content-between">
-                        <span class="fs-14 fw-600">Developer Selection</span>
+                        <span class="fs-14 fw-600">Expert Selection</span>
                         <strong class="fs-60 fw-700">2</strong>
                     </div>
-                    <p>Review and select from our pool of skilled</p>
+                    <p>Browse and select from our highly skilled, pre-vetted talent pool.</p>
                 </div>
             </div>
 
             <div class="col-6 col-lg-3">
                 <div class="sphdd_card">
                     <div class="d-flex align-items-end justify-content-between">
-                        <span class="fs-14 fw-600">Onboarding and Setup</span>
+                        <span class="fs-14 fw-600">Smooth Onboarding</span>
                         <strong class="fs-60 fw-700">3</strong>
                     </div>
-                    <p>Integrate the chosen developers into your</p>
+                    <p>Integrate developers into your team with efficient onboarding and communication.</p>
                 </div>
             </div>
 
             <div class="col-6 col-lg-3">
                 <div class="sphdd_card">
                     <div class="d-flex align-items-end justify-content-between">
-                        <span class="fs-14 fw-600">Support/Collaboration</span>
+                        <span class="fs-14 fw-600">Support & Engagement</span>
                         <strong class="fs-60 fw-700">4</strong>
                     </div>
-                    <p>Enjoy continuous support and effective</p>
+                    <p>Stay ahead with ongoing collaboration, guidance, and project support.</p>
                 </div>
             </div>
 
