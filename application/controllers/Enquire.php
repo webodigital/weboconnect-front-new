@@ -57,7 +57,7 @@ class Enquire extends CI_Controller
         $config['base_url'] = site_url('admin-enquires');
         $config['total_rows'] = $this->Contact_Model->getEnquiresCount();
         // $config['per_page'] = 20;
-        $config['per_page'] = 0;
+        $config['per_page'] = 10;
         $config['uri_segment'] = 2;
 
         // Bootstrap 4 Pagination Configuration

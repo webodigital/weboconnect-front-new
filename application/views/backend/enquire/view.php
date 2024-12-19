@@ -40,7 +40,7 @@
                             <div class="form-group col-md-6">
                                 <label for="publish_date">Enquiry Date:</label>
                                 <!-- <input type="date" class="form-control" name="publish_date" id="publish_date" value=""> -->
-                                <?php echo $enquiry->created_at; ?>
+                                <?php echo date('d-m-Y h:i A', strtotime($enquiry->created_at)); ?>
                             </div>
                             <!-- <div class="col-12">
                                 <button type="submit" class="btn btn-secondary submit-button" id="saveDraft">Update as Draft</button>

@@ -55,6 +55,7 @@ $route['contact'] = 'home/contact_us';
 $route['case-studies'] = 'home/case_study';
 $route['case-study-details'] = 'home/case_study_details';
 $route['blogs'] = 'home/blogs';
+$route['blogs/(:num)'] = 'home/blogs/$1';
 $route['blog/(:any)'] = 'home/blog_details/$1';
 $route['saas-development'] = 'home/saas_development';
 $route['mobile-app-development'] = 'home/mobile_app_development';
@@ -122,6 +123,7 @@ $route['view-enquiry/(:num)'] = 'enquire/viewEnquiry/$1';
 
 // Admin blog
 $route['admin-blogs'] = 'blog/adminBlog';
+$route['admin-blogs/(:num)'] = 'blog/adminBlog/$1';
 $route['create-blog'] = 'blog/createBlog';
 $route['submit-blog'] = 'blog/submitBlog';
 $route['delete-blog/(:num)'] = 'blog/deleteBlog/$1';

@@ -34,7 +34,7 @@
                                 <td><?php echo $enquire->purpose; ?></td>
                                 <td><?php echo substr($enquire->message, 0, 100); ?>...</td>
                                 <!-- <td><?php echo ucfirst($enquire->contact_status); ?></td> -->
-                                <td><?php echo $enquire->created_at; ?></td>
+                                <td><?php echo date('d-m-Y h:i A', strtotime($enquire->created_at)); ?></td>
                                 <td>
                                     <a href="<?php echo base_url("view-enquiry").'/'.$enquire->contact_id ?>"><i class="fas fa-eye"></i></a>
                                     <!-- <i class="me-2 fas fa-edit edit" style="cursor: pointer;"></i> -->
@@ -45,7 +45,7 @@
                         <?php endforeach; ?>
                     <?php else : ?>
                         <tr>
-                            <td colspan="4">No blogs found</td>
+                            <td colspan="4">No enquires found</td>
                         </tr>
                     <?php endif; ?>
                 </tbody>

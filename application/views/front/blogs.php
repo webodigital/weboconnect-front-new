@@ -49,6 +49,10 @@
             </div>
             <?php endforeach; ?>
 
+            <div>
+                <?php echo $pagination; ?>
+            </div>
+
             <!-- <div class="col-lg-4 col-sm-6 blogs_item" data-category="development">
                 <div class="blogs_card">
                     <img class="w-100" src="<?= base_url() ?>assets/images/blogs/blogs_img1.webp" alt="blogs images" />

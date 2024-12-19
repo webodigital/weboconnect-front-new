@@ -31,11 +31,11 @@ class Home extends CI_Controller {
 		$this->load->library('pagination');
         $this->load->model('BlogModel');
         $config = array();
-        $config['base_url'] = site_url('blog/adminBlog');
+        $config['base_url'] = site_url('blogs');
         $config['total_rows'] = $this->BlogModel->getBlogCount();
         // $config['per_page'] = 20;
-        $config['per_page'] = 0;
-        $config['uri_segment'] = 3;
+        $config['per_page'] = 9;
+        $config['uri_segment'] = 2;
 
         // Bootstrap 4 Pagination Configuration
         $config['full_tag_open'] = '<nav><ul class="pagination">';
@@ -59,7 +59,7 @@ class Home extends CI_Controller {
 
         $this->pagination->initialize($config);
 
-        $page = ($this->uri->segment(3)) ? $this->uri->segment(3) : 0;
+        $page = ($this->uri->segment(2)) ? $this->uri->segment(2) : 0;
 
         $data['blogs'] = $this->BlogModel->getBlogs($config['per_page'], $page);
         $data['pagination'] = $this->pagination->create_links();
