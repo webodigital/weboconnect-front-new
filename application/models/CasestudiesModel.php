@@ -99,21 +99,6 @@ class CasestudiesModel extends CI_Model
             return false;
         }
     }
-    public function getCasestudiesDetailsById($id, $selected_detail='how_does_it_work')
-    {
-        $this->db->select('case_studies_details.*');
-        $this->db->from('case_studies_details');
-        $this->db->where('case_studies_details.case_studies_id', $id);
-        $this->db->where('case_studies_details.type', $selected_detail);
-        //$this->db->where('status' ,'publish');
-        $query = $this->db->get();
-
-        if ($query->num_rows() > 0) {
-            return $query->row();
-        } else {
-            return false;
-        }
-    }
     public function getCasestudiesBySlug($id)
     {
         $this->db->select('case_studies.*, users.name AS author_name');
@@ -150,5 +135,105 @@ class CasestudiesModel extends CI_Model
                           ->from('case_studies')
                           ->get();
         return $query->result_array();
+    }
+
+    ///////////////////////////////////////////////////////////
+    public function getCasestudiesDetailsByIdWithSType($id, $selected_detail='how_does_it_work')
+    {
+        $this->db->select('case_studies_details.*');
+        $this->db->from('case_studies_details');
+        $this->db->where('case_studies_details.case_studies_id', $id);
+        $this->db->where('case_studies_details.type', $selected_detail);
+        //$this->db->where('status' ,'publish');
+        $query = $this->db->get();
+
+        //print_r($query);
+
+        if ($query->num_rows() > 0) {
+            return $query->result();
+        } else {
+            return false;
+        }
+    }
+    public function getCasestudiesDetailsById($id)
+    {
+        $this->db->select('case_studies_details.*');
+        $this->db->from('case_studies_details');
+        $this->db->where('case_studies_details.id', $id);
+        //$this->db->where('status' ,'publish');
+        $query = $this->db->get();
+
+        //print_r($query);
+
+        if ($query->num_rows() > 0) {
+            return $query->row();
+        } else {
+            return false;
+        }
+    }
+
+    // Insert a new blog into the database
+    public function insertCasestudiesDetails($data, $case_studies_details_id)
+    {
+        if($case_studies_details_id){
+            $this->db->where('id', $case_studies_details_id);
+            return $this->db->update('case_studies_details', $data);
+        }
+        return $this->db->insert('case_studies_details', $data);
+    }
+
+    public function deleteCasestudiesDetailsById($id)
+    {
+        return $this->db->delete('case_studies_details', ['id' => $id]);
+    }
+
+    ///////////////////////////////////////////////////////////
+    public function getCasestudiesTestimonialsByCSId($id)
+    {
+        $this->db->select('case_studies_testimonials.*');
+        $this->db->from('case_studies_testimonials');
+        $this->db->where('case_studies_testimonials.case_studies_id', $id);
+        //$this->db->where('case_studies_testimonials.type', $selected_detail);
+        //$this->db->where('status' ,'publish');
+        $query = $this->db->get();
+
+        //print_r($query);
+
+        if ($query->num_rows() > 0) {
+            return $query->result();
+        } else {
+            return false;
+        }
+    }
+    public function getCasestudiesTestimonialsById($id)
+    {
+        $this->db->select('case_studies_testimonials.*');
+        $this->db->from('case_studies_testimonials');
+        $this->db->where('case_studies_testimonials.id', $id);
+        //$this->db->where('status' ,'publish');
+        $query = $this->db->get();
+
+        //print_r($query);
+
+        if ($query->num_rows() > 0) {
+            return $query->row();
+        } else {
+            return false;
+        }
+    }
+
+    // Insert a new blog into the database
+    public function insertCasestudiesTestimonials($data, $case_studies_testimonials_id)
+    {
+        if($case_studies_testimonials_id){
+            $this->db->where('id', $case_studies_testimonials_id);
+            return $this->db->update('case_studies_testimonials', $data);
+        }
+        return $this->db->insert('case_studies_testimonials', $data);
+    }
+
+    public function deleteCasestudiesTestimonialsById($id)
+    {
+        return $this->db->delete('case_studies_testimonials', ['id' => $id]);
     }
 }

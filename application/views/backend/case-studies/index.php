@@ -97,10 +97,17 @@
             window.location.href = '<?php echo base_url("edit-case-studies"); ?>/' + case_studieId;
         });
 
-        $('.fa-file').on('click', function() {
+        /*$('.fa-file').on('click', function() {
             var case_studieId = $(this).data('id');  // Retrieve the id from the data-id attribute
             console.log(case_studieId);  // Debugging: check the id value in the console
             window.location.href = '<?php echo base_url("case-studies-details"); ?>/' + case_studieId;
         });
+
+        $('.fa-file-o').on('click', function() {
+            var case_studieId = $(this).data('id');  // Retrieve the id from the data-id attribute
+            console.log(case_studieId);  // Debugging: check the id value in the console
+            window.location.href = '<?php echo base_url("case-studies-testimonials"); ?>/' + case_studieId;
+        });*/
+
     });
 </script>

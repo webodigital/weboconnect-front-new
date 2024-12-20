@@ -11,6 +11,18 @@
                     <div id="responseMessage"></div>
                     <form id="blogForm" enctype="multipart/form-data">
                         <div class="row">
+
+
+                            <div class="form-group col-md-6">
+                                <label for="front_thumbnail">Front Thumbnail Image:</label>
+                                <input type="file" class="form-control" name="front_thumbnail" id="front_thumbnail" required>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <label for="front_logo">Front Logo Image:</label>
+                                <input type="file" class="form-control" name="front_logo" id="front_logo" required>
+                            </div>
+
                             <div class="form-group col-md-6">
                                 <label for="background_color">Background Color:</label>
                                 <input type="color" class="form-control" name="background_color" id="background_color" required>
@@ -72,6 +84,12 @@
                                 <label for="client_overview">Client Overview:</label>
                                 <input type="text" class="form-control" name="client_overview" id="client_overview" required>
                             </div>
+                            
+
+                            <div class="form-group col-md-6">
+                                <label for="how_does_it_work_title">How does it work title:</label>
+                                <input type="text" class="form-control" name="how_does_it_work_title" id="how_does_it_work_title">
+                            </div>
 
 
                             <!-- how_does_it_work_title -->
@@ -130,6 +148,30 @@
                                 <input type="text" class="form-control" name="tags" id="tags"> -->
                             </div>
 
+                            <div class="form-group col-md-6">
+                                <label for="project_objectives_title">Project Objectives Title:</label>
+                                <input type="text" class="form-control" name="project_objectives_title" id="project_objectives_title">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="challenges_title">Challenges Title:</label>
+                                <input type="text" class="form-control" name="challenges_title" id="challenges_title">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="solution_implementation_title">Solution And Implementation Title:</label>
+                                <input type="text" class="form-control" name="solution_implementation_title" id="solution_implementation_title">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="outcome_title">Outcome Title:</label>
+                                <input type="text" class="form-control" name="outcome_title" id="outcome_title">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="screens_title">Screens Title:</label>
+                                <input type="text" class="form-control" name="screens_title" id="screens_title">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="testimonial_title">Testimonial Title:</label>
+                                <input type="text" class="form-control" name="testimonial_title" id="testimonial_title">
+                            </div>
 
                             <!-- project_objectives_title -->
                             <!-- <div class="accordion d-none" id="project_objectives_title_example" style="margin-bottom: 15px;">

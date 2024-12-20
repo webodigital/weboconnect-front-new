@@ -139,4 +139,13 @@ $route['submit-case-studies'] = 'casestudies/submitCaseStudies';
 $route['delete-case-studies/(:num)'] = 'casestudies/deleteCaseStudies/$1';
 $route['edit-case-studies/(:any)'] = 'casestudies/editCaseStudies/$1';
 $route['update-case-studies'] = 'casestudies/updateCaseStudies';
+
 $route['case-studies-details/(:num)'] = 'casestudies/adminCaseStudiesDetails/$1';
+$route['submit-case-studies-details'] = 'casestudies/submitCaseStudiesDetails';
+$route['case-studies-detailsbyid/(:num)'] = 'casestudies/adminCaseStudiesDetailsById/$1';
+$route['delete-case-studies-details/(:num)'] = 'casestudies/deleteCaseStudiesDetails/$1';
+
+$route['case-studies-testimonials/(:num)'] = 'casestudies/adminCaseStudiesTestimonials/$1';
+$route['submit-case-studies-testimonials'] = 'casestudies/submitCaseStudiesTestimonials';
+$route['case-studies-testimonialsbyid/(:num)'] = 'casestudies/adminCaseStudiesTestimonialsById/$1';
+$route['delete-case-studies-testimonials/(:num)'] = 'casestudies/deleteCaseStudiesTestimonials/$1';

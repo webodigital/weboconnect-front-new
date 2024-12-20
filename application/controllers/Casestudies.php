@@ -184,6 +184,20 @@ class Casestudies extends CI_Controller
 
             $user_id = $this->session->userdata('user_id');
 
+            // Process and validate the front_thumbnail
+            $front_thumbnail = $this->uploadAndProcessImage('front_thumbnail', './assets/images/case_studies/uploads/', './assets/images/case_studies/uploads/thumbnails/');
+            if (!$front_thumbnail['status']) {
+                echo json_encode(['status' => 'error', 'message' => $front_thumbnail['message']]);
+                return;
+            }
+
+            // Process and validate the front_logo
+            $front_logo = $this->uploadAndProcessImage('front_logo', './assets/images/case_studies/uploads/', './assets/images/case_studies/uploads/thumbnails/');
+            if (!$front_logo['status']) {
+                echo json_encode(['status' => 'error', 'message' => $front_logo['message']]);
+                return;
+            }
+
             // Process and validate the background_top_img
             $background_top_img = $this->uploadAndProcessImage('background_top_img', './assets/images/case_studies/uploads/', './assets/images/case_studies/uploads/thumbnails/');
             if (!$background_top_img['status']) {
@@ -201,6 +215,8 @@ class Casestudies extends CI_Controller
             $slug = $this->createSlug($this->input->post('slug'), $this->input->post('title'));
 
             $data = array(
+                'front_thumbnail' => $front_thumbnail['file_name'],
+                'front_logo' => $front_logo['file_name'],
                 'background_color' => $this->input->post('background_color'),
                 'background_top_img' => $background_top_img['file_name'],
                 'background_mid_img' => $background_mid_img['file_name'],
@@ -218,6 +234,13 @@ class Casestudies extends CI_Controller
                 'web_url' => $this->input->post('web_url'),
                 'technologies' => $this->input->post('technologies'),
                 'client_overview' => $this->input->post('client_overview'),
+                'how_does_it_work_title' => $this->input->post('how_does_it_work_title'),
+                'project_objectives_title' => $this->input->post('project_objectives_title'),
+                'challenges_title' => $this->input->post('challenges_title'),
+                'solution_implementation_title' => $this->input->post('solution_implementation_title'),
+                'outcome_title' => $this->input->post('outcome_title'),
+                'screens_title' => $this->input->post('screens_title'),
+                'testimonial_title' => $this->input->post('testimonial_title'),
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s'),
                 //'thumbnail' => $background_top_img['thumbnail'],
@@ -238,11 +261,15 @@ class Casestudies extends CI_Controller
     {
         // Ensure directories exist
         if (!is_dir($upload_path)) {
-            mkdir($upload_path, 0755, true);
+            if (!mkdir($upload_path, 0755, true)) {
+                return ['status' => false, 'message' => 'Failed to create upload directory.'];
+            }
         }
 
         if (!is_dir($thumbnail_path)) {
-            mkdir($thumbnail_path, 0755, true);
+            if (!mkdir($thumbnail_path, 0755, true)) {
+                return ['status' => false, 'message' => 'Failed to create thumbnail directory.'];
+            }
         }
 
         $config['upload_path'] = $upload_path;
@@ -251,13 +278,16 @@ class Casestudies extends CI_Controller
 
         $this->load->library('upload', $config);
 
+        // Attempt file upload
         if (!$this->upload->do_upload($field_name)) {
             return ['status' => false, 'message' => $this->upload->display_errors()];
         }
 
         $upload_data = $this->upload->data();
+        //print_r($upload_data);
+
         $image_path = $upload_data['full_path'];
-        $webp_image_path = str_replace($upload_data['file_ext'], '.webp', $image_path);
+        $webp_image_path = $upload_path . $upload_data['raw_name'] . '.webp';
 
         // Convert image to WebP
         $image = null;
@@ -276,15 +306,23 @@ class Casestudies extends CI_Controller
                 $image = imagecreatefromwebp($image_path);
                 break;
             default:
+                unlink($image_path); // Remove unsupported file
                 return ['status' => false, 'message' => 'Unsupported image format.'];
         }
 
         if ($image) {
-            imagewebp($image, $webp_image_path);
-            imagedestroy($image);
-            unlink($image_path); // Remove the original file
+            //echo $image.'----------------'.$webp_image_path;
 
-            $file_name = $upload_data['raw_name'] . '.webp';
+            if($upload_data['file_ext']!=='.webp'){
+                // Save as WebP and remove the original file
+                if (!imagewebp($image, $webp_image_path)) {
+                    imagedestroy($image);
+                    unlink($image_path);
+                    return ['status' => false, 'message' => 'Failed to save WebP image.'];
+                }
+                imagedestroy($image);
+                unlink($image_path);
+            }
 
             // Create thumbnail
             list($original_width, $original_height) = getimagesize($webp_image_path);
@@ -298,12 +336,20 @@ class Casestudies extends CI_Controller
 
             //$thumbnail_file = $thumbnail_path . $upload_data['raw_name'] . '_thumb.webp';
             $thumbnail_file = $thumbnail_path . $upload_data['raw_name'] . '.webp';
-            imagewebp($thumb, $thumbnail_file);
+            if (!imagewebp($thumb, $thumbnail_file)) {
+                imagedestroy($source);
+                imagedestroy($thumb);
+                return ['status' => false, 'message' => 'Failed to save thumbnail image.'];
+            }
 
             imagedestroy($source);
             imagedestroy($thumb);
 
-            return ['status' => true, 'file_name' => $file_name, 'thumbnail' => $thumbnail_file];
+            return [
+                'status' => true,
+                'file_name' => $upload_data['raw_name'] . '.webp',
+                'thumbnail' => $thumbnail_file,
+            ];
         } else {
             return ['status' => false, 'message' => 'Failed to process image.'];
         }
@@ -364,6 +410,26 @@ class Casestudies extends CI_Controller
 
             $user_id = $this->session->userdata('user_id');
 
+            $front_thumbnail = null;
+            if (!empty($_FILES['front_thumbnail']['name'])) {
+                // Process and validate the front_thumbnail
+                $front_thumbnail = $this->uploadAndProcessImage('front_thumbnail', './assets/images/case_studies/uploads/', './assets/images/case_studies/uploads/thumbnails/');
+                if (!$front_thumbnail['status']) {
+                    echo json_encode(['status' => 'error', 'message' => $front_thumbnail['message']]);
+                    return;
+                }
+            }
+
+            $front_logo = null;
+            if (!empty($_FILES['front_logo']['name'])) {
+                // Process and validate the front_logo
+                $front_logo = $this->uploadAndProcessImage('front_logo', './assets/images/case_studies/uploads/', './assets/images/case_studies/uploads/thumbnails/');
+                if (!$front_logo['status']) {
+                    echo json_encode(['status' => 'error', 'message' => $front_logo['message']]);
+                    return;
+                }
+            }
+
             $background_top_img = null;
             if (!empty($_FILES['background_top_img']['name'])) {
                 $background_top_img = $this->uploadAndProcessImage('background_top_img', './assets/images/case_studies/uploads/', './assets/images/case_studies/uploads/thumbnails/');
@@ -387,6 +453,7 @@ class Casestudies extends CI_Controller
             $data = array(
                 'background_color' => $this->input->post('background_color'),
                 'title' => $this->input->post('title'),
+                'slug' => $slug,
                 'description' => $this->input->post('description'),
                 'location' => $this->input->post('location'),
                 'front_end' => $this->input->post('front_end'),
@@ -398,9 +465,24 @@ class Casestudies extends CI_Controller
                 'web_url' => $this->input->post('web_url'),
                 'technologies' => $this->input->post('technologies'),
                 'client_overview' => $this->input->post('client_overview'),
+                'how_does_it_work_title' => $this->input->post('how_does_it_work_title'),
+                'project_objectives_title' => $this->input->post('project_objectives_title'),
+                'challenges_title' => $this->input->post('challenges_title'),
+                'solution_implementation_title' => $this->input->post('solution_implementation_title'),
+                'outcome_title' => $this->input->post('outcome_title'),
+                'screens_title' => $this->input->post('screens_title'),
+                'testimonial_title' => $this->input->post('testimonial_title'),
                 'updated_at' => date('Y-m-d H:i:s'),
                 'status' => $this->input->post('status')
             );
+
+            if ($front_thumbnail) {
+                $data['front_thumbnail'] = $front_thumbnail['file_name'];
+            }
+
+            if ($front_logo) {
+                $data['front_logo'] = $front_logo['file_name'];
+            }
 
             if ($background_top_img) {
                 $data['background_top_img'] = $background_top_img['file_name'];
@@ -434,9 +516,9 @@ class Casestudies extends CI_Controller
         }
     }
     
+    /////////////////////////////////////////////////////////////////////////
     public function adminCaseStudiesDetails($id)
     {
-
         $data['details_set'] = 
         [
             'how_does_it_work' => 'how does it work', 
@@ -448,7 +530,173 @@ class Casestudies extends CI_Controller
         ];
         $data['selected_detail'] = ($this->input->post('details_set'))?$this->input->post('details_set'):'how_does_it_work';
         $data['case_studies'] = $this->CasestudiesModel->getCasestudiesById($id);
-        $data['case_studies_details'] = $this->CasestudiesModel->getCasestudiesDetailsById($id, $data['selected_detail']);
+        $data['case_studies_details'] = $this->CasestudiesModel->getCasestudiesDetailsByIdWithSType($id, $data['selected_detail']);
         $this->load_view('backend/case-studies/details', $data);
+    }
+
+    public function adminCaseStudiesDetailsById($id)
+    {
+        $data = $this->CasestudiesModel->getCasestudiesDetailsById($id);
+        echo json_encode(['status' => 'success', 'message' => 'Casestudies updated successfully.', 'data'=>$data]);
+    }
+
+    public function submitCaseStudiesDetails()
+    {
+        try {
+            //$this->form_validation->set_rules('img', 'Image', 'required');
+            $this->form_validation->set_rules('title', 'Title', 'required');
+            //$this->form_validation->set_rules('description', 'Description', 'required');
+
+            if ($this->form_validation->run() == FALSE) {
+                echo json_encode(['status' => 'error', 'message' => validation_errors()]);
+                return;
+            }
+
+            $user_id = $this->session->userdata('user_id');
+
+            $img = null;
+            if (!empty($_FILES['img']['name'])) {
+                // Process and validate the img
+                $img = $this->uploadAndProcessImage('img', './assets/images/case_studies/uploads/', './assets/images/case_studies/uploads/thumbnails/');
+                if (!$img['status']) {
+                    echo json_encode(['status' => 'error', 'message' => $img['message']]);
+                    return;
+                }
+            }
+
+            $case_studies_details_id = $this->input->post('case_studies_details_id');
+
+            $data = array(
+                'case_studies_id' => $this->input->post('case_studies_id'),
+                'type' => $this->input->post('type'),
+                //'img' => $img['file_name'],
+                'title' => $this->input->post('title'),
+                'description' => $this->input->post('description'),
+                'status' => $this->input->post('status'),
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
+            );
+
+            if ($img) {
+                $data['img'] = $img['file_name'];
+            }
+
+            if ($this->CasestudiesModel->insertCasestudiesDetails($data, $case_studies_details_id)) {
+                if($case_studies_details_id){
+                    echo json_encode(['status' => 'success', 'message' => 'Casestudies updated successfully.']);
+                }
+                else{
+                    echo json_encode(['status' => 'success', 'message' => 'Casestudies added successfully.']);
+                }
+                
+            } else {
+                echo json_encode(['status' => 'error', 'message' => 'Failed to add case_studies.']);
+            }
+        } catch (\Throwable $th) {
+            echo json_encode(['status' => 'error', 'message' => $th->getMessage()]);
+        }
+    }
+
+    public function deleteCaseStudiesDetails($id)
+    {
+        $this->load->model('CasestudiesModel');
+        if ($this->CasestudiesModel->deleteCasestudiesDetailsById($id)) {
+            echo json_encode(['status' => 'success', 'message' => 'Casestudies details deleted successfully.']);
+        } else {
+            echo json_encode(['status' => 'error', 'message' => 'Failed to delete case_studies.']);
+        }
+    }
+
+    /////////////////////////////////////////////////////////////////////////
+    public function adminCaseStudiesTestimonials($id)
+    {
+        /*$data['details_set'] = 
+        [
+            'how_does_it_work' => 'how does it work', 
+            'project_objectives' => 'project objectives',  
+            'challenges' => 'challenges',  
+            'solution_implementation' => 'solution and implementation',  
+            'outcome' => 'outcome',  
+            'screens' => 'screens', 
+        ];
+        $data['selected_detail'] = ($this->input->post('details_set'))?$this->input->post('details_set'):'how_does_it_work';*/
+        $data['case_studies'] = $this->CasestudiesModel->getCasestudiesById($id);
+        $data['case_studies_testimonials'] = $this->CasestudiesModel->getCasestudiesTestimonialsByCSId($id);
+        $this->load_view('backend/case-studies/testimonials', $data);
+    }
+
+    public function adminCaseStudiesTestimonialsById($id)
+    {
+        $data = $this->CasestudiesModel->getCasestudiesTestimonialsById($id);
+        echo json_encode(['status' => 'success', 'message' => 'Casestudies updated successfully.', 'data'=>$data]);
+    }
+
+    public function submitCaseStudiesTestimonials()
+    {
+        try {
+            //$this->form_validation->set_rules('img', 'Image', 'required');
+            $this->form_validation->set_rules('name', 'name', 'required');
+            //$this->form_validation->set_rules('description', 'Description', 'required');
+
+            if ($this->form_validation->run() == FALSE) {
+                echo json_encode(['status' => 'error', 'message' => validation_errors()]);
+                return;
+            }
+
+            $user_id = $this->session->userdata('user_id');
+
+            $img = null;
+            if (!empty($_FILES['img']['name'])) {
+                // Process and validate the img
+                $img = $this->uploadAndProcessImage('img', './assets/images/case_studies/uploads/', './assets/images/case_studies/uploads/thumbnails/');
+                if (!$img['status']) {
+                    echo json_encode(['status' => 'error', 'message' => $img['message']]);
+                    return;
+                }
+            }
+
+            $case_studies_testimonials_id = $this->input->post('case_studies_testimonials_id');
+
+            $data = array(
+                'case_studies_id' => $this->input->post('case_studies_id'),
+                //'type' => $this->input->post('type'),
+                //'img' => $img['file_name'],
+                'name' => $this->input->post('name'),
+                'position' => $this->input->post('position'),
+                'location' => $this->input->post('location'),
+                'comments' => $this->input->post('comments'),
+                'status' => $this->input->post('status'),
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
+            );
+
+            if ($img) {
+                $data['img'] = $img['file_name'];
+            }
+
+            if ($this->CasestudiesModel->insertCasestudiesTestimonials($data, $case_studies_testimonials_id)) {
+                if($case_studies_testimonials_id){
+                    echo json_encode(['status' => 'success', 'message' => 'Casestudies updated successfully.']);
+                }
+                else{
+                    echo json_encode(['status' => 'success', 'message' => 'Casestudies added successfully.']);
+                }
+                
+            } else {
+                echo json_encode(['status' => 'error', 'message' => 'Failed to add case_studies.']);
+            }
+        } catch (\Throwable $th) {
+            echo json_encode(['status' => 'error', 'message' => $th->getMessage()]);
+        }
+    }
+
+    public function deleteCaseStudiesTestimonials($id)
+    {
+        $this->load->model('CasestudiesModel');
+        if ($this->CasestudiesModel->deleteCasestudiesTestimonialsById($id)) {
+            echo json_encode(['status' => 'success', 'message' => 'Casestudies testimonial deleted successfully.']);
+        } else {
+            echo json_encode(['status' => 'error', 'message' => 'Failed to delete case_studies.']);
+        }
     }
 }

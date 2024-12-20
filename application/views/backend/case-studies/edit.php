@@ -12,12 +12,31 @@
                     <form id="editForm" enctype="multipart/form-data">
                         <div class="row">
                             <input type="hidden" class="form-control" name="id" value="<?php echo $case_studies->id; ?>">
+
+                            <div class="form-group col-md-6">
+                                <img src="<?php echo ($case_studies->front_thumbnail)?base_url('assets/images/case_studies/uploads/thumbnails/' . $case_studies->front_thumbnail):base_url('assets/images/default-thumbnail.png'); ?>" 
+                                    height="100px" 
+                                    alt="banner" 
+                                    class="d-block mb-2"
+                                    onerror="this.onerror=null; this.src='<?php echo base_url('assets/images/default-thumbnail.png'); ?>';"
+                                >
+                                <label for="front_thumbnail">Front Thumbnail Image:</label>
+                                <input type="file" class="form-control" name="front_thumbnail" id="front_thumbnail">
+                            </div>
+
+
+                            <div class="form-group col-md-6">
+                                <img src="<?php echo ($case_studies->front_logo)?base_url('assets/images/case_studies/uploads/thumbnails/' . $case_studies->front_logo):base_url('assets/images/default-thumbnail.png'); ?>" height="100px" alt="banner" class="d-block mb-2" onerror="this.onerror=null; this.src='<?php echo base_url('assets/images/default-thumbnail.png'); ?>';">
+                                <label for="front_logo">Front Logo Image:</label>
+                                <input type="file" class="form-control" name="front_logo" id="front_logo">
+                            </div>
+
                             <div class="form-group col-md-6">
                                 <label for="background_color">Background Color:</label>
-                                <input type="color" class="form-control" name="background_color" id="background_color" value="<?php echo $case_studies->background_color; ?>" required>
+                                <input type="text" class="form-control" name="background_color" id="background_color" value="<?php echo $case_studies->background_color; ?>" required>
                             </div>
                             <div class="form-group col-md-6">
-                                <img src="<?php echo base_url('assets/images/case_studies/uploads/thumbnails/' . $case_studies->background_top_img); ?>" height="100px" alt="banner" class="d-block mb-2">
+                                <img src="<?php echo ($case_studies->background_top_img)?base_url('assets/images/case_studies/uploads/thumbnails/' . $case_studies->background_top_img):base_url('assets/images/default-thumbnail.png'); ?>" height="100px" alt="banner" class="d-block mb-2" onerror="this.onerror=null; this.src='<?php echo base_url('assets/images/default-thumbnail.png'); ?>';">
                                 <label for="background_top_img">Background Top Image:</label>
                                 <input type="file" class="form-control" name="background_top_img" id="background_top_img" >
                             </div>
@@ -32,7 +51,7 @@
                             </div>
                             <div class="form-group col-12">
                                 <label for="content">Content:</label>
-                                <textarea class="form-control" name="description" id="content" rows="5" required><?php echo $case_studies->description; ?></textarea>
+                                <textarea class="form-control" name="description" id="content1" rows="5" required><?php echo $case_studies->description; ?></textarea>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="location">Location:</label>
@@ -76,9 +95,39 @@
                             </div>
 
                             <div class="form-group col-md-6">
-                                <img src="<?php echo base_url('assets/images/case_studies/uploads/thumbnails/' . $case_studies->background_mid_img); ?>" height="100px" alt="banner" class="d-block mb-2">
+                                <label for="how_does_it_work_title">How does it work title:</label>
+                                <input type="text" class="form-control" name="how_does_it_work_title" id="how_does_it_work_title" value="<?php echo $case_studies->how_does_it_work_title; ?>">
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <img src="<?php echo ($case_studies->background_mid_img)?base_url('assets/images/case_studies/uploads/thumbnails/' . $case_studies->background_mid_img):base_url('assets/images/default-thumbnail.png'); ?>" height="100px" alt="banner" class="d-block mb-2" onerror="this.onerror=null; this.src='<?php echo base_url('assets/images/default-thumbnail.png'); ?>';">
                                 <label for="image">Background Mid Banner Image:</label>
                                 <input type="file" class="form-control" name="background_mid_img" id="background_mid_img">
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <label for="project_objectives_title">Project Objectives Title:</label>
+                                <input type="text" class="form-control" name="project_objectives_title" id="project_objectives_title" value="<?php echo $case_studies->project_objectives_title; ?>">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="challenges_title">Challenges Title:</label>
+                                <input type="text" class="form-control" name="challenges_title" id="challenges_title" value="<?php echo $case_studies->challenges_title; ?>">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="solution_implementation_title">Solution And Implementation Title:</label>
+                                <input type="text" class="form-control" name="solution_implementation_title" id="solution_implementation_title" value="<?php echo $case_studies->solution_implementation_title; ?>">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="outcome_title">Outcome Title:</label>
+                                <input type="text" class="form-control" name="outcome_title" id="outcome_title" value="<?php echo $case_studies->outcome_title; ?>">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="screens_title">Screens Title:</label>
+                                <input type="text" class="form-control" name="screens_title" id="screens_title" value="<?php echo $case_studies->screens_title; ?>">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="testimonial_title">Testimonial Title:</label>
+                                <input type="text" class="form-control" name="testimonial_title" id="testimonial_title" value="<?php echo $case_studies->testimonial_title; ?>">
                             </div>
 
                             <div class="form-group col-md-6">
