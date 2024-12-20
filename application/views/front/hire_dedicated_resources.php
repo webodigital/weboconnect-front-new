@@ -493,6 +493,9 @@
                                 </label>
                                 <select id="development" name="development" class="form-select" required> 
                                     <option value="">Select Required Skills</option>
+                                    <option value="">Social media management</option>
+                                    <option value="">Database management</option>
+                                    <option value="">Coding</option>
                                 </select>
                             </div>
                         </div>
@@ -506,6 +509,11 @@
                                 </label>
                                 <select id="development" name="development" class="form-select" required> 
                                     <option value="">Select Technology </option>
+                                    <option value="">PHP</option>
+                                    <option value="">Angular JS</option>
+                                    <option value="">React Js</option>
+                                    <option value="">Python</option>
+                                    <option value="">Larawel</option>
                                 </select>
                             </div>
                         </div>
