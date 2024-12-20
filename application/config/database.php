@@ -76,9 +76,15 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
+
 	'username' => 'root',
 	'password' => '',
 	'database' => 'weboconnect',
+
+	// 'username' => 'u963571114_webcom',
+	// 'password' => '7Nj$YQbOqWm',
+	// 'database' => 'u963571114_webcom',
+
 	'dbdriver' => 'mysqli',
 	'dbprefix' => 'webo_',
 	'pconnect' => FALSE,

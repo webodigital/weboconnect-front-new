@@ -17,27 +17,65 @@
 
 <?php $this->load->view('front/common/header') ?>
 
-<section class="section_padding mob_app_framework_banner">
+<section class="section_padding careers_banner">
     <div class="container">
         <div class="row justify-content-between align-items-center g-4">
-            <div class="col-md-6">
-                <h1 class="fs-30 fw-600 text-white">Weboconnect Careers</h1>
-                <h6 class="fs-18 fw-500 text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h6>
-            </div>
-            <div class="col-md-5">
-                <img class="w-100" src="<?= base_url() ?>assets/images/mobile_app_framework/mob_app.webp" alt="JavaScript FrameWork">
+            <div class="col-md-7">
+                <h1 class="fs-30 fw-600 text-white m-0">Join Our Dynamic Team at Weboconnect</h1>
+                <h6 class="fs-18 fw-500 text-white my-4">Transform your career with Nimble AppGenie. We are a leading app development company seeking passionate individuals to join our innovative team. Grow your skills and make an impact in the tech industry.</h6>
+                <button class="btn btn-light btn-rounded px-5 mt-2" data-bs-toggle="modal" data-bs-target="#apply_new_modal">Explore Opportunities</button>
             </div>
         </div>
     </div>
 </section>
 
-<section class="section_padding technologies_frameworks">
+<section class="section_padding bg_azure">
   <div class="container">
-    <!-- <div class="text-center mb-4">
-        <h2 class="fs-30 fw-600">Key Mobile App Technology Competence</h2>
-    </div> -->
+    <div class="text-center mb-4">
+        <h2 class="fs-30 fw-600 text_brand_color2">Current openings</h2>
+        <h6 class="fs-18 fw-500">We are looking for new team mates.</h6>
+    </div>
     <div class="row">
         <div class="col-12">
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
 
           <div class="tab-content" id="pills-tabContent">
               <div class="tab-pane fade show active" id="pills-native" role="tabpanel" aria-labelledby="pills-native-tab" tabindex="0">

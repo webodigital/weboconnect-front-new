@@ -755,47 +755,47 @@ body {
 .why-choose-us {
   background-color: #f5f7fa; /* Light background */
 }
+.homeSection9{
+  .accordion-button {
+    background-color: #0a1d3d; /* Dark blue background */
+    color: #ffffff;
+    font-weight: 400;
+    border: none;
+    padding: 12px;
+  }
 
-.accordion-button {
-  background-color: #0a1d3d; /* Dark blue background */
-  color: #ffffff;
-  font-weight: 400;
-  border: none;
-  padding: 12px;
+  .accordion-button.collapsed {
+    background-color: #0a1d3d; /* Same color when collapsed */
+  }
+
+  .accordion-item {
+    border: none;
+    /*Removedefaultborder*/
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+  }
+
+  .accordion-body {
+    background-color: #f1f1f1;
+    color: #333333;
+  }
+
+  .accordion-button::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "";
+    /* color: #fff; */
+    background-image: url("./../images/Symbol.svg");
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+  }
 }
-
-.accordion-button.collapsed {
-  background-color: #0a1d3d; /* Same color when collapsed */
-}
-
-.accordion-item {
-  border: none;
-  /*Removedefaultborder*/
-  border-radius: 2rem;
-  -webkit-border-radius: 2rem;
-  -moz-border-radius: 2rem;
-  -ms-border-radius: 2rem;
-  -o-border-radius: 2rem;
-}
-
-.accordion-body {
-  background-color: #f1f1f1;
-  color: #333333;
-}
-
-.accordion-button::after {
-  flex-shrink: 0;
-  width: var(--bs-accordion-btn-icon-width);
-  height: var(--bs-accordion-btn-icon-width);
-  margin-left: auto;
-  content: "";
-  /* color: #fff; */
-  background-image: url("./../images/Symbol.svg");
-  background-repeat: no-repeat;
-  background-size: var(--bs-accordion-btn-icon-width);
-  transition: var(--bs-accordion-btn-icon-transition);
-}
-
 /* homeSection10 */
 
 .industries-section {

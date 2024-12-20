@@ -21,9 +21,9 @@
     <div class="container">
         <div class="row justify-content-between align-items-center g-4">
             <div class="col-md-6">
-                <h1 class="fs-30 fw-600 text-white">Mobile Application FrameWork</h1>
-                <h6 class="fs-18 fw-500 text-white">With the digital world available in the grasp of your customers, why not make it easy for them to interact you? The Mobile apps are a great and easy way for your customers to show interest in your business and multiply your revenues. Our easy to use, customized and interactive apps are developed keeping your business in our hearts.</h6>
-                <h6 class="fs-18 fw-500 text-white">The result- you have beautiful apps which not only engage your customers but also promote your brand. Our mobile app developers are dedicated to deliver the best quality results which help you to make your brand more recognized. We are not only capable but also extremely talented when it comes to developing Android as well as IOS apps.</h6>
+                <h1 class="fs-30 fw-600 text-white">WebOConnect Builds Next-Generation Apps with Mobile Frameworks</h1>
+                <h6 class="fs-18 fw-500 text-white">At WebOConnect, we leverage the most advanced mobile frameworks to craft dynamic, scalable, and high-performing mobile applications tailored to your needs. Whether it’s a custom native app for iOS and Android or a cost-effective cross-platform solution, we ensure your app drives seamless user experiences and measurable business results.</h6>
+                <h6 class="fs-18 fw-500 text-white">With expertise in Flutter, React Native, Swift, and other modern frameworks, we simplify complex challenges, delivering mobile applications that resonate with your audience and outperform in the competitive digital landscape.</h6>
             </div>
             <div class="col-md-5">
                 <img class="w-100" src="<?= base_url() ?>assets/images/mobile_app_framework/mob_app.webp" alt="JavaScript FrameWork">
@@ -376,8 +376,8 @@
         <div class="row align-items-center">
             <div class="col-lg-8">
                 <div class=" text-center text-lg-start">
-                    <h2 class="fs-30 fw-700 text-white">Transform Your Ideas into Reality</h2>
-                    <h6 class="fs-18 fw-500 text-white mb-3">Dive into the digital era with Weboconnect, where your vision meets our mobile app development expertise. Let's create something extraordinary together and set new benchmarks in the app world.</h6>
+                    <h2 class="fs-30 fw-700 text-white">Shape the Future of Your Business with WebOConnect’s Mobile Expertise</h2>
+                    <h6 class="fs-18 fw-500 text-white mb-3">Partner with WebOConnect to create mobile applications that deliver unmatched performance, seamless user experiences, and future-ready solutions. Whether native or cross-platform, our frameworks ensure your app drives results and leaves a lasting impact.</h6>
                     <a href="<?= base_url() ?>contact" class="btn btn-outline-light btn-rounded px-4">Contact Us</a>
                 </div>
             </div>
@@ -390,13 +390,32 @@
         <div class="row align-items-center justify-content-between g-4">
             <div class="col-lg-6">
                 <div class="b_rds_15 bg_azure p-3">
-                    <h3 class="fs-26 fw-700">We build beautiful, engaging, robust and interactive apps.</h3>
-                    <p class="fs-16 fw-500">At WebOConnect, we build apps which can make your users fall in love with. Our developers are skilled in various Mobile apps technologies for both Android and IOS like Android SDK, Invasion, Marvel, Sketch , IOS SDK, Swift and Apple Xcode to name a few. Our developers go extra mile to ensure that apps are error free, swift and responsive as the way your users will like them.</p>
-                    <p class="fs-16 fw-500">We have a team of skilled App developers who are creative and use innovative and updated technologies to make your app safe, secure and convenient.</p>
+                    <h3 class="fs-26 fw-700">Why WebOConnect Stands Out for Mobile Framework Development</h3>
+                    <ul>
+                        <li class="fs-16 fw-500"><b>Expertise Across Frameworks:</b> From React Native and Flutter to Kotlin and Swift, we combine innovation with technology for superior mobile solutions.</li>
+                        <li class="fs-16 fw-500"><b>End-to-End Development:</b> From ideation to launch and beyond, our agile team delivers solutions that align with your goals.</li>
+                        <li class="fs-16 fw-500"><b>Custom Solutions for Every Industry:</b> Whether you’re in retail, healthcare, logistics, or fintech, our tailored apps meet industry-specific demands.</li>
+                        <li class="fs-16 fw-500"><b>Scalable and Future-Proof Applications:</b> Build apps that grow with your business while staying secure and performance-driven.</li>
+                        <li class="fs-16 fw-500"><b>Transparent Development Process:</b> With collaborative tools, milestones, and updates, we keep you informed every step of the way.</li>
+                    </ul>
                 </div>
             </div>
             <div class="col-lg-5">
                 <img src="<?= base_url() ?>assets/images/mobile_app_framework/build_beautiful_apps.webp" alt="The Best SaaS & Enterprise Software Development company">
+            </div>
+            <div class="col-12">
+
+                <div class="b_rds_15 bg_azure p-3">
+                    <h3 class="fs-26 fw-700">Our Mobile Framework Expertise Includes</h3>
+                    <ul>
+                        <li class="fs-16 fw-500"><b>Flutter:</b> Fast, scalable, and ideal for creating cross-platform mobile applications with a single codebase.</li>
+                        <li class="fs-16 fw-500"><b>React Native:</b> Build native-like experiences for both iOS and Android users with unmatched performance.</li>
+                        <li class="fs-16 fw-500"><b>Swift and SwiftUI:</b> Transform your ideas into polished iOS apps with cutting-edge native frameworks.</li>
+                        <li class="fs-16 fw-500"><b>Kotlin:</b> Deliver secure and high-performance Android apps with clean, efficient code.</li>
+                        <li class="fs-16 fw-500"><b>Ionic and Xamarin:</b> Cost-effective frameworks that help you reach a broader audience without sacrificing quality.</li>
+                    </ul>
+                    <button class="btn btn-md btn-gradient-primary btn-rounded px-4" data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal">LET’S DISCUSS YOUR PROJECT</button>
+                </div>
             </div>
         </div>
     </div>
