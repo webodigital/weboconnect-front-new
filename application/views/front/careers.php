@@ -130,7 +130,7 @@
                                             <p class="fs-16 fw-400">Develop functional and sustainable web or mobile applications with clean codes</p>
                                           </div>
                                           <div class="col-12 text-center mt-4">
-                                            <a href="" class="btn btn-outline-primary px-5">Apply</a>
+                                            <button class="btn btn-outline-primary px-5" data-bs-toggle="modal" data-bs-target="#apply_new_modal">Apply</button>
                                           </div>
                                         </div>
                                         
@@ -196,7 +196,7 @@
                                           <p class="fs-16 fw-400">Self-starter with high standards, able to work independently or on a team and open about offering options/solutions.</p>
                                         </div>
                                         <div class="col-12 text-center mt-4">
-                                          <a href="" class="btn btn-outline-primary px-5">Apply</a>
+                                          <button class="btn btn-outline-primary px-5" data-bs-toggle="modal" data-bs-target="#apply_new_modal">Apply</button>
                                         </div>
                                       </div>
                                       
@@ -259,7 +259,7 @@
                                           <p class="fs-16 fw-400">Develop new user-facing features</p>
                                         </div>
                                         <div class="col-12 text-center mt-4">
-                                          <a href="" class="btn btn-outline-primary px-5">Apply</a>
+                                          <button class="btn btn-outline-primary px-5" data-bs-toggle="modal" data-bs-target="#apply_new_modal">Apply</button>
                                         </div>
                                       </div>
                                       

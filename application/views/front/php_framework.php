@@ -195,10 +195,9 @@
         <div class="row align-items-center justify-content-between g-4">
             <div class="col-lg-6">
                 <div class="b_rds_15 bg_azure p-3">
-                    <h3 class="fs-30 fw-700">Mastering PHP for Optimal
-                    Web Solutions</h3>
-                    <p class="fs-16 fw-500">Our team's expertise extends beyond framework knowledge. We're adept at working with various data management tools, ensuring seamless integration and efficient data handling.</p>
-                    <p class="fs-16 fw-500">What sets us apart is not just our technical prowess, but our ability to deliver tailored solutions that align with your specific business needs. Our experienced developers can leverage the right tools and techniques to create scalable, secure, and high-performance web applications.</p>
+                    <h3 class="fs-30 fw-700">Why WebOConnect Excels in PHP Frameworks</h3>
+                    <p class="fs-16 fw-500">WebOConnect stands out as a trusted leader in PHP development, offering feature-rich and future-proof solutions tailored to your business needs. Leveraging frameworks like Laravel, CodeIgniter, and CakePHP, we specialize in creating highly scalable, secure, and user-friendly applications that deliver measurable results.</p>
+                    <p class="fs-16 fw-500">Our dedicated PHP experts work as an extension of your team, ensuring smooth project execution, timely delivery, and unmatched support. With our proven expertise and commitment to excellence, we transform your vision into a solution that drives growth and efficiency.</p>
                 </div>
             </div>
             <div class="col-lg-5">

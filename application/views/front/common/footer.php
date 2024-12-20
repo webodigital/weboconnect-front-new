@@ -147,6 +147,7 @@
 <?php $this->load->view('front/common/lets_discuss_project_modal') ?>
 <?php $this->load->view('front/common/call_popup_modal') ?>
 <?php $this->load->view('front/common/need_help_modal') ?>
+<?php $this->load->view('front/common/apply_now_modal') ?>
 
 <script>
     // Get all video elements

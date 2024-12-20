@@ -14,7 +14,7 @@
                 
                 <div class="nav-toggle">
                     <span class="d-block d-lg-none">                    
-                        <a href="#" class="btn btn-light get_estimate_btn" data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal" >
+                        <a href="#" class="btn btn-light get_estimate_btn" data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal">
                             Get An Estimate 
                         </a>
                     </span>

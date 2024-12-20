@@ -249,7 +249,7 @@
       <div class="col-md-6 col-lg-6 text-center text-lg-start">
         <h2 class="fs-34 fw-700 text-white">Shape the Digital Future Together</h2>
         <h6 class="fs-18 fw-500 text-white my-4">Step into a world where your ideas turn into impactful solutions. At WebOConnect, we empower you to push boundaries, grow your expertise, and make a difference in the ever-evolving tech landscape.</h6>
-        <a href="" class="btn btn-primary-gradient btn-rounded btn-md px-5 my-3" style="">APPLY NOW</a>
+        <button class="btn btn-primary-gradient btn-rounded btn-md px-5 my-3" data-bs-toggle="modal" data-bs-target="#apply_new_modal">APPLY NOW</button>
       </div>
       <div class="col-md-6">
         <span class="craft_future_img">
