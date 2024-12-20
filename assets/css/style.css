@@ -1917,15 +1917,6 @@ footer {
   display: flex;
   align-items: center;
 }
-.careers_banner{
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 20, 49, 0.0)), 
-  url(../images/careers_banner.webp);
-  background-position: center;
-  background-size: cover;
-  min-height: 500px;
-  display: flex;
-  align-items: center;
-}
 .google_ratings_card{
   background-color: #ffffff;
   border: 1px solid #000000;
@@ -2576,3 +2567,15 @@ footer {
   font-size: 11px;
   color: red;
 }
+
+
+.careers_banner{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 20, 49, 0.0)), 
+  url(../images/careers_banner.webp);
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+}
+.job_openings{}

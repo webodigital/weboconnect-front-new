@@ -29,7 +29,7 @@
     </div>
 </section>
 
-<section class="section_padding bg_azure">
+<section class="section_padding job_openings bg_azure">
   <div class="container">
     <div class="text-center mb-4">
         <h2 class="fs-30 fw-600 text_brand_color2">Current openings</h2>
@@ -38,38 +38,146 @@
     <div class="row">
         <div class="col-12">
 
-          <div class="accordion" id="accordionExample">
+          <div class="accordion" id="accordionCareers">
             <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Accordion Item #1
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="container accordion-header">
+                <div class="row align-items-center w-100">
+                  <div class="col">
+                    <div>
+                      <h5 class="fs-20 fw-600 m-0">Mern Stack Developer</h5>
+                      <div class="row align-items-center">
+                        <div class="col">
+                          <p class="fs-18 fw-500 m-0">Experience: 2 - 5 Years</p>
+                        </div>
+                        <div class="col">
+                          <p class="fs-18 fw-500 m-0">Posted on: 18 Dec 2024</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMernStackDeveloper" aria-expanded="true" aria-controls="collapseMernStackDeveloper">Details </button>
+                  </div>
+                </div>
+              </div>
+              <div id="collapseMernStackDeveloper" class="accordion-collapse collapse show" data-bs-parent="#accordionCareers">
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <div class="content-area" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+                      <div class="text-start mt-5">
+                        <div class="row">
+                            <div class="col-md-3 col-xl-2">
+                            <h5 class="fs-16 fw-700">Job Title :</h5>
+                          </div>
+                          <div class="col">
+                            <p class="fs-16 fw-400">Mern Stack Developer</p>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 col-xl-2">
+                            <h5 class="fs-16 fw-700">Job position :</h5>
+                          </div>
+                          <div class="col">
+                            <p class="fs-16 fw-400">Mern Stack Developer</p>
+                          </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-3 col-xl-2">
+                            <h5 class="fs-16 fw-700">Job Location :</h5>
+                          </div>
+                          <div class="col">
+                            <p class="fs-16 fw-400">Delhi</p>
+                          </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-3 col-xl-2">
+                            <h5 class="fs-16 fw-700">Experience :</h5>
+                          </div>
+                          <div class="col">
+                            <p class="fs-16 fw-400">2 - 5 Years</p>
+                          </div>
+                        </div>
+                        
+                        <div class="row">
+                          <div class="col-md-3 col-xl-2">
+                            <h5 class="fs-16 fw-700">Responsibilities and Duties :</h5>
+                          </div>
+                          <div class="col">
+                            <p class="fs-16 fw-400">Proficiency in server-side programming with Node.js and working with NoSQL databases</p>
+                            <p class="fs-16 fw-400">Experience in building and consuming REST API</p>
+                            <p class="fs-16 fw-400">Worked as Full stack developer with NodeJS, React or Angular JS, NoSQL DB</p>
+                            <p class="fs-16 fw-400">Is comfortable with Agile development.</p>
+                            <p class="fs-16 fw-400">Good knowledge of Javascript, JSON, GIT</p>
+                            <p class="fs-16 fw-400">Enthusiasm in writing scalable code</p>
+                            <p class="fs-16 fw-400">Sound knowledge of data structures, algorithms, and system design</p>
+                            <p class="fs-16 fw-400">Troubleshoot and debug applications</p>
+                            <p class="fs-16 fw-400">Develop functional and sustainable web or mobile applications with clean codes</p>
+                          </div>
+                          <div class="col-12 text-center mt-4">
+                            <button class="btn btn-outline-primary px-5" data-bs-toggle="modal" data-bs-target="#apply_new_modal">Apply</button>
+                          </div>
+                        </div>
+                        
+                      </div>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Accordion Item #2
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="container accordion-header">
+                <div class="row align-items-center w-100">
+                  <div class="col">
+                    <div>
+                      <h5 class="fs-20 fw-600 m-0">Mern Stack Developer</h5>
+                      <div class="row align-items-center">
+                        <div class="col">
+                          <p class="fs-18 fw-500 m-0">Experience: 2 - 5 Years</p>
+                        </div>
+                        <div class="col">
+                          <p class="fs-18 fw-500 m-0">Posted on: 18 Dec 2024</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-auto">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePhpDeveloper" aria-expanded="false" aria-controls="collapsePhpDeveloper">Details</button>
+                  </div>
+                </div>
+              </div>
+              <div id="collapsePhpDeveloper" class="accordion-collapse collapse" data-bs-parent="#accordionCareers">
                 <div class="accordion-body">
                   <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Accordion Item #3
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+
+            <div class="container accordion-header">
+                <div class="row align-items-center w-100">
+                  <div class="col">
+                    <div>
+                      <h5 class="fs-20 fw-600 m-0">Mern Stack Developer</h5>
+                      <div class="row align-items-center">
+                        <div class="col">
+                          <p class="fs-18 fw-500 m-0">Experience: 2 - 5 Years</p>
+                        </div>
+                        <div class="col">
+                          <p class="fs-18 fw-500 m-0">Posted on: 18 Dec 2024</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-auto">
+                      <button  class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWordpressDeveloper" aria-expanded="false" aria-controls="collapseWordpressDeveloper">Details</button>
+                  </div>
+                </div>
+              </div>
+
+              <div id="collapseWordpressDeveloper" class="accordion-collapse collapse" data-bs-parent="#accordionCareers">
                 <div class="accordion-body">
                   <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                 </div>
@@ -114,66 +222,7 @@
                           <div class="tab-content" id="myTabContent">
                           <!-- SaaS Development Content -->
                               <div class="tab-pane fade show active" id="v-pills_native_android-SDK" role="tabpanel" aria-labelledby="v-pills_native_android-SDK-tab" tabindex="0">
-                                  <div class="content-area" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
-                                      <div class="text-start">
-                                        <div class="row">
-                                           <div class="col-md-3 col-xl-2">
-                                            <h5 class="fs-16 fw-700">Job Title :</h5>
-                                          </div>
-                                          <div class="col">
-                                            <p class="fs-16 fw-400">Mern Stack Developer</p>
-                                          </div>
-                                        </div>
-
-                                        <div class="row">
-                                           <div class="col-md-3 col-xl-2">
-                                            <h5 class="fs-16 fw-700">Job position :</h5>
-                                          </div>
-                                          <div class="col">
-                                            <p class="fs-16 fw-400">Mern Stack Developer</p>
-                                          </div>
-                                        </div>
-                                        
-                                        <div class="row">
-                                           <div class="col-md-3 col-xl-2">
-                                            <h5 class="fs-16 fw-700">Job Location :</h5>
-                                          </div>
-                                          <div class="col">
-                                            <p class="fs-16 fw-400">Delhi</p>
-                                          </div>
-                                        </div>
-                                        
-                                        <div class="row">
-                                           <div class="col-md-3 col-xl-2">
-                                            <h5 class="fs-16 fw-700">Experience :</h5>
-                                          </div>
-                                          <div class="col">
-                                            <p class="fs-16 fw-400">2 - 5 Years</p>
-                                          </div>
-                                        </div>
-                                        
-                                        <div class="row">
-                                          <div class="col-md-3 col-xl-2">
-                                            <h5 class="fs-16 fw-700">Responsibilities and Duties :</h5>
-                                          </div>
-                                          <div class="col">
-                                            <p class="fs-16 fw-400">Proficiency in server-side programming with Node.js and working with NoSQL databases</p>
-                                            <p class="fs-16 fw-400">Experience in building and consuming REST API</p>
-                                            <p class="fs-16 fw-400">Worked as Full stack developer with NodeJS, React or Angular JS, NoSQL DB</p>
-                                            <p class="fs-16 fw-400">Is comfortable with Agile development.</p>
-                                            <p class="fs-16 fw-400">Good knowledge of Javascript, JSON, GIT</p>
-                                            <p class="fs-16 fw-400">Enthusiasm in writing scalable code</p>
-                                            <p class="fs-16 fw-400">Sound knowledge of data structures, algorithms, and system design</p>
-                                            <p class="fs-16 fw-400">Troubleshoot and debug applications</p>
-                                            <p class="fs-16 fw-400">Develop functional and sustainable web or mobile applications with clean codes</p>
-                                          </div>
-                                          <div class="col-12 text-center mt-4">
-                                            <button class="btn btn-outline-primary px-5" data-bs-toggle="modal" data-bs-target="#apply_new_modal">Apply</button>
-                                          </div>
-                                        </div>
-                                        
-                                      </div>
-                                  </div>
+                                  
                               </div>
 
                           <!-- Additional Content (for each tab) -->
