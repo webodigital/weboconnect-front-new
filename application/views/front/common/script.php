@@ -216,4 +216,96 @@ $('#newEnquiryModalForm').validate({
         });
     }
 });
+
+$('#careers_form').validate({// initialize the plugin
+    rules: {
+        /*job_title: {
+            required: true
+        },*/
+        first_name: {
+            required: true,
+            minlength: 2
+        },
+        last_name: {
+            required: true,
+            minlength: 2
+        },
+        email: {
+            required: true,
+            email: true
+        },
+        phone: {
+            required: true,
+            digits: true
+        },
+        /*message: {
+            required: true
+        },*/
+        myfile: {
+            required: true,
+            extension: "txt|pdf|docx|doc"
+        }
+    },
+    messages: {
+        first_name: {
+            required: "Please enter your first name.",
+            minlength: "Your first name must be at least 2 characters long."
+        },
+        last_name: {
+            required: "Please enter your last name.",
+            minlength: "Your last name must be at least 2 characters long."
+        },
+        email: {
+            required: "Please enter your email address.",
+            email: "Please enter a valid email address."
+        },
+        phone: {
+            required: "Please enter your phone number.",
+            minlength: "Your phone number must be at least 10 digits long."
+        },
+        myfile: {
+            required: "Please upload your cv.",
+            extension: "Only resume type txt/pdf/docx/doc is allowed"
+        }
+    },
+    errorElement: 'small',
+    submitHandler: function (form) {
+        ///alert('dddd');
+        $('#careers_form .successMessage').html('');
+        $('#careers_form .errorMessage').html('');
+        
+        // Create a FormData object from the form
+        var formData = new FormData(form);
+
+        $.ajax({
+            url: '<?php echo base_url('submit-careers'); ?>',
+            type: 'POST',
+            data: formData,
+            cache: false,
+            contentType: false,
+            processData: false,
+            success: function (res) {console.log(res);
+                if (res.s == 's') {
+                    $(form)[0].reset();
+                     $('#careers_form .getTextMessageSuccess').show().html("<i>"+ res.m +"</i>");
+                    setTimeout(function(){ $('#careers_form .getTextMessageSuccess').hide(); }, 5000);
+                    //swal("Success!", res.m, "success");
+                } else if (res.error) {
+                    var erros = '';
+                    $.each(res.error,function(i,v){
+                        erros +='<small><b>'+i+'</b>: '+v+'</small><br>';
+                    });
+                   // swal({html: true,title:"Warning!", text:erros, icon:"warning"});
+                    $('#careers_form .getTextMessageError').show().html("<i>"+erros+"</i>");
+                    setTimeout(function(){ $('.getTextMessageError').hide(); }, 5000);
+                } else {
+                    $('#careers_form .getTextMessageError').show().html("<i>"+ res.m +"</i>");
+                    setTimeout(function(){ $('#careers_form .getTextMessageError').hide(); }, 5000);
+                    //swal("Error!", res.m, "error");
+                }
+            },
+            error: function(response) { console.log(response); }
+        });
+    }
+});
 </script>

@@ -197,16 +197,210 @@ class Blog extends CI_Controller
         $this->load_view('backend/blogs/createblog', $data);
     }
 
+    private function uploadAndProcessImage($field_name, $upload_path, $thumbnail_path)
+    {
+        // Ensure directories exist
+        if (!is_dir($upload_path)) {
+            if (!mkdir($upload_path, 0755, true)) {
+                return ['status' => false, 'message' => 'Failed to create upload directory.'];
+            }
+        }
+
+        if (!is_dir($thumbnail_path)) {
+            if (!mkdir($thumbnail_path, 0755, true)) {
+                return ['status' => false, 'message' => 'Failed to create thumbnail directory.'];
+            }
+        }
+
+        $config['upload_path'] = $upload_path;
+        $config['allowed_types'] = 'jpg|jpeg|png|gif|webp';
+        $config['max_size'] = 2048; // 2MB
+
+        $this->load->library('upload', $config);
+
+        // Attempt file upload
+        if (!$this->upload->do_upload($field_name)) {
+            return ['status' => false, 'message' => $this->upload->display_errors()];
+        }
+
+        $upload_data = $this->upload->data();
+        //print_r($upload_data);
+
+        $image_path = $upload_data['full_path'];
+        $webp_image_path = $upload_path . $upload_data['raw_name'] . '.webp';
+
+        // Convert image to WebP
+        $image = null;
+        switch ($upload_data['file_type']) {
+            case 'image/jpeg':
+            case 'image/jpg':
+                $image = imagecreatefromjpeg($image_path);
+                break;
+            case 'image/png':
+                $image = imagecreatefrompng($image_path);
+                break;
+            case 'image/gif':
+                $image = imagecreatefromgif($image_path);
+                break;
+            case 'image/webp':
+                $image = imagecreatefromwebp($image_path);
+                break;
+            default:
+                unlink($image_path); // Remove unsupported file
+                return ['status' => false, 'message' => 'Unsupported image format.'];
+        }
+
+        if ($image) {
+            //echo $image.'----------------'.$webp_image_path;
+
+            if($upload_data['file_ext']!=='.webp'){
+                // Save as WebP and remove the original file
+                if (!imagewebp($image, $webp_image_path)) {
+                    imagedestroy($image);
+                    unlink($image_path);
+                    return ['status' => false, 'message' => 'Failed to save WebP image.'];
+                }
+                imagedestroy($image);
+                unlink($image_path);
+            }
+
+            // Create thumbnail
+            list($original_width, $original_height) = getimagesize($webp_image_path);
+            $thumbnail_height = 350;
+            $thumbnail_width = ($thumbnail_height / $original_height) * $original_width;
+
+            $thumb = imagecreatetruecolor($thumbnail_width, $thumbnail_height);
+            $source = imagecreatefromwebp($webp_image_path);
+
+            imagecopyresampled($thumb, $source, 0, 0, 0, 0, $thumbnail_width, $thumbnail_height, $original_width, $original_height);
+
+            $thumbnail_file = $thumbnail_path . $upload_data['raw_name'] . '_thumb.webp';
+            //$thumbnail_file = $thumbnail_path . $upload_data['raw_name'] . '.webp';
+            if (!imagewebp($thumb, $thumbnail_file)) {
+                imagedestroy($source);
+                imagedestroy($thumb);
+                return ['status' => false, 'message' => 'Failed to save thumbnail image.'];
+            }
+
+            imagedestroy($source);
+            imagedestroy($thumb);
+
+            return [
+                'status' => true,
+                'file_name' => $upload_data['raw_name'] . '.webp',
+                'raw_name'  =>  $upload_data['raw_name'],
+                'thumbnail' => $thumbnail_file,
+            ];
+        } else {
+            return ['status' => false, 'message' => 'Failed to process image.'];
+        }
+    }
+
+
     public function submitBlog()
     {
-        
         try {
             //code...
             // $this->ensure_logged_in();
             // $user = $this->ensure_admin();
 
             $this->form_validation->set_rules('title', 'Title', 'required');
-            $this->form_validation->set_rules('content', 'Content', 'required');
+            $this->form_validation->set_rules('content', 'Content', 'required|min_length[150]|max_length[500]');
+            $this->form_validation->set_rules('tags', 'Tags', 'required');
+            $this->form_validation->set_rules('publish_date', 'Publish Date', 'required');
+            $this->form_validation->set_rules('publish_time', 'Publish Time', 'required');
+
+            if ($this->form_validation->run() == FALSE) {
+                echo json_encode(['status' => 'error', 'message' => validation_errors()]);
+                return;
+            }
+
+            $user_id = $this->session->userdata('user_id');
+
+            // Process and validate the image
+            $image = $this->uploadAndProcessImage('image', './assets/images/blogs/uploads/', './assets/images/blogs/uploads/thumbnails/');
+            if (!$image['status']) {
+                echo json_encode(['status' => 'error', 'message' => $image['message']]);
+                return;
+            }   
+
+            $slug = "";
+            if ($this->input->post('slug')) {
+                $slug = $this->create_slug($this->input->post('slug'));
+            } else {
+                $slug = $this->create_slug($this->input->post('title'));
+            }
+            $original_slug = $slug;
+            $counter = 1;
+            while ($this->BlogModel->slugExists($slug)) {
+                $slug = $original_slug . '-' . $counter;
+                $counter++;
+            }
+
+            $status = $this->input->post('status');
+
+            $schedule_datetime = null;
+
+            if (!empty($this->input->post('schedule_datetime'))) 
+            {
+                $schedule_datetime = $this->input->post('schedule_datetime');
+                $is_published = 0; // Not published yet
+                $status = 'scheduled';
+            } else {
+                $schedule_datetime = null;
+                $is_published = 1; // Publish immediately
+            }
+
+            //print_r($image);
+                        
+            $data = array(
+                'title' => $this->input->post('title'),
+                'content' => $this->input->post('content'),
+                'sponsor' => $this->input->post('sponsor'),
+                'image' => $image['file_name'],
+                'tags' => $this->input->post('tags'),
+                'publish_date' => $this->input->post('publish_date'),
+                'publish_time' => $this->input->post('publish_time'),
+                'meta_title' => $this->input->post('metatitle'),
+                'meta_description' => $this->input->post('metadescription'),
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
+                'user_id' => $user_id,
+                'slug' => $slug,
+                'thumbnail' => $image['raw_name'] . '_thumb.webp',
+                'status' => $status,
+                'schedule_datetime' => $schedule_datetime
+            );
+
+            if ($this->BlogModel->insertBlog($data)) {
+
+                if ($status === 'draft') {
+                    // Save as draft logic
+                    //$slug = $blog->slug;
+                    //$this->removeFromSitemap($slug); // Remove from sitemap
+                } else if ($status === 'publish') {
+                    $this->updateSitemap($slug); // Update sitemap here
+                }
+                
+                echo json_encode(['status' => 'success', 'message' => 'Blog added successfully.']);
+            } else {
+                echo json_encode(['status' => 'error', 'message' => 'Failed to add blog.']);
+            }
+        } catch (\Throwable $th) {
+            echo json_encode(['status' => 'error', 'message' => $th->getMessage()]);
+        }
+    }
+
+
+    public function submitBlog1()
+    {
+        try {
+            //code...
+            // $this->ensure_logged_in();
+            // $user = $this->ensure_admin();
+
+            $this->form_validation->set_rules('title', 'Title', 'required');
+            $this->form_validation->set_rules('content', 'Content', 'required|min_length[150]|max_length[500]');
             $this->form_validation->set_rules('tags', 'Tags', 'required');
             $this->form_validation->set_rules('publish_date', 'Publish Date', 'required');
             $this->form_validation->set_rules('publish_time', 'Publish Time', 'required');
@@ -488,6 +682,117 @@ class Blog extends CI_Controller
     }
 
     public function updateBlog()
+    {
+        try {
+            //code...
+            // $this->ensure_logged_in();
+            // $user = $this->ensure_admin();
+
+            $this->form_validation->set_rules('title', 'Title', 'required');
+            $this->form_validation->set_rules('content', 'Content', 'required|min_length[150]|max_length[500]');
+            $this->form_validation->set_rules('tags', 'Tags', 'required');
+            $this->form_validation->set_rules('publish_date', 'Publish Date', 'required');
+            $this->form_validation->set_rules('publish_time', 'Publish Time', 'required');
+
+            if ($this->form_validation->run() == FALSE) {
+                echo json_encode(['status' => 'error', 'message' => validation_errors()]);
+                return;
+            }
+
+            $user_id = $this->session->userdata('user_id');
+
+            $image = null;
+            if (!empty($_FILES['image']['name'])) {
+                // Process and validate the image
+                $image = $this->uploadAndProcessImage('image', './assets/images/blogs/uploads/', './assets/images/blogs/uploads/thumbnails/');
+                if (!$image['status']) {
+                    echo json_encode(['status' => 'error', 'message' => $image['message']]);
+                    return;
+                }
+            }
+            
+
+            $id = $this->input->post('id');
+
+            $this->load->model('BlogModel');
+
+            //Fetch blog record by id to update xml matching old slug
+            $blog = $this->BlogModel->getBlogById($id);
+            $old_slug = $blog->slug;
+
+            $status = $this->input->post('status');
+
+            $schedule_datetime = null;
+
+            date_default_timezone_set('Asia/Kolkata');
+
+            if (!empty($this->input->post('schedule_datetime'))) 
+            {
+                $schedule_datetime = $this->input->post('schedule_datetime');
+                $is_published = 0; // Not published yet
+                $status = 'scheduled';
+            }
+            else if ($blog->schedule_datetime<=$this->input->post('schedule_datetime')) {
+                $schedule_datetime = ($blog->schedule_datetime)?$blog->schedule_datetime:null;
+                $is_published = 1; // Publish immediately
+            }
+            else {
+                $schedule_datetime = null;
+                //(!empty($this->input->post('schedule_datetime'))$blog->schedule_datetime)?$blog->schedule_datetime:null;
+                $is_published = 1; // Publish immediately
+            }
+
+            $data = array(
+                'title' => $this->input->post('title'),
+                'slug' => $this->input->post('slug'),
+                'content' => $this->input->post('content'),
+                'tags' => $this->input->post('tags'),
+                'publish_date' => $this->input->post('publish_date'),
+                'publish_time' => $this->input->post('publish_time'),
+                'sponsor' => $this->input->post('sponsor'),
+                'meta_title' => $this->input->post('metatitle'),
+                'meta_description' => $this->input->post('metadescription'),
+                'updated_at' => date('Y-m-d H:i:s'),
+                'status' => $status
+            );
+
+            //print_r($image);
+
+            if ($image) {
+                $data['image'] = $image['file_name'];
+                $data['thumbnail'] = $image['raw_name'] . '_thumb.webp';
+            }
+            //print_r($data);
+
+            $result = $this->BlogModel->updateBlog($id, $data);
+
+            if ($status === 'draft' || $status === 'scheduled') {
+                // Save as draft logic
+                //$slug = $blog->slug;
+                $this->removeFromSitemap($old_slug); // Remove from sitemap
+            } else if ($status === 'publish') {
+                if($blog->status === 'draft' || $status === 'scheduled'){
+                    //echo "5";
+                    $this->updateSitemap($slug);
+                }
+                else{
+                    //echo $old_slug;
+                    $this->updateSitemapSlug($old_slug, $slug); // Update sitemap slug
+                }
+            }
+
+            if ($result) {
+                echo json_encode(['status' => 'success', 'message' => 'Blog updated successfully.']);
+            } else {
+                echo json_encode(['status' => 'error', 'message' => 'Failed to update blog.']);
+            }
+
+        } catch (\Throwable $th) {
+            echo json_encode(['status' => 'error', 'message' => $th->getMessage()]);
+        }     
+    }
+
+    public function updateBlog1()
     {
         // $this->ensure_logged_in();
         // $user = $this->ensure_admin();

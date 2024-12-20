@@ -57,6 +57,10 @@
                                 <input type="text" class="form-control" name="back_end" id="back_end" required>
                             </div>
                             <div class="form-group col-md-6">
+                                <label for="app_application">App Application:</label>
+                                <input type="text" class="form-control" name="app_application" id="app_application" required>
+                            </div>
+                            <div class="form-group col-md-6">
                                 <label for="app_type">App Type:</label>
                                 <input type="text" class="form-control" name="app_type" id="app_type" required>
                             </div>
@@ -84,7 +88,7 @@
                                 <label for="client_overview">Client Overview:</label>
                                 <input type="text" class="form-control" name="client_overview" id="client_overview" required>
                             </div>
-                            
+
 
                             <div class="form-group col-md-6">
                                 <label for="how_does_it_work_title">How does it work title:</label>

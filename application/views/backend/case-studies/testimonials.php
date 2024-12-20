@@ -29,11 +29,11 @@
                 </thead>
                 <tbody>
                     <?php if (!empty($case_studies_testimonials)) : ?>
-                        <?php foreach ($case_studies_testimonials as $case_studies_testimonial) : ?>
+                        <?php foreach ($case_studies_testimonials as $key => $case_studies_testimonial) : ?>
                             <tr>
                                 <td><?php echo $key+1; ?></td>
                                 <td>
-                                    <img src="<?php echo base_url('assets/images/case_studies/uploads/thumbnails/' . $case_studies_testimonial->img); ?>" height="70px" alt="banner" class="d-block mb-2">
+                                    <img src="<?php echo ($case_studies_testimonial->img)?base_url('assets/images/case_studies/uploads/thumbnails/' . $case_studies_testimonial->img):base_url('assets/images/default-thumbnail.png'); ?>" height="70px" alt="banner" class="d-block mb-2" onerror="this.onerror=null; this.src='<?php echo base_url('assets/images/default-thumbnail.png'); ?>';">
                                 </td>
                                 <td><?php echo $case_studies_testimonial->name; ?></td>
                                 <td><?php echo $case_studies_testimonial->position; ?></td>
@@ -77,7 +77,7 @@
             <input type="hidden" id="case_studies_id" name="case_studies_id" value="<?php echo $case_studies->id; ?>">
             <input type="hidden" id="status" name="status" value="1">
             <div class="form-group col-md-6">
-                <img id="img_url" src="" height="100px" alt="banner" class="d-block mb-2">
+                <img id="img_url" src="<?php echo base_url('assets/images/default-thumbnail.png'); ?>" height="100px" alt="banner" class="d-block mb-2" onerror="this.onerror=null; this.src='<?php echo base_url('assets/images/default-thumbnail.png'); ?>';">
                 <label for="img">Image</label>
                 <input type="file" class="form-control" id="img" name="img" accept="image/*">
             </div>

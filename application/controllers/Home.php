@@ -91,6 +91,8 @@ class Home extends CI_Controller {
         $data['meta_og_img'] = $blog->image ?? '';
         $data['meta_og_url'] = $blog->slug ?? '';
 
+		$data['bottom_blogs'] = $this->BlogModel->getHomeBlogs();
+
 		$this->load->view('front/blog_details', $data);
 	}
 	public function saas_development()

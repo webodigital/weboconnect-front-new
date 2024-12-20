@@ -66,6 +66,10 @@
                                 <input type="text" class="form-control" name="back_end" id="back_end" value="<?php echo $case_studies->back_end; ?>" required>
                             </div>
                             <div class="form-group col-md-6">
+                                <label for="app_application">App Application:</label>
+                                <input type="text" class="form-control" name="app_application" id="app_application" value="<?php echo $case_studies->app_application; ?>" required>
+                            </div>
+                            <div class="form-group col-md-6">
                                 <label for="app_type">App Type:</label>
                                 <input type="text" class="form-control" name="app_type" id="app_type" value="<?php echo $case_studies->app_type; ?>"required>
                             </div>

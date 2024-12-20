@@ -151,7 +151,14 @@ class BlogModel extends CI_Model
     {
         return $this->db->delete('blogs', ['id' => $id]);
     }
-    public function updateBlog($id, $title, $content, $tags, $publish_date, $publish_time, $image_path, $sponsor, $slug, $meta_title, $meta_description, $thumbnail_file_name, $status, $schedule_datetime)
+
+    public function updateBlog($id, $data)
+    {
+        $this->db->where('id', $id);
+        return $this->db->update('blogs', $data);
+    }
+    
+    public function updateBlog1($id, $title, $content, $tags, $publish_date, $publish_time, $image_path, $sponsor, $slug, $meta_title, $meta_description, $thumbnail_file_name, $status, $schedule_datetime)
     {
         $data = [
             'title' => $title,

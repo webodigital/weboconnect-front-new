@@ -11,65 +11,65 @@
                 <div class="col-lg-6">
                     <div class="">
                         <div class="bg-white b_rds_20 p-4">
-                            <h2 class="fs-20 fw-600">Mern Stack Developer</h2>
+                            <h2 class="fs-20 fw-600" id="modal-job-position">Mern Stack Developer</h2>
                             <div class="row">
                               <div class="col">
-                                <h4 class="fs-18 fw-500">Experience: 2 - 5 Years</h4>
+                                <h4 class="fs-18 fw-500" id="modal-job-experience">Experience: 2 - 5 Years</h4>
                               </div>
                               <div class="col">
-                                <h4 class="fs-18 fw-500">Posted on: 18 Dec 2024</h4>
+                                <h4 class="fs-18 fw-500" id="modal-job-posted-date">Posted on: 18 Dec 2024</h4>
                               </div>
                             </div>
                         </div>
-                        <form method="post" id="newEnquiryModalForm" action="javascript:void(0);">
+                        <form method="post" id="careers_form" action="javascript:void(0);">
 
-                        <div class="row g-4 justify-content-between align-items-center">
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label class="form-label" for="fname">First Name</label>
-                                    <input type="text" id="fname" class="form-control" placeholder="First Name*" name="first_name" required />
-                                    <span id="fname_err" class="error"></span>
+                            <div class="row g-4 justify-content-between align-items-center">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label class="form-label" for="fname">First Name</label>
+                                        <input type="text" id="fname" class="form-control" placeholder="First Name*" name="first_name" required />
+                                        <span id="fname_err" class="error"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label class="form-label" for="lname">Last Name</label>
+                                        <input type="text" id="lname" class="form-control" placeholder="Last Name*" name="last_name" />
+                                        <span id="lname_err" class="error"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label class="form-label" for="email">Email</label>
+                                        <input type="text" class="form-control" id="email" placeholder="Email*" name="email" required />
+                                        <span id="email_err" class="error"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label class="form-label" for="mobile">Phone No</label>
+                                        <input id="mobile" name="phone" type="tel" class="form-control phone" placeholder="Phone Number" required />
+                                        <span id="phone_err" class="error"></span>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="upload_btn_wrapper">
+                                    <button class="btn">Upload CV</button>
+                                    <input type="file" name="myfile" />
+                                  </div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="g-recaptcha" data-sitekey="6LeRZKkUAAAAAP6oTGBp5GVkdkz_NRx1ytqSDpGe"></div>
+                                </div>
+                                <div class="col-lg-3 d-grid field">
+                                    <button type="submit" id="submit-enquiry" class="btn btn-light fs-18 fw-600">Submit</button>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label class="form-label" for="lname">Last Name</label>
-                                    <input type="text" id="lname" class="form-control" placeholder="Last Name*" name="last_name" />
-                                    <span id="lname_err" class="error"></span>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label class="form-label" for="email">Email</label>
-                                    <input type="text" class="form-control" id="email" placeholder="Email*" name="email" required />
-                                    <span id="email_err" class="error"></span>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label class="form-label" for="mobile">Phone No</label>
-                                    <input id="mobile" name="phone" type="tel" class="form-control phone" placeholder="Phone Number" required />
-                                    <span id="phone_err" class="error"></span>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                              <div class="upload_btn_wrapper">
-                                <button class="btn">Upload CV</button>
-                                <input type="file" name="myfile" />
-                              </div>
-                            </div>
-                            <div class="col-auto">
-                                <div class="g-recaptcha" data-sitekey="6LeRZKkUAAAAAP6oTGBp5GVkdkz_NRx1ytqSDpGe"></div>
-                            </div>
-                            <div class="col-lg-3 d-grid field">
-                                <button type="submit" id="submit-enquiry" class="btn btn-light fs-18 fw-600">Submit</button>
-                            </div>
-                        </div>
-                        <p class="description successMessage" style="text-align: left;background: #3c763d;padding: 10px;display:none;color:#fff;"></p>
-                        <p class="description errorMessage" style="text-align: left;background: #a94442;padding: 10px;display:none;color:#fff;"></p>
-                        <!-- <p id="" class="description mt-3 successMessage" style="display:none; background:#d4edda; color:#155724;"></p>
-                        <p id="" class="description mt-3 errorMessage" style="display:none; background:#f8d7da; color:#721c24;"></p> -->
-                    </form>
+                            <p class="description successMessage" style="text-align: left;background: #3c763d;padding: 10px;display:none;color:#fff;"></p>
+                            <p class="description errorMessage" style="text-align: left;background: #a94442;padding: 10px;display:none;color:#fff;"></p>
+                            <!-- <p id="" class="description mt-3 successMessage" style="display:none; background:#d4edda; color:#155724;"></p>
+                            <p id="" class="description mt-3 errorMessage" style="display:none; background:#f8d7da; color:#721c24;"></p> -->
+                        </form>
                     </div>
                 </div>
 

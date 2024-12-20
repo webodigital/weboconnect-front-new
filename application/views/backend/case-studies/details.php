@@ -44,11 +44,11 @@
                 </thead>
                 <tbody>
                     <?php if (!empty($case_studies_details)) : ?>
-                        <?php foreach ($case_studies_details as $case_studies_detail) : ?>
+                        <?php foreach ($case_studies_details as $key => $case_studies_detail) : ?>
                             <tr>
                                 <td><?php echo $key+1; ?></td>
                                 <td>
-                                    <img src="<?php echo base_url('assets/images/case_studies/uploads/thumbnails/' . $case_studies_detail->img); ?>" height="70px" alt="banner" class="d-block mb-2">
+                                    <img src="<?php echo ($case_studies_detail->img)?base_url('assets/images/case_studies/uploads/thumbnails/' . $case_studies_detail->img):base_url('assets/images/default-thumbnail.png'); ?>" height="70px" alt="banner" class="d-block mb-2" onerror="this.onerror=null; this.src='<?php echo base_url('assets/images/default-thumbnail.png'); ?>';">
                                 </td>
                                 <td><?php echo $case_studies_detail->title; ?></td>
                                 <td><?php echo substr($case_studies_detail->description, 0, 100); ?>...</td>
@@ -91,7 +91,7 @@
             <input type="hidden" id="type" name="type" value="<?php echo $selected_detail; ?>">
             <input type="hidden" id="status" name="status" value="1">
             <div class="form-group">
-                <img id="img_url" src="" height="100px" alt="banner" class="d-block mb-2">
+                <img id="img_url" src="<?php echo base_url('assets/images/default-thumbnail.png'); ?>" height="100px" alt="banner" class="d-block mb-2" onerror="this.onerror=null; this.src='<?php echo base_url('assets/images/default-thumbnail.png'); ?>';">
                 <label for="img">Image</label>
                 <input type="file" class="form-control" id="img" name="img" accept="image/*">
             </div>
