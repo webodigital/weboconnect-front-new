@@ -17,283 +17,230 @@
 
 <?php $this->load->view('front/common/header') ?>
 
-<section class="section_padding mob_app_framework_banner">
+<section class="section_padding careers_banner">
     <div class="container">
         <div class="row justify-content-between align-items-center g-4">
-            <div class="col-md-6">
-                <h1 class="fs-30 fw-600 text-white">Weboconnect Careers</h1>
-                <h6 class="fs-18 fw-500 text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h6>
-            </div>
-            <div class="col-md-5">
-                <img class="w-100" src="<?= base_url() ?>assets/images/mobile_app_framework/mob_app.webp" alt="JavaScript FrameWork">
+            <div class="col-md-7">
+                <h1 class="fs-30 fw-600 text-white m-0">Join Our Dynamic Team at Weboconnect</h1>
+                <h6 class="fs-18 fw-500 text-white my-4">Transform your career with Nimble AppGenie. We are a leading app development company seeking passionate individuals to join our innovative team. Grow your skills and make an impact in the tech industry.</h6>
+                <button class="btn btn-light btn-rounded px-5 mt-2" data-bs-toggle="modal" data-bs-target="#apply_new_modal">Explore Opportunities</button>
             </div>
         </div>
     </div>
 </section>
 
-<section class="section_padding technologies_frameworks">
+<section class="section_padding job_openings bg_azure">
   <div class="container">
-    <!-- <div class="text-center mb-4">
-        <h2 class="fs-30 fw-600">Key Mobile App Technology Competence</h2>
-    </div> -->
+    <div class="text-center mb-4">
+        <h2 class="fs-30 fw-600 text_brand_color2">Current openings</h2>
+        <h6 class="fs-18 fw-500">We are looking for new team mates.</h6>
+    </div>
     <div class="row">
         <div class="col-12">
 
-          <div class="tab-content" id="pills-tabContent">
-              <div class="tab-pane fade show active" id="pills-native" role="tabpanel" aria-labelledby="pills-native-tab" tabindex="0">
-                  <div class="row justify-content-between g-4 mt-4">
-                      <div class="col-lg-12 col-md-12 col-12" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
-                          <!-- <h3 class="fs-24 fw-600 mb-3">
-                              <span><img width="50" src="<?= base_url() ?>assets/images/icons/android_card.webp" alt="Android"></span> Android
-                          </h3> -->
-                          <div class="overflow_x_auto">
-                            <ul class="scroll_horizontal_m_screen mx-auto nav nav-flex justify-content-center nav-pills vertical_tab_nav gap-2" id="v-pills_native_android-tab" role="tablist" aria-orientation="vertical">
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="v-pills_native_android-SDK-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_android-SDK" type="button" role="tab" aria-controls="v-pills_native_android-SDK" aria-selected="true">Mern Stack Developer</button>
-                                </li>
-                                
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="v-pills_native_android-AADT-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_android-AADT" type="button" role="tab" aria-controls="v-pills_native_android-AADT" aria-selected="true">Php Developer</button>
-                                </li>
-                                
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="v-pills_native_android-MAAPL-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_android-MAAPL" type="button" role="tab" aria-controls="v-pills_native_android-MAAPL" aria-selected="true">Wordpress Developer</button>
-                                </li>
-                                
-                                <!-- <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="v-pills_native_android-MAATT-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_android-MAATT" type="button" role="tab" aria-controls="v-pills_native_android-MAATT" aria-selected="true">Major Android App Testing Tools</button>
-                                </li>
-                                
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="v-pills_native_android-emulator-tab" data-bs-toggle="pill" data-bs-target="#v-pills_native_android-emulator" type="button" role="tab" aria-controls="v-pills_native_android-emulator" aria-selected="true">Emulator</button>
-                                </li> -->
-                            </ul>
-                          </div>
+          <div class="accordion" id="accordionCareers">
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <div class="row align-items-center w-100">
+                  <div class="col">
+                    <div>
+                      <h5 class="fs-20 fw-600 m-0">Mern Stack Developer</h5>
+                      <div class="row align-items-center">
+                        <div class="col">
+                          <p class="fs-18 fw-500 m-0">Experience: 2 - 5 Years</p>
+                        </div>
+                        <div class="col">
+                          <p class="fs-18 fw-500 m-0">Posted on: 18 Dec 2024</p>
+                        </div>
                       </div>
-
-                      <div class="col-lg-12 col-md-12 col-12" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
-          
-                          <div class="tab-content" id="myTabContent">
-                          <!-- SaaS Development Content -->
-                              <div class="tab-pane fade show active" id="v-pills_native_android-SDK" role="tabpanel" aria-labelledby="v-pills_native_android-SDK-tab" tabindex="0">
-                                  <div class="content-area" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
-                                      <div class="text-start">
-                                        <div class="row">
-                                           <div class="col-md-3 col-xl-2">
-                                            <h5 class="fs-16 fw-700">Job Title :</h5>
-                                          </div>
-                                          <div class="col">
-                                            <p class="fs-16 fw-400">Mern Stack Developer</p>
-                                          </div>
-                                        </div>
-
-                                        <div class="row">
-                                           <div class="col-md-3 col-xl-2">
-                                            <h5 class="fs-16 fw-700">Job position :</h5>
-                                          </div>
-                                          <div class="col">
-                                            <p class="fs-16 fw-400">Mern Stack Developer</p>
-                                          </div>
-                                        </div>
-                                        
-                                        <div class="row">
-                                           <div class="col-md-3 col-xl-2">
-                                            <h5 class="fs-16 fw-700">Job Location :</h5>
-                                          </div>
-                                          <div class="col">
-                                            <p class="fs-16 fw-400">Delhi</p>
-                                          </div>
-                                        </div>
-                                        
-                                        <div class="row">
-                                           <div class="col-md-3 col-xl-2">
-                                            <h5 class="fs-16 fw-700">Experience :</h5>
-                                          </div>
-                                          <div class="col">
-                                            <p class="fs-16 fw-400">2 - 5 Years</p>
-                                          </div>
-                                        </div>
-                                        
-                                        <div class="row">
-                                          <div class="col-md-3 col-xl-2">
-                                            <h5 class="fs-16 fw-700">Responsibilities and Duties :</h5>
-                                          </div>
-                                          <div class="col">
-                                            <p class="fs-16 fw-400">Proficiency in server-side programming with Node.js and working with NoSQL databases</p>
-                                            <p class="fs-16 fw-400">Experience in building and consuming REST API</p>
-                                            <p class="fs-16 fw-400">Worked as Full stack developer with NodeJS, React or Angular JS, NoSQL DB</p>
-                                            <p class="fs-16 fw-400">Is comfortable with Agile development.</p>
-                                            <p class="fs-16 fw-400">Good knowledge of Javascript, JSON, GIT</p>
-                                            <p class="fs-16 fw-400">Enthusiasm in writing scalable code</p>
-                                            <p class="fs-16 fw-400">Sound knowledge of data structures, algorithms, and system design</p>
-                                            <p class="fs-16 fw-400">Troubleshoot and debug applications</p>
-                                            <p class="fs-16 fw-400">Develop functional and sustainable web or mobile applications with clean codes</p>
-                                          </div>
-                                          <div class="col-12 text-center mt-4">
-                                            <button class="btn btn-outline-primary px-5" data-bs-toggle="modal" data-bs-target="#apply_new_modal" data-job-position="Mern Stack Developer" data-job-experience="2 - 5 Years" data-job-posted-date="Posted on: 18 Dec 2024">Apply</button>
-                                          </div>
-                                        </div>
-                                        
-                                      </div>
-                                  </div>
-                              </div>
-
-                          <!-- Additional Content (for each tab) -->
-                          <!-- Repeat the structure below for each tab -->
-                          <div class="tab-pane fade" id="v-pills_native_android-AADT" role="tabpanel" aria-labelledby="v-pills_native_android-AADT-tab" tabindex="0">
-                              <div class="content-area" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
-                                <div class="text-start">
-                                  <div class="row">
-                                      <div class="col-md-3 col-xl-2">
-                                      <h5 class="fs-16 fw-700">Job Title :</h5>
-                                    </div>
-                                    <div class="col">
-                                      <p class="fs-16 fw-400">PHP Developer</p>
-                                    </div>
-                                  </div>
-
-                                  <div class="row">
-                                      <div class="col-md-3 col-xl-2">
-                                      <h5 class="fs-16 fw-700">Job position :</h5>
-                                    </div>
-                                    <div class="col">
-                                      <p class="fs-16 fw-400">PHP Developer - Trainee/Software Engineer/Sr.Software Engineer</p>
-                                    </div>
-                                  </div>
-                                  
-                                  <div class="row">
-                                      <div class="col-md-3 col-xl-2">
-                                      <h5 class="fs-16 fw-700">Job Location :</h5>
-                                    </div>
-                                    <div class="col">
-                                      <p class="fs-16 fw-400">Delhi</p>
-                                    </div>
-                                  </div>
-                                  
-                                  <div class="row">
-                                      <div class="col-md-3 col-xl-2">
-                                      <h5 class="fs-16 fw-700">Experience :</h5>
-                                    </div>
-                                    <div class="col">
-                                      <p class="fs-16 fw-400">1 - 5 Years</p>
-                                    </div>
-                                  </div>
-                                  
-                                  <div class="row">
-                                    <div class="col-md-3 col-xl-2">
-                                      <h5 class="fs-16 fw-700">Responsibilities and Duties :</h5>
-                                    </div>
-                                    <div class="col">
-                                      <p class="fs-16 fw-400">Executing full life-cycle software development </p>
-                                      <p class="fs-16 fw-400">Writing well designed, testable, efficient code</p>
-                                      <p class="fs-16 fw-400">Documenting and maintaining software functionality</p>
-                                      <p class="fs-16 fw-400">Complying with project plans and industry standards</p>
-                                      <p class="fs-16 fw-400">Experience in MVC Framework , YII Framework, Core PHP, JQuery and MySql</p>
-                                      <p class="fs-16 fw-400">Ability to research and modify/customize plug-ins.</p>
-                                      <p class="fs-16 fw-400">Understands responsive design and CSS3/HTML5 technologies.</p>
-                                      <p class="fs-16 fw-400">Good hands on experience in XAMPP/WAMP technologies, integrating 3rd party Web Service using SOAP, Rest-full API, oAuth</p>
-                                      <p class="fs-16 fw-400">Positive Attitude, Great problem solving skills</p>
-                                      <p class="fs-16 fw-400">Self-starter with high standards, able to work independently or on a team and open about offering options/solutions.</p>
-                                    </div>
-                                    <div class="col-12 text-center mt-4">
-                                      <button class="btn btn-outline-primary px-5" data-bs-toggle="modal" data-bs-target="#apply_new_modal" data-job-position="PHP Developer" data-job-experience="1 - 5 Years" data-job-posted-date="Posted on: 18 Dec 2024">Apply</button>
-                                    </div>
-                                  </div>
-                                  
-                                </div>
-                              </div>
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMernStackDeveloper" aria-expanded="true" aria-controls="collapseMernStackDeveloper">Details </button>
+                  </div>
+                </div>
+              </div>
+              <div id="collapseMernStackDeveloper" class="accordion-collapse collapse show" data-bs-parent="#accordionCareers">
+                <div class="accordion-body p-0">
+                  <div class="content-area" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+                      <div class="text-start mt-5">
+                        <div class="row g-3">
+                          
+                          <div class="col-12">
+                            <h5 class="fs-16 fw-700">Job position</h5>
+                            <p class="fs-16 fw-400">Mern Stack Developer</p>
                           </div>
                           
-                          <div class="tab-pane fade" id="v-pills_native_android-MAAPL" role="tabpanel" aria-labelledby="v-pills_native_android-MAAPL-tab" tabindex="0">
-                              <div class="content-area" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
-                                <div class="text-start">
-                                  <div class="row">
-                                      <div class="col-md-3 col-xl-2">
-                                      <h5 class="fs-16 fw-700">Job Title :</h5>
-                                    </div>
-                                    <div class="col">
-                                      <p class="fs-16 fw-400">WordPress Developer</p>
-                                    </div>
-                                  </div>
-
-                                  <div class="row">
-                                      <div class="col-md-3 col-xl-2">
-                                      <h5 class="fs-16 fw-700">Job position :</h5>
-                                    </div>
-                                    <div class="col">
-                                      <p class="fs-16 fw-400">WordPress Developer</p>
-                                    </div>
-                                  </div>
-                                  
-                                  <div class="row">
-                                      <div class="col-md-3 col-xl-2">
-                                      <h5 class="fs-16 fw-700">Job Location :</h5>
-                                    </div>
-                                    <div class="col">
-                                      <p class="fs-16 fw-400">Delhi</p>
-                                    </div>
-                                  </div>
-                                  
-                                  <div class="row">
-                                      <div class="col-md-3 col-xl-2">
-                                      <h5 class="fs-16 fw-700">Experience :</h5>
-                                    </div>
-                                    <div class="col">
-                                      <p class="fs-16 fw-400">2 - 4 Years</p>
-                                    </div>
-                                  </div>
-                                  
-                                  <div class="row">
-                                    <div class="col-md-3 col-xl-2">
-                                      <h5 class="fs-16 fw-700">Responsibilities and Duties :</h5>
-                                    </div>
-                                    <div class="col">
-                                      <p class="fs-16 fw-400">CMS, Wordpress, Plugin Customization, website speed optimization</p>
-                                      <p class="fs-16 fw-400">Develop new user-facing features</p>
-                                      <p class="fs-16 fw-400">Must know responsive html/ css and wordpress (CMS)</p>
-                                      <p class="fs-16 fw-400">Must have Strong knowledge of PHP and Mysql, HTML5, JavaScript, jQuery and ajax.</p>
-                                      <p class="fs-16 fw-400">Form validation through PHP & Java Script</p>
-                                      <p class="fs-16 fw-400">Self-starter with high standards, ability to work independently or on a team and open about offering options/solutions.</p>
-                                      <p class="fs-16 fw-400">Word press plugin customization, theme development and creating widgets.</p>
-                                      <p class="fs-16 fw-400">Correctly employ design pattern.</p>
-                                      <p class="fs-16 fw-400">Develop new user-facing features</p>
-                                    </div>
-                                    <div class="col-12 text-center mt-4">
-                                      <button class="btn btn-outline-primary px-5" data-bs-toggle="modal" data-bs-target="#apply_new_modal" data-job-position="WordPress Developer" data-job-experience="2 - 5 Years" data-job-posted-date="Posted on: 18 Dec 2024">Apply</button>
-                                    </div>
-                                  </div>
-                                  
-                                </div>
-                              </div>
+                          <div class="col-12">
+                            <h5 class="fs-16 fw-700">Job Description</h5>
+                            <p class="fs-16 fw-400">We are seeking a talented Mern Stack Developer to join our dynamic team. This role is ideal for individuals who are passionate about mobile technologies and have a keen interest in building innovative Android applications. You will collaborate with senior developers and other team members to design, develop, and enhance mobile applications that delight users and drive business success.</p>
                           </div>
-                      
-                          <!-- <div class="tab-pane fade" id="v-pills_native_android-MAATT" role="tabpanel" aria-labelledby="v-pills_native_android-MAATT-tab" tabindex="0">
-                              <div class="content-area">
-                                  <img src="<?=base_url()?>assets/images/mobile_app_framework/android/major_android_app_testing_tools.webp" alt="Major Android App Testing Tools" class="content-image w-100 rounded-5">
-                                  <div class="content-overlay text-start">
-                                      <p class="fs-16 fw-400">
-                                      Google Android Emulator • The official Android SDK</p>
-                                  </div>
-                              </div>
+                          
+                          <div class="col-12">
+                            <h5 class="fs-16 fw-700">Responsibilities and Duties</h5>
+                            <p class="fs-16 fw-400">Proficiency in server-side programming with Node.js and working with NoSQL databases</p>
+                            <p class="fs-16 fw-400">Experience in building and consuming REST API</p>
+                            <p class="fs-16 fw-400">Worked as Full stack developer with NodeJS, React or Angular JS, NoSQL DB</p>
+                            <p class="fs-16 fw-400">Is comfortable with Agile development.</p>
+                            <p class="fs-16 fw-400">Good knowledge of Javascript, JSON, GIT</p>
+                            <p class="fs-16 fw-400">Enthusiasm in writing scalable code</p>
+                            <p class="fs-16 fw-400">Sound knowledge of data structures, algorithms, and system design</p>
+                            <p class="fs-16 fw-400">Troubleshoot and debug applications</p>
+                            <p class="fs-16 fw-400">Develop functional and sustainable web or mobile applications with clean codes</p>
+                          </div>
+                          
+                          <div class="col-12">
+                            <h5 class="fs-16 fw-700">Job Location</h5>
+                            <p class="fs-16 fw-400">Delhi</p>
                           </div>
 
-                          <div class="tab-pane fade" id="v-pills_native_android-emulator" role="tabpanel" aria-labelledby="v-pills_native_android-emulator-tab" tabindex="0">
-                              <div class="content-area">
-                                  <img src="<?=base_url()?>assets/images/mobile_app_framework/android/emulator.webp" alt="Emulator" class="content-image w-100 rounded-5">
-                                  <div class="content-overlay text-start">
-                                      <p class="fs-16 fw-400">MobiOne • eggplan</p>
-                                  </div>
-                              </div>
-                          </div> -->
-
-
-                          <!-- Repeat similar structure for each tab -->
+                          <div class="col-12 mt-4">
+                            <button class="btn btn-outline-primary btn-rounded px-5" data-bs-toggle="modal" data-bs-target="#apply_new_modal">Apply</button>
                           </div>
+                        </div>
+                        
                       </div>
                   </div>
-
-
+                </div>
               </div>
+            </div>
+            <div class="accordion-item">
+              <div class="container accordion-header">
+                <div class="row align-items-center w-100">
+                  <div class="col">
+                    <div>
+                      <h5 class="fs-20 fw-600 m-0">PHP Developer</h5>
+                      <div class="row align-items-center">
+                        <div class="col">
+                          <p class="fs-18 fw-500 m-0">Experience: 1 - 5 Years</p>
+                        </div>
+                        <div class="col">
+                          <p class="fs-18 fw-500 m-0">Posted on: 18 Dec 2024</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-auto">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePhpDeveloper" aria-expanded="false" aria-controls="collapsePhpDeveloper">Details</button>
+                  </div>
+                </div>
+              </div>
+              <div id="collapsePhpDeveloper" class="accordion-collapse collapse" data-bs-parent="#accordionCareers">
+               
+              <div class="accordion-body p-0">
+                  <div class="content-area" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+                      <div class="text-start mt-5">
+                        <div class="row g-3">
+                          
+                          <div class="col-12">
+                            <h5 class="fs-16 fw-700">Job position</h5>
+                            <p class="fs-16 fw-400">PHP Developer - Trainee/Software Engineer/Sr.Software Engineer</p>
+                          </div>
+                          
+                          <div class="col-12">
+                            <h5 class="fs-16 fw-700">Job Description</h5>
+                            <p class="fs-16 fw-400">We are seeking a talented PHP Developer to join our dynamic team. This role is ideal for individuals who are passionate about mobile technologies and have a keen interest in building innovative Android applications. You will collaborate with senior developers and other team members to design, develop, and enhance mobile applications that delight users and drive business success.</p>
+                          </div>
+                          
+                          <div class="col-12">
+                            <h5 class="fs-16 fw-700">Executing full life-cycle software development</h5>
+                            <p class="fs-16 fw-400">Writing well designed, testable, efficient code</p>
+                            <p class="fs-16 fw-400">Documenting and maintaining software functionality</p>
+                            <p class="fs-16 fw-400">Complying with project plans and industry standards</p>
+                            <p class="fs-16 fw-400">Experience in MVC Framework , YII Framework, Core PHP, JQuery and MySql</p>
+                            <p class="fs-16 fw-400">Ability to research and modify/customize plug-ins.</p>
+                            <p class="fs-16 fw-400">Understands responsive design and CSS3/HTML5 technologies.</p>
+                            <p class="fs-16 fw-400">Good hands on experience in XAMPP/WAMP technologies, integrating 3rd party Web Service using SOAP, Rest-full API, oAuth</p>
+                            <p class="fs-16 fw-400">Positive Attitude, Great problem solving skills</p>
+                            <p class="fs-16 fw-400">Self-starter with high standards, able to work independently or on a team and open about offering options/solutions.</p>
+                          </div>
+                          
+                          <div class="col-12">
+                            <h5 class="fs-16 fw-700">Job Location</h5>
+                            <p class="fs-16 fw-400">Delhi</p>
+                          </div>
+
+                          <div class="col-12 mt-4">
+                            <button class="btn btn-outline-primary btn-rounded px-5" data-bs-toggle="modal" data-bs-target="#apply_new_modal">Apply</button>
+                          </div>
+                        </div>
+                        
+                      </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="accordion-item">
+
+              <div class="container accordion-header">
+                <div class="row align-items-center w-100">
+                  <div class="col">
+                    <div>
+                      <h5 class="fs-20 fw-600 m-0">WordPress Developer</h5>
+                      <div class="row align-items-center">
+                        <div class="col">
+                          <p class="fs-18 fw-500 m-0">Experience: 2 - 4 Years</p>
+                        </div>
+                        <div class="col">
+                          <p class="fs-18 fw-500 m-0">Posted on: 18 Dec 2024</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-auto">
+                      <button  class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWordpressDeveloper" aria-expanded="false" aria-controls="collapseWordpressDeveloper">Details</button>
+                  </div>
+                </div>
+              </div>
+
+              <div id="collapseWordpressDeveloper" class="accordion-collapse collapse" data-bs-parent="#accordionCareers">
+                
+              <div class="accordion-body p-0">
+                  <div class="content-area" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+                      <div class="text-start mt-5">
+                        <div class="row g-3">
+                          
+                          <div class="col-12">
+                            <h5 class="fs-16 fw-700">Job position</h5>
+                            <p class="fs-16 fw-400">WordPress Developer</p>
+                          </div>
+                          
+                          <div class="col-12">
+                            <h5 class="fs-16 fw-700">Job Description</h5>
+                            <p class="fs-16 fw-400">We are seeking a talented WordPress Developer to join our dynamic team. This role is ideal for individuals who are passionate about mobile technologies and have a keen interest in building innovative Android applications. You will collaborate with senior developers and other team members to design, develop, and enhance mobile applications that delight users and drive business success.</p>
+                          </div>
+                          
+                          <div class="col-12">
+                            <h5 class="fs-16 fw-700">Responsibilities and Duties</h5>
+                            <p class="fs-16 fw-400">CMS, Wordpress, Plugin Customization, website speed optimization</p>
+                            <p class="fs-16 fw-400">Develop new user-facing features</p>
+                            <p class="fs-16 fw-400">Must know responsive html/ css and wordpress (CMS)</p>
+                            <p class="fs-16 fw-400">Must have Strong knowledge of PHP and Mysql, HTML5, JavaScript, jQuery and ajax.</p>
+                            <p class="fs-16 fw-400">Form validation through PHP & Java Script</p>
+                            <p class="fs-16 fw-400">Self-starter with high standards, ability to work independently or on a team and open about offering options/solutions.</p>
+                            <p class="fs-16 fw-400">Word press plugin customization, theme development and creating widgets.</p>
+                            <p class="fs-16 fw-400">Correctly employ design pattern.</p>
+                            <p class="fs-16 fw-400">Develop new user-facing features</p>
+                          </div>
+                          
+                          <div class="col-12">
+                            <h5 class="fs-16 fw-700">Job Location</h5>
+                            <p class="fs-16 fw-400">Delhi</p>
+                          </div>
+
+                          <div class="col-12 mt-4">
+                          <button class="btn btn-outline-primary btn-rounded px-5" data-bs-toggle="modal" data-bs-target="#apply_new_modal">Apply</button>
+                          </div>
+                        </div>
+                        
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
         </div>

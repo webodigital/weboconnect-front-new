@@ -138,99 +138,210 @@
 </section>
 
 <section class="section_padding tech-stack-section homeSection6" >
-    <div class="container">
-        <h2 class="fs-30 fw-600">WebOConnect’s Tech Stack Mastery</h2>
-        <p>From front-end to back-end, we’ve got you covered with cutting-edge technologies and skilled developers.</p>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-9">
+        <h2 class="fs-30 fw-600">We Master Every Corner of Technology</h2>
+        <p class="fs-20 fw-300">With expertise in almost every programming language, our 4,000+ team delivers dynamic solutions that align with modern business demands.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container d-lg-block d-none">
+    <div class="row g-4 g-lg-5 my-5">
+
+      <div class="col-lg-3 col-sm-6 col-6">
+        <div class="tech-item text-center">
+          <img src="<?=base_url()?>assets/images/icons/nodejs.webp" alt="Node Js Logo">
+          <p class="fs-20 fw-600">Node Js</p>   
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 col-6">
+        <div class="tech-item text-center">
+          <img src="<?=base_url()?>assets/images/icons/react.webp" alt="React Js Logo">
+          <p class="fs-20 fw-600">React Js</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6 col-6">
+        <div class="tech-item text-center">
+          <img src="<?=base_url()?>assets/images/icons/laravel.webp" alt="Laravel Logo">
+          <p class="fs-20 fw-600">Laravel</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6 col-6">
+        <div class="tech-item text-center">
+          <img src="<?=base_url()?>assets/images/icons/python.webp" alt="Python Logo">
+          <p class="fs-20 fw-600">Python</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6 col-6">
+        <div class="tech-item text-center">
+          <img src="<?=base_url()?>assets/images/icons/flutter.webp" alt="Flutter Logo">
+          <p class="fs-20 fw-600">Flutter</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6 col-6">
+        <div class="tech-item text-center">
+          <img src="<?=base_url()?>assets/images/icons/java.webp" alt="Java Logo">
+          <p class="fs-20 fw-600">Java</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6 col-6">
+        <div class="tech-item text-center">
+          <img src="<?=base_url()?>assets/images/icons/swift.webp" alt="Swift Logo">
+          <p class="fs-20 fw-600">Swift</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6 col-6">
+        <div class="tech-item text-center">
+          <img src="<?=base_url()?>assets/images/icons/codeigniter.webp" alt="Codeigniter Logo">
+          <p class="fs-20 fw-600">Codeigniter</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6 col-6">
+        <div class="tech-item text-center">
+          <img src="<?=base_url()?>assets/images/icons/ai.webp" alt="Artificial Intelligence Logo">
+          <p class="fs-20 fw-600">Artificial Intelligence</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6 col-6">
+        <div class="tech-item text-center">
+          <img src="<?=base_url()?>assets/images/icons/machine_learning.webp" alt="Machine Learning Logo">
+          <p class="fs-20 fw-600">Machine Learning</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6 col-6">
+        <div class="tech-item text-center">
+          <img src="<?=base_url()?>assets/images/icons/kotlin.webp" alt="Kotlin Logo">
+          <p class="fs-20 fw-600">Kotlin</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6 col-6">
+        <div class="tech-item text-center">
+          <img src="<?=base_url()?>assets/images/icons/react.webp" alt="React Native Logo">
+          <p class="fs-20 fw-600">React Native</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container d-block d-lg-none">
+    <div class="owl-carousel owl-theme single_slider">
+      <div class="item">
         <div class="row g-4 my-5">
 
-            <div class="col-lg-3 col-sm-6 col-6">
-                <div class="tech-item text-center"  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="400" >
-                <img src="https://img.icons8.com/windows/32/node-js.png" alt="Node Js Logo">
-                <p>Node Js</p>   
-                </div>
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/nodejs.webp" alt="Node Js Logo">
+              <p class="fs-20 fw-600">Node Js</p>   
             </div>
-        
-            <div class="col-lg-3 col-sm-6 col-6">
-                <div class="tech-item text-center">
-                <img src="https://img.icons8.com/external-kmg-design-flat-kmg-design/32/external-atom-education-kmg-design-flat-kmg-design.png" alt="React Js Logo">
-                <p>React Js</p>
-                </div>
+          </div>
+          
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/react.webp" alt="React Js Logo">
+              <p class="fs-20 fw-600">React Js</p>
             </div>
+          </div>
 
-            <div class="col-lg-3 col-sm-6 col-6">
-                <div class="tech-item text-center">
-                <img src="https://img.icons8.com/fluency/48/laravel.png" alt="Laravel Logo">
-                <p>Laravel</p>
-                </div>
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/laravel.webp" alt="Laravel Logo">
+              <p class="fs-20 fw-600">Laravel</p>
             </div>
+          </div>
 
-            <div class="col-lg-3 col-sm-6 col-6">
-                <div class="tech-item text-center">
-                <img src="https://img.icons8.com/color/48/python--v1.png" alt="Python Logo">
-                <p>Python</p>
-                </div>
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/python.webp" alt="Python Logo">
+              <p class="fs-20 fw-600">Python</p>
             </div>
+          </div>
 
-            <div class="col-lg-3 col-sm-6 col-6">
-                <div class="tech-item text-center">
-                <img src="https://img.icons8.com/color/48/flutter.png" alt="Flutter Logo">
-                <p>Flutter</p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6 col-6">
-                <div class="tech-item text-center">
-                <img src="https://img.icons8.com/3d-fluency/94/java-coffee-cup-logo.png" alt="Java Logo">
-                <p>Java</p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6 col-6">
-                <div class="tech-item text-center">
-                <img src="https://img.icons8.com/fluency/48/swift.png" alt="Swift Logo">
-                <p>Swift</p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6 col-6">
-                <div class="tech-item text-center">
-                <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-codeigniter-is-an-open-source-software-rapid-development-web-framework-logo-color-tal-revivo.png" alt="Codeigniter Logo">
-                <p>Codeigniter</p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6 col-6">
-                <div class="tech-item text-center">
-                <img src="https://img.icons8.com/external-vectorslab-glyph-vectorslab/50/external-29-data-science-and-big-data-vectorslab-glyph-vectorslab.png" alt="Artificial Intelligence Logo">
-                <p>AI</p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6 col-6">
-                <div class="tech-item text-center">
-                <img src="https://img.icons8.com/external-soft-fill-juicy-fish/60/external-machine-voice-technology-soft-fill-soft-fill-juicy-fish.png" alt="Machine Learning Logo">
-                <p>ML</p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6 col-6">
-                <div class="tech-item text-center">
-                <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-kotlin-a-cross-platform-statically-typed-general-purpose-programming-language-with-type-inference-logo-color-tal-revivo.png" alt="Kotlin Logo">
-                <p>Kotlin</p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6 col-6">
-                <div class="tech-item text-center">
-                <img src="https://img.icons8.com/cute-clipart/64/react-native.png" alt="React Native Logo">
-                <p>React Native</p>
-                </div>
-            </div>
 
         </div>
+      </div>
+      <div class="item">
+        <div class="row g-4 my-5">
 
-        <button data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="100" class="btn btn-light fs-18 fw-600 px-5 btn-rounded">Discuss Your Project</button>
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/flutter.webp" alt="Flutter Logo">
+              <p class="fs-20 fw-600">Flutter</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/java.webp" alt="Java Logo">
+              <p class="fs-20 fw-600">Java</p>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/swift.webp" alt="Swift Logo">
+              <p class="fs-20 fw-600">Swift</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/codeigniter.webp" alt="Codeigniter Logo">
+              <p class="fs-20 fw-600">Codeigniter</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="item">
+        <div class="row g-4 my-5">
+
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/ai.webp" alt="Artificial Intelligence Logo">
+              <p class="fs-20 fw-600">Artificial Intelligence</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/machine_learning.webp" alt="Machine Learning Logo">
+              <p class="fs-20 fw-600">Machine Learning</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/kotlin.webp" alt="Kotlin Logo">
+              <p class="fs-20 fw-600">Kotlin</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="tech-item text-center">
+              <img src="<?=base_url()?>assets/images/icons/react.webp" alt="React Native Logo">
+              <p class="fs-20 fw-600">React Native</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+  
+  <button class="btn btn-light fs-18 fw-600 px-5 btn-rounded mt-3"  data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal">Discuss Your Project</button>
 </section>
 
 

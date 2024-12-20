@@ -1710,11 +1710,11 @@
             </div>
 
 
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-12 text-center">
                     <a class="btn view_all_button fs-16 fw-600 " href="<?= base_url() ?>testimonials">View All</a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
