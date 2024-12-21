@@ -14,6 +14,9 @@ class Casestudies extends CI_Controller
         $this->load->model('User');
         $this->load->library('pagination');
         $this->load->library('form_validation');
+
+        $this->ensure_logged_in();
+        $this->ensure_admin();
     }
     private function load_view($view, $data = [])
     {
@@ -313,7 +316,6 @@ class Casestudies extends CI_Controller
 
         if ($image) {
             //echo $image.'----------------'.$webp_image_path;
-
             if($upload_data['file_ext']!=='.webp'){
                 // Save as WebP and remove the original file
                 if (!imagewebp($image, $webp_image_path)) {
@@ -523,12 +525,12 @@ class Casestudies extends CI_Controller
     {
         $data['details_set'] = 
         [
-            'how_does_it_work' => 'how does it work', 
-            'project_objectives' => 'project objectives',  
-            'challenges' => 'challenges',  
-            'solution_implementation' => 'solution and implementation',  
-            'outcome' => 'outcome',  
-            'screens' => 'screens', 
+            'how_does_it_work' => 'How Does It Work', 
+            'project_objectives' => 'Project Objectives',  
+            'challenges' => 'Challenges',  
+            'solution_implementation' => 'Solution And Implementation',  
+            'outcome' => 'Outcome',  
+            'screens' => 'Screens', 
         ];
         $data['selected_detail'] = ($this->input->post('details_set'))?$this->input->post('details_set'):'how_does_it_work';
         $data['case_studies'] = $this->CasestudiesModel->getCasestudiesById($id);

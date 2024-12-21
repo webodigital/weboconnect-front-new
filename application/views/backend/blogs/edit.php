@@ -22,7 +22,7 @@
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="content">Content:</label>
-                                <textarea id="content" class="form-control" name="content" rows="5"><?php echo $blog->content; ?></textarea>
+                                <textarea id="content" class="form-control" name="content" rows="5" minlength="150"><?php echo $blog->content; ?></textarea>
                             </div>
                             <div class="form-group col-md-12">
                                 <img src="<?php echo base_url('assets/images/blogs/uploads/thumbnails/' . $blog->thumbnail); ?>" height="100px" alt="banner" class="d-block mb-2">
@@ -195,10 +195,13 @@
                     if (response.status === 'success') {
                         // alert(response.message);
                         showToaster('success', response.message);
-                        // window.location.href = '<?php echo base_url("admin-blogs"); ?>';
+                        setTimeout(function() {
+                            window.location.reload();
+                            //window.location.href = '<?php echo base_url("admin-blogs"); ?>';
+                        }, 2000);
                     } else {
                         // alert(response.message);
-                        showToaster('error', 'response.message');
+                        showToaster('error', response.message);
                     }
                 },
                 error: function(xhr, status, error) {

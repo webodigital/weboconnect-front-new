@@ -27,7 +27,10 @@
                 <a class="nav-link" href="<?php echo site_url('admin-tracking-user-details'); ?>">User Track</a>
             </li> -->
             <li class="nav-item">
-                <a class="nav-link" href="#" id="logoutuser">Logout</a>
+                <form id="logoutForm" method="POST" action="<?php echo site_url('logout'); ?>">
+                    <a class="nav-link" href="#" id="logoutuser1" onclick="document.getElementById('logoutForm').submit();">Logout</a>
+                </form>
+                <!-- <a class="nav-link" href="#" id="logoutuser">Logout</a> -->
             </li>
         </ul>
     </div>

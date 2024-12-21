@@ -113,7 +113,6 @@
   </div>
 </div>
 
-
 <script>
     $(document).ready(function() {
 
@@ -165,7 +164,6 @@
             window.location.href = '<?php echo base_url("case-studies-details"); ?>/' + case_studieId;
         });
 
-
         ///////////////
         // Open modal for "Add New"
         $('.submit-button').on('click', function () {
@@ -176,7 +174,7 @@
             $('#caseStudyModal').modal('show');
         });
 
-         // Open modal for "Edit"
+        // Open modal for "Edit"
         $('.fa-edit').on('click', function () {
             var caseStudyId = $(this).data('id');
             // Fetch data for the selected case study

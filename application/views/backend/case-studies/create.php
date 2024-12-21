@@ -619,6 +619,11 @@
                         // $('#responseMessage').html('<div class="alert alert-success">' + response.message + '</div>');
                         $('#blogForm')[0].reset();
                         showToaster('success', response.message);
+
+                        setTimeout(function() {
+                            //window.location.reload();
+                            window.location.href = '<?php echo base_url("admin-case-studies"); ?>';
+                        }, 2000);
                     } else if (response.status === 'error') {
                         // $('#responseMessage').html('<div class="alert alert-danger">' + response.message + '</div>');
                         showToaster('error', response.message);

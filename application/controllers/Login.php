@@ -11,9 +11,6 @@ class Login extends CI_Controller
         $this->load->helper('auth_helper'); 
         $this->load->library(array('session', 'form_validation'));
         $this->load->model('User');
-        if ($this->session->userdata('user_id')) {
-            redirect('dashboard');
-        }
     }
 
     private function load_view($view, $data = [])
@@ -98,7 +95,7 @@ class Login extends CI_Controller
         }
     }
 
-    public function logout()
+    public function logout2()
     {
         try {
             // Clear the session data
@@ -120,6 +117,36 @@ class Login extends CI_Controller
             }
         }
     }
+
+    public function logout()
+    {
+        try {
+            // Clear the session data
+            $this->session->unset_userdata('user_id');
+            $this->session->sess_destroy();
+
+            if ($this->input->is_ajax_request()) {
+                // Respond with JSON for AJAX calls
+                $this->output->set_content_type('application/json')
+                             ->set_output(json_encode(['status' => 'success', 'message' => 'You have been logged out']));
+            } else {
+                // Handle non-AJAX requests with redirection
+                $this->session->set_flashdata('success', 'You have been logged out');
+                redirect('login', 'refresh'); // Force a fresh GET request
+            }
+        } catch (Throwable $th) {
+            // Log error for debugging
+            log_message('error', $th->getMessage());
+
+            if ($this->input->is_ajax_request()) {
+                $this->output->set_content_type('application/json')
+                             ->set_output(json_encode(['status' => 'error', 'message' => 'An error occurred. Please try again.']));
+            } else {
+                show_error('An error occurred. Please try again later.');
+            }
+        }
+    }
+
 
 
 }

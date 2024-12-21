@@ -14,6 +14,9 @@ class Enquire extends CI_Controller
         $this->load->model('User');
         $this->load->library('pagination');
         $this->load->library('form_validation');
+        
+        $this->ensure_logged_in();
+        $this->ensure_admin();
     }
     private function load_view($view, $data = [])
     {

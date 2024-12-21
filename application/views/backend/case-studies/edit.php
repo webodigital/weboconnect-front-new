@@ -51,7 +51,7 @@
                             </div>
                             <div class="form-group col-12">
                                 <label for="content">Content:</label>
-                                <textarea class="form-control" name="description" id="content1" rows="5" required><?php echo $case_studies->description; ?></textarea>
+                                <textarea class="form-control" name="description" id="content" rows="5" required><?php echo $case_studies->description; ?></textarea>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="location">Location:</label>
@@ -236,10 +236,13 @@
                     if (response.status === 'success') {
                         // alert(response.message);
                         showToaster('success', response.message);
-                        // window.location.href = '<?php echo base_url("admin-blogs"); ?>';
+                        setTimeout(function() {
+                            window.location.reload();
+                        }, 2000);
+                        // window.location.href = '<?php echo base_url("admin-case-studies"); ?>';
                     } else {
                         // alert(response.message);
-                        showToaster('error', 'response.message');
+                        showToaster('error', response.message);
                     }
                 },
                 error: function(xhr, status, error) {
