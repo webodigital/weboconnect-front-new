@@ -23,21 +23,45 @@
         </div>
     </div>
     <div class="container">
-        <div class="overflow_x_auto">
-        <div class="scroll_horizontal_both_screen blogs_filter_buttons">
-            <button class="btn btn-light slides_btn active" onclick="filterBlog('all')">All</button>
-            <button class="btn btn-light slides_btn" onclick="filterBlog('emerging_tech_trends')">Emerging Tech & Trends</button>
-            <button class="btn btn-light slides_btn" onclick="filterBlog('solutions_best_practices')">Solutions & Best Practices</button>
-            <button class="btn btn-light slides_btn" onclick="filterBlog('cybersecurity')">Cybersecurity</button>
-            <button class="btn btn-light slides_btn" onclick="filterBlog('tech_specific_industries')">Tech for Specific Industries</button>
-            <button class="btn btn-light slides_btn" onclick="filterBlog('thought_leadership_innovation')">Thought Leadership & Innovation</button>
-            <button class="btn btn-light slides_btn" onclick="filterBlog('educational')">Educational</button>
-            <button class="btn btn-light slides_btn" onclick="filterBlog('hire_dedicated_resources')">Hire Dedicated Resources</button>
-            <button class="btn btn-light slides_btn" onclick="filterBlog('app_development')">App Development</button>
-            <button class="btn btn-light slides_btn" onclick="filterBlog('web_development')">Web Development</button>
-            <button class="btn btn-light slides_btn" onclick="filterBlog('language_based_apps')">Language-Based Apps</button>
+        <div class="">
+            <div class=" blogs_filter_buttons">
+                <div class="owl-carousel owl-theme blog_btn_slider">
+                    <div class="item">
+                        <button class="btn btn-light slides_btn active" onclick="filterBlog('all')">All</button>                        
+                    </div>
+                    <div class="item">
+                        <button class="btn btn-light slides_btn" onclick="filterBlog('emerging_tech_trends')">Emerging Tech & Trends</button>
+                    </div>
+                    <div class="item">
+                        <button class="btn btn-light slides_btn" onclick="filterBlog('solutions_best_practices')">Solutions & Best Practices</button>
+                    </div>
+                    <div class="item">
+                        <button class="btn btn-light slides_btn" onclick="filterBlog('cybersecurity')">Cybersecurity</button>
+                    </div>
+                    <div class="item">
+                        <button class="btn btn-light slides_btn" onclick="filterBlog('tech_specific_industries')">Tech for Specific Industries</button>
+                    </div>
+                    <div class="item">
+                        <button class="btn btn-light slides_btn" onclick="filterBlog('thought_leadership_innovation')">Thought Leadership & Innovation</button>
+                    </div>
+                    <div class="item">
+                        <button class="btn btn-light slides_btn" onclick="filterBlog('educational')">Educational</button>
+                    </div>
+                    <div class="item">
+                        <button class="btn btn-light slides_btn" onclick="filterBlog('hire_dedicated_resources')">Hire Dedicated Resources</button>
+                    </div>
+                    <div class="item">
+                        <button class="btn btn-light slides_btn" onclick="filterBlog('app_development')">App Development</button>
+                    </div>
+                    <div class="item">
+                        <button class="btn btn-light slides_btn" onclick="filterBlog('web_development')">Web Development</button>
+                    </div>
+                    <div class="item">
+                        <button class="btn btn-light slides_btn" onclick="filterBlog('language_based_apps')">Language-Based Apps</button>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
     </div>
     <div class="container mt-5">
         <div class="row g-4">
