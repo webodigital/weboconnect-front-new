@@ -53,7 +53,9 @@ $route['default_controller'] = 'home';
 $route['about'] = 'home/about';
 $route['contact'] = 'home/contact_us';
 $route['case-studies'] = 'home/case_study';
-$route['case-study-details'] = 'home/case_study_details';
+//$route['case-study-details'] = 'home/case_study_details';
+$route['case-study-details/(:any)'] = 'home/case_study_details/$1';
+
 $route['blogs'] = 'home/blogs';
 $route['blogs/(:num)'] = 'home/blogs/$1';
 $route['blog/(:any)'] = 'home/blog_details/$1';

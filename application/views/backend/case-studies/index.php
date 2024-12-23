@@ -34,8 +34,8 @@
                                     <!-- <i class="me-2 fas fa-edit edit" style="cursor: pointer;"></i> -->
                                     <i class="me-2 fas fa-file file" data-id="<?php echo $case_studie->id; ?>" style="cursor: pointer;" title="Add Details"></i>
                                     <i class="me-2 fas fa-file-o file-o" data-id="<?php echo $case_studie->id; ?>" style="cursor: pointer;" title="Add Testimonials"></i>
-                                    <i class="me-2 fas fa-edit edit" data-id="<?php echo $case_studie->id; ?>" style="cursor: pointer;"></i>
-                                    <i class="fas fa-trash-alt" data-id="<?php echo $case_studie->id; ?>" style="cursor: pointer;"></i>
+                                    <i class="me-2 fas fa-edit edit" data-id="<?php echo $case_studie->id; ?>" style="cursor: pointer;" title="Edit"></i>
+                                    <i class="fas fa-trash-alt" data-id="<?php echo $case_studie->id; ?>" style="cursor: pointer;" title="Delete"></i>
                                 </td>
                             </tr>
                         <?php endforeach; ?>

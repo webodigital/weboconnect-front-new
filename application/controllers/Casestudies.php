@@ -215,6 +215,20 @@ class Casestudies extends CI_Controller
                 return;
             }
 
+            // Process and validate the challenges_img
+            $challenges_img = $this->uploadAndProcessImage('challenges_img', './assets/images/case_studies/uploads/', './assets/images/case_studies/uploads/thumbnails/');
+            if (!$challenges_img['status']) {
+                echo json_encode(['status' => 'error', 'message' => $challenges_img['message']]);
+                return;
+            }
+
+            // Process and validate the solution_implementation_img
+            $solution_implementation_img = $this->uploadAndProcessImage('solution_implementation_img', './assets/images/case_studies/uploads/', './assets/images/case_studies/uploads/thumbnails/');
+            if (!$solution_implementation_img['status']) {
+                echo json_encode(['status' => 'error', 'message' => $solution_implementation_img['message']]);
+                return;
+            }
+
             $slug = $this->createSlug($this->input->post('slug'), $this->input->post('title'));
 
             $data = array(
@@ -241,7 +255,9 @@ class Casestudies extends CI_Controller
                 'how_does_it_work_title' => $this->input->post('how_does_it_work_title'),
                 'project_objectives_title' => $this->input->post('project_objectives_title'),
                 'challenges_title' => $this->input->post('challenges_title'),
+                'challenges_img' => $background_mid_img['file_name'],
                 'solution_implementation_title' => $this->input->post('solution_implementation_title'),
+                'solution_implementation_img' => $solution_implementation_img['file_name'],
                 'outcome_title' => $this->input->post('outcome_title'),
                 'screens_title' => $this->input->post('screens_title'),
                 'testimonial_title' => $this->input->post('testimonial_title'),
@@ -451,12 +467,30 @@ class Casestudies extends CI_Controller
                 }
             }
 
+            $challenges_img = null;
+            if (!empty($_FILES['challenges_img']['name'])) {
+                $challenges_img = $this->uploadAndProcessImage('challenges_img', './assets/images/case_studies/uploads/', './assets/images/case_studies/uploads/thumbnails/');
+                if (!$challenges_img['status']) {
+                    echo json_encode(['status' => 'error', 'message' => $challenges_img['message']]);
+                    return;
+                }
+            }
+
+            $solution_implementation_img = null;
+            if (!empty($_FILES['solution_implementation_img']['name'])) {
+                $solution_implementation_img = $this->uploadAndProcessImage('solution_implementation_img', './assets/images/case_studies/uploads/', './assets/images/case_studies/uploads/thumbnails/');
+                if (!$solution_implementation_img['status']) {
+                    echo json_encode(['status' => 'error', 'message' => $solution_implementation_img['message']]);
+                    return;
+                }
+            }
+
             $slug = $this->createSlug($this->input->post('slug'), $this->input->post('title'));
 
             $data = array(
                 'background_color' => $this->input->post('background_color'),
                 'title' => $this->input->post('title'),
-                'slug' => $slug,
+                //'slug' => $slug,
                 'description' => $this->input->post('description'),
                 'location' => $this->input->post('location'),
                 'front_end' => $this->input->post('front_end'),
@@ -494,6 +528,14 @@ class Casestudies extends CI_Controller
 
             if ($background_mid_img) {
                 $data['background_mid_img'] = $background_mid_img['file_name'];
+            }
+
+            if ($challenges_img) {
+                $data['challenges_img'] = $challenges_img['file_name'];
+            }
+
+            if ($solution_implementation_img) {
+                $data['solution_implementation_img'] = $solution_implementation_img['file_name'];
             }
 
             if ($this->CasestudiesModel->updateCasestudies($this->input->post('id'), $data)) {

@@ -24,8 +24,41 @@
   <h1 class="text-center">Case Studies</h1>
 
   <div class="container">
-    <div class="row g-4 justify-content-center">
-      <div class="col-md-6">
+    <div class="row g-4 justify-content-center1">
+
+
+      <?php foreach ($casestudies as $casestudy) : ?>
+        <div class="col-md-6">
+          <div class="case_study_list_card" style="background: <?php echo $casestudy->background_color; ?>;">
+            <!-- #70E1E2 -->
+              <div class="row">
+                  <div class="col-sm-8">
+                      <div>
+                          <img class="work-img" src="<?php echo base_url('assets/images/case_studies/uploads/thumbnails/' . $casestudy->front_thumbnail); ?>" alt="<?php echo htmlspecialchars($casestudy->title, ENT_QUOTES, 'UTF-8'); ?>" />
+                      </div>
+                  </div>
+                  <div class="col-sm-4">
+                      <div class="case_study_list_card_cntnt">
+                          <div>
+                              <div class="logo_bar">
+                                  <img width="" src="<?php echo base_url('assets/images/case_studies/uploads/thumbnails/' . $casestudy->front_logo); ?>" alt="<?php echo htmlspecialchars($casestudy->title, ENT_QUOTES, 'UTF-8'); ?>"  />
+                              </div>
+                              <p> <?php echo $casestudy->description??''; ?></p>
+                          </div>
+                          <a class="read_more_btn" href="<?php echo base_url('case-study-details/' . $casestudy->slug); ?>">Read More</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      <?php endforeach; ?>
+
+      <div>
+          <?php echo $pagination; ?>
+      </div>
+
+
+      <!-- <div class="col-md-6">
           <div class="case_study_list_card" style="background: #70E1E2;">
               <div class="row">
                   <div class="col-sm-8">
@@ -580,7 +613,7 @@
                   </div>
               </div>
           </div>
-      </div>
+      </div> -->
 
     </div>
   </div>

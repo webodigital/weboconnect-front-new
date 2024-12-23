@@ -118,8 +118,18 @@
                                 <input type="text" class="form-control" name="challenges_title" id="challenges_title" value="<?php echo $case_studies->challenges_title; ?>">
                             </div>
                             <div class="form-group col-md-6">
+                                <img src="<?php echo ($case_studies->challenges_img)?base_url('assets/images/case_studies/uploads/thumbnails/' . $case_studies->challenges_img):base_url('assets/images/default-thumbnail.png'); ?>" height="100px" alt="banner" class="d-block mb-2" onerror="this.onerror=null; this.src='<?php echo base_url('assets/images/default-thumbnail.png'); ?>';">
+                                <label for="challenges_img">Challenges Image:</label>
+                                <input type="file" class="form-control" name="challenges_img" id="challenges_img">
+                            </div>
+                            <div class="form-group col-md-6">
                                 <label for="solution_implementation_title">Solution And Implementation Title:</label>
                                 <input type="text" class="form-control" name="solution_implementation_title" id="solution_implementation_title" value="<?php echo $case_studies->solution_implementation_title; ?>">
+                            </div>                            
+                            <div class="form-group col-md-6">
+                                <img src="<?php echo ($case_studies->solution_implementation_img)?base_url('assets/images/case_studies/uploads/thumbnails/' . $case_studies->solution_implementation_img):base_url('assets/images/default-thumbnail.png'); ?>" height="100px" alt="banner" class="d-block mb-2" onerror="this.onerror=null; this.src='<?php echo base_url('assets/images/default-thumbnail.png'); ?>';">
+                                <label for="solution_implementation_img">Solution And Implementation Image:</label>
+                                <input type="file" class="form-control" name="solution_implementation_img" id="solution_implementation_img">
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="outcome_title">Outcome Title:</label>

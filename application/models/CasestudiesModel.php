@@ -60,21 +60,21 @@ class CasestudiesModel extends CI_Model
 
     public function getCasestudies($limit, $offset, $exclude_id = null)
     {
-        $this->db->select('case_studies.*, users.name AS author_name');
+        $this->db->select('case_studies.*');
         $this->db->from('case_studies');
-        $this->db->join('users', 'users.id = case_studies.user_id');
+        //$this->db->join('users', 'users.id = case_studies.user_id');
         if ($exclude_id !== null) {
             $this->db->where('case_studies.id !=', $exclude_id);
         }
-        $this->db->where('status' ,'publish');
+        //$this->db->where('status' ,'publish');
         $this->db->order_by('case_studies.created_at', 'DESC');
         if($limit != 0){
             $this->db->limit($limit, $offset);    
         }
         $query = $this->db->get();
         $result = $query->result();
-        foreach ($result as &$blog) {
-            $blog->content = strip_tags($blog->content);
+        foreach ($result as &$case_study) {
+            $case_study->content = strip_tags($case_study->content);
         }
         return $result;
     }
@@ -101,11 +101,11 @@ class CasestudiesModel extends CI_Model
     }
     public function getCasestudiesBySlug($id)
     {
-        $this->db->select('case_studies.*, users.name AS author_name');
+        $this->db->select('case_studies.*');
         $this->db->from('case_studies');
-        $this->db->join('users', 'users.id = case_studies.user_id');
+        //$this->db->join('users', 'users.id = case_studies.user_id');
         $this->db->where('case_studies.slug', $id);
-        $this->db->where('status' ,'publish');
+        //$this->db->where('status' ,'publish');
         $query = $this->db->get();
 
         if ($query->num_rows() > 0) {

@@ -20,11 +20,74 @@ class Home extends CI_Controller {
 	}
 	public function case_study()
 	{
-		$this->load->view('front/case_study');
+		$this->load->library('pagination');
+        $this->load->model('CasestudiesModel');
+        $config = array();
+        $config['base_url'] = site_url('blogs');
+        $config['total_rows'] = $this->CasestudiesModel->getCasestudiesCount();
+        // $config['per_page'] = 20;
+        $config['per_page'] = 9;
+        $config['uri_segment'] = 2;
+
+        // Bootstrap 4 Pagination Configuration
+        $config['full_tag_open'] = '<nav><ul class="pagination">';
+        $config['full_tag_close'] = '</ul></nav>';
+        $config['first_link'] = 'First';
+        $config['last_link'] = 'Last';
+        $config['first_tag_open'] = '<li class="page-item"><span class="page-link">';
+        $config['first_tag_close'] = '</span></li>';
+        $config['prev_link'] = '&laquo';
+        $config['prev_tag_open'] = '<li class="page-item"><span class="page-link">';
+        $config['prev_tag_close'] = '</span></li>';
+        $config['next_link'] = '&raquo';
+        $config['next_tag_open'] = '<li class="page-item"><span class="page-link">';
+        $config['next_tag_close'] = '</span></li>';
+        $config['last_tag_open'] = '<li class="page-item"><span class="page-link">';
+        $config['last_tag_close'] = '</span></li>';
+        $config['cur_tag_open'] = '<li class="page-item active"><span class="page-link">';
+        $config['cur_tag_close'] = '</span></li>';
+        $config['num_tag_open'] = '<li class="page-item"><span class="page-link">';
+        $config['num_tag_close'] = '</span></li>';
+
+        $this->pagination->initialize($config);
+
+        $page = ($this->uri->segment(2)) ? $this->uri->segment(2) : 0;
+
+        $data['casestudies'] = $this->CasestudiesModel->getCasestudies($config['per_page'], $page);
+        $data['pagination'] = $this->pagination->create_links();
+
+		$this->load->view('front/case_study', $data);
 	}
-	public function case_study_details()
+	public function case_study_details($id)
 	{
-		$this->load->view('front/case_study_details');
+		$this->load->model('CasestudiesModel');
+        $casestudy = $this->CasestudiesModel->getCasestudiesBySlug($id);
+
+        if (!$casestudy) {
+            // Handle case where blog with given ID is not found
+            show_404(); // Or redirect to an error page
+            return;
+        }
+        $data['casestudy'] = $casestudy;
+
+        /*[
+            'how_does_it_work' => 'How Does It Work', 
+            'project_objectives' => 'Project Objectives',  
+            'challenges' => 'Challenges',  
+            'solution_implementation' => 'Solution And Implementation',  
+            'outcome' => 'Outcome',  
+            'screens' => 'Screens', 
+        ];*/
+        
+        $data['how_does_it_work'] = $this->CasestudiesModel->getCasestudiesDetailsByIdWithSType($casestudy->id, 'how_does_it_work');
+        $data['project_objectives'] = $this->CasestudiesModel->getCasestudiesDetailsByIdWithSType($casestudy->id, 'project_objectives');
+        $data['challenges'] = $this->CasestudiesModel->getCasestudiesDetailsByIdWithSType($casestudy->id, 'challenges');
+        $data['solution_implementation'] = $this->CasestudiesModel->getCasestudiesDetailsByIdWithSType($casestudy->id, 'solution_implementation');
+        $data['outcome'] = $this->CasestudiesModel->getCasestudiesDetailsByIdWithSType($casestudy->id, 'outcome');
+        $data['screens'] = $this->CasestudiesModel->getCasestudiesDetailsByIdWithSType($casestudy->id, 'screens');
+        $data['testimonials'] = $this->CasestudiesModel->getCasestudiesTestimonialsByCSId($casestudy->id);
+
+		$this->load->view('front/case_study_details', $data);
 	}
 	public function blogs()
 	{

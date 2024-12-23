@@ -144,7 +144,7 @@
                             <!-- how_does_it_work_title -->
 
                             <div class="form-group col-md-6">
-                                <label for="image">Background Mid Banner Image:</label>
+                                <label for="background_mid_img">Background Mid Banner Image:</label>
                                 <input type="file" class="form-control" name="background_mid_img" id="background_mid_img" required>
                             </div>
                             <div class="form-group col-md-6">
@@ -161,8 +161,16 @@
                                 <input type="text" class="form-control" name="challenges_title" id="challenges_title">
                             </div>
                             <div class="form-group col-md-6">
+                                <label for="challenges_img">Challenges Image:</label>
+                                <input type="file" class="form-control" name="challenges_img" id="challenges_img">
+                            </div>
+                            <div class="form-group col-md-6">
                                 <label for="solution_implementation_title">Solution And Implementation Title:</label>
                                 <input type="text" class="form-control" name="solution_implementation_title" id="solution_implementation_title">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="solution_implementation_img">Solution And Implementation Image:</label>
+                                <input type="file" class="form-control" name="solution_implementation_img" id="solution_implementation_img">
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="outcome_title">Outcome Title:</label>

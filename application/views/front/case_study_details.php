@@ -20,7 +20,7 @@
 
 <?php $this->load->view('front/common/header') ?>
 
-<section class="csd_banner">
+<section class="csd_banner"  style="background: <?php echo $casestudy->background_color; ?>;">
     <div class="container">
         <div class="row align-items-center justify-content-between">
             <div class="col-lg-5 h-100">
@@ -34,20 +34,20 @@
                                 <i class="bi bi-chevron-left"></i>
                             </button>
                             <span class="fs-16 fw-600 ms-3">Case Studies</span>
-                            <h1 class="fs-65 fw-700 my-4">Nurseify</h1>
-                            <h5 class="fs-24 fw-500">Empowering Nurses and Healthcare Facilities with On-Demand Gig Work</h5>
+                            <h1 class="fs-65 fw-700 my-4"><?php echo htmlspecialchars($casestudy->title, ENT_QUOTES, 'UTF-8'); ?></h1>
+                            <h5 class="fs-24 fw-500"><?php echo $casestudy->description; ?></h5>
                             <div class="d-flex align-items-center mt-4">
                                 <span>
                                     <i class="fs-16 bi bi-geo-alt"></i>
                                 </span>
-                                <span class="fs-14 fw-600 ms-3">USA</span>
+                                <span class="fs-14 fw-600 ms-3"><?php echo htmlspecialchars($casestudy->location, ENT_QUOTES, 'UTF-8'); ?></span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-5">
-                <img src="<?=base_url()?>assets/images/case-studies/details/nurseify_banner.webp" alt="nurseify">
+                <img src="<?php echo base_url('assets/images/case_studies/uploads/' . $casestudy->background_top_img); ?>" alt="<?php echo htmlspecialchars($casestudy->title, ENT_QUOTES, 'UTF-8'); ?>">
             </div>
         </div>
     </div>
@@ -66,7 +66,7 @@
                         </span>
                         <div class="text_brand_color1 ms-4">
                             <h5 class="fs-24 fw-600 m-0">Front-end</h5>
-                            <h6 class="fs-16 fw-600 m-0">Kotlin, Swift</h6>
+                            <h6 class="fs-16 fw-600 m-0"><?php echo htmlspecialchars($casestudy->front_end, ENT_QUOTES, 'UTF-8'); ?></h6>
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                         </span>
                         <div class="text_brand_color1 ms-4">
                             <h5 class="fs-24 fw-600 m-0">Back-end</h5>
-                            <h6 class="fs-16 fw-600 m-0"> Node.js, Express</h6>
+                            <h6 class="fs-16 fw-600 m-0"><?php echo htmlspecialchars($casestudy->back_end, ENT_QUOTES, 'UTF-8'); ?></h6>
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
                         </span>
                         <div class="text_brand_color1 ms-4">
                             <h5 class="fs-24 fw-600 m-0">App Type</h5>
-                            <h6 class="fs-16 fw-600 m-0">Web and Mobile Application</h6>
+                            <h6 class="fs-16 fw-600 m-0"><?php echo htmlspecialchars($casestudy->app_application, ENT_QUOTES, 'UTF-8'); ?></h6>
                         </div>
                     </div>
                 </div>
@@ -102,13 +102,13 @@
                 <div class="col-auto">
                     <div>
                         <h4 class="fs-30 fw-700">App Type</h4>
-                        <h5 class="fs-20 fw-500">On-Demand Nurse Staffing Platform</h5>
+                        <h5 class="fs-20 fw-500"><?php echo htmlspecialchars($casestudy->app_application, ENT_QUOTES, 'UTF-8'); ?></h5>
                     </div>
                 </div>
                 <div class="col-auto">
                     <div>
                         <h4 class="fs-30 fw-700">Status</h4>
-                        <h5 class="fs-20 fw-500">Live</h5>
+                        <h5 class="fs-20 fw-500"><?php echo htmlspecialchars($casestudy->app_application, ENT_QUOTES, 'UTF-8'); ?></h5>
                     </div>
                 </div>
                 <div class="col-auto">
@@ -116,21 +116,21 @@
                         <h4 class="fs-30 fw-700">Available Now</h4>
                         <div>
                             
-                            <a href="" class="btn btn_dark_primary btn-rounded px-4">
+                            <a href="<?php echo $casestudy->android_url; ?>" class="btn btn_dark_primary btn-rounded px-4">
                                 <span>
                                     <img height="30" src="<?=base_url()?>assets/images/icons/android.webp" alt="android">
                                 </span>
                                 <span class="fs-20 fw-500">Android</span>
                             </a>
                             
-                            <a href="" class="btn btn_dark_primary btn-rounded px-4">
+                            <a href="<?php echo $casestudy->ios_url; ?>" class="btn btn_dark_primary btn-rounded px-4">
                                 <span>
                                     <img height="30" src="<?=base_url()?>assets/images/icons/ios.webp" alt="IOS">
                                 </span>
                                 <span class="fs-20 fw-500">IOS</span>
                             </a>
                             
-                            <a href="" class="btn btn_dark_primary btn-rounded px-4">
+                            <a href="<?php echo $casestudy->web_url; ?>" class="btn btn_dark_primary btn-rounded px-4">
                                 <span>
                                     <img height="30" src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
                                 </span>
@@ -144,7 +144,7 @@
                 <div class="col-12">
                     <div>
                         <h4 class="fs-30 fw-700">Technologies</h4>
-                        <h5 class="fs-20 fw-500">Mobile App (React Native), Backend (Node.js, Express), Database (PostgreSQL), AI Matching Logic, Cloud Services (AWS), APIs (Stripe or PayPal for payments)</h5>
+                        <h5 class="fs-20 fw-500"><?php echo $casestudy->technologies??''; ?></h5>
                     </div>
                 </div>
             </div>
@@ -152,7 +152,7 @@
                 <div class="col-12">
                     <div>
                         <h4 class="fs-30 fw-700">Client Overview</h4>
-                        <h5 class="fs-20 fw-500">Nurseify is an innovative on-demand platform designed to connect nurses directly with healthcare facilities, enabling a flexible, gig-based approach to nursing work. By allowing nurses to share their experience, availability, and hourly rates, Nurseify empowers healthcare professionals to take control of their careers. Simultaneously, healthcare facilities benefit by bypassing traditional staffing agencies, resulting in more efficient and cost-effective hiring.</h5>
+                        <h5 class="fs-20 fw-500"><?php echo $casestudy->client_overview??''; ?></h5>
                     </div>
                 </div>
             </div>
@@ -165,7 +165,21 @@
                     <h2 class="fs-34 fw-700">How Does It Work?</h2>
                 </div>
             </div>
-            <div class="row my-1 g-3">
+
+            <?php foreach ($how_does_it_work as $hdiw) : ?>
+                <div class="row my-1 g-3">
+                    <div class="col-md-3">
+                        <div class="d-grid">
+                            <a href="" class="btn btn_outline_dark_primary btn-rounded fs-20 fw-600"><?php echo $hdiw->title??''; ?></a>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <p class="fs-20 fw-500 m-0"><?php echo $hdiw->description??''; ?></p>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+                 
+            <!-- <div class="row my-1 g-3">
                 <div class="col-md-3">
                     <div class="d-grid">
                         <a href="" class="btn btn_outline_dark_primary btn-rounded fs-20 fw-600">Registration</a>
@@ -218,7 +232,7 @@
                 <div class="col-md-9">
                     <p class="fs-20 fw-500 m-0">Both parties rate each other post-assignment for trust.</p>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </div>
@@ -226,7 +240,7 @@
 
 <section class="bg-white section_padding">
     <div class="container">
-        <img src="<?=base_url()?>assets/images/case-studies/details/nurseify_2.webp" alt="nurseify">
+        <img src="<?php echo base_url('assets/images/case_studies/uploads/' . $casestudy->background_mid_img); ?>" alt="<?php echo htmlspecialchars($casestudy->title, ENT_QUOTES, 'UTF-8'); ?>">
     </div>
 </section>
 
@@ -234,11 +248,20 @@
     <div class="container">
         <div class="text-center">
             <h2 class="fs-30 fw-600 text_brand_color1">Project Objectives</h2>
-            <h6 class="fs-20 fw-600 text_brand_color1">The main goals of the Nurseify app were to</h6>
+            <h6 class="fs-20 fw-600 text_brand_color1"><?php echo $casestudy->project_objectives_title??'The main goals of the Nurseify app were to'; ?></h6>
         </div>
         
         <div class="row align-items-center justify-content-center g-4 mt-5">
-            <div class="col-lg-6">
+
+            <?php foreach ($project_objectives as $po) : ?>
+                <div class="col-lg-6">
+                    <div class="project_objectives_card">
+                        <h5 class="fs-20 fw-600 text_brand_color1"><?php echo $po->title??''; ?></h5>
+                        <p class="fs-14 fw-500 text_brand_color1"><?php echo $po->description??''; ?></p>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+            <!-- <div class="col-lg-6">
                 <div class="project_objectives_card">
                     <h5 class="fs-20 fw-600 text_brand_color1">Facilitate Direct Connections</h5>
                     <p class="fs-14 fw-500 text_brand_color1">Create a platform that allows healthcare facilities to connect directly with available nurses, eliminating the need for costly and time-consuming agency intermediaries.</p>
@@ -255,7 +278,7 @@
                     <h5 class="fs-20 fw-600 text_brand_color1">Streamline Hiring Processes</h5>
                     <p class="fs-14 fw-500 text_brand_color1">Simplify and speed up the process for healthcare facilities to find and hire qualified nurses on-demand, particularly in times of high need.</p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -268,7 +291,13 @@
                     <h2 class="fs-30 fw-600 text_brand_color1">Challenges</h2>
                 </div>
                 <div class="row g-4 mt-3">
-                    <div class="col-12 ">
+                    <?php foreach ($challenges as $challenge) : ?>
+                        <div class="col-12 ">
+                            <h4 class="fs-20 fw-600 text_brand_color1"><?php echo $challenge->title??''; ?></h4>
+                            <p class="fs-14 fw-500 text_brand_color1"><?php echo $challenge->description??''; ?></p>
+                        </div>
+                    <?php endforeach; ?>
+                    <!-- <div class="col-12 ">
                         <h4 class="fs-20 fw-600 text_brand_color1">User Experience for Two Audiences</h4>
                         <p class="fs-14 fw-500 text_brand_color1">Design an intuitive interface that could cater to the needs of nurses and healthcare facilities, so they are motivated to go through a streamlined experience to post jobs, apply, or communicate.</p>
                     </div>
@@ -279,12 +308,12 @@
                     <div class="col-12">
                         <h4 class="fs-20 fw-600 text_brand_color1">Competitive Market</h4>
                         <p class="fs-14 fw-500 text_brand_color1">Differentiating Nurseify in the sea of gig platforms and healthcare staffing solutions.</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="">
-                    <img src="<?=base_url()?>assets/images/case-studies/details/challenges.webp" alt="nurseify challenges">
+                    <img src="<?php echo base_url('assets/images/case_studies/uploads/' . $casestudy->challenges_img); ?>" alt="<?php echo $casestudy->challenges_title??'Challenges'; ?>">
                 </div>
             </div>
         </div>
@@ -297,17 +326,23 @@
         <div class="row align-items-center justify-content-center g-4">
             <div class="12">
                 <h2 class="fs-30 fw-600 text_brand_color1">Solution & Implementation</h2>
-                <h6 class="fs-20 fw-600 text_brand_color1">To meet these objectives and overcome challenges, we developed the Nurseify platform with key features that included</h6>
+                <h6 class="fs-20 fw-600 text_brand_color1"><?php echo $casestudy->solution_implementation_title??'To meet these objectives and overcome challenges, we developed the Nurseify platform with key features that included'; ?></h6>
             </div>
             <div class="col-lg-6">
                 <div class="">
-                    <img src="<?=base_url()?>assets/images/case-studies/details/nurseify_solution_implementation.webp" alt="nurseify Solution & Implementation">
+                    <img src="<?php echo base_url('assets/images/case_studies/uploads/' . $casestudy->solution_implementation_img); ?>" alt="<?php echo $casestudy->solution_implementation_title??'Solution & Implementation'; ?>">
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="bg-white b_rds_20 p-4">
                     <div class="row g-4">
-                        <div class="col-12 ">
+                        <?php foreach ($solution_implementation as $solution_imp) : ?>
+                            <div class="col-12 ">
+                                <h4 class="fs-20 fw-600 text_brand_color1"><?php echo $solution_imp->title??''; ?></h4>
+                                <p class="fs-14 fw-500 text_brand_color1"><?php echo $solution_imp->description??''; ?></p>
+                            </div>
+                        <?php endforeach; ?>
+                        <!-- <div class="col-12 ">
                             <h4 class="fs-20 fw-600 text_brand_color1">Nurse Profiles & Ratings</h4>
                             <p class="fs-14 fw-500 text_brand_color1"> Nurses can maintain rich profiles that emphasize experience, certifications, and availability.</p>
                         </div>
@@ -322,7 +357,7 @@
                         <div class="col-12">
                             <h4 class="fs-20 fw-600 text_brand_color1">Securing Messaging and Transactions</h4>
                             <p class="fs-14 fw-500 text_brand_color1">The secure messaging and payment processing on the platform ensure safe and transparent transactions and communications.</p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -334,11 +369,19 @@
     <div class="container">
         <div class="text-center">
             <h2 class="fs-30 fw-600 text_brand_color1">Outcome</h2>
-            <h6 class="fs-20 fw-600 text_brand_color1">Since its launch, Nurseify has achieved the following Nurseify app were to</h6>
+            <h6 class="fs-20 fw-600 text_brand_color1"><?php echo $casestudy->solution_implementation_title??'Since its launch, Nurseify has achieved the following Nurseify app were to'; ?></h6>
         </div>
         
         <div class="row align-items-center justify-content-center g-4 mt-5">
-            <div class="col-lg-6">
+            <?php foreach ($outcome as $outc) : ?>
+                <div class="col-lg-6">
+                    <div class="project_objectives_card">
+                        <h5 class="fs-20 fw-600 text_brand_color1"><?php echo $outc->title??''; ?></h5>
+                        <p class="fs-14 fw-500 text_brand_color1"><?php echo $outc->description??''; ?></p>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+            <!-- <div class="col-lg-6">
                 <div class="project_objectives_card">
                     <h5 class="fs-20 fw-600 text_brand_color1">Increased Autonomy for Nurses</h5>
                     <p class="fs-14 fw-500 text_brand_color1">The nurses had greater control over shift and pay, and most of the nurses felt that the flexibility of this application was very helpful.</p>
@@ -355,7 +398,7 @@
                     <h5 class="fs-20 fw-600 text_brand_color1">Good Market Acceptance</h5>
                     <p class="fs-14 fw-500 text_brand_color1">The ease of use of the application and value to the users by both the nurses and the health care facilities have been well appreciated.</p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -363,7 +406,12 @@
 <section class="section_padding case_study_mob_slider_bg">
     <div class="container-fluid">
         <div class="owl-carousel owl-theme case_study_mob_slider">
-            <div class="item">
+            <?php foreach ($screens as $screen) : ?>
+                <div class="item">
+                    <img src="<?php echo base_url('assets/images/case_studies/uploads/' . $screen->img); ?>" alt="<?php echo htmlspecialchars($screen->title, ENT_QUOTES, 'UTF-8'); ?>">
+                </div>
+            <?php endforeach; ?>
+            <!-- <div class="item">
                 <img src="<?=base_url()?>assets/images/case-studies/details/nurseify_mob1.webp" alt="nurseify">
             </div>
             <div class="item">
@@ -392,7 +440,7 @@
             </div>
             <div class="item">
                 <img src="<?=base_url()?>assets/images/case-studies/details/nurseify_mob5.webp" alt="nurseify">
-            </div>
+            </div> -->
         </div>
     </div>
 </section>

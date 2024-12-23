@@ -4096,3 +4096,100 @@ INFO - 2024-12-21 09:01:49 --> Form Validation Class Initialized
 INFO - 2024-12-21 09:01:49 --> Language file loaded: language/english/form_validation_lang.php
 INFO - 2024-12-21 09:01:49 --> Final output sent to browser
 DEBUG - 2024-12-21 09:01:49 --> Total execution time: 0.1105
+INFO - 2024-12-21 19:44:34 --> Config Class Initialized
+INFO - 2024-12-21 19:44:34 --> Hooks Class Initialized
+DEBUG - 2024-12-21 19:44:34 --> UTF-8 Support Enabled
+INFO - 2024-12-21 19:44:34 --> Utf8 Class Initialized
+INFO - 2024-12-21 19:44:34 --> URI Class Initialized
+INFO - 2024-12-21 19:44:34 --> Router Class Initialized
+INFO - 2024-12-21 19:44:34 --> Output Class Initialized
+INFO - 2024-12-21 19:44:34 --> Security Class Initialized
+DEBUG - 2024-12-21 19:44:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-21 19:44:34 --> Input Class Initialized
+INFO - 2024-12-21 19:44:34 --> Language Class Initialized
+INFO - 2024-12-21 19:44:34 --> Loader Class Initialized
+INFO - 2024-12-21 19:44:34 --> Helper loaded: url_helper
+INFO - 2024-12-21 19:44:34 --> Database Driver Class Initialized
+DEBUG - 2024-12-21 19:44:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-21 19:44:34 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-21 19:44:34 --> Controller Class Initialized
+INFO - 2024-12-21 19:44:34 --> Helper loaded: form_helper
+INFO - 2024-12-21 19:44:34 --> Helper loaded: auth_helper
+INFO - 2024-12-21 19:44:34 --> Model "BlogModel" initialized
+INFO - 2024-12-21 19:44:34 --> Model "SponsorModel" initialized
+INFO - 2024-12-21 19:44:34 --> Model "User" initialized
+INFO - 2024-12-21 19:44:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-21 19:44:34 --> Pagination Class Initialized
+INFO - 2024-12-21 19:44:34 --> Form Validation Class Initialized
+INFO - 2024-12-21 19:44:34 --> Config Class Initialized
+INFO - 2024-12-21 19:44:34 --> Hooks Class Initialized
+DEBUG - 2024-12-21 19:44:34 --> UTF-8 Support Enabled
+INFO - 2024-12-21 19:44:34 --> Utf8 Class Initialized
+INFO - 2024-12-21 19:44:34 --> URI Class Initialized
+INFO - 2024-12-21 19:44:34 --> Router Class Initialized
+INFO - 2024-12-21 19:44:34 --> Output Class Initialized
+INFO - 2024-12-21 19:44:34 --> Security Class Initialized
+DEBUG - 2024-12-21 19:44:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-21 19:44:34 --> Input Class Initialized
+INFO - 2024-12-21 19:44:34 --> Language Class Initialized
+INFO - 2024-12-21 19:44:34 --> Loader Class Initialized
+INFO - 2024-12-21 19:44:34 --> Helper loaded: url_helper
+INFO - 2024-12-21 19:44:35 --> Database Driver Class Initialized
+DEBUG - 2024-12-21 19:44:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-21 19:44:35 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-21 19:44:35 --> Controller Class Initialized
+INFO - 2024-12-21 19:44:35 --> Helper loaded: form_helper
+INFO - 2024-12-21 19:44:35 --> Helper loaded: auth_helper
+DEBUG - 2024-12-21 19:44:35 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-21 19:44:35 --> Form Validation Class Initialized
+INFO - 2024-12-21 19:44:35 --> Model "User" initialized
+INFO - 2024-12-21 19:44:35 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/header.php
+INFO - 2024-12-21 19:44:35 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\auth/login.php
+INFO - 2024-12-21 19:44:35 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/footer.php
+INFO - 2024-12-21 19:44:35 --> Final output sent to browser
+DEBUG - 2024-12-21 19:44:35 --> Total execution time: 0.1717
+INFO - 2024-12-21 19:44:50 --> Config Class Initialized
+INFO - 2024-12-21 19:44:50 --> Hooks Class Initialized
+DEBUG - 2024-12-21 19:44:50 --> UTF-8 Support Enabled
+INFO - 2024-12-21 19:44:50 --> Utf8 Class Initialized
+INFO - 2024-12-21 19:44:50 --> URI Class Initialized
+INFO - 2024-12-21 19:44:50 --> Router Class Initialized
+INFO - 2024-12-21 19:44:50 --> Output Class Initialized
+INFO - 2024-12-21 19:44:50 --> Security Class Initialized
+DEBUG - 2024-12-21 19:44:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-21 19:44:50 --> Input Class Initialized
+INFO - 2024-12-21 19:44:50 --> Language Class Initialized
+INFO - 2024-12-21 19:44:50 --> Loader Class Initialized
+INFO - 2024-12-21 19:44:50 --> Helper loaded: url_helper
+INFO - 2024-12-21 19:44:50 --> Database Driver Class Initialized
+DEBUG - 2024-12-21 19:44:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-21 19:44:50 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-21 19:44:50 --> Controller Class Initialized
+INFO - 2024-12-21 19:44:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2024-12-21 19:44:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2024-12-21 19:44:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/testimonials.php
+INFO - 2024-12-21 19:44:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2024-12-21 19:44:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-21 19:44:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2024-12-21 19:44:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-21 19:44:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2024-12-21 19:44:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2024-12-21 19:44:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2024-12-21 19:44:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2024-12-21 19:44:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2024-12-21 19:44:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2024-12-21 19:44:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/case_study_details.php
+INFO - 2024-12-21 19:44:50 --> Final output sent to browser
+DEBUG - 2024-12-21 19:44:50 --> Total execution time: 0.2924
+INFO - 2024-12-21 19:44:54 --> Config Class Initialized
+INFO - 2024-12-21 19:44:54 --> Hooks Class Initialized
+DEBUG - 2024-12-21 19:44:54 --> UTF-8 Support Enabled
+INFO - 2024-12-21 19:44:54 --> Utf8 Class Initialized
+INFO - 2024-12-21 19:44:54 --> URI Class Initialized
+INFO - 2024-12-21 19:44:54 --> Router Class Initialized
+INFO - 2024-12-21 19:44:54 --> Output Class Initialized
+INFO - 2024-12-21 19:44:54 --> Security Class Initialized
+DEBUG - 2024-12-21 19:44:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-21 19:44:54 --> Input Class Initialized
+INFO - 2024-12-21 19:44:54 --> Language Class Initialized
+ERROR - 2024-12-21 19:44:54 --> 404 Page Not Found: Assets/css
