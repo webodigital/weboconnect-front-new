@@ -37,8 +37,8 @@
                     <ul class="links">
                       <li><a href="<?=base_url()?>about">About Us</a></li>
                       <li><a href="<?=base_url()?>our-team">Our Team</a></li>
-                      <li><a href="<?=base_url()?>blogs">Blogs</a></li>
                       <li><a href="<?=base_url()?>contact">Contact Us</a></li>
+                      <li><a target="_blank" href="https://bihar.weboconnect.com/">Startup Bihar</a></li>
                     </ul>
                   </div>
                 </div>
@@ -47,9 +47,9 @@
                     <h4>Insights</h4>
                     <ul class="links">
                       <li><a href="<?=base_url()?>portfolio">Portfolio</a></li>
-                      <li><a href="<?=base_url()?>contact"> Contact Us</a></li>
+                      <li><a href="<?=base_url()?>case-studies">Case Studies</a></li>
                       <li><a href="<?=base_url()?>testimonials">Testimonials</a></li>
-                      <li><a target="_blank" href="https://bihar.weboconnect.com/">Startup Bihar</a></li>
+                      <li><a href="<?=base_url()?>blogs">Blogs</a></li>
                     </ul>
                   </div>
                 </div>
