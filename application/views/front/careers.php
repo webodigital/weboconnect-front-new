@@ -21,9 +21,16 @@
     <div class="container">
         <div class="row justify-content-between align-items-center g-4">
             <div class="col-md-7">
-                <h1 class="fs-30 fw-600 text-white m-0">Join Our Dynamic Team at Weboconnect</h1>
-                <h6 class="fs-18 fw-500 text-white my-4">Transform your career with Nimble AppGenie. We are a leading app development company seeking passionate individuals to join our innovative team. Grow your skills and make an impact in the tech industry.</h6>
-                <button class="btn btn-light btn-rounded px-5 mt-2" data-bs-toggle="modal" data-bs-target="#apply_new_modal">Explore Opportunities</button>
+                <h1 class="fs-30 fw-600 text-white m-0">Grow Your Career at WebOConnect</h1>
+                <div class="my-4">
+                  <h4 class="fs-18 fw-600 text-white">Join the Leaders in Creative Excellence</h4>
+                  <h6 class="fs-18 fw-500 text-white">WebOConnect is a leading app development company, and we are constantly looking for passionate individuals to join our ever-expanding team. By joining us, you’ll have the chance to work on exciting projects, grow your skill set, and make an impact in the rapidly evolving tech industry.</h6>
+                </div>
+                <div class="my-4">
+                  <h4 class="fs-18 fw-600 text-white">Why Choose WebOConnect?</h4>
+                  <h6 class="fs-18 fw-500 text-white">Our team is what makes us stand out. With a culture of innovation, continuous learning, and growth, we provide the ideal environment for you to flourish in your career while contributing to innovative solutions.</h6>
+                </div>
+                <button class="btn btn-light btn-rounded px-5 mt-2" data-bs-toggle="modal" data-bs-target="#apply_now_modal">Explore Opportunities</button>
             </div>
         </div>
     </div>
@@ -95,7 +102,7 @@
                           </div>
 
                           <div class="col-12 mt-4">
-                            <button class="btn btn-outline-primary btn-rounded px-5" data-bs-toggle="modal" data-bs-target="#apply_new_modal">Apply</button>
+                            <button class="btn btn-outline-primary btn-rounded px-5" data-bs-toggle="modal" data-bs-target="#apply_now_modal">Apply</button>
                           </div>
                         </div>
                         
@@ -162,7 +169,7 @@
                           </div>
 
                           <div class="col-12 mt-4">
-                            <button class="btn btn-outline-primary btn-rounded px-5" data-bs-toggle="modal" data-bs-target="#apply_new_modal">Apply</button>
+                            <button class="btn btn-outline-primary btn-rounded px-5" data-bs-toggle="modal" data-bs-target="#apply_now_modal">Apply</button>
                           </div>
                         </div>
                         
@@ -232,7 +239,7 @@
                           </div>
 
                           <div class="col-12 mt-4">
-                          <button class="btn btn-outline-primary btn-rounded px-5" data-bs-toggle="modal" data-bs-target="#apply_new_modal">Apply</button>
+                          <button class="btn btn-outline-primary btn-rounded px-5" data-bs-toggle="modal" data-bs-target="#apply_now_modal">Apply</button>
                           </div>
                         </div>
                         

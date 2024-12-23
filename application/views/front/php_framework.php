@@ -148,7 +148,7 @@
                 </div>
             </div>
         </div>
-        <div class="row align-items-center g-4 mt-4">
+        <div class="row g-4 mt-4">
             <div class="col-6 col-md-4">
                 <div class="innovation_with_enterprise_card">
                     <h4 class="fs-20 fw-700">Tailored PHP Framework Solutions</h4>
@@ -180,7 +180,7 @@
                     <h5 class="fs-14 fw-500">Our dedicated team offers comprehensive support and maintenance services.</h5>
                 </div>
             </div> -->
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-4 align-self-center">
                 <div class="d-grid">
                     <a href="<?=base_url()?>contact" class="btn btn-md btn-rounded btn-primary">Contact Us</a>
                 </div>

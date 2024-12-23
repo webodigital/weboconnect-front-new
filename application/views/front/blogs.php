@@ -22,21 +22,28 @@
             <h1 class="fs-34 fw-600 text_brand_color1">Our Blogs</h1>
         </div>
     </div>
-    <div class="container d-none">
-        <div class="blogs_filter_buttons">
+    <div class="container">
+        <div class="overflow_x_auto">
+        <div class="scroll_horizontal_both_screen blogs_filter_buttons">
             <button class="btn btn-light slides_btn active" onclick="filterBlog('all')">All</button>
-            <button class="btn btn-light slides_btn" onclick="filterBlog('development')">Development</button>
-            <button class="btn btn-light slides_btn" onclick="filterBlog('web_security')">WEB SECURITY</button>
-            <button class="btn btn-light slides_btn" onclick="filterBlog('implementation')">IMPLEMENTATION</button>
-            <button class="btn btn-light slides_btn" onclick="filterBlog('user_friendly')">USER-FRIENDLY INTERFACE</button>
-            <button class="btn btn-light slides_btn" onclick="filterBlog('travel')">TRAVEL</button>
+            <button class="btn btn-light slides_btn" onclick="filterBlog('emerging_tech_trends')">Emerging Tech & Trends</button>
+            <button class="btn btn-light slides_btn" onclick="filterBlog('solutions_best_practices')">Solutions & Best Practices</button>
+            <button class="btn btn-light slides_btn" onclick="filterBlog('cybersecurity')">Cybersecurity</button>
+            <button class="btn btn-light slides_btn" onclick="filterBlog('tech_specific_industries')">Tech for Specific Industries</button>
+            <button class="btn btn-light slides_btn" onclick="filterBlog('thought_leadership_innovation')">Thought Leadership & Innovation</button>
+            <button class="btn btn-light slides_btn" onclick="filterBlog('educational')">Educational</button>
+            <button class="btn btn-light slides_btn" onclick="filterBlog('hire_dedicated_resources')">Hire Dedicated Resources</button>
+            <button class="btn btn-light slides_btn" onclick="filterBlog('app_development')">App Development</button>
+            <button class="btn btn-light slides_btn" onclick="filterBlog('web_development')">Web Development</button>
+            <button class="btn btn-light slides_btn" onclick="filterBlog('language_based_apps')">Language-Based Apps</button>
         </div>
+    </div>
     </div>
     <div class="container mt-5">
         <div class="row g-4">
 
             <?php foreach ($blogs as $blog) : ?>
-            <div class="col-lg-4 col-sm-6 blogs_item" data-category="development">
+            <div class="col-lg-4 col-sm-6 blogs_item" data-category="emerging_tech_trends">
                 <div class="blogs_card">
                     <img class="w-100" src="<?php echo base_url('assets/images/blogs/uploads/thumbnails/' . $blog->thumbnail); ?>" alt="<?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?>" />
                     <div class="blogs_card_content">
@@ -53,7 +60,7 @@
                 <?php echo $pagination; ?>
             </div>
 
-            <!-- <div class="col-lg-4 col-sm-6 blogs_item" data-category="development">
+            <!-- <div class="col-lg-4 col-sm-6 blogs_item" data-category="emerging_tech_trends">
                 <div class="blogs_card">
                     <img class="w-100" src="<?= base_url() ?>assets/images/blogs/blogs_img1.webp" alt="blogs images" />
                     <div class="blogs_card_content">
@@ -65,7 +72,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 blogs_item" data-category="web_security">
+            <div class="col-lg-4 col-sm-6 blogs_item" data-category="solutions_best_practices">
                 <div class="blogs_card">
                     <img class="w-100" src="<?= base_url() ?>assets/images/blogs/blogs_img2.webp" alt="blogs images" />
                     <div class="blogs_card_content">
@@ -77,7 +84,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 blogs_item" data-category="implementation">
+            <div class="col-lg-4 col-sm-6 blogs_item" data-category="cybersecurity">
                 <div class="blogs_card">
                     <img class="w-100" src="<?= base_url() ?>assets/images/blogs/blogs_img3.webp" alt="blogs images" />
                     <div class="blogs_card_content">
@@ -90,19 +97,19 @@
                 </div>
             </div>
             
-            <div class="col-lg-4 col-sm-6 blogs_item" data-category="user_friendly">
+            <div class="col-lg-4 col-sm-6 blogs_item" data-category="tech_specific_industries">
                 <div class="blogs_card">
                     <img class="w-100" src="<?= base_url() ?>assets/images/blogs/blogs_img4.webp" alt="blogs images" />
                     <div class="blogs_card_content">
                         <small class="fs-12 fw-400">03 oct 2024</small>
                         <h4 class="fs-18 fw-600">The Role of APIs in Modern Web
-                        Development</h4>
-                        <p class="fs-14 fw-400">Applications make today&#39;s world of modern web development more interconnected than ever before. Due to the presence of APIs in web.....</p>
+                        emerging_tech_trends</h4>
+                        <p class="fs-14 fw-400">Applications make today&#39;s world of modern web emerging_tech_trends more interconnected than ever before. Due to the presence of APIs in web.....</p>
                         <a class="fs-14 fw-500" href="<?= base_url() ?>blog-details">Read More</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 blogs_item" data-category="implementation">
+            <div class="col-lg-4 col-sm-6 blogs_item" data-category="cybersecurity">
                 <div class="blogs_card">
                     <img class="w-100" src="<?= base_url() ?>assets/images/blogs/blogs_img5.webp" alt="blogs images" />
                     <div class="blogs_card_content">
@@ -114,44 +121,44 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 blogs_item" data-category="travel">
+            <div class="col-lg-4 col-sm-6 blogs_item" data-category="thought_leadership_innovation">
                 <div class="blogs_card">
                     <img class="w-100" src="<?= base_url() ?>assets/images/blogs/blogs_img6.webp" alt="blogs images" />
                     <div class="blogs_card_content">
                         <small class="fs-12 fw-400">21 oct 2024</small>
                         <h4 class="fs-18 fw-600">Top 5 Programming Languages
-                        for Web Development in 2024</h4>
-                        <p class="fs-14 fw-400">As we enter into 2024, web development trends change very rapidly; therefore, when it comes to the choice of a programming language, it will...</p>
+                        for Web emerging_tech_trends in 2024</h4>
+                        <p class="fs-14 fw-400">As we enter into 2024, web emerging_tech_trends trends change very rapidly; therefore, when it comes to the choice of a programming language, it will...</p>
                         <a class="fs-14 fw-500" href="<?= base_url() ?>blog-details">Read More</a>
                     </div>
                 </div>
             </div>
             
-            <div class="col-lg-4 col-sm-6 blogs_item" data-category="development">
+            <div class="col-lg-4 col-sm-6 blogs_item" data-category="emerging_tech_trends">
                 <div class="blogs_card">
                     <img class="w-100" src="<?= base_url() ?>assets/images/blogs/blogs_img7.webp" alt="blogs images" />
                     <div class="blogs_card_content">
                         <small class="fs-12 fw-400">21 oct 2024</small>
                         <h4 class="fs-18 fw-600">The Future of AI in Mobile App
-                        Development</h4>
-                        <p class="fs-14 fw-400">The advancement of Al in the mobile app development field is still in its growing stage which is rapidly changing the way of our...</p>
+                        emerging_tech_trends</h4>
+                        <p class="fs-14 fw-400">The advancement of Al in the mobile app emerging_tech_trends field is still in its growing stage which is rapidly changing the way of our...</p>
                         <a class="fs-14 fw-500" href="<?= base_url() ?>blog-details">Read More</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 blogs_item" data-category="user_friendly">
+            <div class="col-lg-4 col-sm-6 blogs_item" data-category="tech_specific_industries">
                 <div class="blogs_card">
                     <img class="w-100" src="<?= base_url() ?>assets/images/blogs/blogs_img8.webp" alt="blogs images" />
                     <div class="blogs_card_content">
                         <small class="fs-12 fw-400">04 oct 2024</small>
-                        <h4 class="fs-18 fw-600">Top 10 Mobile App Development
+                        <h4 class="fs-18 fw-600">Top 10 Mobile App emerging_tech_trends
                         Trends In 2024</h4>
-                        <p class="fs-14 fw-400">The world of mobile app development for phones is ever-changing at a rapid pace, driven by new tech and what people want. As we approach...</p>
+                        <p class="fs-14 fw-400">The world of mobile app emerging_tech_trends for phones is ever-changing at a rapid pace, driven by new tech and what people want. As we approach...</p>
                         <a class="fs-14 fw-500" href="<?= base_url() ?>blog-details">Read More</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 blogs_item" data-category="web_security">
+            <div class="col-lg-4 col-sm-6 blogs_item" data-category="solutions_best_practices">
                 <div class="blogs_card">
                     <img class="w-100" src="<?= base_url() ?>assets/images/blogs/blogs_img9.webp" alt="blogs images" />
                     <div class="blogs_card_content">
@@ -212,8 +219,8 @@
                     <div class="blogs_card_content">
                         <small class="fs-12 fw-400">03 oct 2024</small>
                         <h4 class="fs-18 fw-600">The Role of APIs in Modern Web
-                        Development</h4>
-                        <p class="fs-14 fw-400">Applications make today&#39;s world of modern web development more interconnected than ever before. Due to the presence of APIs in web.....</p>
+                        emerging_tech_trends</h4>
+                        <p class="fs-14 fw-400">Applications make today&#39;s world of modern web emerging_tech_trends more interconnected than ever before. Due to the presence of APIs in web.....</p>
                         <a class="fs-14 fw-500" href="<?= base_url() ?>blog-details">Read More</a>
                     </div>
                 </div>
@@ -224,8 +231,8 @@
                     <div class="blogs_card_content">
                         <small class="fs-12 fw-400">21 oct 2024</small>
                         <h4 class="fs-18 fw-600">Top 5 Programming Languages
-                        for Web Development in 2024</h4>
-                        <p class="fs-14 fw-400">As we enter into 2024, web development trends change very rapidly; therefore, when it comes to the choice of a programming language, it will...</p>
+                        for Web emerging_tech_trends in 2024</h4>
+                        <p class="fs-14 fw-400">As we enter into 2024, web emerging_tech_trends trends change very rapidly; therefore, when it comes to the choice of a programming language, it will...</p>
                         <a class="fs-14 fw-500" href="<?= base_url() ?>blog-details">Read More</a>
                     </div>
                 </div>

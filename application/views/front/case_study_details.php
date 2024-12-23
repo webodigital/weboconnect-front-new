@@ -101,19 +101,19 @@
             <div class="row justify-content-between align-items-center my-3">
                 <div class="col-auto">
                     <div>
-                        <h4 class="fs-30 fw-700">App Type</h4>
-                        <h5 class="fs-20 fw-500">On-Demand Nurse Staffing Platform</h5>
+                        <h4 class="fs-34 fw-600">App Type</h4>
+                        <h5 class="fs-24 fw-500">On-Demand Nurse Staffing Platform</h5>
                     </div>
                 </div>
                 <div class="col-auto">
                     <div>
-                        <h4 class="fs-30 fw-700">Status</h4>
-                        <h5 class="fs-20 fw-500">Live</h5>
+                        <h4 class="fs-34 fw-600">Status</h4>
+                        <h5 class="fs-24 fw-500">Live</h5>
                     </div>
                 </div>
                 <div class="col-auto">
                     <div>
-                        <h4 class="fs-30 fw-700">Available Now</h4>
+                        <h4 class="fs-34 fw-600">Available Now</h4>
                         <div>
                             
                             <a href="" class="btn btn_dark_primary btn-rounded px-4">
@@ -143,7 +143,7 @@
             <div class="row justify-content-between align-items-center my-3">
                 <div class="col-12">
                     <div>
-                        <h4 class="fs-30 fw-700">Technologies</h4>
+                        <h4 class="fs-34 fw-600">Technologies</h4>
                         <h5 class="fs-20 fw-500">Mobile App (React Native), Backend (Node.js, Express), Database (PostgreSQL), AI Matching Logic, Cloud Services (AWS), APIs (Stripe or PayPal for payments)</h5>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
             <div class="row justify-content-between align-items-center my-3">
                 <div class="col-12">
                     <div>
-                        <h4 class="fs-30 fw-700">Client Overview</h4>
+                        <h4 class="fs-34 fw-600">Client Overview</h4>
                         <h5 class="fs-20 fw-500">Nurseify is an innovative on-demand platform designed to connect nurses directly with healthcare facilities, enabling a flexible, gig-based approach to nursing work. By allowing nurses to share their experience, availability, and hourly rates, Nurseify empowers healthcare professionals to take control of their careers. Simultaneously, healthcare facilities benefit by bypassing traditional staffing agencies, resulting in more efficient and cost-effective hiring.</h5>
                     </div>
                 </div>
@@ -162,10 +162,10 @@
         <div class="bg-white how_does_work p-lg-5 p-sm-4">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="fs-34 fw-700">How Does It Work?</h2>
+                    <h2 class="fs-34 fw-600">How Does It Work?</h2>
                 </div>
             </div>
-            <div class="row my-1 g-3">
+            <div class="row align-items-center my-1 g-3">
                 <div class="col-md-3">
                     <div class="d-grid">
                         <a href="" class="btn btn_outline_dark_primary btn-rounded fs-20 fw-600">Registration</a>
@@ -176,7 +176,7 @@
                 </div>
             </div>
 
-            <div class="row my-1 g-3">
+            <div class="row align-items-center my-1 g-3">
                 <div class="col-md-3">
                     <div class="d-grid">
                         <a href="" class="btn btn_outline_dark_primary btn-rounded fs-20 fw-600">Job Requests</a>
@@ -187,7 +187,7 @@
                 </div>
             </div>
 
-            <div class="row my-1 g-3">
+            <div class="row align-items-center my-1 g-3">
                 <div class="col-md-3">
                     <div class="d-grid">
                         <a href="" class="btn btn_outline_dark_primary btn-rounded fs-20 fw-600">AI Matching</a>
@@ -198,7 +198,7 @@
                 </div>
             </div>
 
-            <div class="row my-1 g-3">
+            <div class="row align-items-center my-1 g-3">
                 <div class="col-md-3">
                     <div class="d-grid">
                         <a href="" class="btn btn_outline_dark_primary btn-rounded fs-20 fw-600">Booking & Payment</a>
@@ -209,7 +209,7 @@
                 </div>
             </div>
 
-            <div class="row my-1 g-3">
+            <div class="row align-items-center my-1 g-3">
                 <div class="col-md-3">
                     <div class="d-grid">
                         <a href="" class="btn btn_outline_dark_primary btn-rounded fs-20 fw-600">Reviews</a>
@@ -237,7 +237,7 @@
             <h6 class="fs-20 fw-600 text_brand_color1">The main goals of the Nurseify app were to</h6>
         </div>
         
-        <div class="row align-items-center justify-content-center g-4 mt-5">
+        <div class="row justify-content-center g-4 g-lg-5 mt-5">
             <div class="col-lg-6">
                 <div class="project_objectives_card">
                     <h5 class="fs-20 fw-600 text_brand_color1">Facilitate Direct Connections</h5>

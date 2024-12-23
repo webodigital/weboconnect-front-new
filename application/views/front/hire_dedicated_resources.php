@@ -422,40 +422,40 @@
             <div class="col-6 col-lg-3">
                 <div class="sphdd_card">
                     <div class="d-flex align-items-end justify-content-between">
-                        <span class="fs-14 fw-600">Consultation Phase</span>
+                        <span class="fs-15 fw-600">Consultation Phase</span>
                         <strong class="fs-60 fw-700">1</strong>
                     </div>
-                    <p>Discuss your ideas, project requirements, and goals to set the right foundation.</p>
+                    <p class="fs-12 fw-400">Discuss your ideas, project requirements, and goals to set the right foundation.</p>
                 </div>
             </div>
 
             <div class="col-6 col-lg-3">
                 <div class="sphdd_card">
                     <div class="d-flex align-items-end justify-content-between">
-                        <span class="fs-14 fw-600">Expert Selection</span>
+                        <span class="fs-15 fw-600">Expert Selection</span>
                         <strong class="fs-60 fw-700">2</strong>
                     </div>
-                    <p>Browse and select from our highly skilled, pre-vetted talent pool.</p>
+                    <p class="fs-12 fw-400">Browse and select from our highly skilled, pre-vetted talent pool.</p>
                 </div>
             </div>
 
             <div class="col-6 col-lg-3">
                 <div class="sphdd_card">
                     <div class="d-flex align-items-end justify-content-between">
-                        <span class="fs-14 fw-600">Smooth Onboarding</span>
+                        <span class="fs-15 fw-600">Smooth Onboarding</span>
                         <strong class="fs-60 fw-700">3</strong>
                     </div>
-                    <p>Integrate developers into your team with efficient onboarding and communication.</p>
+                    <p class="fs-12 fw-400">Integrate developers into your team with efficient onboarding and communication.</p>
                 </div>
             </div>
 
             <div class="col-6 col-lg-3">
                 <div class="sphdd_card">
                     <div class="d-flex align-items-end justify-content-between">
-                        <span class="fs-14 fw-600">Support & Engagement</span>
+                        <span class="fs-15 fw-600">Support & Engagement</span>
                         <strong class="fs-60 fw-700">4</strong>
                     </div>
-                    <p>Stay ahead with ongoing collaboration, guidance, and project support.</p>
+                    <p class="fs-12 fw-400">Stay ahead with ongoing collaboration, guidance, and project support.</p>
                 </div>
             </div>
 
