@@ -23,13 +23,13 @@
         <div class="row">
             <div class="col-lg-6">
                 <h1 class="fs-30 fw-600 text-white mb-4">White Label Partnership</h1>
-                <h6 class="fs-18 fw-500 text-white mb-4">Want to move ahead with your IT business without spending on technical set up? Then, our White Label Partnership is for you.</h6>
-                <h6 class="fs-18 fw-500 text-white mb-4">We come up with an amazing idea that collaborates your branding and our proven technology and team in the same wing. Get everything you need to run your own profitable software business from technical support to development team in a jaw-dropping cost. Sell skillfully developed products under your name and enjoy the benefits.</h6>
+                <h6 class="fs-18 fw-500 text-white mb-4">Want to run a profitable IT business without the technical setup? Our White Label Partnership program makes it possible.</h6>
+                <h6 class="fs-18 fw-500 text-white mb-4">With our seamless technology integration, you can quickly bring branded solutions to market. We handle the technical aspects, while you focus on growing your business. Take advantage of our expertise to offer high-performance products, all while reducing development costs.</h6>
             </div>
         </div>
         <div class="row mt-4">
             <div class="col-lg-2 col-md-3 d-grid">
-                <a href="<?=base_url()?>case-studies" class="btn btn-md btn-light btn-rounded">View Case studies</a>
+                <a href="<?=base_url()?>case-studies" class="btn btn-md btn-light btn-rounded">View Case Studies</a>
             </div>
         </div>
     </div>
@@ -43,12 +43,12 @@
             </div>
             <div class="col-lg-6">
                 <div class="b_rds_15 bg-white p-3">
-                    <h3 class="fs-26 fw-700">How does this partnership move ahead ?</h3>
+                    <h3 class="fs-26 fw-700">How Will WebOConnect Support You Every Step of the Way?</h3>
                     <ul>
-                        <li class="fs-18 fw-500">After discussion and mutual agreement, we will sign an Agreement or NDA.</li>
-                        <li class="fs-18 fw-500">We will get back to you with our portfolio, team, expertise, presentation, demo, documentation & proposal under your brand name.</li>
-                        <li class="fs-18 fw-500">As soon as you get a client and you settle on a certain price with them, we finalize price and payment terms with you.</li>
-                        <li class="fs-18 fw-500">We will then start developing and deliver it as per the deal with your client.</li>
+                        <li class="fs-18 fw-500">We initiate with an in-depth consultation and agreement, followed by the signing of an NDA to protect your proprietary information.</li>
+                        <li class="fs-18 fw-500">Once the groundwork is set, we present our portfolio, team, and a customized proposal aligned with your brand identity.</li>
+                        <li class="fs-18 fw-500">After you agree on the pricing and terms with your client, we finalize the contractual details with you.</li>
+                        <li class="fs-18 fw-500">With everything in place, we start the development, ensuring timely delivery as per the established agreement with your client.</li>
                     </ul>
                 </div>
             </div>
@@ -65,9 +65,9 @@
         <div class="row align-items-center">
             <div class="col-lg-8">
                 <div class="text-center text-md-start">
-                    <h3 class="fs-24 fw-700 text-white">Let's Build Your Next Project Together</h3>
-                    <h6 class="fs-18 fw-500 text-white">Ready to take your web development to the next level?</h6>
-                    <h6 class="fs-18 fw-500 text-white">Contact us today to discuss your PHP development requirements.</h6>
+                    <h3 class="fs-24 fw-700 text-white">Supercharge Your Business with Our White Label Expertise</h3>
+                    <h6 class="fs-18 fw-500 text-white">Looking to level up without the overhead?</h6>
+                    <h6 class="fs-18 fw-500 text-white">Our White Label solutions bring the tech expertise to fuel your brand’s success, helping you offer top-tier services under your name. Reach out today and start driving results faster!</h6>
                     <a href="<?= base_url() ?>contact" class="btn btn-primary btn-rounded mt-4 px-4">Contact us</a>
                 </div>
             </div>
@@ -75,18 +75,15 @@
     </div>
 </section>  
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 
 <section class="section_padding ">
     <div class="container position-relative" style="z-index:+1;">
         <div class="row justify-content-center">
             <div class="col-11">
                 <div class="text-center">
-                    <h2 class="fs-30 fw-700 text_brand_color1">Why Choose Us ?</h2>
-                    <h6 class="fs-18 fw-500 text_brand_color1">Ready to take your web development to the next level?</h6>
-                    <h6 class="fs-18 fw-500 text_brand_color1">Contact us today to discuss your Blockchain Development requirements. </h6>
+                    <h2 class="fs-30 fw-700 text_brand_color1">What Makes WebOConnect the Ideal Choice?</h2>
+                    <h6 class="fs-18 fw-500 text_brand_color1">Ready to create outstanding White Label solutions for your brand?</h6>
+                    <h6 class="fs-18 fw-500 text_brand_color1">Get in touch with us today to explore how our services can help grow your business.</h6>
                 </div>
             </div>
         </div>
@@ -97,9 +94,9 @@
                         <span>
                             <img width="50" src="<?= base_url() ?>assets/images/icons/tap_finger.webp" alt="Technologies at your fingerpoint">
                         </span>
-                        <h4 class="fs-18 fw-700">Technologies at your fingerpoint</h4>
+                        <h4 class="fs-18 fw-700">Technologies At Your Fingertip</h4>
                     </div>
-                    <h5 class="fs-15 fw-500">We deliver top-notch technical services as we have the right team with the required experience and skills. For us, quality is the most prominent aspect of any project.</h5>
+                    <h5 class="fs-15 fw-500">With our state-of-the-art technologies, we deliver exceptional White Label services that align with your brand’s vision. We ensure every solution meets your unique needs.</h5>
                 </div>
             </div>
 
@@ -111,7 +108,7 @@
                         </span>
                         <h4 class="fs-18 fw-700">Time Stipulated Deliveries</h4>
                     </div>
-                    <h5 class="fs-15 fw-500">We try to deliver all our projects in the requested time frame. This builds trust and a reliable bonding between our clients and us which is a win-win situation for all.</h5>
+                    <h5 class="fs-15 fw-500">Our focus on delivering projects on time ensures that your business stays on track. We understand the value of deadlines, and we meet them every time.</h5>
                 </div>
             </div>
 
@@ -121,9 +118,9 @@
                         <span>
                             <img width="50" src="<?= base_url() ?>assets/images/icons/ready_to_sign.webp" alt="Technologies at your fingerpoint">
                         </span>
-                        <h4 class="fs-18 fw-700">Ready to sign NDA</h4>
+                        <h4 class="fs-18 fw-700">Ready to Sign NDA</h4>
                     </div>
-                    <h5 class="fs-15 fw-500">We are ready to sign the Non-disclosure agreement to deliver you complete peace of mind and make you remain worry-free about your ideas.</h5>
+                    <h5 class="fs-15 fw-500">We respect your confidentiality. Our willingness to sign an NDA guarantees that your ideas and brand information will always be kept secure.</h5>
                 </div>
             </div>
 
@@ -135,7 +132,7 @@
                         </span>
                         <h4 class="fs-18 fw-700">Lowest Price Guaranteed</h4>
                     </div>
-                    <h5 class="fs-15 fw-500">Our solutions are being priced competitive and affordable for all. We ensure pocket friendly online solutions to avoid any load on you.</h5>
+                    <h5 class="fs-15 fw-500">We provide the most competitive pricing in the industry without sacrificing quality, so you get top-tier services at a cost-effective rate.</h5>
                 </div>
             </div>
 
@@ -147,7 +144,7 @@
                         </span>
                         <h4 class="fs-18 fw-700">Experienced and Efficient Workforce</h4>
                     </div>
-                    <h5 class="fs-15 fw-500">All our solutions and products are rigorously tested and checked before deployment. We take pride in delivering the best, error-free and smooth products to our clients.</h5>
+                    <h5 class="fs-15 fw-500">Our team is composed of seasoned professionals dedicated to delivering top-notch White Label solutions that contribute directly to your business growth.</h5>
                 </div>
             </div>
 
@@ -159,7 +156,7 @@
                         </span>
                         <h4 class="fs-18 fw-700">Round the Clock Technical Support</h4>
                     </div>
-                    <h5 class="fs-15 fw-500">We are never away, available to support 24X7. You can always communicate with us regarding the products and services via phone, email or chats.</h5>
+                    <h5 class="fs-15 fw-500">We are committed to supporting you 24/7. Whether you need assistance or have questions, our team is always available to ensure smooth operations and success.</h5>
                 </div>
             </div>
 
@@ -174,12 +171,6 @@
 
 
 
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 <section class="section_padding bg_azure">
     <?php $this->load->view('front/common/our_clients_videos') ?>
 </section>

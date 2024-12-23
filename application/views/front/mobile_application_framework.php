@@ -20,7 +20,7 @@
 <section class="section_padding mob_app_framework_banner">
     <div class="container">
         <div class="row justify-content-between align-items-center g-4">
-            <div class="col-md-6">
+            <div class="col-md-7">
                 <h1 class="fs-30 fw-600 text-white">WebOConnect Builds Next-Generation Apps with Mobile Frameworks</h1>
                 <h6 class="fs-18 fw-500 text-white">At WebOConnect, we leverage the most advanced mobile frameworks to craft dynamic, scalable, and high-performing mobile applications tailored to your needs. Whether it’s a custom native app for iOS and Android or a cost-effective cross-platform solution, we ensure your app drives seamless user experiences and measurable business results.</h6>
                 <h6 class="fs-18 fw-500 text-white">With expertise in Flutter, React Native, Swift, and other modern frameworks, we simplify complex challenges, delivering mobile applications that resonate with your audience and outperform in the competitive digital landscape.</h6>

@@ -282,8 +282,33 @@ $(document).ready(function () {
         },
     }
   });
-  
 
+
+  $('.blog_btn_slider').owlCarousel({
+    loop:true,
+    dots:false,
+    nav:true,
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    navText: ["<i class='bi bi-arrow-left'></i>","<i class='bi bi-arrow-right'></i>"],
+    responsive:{
+        0:{
+            items:2,
+        },
+        500:{
+            items:3,
+        },
+        700:{
+            items:4,
+        },
+        1000:{
+            items:6,
+        },
+    }
+  });
+  
+  
   $('.testimonials_slider').owlCarousel({
     loop:true,
     margin:30,

@@ -113,7 +113,7 @@
                 </div>
                 <div class="col-auto">
                     <div>
-                        <h4 class="fs-30 fw-700">Available Now</h4>
+                        <h4 class="fs-34 fw-600">Available Now</h4>
                         <div>
                             
                             <a href="<?php echo $casestudy->android_url; ?>" class="btn btn_dark_primary btn-rounded px-4">
@@ -162,7 +162,7 @@
         <div class="bg-white how_does_work p-lg-5 p-sm-4">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="fs-34 fw-700">How Does It Work?</h2>
+                    <h2 class="fs-34 fw-600">How Does It Work?</h2>
                 </div>
             </div>
 
@@ -178,61 +178,6 @@
                     </div>
                 </div>
             <?php endforeach; ?>
-                 
-            <!-- <div class="row my-1 g-3">
-                <div class="col-md-3">
-                    <div class="d-grid">
-                        <a href="" class="btn btn_outline_dark_primary btn-rounded fs-20 fw-600">Registration</a>
-                    </div>
-                </div>
-                <div class="col-md-9">
-                    <p class="fs-20 fw-500 m-0">Nurses create profiles with qualifications and availability.</p>
-                </div>
-            </div>
-
-            <div class="row my-1 g-3">
-                <div class="col-md-3">
-                    <div class="d-grid">
-                        <a href="" class="btn btn_outline_dark_primary btn-rounded fs-20 fw-600">Job Requests</a>
-                    </div>
-                </div>
-                <div class="col-md-9">
-                    <p class="fs-20 fw-500 m-0">Healthcare facilities post staffing needs.</p>
-                </div>
-            </div>
-
-            <div class="row my-1 g-3">
-                <div class="col-md-3">
-                    <div class="d-grid">
-                        <a href="" class="btn btn_outline_dark_primary btn-rounded fs-20 fw-600">AI Matching</a>
-                    </div>
-                </div>
-                <div class="col-md-9">
-                    <p class="fs-20 fw-500 m-0">The platform uses AI to connect nurses with jobs.</p>
-                </div>
-            </div>
-
-            <div class="row my-1 g-3">
-                <div class="col-md-3">
-                    <div class="d-grid">
-                        <a href="" class="btn btn_outline_dark_primary btn-rounded fs-20 fw-600">Booking & Payment</a>
-                    </div>
-                </div>
-                <div class="col-md-9">
-                    <p class="fs-20 fw-500 m-0">Nurses accept offers, and payments are processed securely.</p>
-                </div>
-            </div>
-
-            <div class="row my-1 g-3">
-                <div class="col-md-3">
-                    <div class="d-grid">
-                        <a href="" class="btn btn_outline_dark_primary btn-rounded fs-20 fw-600">Reviews</a>
-                    </div>
-                </div>
-                <div class="col-md-9">
-                    <p class="fs-20 fw-500 m-0">Both parties rate each other post-assignment for trust.</p>
-                </div>
-            </div> -->
 
         </div>
     </div>
@@ -250,7 +195,6 @@
             <h2 class="fs-30 fw-600 text_brand_color1">Project Objectives</h2>
             <h6 class="fs-20 fw-600 text_brand_color1"><?php echo $casestudy->project_objectives_title??'The main goals of the Nurseify app were to'; ?></h6>
         </div>
-        
         <div class="row align-items-center justify-content-center g-4 mt-5">
 
             <?php foreach ($project_objectives as $po) : ?>
@@ -261,24 +205,6 @@
                     </div>
                 </div>
             <?php endforeach; ?>
-            <!-- <div class="col-lg-6">
-                <div class="project_objectives_card">
-                    <h5 class="fs-20 fw-600 text_brand_color1">Facilitate Direct Connections</h5>
-                    <p class="fs-14 fw-500 text_brand_color1">Create a platform that allows healthcare facilities to connect directly with available nurses, eliminating the need for costly and time-consuming agency intermediaries.</p>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="project_objectives_card">
-                    <h5 class="fs-20 fw-600 text_brand_color1">Empower Nurses</h5>
-                    <p class="fs-14 fw-500 text_brand_color1">Provide nurses with a flexible platform where they can control their work schedules, set their hourly rates, and showcase their professional experience.</p>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="project_objectives_card">
-                    <h5 class="fs-20 fw-600 text_brand_color1">Streamline Hiring Processes</h5>
-                    <p class="fs-14 fw-500 text_brand_color1">Simplify and speed up the process for healthcare facilities to find and hire qualified nurses on-demand, particularly in times of high need.</p>
-                </div>
-            </div> -->
         </div>
     </div>
 </section>
@@ -297,18 +223,6 @@
                             <p class="fs-14 fw-500 text_brand_color1"><?php echo $challenge->description??''; ?></p>
                         </div>
                     <?php endforeach; ?>
-                    <!-- <div class="col-12 ">
-                        <h4 class="fs-20 fw-600 text_brand_color1">User Experience for Two Audiences</h4>
-                        <p class="fs-14 fw-500 text_brand_color1">Design an intuitive interface that could cater to the needs of nurses and healthcare facilities, so they are motivated to go through a streamlined experience to post jobs, apply, or communicate.</p>
-                    </div>
-                    <div class="col-12">
-                        <h4 class="fs-20 fw-600 text_brand_color1">Trust and Reliability</h4>
-                        <p class="fs-14 fw-500 text_brand_color1">This includes trust and reliability, ensuring that the information offered by the nurses and facilities is reliable to ensure a safe environment for everyone.</p>
-                    </div>
-                    <div class="col-12">
-                        <h4 class="fs-20 fw-600 text_brand_color1">Competitive Market</h4>
-                        <p class="fs-14 fw-500 text_brand_color1">Differentiating Nurseify in the sea of gig platforms and healthcare staffing solutions.</p>
-                    </div> -->
                 </div>
             </div>
             <div class="col-lg-6">
@@ -342,22 +256,6 @@
                                 <p class="fs-14 fw-500 text_brand_color1"><?php echo $solution_imp->description??''; ?></p>
                             </div>
                         <?php endforeach; ?>
-                        <!-- <div class="col-12 ">
-                            <h4 class="fs-20 fw-600 text_brand_color1">Nurse Profiles & Ratings</h4>
-                            <p class="fs-14 fw-500 text_brand_color1"> Nurses can maintain rich profiles that emphasize experience, certifications, and availability.</p>
-                        </div>
-                        <div class="col-12">
-                            <h4 class="fs-20 fw-600 text_brand_color1">Direct Booking System</h4>
-                            <p class="fs-14 fw-500 text_brand_color1">Direct booking system allows the healthcare facilities to browse through nurse profiles, see their availability and book them directly without the traditional agencies and trimming down hiring time.</p>
-                        </div>
-                        <div class="col-12">
-                            <h4 class="fs-20 fw-600 text_brand_color1">Flexible Work Options</h4>
-                            <p class="fs-14 fw-500 text_brand_color1">The app allows the nurses to come up with their very own independent hourly rates and select shift work that falls within their available working hours to ensure a flexible yet balanced working-to-life arrangement.</p>
-                        </div>
-                        <div class="col-12">
-                            <h4 class="fs-20 fw-600 text_brand_color1">Securing Messaging and Transactions</h4>
-                            <p class="fs-14 fw-500 text_brand_color1">The secure messaging and payment processing on the platform ensure safe and transparent transactions and communications.</p>
-                        </div> -->
                     </div>
                 </div>
             </div>
@@ -381,24 +279,6 @@
                     </div>
                 </div>
             <?php endforeach; ?>
-            <!-- <div class="col-lg-6">
-                <div class="project_objectives_card">
-                    <h5 class="fs-20 fw-600 text_brand_color1">Increased Autonomy for Nurses</h5>
-                    <p class="fs-14 fw-500 text_brand_color1">The nurses had greater control over shift and pay, and most of the nurses felt that the flexibility of this application was very helpful.</p>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="project_objectives_card">
-                    <h5 class="fs-20 fw-600 text_brand_color1">Lower Cost in Staffing</h5>
-                    <p class="fs-14 fw-500 text_brand_color1">Health care institutions responded that there were substantial savings in cost as they could recruit directly through Nurseify. This is on the basis of no commission paid to the staffing agencies.</p>
-                </div>
-            </div>
-            <div class="col-lg-12">
-                <div class="project_objectives_card">
-                    <h5 class="fs-20 fw-600 text_brand_color1">Good Market Acceptance</h5>
-                    <p class="fs-14 fw-500 text_brand_color1">The ease of use of the application and value to the users by both the nurses and the health care facilities have been well appreciated.</p>
-                </div>
-            </div> -->
         </div>
     </div>
 </section>
@@ -411,36 +291,6 @@
                     <img src="<?php echo base_url('assets/images/case_studies/uploads/' . $screen->img); ?>" alt="<?php echo htmlspecialchars($screen->title, ENT_QUOTES, 'UTF-8'); ?>">
                 </div>
             <?php endforeach; ?>
-            <!-- <div class="item">
-                <img src="<?=base_url()?>assets/images/case-studies/details/nurseify_mob1.webp" alt="nurseify">
-            </div>
-            <div class="item">
-                <img src="<?=base_url()?>assets/images/case-studies/details/nurseify_mob2.webp" alt="nurseify">
-            </div>
-            <div class="item">
-                <img src="<?=base_url()?>assets/images/case-studies/details/nurseify_mob3.webp" alt="nurseify">
-            </div>
-            <div class="item">
-                <img src="<?=base_url()?>assets/images/case-studies/details/nurseify_mob4.webp" alt="nurseify">
-            </div>
-            <div class="item">
-                <img src="<?=base_url()?>assets/images/case-studies/details/nurseify_mob5.webp" alt="nurseify">
-            </div>
-            <div class="item">
-                <img src="<?=base_url()?>assets/images/case-studies/details/nurseify_mob1.webp" alt="nurseify">
-            </div>
-            <div class="item">
-                <img src="<?=base_url()?>assets/images/case-studies/details/nurseify_mob2.webp" alt="nurseify">
-            </div>
-            <div class="item">
-                <img src="<?=base_url()?>assets/images/case-studies/details/nurseify_mob3.webp" alt="nurseify">
-            </div>
-            <div class="item">
-                <img src="<?=base_url()?>assets/images/case-studies/details/nurseify_mob4.webp" alt="nurseify">
-            </div>
-            <div class="item">
-                <img src="<?=base_url()?>assets/images/case-studies/details/nurseify_mob5.webp" alt="nurseify">
-            </div> -->
         </div>
     </div>
 </section>

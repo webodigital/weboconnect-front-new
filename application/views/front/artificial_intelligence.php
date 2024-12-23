@@ -21,9 +21,9 @@
     <div class="container">
         <div class="row align-items-center g-4">
             <div class="col-md-6">
-                <h1 class="fs-30 fw-600 text-white">Blockchain Development Company</h1>
-                <h6 class="fs-18 fw-500 text-white">Making your business proceeding simpler is what we aim at WeboConnect. We make you experience the smooth and modern implementation of blockchain technology to boost the functionality of your business organizations.</h6>
-                <h6 class="fs-18 fw-500 text-white">We believe in smart work and utilize the custom development modules with the motive to deliver the customized blockchain app development service in your budget. We have marked a position by providing some successful blockchain-based software solutions on etherium, hyper ledger, smart contacts, etc. While choosing our fully-loaded blockchain development services, you can save your time & cost as well.</h6>
+                <h1 class="fs-30 fw-600 text-white">Artificial Intelligence Solutions That Transform Businesses</h1>
+                <h6 class="fs-18 fw-500 text-white">Is AI integration a challenge for your business? At WebOConnect, we’ve helped businesses automate processes, enhance decision-making, and unlock new growth opportunities with cutting-edge AI solutions. Finding the right AI partner is no longer daunting—we provide tailored, powerful, and scalable AI solutions that deliver measurable results.</h6>
+                <h6 class="fs-18 fw-500 text-white">From deep learning to NLP and machine learning, our solutions are designed to ensure reliability, efficiency, and accuracy, solving complex problems for our clients and driving innovation to the core of their businesses.</h6>
             </div>
         </div>
     </div>
@@ -37,9 +37,9 @@
             </div>
             <div class="col-lg-6">
                 <div class="b_rds_15 bg-white p-3">
-                    <h3 class="fs-30 fw-700">What We Do ?</h3>
-                    <p class="fs-16 fw-500">Today Machine Learning and Artificial Intelligence is penetrating every side of the business, from deploying Chatbots to AI-driven platforms. We help our clients in building cutting-edge AI solutions that enable them to be a leader.</p>
-                    <p class="fs-16 fw-500">WebOConnect leverages machine learning (ML), image recognition, and automatic speech recognition (ASR) technologies to the fullest benefit to its customers.</p>
+                    <h3 class="fs-30 fw-700">What WebOConnect Brings to You</h3>
+                    <p class="fs-16 fw-500">At WebOConnect, we bridge the gap between ambition and innovation by delivering world-class AI and Machine Learning solutions. From conversational chatbots that enhance customer experiences to AI platforms that unlock business intelligence, we ensure your organization stays ahead.</p>
+                    <p class="fs-16 fw-500">We excel in machine learning, image recognition, and speech recognition (ASR), helping businesses simplify processes, reduce operational costs, and unlock measurable results. WebOConnect partners with you to ensure smarter workflows and greater efficiency.</p>
                 </div>
             </div>
         </div>
@@ -52,8 +52,9 @@
         <div class="row align-items-center justify-content-between g-4">
             <div class="col-lg-6 order-last order-sm-first">
                 <div class="b_rds_15 bg_azure p-3">
-                    <h3 class="fs-30 fw-700">Why Choose Us ?</h3>
-                    <p class="fs-16 fw-500">TBeing one of the competitive AI service providers we can help you achieve high-accuracy, high-quality Artificial Intelligence capabilities that allows building cost-effective and highly accessible digital products and solutions. We will help you achieve the advantage of minimized infrastructure and labor cost.</p>
+                    <h3 class="fs-30 fw-700">Why WebOConnect Is Your AI Partner</h3>
+                    <p class="fs-16 fw-500">WebOConnect combines innovation with expertise to deliver cutting-edge Artificial Intelligence solutions that maximize your business potential. By streamlining workflows, enhancing digital products, and providing scalable solutions, we ensure high ROI with minimum infrastructure and labor investments.</p>
+                    <p class="fs-16 fw-500">Our personalized approach has empowered numerous clients to achieve efficiency, growth, and digital transformation. Let’s build your next success story together.</p>
                 </div>
             </div>
 
@@ -71,9 +72,9 @@
         <div class="row align-items-center">
             <div class="col-lg-8">
                 <div class="text-center text-md-start">
-                    <h3 class="fs-24 fw-700 text-white">Let's Build Your Next Project Together</h3>
-                    <h6 class="fs-18 fw-500 text-white">Ready to take your web development to the next level?</h6>
-                    <h6 class="fs-18 fw-500 text-white">Contact us today to discuss your PHP development requirements.</h6>
+                    <h3 class="fs-24 fw-700 text-white">Your AI Success Story Begins Here with WebOConnect</h3>
+                    <h6 class="fs-18 fw-500 text-white">Reimagine your business with AI-powered solutions tailored to your needs. WebOConnect has enabled businesses worldwide to streamline operations, boost decision-making, and stay ahead of the competition.</h6>
+                    <h6 class="fs-18 fw-500 text-white">Let us turn your ideas into reality and build the future of your business together.</h6>
                     <a href="<?= base_url() ?>contact" class="btn btn-primary btn-rounded mt-4 px-4">Contact us</a>
                 </div>
             </div>

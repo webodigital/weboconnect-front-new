@@ -7867,3 +7867,106 @@ INFO - 2024-12-23 13:22:22 --> File loaded: F:\xampp\htdocs\weboconnect-front-ne
 INFO - 2024-12-23 13:22:22 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/case_study_details.php
 INFO - 2024-12-23 13:22:22 --> Final output sent to browser
 DEBUG - 2024-12-23 13:22:22 --> Total execution time: 0.1099
+INFO - 2024-12-23 13:36:37 --> Config Class Initialized
+INFO - 2024-12-23 13:36:37 --> Hooks Class Initialized
+DEBUG - 2024-12-23 13:36:37 --> UTF-8 Support Enabled
+INFO - 2024-12-23 13:36:37 --> Utf8 Class Initialized
+INFO - 2024-12-23 13:36:37 --> URI Class Initialized
+INFO - 2024-12-23 13:36:37 --> Router Class Initialized
+INFO - 2024-12-23 13:36:37 --> Output Class Initialized
+INFO - 2024-12-23 13:36:37 --> Security Class Initialized
+DEBUG - 2024-12-23 13:36:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 13:36:37 --> Input Class Initialized
+INFO - 2024-12-23 13:36:37 --> Language Class Initialized
+INFO - 2024-12-23 13:36:37 --> Loader Class Initialized
+INFO - 2024-12-23 13:36:37 --> Helper loaded: url_helper
+INFO - 2024-12-23 13:36:37 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 13:36:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 13:36:37 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 13:36:37 --> Controller Class Initialized
+INFO - 2024-12-23 13:36:37 --> Model "CasestudiesModel" initialized
+INFO - 2024-12-23 13:36:37 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2024-12-23 13:36:37 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2024-12-23 13:36:37 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/testimonials.php
+INFO - 2024-12-23 13:36:37 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2024-12-23 13:36:37 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 13:36:37 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2024-12-23 13:36:37 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 13:36:37 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2024-12-23 13:36:37 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2024-12-23 13:36:37 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2024-12-23 13:36:37 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2024-12-23 13:36:37 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2024-12-23 13:36:37 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2024-12-23 13:36:37 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/case_study_details.php
+INFO - 2024-12-23 13:36:37 --> Final output sent to browser
+DEBUG - 2024-12-23 13:36:37 --> Total execution time: 0.0881
+INFO - 2024-12-23 13:37:01 --> Config Class Initialized
+INFO - 2024-12-23 13:37:01 --> Hooks Class Initialized
+DEBUG - 2024-12-23 13:37:01 --> UTF-8 Support Enabled
+INFO - 2024-12-23 13:37:01 --> Utf8 Class Initialized
+INFO - 2024-12-23 13:37:01 --> URI Class Initialized
+INFO - 2024-12-23 13:37:01 --> Router Class Initialized
+INFO - 2024-12-23 13:37:01 --> Output Class Initialized
+INFO - 2024-12-23 13:37:01 --> Security Class Initialized
+DEBUG - 2024-12-23 13:37:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 13:37:01 --> Input Class Initialized
+INFO - 2024-12-23 13:37:01 --> Language Class Initialized
+INFO - 2024-12-23 13:37:01 --> Loader Class Initialized
+INFO - 2024-12-23 13:37:01 --> Helper loaded: url_helper
+INFO - 2024-12-23 13:37:01 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 13:37:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 13:37:01 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 13:37:01 --> Controller Class Initialized
+INFO - 2024-12-23 13:37:01 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 13:37:01 --> Pagination Class Initialized
+INFO - 2024-12-23 13:37:01 --> Model "CasestudiesModel" initialized
+INFO - 2024-12-23 13:37:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2024-12-23 13:37:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2024-12-23 13:37:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2024-12-23 13:37:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 13:37:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2024-12-23 13:37:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 13:37:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2024-12-23 13:37:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2024-12-23 13:37:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2024-12-23 13:37:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2024-12-23 13:37:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2024-12-23 13:37:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2024-12-23 13:37:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/case_study.php
+INFO - 2024-12-23 13:37:01 --> Final output sent to browser
+DEBUG - 2024-12-23 13:37:01 --> Total execution time: 0.1018
+INFO - 2024-12-23 13:37:03 --> Config Class Initialized
+INFO - 2024-12-23 13:37:03 --> Hooks Class Initialized
+DEBUG - 2024-12-23 13:37:03 --> UTF-8 Support Enabled
+INFO - 2024-12-23 13:37:03 --> Utf8 Class Initialized
+INFO - 2024-12-23 13:37:03 --> URI Class Initialized
+INFO - 2024-12-23 13:37:03 --> Router Class Initialized
+INFO - 2024-12-23 13:37:03 --> Output Class Initialized
+INFO - 2024-12-23 13:37:03 --> Security Class Initialized
+DEBUG - 2024-12-23 13:37:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 13:37:03 --> Input Class Initialized
+INFO - 2024-12-23 13:37:03 --> Language Class Initialized
+INFO - 2024-12-23 13:37:03 --> Loader Class Initialized
+INFO - 2024-12-23 13:37:03 --> Helper loaded: url_helper
+INFO - 2024-12-23 13:37:04 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 13:37:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 13:37:04 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 13:37:04 --> Controller Class Initialized
+INFO - 2024-12-23 13:37:04 --> Model "CasestudiesModel" initialized
+INFO - 2024-12-23 13:37:04 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2024-12-23 13:37:04 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2024-12-23 13:37:04 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/testimonials.php
+INFO - 2024-12-23 13:37:04 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2024-12-23 13:37:04 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 13:37:04 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2024-12-23 13:37:04 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 13:37:04 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2024-12-23 13:37:04 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2024-12-23 13:37:04 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2024-12-23 13:37:04 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2024-12-23 13:37:04 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2024-12-23 13:37:04 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2024-12-23 13:37:04 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/case_study_details.php
+INFO - 2024-12-23 13:37:04 --> Final output sent to browser
+DEBUG - 2024-12-23 13:37:04 --> Total execution time: 0.0972

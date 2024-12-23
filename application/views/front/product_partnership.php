@@ -23,9 +23,9 @@
         <div class="row">
             <div class="col-lg-6">
                 <h1 class="fs-30 fw-600 text-white mb-4">Product Partnership</h1>
-                <h6 class="fs-18 fw-500 text-white mb-4">If you have an amazing idea or a product to which you don’t want to invest a fortune in the Development and Marketing at the same time. No worries then! You are at your destination now. We have come up with an astounding solution- Product Partnership.</h6>
-                <h6 class="fs-18 fw-500 text-white mb-4">It is the perfect solution to start with your product/idea with a petite investment only. If you have expertise in Sales & Marketing and you don’t want to involve in deep technologies then we are here to manage your project.</h6>
-                <h6 class="fs-18 fw-500 text-white mb-4">We are here support as an impeccable IT Partner with exceptional skills. We can meet your IT requirements with the least possible investment and let you focus on Sales/ Marketing and Operations.</h6>
+                <h6 class="fs-18 fw-500 text-white mb-4">Have a great idea or product but concerned about the costs of both development and marketing? Our Product Partnership program is the perfect fit for you!</h6>
+                <h6 class="fs-18 fw-500 text-white mb-4">This solution allows you to invest only minimally and still get your product off the ground. If you have expertise in sales and marketing but lack deep technical knowledge, we handle the development process for you.</h6>
+                <h6 class="fs-18 fw-500 text-white mb-4">WebOConnect provides unmatched technical expertise, giving you the freedom to focus on expanding your business while we take care of the rest. </h6>
             </div>
         </div>
         <div class="row mt-4">
@@ -42,9 +42,9 @@
         <div class="row justify-content-center">
             <div class="col-11">
                 <div class="text-center">
-                    <h2 class="fs-30 fw-700 text_brand_color1">We Let You Dream Big</h2>
-                    <h6 class="fs-18 fw-500 text_brand_color1">We have got you covered. With our Product Partnership option, we can turn your dream into reality.</h6>
-                    <h6 class="fs-18 fw-500 text_brand_color1">Here’s how we move...</h6>
+                    <h2 class="fs-30 fw-700 text_brand_color1">WebOConnect Drives Your Vision to Unmatched Success</h2>
+                    <h6 class="fs-18 fw-500 text_brand_color1">Bring your product idea to life with WebOConnect’s Product Partnership. We make it happen with minimal investment, so you can focus on growing your market presence.</h6>
+                    <h6 class="fs-18 fw-500 text_brand_color1">Here’s our approach…</h6>
                 </div>
             </div>
         </div>
@@ -53,12 +53,11 @@
             <div class="col-lg-8">
                 <div class="b_rds_15 bg-white p-3">
                     <ul>
-                        <li class="fs-18 fw-500">We will analyze and identify your product/idea first.</li>
-                        <li class="fs-18 fw-500">Then we will let you know about the potential, effectiveness, success chances and limitations related to it.</li>
-                        <li class="fs-18 fw-500">We will calculate all promising technical aspects and it’s budgeting for Development, Maintenance, Enhancement, and Support.</li>
-                        <li class="fs-18 fw-500">This will then make us start developing/maintaining the solution with a little part of the total estimation.</li>
-                        <li class="fs-18 fw-500">As your business starts budding with all our active efforts, we will discuss the minimum profit sharing and other conditions.</li>
-                        <li class="fs-18 fw-500">We will follow after mutual agreement.</li>
+                        <li class="fs-18 fw-500"><b>Analyze & Assess:</b> We evaluate your product’s potential and challenges to ensure realistic goals.</li>
+                        <li class="fs-18 fw-500"><b>Opportunity Mapping:</b> We identify success drivers and explore growth potential.</li>
+                        <li class="fs-18 fw-500"><b>Budget Calculation:</b> We provide a clear financial plan covering all technical and operational costs.</li>
+                        <li class="fs-18 fw-500"><b>Development Kickoff:</b> We begin development after agreeing on the terms, sharing a small profit with our team.</li>
+                        <li class="fs-18 fw-500"><b>Agreement Finalization:</b> We set the terms, milestones, and roadmap for success.</li>
                     </ul>
                 </div>
             </div>
@@ -69,7 +68,7 @@
 
         <div class="row">
             <div class="col-12 text-center">
-                <p class="fs-18 fw-500 text_brand_color1">This choice of selection simply allows mutual benefits to all the parties and resultantly ensures you get to see your idea booming. This partnership can lead you to the world of success. If you have full faith in your idea then we believe that the funds and resources should never be constraints to make that dream come true.</p>
+                <p class="fs-18 fw-500 text_brand_color1">WebOConnect ensures your vision gets the technical expertise it needs for success.</p>
             </div>
         </div>
     </div>
@@ -84,9 +83,9 @@
         <div class="row align-items-center">
             <div class="col-lg-8">
                 <div class="text-center text-md-start">
-                    <h3 class="fs-24 fw-700 text-white">Let's Build Your Next Project Together</h3>
-                    <h6 class="fs-18 fw-500 text-white">Ready to take your web development to the next level?</h6>
-                    <h6 class="fs-18 fw-500 text-white">Contact us today to discuss your PHP development requirements.</h6>
+                    <h3 class="fs-24 fw-700 text-white">Let’s Make Your Product a Success Together</h3>
+                    <h6 class="fs-18 fw-500 text-white">We’ve got your back from product concept to delivery. With our technical expertise, your product will be developed with the utmost precision and speed.</h6>
+                    <h6 class="fs-18 fw-500 text-white">Reach out today to begin your Product Partnership with us.</h6>
                     <a href="<?=base_url()?>contact" class="btn btn-primary btn-rounded mt-4 px-4">Contact us</a>
                 </div>
             </div>
@@ -100,57 +99,84 @@
         <div class="row justify-content-center">
             <div class="col-11">
                 <div class="text-center">
-                    <h2 class="fs-30 fw-700 text_brand_color2">Why Choose Us ?</h2>
-                    <h6 class="fs-18 fw-500 text_brand_color2">We are one of the first companies to propose Product Partnership. We provide the required wings to make your dream a success. With our amazing product partnership, you can start developing your idea at just a nominal cost.</h6>
+                    <h2 class="fs-30 fw-700 text_brand_color2">Ready to Bring Your Product to Life with Minimal Investment?</h2>
+                    <h6 class="fs-18 fw-500 text_brand_color2">Looking to create an impactful product without the burden of heavy technical setup? WebOConnect’s Product Partnership is your perfect solution. We provide the support and technology needed to bring your idea to market with minimal upfront investment.</h6>
                 </div>
             </div>
         </div>
         <div class="row g-4 g-lg-5 mt-4">
-            <div class="col-6 col-lg-3">
+            <div class="col-6 col-lg-4">
                 <div class="b_rds_20 bg_azure h-100 p-4">
                     <div class="d-flex align-items-center gap-3">
                         <span>
                             <img width="50" src="<?= base_url() ?>assets/images/icons/technically_skilled_team.webp" alt="Technologies at your fingerpoint">
                         </span>
-                        <h4 class="fs-18 fw-700">Technically Skilled team</h4>
+                        <h4 class="fs-18 fw-700">Comprehensive Product Assessment</h4>
                     </div>
-                    <h5 class="fs-15 fw-500">We have a dexterous team with apt knowledge to deliver excellent results.</h5>
+                    <h5 class="fs-15 fw-500">We begin by understanding your product or idea and its potential to succeed in the market. We analyze and provide insights for better decision-making.</h5>
                 </div>
             </div>
 
-            <div class="col-6 col-lg-3">
+            <div class="col-6 col-lg-4">
                 <div class="b_rds_20 bg_azure h-100 p-4">
                     <div class="d-flex align-items-center gap-3">
                         <span>
                             <img width="50" src="<?= base_url() ?>assets/images/icons/minimum_investment.webp" alt="Technologies at your fingerpoint">
                         </span>
-                        <h4 class="fs-18 fw-700">Minimum Investment</h4>
+                        <h4 class="fs-18 fw-700">Building a Path to Success</h4>
                     </div>
-                    <h5 class="fs-15 fw-500">No need to invest big at once. Start with a little amount of the whole project.</h5>
+                    <h5 class="fs-15 fw-500">We assist you in identifying key success factors and evaluating the effectiveness of your product to ensure a solid foundation for growth.</h5>
                 </div>
             </div>
 
-            <div class="col-6 col-lg-3">
+            <div class="col-6 col-lg-4">
                 <div class="b_rds_20 bg_azure h-100 p-4">
                     <div class="d-flex align-items-center gap-3">
                         <span>
                             <img width="50" src="<?= base_url() ?>assets/images/icons/f_f_b.webp" alt="Technologies at your fingerpoint">
                         </span>
-                        <h4 class="fs-18 fw-700">Freedom to focus on business</h4>
+                        <h4 class="fs-18 fw-700">Accurate Budgeting and Planning</h4>
                     </div>
-                    <h5 class="fs-15 fw-500">We set you free to focus more on Sale/Marketing and operations. We take care of the rest.</h5>
+                    <h5 class="fs-15 fw-500">Our team provides precise estimates for development costs, maintenance, and ongoing support, ensuring financial transparency.</h5>
                 </div>
             </div>
 
-            <div class="col-6 col-lg-3">
+            <div class="col-6 col-lg-4">
                 <div class="b_rds_20 bg_azure h-100 p-4">
                     <div class="d-flex align-items-center gap-3">
                         <span>
                             <img width="50" src="<?= base_url() ?>assets/images/icons/clock_assistance.webp" alt="Technologies at your fingerpoint">
                         </span>
-                        <h4 class="fs-18 fw-700">Round the Clock Assistance</h4>
+                        <h4 class="fs-18 fw-700">Efficient Development Execution</h4>
                     </div>
-                    <h5 class="fs-15 fw-500">We are never away from you. Contact us 24X7 via phone, email or chats.</h5>
+                    <h5 class="fs-15 fw-500">With the green light from you, we begin the development phase, aligning with the agreed terms and ensuring a smooth development process.</h5>
+                </div>
+            </div>
+
+
+
+            <div class="col-6 col-lg-4">
+                <div class="b_rds_20 bg_azure h-100 p-4">
+                    <div class="d-flex align-items-center gap-3">
+                        <span>
+                            <img width="50" src="<?= base_url() ?>assets/images/icons/clock_assistance.webp" alt="Technologies at your fingerpoint">
+                        </span>
+                        <h4 class="fs-18 fw-700">Contract Finalization & Agreement</h4>
+                    </div>
+                    <h5 class="fs-15 fw-500">All agreements are clearly outlined and finalized so we can collaborate effectively, moving forward without unnecessary delays.</h5>
+                </div>
+            </div>
+
+
+            <div class="col-6 col-lg-4">
+                <div class="b_rds_20 bg_azure h-100 p-4">
+                    <div class="d-flex align-items-center gap-3">
+                        <span>
+                            <img width="50" src="<?= base_url() ?>assets/images/icons/clock_assistance.webp" alt="Technologies at your fingerpoint">
+                        </span>
+                        <h4 class="fs-18 fw-700">Continual Support for Long-Term Success</h4>
+                    </div>
+                    <h5 class="fs-15 fw-500">Our team remains dedicated to supporting your product post-launch, providing regular updates, optimizations, and technical fixes as needed.</h5>
                 </div>
             </div>
 

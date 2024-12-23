@@ -28,10 +28,8 @@
       <!-- Text Content Column -->
       <div class="col-md-6" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
         <div class="text-center">
-          <h1 class="fs-30 fw-600">It's about the thoughts and souls
-          that work behind Konstant</h1>
-          <p class="fs-20 fw-500">Welcome to a constant STATE of INNOVATION</p>
-  
+          <h1 class="fs-30 fw-600">Meet Our Experts at WebOConnect</h1>
+          <p class="fs-20 fw-500">Our team at WebOConnect is made up of experienced professionals who are committed to delivering excellence. Each member brings a unique skill set to the table, and our leadership ensures smooth collaboration across the board. We focus on results, providing efficient, cost-effective solutions tailored to our clients’ needs.</p>
         </div>
       </div>       
       <!-- Image Column -->
@@ -51,8 +49,8 @@
 <section class="section_padding bg-white">
   <div class="container">
     <div class="text-center">
-      <h2 class="fs-30 fw-600 text_brand_color1">Top Leaders</h2>
-      <h6 class="fs-20 fw-500 text_brand_color1">Weboconnect leaders go along with the team and mentor the team members to discover their skills and what they love to do because they believe that each of us has a personal calling that’s as unique as a fingerprint. They nurture and enhance everyone around.</h6>
+      <h2 class="fs-30 fw-600 text_brand_color1">Guiding Visionaries at WebOConnect</h2>
+      <h6 class="fs-20 fw-500 text_brand_color1">Our leadership is at the core of WebOConnect’s innovation. They work hands-on with each team member, helping them grow both professionally and personally. By fostering a culture of collaboration and excellence, our leaders drive success across every project.</h6>
     </div>
 
         <div class="row justify-content-center g-4 g-lg-5 mt-5">
@@ -120,7 +118,8 @@
         <div class="row align-items-center justify-content-end">
             <div class="col-lg-5">
                 <div class="text-center text-lg-end">
-                    <h2 class="fs-24 fw-700 text-white">Partner with us to work with the best dedicated developers in the industry.</h2>
+                    <h2 class="fs-24 fw-700 text-white">Collaborate with Top-tier Developers at WebOConnect</h2>
+                    <h6 class="fs-18 fw-500 text-white">Partner with WebOConnect and access the industry's most skilled and dedicated developers. Together, we’ll create solutions that make a lasting impact. Our team’s expertise is the key to bringing your ideas to life.</h6>
                     <a href="<?= base_url() ?>contact" class="btn btn-primary-gradient btn-rounded px-5">Join Our Team</a>
                 </div>
             </div>

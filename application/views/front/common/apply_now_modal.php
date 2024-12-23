@@ -1,4 +1,4 @@
-<div class="modal fade apply_new_modal" id="apply_new_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade apply_now_modal" id="apply_now_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl">
     <div class="modal-content">
     <button type="button" class="btn_close" data-bs-dismiss="modal" aria-label="Close">
