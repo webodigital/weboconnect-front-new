@@ -808,7 +808,7 @@ footer {
   color: #ffffff;
   position: relative;
   .our_team_img{
-    background: linear-gradient(180deg, #EBF1F5 8.6%, #EBF1F5 28.1%, #898D8F 100%);
+    /* background: linear-gradient(180deg, #EBF1F5 8.6%, #EBF1F5 28.1%, #898D8F 100%); */
     box-shadow: 0px 4px 200px 0px #0000001A;
     border-radius: 20px;
     img{

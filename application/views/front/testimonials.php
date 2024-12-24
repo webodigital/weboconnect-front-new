@@ -66,8 +66,8 @@
                                 <div class="row justify-content-center g-4">
                                     <div class="col-sm-6">
                                         <div class="testimonial_video_card">
-                                            <video controls="" name="media" poster="<?=base_url()?>assets/images/clients/nicholas_video_poster.webp">
-                                                <source src="<?=base_url()?>assets/images/clients/nicholas_andrews_testimonial.mp4" type="video/mp4">
+                                            <video controls="" name="media" poster="<?=base_url()?>assets/videos/clients/nicholas_video_poster.webp">
+                                                <source src="<?=base_url()?>assets/videos/clients/nicholas_andrews_testimonial.mp4" type="video/mp4">
                                             </video>
                                             <!-- <div class="">
                                                 <h5>Nicholas Andrew,Ceo & Founder, Testd Inc</h5>
@@ -76,8 +76,8 @@
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="testimonial_video_card">
-                                            <video controls="" name="media" poster="<?=base_url()?>assets/images/clients/garry_video_poster.webp">
-                                                <source src="<?=base_url()?>assets/images/clients/gary_baldwin_testimonial.mp4" type="video/mp4">
+                                            <video controls="" name="media" poster="<?=base_url()?>assets/videos/clients/garry_video_poster.webp">
+                                                <source src="<?=base_url()?>assets/videos/clients/gary_baldwin_testimonial.mp4" type="video/mp4">
                                             </video>
                                             <!-- <div class="">
                                                 <h5>Gary Baldwin, Founder & CEO,  Freedom Walk (USA)</h5>
@@ -87,8 +87,8 @@
                                     
                                     <div class="col-sm-6">
                                         <div class="testimonial_video_card">
-                                            <video controls="" name="media" poster="<?=base_url()?>assets/images/clients/dale_video_poster.webp">
-                                                <source src="<?=base_url()?>assets/images/clients/WeboConnect_Testimonial.mp4" type="video/mp4">
+                                            <video controls="" name="media" poster="<?=base_url()?>assets/videos/clients/dale_video_poster.webp">
+                                                <source src="<?=base_url()?>assets/videos/clients/WeboConnect_Testimonial.mp4" type="video/mp4">
                                             </video>
                                             <!-- <div class="">
                                                 <h5>Dale Parker, Founder, DelmarvaBIZ</h5>
@@ -98,8 +98,8 @@
 
                                     <div class="col-sm-6">
                                         <div class="testimonial_video_card">
-                                            <video controls="" name="media" poster="<?=base_url()?>assets/images/clients/icy_video_poster.webp">
-                                                <source src="<?=base_url()?>assets/images/clients/icy_testimonial.mp4" type="video/mp4">
+                                            <video controls="" name="media" poster="<?=base_url()?>assets/videos/clients/icy_video_poster.webp">
+                                                <source src="<?=base_url()?>assets/videos/clients/icy_testimonial.mp4" type="video/mp4">
                                             </video>
                                             <!-- <div class="">
                                                 <h5>Icy Williams, President & CEO, Legacy 83 Business</h5>
@@ -108,8 +108,8 @@
                                     </div>
                                     <div class="col-sm-6 mx-auto">
                                         <div class="testimonial_video_card">
-                                            <video controls="" name="media" poster="<?=base_url()?>assets/images/clients/david_video_poster.webp">
-                                                <source src="<?=base_url()?>assets/images/clients/david_testimonial.mp4" type="video/mp4" />
+                                            <video controls="" name="media" poster="<?=base_url()?>assets/videos/clients/david_video_poster.webp">
+                                                <source src="<?=base_url()?>assets/videos/clients/david_testimonial.mp4" type="video/mp4" />
                                             </video>
                                             <!-- <div class="">
                                                 <h5>David Criswell, President,ThinknDoNow</h5>

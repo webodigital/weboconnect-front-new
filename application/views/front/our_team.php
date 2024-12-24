@@ -54,61 +54,122 @@
     </div>
 
         <div class="row justify-content-center g-4 g-lg-5 mt-5">
-          <div class="col-6 col-lg-3">
-            <div class="our_team_card">
-              <div class="our_team_img">
-                <img class="" src="<?= base_url() ?>assets/images/our_team/sarvesh_chauhan.webp" alt="Gaurav" />
-              </div>
-              <div class="team_leader_content">
-                <div>
-                  <h5 class="fs-18 fw-600">Sarvesh chauhan</h5>
-                  <h6 class="fs-14 fw-400">Technical Team Lead</h6>
-                </div>
-              </div>
-            </div>
-          </div>
 
           <div class="col-6 col-lg-3">
             <div class="our_team_card">
               <div class="our_team_img">
-                <img class="" src="<?= base_url() ?>assets/images/our_team/dinesh_kumawat.webp" alt="Rajiv" />
+                <img class="" src="<?= base_url() ?>assets/images/our_team/md_taqi.webp" alt="Mohammad Taqi Noor" />
               </div>
-              <div class="team_leader_content">
-                <div>
-                  <h5 class="fs-18 fw-600">Dinesh Kumawat</h5>
-                  <h6 class="fs-14 fw-400">PHP Developer</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-6 col-lg-3">
-            <div class="our_team_card">
-              <div class="our_team_img">
-                <img class="" src="<?= base_url() ?>assets/images/our_team/md_taqi.webp" alt="Gaurav" />
-              </div>
-              <div class="team_leader_content">
+              <!-- <div class="team_leader_content">
                 <div>
                   <h5 class="fs-18 fw-600">Mohammad Taqi Noor</h5>
                   <h6 class="fs-14 fw-400">PHP Developer</h6>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
-          
-          <div class="col-6 col-lg-3">
-            <div class="our_team_card">
-              <div class="our_team_img">
-                <img class="" src="<?= base_url() ?>assets/images/our_team/gaurav_jani.webp" alt="Gaurav" />
-              </div>
-              <div class="team_leader_content">
-                <div>
-                  <h5 class="fs-18 fw-600">Gaurav jani</h5>
-                  <h6 class="fs-14 fw-400">Sr IOS Developer</h6>
-                </div>
-              </div>
-              </div>
+
+        
+        <div class="col-6 col-lg-3">
+          <div class="our_team_card">
+            <div class="our_team_img">
+              <img class="" src="<?= base_url() ?>assets/images/our_team/subham_muneshwar.webp" alt="Subham Muneshwar" />
             </div>
+            <!-- <div class="team_leader_content">
+              <div>
+                <h5 class="fs-18 fw-600">Subham Muneshwar</h5>
+                <h6 class="fs-14 fw-400">Mern Stack Developer</h6>
+              </div>
+            </div> -->
+          </div>
+        </div>
+
+
+        <div class="col-6 col-lg-3">
+          <div class="our_team_card">
+            <div class="our_team_img">
+              <img class="" src="<?= base_url() ?>assets/images/our_team/atul_mathur.webp" alt="Atul Mathur" />
+            </div>
+            <!-- <div class="team_leader_content">
+              <div>
+                <h5 class="fs-18 fw-600">Atul Mathur</h5>
+                <h6 class="fs-14 fw-400">Sr Android Developer</h6>
+              </div>
+            </div> -->
+          </div>
+        </div>          
+          
+        <div class="col-6 col-lg-3">
+          <div class="our_team_card">
+            <div class="our_team_img">
+              <img class="" src="<?= base_url() ?>assets/images/our_team/gaurav_jani.webp" alt="Gaurav jani" />
+            </div>
+            <!-- <div class="team_leader_content">
+              <div>
+                <h5 class="fs-18 fw-600">Gaurav jani</h5>
+                <h6 class="fs-14 fw-400">Sr IOS Developer</h6>
+              </div>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <div class="our_team_card">
+            <div class="our_team_img">
+              <img class="" src="<?= base_url() ?>assets/images/our_team/sunny_kumar.webp" alt="Sunny Kumar" />
+            </div>
+            <!-- <div class="team_leader_content">
+              <div>
+                <h5 class="fs-18 fw-600">Sunny Kumar</h5>
+                <h6 class="fs-14 fw-400">Software Tester (QA)</h6>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      
+        <div class="col-6 col-lg-3">
+          <div class="our_team_card">
+            <div class="our_team_img">
+              <img class="" src="<?= base_url() ?>assets/images/our_team/prabhas_raman.webp" alt="Prabhash Raman" />
+            </div>
+            <!-- <div class="team_leader_content">
+              <div>
+                <h5 class="fs-18 fw-600">Prabhash Raman</h5>
+                <h6 class="fs-14 fw-400">Project Head</h6>
+              </div>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <div class="our_team_card">
+            <div class="our_team_img">
+              <img class="" src="<?= base_url() ?>assets/images/our_team/pooja_kumari.webp" alt="Pooja Kumari" />
+            </div>
+            <!-- <div class="team_leader_content">
+              <div>
+                <h5 class="fs-18 fw-600">Pooja Kumari</h5>
+                <h6 class="fs-14 fw-400">HR Manager</h6>
+              </div>
+            </div> -->
+          </div>
+        </div>
+
+
+        <div class="col-6 col-lg-3">
+          <div class="our_team_card">
+            <div class="our_team_img">
+              <img class="" src="<?= base_url() ?>assets/images/our_team/abhishek_rathi.webp" alt="Abhishek Rathi" />
+            </div>
+            <!-- <div class="team_leader_content">
+              <div>
+                <h5 class="fs-18 fw-600">Abhishek Rathi</h5>
+                <h6 class="fs-14 fw-400">Sr IOS Developer</h6>
+              </div>
+            </div> -->
+          </div>
+        </div>
+
         </div>
   </div>
 </section>
@@ -135,368 +196,297 @@
         <h2 class="fs-30 fw-600 text_brand_color1">Our Seniors</h2>
       </div>
 
-      <div class="row justify-content-center g-4 g-lg-5 mt-5">
-        <div class="col-6 col-lg-3">
-          <div class="our_team_card">
-            <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/dolly.webp" alt="Gaurav" />
-            </div>
-            <div class="team_leader_content">
-              <div>
-                <h5 class="fs-18 fw-600">Dolly Kumari</h5>
-                <h6 class="fs-14 fw-400">Mern Stack Developer</h6>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="row justify-content-center justify-content-lg-start g-4 g-lg-5 mt-5">
 
         <div class="col-6 col-lg-3">
           <div class="our_team_card">
             <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/yogesh_pratap_singh.webp" alt="Rajiv" />
+              <img class="" src="<?= base_url() ?>assets/images/our_team/gagan_aggarwa.webp" alt="Gagan Aggarwa" />
             </div>
-            <div class="team_leader_content">
-              <div>
-                <h5 class="fs-18 fw-600">Yogesh Pratap Singh</h5>
-                <h6 class="fs-14 fw-400">PHP Developer</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-6 col-lg-3">
-          <div class="our_team_card">
-            <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/arun_singh.webp" alt="Gaurav" />
-            </div>
-            <div class="team_leader_content">
-              <div>
-                <h5 class="fs-18 fw-600">Arun Singh</h5>
-                <h6 class="fs-14 fw-400">Graphics Designer</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-6 col-lg-3">
-          <div class="our_team_card">
-            <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/surbhi_gupta.webp" alt="Gaurav" />
-            </div>
-            <div class="team_leader_content">
-              <div>
-              <h5 class="fs-18 fw-600">Surbhi Gupta</h5>
-                <h6 class="fs-14 fw-400">Android Developer</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-6 col-lg-3">
-          <div class="our_team_card">
-            <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/subham_muneshwar.webp" alt="Gaurav" />
-            </div>
-            <div class="team_leader_content">
-              <div>
-                <h5 class="fs-18 fw-600">Subham Muneshwar</h5>
-                <h6 class="fs-14 fw-400">Mern Stack Developer</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-6 col-lg-3">
-          <div class="our_team_card">
-            <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/sanjeev_sajjan.webp" alt="Gaurav" />
-            </div>
-            <div class="team_leader_content">
-              <div>
-                <h5 class="fs-18 fw-600">Sanjeev sajjan</h5>
-                <h6 class="fs-14 fw-400">UI/UX Designer</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-6 col-lg-3">
-          <div class="our_team_card">
-            <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/dhuti_solanki.webp" alt="Gaurav" />
-            </div>
-            <div class="team_leader_content">
-              <div>
-                <h5 class="fs-18 fw-600">Dhruti Solanki</h5>
-                <h6 class="fs-14 fw-400">IOS Developer</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-6 col-lg-3">
-          <div class="our_team_card">
-            <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/gagan_aggarwa.webp" alt="Gaurav" />
-            </div>
-            <div class="team_leader_content">
+            <!-- <div class="team_leader_content">
               <div>
                 <h5 class="fs-18 fw-600">Gagan Aggarwa</h5>
                 <h6 class="fs-14 fw-400">Mern Stack Developer</h6>
               </div>
-            </div>
-          </div>
-        </div>
-        
-
-      </div>
-  </div>
-</section>
-
-
-<section class="section_padding" style="background:#EBF1F5;">
-  <div class="container">
-      <div class="text-center">
-        <h2 class="fs-30 fw-600 text_brand_color1">Our Team</h2>
-      </div>
-
-      <div class="row justify-content-center g-4 g-lg-5 mt-5">
-        <div class="col-6 col-lg-3">
-          <div class="our_team_card">
-            <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/sani_yadav.webp" alt="Gaurav" />
-            </div>
-            <div class="team_leader_content">
-              <div>
-                <h5 class="fs-18 fw-600">Sani Yadav</h5>
-                <h6 class="fs-14 fw-400">Native developer</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-6 col-lg-3">
-          <div class="our_team_card">
-            <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/kartikey_sharma.webp" alt="Gaurav" />
-            </div>
-            <div class="team_leader_content">
-              <div>
-                <h5 class="fs-18 fw-600">Kartikey Sharma</h5>
-                <h6 class="fs-14 fw-400">Content Writer Intern</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-6 col-lg-3">
-          <div class="our_team_card">
-            <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/mohit_anand.webp" alt="Gaurav" />
-            </div>
-            <div class="team_leader_content">
-              <div>
-                <h5 class="fs-18 fw-600">Mohit Anand</h5>
-                <h6 class="fs-14 fw-400">Fronted developer</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-6 col-lg-3">
-          <div class="our_team_card">
-            <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/saqib_farooq.webp" alt="Gaurav" />
-            </div>
-            <div class="team_leader_content">
-              <div>
-                <h5 class="fs-18 fw-600">Saqib Farooq</h5>
-                <h6 class="fs-14 fw-400">Digital Marketing Executive</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        
-        <div class="col-6 col-lg-3">
-          <div class="our_team_card">
-            <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/komal_bohra.webp" alt="Gaurav" />
-            </div>
-            <div class="team_leader_content">
-              <div>
-                <h5 class="fs-18 fw-600">KomaL Bohra</h5>
-                <h6 class="fs-14 fw-400">Ios Developer</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-6 col-lg-3">
-          <div class="our_team_card">
-            <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/sanket_patel.webp" alt="Gaurav" />
-            </div>
-            <div class="team_leader_content">
-              <div>
-                <h5 class="fs-18 fw-600">sanket patel</h5>
-                <h6 class="fs-14 fw-400">UX/UI designer</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-6 col-lg-3">
-          <div class="our_team_card">
-            <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/divya_bhardwaj.webp" alt="Gaurav" />
-            </div>
-            <div class="team_leader_content">
-              <div>
-                <h5 class="fs-18 fw-600">Divya Bhardwaj</h5>
-                <h6 class="fs-14 fw-400">HR</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-6 col-lg-3">
-          <div class="our_team_card">
-            <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/prabhas_raman.webp" alt="Gaurav" />
-            </div>
-            <div class="team_leader_content">
-              <div>
-                <h5 class="fs-18 fw-600">Prabhash Raman</h5>
-                <h6 class="fs-14 fw-400">Project Head</h6>
-              </div>
-            </div>
+            </div> -->
           </div>
         </div>
 
         <div class="col-6 col-lg-3">
           <div class="our_team_card">
             <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/md_danish_hussain.webp" alt="Gaurav" />
+              <img class="" src="<?= base_url() ?>assets/images/our_team/swapnil_lengure.webp" alt="Swapnil Lengure" />
             </div>
-            <div class="team_leader_content">
-              <div>
-                <h5 class="fs-18 fw-600">MD Danish Hussain</h5>
-                <h6 class="fs-14 fw-400">SEO Executive</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-6 col-lg-3">
-          <div class="our_team_card">
-            <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/swapnil_lengure.webp" alt="Gaurav" />
-            </div>
-            <div class="team_leader_content">
+            <!-- <div class="team_leader_content">
               <div>
                 <h5 class="fs-18 fw-600">Swapnil Lengure</h5>
                 <h6 class="fs-14 fw-400">Android Developer</h6>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
 
         <div class="col-6 col-lg-3">
           <div class="our_team_card">
             <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/pooja_kumari.webp" alt="Gaurav" />
+              <img class="" src="<?= base_url() ?>assets/images/our_team/yogesh_pratap_singh.webp" alt="Yogesh Pratap Singh" />
             </div>
-            <div class="team_leader_content">
+            <!-- <div class="team_leader_content">
               <div>
-                <h5 class="fs-18 fw-600">Pooja Kumari</h5>
-                <h6 class="fs-14 fw-400">HR Manager</h6>
+                <h5 class="fs-18 fw-600">Yogesh Pratap Singh</h5>
+                <h6 class="fs-14 fw-400">PHP Developer</h6>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
 
         <div class="col-6 col-lg-3">
           <div class="our_team_card">
             <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/venkateswaran_g.webp" alt="Gaurav" />
+              <img class="" src="<?= base_url() ?>assets/images/our_team/sarvesh_chauhan.webp" alt="Sarvesh chauhan" />
             </div>
-            <div class="team_leader_content">
+            <!-- <div class="team_leader_content">
+              <div>
+                <h5 class="fs-18 fw-600">Sarvesh chauhan</h5>
+                <h6 class="fs-14 fw-400">Technical Team Lead</h6>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        
+        <div class="col-6 col-lg-3">
+          <div class="our_team_card">
+            <div class="our_team_img">
+              <img class="" src="<?= base_url() ?>assets/images/our_team/saqib_farooq.webp" alt="Saqib Farooq" />
+            </div>
+            <!-- <div class="team_leader_content">
+              <div>
+                <h5 class="fs-18 fw-600">Saqib Farooq</h5>
+                <h6 class="fs-14 fw-400">Digital Marketing Executive</h6>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        
+        <div class="col-6 col-lg-3">
+          <div class="our_team_card">
+            <div class="our_team_img">
+              <img class="" src="<?= base_url() ?>assets/images/our_team/sanket_patel.webp" alt="sanket patel" />
+            </div>
+            <!-- <div class="team_leader_content">
+              <div>
+                <h5 class="fs-18 fw-600">sanket patel</h5>
+                <h6 class="fs-14 fw-400">UX/UI designer</h6>
+              </div>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <div class="our_team_card">
+            <div class="our_team_img">
+              <img class="" src="<?= base_url() ?>assets/images/our_team/dolly.webp" alt="Dolly Kumari" />
+            </div>
+            <!-- <div class="team_leader_content">
+              <div>
+                <h5 class="fs-18 fw-600">Dolly Kumari</h5>
+                <h6 class="fs-14 fw-400">Mern Stack Developer</h6>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        
+        <div class="col-6 col-lg-3">
+          <div class="our_team_card">
+            <div class="our_team_img">
+              <img class="" src="<?= base_url() ?>assets/images/our_team/surbhi_gupta.webp" alt="Surbhi Gupta" />
+            </div>
+            <!-- <div class="team_leader_content">
+              <div>
+              <h5 class="fs-18 fw-600">Surbhi Gupta</h5>
+                <h6 class="fs-14 fw-400">Android Developer</h6>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        
+        <div class="col-6 col-lg-3">
+          <div class="our_team_card">
+            <div class="our_team_img">
+              <img class="" src="<?= base_url() ?>assets/images/our_team/komal_bohra.webp" alt="KomaL Bohra" />
+            </div>
+            <!-- <div class="team_leader_content">
+              <div>
+                <h5 class="fs-18 fw-600">KomaL Bohra</h5>
+                <h6 class="fs-14 fw-400">Ios Developer</h6>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        
+        <div class="col-6 col-lg-3">
+          <div class="our_team_card">
+            <div class="our_team_img">
+              <img class="" src="<?= base_url() ?>assets/images/our_team/divya_bhardwaj.webp" alt="Divya Bhardwaj" />
+            </div>
+            <!-- <div class="team_leader_content">
+              <div>
+                <h5 class="fs-18 fw-600">Divya Bhardwaj</h5>
+                <h6 class="fs-14 fw-400">HR</h6>
+              </div>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <div class="our_team_card">
+            <div class="our_team_img">
+              <img class="" src="<?= base_url() ?>assets/images/our_team/sani_yadav.webp" alt="Sani Yadav" />
+            </div>
+            <!-- <div class="team_leader_content">
+              <div>
+                <h5 class="fs-18 fw-600">Sani Yadav</h5>
+                <h6 class="fs-14 fw-400">Native developer</h6>
+              </div>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <div class="our_team_card">
+            <div class="our_team_img">
+              <img class="" src="<?= base_url() ?>assets/images/our_team/arun_singh.webp" alt="Arun Singh" />
+            </div>
+            <!-- <div class="team_leader_content">
+              <div>
+                <h5 class="fs-18 fw-600">Arun Singh</h5>
+                <h6 class="fs-14 fw-400">Graphics Designer</h6>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        
+        <div class="col-6 col-lg-3">
+          <div class="our_team_card">
+            <div class="our_team_img">
+              <img class="" src="<?= base_url() ?>assets/images/our_team/md_danish_hussain.webp" alt="MD Danish Hussain" />
+            </div>
+            <!-- <div class="team_leader_content">
+              <div>
+                <h5 class="fs-18 fw-600">MD Danish Hussain</h5>
+                <h6 class="fs-14 fw-400">SEO Executive</h6>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        
+        <div class="col-6 col-lg-3">
+          <div class="our_team_card">
+            <div class="our_team_img">
+              <img class="" src="<?= base_url() ?>assets/images/our_team/dinesh_kumawat.webp" alt="Dinesh Kumawat" />
+            </div>
+            <!-- <div class="team_leader_content">
+              <div>
+                <h5 class="fs-18 fw-600">Dinesh Kumawat</h5>
+                <h6 class="fs-14 fw-400">PHP Developer</h6>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        
+        <div class="col-6 col-lg-3">
+          <div class="our_team_card">
+            <div class="our_team_img">
+              <img class="" src="<?= base_url() ?>assets/images/our_team/mohit_anand.webp" alt="Mohit Anand" />
+            </div>
+            <!-- <div class="team_leader_content">
+              <div>
+                <h5 class="fs-18 fw-600">Mohit Anand</h5>
+                <h6 class="fs-14 fw-400">Fronted developer</h6>
+              </div>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <div class="our_team_card">
+            <div class="our_team_img">
+              <img class="" src="<?= base_url() ?>assets/images/our_team/venkateswaran_g.webp" alt="Venkateswaran G" />
+            </div>
+            <!-- <div class="team_leader_content">
               <div>
                 <h5 class="fs-18 fw-600">Venkateswaran G</h5>
                 <h6 class="fs-14 fw-400">Sr Php Developer</h6>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
 
         <div class="col-6 col-lg-3">
           <div class="our_team_card">
             <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/abhishek_rathi.webp" alt="Gaurav" />
+              <img class="" src="<?= base_url() ?>assets/images/our_team/dhuti_solanki.webp" alt="Dhuti Solanki" />
             </div>
-            <div class="team_leader_content">
+            <!-- <div class="team_leader_content">
               <div>
-                <h5 class="fs-18 fw-600">Abhishek Rathi</h5>
-                <h6 class="fs-14 fw-400">Sr IOS Developer</h6>
+                <h5 class="fs-18 fw-600">Dhuti Solanki</h5>
+                <h6 class="fs-14 fw-400">IOS Developer</h6>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
-
+      
         <div class="col-6 col-lg-3">
           <div class="our_team_card">
             <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/atul_mathur.webp" alt="Gaurav" />
+              <img class="" src="<?= base_url() ?>assets/images/our_team/shashwat_chowdhury.webp" alt="Shashwat Chowdhury" />
             </div>
-            <div class="team_leader_content">
-              <div>
-                <h5 class="fs-18 fw-600">Atul Mathur</h5>
-                <h6 class="fs-14 fw-400">Sr Android Developer</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-6 col-lg-3">
-          <div class="our_team_card">
-            <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/shashwat_chowdhury.webp" alt="Gaurav" />
-            </div>
-            <div class="team_leader_content">
+            <!-- <div class="team_leader_content">
               <div>
                 <h5 class="fs-18 fw-600">Shashwat Chowdhury</h5>
                 <h6 class="fs-14 fw-400">Sales Manager</h6>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
 
         <div class="col-6 col-lg-3">
           <div class="our_team_card">
             <div class="our_team_img">
-              <img class="" src="<?= base_url() ?>assets/images/our_team/sunny_kumar.webp" alt="Gaurav" />
+              <img class="" src="<?= base_url() ?>assets/images/our_team/anirban_karmakar.webp" alt="Anirban Karmakar" />
             </div>
-            <div class="team_leader_content">
+            <!-- <div class="team_leader_content">
               <div>
-                <h5 class="fs-18 fw-600">Sunny Kumar</h5>
-                <h6 class="fs-14 fw-400">Software Tester (QA)</h6>
+                <h5 class="fs-18 fw-600">Anirban Karmakar</h5>
+                <h6 class="fs-14 fw-400">Mern Stack Developer</h6>
               </div>
+            </div> -->
+          </div>
+        </div>
+         
+        <div class="col-6 col-lg-3">
+          <div class="our_team_card">
+            <div class="our_team_img">
+              <img class="" src="<?= base_url() ?>assets/images/our_team/aakash_kumar.webp" alt="aakash kumar" />
             </div>
           </div>
         </div>
 
+
       </div>
+
   </div>
 </section>
 
-<section class="section_padding pg_bnr bg-white back_cover" style="background-image: url('<?= base_url() ?>assets/images/pg_bnr/our_team.webp');">
+
+
+<section class="section_padding pg_bnr bg-white back_cover" style="background-image: url('<?= base_url() ?>assets/images/pg_bnr/h_d_r.webp');">
     <div class="container">
         <div class="row align-items-center justify-content-end">
             <div class="col-lg-5">
                 <div class="text-center text-lg-end">
                     <h2 class="fs-24 fw-700 text-white">Partner with us to work with the best dedicated developers in the industry.</h2>
-                    <a href="<?= base_url() ?>contact" class="btn btn-primary-gradient btn-rounded px-5">Join Our Team</a>
+                    <a href="<?= base_url() ?>hire-dedicated-resources" class="btn btn-primary-gradient btn-rounded px-5">Hire Us</a>
                 </div>
             </div>
         </div>

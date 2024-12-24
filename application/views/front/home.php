@@ -155,7 +155,7 @@
               <img class="light" src="<?=base_url()?>assets/images/icons/completed_projects.webp" alt="Successfully Delivered">
               <img class="dark" src="<?=base_url()?>assets/images/icons/dark_completed_projects.webp" alt="Successfully Delivered">
             </span>
-            <div class="stat-number" data-target="8">250+</div>
+            <div class="stat-number" data-target="250">250+</div>
           </div>
             <p class="fs-16 fw-600">Successfully Delivered</p>
           </div>
@@ -170,7 +170,7 @@
                 <img class="light" src="<?=base_url()?>assets/images/icons/yrs_experiences.webp" alt="Years of Excellence">
                 <img class="dark" src="<?=base_url()?>assets/images/icons/dark_yrs_experiences.webp" alt="Years of Excellence">
               </span>
-              <div class="stat-number" data-target="97">8+</div>
+              <div class="stat-number" data-target="8">8+</div>
             </div>
             <p class="fs-16 fw-600">Years of Excellence</p>
           </div>
@@ -185,7 +185,7 @@
                 <img class="light" src="<?=base_url()?>assets/images/icons/client_retention.webp" alt="client retention">
                 <img class="dark" src="<?=base_url()?>assets/images/icons/dark_client_retention.webp" alt="client retention">
               </span>
-              <div class="stat-number" data-target="250">97%</div>
+              <div class="stat-number" data-target="97">97%</div>
             </div>
             <p class="fs-16 fw-600">Client Retention</p>
           </div>
