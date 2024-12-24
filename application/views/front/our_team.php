@@ -480,13 +480,13 @@
 
 
 
-<section class="section_padding pg_bnr bg-white back_cover" style="background-image: url('<?= base_url() ?>assets/images/pg_bnr/our_team.webp');">
+<section class="section_padding pg_bnr bg-white back_cover" style="background-image: url('<?= base_url() ?>assets/images/pg_bnr/h_d_r.webp');">
     <div class="container">
         <div class="row align-items-center justify-content-end">
             <div class="col-lg-5">
                 <div class="text-center text-lg-end">
                     <h2 class="fs-24 fw-700 text-white">Partner with us to work with the best dedicated developers in the industry.</h2>
-                    <a href="<?= base_url() ?>contact" class="btn btn-primary-gradient btn-rounded px-5">Join Our Team</a>
+                    <a href="<?= base_url() ?>hire-dedicated-resources" class="btn btn-primary-gradient btn-rounded px-5">Hire Us</a>
                 </div>
             </div>
         </div>
