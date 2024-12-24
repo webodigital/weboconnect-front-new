@@ -50,23 +50,22 @@
                                 <span class="label label-info text-sm">*For instant publish leave it empty</span>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="sponsor">Choose a Sponsor:</label>
-                                <!-- <select name="sponsor" id="sponsor" class="form-control" value="<?php echo $blog->publish_time; ?>">
-                                    <?php if (!empty($sponsors)) : ?>
-                                        <?php foreach ($sponsors as $sponsor) : ?>
-                                            <?php
-                                            if (is_array($sponsor) && isset($sponsor['id']) && isset($sponsor['name'])) : ?>
-                                                <option value="<?php echo htmlspecialchars($sponsor['id']); ?>">
-                                                    <?php echo htmlspecialchars($sponsor['name']); ?>
-                                                </option>
-                                            <?php else : ?>
-                                                <option disabled>Error: Invalid sponsor data</option>
-                                            <?php endif; ?>
+                                <label for="sponsor">Choose a Category:</label>
+                                <select name="category" id="category" class="form-control">
+                                    <option value="">Select your Category...</option>
+                                    <?php if (!empty($categories)) : ?>
+                                        <?php foreach ($categories as $key => $category) : ?>
+                                            <option value="<?php echo htmlspecialchars($key); ?>" <?php echo (isset($blog->category) && $blog->category == $key) ? 'selected' : ''; ?>>
+                                                <?php echo htmlspecialchars($category); ?>
+                                            </option>
                                         <?php endforeach; ?>
                                     <?php else : ?>
-                                        <option disabled>No sponsors available</option>
+                                        <option disabled>No category available</option>
                                     <?php endif; ?>
-                                </select> -->
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="sponsor">Choose a Sponsor:</label>
                                 <select name="sponsor" id="sponsor" class="form-control">
                                     <?php if (!empty($sponsors)) : ?>
                                         <?php foreach ($sponsors as $sponsor) : ?>

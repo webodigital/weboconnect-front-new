@@ -252,4 +252,53 @@ class BlogModel extends CI_Model
                           ->get();
         return $query->result_array();
     }
+
+    public function getFilteredBlogs($category, $limit, $start, $exclude_id = null)
+    {
+        // Select columns and join users table for author name
+        $this->db->select('blogs.*, users.name AS author_name');
+        $this->db->from('blogs');
+        $this->db->join('users', 'users.id = blogs.user_id', 'left'); // Use 'left' join to include blogs without authors if needed
+
+        
+        $this->db->where('status', 'publish');
+        $this->db->order_by('blogs.created_at', 'DESC');
+
+        // Exclude a specific blog ID, if provided
+        if ($exclude_id !== null) {
+            $this->db->where('blogs.id !=', $exclude_id);
+        }
+
+        // Filter by category if not "all"
+        if ($category !== 'all') {
+            $this->db->where('blogs.category', $category);
+        }
+
+        // Limit results for pagination
+        if ($limit > 0) {
+            $this->db->limit($limit, $start);
+        }
+
+        // Execute query
+        $query = $this->db->get();
+        $result = $query->result();
+
+        // Strip tags from blog content
+        foreach ($result as &$blog) {
+            $blog->content = strip_tags($blog->content);
+        }
+
+        return $result;
+    }
+
+
+    public function getFilteredBlogCount($category)
+    {
+        if ($category !== 'all') {
+            $this->db->where('category', $category);
+        }
+        return $this->db->count_all_results('blogs');
+    }
+
+
 }

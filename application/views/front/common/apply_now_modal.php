@@ -14,14 +14,14 @@
                             <h2 class="fs-20 fw-600" id="modal-job-position">Mern Stack Developer</h2>
                             <div class="row">
                               <div class="col">
-                                <h4 class="fs-18 fw-500" id="modal-job-experience">Experience: 2 - 5 Years</h4>
+                                <h4 class="fs-18 fw-500" id="modal-job-experience">Experience: <span>2 - 5 Years</span></h4>
                               </div>
                               <div class="col">
-                                <h4 class="fs-18 fw-500" id="modal-job-posted-date">Posted on: 18 Dec 2024</h4>
+                                <h4 class="fs-18 fw-500" id="modal-job-posted-date">Posted on: <span>18 Dec 2024</span></h4>
                               </div>
                             </div>
                         </div>
-                        <form method="post" id="careers_form" action="javascript:void(0);">
+                        <form method="post" id="careers_form" action="javascript:void(0);" enctype="multipart/form-data">
 
                             <div class="row g-4 justify-content-between align-items-center">
                                 <div class="col-sm-6">

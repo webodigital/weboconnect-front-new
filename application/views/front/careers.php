@@ -102,7 +102,7 @@
                           </div>
 
                           <div class="col-12 mt-4">
-                            <button class="btn btn-outline-primary btn-rounded px-5" data-bs-toggle="modal" data-bs-target="#apply_now_modal">Apply</button>
+                            <button class="btn btn-outline-primary btn-rounded px-5" data-bs-toggle="modal" data-bs-target="#apply_now_modal" data-job-position="Mern Stack Developer" data-job-experience="2 - 5 Years" data-job-posted-date="18 Dec 2024">Apply</button>
                           </div>
                         </div>
                         
@@ -169,7 +169,7 @@
                           </div>
 
                           <div class="col-12 mt-4">
-                            <button class="btn btn-outline-primary btn-rounded px-5" data-bs-toggle="modal" data-bs-target="#apply_now_modal">Apply</button>
+                            <button class="btn btn-outline-primary btn-rounded px-5" data-bs-toggle="modal" data-bs-target="#apply_now_modal" data-job-position="PHP Developer" data-job-experience="1 - 5 Years" data-job-posted-date="18 Dec 2024">Apply</button>
                           </div>
                         </div>
                         
@@ -239,7 +239,7 @@
                           </div>
 
                           <div class="col-12 mt-4">
-                          <button class="btn btn-outline-primary btn-rounded px-5" data-bs-toggle="modal" data-bs-target="#apply_now_modal">Apply</button>
+                          <button class="btn btn-outline-primary btn-rounded px-5" data-bs-toggle="modal" data-bs-target="#apply_now_modal" data-job-position="WordPress Developer" data-job-experience="2 - 4 Years" data-job-posted-date="18 Dec 2024">Apply</button>
                           </div>
                         </div>
                         
@@ -281,9 +281,5 @@
 
 </body> 
 <?php $this->load->view('front/common/script') ?>
-
-
-
-
 
 </html>

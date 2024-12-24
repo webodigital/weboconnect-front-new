@@ -45,6 +45,21 @@
                                 <span class="label label-info text-sm">*For instant publish leave it empty</span>
                             </div>
                             <div class="form-group col-md-6">
+                                <label for="sponsor">Choose a Category:</label>
+                                <select name="category" id="category" class="form-control">
+                                    <option value="">Select your Category...</option>
+                                    <?php if (!empty($categories)) : ?>
+                                        <?php foreach ($categories as $key => $category) : ?>
+                                            <option value="<?php echo htmlspecialchars($key); ?>">
+                                                <?php echo htmlspecialchars($category); ?>
+                                            </option>
+                                        <?php endforeach; ?>
+                                    <?php else : ?>
+                                        <option disabled>No category available</option>
+                                    <?php endif; ?>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6">
                                 <label for="sponsor">Choose a Sponsor:</label>
                                 <select name="sponsor" id="sponsor" class="form-control">
                                     <option value="">Select your sponsor...</option>

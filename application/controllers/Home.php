@@ -89,7 +89,66 @@ class Home extends CI_Controller {
 
 		$this->load->view('front/case_study_details', $data);
 	}
-	public function blogs()
+
+    public function blogs($page = 0)
+    {
+        $this->load->library('pagination');
+        $this->load->model('BlogModel');
+
+        // Get the category from the query string (default to 'all')
+        $category = $this->input->get('category') ?? 'all';
+
+        $config = array();
+        $config['base_url'] = site_url('blogs'); // Base URL for pagination
+        $config['total_rows'] = $this->BlogModel->getFilteredBlogCount($category);
+        $config['per_page'] = 9;
+        $config['uri_segment'] = 2;
+        $config['reuse_query_string'] = TRUE; // Retain query strings in pagination links
+
+        // Pagination configuration (Bootstrap 4)
+        $config['full_tag_open'] = '<nav><ul class="pagination">';
+        $config['full_tag_close'] = '</ul></nav>';
+        $config['first_link'] = 'First';
+        $config['last_link'] = 'Last';
+        $config['first_tag_open'] = '<li class="page-item"><span class="page-link">';
+        $config['first_tag_close'] = '</span></li>';
+        $config['prev_link'] = '&laquo';
+        $config['prev_tag_open'] = '<li class="page-item"><span class="page-link">';
+        $config['prev_tag_close'] = '</span></li>';
+        $config['next_link'] = '&raquo';
+        $config['next_tag_open'] = '<li class="page-item"><span class="page-link">';
+        $config['next_tag_close'] = '</span></li>';
+        $config['cur_tag_open'] = '<li class="page-item active"><span class="page-link">';
+        $config['cur_tag_close'] = '</span></li>';
+        $config['num_tag_open'] = '<li class="page-item"><span class="page-link">';
+        $config['num_tag_close'] = '</span></li>';
+
+        $this->pagination->initialize($config);
+
+        // Fetch blogs based on filter and pagination
+        $data['blogs'] = $this->BlogModel->getFilteredBlogs($category, $config['per_page'], $page);
+        $data['pagination'] = $this->pagination->create_links();
+
+        // Pass available categories to the view
+        $data['categories'] = [
+            'emerging_tech_trends' => 'Emerging Tech & Trends',
+            'solutions_best_practices' => 'Solutions & Best Practices',
+            'cybersecurity' => 'Cybersecurity',
+            'tech_specific_industries' => 'Tech for Specific Industries',
+            'thought_leadership_innovation' => 'Thought Leadership & Innovation',
+            'educational' => 'Educational',
+            'hire_dedicated_resources' => 'Hire Dedicated Resources',
+            'app_development' => 'App Development',
+            'web_development' => 'Web Development',
+            'language_based_apps' => 'Language-Based Apps'
+        ];
+
+        $data['selected_category'] = $category; // To retain the selected category in the dropdown or buttons
+
+        $this->load->view('front/blogs', $data);
+    }
+
+	public function blogs_main()
 	{
 		$this->load->library('pagination');
         $this->load->model('BlogModel');
@@ -126,6 +185,19 @@ class Home extends CI_Controller {
 
         $data['blogs'] = $this->BlogModel->getBlogs($config['per_page'], $page);
         $data['pagination'] = $this->pagination->create_links();
+
+        $data['categories'] = [
+            'emerging_tech_trends' => 'Emerging Tech & Trends',
+            'solutions_best_practices' => 'Solutions & Best Practices',
+            'cybersecurity' => 'Cybersecurity',
+            'tech_specific_industries' => 'Tech for Specific Industries',
+            'thought_leadership_innovation' => 'Thought Leadership & Innovation',
+            'educational' => 'Educational',
+            'hire_dedicated_resources' => 'Hire Dedicated Resources',
+            'app_development' => 'App Development',
+            'web_development' => 'Web Development',
+            'language_based_apps' => 'Language Based Apps'
+        ];
 
 		$this->load->view('front/blogs', $data);
 	}
@@ -409,7 +481,8 @@ class Home extends CI_Controller {
         header("Content-type: application/json; charset=utf-8");
 
         $job_title = $this->input->post('job_title');
-        $name = $this->input->post('name');
+        $first_name = $this->input->post('first_name');
+        $last_name = $this->input->post('last_name');
         $email = $this->input->post('email');
         $phone = $this->input->post('phone');
         $message = $this->input->post('message');
@@ -419,25 +492,27 @@ class Home extends CI_Controller {
         $error = [];
         if (empty($job_title))
             $error['job'] = 'Please enter job title!';
-        if (empty($name))
-            $error['name'] = 'Please enter full name!';
+        if (empty($first_name))
+            $error['first_name'] = 'Please enter first name name!';
         if (empty($email))
             $error['email'] = 'Please enter email!';
-        if (empty($message))
-            $error['message'] = 'Please enter message!';
+        if (empty($phone))
+            $error['phone'] = 'Please enter phone number!';
+        //if (empty($message))
+            //$error['message'] = 'Please enter message!';
 		if (!$captcha)
             $error['captcha'] = 'Please check the captcha form.';
         
-        $tmp_name    = $_FILES['resume']['tmp_name']; // get the temporary file name of the file on the server 
-        $file_name        = $_FILES['resume']['name'];  // get the name of the file 
-        $size        = $_FILES['resume']['size'];  // get size of the file for size validation 
-        $file_type        = $_FILES['resume']['type'];  // get type of the file 
-        $file_error       = $_FILES['resume']['error']; // get the error (if any) 
+        $tmp_name         = $_FILES['myfile']['tmp_name']; // get the temporary file name of the file on the server 
+        $file_name        = $_FILES['myfile']['name'];  // get the name of the file 
+        $size             = $_FILES['myfile']['size'];  // get size of the file for size validation 
+        $file_type        = $_FILES['myfile']['type'];  // get type of the file 
+        $file_error       = $_FILES['myfile']['error']; // get the error (if any) 
       
         //validate form field for attaching the file 
         if($file_error > 0) 
         { 
-            $error['resume'] = 'Upload error or No files uploaded';
+            $error['myfile'] = 'Upload error or No files uploaded';
         } 
         
         if (!empty($error)) {
@@ -445,10 +520,10 @@ class Home extends CI_Controller {
         } else {
 			
             $data['job_title'] = $job_title;
-            $data['name'] = $name;
+            $data['name'] = $first_name.' '.$last_name;
             $data['email'] = $email;
             $data['phone'] = $phone;
-            $data['message'] = $message;
+            $data['message'] = $message??'No Message';
             
             //$body = $this->load->view('front/emailer/contactus',$data,TRUE);
             $this->load->database();
@@ -456,6 +531,16 @@ class Home extends CI_Controller {
 			$date = '%Y%m%d%h%i%s%a';
 			$time = time();
 			$new_name = mt_rand(100,999).mDate($date,$time);
+
+            $upload_path = "./uploads/careers";
+
+            // Ensure directories exist
+            if (!is_dir($upload_path)) {
+                if (!mkdir($upload_path, 0755, true)) {
+                    return ['s' => 'f', 'm' => 'Failed to create upload directory.'];
+                }
+            }
+
 			$config =  array(
 				'upload_path' => "./uploads/careers",
 				'allowed_types' => "txt|pdf|doc|docx",
@@ -465,7 +550,7 @@ class Home extends CI_Controller {
 
 			$this->load->library('upload', $config);
 			$this->upload->initialize($config);
-			if($this->upload->do_upload('resume'))
+			if($this->upload->do_upload('myfile'))
 			{   
 				$data['resume'] = $this->upload->data('file_name');
 				if ($this->Contact_Model->add('webo_careers',$data)) {
@@ -475,10 +560,10 @@ class Home extends CI_Controller {
 						$message .="<p><b>$key</b>:- $val</p>";
 					}*/
 					$message .='Job Title : '.$job_title.'--';
-					$message .='Name : '.$name.'--';
+					$message .='Name : '.$first_name.' '.$last_name.'--';
 					$message .='Email : '.$email.'--';
 					$message .='Phone  : '.$phone.'--';
-					$message .='Message: '.$data['message'].'--';
+					//$message .='Message: '.$data['message'].'--';
 					
 					$content = file_get_contents($tmp_name);
 					$content = chunk_split(base64_encode($content));
@@ -507,21 +592,22 @@ class Home extends CI_Controller {
 					$body .= "Content-Disposition: attachment" . $eol;
 					$body .= $content . $eol;
 					$body .= "--" . $separator . "--";
-					
-					if (mail('hr@weboconnect.com', 'Application for Job', $body, $headers)) {
-					//if (mail('info@weboconnect.com', 'Application for Job', $body, $headers)) {
+
+					//'info@weboconnect.com'
+					/*if (mail('hr@weboconnect.com', 'Application for Job', $body, $headers)) {
 						$result = ['s' => 's', 'm' => 'Thanks for Applying. We will contact you soon.'];
 						//echo "mail send ... OK"; // or use booleans here
 					} else {
-						$result = ['s' => 'f', 'error' => 'Something went wrong. Please try again.'];
-					// echo "mail send ... ERROR!";
+						$result = ['s' => 'f', 'error' => 'Something went wrong with email sending. Please try again.'];
+					   // echo "mail send ... ERROR!";
 						//print_r( error_get_last() );
-					}
-					
-					//mail('webo.phpdev@gmail.com', 'Application for Job', $body, $headers);
-				//$result = ['s' => 's', 'm' => 'Thanks for Applying. We will contact you soon.'];
-					//$this->send_mails($email, 'Thanks for contacting us', $body);
+					}*/
 
+                    if (mail('hr@weboconnect.com', 'Application for Job', $body, $headers)){
+
+                    }
+    
+                    $result = ['s' => 's', 'm' => 'Thanks for Applying. We will contact you soon.'];
 					
 				} else {
 					$result = ['s' => 'f', 'm' => 'Something went wrong. Please try again later.'];
@@ -543,7 +629,7 @@ class Home extends CI_Controller {
         $development = $this->input->post('development');
         $budget = $this->input->post('budget');
         $message = $this->input->post('message');
-        //$captcha = $this->captcha_verify();
+        $captcha = $this->captcha_verify();
 
         $error = [];
         if (empty($first_name))
@@ -559,8 +645,8 @@ class Home extends CI_Controller {
         if (empty($message))
             $error['message'] = 'Please enter message!';
         
-        /*if (!$captcha)
-            $error['captcha'] = 'Please check the captcha form.';*/
+        if (!$captcha)
+            $error['captcha'] = 'Please check the captcha form.';
 
         if (!empty($error)) {
             $result = ['s' => 'f', 'error' => $error];
@@ -650,7 +736,7 @@ class Home extends CI_Controller {
                 $this->send_mails($email, 'Thanks for submitting your requirements', $body);
     
     			$result = ['s' => 's', 'm' => 'Thank you for submitting your requirements. One of our representatives will be in touch shortly..'];
-			 } else {
+			} else {
                 $result = ['s' => 'f', 'm' => 'Something went wrong. Please try again later.'];
             }
         }

@@ -195,6 +195,18 @@ class Blog extends CI_Controller
 
     public function createBlog()
     {
+        $data['categories'] = [
+            'emerging_tech_trends' => 'Emerging Tech & Trends',
+            'solutions_best_practices' => 'Solutions & Best Practices',
+            'cybersecurity' => 'Cybersecurity',
+            'tech_specific_industries' => 'Tech for Specific Industries',
+            'thought_leadership_innovation' => 'Thought Leadership & Innovation',
+            'educational' => 'Educational',
+            'hire_dedicated_resources' => 'Hire Dedicated Resources',
+            'app_development' => 'App Development',
+            'web_development' => 'Web Development',
+            'language_based_apps' => 'Language Based Apps'
+        ];
         $data['title'] = 'Create Blog';
         $sponsors = $this->SponsorModel->getAllSponsors();
         $data['sponsors'] = $sponsors;
@@ -367,6 +379,7 @@ class Blog extends CI_Controller
                 'publish_time' => $this->input->post('publish_time'),
                 'meta_title' => $this->input->post('metatitle'),
                 'meta_description' => $this->input->post('metadescription'),
+                'category' => $this->input->post('category'),
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s'),
                 'user_id' => $user_id,
@@ -679,6 +692,18 @@ class Blog extends CI_Controller
 
     public function editBlog($id)
     {
+        $data['categories'] = [
+            'emerging_tech_trends' => 'Emerging Tech & Trends',
+            'solutions_best_practices' => 'Solutions & Best Practices',
+            'cybersecurity' => 'Cybersecurity',
+            'tech_specific_industries' => 'Tech for Specific Industries',
+            'thought_leadership_innovation' => 'Thought Leadership & Innovation',
+            'educational' => 'Educational',
+            'hire_dedicated_resources' => 'Hire Dedicated Resources',
+            'app_development' => 'App Development',
+            'web_development' => 'Web Development',
+            'language_based_apps' => 'Language Based Apps'
+        ];
         $data['blog'] = $this->BlogModel->getBlogById($id);
         $sponsors = $this->SponsorModel->getAllSponsors();
         $data['sponsors'] = $sponsors;
@@ -756,6 +781,7 @@ class Blog extends CI_Controller
                 'sponsor' => $this->input->post('sponsor'),
                 'meta_title' => $this->input->post('metatitle'),
                 'meta_description' => $this->input->post('metadescription'),
+                'category' => $this->input->post('category'),
                 'updated_at' => date('Y-m-d H:i:s'),
                 'status' => $status
             );
@@ -790,7 +816,6 @@ class Blog extends CI_Controller
             } else {
                 echo json_encode(['status' => 'error', 'message' => 'Failed to update blog.']);
             }
-
         } catch (\Throwable $th) {
             echo json_encode(['status' => 'error', 'message' => $th->getMessage()]);
         }     

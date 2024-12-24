@@ -22,27 +22,14 @@
             <h1 class="fs-34 fw-600 text_brand_color1">Our Blogs</h1>
         </div>
     </div>
-
     <div class="container">
         <div class="">
             <div class=" blogs_filter_buttons">
                 <div class="owl-carousel owl-theme blog_btn_slider">
                     <div class="item">
-                        <!-- <button class="btn btn-light slides_btn <?php echo ($selected_category === 'all' || empty($selected_category)) ? 'active' : ''; ?>" href="<?php echo base_url('blogs'); ?>">All</button> --> 
-                        <button class="btn btn-light slides_btn <?php echo ($selected_category === 'all' || empty($selected_category)) ? 'active' : ''; ?>" onclick="filterCategory('all')">
-                            All
-                        </button>                       
+                        <button class="btn btn-light slides_btn active" onclick="filterBlog('all')">All</button>                        
                     </div>
-                    <?php foreach ($categories as $key => $value) : ?>
-                        <div class="item">
-                            <button 
-                                class="btn btn-light slides_btn <?php echo ($selected_category === $key) ? 'active' : ''; ?>" 
-                                onclick="filterCategory('<?php echo $key; ?>')">
-                                <?php echo $value; ?>
-                            </button>
-                        </div>
-                    <?php endforeach; ?>   
-                    <!-- <div class="item">
+                    <div class="item">
                         <button class="btn btn-light slides_btn" onclick="filterBlog('emerging_tech_trends')">Emerging Tech & Trends</button>
                     </div>
                     <div class="item">
@@ -71,36 +58,34 @@
                     </div>
                     <div class="item">
                         <button class="btn btn-light slides_btn" onclick="filterBlog('language_based_apps')">Language-Based Apps</button>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="container mt-5">
         <div class="row g-4">
-            <?php if (!empty($blogs)) : ?>
-                <?php foreach ($blogs as $blog) : ?>
-                    <div class="col-lg-4 col-sm-6 blogs_item">
-                        <div class="blogs_card">
-                            <img class="w-100" src="<?php echo base_url('assets/images/blogs/uploads/thumbnails/' . $blog->thumbnail); ?>" alt="<?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?>" />
-                            <div class="blogs_card_content">
-                                <small class="fs-12 fw-400"><?php echo date('d M Y', strtotime($blog->publish_date)); ?></small>
-                                <h4 class="fs-18 fw-600"><?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?></h4>
-                                <p class="fs-14 fw-400"><?php echo htmlspecialchars($blog->content, ENT_QUOTES, 'UTF-8'); ?></p>
-                                <a class="fs-14 fw-500" href="<?php echo base_url('blog/' . $blog->slug); ?>">Read More</a>
-                            </div>
-                        </div>
+
+            <?php foreach ($blogs as $blog) : ?>
+            <div class="col-lg-4 col-sm-6 blogs_item" data-category="<?php echo $blog->category; ?>">
+                <div class="blogs_card">
+                    <img class="w-100" src="<?php echo base_url('assets/images/blogs/uploads/thumbnails/' . $blog->thumbnail); ?>" alt="<?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?>" />
+                    <div class="blogs_card_content">
+                        <small class="fs-12 fw-400"><?php echo date('d M Y', strtotime($blog->publish_date)); ?></small>
+                        <h4 class="fs-18 fw-600"><?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?></h4>
+                        <p class="fs-14 fw-400"><?php echo htmlspecialchars($blog->content, ENT_QUOTES, 'UTF-8'); ?></p>
+                        <a class="fs-14 fw-500" href="<?php echo base_url('blog/' . $blog->slug); ?>">Read More</a>
                     </div>
-                <?php endforeach; ?>
-            <?php else : ?>
-                <h3>No blogs found for the selected category.</h3>
-            <?php endif; ?>
-        </div>
-        <div class="pagination">
-            <?php echo $pagination; ?>
+                </div>
+            </div>
+            <?php endforeach; ?>
+
+            <div>
+                <?php echo $pagination; ?>
+            </div>
+
         </div>
     </div>
-
     
 </section>
 
@@ -175,15 +160,10 @@
 </body> 
 <?php $this->load->view('front/common/script') ?>
 
+
+
+
 <script>
-
-    function filterCategory(category) {
-        const baseUrl = "<?php echo base_url('blogs'); ?>";
-        const url = new URL(baseUrl, window.location.origin);
-        url.searchParams.set('category', category);
-        window.location.href = url.toString();
-    }
-
     function filterBlog1(category) {
         const items = document.querySelectorAll('.blogs_item');
         const btns_items = document.querySelectorAll('.slides_btn');
@@ -195,11 +175,79 @@
             }
         });
     }
-
     $('.slides_btn').on('click', function(){
         $('.slides_btn').removeClass('active');
         $(this).addClass('active');
     });
+
+    function filterBlog(category) {
+        const url = `${window.location.origin}/blogs`;
+        const params = new URLSearchParams({ category: category });
+
+        fetch(`${url}?${params.toString()}`, { method: 'GET' })
+            .then(response => response.json())
+            .then(data => {
+                const container = document.querySelector('.row.g-4');
+                const paginationContainer = document.querySelector('.pagination');
+                
+                // Update blog items
+                container.innerHTML = data.blogs
+                    .map(blog => `
+                        <div class="col-lg-4 col-sm-6 blogs_item" data-category="${blog.category}">
+                            <div class="blogs_card">
+                                <img class="w-100" src="${window.location.origin}/assets/images/blogs/uploads/thumbnails/${blog.thumbnail}" alt="${blog.title}">
+                                <div class="blogs_card_content">
+                                    <small class="fs-12 fw-400">${new Date(blog.publish_date).toLocaleDateString()}</small>
+                                    <h4 class="fs-18 fw-600">${blog.title}</h4>
+                                    <p class="fs-14 fw-400">${blog.content}</p>
+                                    <a class="fs-14 fw-500" href="${window.location.origin}/blog/${blog.slug}">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    `)
+                    .join('');
+
+                // Update pagination
+                paginationContainer.innerHTML = data.pagination;
+            })
+            .catch(error => console.error('Error fetching blogs:', error));
+    }
+
+    document.addEventListener('click', function (e) {
+        if (e.target.classList.contains('page-link')) {
+            e.preventDefault();
+            const url = e.target.href;
+
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    const container = document.querySelector('.row.g-4');
+                    const paginationContainer = document.querySelector('.pagination');
+
+                    // Update blog items
+                    container.innerHTML = data.blogs
+                        .map(blog => `
+                            <div class="col-lg-4 col-sm-6 blogs_item" data-category="${blog.category}">
+                                <div class="blogs_card">
+                                    <img class="w-100" src="${window.location.origin}/assets/images/blogs/uploads/thumbnails/${blog.thumbnail}" alt="${blog.title}">
+                                    <div class="blogs_card_content">
+                                        <small class="fs-12 fw-400">${new Date(blog.publish_date).toLocaleDateString()}</small>
+                                        <h4 class="fs-18 fw-600">${blog.title}</h4>
+                                        <p class="fs-14 fw-400">${blog.content}</p>
+                                        <a class="fs-14 fw-500" href="${window.location.origin}/blog/${blog.slug}">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        `)
+                        .join('');
+
+                    // Update pagination
+                    paginationContainer.innerHTML = data.pagination;
+                })
+                .catch(error => console.error('Error fetching blogs:', error));
+        }
+    });
+
 
 </script>
 </html>

@@ -7970,3 +7970,1209 @@ INFO - 2024-12-23 13:37:04 --> File loaded: F:\xampp\htdocs\weboconnect-front-ne
 INFO - 2024-12-23 13:37:04 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/case_study_details.php
 INFO - 2024-12-23 13:37:04 --> Final output sent to browser
 DEBUG - 2024-12-23 13:37:04 --> Total execution time: 0.0972
+INFO - 2024-12-23 13:41:10 --> Config Class Initialized
+INFO - 2024-12-23 13:41:10 --> Hooks Class Initialized
+DEBUG - 2024-12-23 13:41:10 --> UTF-8 Support Enabled
+INFO - 2024-12-23 13:41:10 --> Utf8 Class Initialized
+INFO - 2024-12-23 13:41:10 --> URI Class Initialized
+INFO - 2024-12-23 13:41:11 --> Router Class Initialized
+INFO - 2024-12-23 13:41:11 --> Output Class Initialized
+INFO - 2024-12-23 13:41:11 --> Security Class Initialized
+DEBUG - 2024-12-23 13:41:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 13:41:11 --> Input Class Initialized
+INFO - 2024-12-23 13:41:11 --> Language Class Initialized
+INFO - 2024-12-23 13:41:11 --> Loader Class Initialized
+INFO - 2024-12-23 13:41:11 --> Helper loaded: url_helper
+INFO - 2024-12-23 13:41:11 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 13:41:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 13:41:11 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 13:41:11 --> Controller Class Initialized
+INFO - 2024-12-23 13:41:11 --> Model "CasestudiesModel" initialized
+INFO - 2024-12-23 13:41:11 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2024-12-23 13:41:11 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2024-12-23 13:41:11 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/testimonials.php
+INFO - 2024-12-23 13:41:11 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2024-12-23 13:41:11 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 13:41:11 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2024-12-23 13:41:11 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 13:41:11 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2024-12-23 13:41:11 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2024-12-23 13:41:11 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2024-12-23 13:41:11 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2024-12-23 13:41:11 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2024-12-23 13:41:11 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2024-12-23 13:41:11 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/case_study_details.php
+INFO - 2024-12-23 13:41:11 --> Final output sent to browser
+DEBUG - 2024-12-23 13:41:11 --> Total execution time: 0.1054
+INFO - 2024-12-23 13:41:16 --> Config Class Initialized
+INFO - 2024-12-23 13:41:16 --> Hooks Class Initialized
+DEBUG - 2024-12-23 13:41:16 --> UTF-8 Support Enabled
+INFO - 2024-12-23 13:41:16 --> Utf8 Class Initialized
+INFO - 2024-12-23 13:41:16 --> URI Class Initialized
+INFO - 2024-12-23 13:41:16 --> Router Class Initialized
+INFO - 2024-12-23 13:41:16 --> Output Class Initialized
+INFO - 2024-12-23 13:41:16 --> Security Class Initialized
+DEBUG - 2024-12-23 13:41:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 13:41:16 --> Input Class Initialized
+INFO - 2024-12-23 13:41:16 --> Language Class Initialized
+INFO - 2024-12-23 13:41:16 --> Loader Class Initialized
+INFO - 2024-12-23 13:41:16 --> Helper loaded: url_helper
+INFO - 2024-12-23 13:41:16 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 13:41:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 13:41:16 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 13:41:16 --> Controller Class Initialized
+INFO - 2024-12-23 13:41:16 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 13:41:16 --> Pagination Class Initialized
+INFO - 2024-12-23 13:41:16 --> Model "CasestudiesModel" initialized
+INFO - 2024-12-23 13:41:16 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2024-12-23 13:41:16 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2024-12-23 13:41:16 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2024-12-23 13:41:16 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 13:41:16 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2024-12-23 13:41:16 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 13:41:16 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2024-12-23 13:41:16 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2024-12-23 13:41:16 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2024-12-23 13:41:16 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2024-12-23 13:41:16 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2024-12-23 13:41:16 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2024-12-23 13:41:16 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/case_study.php
+INFO - 2024-12-23 13:41:16 --> Final output sent to browser
+DEBUG - 2024-12-23 13:41:16 --> Total execution time: 0.0943
+INFO - 2024-12-23 13:41:18 --> Config Class Initialized
+INFO - 2024-12-23 13:41:18 --> Hooks Class Initialized
+DEBUG - 2024-12-23 13:41:18 --> UTF-8 Support Enabled
+INFO - 2024-12-23 13:41:18 --> Utf8 Class Initialized
+INFO - 2024-12-23 13:41:18 --> URI Class Initialized
+INFO - 2024-12-23 13:41:18 --> Router Class Initialized
+INFO - 2024-12-23 13:41:18 --> Output Class Initialized
+INFO - 2024-12-23 13:41:18 --> Security Class Initialized
+DEBUG - 2024-12-23 13:41:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 13:41:18 --> Input Class Initialized
+INFO - 2024-12-23 13:41:18 --> Language Class Initialized
+INFO - 2024-12-23 13:41:18 --> Loader Class Initialized
+INFO - 2024-12-23 13:41:18 --> Helper loaded: url_helper
+INFO - 2024-12-23 13:41:18 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 13:41:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 13:41:18 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 13:41:18 --> Controller Class Initialized
+INFO - 2024-12-23 13:41:18 --> Model "CasestudiesModel" initialized
+INFO - 2024-12-23 13:41:18 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2024-12-23 13:41:18 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2024-12-23 13:41:18 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/testimonials.php
+INFO - 2024-12-23 13:41:18 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2024-12-23 13:41:18 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 13:41:18 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2024-12-23 13:41:18 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 13:41:18 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2024-12-23 13:41:18 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2024-12-23 13:41:18 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2024-12-23 13:41:18 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2024-12-23 13:41:18 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2024-12-23 13:41:18 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2024-12-23 13:41:18 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/case_study_details.php
+INFO - 2024-12-23 13:41:18 --> Final output sent to browser
+DEBUG - 2024-12-23 13:41:18 --> Total execution time: 0.1007
+INFO - 2024-12-23 13:41:22 --> Config Class Initialized
+INFO - 2024-12-23 13:41:22 --> Hooks Class Initialized
+DEBUG - 2024-12-23 13:41:22 --> UTF-8 Support Enabled
+INFO - 2024-12-23 13:41:22 --> Utf8 Class Initialized
+INFO - 2024-12-23 13:41:22 --> URI Class Initialized
+INFO - 2024-12-23 13:41:22 --> Router Class Initialized
+INFO - 2024-12-23 13:41:23 --> Output Class Initialized
+INFO - 2024-12-23 13:41:23 --> Security Class Initialized
+DEBUG - 2024-12-23 13:41:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 13:41:23 --> Input Class Initialized
+INFO - 2024-12-23 13:41:23 --> Language Class Initialized
+INFO - 2024-12-23 13:41:23 --> Loader Class Initialized
+INFO - 2024-12-23 13:41:23 --> Helper loaded: url_helper
+INFO - 2024-12-23 13:41:23 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 13:41:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 13:41:23 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 13:41:23 --> Controller Class Initialized
+INFO - 2024-12-23 13:41:23 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 13:41:23 --> Pagination Class Initialized
+INFO - 2024-12-23 13:41:23 --> Model "CasestudiesModel" initialized
+INFO - 2024-12-23 13:41:23 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2024-12-23 13:41:23 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2024-12-23 13:41:23 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2024-12-23 13:41:23 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 13:41:23 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2024-12-23 13:41:23 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 13:41:23 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2024-12-23 13:41:23 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2024-12-23 13:41:23 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2024-12-23 13:41:23 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2024-12-23 13:41:23 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2024-12-23 13:41:23 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2024-12-23 13:41:23 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/case_study.php
+INFO - 2024-12-23 13:41:23 --> Final output sent to browser
+DEBUG - 2024-12-23 13:41:23 --> Total execution time: 0.4037
+INFO - 2024-12-23 13:41:25 --> Config Class Initialized
+INFO - 2024-12-23 13:41:25 --> Hooks Class Initialized
+DEBUG - 2024-12-23 13:41:25 --> UTF-8 Support Enabled
+INFO - 2024-12-23 13:41:25 --> Utf8 Class Initialized
+INFO - 2024-12-23 13:41:25 --> URI Class Initialized
+INFO - 2024-12-23 13:41:25 --> Router Class Initialized
+INFO - 2024-12-23 13:41:25 --> Output Class Initialized
+INFO - 2024-12-23 13:41:25 --> Security Class Initialized
+DEBUG - 2024-12-23 13:41:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 13:41:25 --> Input Class Initialized
+INFO - 2024-12-23 13:41:25 --> Language Class Initialized
+INFO - 2024-12-23 13:41:25 --> Loader Class Initialized
+INFO - 2024-12-23 13:41:25 --> Helper loaded: url_helper
+INFO - 2024-12-23 13:41:25 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 13:41:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 13:41:25 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 13:41:25 --> Controller Class Initialized
+INFO - 2024-12-23 13:41:25 --> Model "CasestudiesModel" initialized
+INFO - 2024-12-23 13:41:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2024-12-23 13:41:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2024-12-23 13:41:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/testimonials.php
+INFO - 2024-12-23 13:41:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2024-12-23 13:41:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 13:41:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2024-12-23 13:41:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 13:41:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2024-12-23 13:41:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2024-12-23 13:41:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2024-12-23 13:41:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2024-12-23 13:41:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2024-12-23 13:41:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2024-12-23 13:41:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/case_study_details.php
+INFO - 2024-12-23 13:41:25 --> Final output sent to browser
+DEBUG - 2024-12-23 13:41:25 --> Total execution time: 0.1019
+INFO - 2024-12-23 13:52:41 --> Config Class Initialized
+INFO - 2024-12-23 13:52:41 --> Hooks Class Initialized
+DEBUG - 2024-12-23 13:52:41 --> UTF-8 Support Enabled
+INFO - 2024-12-23 13:52:41 --> Utf8 Class Initialized
+INFO - 2024-12-23 13:52:41 --> URI Class Initialized
+INFO - 2024-12-23 13:52:41 --> Router Class Initialized
+INFO - 2024-12-23 13:52:41 --> Output Class Initialized
+INFO - 2024-12-23 13:52:41 --> Security Class Initialized
+DEBUG - 2024-12-23 13:52:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 13:52:41 --> Input Class Initialized
+INFO - 2024-12-23 13:52:41 --> Language Class Initialized
+INFO - 2024-12-23 13:52:41 --> Loader Class Initialized
+INFO - 2024-12-23 13:52:41 --> Helper loaded: url_helper
+INFO - 2024-12-23 13:52:41 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 13:52:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 13:52:41 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 13:52:41 --> Controller Class Initialized
+INFO - 2024-12-23 13:52:41 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 13:52:41 --> Pagination Class Initialized
+INFO - 2024-12-23 13:52:41 --> Model "BlogModel" initialized
+INFO - 2024-12-23 13:52:41 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2024-12-23 13:52:41 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2024-12-23 13:52:41 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2024-12-23 13:52:41 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 13:52:41 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2024-12-23 13:52:41 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 13:52:41 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2024-12-23 13:52:41 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2024-12-23 13:52:41 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2024-12-23 13:52:41 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2024-12-23 13:52:41 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2024-12-23 13:52:41 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2024-12-23 13:52:41 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/blogs.php
+INFO - 2024-12-23 13:52:41 --> Final output sent to browser
+DEBUG - 2024-12-23 13:52:41 --> Total execution time: 0.3927
+INFO - 2024-12-23 13:52:41 --> Config Class Initialized
+INFO - 2024-12-23 13:52:41 --> Hooks Class Initialized
+DEBUG - 2024-12-23 13:52:41 --> UTF-8 Support Enabled
+INFO - 2024-12-23 13:52:41 --> Utf8 Class Initialized
+INFO - 2024-12-23 13:52:41 --> URI Class Initialized
+INFO - 2024-12-23 13:52:41 --> Router Class Initialized
+INFO - 2024-12-23 13:52:41 --> Output Class Initialized
+INFO - 2024-12-23 13:52:41 --> Security Class Initialized
+DEBUG - 2024-12-23 13:52:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 13:52:41 --> Input Class Initialized
+INFO - 2024-12-23 13:52:41 --> Language Class Initialized
+ERROR - 2024-12-23 13:52:41 --> 404 Page Not Found: Assets/images
+INFO - 2024-12-23 13:53:24 --> Config Class Initialized
+INFO - 2024-12-23 13:53:24 --> Hooks Class Initialized
+DEBUG - 2024-12-23 13:53:24 --> UTF-8 Support Enabled
+INFO - 2024-12-23 13:53:24 --> Utf8 Class Initialized
+INFO - 2024-12-23 13:53:24 --> URI Class Initialized
+INFO - 2024-12-23 13:53:24 --> Router Class Initialized
+INFO - 2024-12-23 13:53:24 --> Output Class Initialized
+INFO - 2024-12-23 13:53:24 --> Security Class Initialized
+DEBUG - 2024-12-23 13:53:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 13:53:24 --> Input Class Initialized
+INFO - 2024-12-23 13:53:24 --> Language Class Initialized
+INFO - 2024-12-23 13:53:24 --> Loader Class Initialized
+INFO - 2024-12-23 13:53:24 --> Helper loaded: url_helper
+INFO - 2024-12-23 13:53:25 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 13:53:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 13:53:25 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 13:53:25 --> Controller Class Initialized
+INFO - 2024-12-23 13:53:25 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 13:53:25 --> Pagination Class Initialized
+INFO - 2024-12-23 13:53:25 --> Model "BlogModel" initialized
+INFO - 2024-12-23 13:53:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2024-12-23 13:53:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2024-12-23 13:53:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2024-12-23 13:53:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 13:53:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2024-12-23 13:53:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 13:53:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2024-12-23 13:53:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2024-12-23 13:53:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2024-12-23 13:53:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2024-12-23 13:53:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2024-12-23 13:53:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2024-12-23 13:53:25 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/blogs.php
+INFO - 2024-12-23 13:53:25 --> Final output sent to browser
+DEBUG - 2024-12-23 13:53:25 --> Total execution time: 0.4061
+INFO - 2024-12-23 13:53:25 --> Config Class Initialized
+INFO - 2024-12-23 13:53:25 --> Hooks Class Initialized
+DEBUG - 2024-12-23 13:53:25 --> UTF-8 Support Enabled
+INFO - 2024-12-23 13:53:25 --> Utf8 Class Initialized
+INFO - 2024-12-23 13:53:25 --> URI Class Initialized
+INFO - 2024-12-23 13:53:25 --> Router Class Initialized
+INFO - 2024-12-23 13:53:25 --> Output Class Initialized
+INFO - 2024-12-23 13:53:25 --> Security Class Initialized
+DEBUG - 2024-12-23 13:53:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 13:53:25 --> Input Class Initialized
+INFO - 2024-12-23 13:53:25 --> Language Class Initialized
+ERROR - 2024-12-23 13:53:25 --> 404 Page Not Found: Assets/images
+INFO - 2024-12-23 13:54:12 --> Config Class Initialized
+INFO - 2024-12-23 13:54:12 --> Hooks Class Initialized
+DEBUG - 2024-12-23 13:54:12 --> UTF-8 Support Enabled
+INFO - 2024-12-23 13:54:12 --> Utf8 Class Initialized
+INFO - 2024-12-23 13:54:12 --> URI Class Initialized
+INFO - 2024-12-23 13:54:12 --> Router Class Initialized
+INFO - 2024-12-23 13:54:12 --> Output Class Initialized
+INFO - 2024-12-23 13:54:12 --> Security Class Initialized
+DEBUG - 2024-12-23 13:54:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 13:54:12 --> Input Class Initialized
+INFO - 2024-12-23 13:54:12 --> Language Class Initialized
+INFO - 2024-12-23 13:54:12 --> Config Class Initialized
+INFO - 2024-12-23 13:54:12 --> Hooks Class Initialized
+DEBUG - 2024-12-23 13:54:12 --> UTF-8 Support Enabled
+INFO - 2024-12-23 13:54:12 --> Utf8 Class Initialized
+INFO - 2024-12-23 13:54:12 --> URI Class Initialized
+INFO - 2024-12-23 13:54:12 --> Router Class Initialized
+INFO - 2024-12-23 13:54:12 --> Output Class Initialized
+INFO - 2024-12-23 13:54:12 --> Security Class Initialized
+DEBUG - 2024-12-23 13:54:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 13:54:12 --> Input Class Initialized
+INFO - 2024-12-23 13:54:12 --> Language Class Initialized
+ERROR - 2024-12-23 13:54:12 --> 404 Page Not Found: Assets/js
+ERROR - 2024-12-23 13:54:12 --> 404 Page Not Found: Assets/js
+INFO - 2024-12-23 13:54:12 --> Config Class Initialized
+INFO - 2024-12-23 13:54:12 --> Hooks Class Initialized
+DEBUG - 2024-12-23 13:54:12 --> UTF-8 Support Enabled
+INFO - 2024-12-23 13:54:12 --> Utf8 Class Initialized
+INFO - 2024-12-23 13:54:12 --> URI Class Initialized
+INFO - 2024-12-23 13:54:12 --> Router Class Initialized
+INFO - 2024-12-23 13:54:12 --> Output Class Initialized
+INFO - 2024-12-23 13:54:12 --> Security Class Initialized
+DEBUG - 2024-12-23 13:54:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 13:54:12 --> Input Class Initialized
+INFO - 2024-12-23 13:54:12 --> Language Class Initialized
+ERROR - 2024-12-23 13:54:12 --> 404 Page Not Found: Assets/css
+INFO - 2024-12-23 13:54:17 --> Config Class Initialized
+INFO - 2024-12-23 13:54:17 --> Hooks Class Initialized
+DEBUG - 2024-12-23 13:54:17 --> UTF-8 Support Enabled
+INFO - 2024-12-23 13:54:17 --> Utf8 Class Initialized
+INFO - 2024-12-23 13:54:17 --> URI Class Initialized
+INFO - 2024-12-23 13:54:17 --> Router Class Initialized
+INFO - 2024-12-23 13:54:17 --> Output Class Initialized
+INFO - 2024-12-23 13:54:17 --> Security Class Initialized
+DEBUG - 2024-12-23 13:54:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 13:54:17 --> Input Class Initialized
+INFO - 2024-12-23 13:54:17 --> Language Class Initialized
+INFO - 2024-12-23 13:54:17 --> Loader Class Initialized
+INFO - 2024-12-23 13:54:17 --> Helper loaded: url_helper
+INFO - 2024-12-23 13:54:17 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 13:54:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 13:54:17 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 13:54:17 --> Controller Class Initialized
+INFO - 2024-12-23 13:54:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 13:54:17 --> Pagination Class Initialized
+INFO - 2024-12-23 13:54:17 --> Model "BlogModel" initialized
+INFO - 2024-12-23 13:54:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2024-12-23 13:54:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2024-12-23 13:54:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2024-12-23 13:54:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 13:54:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2024-12-23 13:54:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 13:54:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2024-12-23 13:54:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2024-12-23 13:54:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2024-12-23 13:54:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2024-12-23 13:54:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2024-12-23 13:54:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2024-12-23 13:54:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/blogs.php
+INFO - 2024-12-23 13:54:17 --> Final output sent to browser
+DEBUG - 2024-12-23 13:54:17 --> Total execution time: 0.1025
+INFO - 2024-12-23 13:54:18 --> Config Class Initialized
+INFO - 2024-12-23 13:54:18 --> Hooks Class Initialized
+DEBUG - 2024-12-23 13:54:18 --> UTF-8 Support Enabled
+INFO - 2024-12-23 13:54:18 --> Utf8 Class Initialized
+INFO - 2024-12-23 13:54:18 --> URI Class Initialized
+INFO - 2024-12-23 13:54:18 --> Router Class Initialized
+INFO - 2024-12-23 13:54:18 --> Output Class Initialized
+INFO - 2024-12-23 13:54:18 --> Security Class Initialized
+DEBUG - 2024-12-23 13:54:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 13:54:18 --> Input Class Initialized
+INFO - 2024-12-23 13:54:18 --> Language Class Initialized
+ERROR - 2024-12-23 13:54:18 --> 404 Page Not Found: Assets/images
+INFO - 2024-12-23 13:54:18 --> Config Class Initialized
+INFO - 2024-12-23 13:54:18 --> Hooks Class Initialized
+DEBUG - 2024-12-23 13:54:18 --> UTF-8 Support Enabled
+INFO - 2024-12-23 13:54:18 --> Utf8 Class Initialized
+INFO - 2024-12-23 13:54:18 --> URI Class Initialized
+INFO - 2024-12-23 13:54:18 --> Router Class Initialized
+INFO - 2024-12-23 13:54:18 --> Output Class Initialized
+INFO - 2024-12-23 13:54:18 --> Security Class Initialized
+DEBUG - 2024-12-23 13:54:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 13:54:18 --> Input Class Initialized
+INFO - 2024-12-23 13:54:18 --> Language Class Initialized
+ERROR - 2024-12-23 13:54:18 --> 404 Page Not Found: Assets/css
+INFO - 2024-12-23 13:54:19 --> Config Class Initialized
+INFO - 2024-12-23 13:54:19 --> Hooks Class Initialized
+DEBUG - 2024-12-23 13:54:19 --> UTF-8 Support Enabled
+INFO - 2024-12-23 13:54:19 --> Utf8 Class Initialized
+INFO - 2024-12-23 13:54:19 --> Config Class Initialized
+INFO - 2024-12-23 13:54:19 --> Hooks Class Initialized
+INFO - 2024-12-23 13:54:19 --> URI Class Initialized
+INFO - 2024-12-23 13:54:19 --> Router Class Initialized
+INFO - 2024-12-23 13:54:19 --> Output Class Initialized
+INFO - 2024-12-23 13:54:19 --> Security Class Initialized
+DEBUG - 2024-12-23 13:54:19 --> UTF-8 Support Enabled
+INFO - 2024-12-23 13:54:19 --> Utf8 Class Initialized
+INFO - 2024-12-23 13:54:19 --> URI Class Initialized
+INFO - 2024-12-23 13:54:19 --> Router Class Initialized
+INFO - 2024-12-23 13:54:19 --> Output Class Initialized
+INFO - 2024-12-23 13:54:19 --> Security Class Initialized
+DEBUG - 2024-12-23 13:54:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-12-23 13:54:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 13:54:19 --> Input Class Initialized
+INFO - 2024-12-23 13:54:19 --> Language Class Initialized
+INFO - 2024-12-23 13:54:19 --> Input Class Initialized
+ERROR - 2024-12-23 13:54:19 --> 404 Page Not Found: Assets/js
+INFO - 2024-12-23 13:54:19 --> Language Class Initialized
+ERROR - 2024-12-23 13:54:19 --> 404 Page Not Found: Assets/js
+INFO - 2024-12-23 13:54:23 --> Config Class Initialized
+INFO - 2024-12-23 13:54:23 --> Hooks Class Initialized
+DEBUG - 2024-12-23 13:54:23 --> UTF-8 Support Enabled
+INFO - 2024-12-23 13:54:23 --> Utf8 Class Initialized
+INFO - 2024-12-23 13:54:23 --> URI Class Initialized
+INFO - 2024-12-23 13:54:23 --> Router Class Initialized
+INFO - 2024-12-23 13:54:23 --> Output Class Initialized
+INFO - 2024-12-23 13:54:23 --> Security Class Initialized
+DEBUG - 2024-12-23 13:54:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 13:54:23 --> Input Class Initialized
+INFO - 2024-12-23 13:54:23 --> Language Class Initialized
+ERROR - 2024-12-23 13:54:23 --> 404 Page Not Found: Assets/css
+INFO - 2024-12-23 14:07:46 --> Config Class Initialized
+INFO - 2024-12-23 14:07:46 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:07:46 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:07:46 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:07:46 --> URI Class Initialized
+INFO - 2024-12-23 14:07:46 --> Router Class Initialized
+INFO - 2024-12-23 14:07:46 --> Output Class Initialized
+INFO - 2024-12-23 14:07:46 --> Security Class Initialized
+DEBUG - 2024-12-23 14:07:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:07:46 --> Input Class Initialized
+INFO - 2024-12-23 14:07:46 --> Language Class Initialized
+ERROR - 2024-12-23 14:07:46 --> Severity: error --> Exception: syntax error, unexpected ''Thought Leadership & Innovati' (T_CONSTANT_ENCAPSED_STRING), expecting ']' F:\xampp\htdocs\weboconnect-front-new\application\controllers\Blog.php 202
+INFO - 2024-12-23 14:07:56 --> Config Class Initialized
+INFO - 2024-12-23 14:07:56 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:07:56 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:07:56 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:07:56 --> URI Class Initialized
+INFO - 2024-12-23 14:07:56 --> Router Class Initialized
+INFO - 2024-12-23 14:07:56 --> Output Class Initialized
+INFO - 2024-12-23 14:07:56 --> Security Class Initialized
+DEBUG - 2024-12-23 14:07:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:07:56 --> Input Class Initialized
+INFO - 2024-12-23 14:07:56 --> Language Class Initialized
+ERROR - 2024-12-23 14:07:56 --> Severity: error --> Exception: syntax error, unexpected ''Thought Leadership & Innovati' (T_CONSTANT_ENCAPSED_STRING), expecting ']' F:\xampp\htdocs\weboconnect-front-new\application\controllers\Blog.php 202
+INFO - 2024-12-23 14:07:57 --> Config Class Initialized
+INFO - 2024-12-23 14:07:57 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:07:57 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:07:57 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:07:57 --> URI Class Initialized
+INFO - 2024-12-23 14:07:57 --> Router Class Initialized
+INFO - 2024-12-23 14:07:57 --> Output Class Initialized
+INFO - 2024-12-23 14:07:57 --> Security Class Initialized
+DEBUG - 2024-12-23 14:07:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:07:57 --> Input Class Initialized
+INFO - 2024-12-23 14:07:57 --> Language Class Initialized
+ERROR - 2024-12-23 14:07:57 --> Severity: error --> Exception: syntax error, unexpected ''Thought Leadership & Innovati' (T_CONSTANT_ENCAPSED_STRING), expecting ']' F:\xampp\htdocs\weboconnect-front-new\application\controllers\Blog.php 202
+INFO - 2024-12-23 14:08:38 --> Config Class Initialized
+INFO - 2024-12-23 14:08:38 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:08:38 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:08:38 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:08:38 --> URI Class Initialized
+INFO - 2024-12-23 14:08:38 --> Router Class Initialized
+INFO - 2024-12-23 14:08:38 --> Output Class Initialized
+INFO - 2024-12-23 14:08:38 --> Security Class Initialized
+DEBUG - 2024-12-23 14:08:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:08:38 --> Input Class Initialized
+INFO - 2024-12-23 14:08:38 --> Language Class Initialized
+INFO - 2024-12-23 14:08:38 --> Loader Class Initialized
+INFO - 2024-12-23 14:08:38 --> Helper loaded: url_helper
+INFO - 2024-12-23 14:08:38 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 14:08:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 14:08:38 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 14:08:38 --> Controller Class Initialized
+INFO - 2024-12-23 14:08:38 --> Helper loaded: form_helper
+INFO - 2024-12-23 14:08:38 --> Helper loaded: auth_helper
+INFO - 2024-12-23 14:08:38 --> Model "BlogModel" initialized
+INFO - 2024-12-23 14:08:38 --> Model "SponsorModel" initialized
+INFO - 2024-12-23 14:08:38 --> Model "User" initialized
+INFO - 2024-12-23 14:08:38 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 14:08:38 --> Pagination Class Initialized
+INFO - 2024-12-23 14:08:38 --> Form Validation Class Initialized
+DEBUG - 2024-12-23 14:08:38 --> Pagination class already loaded. Second attempt ignored.
+INFO - 2024-12-23 14:08:38 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/header.php
+INFO - 2024-12-23 14:08:38 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/sidemenu.php
+INFO - 2024-12-23 14:08:38 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\backend/blogs/index.php
+INFO - 2024-12-23 14:08:38 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/footer.php
+INFO - 2024-12-23 14:08:38 --> Final output sent to browser
+DEBUG - 2024-12-23 14:08:38 --> Total execution time: 0.1692
+INFO - 2024-12-23 14:08:45 --> Config Class Initialized
+INFO - 2024-12-23 14:08:45 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:08:45 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:08:45 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:08:45 --> URI Class Initialized
+INFO - 2024-12-23 14:08:45 --> Router Class Initialized
+INFO - 2024-12-23 14:08:45 --> Output Class Initialized
+INFO - 2024-12-23 14:08:45 --> Security Class Initialized
+DEBUG - 2024-12-23 14:08:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:08:45 --> Input Class Initialized
+INFO - 2024-12-23 14:08:45 --> Language Class Initialized
+INFO - 2024-12-23 14:08:45 --> Loader Class Initialized
+INFO - 2024-12-23 14:08:45 --> Helper loaded: url_helper
+INFO - 2024-12-23 14:08:45 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 14:08:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 14:08:45 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 14:08:45 --> Controller Class Initialized
+INFO - 2024-12-23 14:08:45 --> Helper loaded: form_helper
+INFO - 2024-12-23 14:08:45 --> Helper loaded: auth_helper
+INFO - 2024-12-23 14:08:45 --> Model "BlogModel" initialized
+INFO - 2024-12-23 14:08:45 --> Model "SponsorModel" initialized
+INFO - 2024-12-23 14:08:45 --> Model "User" initialized
+INFO - 2024-12-23 14:08:45 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 14:08:45 --> Pagination Class Initialized
+INFO - 2024-12-23 14:08:45 --> Form Validation Class Initialized
+INFO - 2024-12-23 14:08:45 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/header.php
+INFO - 2024-12-23 14:08:45 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/sidemenu.php
+INFO - 2024-12-23 14:08:45 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\backend/blogs/createblog.php
+INFO - 2024-12-23 14:08:45 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/footer.php
+INFO - 2024-12-23 14:08:45 --> Final output sent to browser
+DEBUG - 2024-12-23 14:08:45 --> Total execution time: 0.1074
+INFO - 2024-12-23 14:08:57 --> Config Class Initialized
+INFO - 2024-12-23 14:08:57 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:08:57 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:08:57 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:08:57 --> URI Class Initialized
+INFO - 2024-12-23 14:08:57 --> Router Class Initialized
+INFO - 2024-12-23 14:08:57 --> Output Class Initialized
+INFO - 2024-12-23 14:08:57 --> Security Class Initialized
+DEBUG - 2024-12-23 14:08:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:08:57 --> Input Class Initialized
+INFO - 2024-12-23 14:08:57 --> Language Class Initialized
+INFO - 2024-12-23 14:08:57 --> Loader Class Initialized
+INFO - 2024-12-23 14:08:57 --> Helper loaded: url_helper
+INFO - 2024-12-23 14:08:57 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 14:08:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 14:08:57 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 14:08:57 --> Controller Class Initialized
+INFO - 2024-12-23 14:08:57 --> Helper loaded: form_helper
+INFO - 2024-12-23 14:08:57 --> Helper loaded: auth_helper
+INFO - 2024-12-23 14:08:57 --> Model "BlogModel" initialized
+INFO - 2024-12-23 14:08:57 --> Model "SponsorModel" initialized
+INFO - 2024-12-23 14:08:57 --> Model "User" initialized
+INFO - 2024-12-23 14:08:57 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 14:08:57 --> Pagination Class Initialized
+INFO - 2024-12-23 14:08:57 --> Form Validation Class Initialized
+INFO - 2024-12-23 14:08:57 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2024-12-23 14:08:57 --> Final output sent to browser
+DEBUG - 2024-12-23 14:08:57 --> Total execution time: 0.0819
+INFO - 2024-12-23 14:12:32 --> Config Class Initialized
+INFO - 2024-12-23 14:12:32 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:12:32 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:12:32 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:12:32 --> URI Class Initialized
+INFO - 2024-12-23 14:12:32 --> Router Class Initialized
+INFO - 2024-12-23 14:12:32 --> Output Class Initialized
+INFO - 2024-12-23 14:12:32 --> Security Class Initialized
+DEBUG - 2024-12-23 14:12:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:12:32 --> Input Class Initialized
+INFO - 2024-12-23 14:12:32 --> Language Class Initialized
+INFO - 2024-12-23 14:12:32 --> Loader Class Initialized
+INFO - 2024-12-23 14:12:32 --> Helper loaded: url_helper
+INFO - 2024-12-23 14:12:32 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 14:12:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 14:12:32 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 14:12:32 --> Controller Class Initialized
+INFO - 2024-12-23 14:12:32 --> Helper loaded: form_helper
+INFO - 2024-12-23 14:12:32 --> Helper loaded: auth_helper
+INFO - 2024-12-23 14:12:32 --> Model "BlogModel" initialized
+INFO - 2024-12-23 14:12:32 --> Model "SponsorModel" initialized
+INFO - 2024-12-23 14:12:32 --> Model "User" initialized
+INFO - 2024-12-23 14:12:32 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 14:12:32 --> Pagination Class Initialized
+INFO - 2024-12-23 14:12:32 --> Form Validation Class Initialized
+INFO - 2024-12-23 14:12:32 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/header.php
+INFO - 2024-12-23 14:12:32 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/sidemenu.php
+INFO - 2024-12-23 14:12:32 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\backend/blogs/createblog.php
+INFO - 2024-12-23 14:12:32 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/footer.php
+INFO - 2024-12-23 14:12:32 --> Final output sent to browser
+DEBUG - 2024-12-23 14:12:32 --> Total execution time: 0.0903
+INFO - 2024-12-23 14:12:45 --> Config Class Initialized
+INFO - 2024-12-23 14:12:45 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:12:45 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:12:45 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:12:45 --> URI Class Initialized
+INFO - 2024-12-23 14:12:45 --> Router Class Initialized
+INFO - 2024-12-23 14:12:45 --> Output Class Initialized
+INFO - 2024-12-23 14:12:45 --> Security Class Initialized
+DEBUG - 2024-12-23 14:12:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:12:45 --> Input Class Initialized
+INFO - 2024-12-23 14:12:45 --> Language Class Initialized
+INFO - 2024-12-23 14:12:45 --> Loader Class Initialized
+INFO - 2024-12-23 14:12:45 --> Helper loaded: url_helper
+INFO - 2024-12-23 14:12:45 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 14:12:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 14:12:45 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 14:12:45 --> Controller Class Initialized
+INFO - 2024-12-23 14:12:45 --> Helper loaded: form_helper
+INFO - 2024-12-23 14:12:45 --> Helper loaded: auth_helper
+INFO - 2024-12-23 14:12:45 --> Model "BlogModel" initialized
+INFO - 2024-12-23 14:12:45 --> Model "SponsorModel" initialized
+INFO - 2024-12-23 14:12:45 --> Model "User" initialized
+INFO - 2024-12-23 14:12:45 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 14:12:45 --> Pagination Class Initialized
+INFO - 2024-12-23 14:12:45 --> Form Validation Class Initialized
+DEBUG - 2024-12-23 14:12:45 --> Pagination class already loaded. Second attempt ignored.
+INFO - 2024-12-23 14:12:45 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/header.php
+INFO - 2024-12-23 14:12:45 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/sidemenu.php
+INFO - 2024-12-23 14:12:45 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\backend/blogs/index.php
+INFO - 2024-12-23 14:12:45 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/footer.php
+INFO - 2024-12-23 14:12:45 --> Final output sent to browser
+DEBUG - 2024-12-23 14:12:45 --> Total execution time: 0.1029
+INFO - 2024-12-23 14:12:47 --> Config Class Initialized
+INFO - 2024-12-23 14:12:47 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:12:47 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:12:47 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:12:47 --> URI Class Initialized
+INFO - 2024-12-23 14:12:47 --> Router Class Initialized
+INFO - 2024-12-23 14:12:47 --> Output Class Initialized
+INFO - 2024-12-23 14:12:47 --> Security Class Initialized
+DEBUG - 2024-12-23 14:12:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:12:47 --> Input Class Initialized
+INFO - 2024-12-23 14:12:47 --> Language Class Initialized
+INFO - 2024-12-23 14:12:47 --> Loader Class Initialized
+INFO - 2024-12-23 14:12:47 --> Helper loaded: url_helper
+INFO - 2024-12-23 14:12:47 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 14:12:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 14:12:47 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 14:12:47 --> Controller Class Initialized
+INFO - 2024-12-23 14:12:47 --> Helper loaded: form_helper
+INFO - 2024-12-23 14:12:47 --> Helper loaded: auth_helper
+INFO - 2024-12-23 14:12:47 --> Model "BlogModel" initialized
+INFO - 2024-12-23 14:12:47 --> Model "SponsorModel" initialized
+INFO - 2024-12-23 14:12:47 --> Model "User" initialized
+INFO - 2024-12-23 14:12:47 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 14:12:47 --> Pagination Class Initialized
+INFO - 2024-12-23 14:12:47 --> Form Validation Class Initialized
+INFO - 2024-12-23 14:12:47 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/header.php
+INFO - 2024-12-23 14:12:47 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/sidemenu.php
+INFO - 2024-12-23 14:12:47 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\backend/blogs/edit.php
+INFO - 2024-12-23 14:12:47 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/footer.php
+INFO - 2024-12-23 14:12:47 --> Final output sent to browser
+DEBUG - 2024-12-23 14:12:47 --> Total execution time: 0.0927
+INFO - 2024-12-23 14:12:47 --> Config Class Initialized
+INFO - 2024-12-23 14:12:47 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:12:47 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:12:47 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:12:47 --> URI Class Initialized
+INFO - 2024-12-23 14:12:47 --> Router Class Initialized
+INFO - 2024-12-23 14:12:47 --> Output Class Initialized
+INFO - 2024-12-23 14:12:47 --> Security Class Initialized
+DEBUG - 2024-12-23 14:12:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:12:47 --> Input Class Initialized
+INFO - 2024-12-23 14:12:47 --> Language Class Initialized
+ERROR - 2024-12-23 14:12:47 --> 404 Page Not Found: Assets/images
+INFO - 2024-12-23 14:12:53 --> Config Class Initialized
+INFO - 2024-12-23 14:12:53 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:12:53 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:12:53 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:12:53 --> URI Class Initialized
+INFO - 2024-12-23 14:12:53 --> Router Class Initialized
+INFO - 2024-12-23 14:12:53 --> Output Class Initialized
+INFO - 2024-12-23 14:12:53 --> Security Class Initialized
+DEBUG - 2024-12-23 14:12:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:12:53 --> Input Class Initialized
+INFO - 2024-12-23 14:12:53 --> Language Class Initialized
+INFO - 2024-12-23 14:12:53 --> Loader Class Initialized
+INFO - 2024-12-23 14:12:53 --> Helper loaded: url_helper
+INFO - 2024-12-23 14:12:53 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 14:12:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 14:12:53 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 14:12:53 --> Controller Class Initialized
+INFO - 2024-12-23 14:12:53 --> Helper loaded: form_helper
+INFO - 2024-12-23 14:12:53 --> Helper loaded: auth_helper
+INFO - 2024-12-23 14:12:53 --> Model "BlogModel" initialized
+INFO - 2024-12-23 14:12:53 --> Model "SponsorModel" initialized
+INFO - 2024-12-23 14:12:53 --> Model "User" initialized
+INFO - 2024-12-23 14:12:53 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 14:12:53 --> Pagination Class Initialized
+INFO - 2024-12-23 14:12:53 --> Form Validation Class Initialized
+INFO - 2024-12-23 14:12:53 --> Language file loaded: language/english/form_validation_lang.php
+ERROR - 2024-12-23 18:42:53 --> Query error: Unknown column 'category' in 'field list' - Invalid query: UPDATE `webo_blogs` SET `title` = 'test new schedule', `slug` = 'test-new-schedule', `content` = '<p>test new schedulasadsadsadsadsa dsd as dsad sa sd adsa da&nbsp; dsad as dasd asdaef df dsfds fdsf dsf sdf dsfdsfdsfsdf sdf ds fdsfds fdsf sd fdsf sd fsd fsdf sd s</p>\r\n', `tags` = 'testing,new', `publish_date` = '2024-11-19', `publish_time` = '15:37:00', `sponsor` = NULL, `meta_title` = 'test new schedule', `meta_description` = 'test new schedule', `category` = 'Educational', `updated_at` = '2024-12-23 18:42:53', `status` = 'draft'
+WHERE `id` = '38'
+INFO - 2024-12-23 18:42:53 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-12-23 14:14:53 --> Config Class Initialized
+INFO - 2024-12-23 14:14:53 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:14:53 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:14:53 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:14:53 --> URI Class Initialized
+INFO - 2024-12-23 14:14:53 --> Router Class Initialized
+INFO - 2024-12-23 14:14:53 --> Output Class Initialized
+INFO - 2024-12-23 14:14:53 --> Security Class Initialized
+DEBUG - 2024-12-23 14:14:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:14:53 --> Input Class Initialized
+INFO - 2024-12-23 14:14:53 --> Language Class Initialized
+INFO - 2024-12-23 14:14:53 --> Loader Class Initialized
+INFO - 2024-12-23 14:14:53 --> Helper loaded: url_helper
+INFO - 2024-12-23 14:14:53 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 14:14:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 14:14:53 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 14:14:53 --> Controller Class Initialized
+INFO - 2024-12-23 14:14:53 --> Helper loaded: form_helper
+INFO - 2024-12-23 14:14:53 --> Helper loaded: auth_helper
+INFO - 2024-12-23 14:14:53 --> Model "BlogModel" initialized
+INFO - 2024-12-23 14:14:53 --> Model "SponsorModel" initialized
+INFO - 2024-12-23 14:14:53 --> Model "User" initialized
+INFO - 2024-12-23 14:14:53 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 14:14:53 --> Pagination Class Initialized
+INFO - 2024-12-23 14:14:53 --> Form Validation Class Initialized
+INFO - 2024-12-23 14:14:53 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2024-12-23 18:44:53 --> Final output sent to browser
+DEBUG - 2024-12-23 18:44:53 --> Total execution time: 0.3301
+INFO - 2024-12-23 14:14:55 --> Config Class Initialized
+INFO - 2024-12-23 14:14:55 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:14:55 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:14:55 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:14:55 --> URI Class Initialized
+INFO - 2024-12-23 14:14:55 --> Router Class Initialized
+INFO - 2024-12-23 14:14:55 --> Output Class Initialized
+INFO - 2024-12-23 14:14:55 --> Security Class Initialized
+DEBUG - 2024-12-23 14:14:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:14:55 --> Input Class Initialized
+INFO - 2024-12-23 14:14:55 --> Language Class Initialized
+INFO - 2024-12-23 14:14:55 --> Loader Class Initialized
+INFO - 2024-12-23 14:14:55 --> Helper loaded: url_helper
+INFO - 2024-12-23 14:14:55 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 14:14:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 14:14:55 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 14:14:55 --> Controller Class Initialized
+INFO - 2024-12-23 14:14:55 --> Helper loaded: form_helper
+INFO - 2024-12-23 14:14:55 --> Helper loaded: auth_helper
+INFO - 2024-12-23 14:14:55 --> Model "BlogModel" initialized
+INFO - 2024-12-23 14:14:55 --> Model "SponsorModel" initialized
+INFO - 2024-12-23 14:14:55 --> Model "User" initialized
+INFO - 2024-12-23 14:14:55 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 14:14:55 --> Pagination Class Initialized
+INFO - 2024-12-23 14:14:55 --> Form Validation Class Initialized
+INFO - 2024-12-23 14:14:55 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/header.php
+INFO - 2024-12-23 14:14:55 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/sidemenu.php
+INFO - 2024-12-23 14:14:55 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\backend/blogs/edit.php
+INFO - 2024-12-23 14:14:55 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/footer.php
+INFO - 2024-12-23 14:14:55 --> Final output sent to browser
+DEBUG - 2024-12-23 14:14:55 --> Total execution time: 0.0919
+INFO - 2024-12-23 14:14:55 --> Config Class Initialized
+INFO - 2024-12-23 14:14:55 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:14:55 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:14:55 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:14:55 --> URI Class Initialized
+INFO - 2024-12-23 14:14:55 --> Router Class Initialized
+INFO - 2024-12-23 14:14:55 --> Output Class Initialized
+INFO - 2024-12-23 14:14:55 --> Security Class Initialized
+DEBUG - 2024-12-23 14:14:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:14:55 --> Input Class Initialized
+INFO - 2024-12-23 14:14:55 --> Language Class Initialized
+ERROR - 2024-12-23 14:14:56 --> 404 Page Not Found: Assets/images
+INFO - 2024-12-23 14:15:34 --> Config Class Initialized
+INFO - 2024-12-23 14:15:34 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:15:34 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:15:34 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:15:34 --> URI Class Initialized
+INFO - 2024-12-23 14:15:34 --> Router Class Initialized
+INFO - 2024-12-23 14:15:34 --> Output Class Initialized
+INFO - 2024-12-23 14:15:34 --> Security Class Initialized
+DEBUG - 2024-12-23 14:15:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:15:34 --> Input Class Initialized
+INFO - 2024-12-23 14:15:34 --> Language Class Initialized
+INFO - 2024-12-23 14:15:34 --> Loader Class Initialized
+INFO - 2024-12-23 14:15:34 --> Helper loaded: url_helper
+INFO - 2024-12-23 14:15:34 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 14:15:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 14:15:34 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 14:15:34 --> Controller Class Initialized
+INFO - 2024-12-23 14:15:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 14:15:34 --> Pagination Class Initialized
+INFO - 2024-12-23 14:15:34 --> Model "BlogModel" initialized
+INFO - 2024-12-23 14:15:34 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2024-12-23 14:15:34 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2024-12-23 14:15:34 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2024-12-23 14:15:34 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 14:15:34 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2024-12-23 14:15:34 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 14:15:34 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2024-12-23 14:15:34 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2024-12-23 14:15:34 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2024-12-23 14:15:34 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2024-12-23 14:15:34 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2024-12-23 14:15:34 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2024-12-23 14:15:34 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/blogs.php
+INFO - 2024-12-23 14:15:34 --> Final output sent to browser
+DEBUG - 2024-12-23 14:15:34 --> Total execution time: 0.1020
+INFO - 2024-12-23 14:15:34 --> Config Class Initialized
+INFO - 2024-12-23 14:15:34 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:15:34 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:15:34 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:15:34 --> URI Class Initialized
+INFO - 2024-12-23 14:15:34 --> Router Class Initialized
+INFO - 2024-12-23 14:15:34 --> Output Class Initialized
+INFO - 2024-12-23 14:15:34 --> Security Class Initialized
+DEBUG - 2024-12-23 14:15:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:15:34 --> Input Class Initialized
+INFO - 2024-12-23 14:15:34 --> Language Class Initialized
+ERROR - 2024-12-23 14:15:34 --> 404 Page Not Found: Assets/images
+INFO - 2024-12-23 14:17:20 --> Config Class Initialized
+INFO - 2024-12-23 14:17:20 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:17:20 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:17:20 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:17:20 --> URI Class Initialized
+INFO - 2024-12-23 14:17:20 --> Router Class Initialized
+INFO - 2024-12-23 14:17:20 --> Output Class Initialized
+INFO - 2024-12-23 14:17:20 --> Security Class Initialized
+DEBUG - 2024-12-23 14:17:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:17:20 --> Input Class Initialized
+INFO - 2024-12-23 14:17:20 --> Language Class Initialized
+INFO - 2024-12-23 14:17:20 --> Loader Class Initialized
+INFO - 2024-12-23 14:17:20 --> Helper loaded: url_helper
+INFO - 2024-12-23 14:17:20 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 14:17:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 14:17:20 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 14:17:20 --> Controller Class Initialized
+INFO - 2024-12-23 14:17:20 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 14:17:20 --> Pagination Class Initialized
+INFO - 2024-12-23 14:17:20 --> Model "BlogModel" initialized
+INFO - 2024-12-23 14:17:20 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2024-12-23 14:17:20 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2024-12-23 14:17:20 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2024-12-23 14:17:20 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 14:17:20 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2024-12-23 14:17:20 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 14:17:20 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2024-12-23 14:17:20 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2024-12-23 14:17:20 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2024-12-23 14:17:20 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2024-12-23 14:17:20 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2024-12-23 14:17:20 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2024-12-23 14:17:20 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/blogs.php
+INFO - 2024-12-23 14:17:20 --> Final output sent to browser
+DEBUG - 2024-12-23 14:17:20 --> Total execution time: 0.1560
+INFO - 2024-12-23 14:17:20 --> Config Class Initialized
+INFO - 2024-12-23 14:17:20 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:17:20 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:17:20 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:17:20 --> URI Class Initialized
+INFO - 2024-12-23 14:17:20 --> Router Class Initialized
+INFO - 2024-12-23 14:17:20 --> Output Class Initialized
+INFO - 2024-12-23 14:17:20 --> Security Class Initialized
+DEBUG - 2024-12-23 14:17:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:17:20 --> Input Class Initialized
+INFO - 2024-12-23 14:17:20 --> Language Class Initialized
+ERROR - 2024-12-23 14:17:20 --> 404 Page Not Found: Assets/images
+INFO - 2024-12-23 14:17:26 --> Config Class Initialized
+INFO - 2024-12-23 14:17:26 --> Hooks Class Initialized
+INFO - 2024-12-23 14:17:26 --> Config Class Initialized
+INFO - 2024-12-23 14:17:26 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:17:26 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:17:26 --> Utf8 Class Initialized
+DEBUG - 2024-12-23 14:17:26 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:17:26 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:17:26 --> URI Class Initialized
+INFO - 2024-12-23 14:17:26 --> URI Class Initialized
+INFO - 2024-12-23 14:17:26 --> Router Class Initialized
+INFO - 2024-12-23 14:17:26 --> Router Class Initialized
+INFO - 2024-12-23 14:17:26 --> Output Class Initialized
+INFO - 2024-12-23 14:17:26 --> Security Class Initialized
+INFO - 2024-12-23 14:17:26 --> Output Class Initialized
+DEBUG - 2024-12-23 14:17:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:17:26 --> Input Class Initialized
+INFO - 2024-12-23 14:17:26 --> Security Class Initialized
+DEBUG - 2024-12-23 14:17:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:17:26 --> Input Class Initialized
+INFO - 2024-12-23 14:17:26 --> Language Class Initialized
+ERROR - 2024-12-23 14:17:26 --> 404 Page Not Found: Assets/js
+INFO - 2024-12-23 14:17:26 --> Language Class Initialized
+ERROR - 2024-12-23 14:17:26 --> 404 Page Not Found: Assets/js
+INFO - 2024-12-23 14:17:27 --> Config Class Initialized
+INFO - 2024-12-23 14:17:27 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:17:27 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:17:27 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:17:27 --> URI Class Initialized
+INFO - 2024-12-23 14:17:27 --> Router Class Initialized
+INFO - 2024-12-23 14:17:27 --> Output Class Initialized
+INFO - 2024-12-23 14:17:27 --> Security Class Initialized
+DEBUG - 2024-12-23 14:17:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:17:27 --> Input Class Initialized
+INFO - 2024-12-23 14:17:27 --> Language Class Initialized
+ERROR - 2024-12-23 14:17:27 --> 404 Page Not Found: Assets/css
+INFO - 2024-12-23 14:18:57 --> Config Class Initialized
+INFO - 2024-12-23 14:18:57 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:18:57 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:18:57 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:18:57 --> URI Class Initialized
+INFO - 2024-12-23 14:18:57 --> Router Class Initialized
+INFO - 2024-12-23 14:18:57 --> Output Class Initialized
+INFO - 2024-12-23 14:18:57 --> Security Class Initialized
+DEBUG - 2024-12-23 14:18:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:18:57 --> Input Class Initialized
+INFO - 2024-12-23 14:18:57 --> Language Class Initialized
+INFO - 2024-12-23 14:18:57 --> Loader Class Initialized
+INFO - 2024-12-23 14:18:57 --> Helper loaded: url_helper
+INFO - 2024-12-23 14:18:57 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 14:18:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 14:18:57 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 14:18:57 --> Controller Class Initialized
+INFO - 2024-12-23 14:18:57 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 14:18:57 --> Pagination Class Initialized
+INFO - 2024-12-23 14:18:57 --> Model "BlogModel" initialized
+INFO - 2024-12-23 14:18:57 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2024-12-23 14:18:57 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2024-12-23 14:18:57 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2024-12-23 14:18:57 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 14:18:57 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2024-12-23 14:18:57 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 14:18:57 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2024-12-23 14:18:57 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2024-12-23 14:18:57 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2024-12-23 14:18:57 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2024-12-23 14:18:57 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2024-12-23 14:18:57 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2024-12-23 14:18:57 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/blogs.php
+INFO - 2024-12-23 14:18:57 --> Final output sent to browser
+DEBUG - 2024-12-23 14:18:57 --> Total execution time: 0.0975
+INFO - 2024-12-23 14:18:57 --> Config Class Initialized
+INFO - 2024-12-23 14:18:57 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:18:57 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:18:57 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:18:57 --> URI Class Initialized
+INFO - 2024-12-23 14:18:57 --> Router Class Initialized
+INFO - 2024-12-23 14:18:57 --> Output Class Initialized
+INFO - 2024-12-23 14:18:57 --> Security Class Initialized
+DEBUG - 2024-12-23 14:18:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:18:57 --> Input Class Initialized
+INFO - 2024-12-23 14:18:57 --> Language Class Initialized
+ERROR - 2024-12-23 14:18:57 --> 404 Page Not Found: Assets/images
+INFO - 2024-12-23 14:18:58 --> Config Class Initialized
+INFO - 2024-12-23 14:18:58 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:18:58 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:18:58 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:18:58 --> URI Class Initialized
+INFO - 2024-12-23 14:18:58 --> Router Class Initialized
+INFO - 2024-12-23 14:18:58 --> Output Class Initialized
+INFO - 2024-12-23 14:18:58 --> Security Class Initialized
+DEBUG - 2024-12-23 14:18:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:18:58 --> Input Class Initialized
+INFO - 2024-12-23 14:18:58 --> Language Class Initialized
+ERROR - 2024-12-23 14:18:58 --> 404 Page Not Found: Assets/css
+INFO - 2024-12-23 14:18:58 --> Config Class Initialized
+INFO - 2024-12-23 14:18:58 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:18:58 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:18:58 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:18:58 --> URI Class Initialized
+INFO - 2024-12-23 14:18:58 --> Router Class Initialized
+INFO - 2024-12-23 14:18:58 --> Output Class Initialized
+INFO - 2024-12-23 14:18:58 --> Security Class Initialized
+DEBUG - 2024-12-23 14:18:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:18:58 --> Input Class Initialized
+INFO - 2024-12-23 14:18:58 --> Language Class Initialized
+ERROR - 2024-12-23 14:18:58 --> 404 Page Not Found: Assets/js
+INFO - 2024-12-23 14:18:58 --> Config Class Initialized
+INFO - 2024-12-23 14:18:58 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:18:58 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:18:58 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:18:58 --> URI Class Initialized
+INFO - 2024-12-23 14:18:58 --> Router Class Initialized
+INFO - 2024-12-23 14:18:58 --> Output Class Initialized
+INFO - 2024-12-23 14:18:58 --> Security Class Initialized
+DEBUG - 2024-12-23 14:18:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:18:58 --> Input Class Initialized
+INFO - 2024-12-23 14:18:58 --> Language Class Initialized
+ERROR - 2024-12-23 14:18:58 --> 404 Page Not Found: Assets/js
+INFO - 2024-12-23 14:19:06 --> Config Class Initialized
+INFO - 2024-12-23 14:19:06 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:19:06 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:19:06 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:19:06 --> URI Class Initialized
+INFO - 2024-12-23 14:19:06 --> Router Class Initialized
+INFO - 2024-12-23 14:19:06 --> Output Class Initialized
+INFO - 2024-12-23 14:19:06 --> Security Class Initialized
+DEBUG - 2024-12-23 14:19:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:19:06 --> Input Class Initialized
+INFO - 2024-12-23 14:19:06 --> Language Class Initialized
+INFO - 2024-12-23 14:19:06 --> Loader Class Initialized
+INFO - 2024-12-23 14:19:06 --> Helper loaded: url_helper
+INFO - 2024-12-23 14:19:06 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 14:19:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 14:19:06 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 14:19:06 --> Controller Class Initialized
+INFO - 2024-12-23 14:19:06 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 14:19:06 --> Pagination Class Initialized
+INFO - 2024-12-23 14:19:06 --> Model "BlogModel" initialized
+INFO - 2024-12-23 14:19:06 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2024-12-23 14:19:06 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2024-12-23 14:19:06 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2024-12-23 14:19:06 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 14:19:06 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2024-12-23 14:19:06 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2024-12-23 14:19:06 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2024-12-23 14:19:06 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2024-12-23 14:19:06 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2024-12-23 14:19:06 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2024-12-23 14:19:06 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2024-12-23 14:19:06 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2024-12-23 14:19:06 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/blogs.php
+INFO - 2024-12-23 14:19:06 --> Final output sent to browser
+DEBUG - 2024-12-23 14:19:06 --> Total execution time: 0.1075
+INFO - 2024-12-23 14:19:07 --> Config Class Initialized
+INFO - 2024-12-23 14:19:07 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:19:07 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:19:07 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:19:07 --> URI Class Initialized
+INFO - 2024-12-23 14:19:07 --> Router Class Initialized
+INFO - 2024-12-23 14:19:07 --> Output Class Initialized
+INFO - 2024-12-23 14:19:07 --> Security Class Initialized
+DEBUG - 2024-12-23 14:19:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:19:07 --> Input Class Initialized
+INFO - 2024-12-23 14:19:07 --> Language Class Initialized
+ERROR - 2024-12-23 14:19:07 --> 404 Page Not Found: Assets/css
+INFO - 2024-12-23 14:19:07 --> Config Class Initialized
+INFO - 2024-12-23 14:19:07 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:19:07 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:19:07 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:19:07 --> Config Class Initialized
+INFO - 2024-12-23 14:19:07 --> Hooks Class Initialized
+INFO - 2024-12-23 14:19:07 --> URI Class Initialized
+INFO - 2024-12-23 14:19:07 --> Router Class Initialized
+DEBUG - 2024-12-23 14:19:07 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:19:07 --> Output Class Initialized
+INFO - 2024-12-23 14:19:07 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:19:07 --> URI Class Initialized
+INFO - 2024-12-23 14:19:07 --> Security Class Initialized
+DEBUG - 2024-12-23 14:19:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:19:07 --> Input Class Initialized
+INFO - 2024-12-23 14:19:07 --> Language Class Initialized
+ERROR - 2024-12-23 14:19:07 --> 404 Page Not Found: Assets/js
+INFO - 2024-12-23 14:19:07 --> Router Class Initialized
+INFO - 2024-12-23 14:19:07 --> Output Class Initialized
+INFO - 2024-12-23 14:19:07 --> Security Class Initialized
+DEBUG - 2024-12-23 14:19:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:19:07 --> Input Class Initialized
+INFO - 2024-12-23 14:19:07 --> Language Class Initialized
+ERROR - 2024-12-23 14:19:07 --> 404 Page Not Found: Assets/js
+INFO - 2024-12-23 14:29:04 --> Config Class Initialized
+INFO - 2024-12-23 14:29:04 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:29:04 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:29:04 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:29:04 --> URI Class Initialized
+INFO - 2024-12-23 14:29:04 --> Router Class Initialized
+INFO - 2024-12-23 14:29:04 --> Output Class Initialized
+INFO - 2024-12-23 14:29:04 --> Security Class Initialized
+DEBUG - 2024-12-23 14:29:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:29:04 --> Input Class Initialized
+INFO - 2024-12-23 14:29:04 --> Language Class Initialized
+INFO - 2024-12-23 14:29:04 --> Loader Class Initialized
+INFO - 2024-12-23 14:29:04 --> Helper loaded: url_helper
+INFO - 2024-12-23 14:29:04 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 14:29:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 14:29:04 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 14:29:04 --> Controller Class Initialized
+INFO - 2024-12-23 14:29:04 --> Helper loaded: form_helper
+INFO - 2024-12-23 14:29:04 --> Helper loaded: auth_helper
+INFO - 2024-12-23 14:29:04 --> Model "BlogModel" initialized
+INFO - 2024-12-23 14:29:04 --> Model "SponsorModel" initialized
+INFO - 2024-12-23 14:29:04 --> Model "User" initialized
+INFO - 2024-12-23 14:29:04 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 14:29:04 --> Pagination Class Initialized
+INFO - 2024-12-23 14:29:04 --> Form Validation Class Initialized
+INFO - 2024-12-23 14:29:04 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/header.php
+INFO - 2024-12-23 14:29:04 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/sidemenu.php
+INFO - 2024-12-23 14:29:04 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\backend/blogs/edit.php
+INFO - 2024-12-23 14:29:04 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/footer.php
+INFO - 2024-12-23 14:29:04 --> Final output sent to browser
+DEBUG - 2024-12-23 14:29:04 --> Total execution time: 0.0999
+INFO - 2024-12-23 14:29:04 --> Config Class Initialized
+INFO - 2024-12-23 14:29:04 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:29:04 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:29:04 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:29:04 --> URI Class Initialized
+INFO - 2024-12-23 14:29:04 --> Router Class Initialized
+INFO - 2024-12-23 14:29:04 --> Output Class Initialized
+INFO - 2024-12-23 14:29:04 --> Security Class Initialized
+DEBUG - 2024-12-23 14:29:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:29:04 --> Input Class Initialized
+INFO - 2024-12-23 14:29:04 --> Language Class Initialized
+ERROR - 2024-12-23 14:29:04 --> 404 Page Not Found: Assets/images
+INFO - 2024-12-23 14:29:33 --> Config Class Initialized
+INFO - 2024-12-23 14:29:33 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:29:33 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:29:33 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:29:33 --> URI Class Initialized
+INFO - 2024-12-23 14:29:33 --> Router Class Initialized
+INFO - 2024-12-23 14:29:33 --> Output Class Initialized
+INFO - 2024-12-23 14:29:33 --> Security Class Initialized
+DEBUG - 2024-12-23 14:29:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:29:33 --> Input Class Initialized
+INFO - 2024-12-23 14:29:33 --> Language Class Initialized
+INFO - 2024-12-23 14:29:33 --> Loader Class Initialized
+INFO - 2024-12-23 14:29:33 --> Helper loaded: url_helper
+INFO - 2024-12-23 14:29:33 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 14:29:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 14:29:33 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 14:29:33 --> Controller Class Initialized
+INFO - 2024-12-23 14:29:33 --> Helper loaded: form_helper
+INFO - 2024-12-23 14:29:33 --> Helper loaded: auth_helper
+INFO - 2024-12-23 14:29:33 --> Model "BlogModel" initialized
+INFO - 2024-12-23 14:29:33 --> Model "SponsorModel" initialized
+INFO - 2024-12-23 14:29:33 --> Model "User" initialized
+INFO - 2024-12-23 14:29:33 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 14:29:33 --> Pagination Class Initialized
+INFO - 2024-12-23 14:29:33 --> Form Validation Class Initialized
+INFO - 2024-12-23 14:29:33 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/header.php
+INFO - 2024-12-23 14:29:33 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/sidemenu.php
+INFO - 2024-12-23 14:29:33 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\backend/blogs/edit.php
+INFO - 2024-12-23 14:29:33 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/footer.php
+INFO - 2024-12-23 14:29:33 --> Final output sent to browser
+DEBUG - 2024-12-23 14:29:33 --> Total execution time: 0.1398
+INFO - 2024-12-23 14:29:33 --> Config Class Initialized
+INFO - 2024-12-23 14:29:33 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:29:33 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:29:33 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:29:33 --> URI Class Initialized
+INFO - 2024-12-23 14:29:33 --> Router Class Initialized
+INFO - 2024-12-23 14:29:33 --> Output Class Initialized
+INFO - 2024-12-23 14:29:33 --> Security Class Initialized
+DEBUG - 2024-12-23 14:29:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:29:33 --> Input Class Initialized
+INFO - 2024-12-23 14:29:33 --> Language Class Initialized
+ERROR - 2024-12-23 14:29:33 --> 404 Page Not Found: Assets/images
+INFO - 2024-12-23 14:43:29 --> Config Class Initialized
+INFO - 2024-12-23 14:43:29 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:43:29 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:43:29 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:43:29 --> URI Class Initialized
+INFO - 2024-12-23 14:43:29 --> Router Class Initialized
+INFO - 2024-12-23 14:43:29 --> Output Class Initialized
+INFO - 2024-12-23 14:43:29 --> Security Class Initialized
+DEBUG - 2024-12-23 14:43:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:43:29 --> Input Class Initialized
+INFO - 2024-12-23 14:43:29 --> Language Class Initialized
+INFO - 2024-12-23 14:43:29 --> Loader Class Initialized
+INFO - 2024-12-23 14:43:29 --> Helper loaded: url_helper
+INFO - 2024-12-23 14:43:29 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 14:43:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 14:43:29 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 14:43:29 --> Controller Class Initialized
+INFO - 2024-12-23 14:43:29 --> Helper loaded: form_helper
+INFO - 2024-12-23 14:43:29 --> Helper loaded: auth_helper
+INFO - 2024-12-23 14:43:29 --> Model "BlogModel" initialized
+INFO - 2024-12-23 14:43:29 --> Model "SponsorModel" initialized
+INFO - 2024-12-23 14:43:29 --> Model "User" initialized
+INFO - 2024-12-23 14:43:29 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 14:43:29 --> Pagination Class Initialized
+INFO - 2024-12-23 14:43:29 --> Form Validation Class Initialized
+INFO - 2024-12-23 14:43:29 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/header.php
+INFO - 2024-12-23 14:43:29 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/sidemenu.php
+INFO - 2024-12-23 14:43:29 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\backend/blogs/edit.php
+INFO - 2024-12-23 14:43:29 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/footer.php
+INFO - 2024-12-23 14:43:29 --> Final output sent to browser
+DEBUG - 2024-12-23 14:43:29 --> Total execution time: 0.1059
+INFO - 2024-12-23 14:43:29 --> Config Class Initialized
+INFO - 2024-12-23 14:43:29 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:43:29 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:43:29 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:43:29 --> URI Class Initialized
+INFO - 2024-12-23 14:43:29 --> Router Class Initialized
+INFO - 2024-12-23 14:43:29 --> Output Class Initialized
+INFO - 2024-12-23 14:43:29 --> Security Class Initialized
+DEBUG - 2024-12-23 14:43:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:43:29 --> Input Class Initialized
+INFO - 2024-12-23 14:43:29 --> Language Class Initialized
+ERROR - 2024-12-23 14:43:29 --> 404 Page Not Found: Assets/images
+INFO - 2024-12-23 14:43:37 --> Config Class Initialized
+INFO - 2024-12-23 14:43:37 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:43:37 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:43:37 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:43:37 --> URI Class Initialized
+INFO - 2024-12-23 14:43:37 --> Router Class Initialized
+INFO - 2024-12-23 14:43:37 --> Output Class Initialized
+INFO - 2024-12-23 14:43:37 --> Security Class Initialized
+DEBUG - 2024-12-23 14:43:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:43:37 --> Input Class Initialized
+INFO - 2024-12-23 14:43:37 --> Language Class Initialized
+INFO - 2024-12-23 14:43:37 --> Loader Class Initialized
+INFO - 2024-12-23 14:43:37 --> Helper loaded: url_helper
+INFO - 2024-12-23 14:43:37 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 14:43:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 14:43:37 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 14:43:37 --> Controller Class Initialized
+INFO - 2024-12-23 14:43:37 --> Helper loaded: form_helper
+INFO - 2024-12-23 14:43:37 --> Helper loaded: auth_helper
+INFO - 2024-12-23 14:43:37 --> Model "BlogModel" initialized
+INFO - 2024-12-23 14:43:37 --> Model "SponsorModel" initialized
+INFO - 2024-12-23 14:43:37 --> Model "User" initialized
+INFO - 2024-12-23 14:43:37 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 14:43:37 --> Pagination Class Initialized
+INFO - 2024-12-23 14:43:37 --> Form Validation Class Initialized
+DEBUG - 2024-12-23 14:43:37 --> Pagination class already loaded. Second attempt ignored.
+INFO - 2024-12-23 14:43:37 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/header.php
+INFO - 2024-12-23 14:43:37 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/sidemenu.php
+INFO - 2024-12-23 14:43:37 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\backend/blogs/index.php
+INFO - 2024-12-23 14:43:37 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/footer.php
+INFO - 2024-12-23 14:43:37 --> Final output sent to browser
+DEBUG - 2024-12-23 14:43:37 --> Total execution time: 0.4149
+INFO - 2024-12-23 14:43:38 --> Config Class Initialized
+INFO - 2024-12-23 14:43:38 --> Hooks Class Initialized
+DEBUG - 2024-12-23 14:43:38 --> UTF-8 Support Enabled
+INFO - 2024-12-23 14:43:38 --> Utf8 Class Initialized
+INFO - 2024-12-23 14:43:38 --> URI Class Initialized
+INFO - 2024-12-23 14:43:38 --> Router Class Initialized
+INFO - 2024-12-23 14:43:38 --> Output Class Initialized
+INFO - 2024-12-23 14:43:38 --> Security Class Initialized
+DEBUG - 2024-12-23 14:43:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-23 14:43:38 --> Input Class Initialized
+INFO - 2024-12-23 14:43:38 --> Language Class Initialized
+INFO - 2024-12-23 14:43:38 --> Loader Class Initialized
+INFO - 2024-12-23 14:43:38 --> Helper loaded: url_helper
+INFO - 2024-12-23 14:43:38 --> Database Driver Class Initialized
+DEBUG - 2024-12-23 14:43:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-23 14:43:38 --> Session: Class initialized using 'files' driver.
+INFO - 2024-12-23 14:43:38 --> Controller Class Initialized
+INFO - 2024-12-23 14:43:38 --> Helper loaded: form_helper
+INFO - 2024-12-23 14:43:38 --> Helper loaded: auth_helper
+INFO - 2024-12-23 14:43:38 --> Model "BlogModel" initialized
+INFO - 2024-12-23 14:43:38 --> Model "SponsorModel" initialized
+INFO - 2024-12-23 14:43:38 --> Model "User" initialized
+INFO - 2024-12-23 14:43:38 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-12-23 14:43:38 --> Pagination Class Initialized
+INFO - 2024-12-23 14:43:38 --> Form Validation Class Initialized
+INFO - 2024-12-23 14:43:38 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/header.php
+INFO - 2024-12-23 14:43:38 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/sidemenu.php
+INFO - 2024-12-23 14:43:38 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\backend/blogs/createblog.php
+INFO - 2024-12-23 14:43:38 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/footer.php
+INFO - 2024-12-23 14:43:38 --> Final output sent to browser
+DEBUG - 2024-12-23 14:43:38 --> Total execution time: 0.1219

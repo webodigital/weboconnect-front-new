@@ -151,3 +151,8 @@ $route['case-studies-testimonials/(:num)'] = 'casestudies/adminCaseStudiesTestim
 $route['submit-case-studies-testimonials'] = 'casestudies/submitCaseStudiesTestimonials';
 $route['case-studies-testimonialsbyid/(:num)'] = 'casestudies/adminCaseStudiesTestimonialsById/$1';
 $route['delete-case-studies-testimonials/(:num)'] = 'casestudies/deleteCaseStudiesTestimonials/$1';
+
+// Admin careers
+$route['admin-careers'] = 'career/adminCareers';
+$route['admin-careers/(:num)'] = 'career/adminCareers/$1';
+$route['view-career/(:num)'] = 'career/viewCareers/$1';

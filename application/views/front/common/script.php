@@ -1,6 +1,6 @@
 <script>
-              new WOW().init();
-              </script>
+    new WOW().init();
+</script>
 
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script> -->
 
@@ -217,6 +217,28 @@ $('#newEnquiryModalForm').validate({
     }
 });
 
+document.querySelectorAll('.btn[data-bs-toggle="modal"]').forEach(button => {
+    button.addEventListener('click', function () {
+        const jobPosition = this.getAttribute('data-job-position');
+        const jobExperience = this.getAttribute('data-job-experience');
+        const jobPostedDate = this.getAttribute('data-job-posted-date');
+
+        document.getElementById('modal-job-position').textContent = jobPosition;
+        document.getElementById('modal-job-experience').innerHTML = `Experience: <span>${jobExperience}</span>`;
+        document.getElementById('modal-job-posted-date').innerHTML = `Posted on: <span>${jobPostedDate}</span>`;
+    });
+});
+
+$.validator.addMethod("filesize", function (value, element, param) {
+    return this.optional(element) || (element.files[0].size <= param);
+}, "File size must be less than {0} bytes.");
+
+// Add the extension method if missing
+$.validator.addMethod("extension", function (value, element, param) {
+    param = typeof param === "string" ? param.replace(/,/g, "|") : "txt|pdf|docx|doc";
+    return this.optional(element) || value.match(new RegExp("\\.(" + param + ")$", "i"));
+}, "Please upload a file with a valid extension.");
+
 $('#careers_form').validate({// initialize the plugin
     rules: {
         /*job_title: {
@@ -243,7 +265,8 @@ $('#careers_form').validate({// initialize the plugin
         },*/
         myfile: {
             required: true,
-            extension: "txt|pdf|docx|doc"
+            extension: "txt|pdf|docx|doc",
+            filesize: 2000000 // 2 MB
         }
     },
     messages: {
@@ -276,7 +299,8 @@ $('#careers_form').validate({// initialize the plugin
         
         // Create a FormData object from the form
         var formData = new FormData(form);
-
+        formData.append("job_title", document.getElementById('modal-job-position').textContent);
+        
         $.ajax({
             url: '<?php echo base_url('submit-careers'); ?>',
             type: 'POST',
@@ -284,11 +308,15 @@ $('#careers_form').validate({// initialize the plugin
             cache: false,
             contentType: false,
             processData: false,
-            success: function (res) {console.log(res);
+            success: function (res) {
+                console.log(res);
                 if (res.s == 's') {
                     $(form)[0].reset();
-                     $('#careers_form .getTextMessageSuccess').show().html("<i>"+ res.m +"</i>");
-                    setTimeout(function(){ $('#careers_form .getTextMessageSuccess').hide(); }, 5000);
+                    $('#careers_form .successMessage').show().html("<i>"+ res.m +"</i>");
+                    setTimeout(function(){ 
+                        $('#careers_form .successMessage').hide();
+                        $('#apply_now_modal').modal('hide'); 
+                    }, 5000);
                     //swal("Success!", res.m, "success");
                 } else if (res.error) {
                     var erros = '';
@@ -296,11 +324,11 @@ $('#careers_form').validate({// initialize the plugin
                         erros +='<small><b>'+i+'</b>: '+v+'</small><br>';
                     });
                    // swal({html: true,title:"Warning!", text:erros, icon:"warning"});
-                    $('#careers_form .getTextMessageError').show().html("<i>"+erros+"</i>");
-                    setTimeout(function(){ $('.getTextMessageError').hide(); }, 5000);
+                    $('#careers_form .errorMessage').show().html("<i>"+erros+"</i>");
+                    setTimeout(function(){ $('.errorMessage').hide(); }, 5000);
                 } else {
-                    $('#careers_form .getTextMessageError').show().html("<i>"+ res.m +"</i>");
-                    setTimeout(function(){ $('#careers_form .getTextMessageError').hide(); }, 5000);
+                    $('#careers_form .errorMessage').show().html("<i>"+ res.m +"</i>");
+                    setTimeout(function(){ $('#careers_form .errorMessage').hide(); }, 5000);
                     //swal("Error!", res.m, "error");
                 }
             },
