@@ -660,7 +660,7 @@
                                             </select>           
                                         </div>
                                         <div class="col d-grid">
-                                            <a href="" class="btn b_rds_15 btn-primary-gradient">Add To The Team</a>
+                                            <button class="btn b_rds_15 btn-primary-gradient add_more_cart">Add To The Team</button>
                                         </div>
                                     </div>
                                 </div>
@@ -673,9 +673,9 @@
                 <div class="col-md-4">
                     <div class="qc_right_card">
                         <div class="p-3 hired_resources_ ">
-                            <table class="table bg-transparent">
+                            <table class="table bg-transparent addCartTable">
                                 <tbody>
-                                    <tr>
+                                    <!-- <tr>
                                         <td scope="col" class="fs-14 fw-500" id="dataTable">Front-end Developer</td>
                                         <td scope="col" class="fs-14 fw-500" id="dataTableResources">1</td>
                                         <td scope="col" class="fs-14 fw-500"><span id="dataCurrency">₹</span> 
@@ -689,7 +689,7 @@
                                                 <img width="20" src="<?=base_url()?>assets/images/icons/delete.webp" alt="delete">
                                             </button>
                                         </td>
-                                    </tr>
+                                    </tr> -->
                                 </tbody>
                             </table>
                         </div>
