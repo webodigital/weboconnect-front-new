@@ -476,247 +476,259 @@
             <h2 class="fs-30 fw-600 text_brand_color2">Quote Calculator</h2>
         </div>
         
-        
-    <div class="qc_container_card">
-        <div class="row">
-            <div class="col-md-8">
-                <form action="javascript:void(0);" class="p-4">
+        <div class="qc_container_card">
+            <div class="row">
+                <div class="col-md-8">
+                    <form action="javascript:void(0);" class="p-4">
 
-                    <div class="row g-4 justify-content-between align-items-center">
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label class="form-label" for="">
-                                    <span>
-                                        <img src="<?=base_url()?>assets/images/icons/skill_requirement.webp" alt="skills">
-                                    </span>
-                                    Required Skills
-                                </label>
-                                <select id="development" name="development" class="form-select" required> 
-                                    <option value="">Select Required Skills</option>
-                                    <option value="">Social media management</option>
-                                    <option value="">Database management</option>
-                                    <option value="">Coding</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label class="form-label" for="lname">
-                                    <span>
-                                        <img src="<?=base_url()?>assets/images/icons/code.webp" alt="Technology">
-                                    </span>
-                                    Technology
-                                </label>
-                                <select id="development" name="development" class="form-select" required> 
-                                    <option value="">Select Technology </option>
-                                    <option value="">PHP</option>
-                                    <option value="">Angular JS</option>
-                                    <option value="">React Js</option>
-                                    <option value="">Python</option>
-                                    <option value="">Larawel</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label class="form-label" for="">
-                                    <span>
-                                        <img src="<?=base_url()?>assets/images/icons/experience_level.webp" alt="Experience Level">
-                                    </span>
-                                    Experience Level
-                                </label>
-                                <div class="row g-3">
-                                    <div class="col d-grid">
-                                        <input type="radio" class="btn-check" name="experience_level" id="junior" autocomplete="off" checked>
-                                        <label class="btn b_rds_10 btn-light btn-secondary" for="junior">Junior</label>
-                                    </div>
-                                    <div class="col d-grid">
-                                        <input type="radio" class="btn-check" name="experience_level" id="mid_level" autocomplete="off">
-                                        <label class="btn b_rds_10 btn-light btn-secondary" for="mid_level">Mid-Level</label>
-                                    </div>
-                                    <div class="col d-grid">
-                                        <input type="radio" class="btn-check" name="experience_level" id="senior" autocomplete="off">
-                                        <label class="btn b_rds_10 btn-light btn-secondary" for="senior">Senior</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label class="form-label" for="">
-                                    <span>
-                                        <img src="<?=base_url()?>assets/images/icons/clock.webp" alt="Time Zone">
-                                    </span>
-                                    Time Zone
-                                </label>
-                                <div class="row g-3">
-                                    <div class="col d-grid">
-                                        <input type="radio" class="btn-check" name="time_zone" id="indian" autocomplete="off" checked>
-                                        <label class="btn b_rds_10 btn-light btn-secondary" for="indian">Indian</label>
-                                    </div>
-                                    <div class="col d-grid">
-                                        <input type="radio" class="btn-check" name="time_zone" id="UK_Europe" autocomplete="off">
-                                        <label class="btn b_rds_10 btn-light btn-secondary" for="UK_Europe">UK/Europe</label>
-                                    </div>
-                                    <div class="col d-grid">
-                                        <input type="radio" class="btn-check" name="time_zone" id="usa" autocomplete="off">
-                                        <label class="btn b_rds_10 btn-light btn-secondary" for="usa">USA</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label class="form-label" for="">
-                                    <span>
-                                        <img src="<?=base_url()?>assets/images/icons/time_attack.webp" alt="Engagement Model">
-                                    </span>
-                                    Engagement Model
-                                </label>
-                                <div class="row g-3">
-                                    <div class="col d-grid">
-                                        <input type="radio" class="btn-check" name="engagement_model" id="part_time" autocomplete="off" checked>
-                                        <label class="btn b_rds_10 btn-light btn-secondary" for="part_time">Part-Time</label>
-                                    </div>
-                                    <div class="col d-grid">
-                                        <input type="radio" class="btn-check" name="engagement_model" id="full_time" autocomplete="off">
-                                        <label class="btn b_rds_10 btn-light btn-secondary" for="full_time">Full-Time</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label class="form-label" for="">
-                                    <span>
-                                        <img src="<?=base_url()?>assets/images/icons/office_chair.webp" alt="Premises">
-                                    </span>
-                                    Select Premises
-                                </label>
-                                <div class="row g-3">
-                                    <div class="col d-grid">
-                                        <input type="radio" class="btn-check" name="select_premises" id="off_shore_office" autocomplete="off" checked>
-                                        <label class="btn b_rds_10 btn-light btn-secondary" for="off_shore_office">Off-Shore Office</label>
-                                    </div>
-                                    <div class="col d-grid">
-                                        <input type="radio" class="btn-check" name="select_premises" id="work_from_home" autocomplete="off">
-                                        <label class="btn b_rds_10 btn-light btn-secondary" for="work_from_home">Work From Home</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <div class="row g-3">
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label class="form-label" for="">
-                                            <span>
-                                                <img src="<?=base_url()?>assets/images/icons/contract_period.webp" alt="Premises">
-                                            </span>
-                                            Contract Period
-                                        </label>
-                                        <select id="development" name="development" class="form-select" required> 
-                                            <option value="">1 Month</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label class="form-label" for="">
-                                            <span>
-                                                <img src="<?=base_url()?>assets/images/icons/currency.webp" alt="Premises">
-                                            </span>
-                                            Currency
-                                        </label>
-                                        <select id="development" name="development" class="form-select" required> 
-                                            <option value="">$ (Dollar)</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label class="form-label" for="">
-                                    Number Of Resources 
-                                </label>
-                                <div class="row g-3">
-                                    <div class="col">
-                                        <select id="development" name="development" class="form-select" required> 
-                                            <option value="">1</option>
-                                        </select>
-                                    </div>
-                                    <div class="col d-grid">
-                                        <a href="" class="btn b_rds_15 btn-primary-gradient">Add To The Team</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        
-                    </div>
-                </form>
-            </div>
-            <div class="col-md-4">
-                <div class="qc_right_card">
-                    <div class="p-3 hired_resources_ ">
-                        <table class="table bg-transparent">
-                            <tbody>
-                                <tr>
-                                    <td scope="col" class="fs-14 fw-500">Front-end Developer</td>
-                                    <td scope="col" class="fs-14 fw-500">1</td>
-                                    <td scope="col" class="fs-14 fw-500">$15/Hr</td>
-                                    <td scope="col">
-                                        <button class="">
-                                            <img width="20" src="<?=base_url()?>assets/images/icons/edit.webp" alt="edit">
-                                        </button>
-                                        <button class="">
-                                            <img width="20" src="<?=base_url()?>assets/images/icons/delete.webp" alt="delete">
-                                        </button>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="p-3">
-                        <div class="row align-items-center">
-                            <div class="col-6">
-                                <p class="m-0 fs-18 fw-600">Budget per Month</p>
-                            </div>
-                            <div class="col-6">
-                                <div class="budget_per_month">$0</div>
-                            </div>
-                            <div class="col-12">
+                        <div class="row g-4 justify-content-between align-items-center">
+                            <div class="col-sm-6">
                                 <div class="form-group">
                                     <label class="form-label" for="">
                                         <span>
-                                            <img src="<?=base_url()?>assets/images/icons/freebies.webp" alt="freebies">
+                                            <img src="<?=base_url()?>assets/images/icons/skill_requirement.webp" alt="skills">
                                         </span>
-                                        Freebies
+                                        Required Skills
                                     </label>
-                                    <div class="freebies_card">
-                                        <ul>
-                                            <li>1 Full-time Devloper</li>
-                                        </ul>
+                                    <select id="required_skills" name="required_skills" class="form-select" required>
+                                        <option value="Front-End Developer">Front-End Developer</option> 
+                                        <option value="Back-End Developer">Back-End Developer</option>
+                                        <option value="Select Required Skills" >Select Required Skills</option>
+                                        <option value="Social media management">Social media management</option>
+                                        <option value="Database management">Database management</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label class="form-label" for="lname">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/code.webp" alt="Technology">
+                                        </span>
+                                        Technology
+                                    </label>
+                                    <select id="development" name="development" class="form-select" required> 
+                                        <option value="">Select Technology </option>
+                                        <option value="">PHP</option>
+                                        <option value="">Angular JS</option>
+                                        <option value="">React Js</option>
+                                        <option value="">Python</option>
+                                        <option value="">Larawel</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label class="form-label" for="">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/experience_level.webp" alt="Experience Level">
+                                        </span>
+                                        Experience Level
+                                    </label>
+                                    <div class="row g-3">
+                                        <div class="col d-grid">
+                                            <input type="radio" class="btn-check" name="experience_level" id="junior" autocomplete="off" checked>
+                                            <label class="btn b_rds_10 btn-light btn-secondary" for="junior">Junior</label>
+                                        </div>
+                                        <div class="col d-grid">
+                                            <input type="radio" class="btn-check" name="experience_level" id="mid_level" autocomplete="off">
+                                            <label class="btn b_rds_10 btn-light btn-secondary" for="mid_level">Mid-Level</label>
+                                        </div>
+                                        <div class="col d-grid">
+                                            <input type="radio" class="btn-check" name="experience_level" id="senior" autocomplete="off">
+                                            <label class="btn b_rds_10 btn-light btn-secondary" for="senior">Senior</label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row justify-content-center g-3 mt-1">
-                            <div class="col-5">
-                                <div class="d-grid">
-                                    <a href=""  class="btn btn-outline-primary btn-rounded" >Send it Me</a>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label class="form-label" for="">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/clock.webp" alt="Time Zone">
+                                        </span>
+                                        Time Zone
+                                    </label>
+                                    <div class="row g-3">
+                                        <div class="col d-grid">
+                                            <input type="radio" class="btn-check" name="time_zone" id="indian" autocomplete="off" checked>
+                                            <label class="btn b_rds_10 btn-light btn-secondary" for="indian">Indian</label>
+                                        </div>
+                                        <div class="col d-grid">
+                                            <input type="radio" class="btn-check" name="time_zone" id="UK_Europe" autocomplete="off">
+                                            <label class="btn b_rds_10 btn-light btn-secondary" for="UK_Europe">UK/Europe</label>
+                                        </div>
+                                        <div class="col d-grid">
+                                            <input type="radio" class="btn-check" name="time_zone" id="usa" autocomplete="off">
+                                            <label class="btn b_rds_10 btn-light btn-secondary" for="usa">USA</label>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-5">
-                                <div class="d-grid">
-                                    <a href=""  class="btn btn-outline-primary btn-rounded" >Reset</a>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label class="form-label" for="">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/time_attack.webp" alt="Engagement Model">
+                                        </span>
+                                        Engagement Model
+                                    </label>
+                                    <div class="row g-3">
+                                        <div class="col d-grid">
+                                            <input type="radio" class="btn-check" name="engagement_model" id="part_time" autocomplete="off" checked>
+                                            <label class="btn b_rds_10 btn-light btn-secondary" for="part_time">Part-Time</label>
+                                        </div>
+                                        <div class="col d-grid">
+                                            <input type="radio" class="btn-check" name="engagement_model" id="full_time" autocomplete="off">
+                                            <label class="btn b_rds_10 btn-light btn-secondary" for="full_time">Full-Time</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label class="form-label" for="">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/office_chair.webp" alt="Premises">
+                                        </span>
+                                        Select Premises
+                                    </label>
+                                    <div class="row g-3">
+                                        <div class="col d-grid">
+                                            <input type="radio" class="btn-check" name="select_premises" id="off_shore_office" autocomplete="off" checked>
+                                            <label class="btn b_rds_10 btn-light btn-secondary" for="off_shore_office">Off-Shore Office</label>
+                                        </div>
+                                        <div class="col d-grid">
+                                            <input type="radio" class="btn-check" name="select_premises" id="work_from_home" autocomplete="off">
+                                            <label class="btn b_rds_10 btn-light btn-secondary" for="work_from_home">Work From Home</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="row g-3">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="form-label" for="">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/contract_period.webp" alt="Premises">
+                                                </span>
+                                                Contract Period
+                                            </label>
+                                            <select id="contract_period" name="contract_period" class="form-select" required> 
+                                                <option value="">1 Month</option>
+                                                <option value="">6 Month</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="form-label" for="">
+                                                <span>
+                                                    <img src="<?=base_url()?>assets/images/icons/currency.webp" alt="Premises">
+                                                </span>
+                                                Currency
+                                            </label>
+                                            <select id="currency" name="currency" class="form-select" required> 
+                                                <option value="₹">₹ (INR)</option>
+                                                <option value="$">$ (Dollar)</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label class="form-label" for="">
+                                        Number Of Resources 
+                                    </label>
+                                    <div class="row g-3">
+                                        <div class="col">
+
+                                            <select id="number_of_resources" name="number_of_resources" class="form-select" required>
+                                                <option value="1">1</option> 
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4 </option>
+                                                <option value="5">5</option>
+                                            </select>           
+                                        </div>
+                                        <div class="col d-grid">
+                                            <a href="" class="btn b_rds_15 btn-primary-gradient">Add To The Team</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <div class="qc_right_card">
+                        <div class="p-3 hired_resources_ ">
+                            <table class="table bg-transparent">
+                                <tbody>
+                                    <tr>
+                                        <td scope="col" class="fs-14 fw-500" id="dataTable">Front-end Developer</td>
+                                        <td scope="col" class="fs-14 fw-500" id="dataTableResources">1</td>
+                                        <td scope="col" class="fs-14 fw-500"><span id="dataCurrency">₹</span> 
+                                            <input id="currency_per_hour" value="15" /> 
+                                             /Hr</td>
+                                        <td scope="col">
+                                            <button class="">
+                                                <img width="20" src="<?=base_url()?>assets/images/icons/edit.webp" alt="edit">
+                                            </button>
+                                            <button class="">
+                                                <img width="20" src="<?=base_url()?>assets/images/icons/delete.webp" alt="delete">
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="p-3">
+                            <div class="row align-items-center">
+                                <div class="col-6">
+                                    <p class="m-0 fs-18 fw-600">Budget per Month</p>
+                                </div>
+                                <div class="col-6">
+                                    <div class="budget_per_month">$  
+                                        <span id="dataSelectedTotalCurrency_per_hour">15</span> 
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label class="form-label" for="">
+                                            <span>
+                                                <img src="<?=base_url()?>assets/images/icons/freebies.webp" alt="freebies">
+                                            </span>
+                                            Freebies
+                                        </label>
+                                        <div class="freebies_card">
+                                            <ul>
+                                                <li>1 Full-time Devloper</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center g-3 mt-1">
+                                <div class="col-5">
+                                    <div class="d-grid">
+                                        <a href=""  class="btn btn-outline-primary btn-rounded" >Send it Me</a>
+                                    </div>
+                                </div>
+                                <div class="col-5">
+                                    <div class="d-grid">
+                                        <a href=""  class="btn btn-outline-primary btn-rounded" >Reset</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -725,8 +737,8 @@
             </div>
         </div>
     </div>
-    </div>
-    <div class="container"></div>
+
+    <?php $this->load->view('front/common/calculator') ?>
 </section>
 
 
@@ -770,6 +782,7 @@
 </body> 
 <?php $this->load->view('front/common/script') ?>
 
+<script src="<?=base_url()?>assets/js/calculator.js"></script>
 
 
 
