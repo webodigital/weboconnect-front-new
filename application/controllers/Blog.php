@@ -735,7 +735,7 @@ class Blog extends CI_Controller
                 // Process and validate the image
                 $image = $this->uploadAndProcessImage('image', './assets/images/blogs/uploads/', './assets/images/blogs/uploads/thumbnails/');
                 if (!$image['status']) {
-                    echo json_encode(['status' => 'error', 'message' => $image['message']]);
+                    echo json_encode(['status' => 'error', 'message' => $image['message'], 'gg'=>'true']);
                     return;
                 }
             }
