@@ -2160,7 +2160,7 @@ footer {
 .quote_calculator{
   background: #EBF1F5;
   position: relative;
-  min-height: 600px;
+  /* min-height: 600px; */
   &::before{
     content: '';
     position: absolute;
@@ -2224,6 +2224,13 @@ footer {
           tr td{
             background-color: transparent;
             border: 0px !important;
+            input{
+              width: 35px;
+              text-align: center;
+              border: 0px !important;
+              box-shadow: none !important;
+              outline: none !important;
+            }
           }
           button{
             background-color: transparent !important;
@@ -2647,4 +2654,35 @@ footer {
       width: 150px;
     }
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.cart {
+  margin-top: 20px;
+  border: 1px solid #000;
+  padding: 10px;
+}
+.cart-item {
+  display: flex;
+  justify-content: space-between;
 }
