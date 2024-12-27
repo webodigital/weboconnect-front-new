@@ -344,6 +344,7 @@
   <button class="btn btn-light fs-18 fw-600 px-5 btn-rounded mt-3"  data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal">Discuss Your Project</button>
 </section>
 
+
 <section class="section_padding why_hire_from_weboconnect">
     <div class="container">
         <div class="row align-items-center g-4">
@@ -404,6 +405,7 @@
         <?php $this->load->view('front/common/trusted_top_company') ?>
     </div>
 </section>
+
 
 <section class="section_padding sphdd_">
     <div class="container sphdd_container ">
@@ -473,11 +475,12 @@
         <div class="text-center">
             <h2 class="fs-30 fw-600 text_brand_color2">Quote Calculator</h2>
         </div>
-              
+        
         <div class="qc_container_card">
             <div class="row">
                 <div class="col-md-8">
-                    <form method="post" action="javascript:void(0);" id="quote_calculator" class="p-4">
+                    <form action="javascript:void(0);" class="p-4">
+
                         <div class="row g-4 justify-content-between align-items-center">
                             <div class="col-sm-6">
                                 <div class="form-group">
@@ -487,11 +490,12 @@
                                         </span>
                                         Required Skills
                                     </label>
-                                    <select id="required_skills" name="required_skills" class="form-select" required> 
-                                        <option value="">Select Required Skills</option>
-                                        <option value="Social Media Management">Social Media Management</option>
-                                        <option value="Database Management">Database Management</option>
-                                        <option value="Coding">Coding</option>
+                                    <select id="required_skills" name="required_skills" class="form-select" required>
+                                        <option value="Front-End Developer">Front-End Developer</option> 
+                                        <option value="Back-End Developer">Back-End Developer</option>
+                                        <option value="Select Required Skills" >Select Required Skills</option>
+                                        <option value="Social media management">Social media management</option>
+                                        <option value="Database management">Database management</option>
                                     </select>
                                 </div>
                             </div>
@@ -503,13 +507,13 @@
                                         </span>
                                         Technology
                                     </label>
-                                    <select id="technology" name="technology" class="form-select" required> 
+                                    <select id="development" name="development" class="form-select" required> 
                                         <option value="">Select Technology </option>
-                                        <option value="PHP">PHP</option>
-                                        <option value="Angular JS">Angular JS</option>
-                                        <option value="React Js">React Js</option>
-                                        <option value="Python">Python</option>
-                                        <option value="Laravel">Laravel</option>
+                                        <option value="">PHP</option>
+                                        <option value="">Angular JS</option>
+                                        <option value="">React Js</option>
+                                        <option value="">Python</option>
+                                        <option value="">Larawel</option>
                                     </select>
                                 </div>
                             </div>
@@ -523,15 +527,15 @@
                                     </label>
                                     <div class="row g-3">
                                         <div class="col d-grid">
-                                            <input type="radio" class="btn-check" name="experience_levels" id="junior" value="Junior" autocomplete="off" checked>
+                                            <input type="radio" class="btn-check" name="experience_level" id="junior" autocomplete="off" checked>
                                             <label class="btn b_rds_10 btn-light btn-secondary" for="junior">Junior</label>
                                         </div>
                                         <div class="col d-grid">
-                                            <input type="radio" class="btn-check" name="experience_levels" id="mid_level" value="Mid Level" autocomplete="off">
+                                            <input type="radio" class="btn-check" name="experience_level" id="mid_level" autocomplete="off">
                                             <label class="btn b_rds_10 btn-light btn-secondary" for="mid_level">Mid-Level</label>
                                         </div>
                                         <div class="col d-grid">
-                                            <input type="radio" class="btn-check" name="experience_levels" id="senior" value="Senior" autocomplete="off">
+                                            <input type="radio" class="btn-check" name="experience_level" id="senior" autocomplete="off">
                                             <label class="btn b_rds_10 btn-light btn-secondary" for="senior">Senior</label>
                                         </div>
                                     </div>
@@ -547,20 +551,21 @@
                                     </label>
                                     <div class="row g-3">
                                         <div class="col d-grid">
-                                            <input type="radio" class="btn-check" name="time_zone" id="indian" value="Indian" autocomplete="off" checked>
+                                            <input type="radio" class="btn-check" name="time_zone" id="indian" autocomplete="off" checked>
                                             <label class="btn b_rds_10 btn-light btn-secondary" for="indian">Indian</label>
                                         </div>
                                         <div class="col d-grid">
-                                            <input type="radio" class="btn-check" name="time_zone" id="UK_Europe" value="UK/Europe" autocomplete="off">
+                                            <input type="radio" class="btn-check" name="time_zone" id="UK_Europe" autocomplete="off">
                                             <label class="btn b_rds_10 btn-light btn-secondary" for="UK_Europe">UK/Europe</label>
                                         </div>
                                         <div class="col d-grid">
-                                            <input type="radio" class="btn-check" name="time_zone" id="usa" value="USA" autocomplete="off">
+                                            <input type="radio" class="btn-check" name="time_zone" id="usa" autocomplete="off">
                                             <label class="btn b_rds_10 btn-light btn-secondary" for="usa">USA</label>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <label class="form-label" for="">
@@ -581,6 +586,7 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <label class="form-label" for="">
@@ -591,58 +597,52 @@
                                     </label>
                                     <div class="row g-3">
                                         <div class="col d-grid">
-                                            <input type="radio" class="btn-check" name="select_premises" id="off_shore_office" autocomplete="off" value="Off-Shore Office" checked>
+                                            <input type="radio" class="btn-check" name="select_premises" id="off_shore_office" autocomplete="off" checked>
                                             <label class="btn b_rds_10 btn-light btn-secondary" for="off_shore_office">Off-Shore Office</label>
                                         </div>
                                         <div class="col d-grid">
-                                            <input type="radio" class="btn-check" name="select_premises" id="work_from_home" autocomplete="off" value="Work From Home" >
+                                            <input type="radio" class="btn-check" name="select_premises" id="work_from_home" autocomplete="off">
                                             <label class="btn b_rds_10 btn-light btn-secondary" for="work_from_home">Work From Home</label>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="col-sm-6">
                                 <div class="row g-3">
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <label class="form-label" for="">
                                                 <span>
-                                                    <img src="<?=base_url()?>assets/images/icons/contract_period.webp" alt="contract period">
+                                                    <img src="<?=base_url()?>assets/images/icons/contract_period.webp" alt="Premises">
                                                 </span>
                                                 Contract Period
                                             </label>
                                             <select id="contract_period" name="contract_period" class="form-select" required> 
-                                                <option value="1">1 Month</option>
-                                                <option value="2">2 Month</option>
-                                                <option value="3">3 Month</option>
-                                                <option value="4">4 Month</option>
-                                                <option value="5">5 Month</option>
-                                                <option value="6">6 Month</option>
-                                                <option value="7">7 Month</option>
-                                                <option value="8">8 Month</option>
-                                                <option value="9">9 Month</option>
-                                                <option value="10">10 Month</option>
-                                                <option value="11">11 Month</option>
-                                                <option value="12">12 Month</option>
+                                                <option value="">1 Month</option>
+                                                <option value="">6 Month</option>
                                             </select>
                                         </div>
                                     </div>
+
 
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <label class="form-label" for="">
                                                 <span>
-                                                    <img src="<?=base_url()?>assets/images/icons/currency.webp" alt="currency">
+                                                    <img src="<?=base_url()?>assets/images/icons/currency.webp" alt="Premises">
                                                 </span>
                                                 Currency
                                             </label>
                                             <select id="currency" name="currency" class="form-select" required> 
+                                                <option value="₹">₹ (INR)</option>
                                                 <option value="$">$ (Dollar)</option>
                                             </select>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <label class="form-label" for="">
@@ -650,38 +650,37 @@
                                     </label>
                                     <div class="row g-3">
                                         <div class="col">
-                                            <select id="no_of_resources" name="no_of_resources" class="form-select" required> 
-                                                <option value="1">1</option>
+
+                                            <select id="number_of_resources" name="number_of_resources" class="form-select" required>
+                                                <option value="1">1</option> 
                                                 <option value="2">2</option>
                                                 <option value="3">3</option>
-                                            </select>
+                                                <option value="4">4 </option>
+                                                <option value="5">5</option>
+                                            </select>           
                                         </div>
                                         <div class="col d-grid">
-                                            <a href="#" class="btn b_rds_15 btn-primary-gradient" id="addToTeam">Add To The Team</a>
+                                            <button class="btn b_rds_15 btn-primary-gradient add_more_cart">Add To The Team</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
+                            
                         </div>
                     </form>
-                    <p class="description successMessage" style="text-align: left;background: #3c763d;padding: 10px;display:none;color:#fff;"></p>
-                    <p class="description errorMessage" style="text-align: left;background: #a94442;padding: 10px;display:none;color:#fff;"></p>
                 </div>
                 <div class="col-md-4">
                     <div class="qc_right_card">
                         <div class="p-3 hired_resources_ ">
-                            <table class="table bg-transparent">
-                                <tbody id="teamSummary">
-                                    <tr>
-                                        <td colspan="4" class="text-center">No team members added yet.</td>
-                                    </tr>
+                            <table class="table bg-transparent addCartTable">
+                                <tbody>
                                     <!-- <tr>
-                                        <td colspan="4">
-                                            No Team Added!
-                                        </td>
-                                        <td scope="col" class="fs-14 fw-500">Front-end Developer</td>
-                                        <td scope="col" class="fs-14 fw-500">1</td>
-                                        <td scope="col" class="fs-14 fw-500">$15/Hr</td>
+                                        <td scope="col" class="fs-14 fw-500" id="dataTable">Front-end Developer</td>
+                                        <td scope="col" class="fs-14 fw-500" id="dataTableResources">1</td>
+                                        <td scope="col" class="fs-14 fw-500"><span id="dataCurrency">₹</span> 
+                                            <input id="currency_per_hour" value="15" /> 
+                                             /Hr</td>
                                         <td scope="col">
                                             <button class="">
                                                 <img width="20" src="<?=base_url()?>assets/images/icons/edit.webp" alt="edit">
@@ -689,18 +688,20 @@
                                             <button class="">
                                                 <img width="20" src="<?=base_url()?>assets/images/icons/delete.webp" alt="delete">
                                             </button>
-                                        </td> 
-                                    </tr>-->
+                                        </td>
+                                    </tr> -->
                                 </tbody>
                             </table>
                         </div>
                         <div class="p-3">
                             <div class="row align-items-center">
                                 <div class="col-6">
-                                    <p class="m-0 fs-18 fw-600">Total Budget <!-- per Month --></p>
+                                    <p class="m-0 fs-18 fw-600">Budget per Month</p>
                                 </div>
                                 <div class="col-6">
-                                    <div class="budget_per_month" id="total_budget">$0</div>
+                                    <div class="budget_per_month">$  
+                                        <span id="dataSelectedTotalCurrency_per_hour">15</span> 
+                                    </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
@@ -712,32 +713,21 @@
                                         </label>
                                         <div class="freebies_card">
                                             <ul>
-                                                <!-- <li>1 Full-time Devloper</li> -->
+                                                <li>1 Full-time Devloper</li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="row justify-content-center g-3 mt-1">
-                                <div class="col-sm-12">
-                                    <div class="form-group">
-                                        <label class="form-label" for="">
-                                            <span>
-                                                <img src="<?=base_url()?>assets/images/icons/contract_period.webp" alt="contract period">
-                                            </span>
-                                            Email
-                                        </label>
-                                        <input type="email" class="faedit form-control form-control-sm budget-input" name="email" id="email" autocomplete="off" value="" style="border: 1px solid #004489 !important;">
+                                <div class="col-5">
+                                    <div class="d-grid">
+                                        <a href=""  class="btn btn-outline-primary btn-rounded" >Send it Me</a>
                                     </div>
                                 </div>
                                 <div class="col-5">
                                     <div class="d-grid">
-                                        <button class="btn btn-outline-primary btn-rounded" id="send_it_me">Send it Me</button>
-                                    </div>
-                                </div>
-                                <div class="col-5">
-                                    <div class="d-grid">
-                                        <a href="#" class="btn btn-outline-primary btn-rounded" id="reset-button">Reset</a>
+                                        <a href=""  class="btn btn-outline-primary btn-rounded" >Reset</a>
                                     </div>
                                 </div>
                             </div>
@@ -747,7 +737,8 @@
             </div>
         </div>
     </div>
-    <div class="container"></div>
+
+    <?php $this->load->view('front/common/calculator') ?>
 </section>
 
 
@@ -765,6 +756,7 @@
     </div>
 </section>
 
+
 <section class="section_padding pg_bnr bg-white back_cover" style="background-image: url('<?= base_url() ?>assets/images/pg_bnr/h_d_r.webp');">
     <div class="container">
         <div class="row align-items-center justify-content-end">
@@ -778,9 +770,11 @@
     </div>
 </section> 
 
+
 <section class="section_padding bg_azure">
     <?php $this->load->view('front/common/our_clients_videos') ?>
 </section>
+
 
 <?php $this->load->view('front/common/footer_form') ?>
 <?php $this->load->view('front/common/footer') ?>
@@ -788,388 +782,9 @@
 </body> 
 <?php $this->load->view('front/common/script') ?>
 
+<script src="<?=base_url()?>assets/js/calculator.js"></script>
 
-<script>
-$(document).ready(function () {
 
-    // Attach hideError to all relevant input fields
-    $('input, select').on('focus input', function () {
-        hideError(this);
-    });
-
-    const localStorageKey = 'teamDetails';
-
-    // Function to retrieve data from localStorage
-    function getTeamDetails() {
-        return JSON.parse(localStorage.getItem(localStorageKey)) || [];
-    }
-
-    // Function to save data to localStorage
-    function saveTeamDetails(details) {
-        localStorage.setItem(localStorageKey, JSON.stringify(details));
-    }
-
-    // Function to display team summary
-    function renderTeamSummary() {
-        const teamDetails = getTeamDetails();
-        let responseHtml = '';
-        let totalBudget = 0;
-        let currency = '$';
-        let freebiesHtml = '';
-
-        teamDetails.forEach((item, index) => {
-
-            // Generate freebies HTML if freebies array is not empty
-            if (item.freebies && item.freebies.length > 0) {
-                freebiesHtml = `
-                    <ul>
-                        ${item.freebies.map(freebie => `<li>${freebie}</li>`).join('')}
-                    </ul>
-                `;
-            }
-
-            totalBudget += parseFloat(item.final_budget);
-
-            responseHtml += `
-                <tr data-index="${index}">
-                    <td scope="col" class="fs-14 fw-500">${item.skills}</td>
-                    <td scope="col" class="fs-14 fw-500">${item.resources}</td>
-                    <td scope="col" class="fs-14 fw-500 editable" data-index="${index}">
-                        ${item.currency}${item.final_budget}
-                    </td>
-                    <td scope="col">
-                        <button class="edit-button btn btn-sm btn-warning" data-index="${index}">
-                            <img width="20" src="<?=base_url()?>assets/images/icons/edit.webp" alt="edit">
-                        </button>
-                        <button class="delete-button btn btn-sm btn-danger" data-index="${index}">
-                            <img width="20" src="<?=base_url()?>assets/images/icons/delete.webp" alt="delete">
-                        </button>
-                    </td>
-                </tr>
-            `;
-            currency = item.currency;
-        });
-
-        /*responseHtml += `
-            <tr>
-                <td colspan="2" class="text-end fs-14 fw-700">Total Budget:</td>
-                <td colspan="2" class="fs-14 fw-700">${teamDetails[0]?.currency || ''}${totalBudget.toFixed(2)}</td>
-            </tr>
-        `;*/
-
-        if(!responseHtml){
-            responseHtml = '<tr><td colspan="4" class="text-center">No team members added yet.</td></tr>';
-        }
-
-        $('#teamSummary').html(responseHtml);
-
-        $('#total_budget').html(currency+''+totalBudget.toFixed(2));
-
-        $('.freebies_card').html(freebiesHtml);
-    }
-
-    // Initialize the team summary
-    renderTeamSummary();
-
-    // Inline Edit Budget Price
-    $('#teamSummary').on('click', '.editable', function () {
-        const index = $(this).data('index');
-        const teamDetails = getTeamDetails();
-        const currentItem = teamDetails[index];
-
-        // Convert cell to input for inline editing
-        const currentBudget = currentItem.final_budget;
-        $(this).html(`
-            <input type="number" class="faedit form-control form-control-sm budget-input btn b_rds_10 btn-light btn-secondary" value="${currentBudget}" data-index="${index}">
-        `);
-
-        // Focus on the input field
-        $(this).find('.budget-input').focus();
-    });
-
-    // Save updated budget on blur or Enter key
-    $('#teamSummary').on('blur keyup', '.budget-input', function (e) {
-        if (e.type === 'blur' || (e.type === 'keyup' && e.key === 'Enter')) {
-            const index = $(this).data('index');
-            const newBudget = parseFloat($(this).val()) || 0;
-            const teamDetails = getTeamDetails();
-
-            // Update the budget in localStorage
-            teamDetails[index].final_budget = newBudget.toFixed(2);
-            saveTeamDetails(teamDetails);
-
-            // Re-render the summary table
-            renderTeamSummary();
-        }
-    });
-
-    // Handle Delete button click
-    $('#teamSummary').on('click', '.delete-button', function () {
-        const index = $(this).data('index');
-        const teamDetails = getTeamDetails();
-
-        teamDetails.splice(index, 1);
-        saveTeamDetails(teamDetails);
-        renderTeamSummary();
-    });
-
-    $('#reset-button').on('click', function (e) {
-
-        e.preventDefault(); // Prevent the default anchor behavior
-
-        // Clear local storage
-        localStorage.removeItem('teamDetails');
-
-        // Clear the team summary table
-        $('#teamSummary').html('<tr><td colspan="4" class="text-center">No team members added yet.</td></tr>');
-        $('#total_budget').html('$0.00');
-        $('.freebies_card').html('');
-    });
-
-    // Function to show error message after an element
-    function showError1(element, message) {
-        const errorHtml = `<p class="error-message text-danger error">${message}</p>`;
-        if (element.next('.error-message').length === 0) {
-            element.after(errorHtml);
-        }
-    }
-
-    function hideError(input) {
-        const errorElement = $(input).next('.error-message');
-        if (errorElement.length) {
-            errorElement.remove(); // Remove the error message element
-        }
-        $(input).removeClass('is-invalid'); // Remove invalid styling if any
-    }
-
-
-    // Show error helper function
-    function showError(input, message) {
-        hideError(input); // Remove any existing errors
-        $(input).addClass('is-invalid'); // Add invalid class for styling
-        $(input).after(`<span class="error-message text-danger error">${message}</span>`); // Add error message
-    }
-
-    // Utility function to validate email
-    function isValidEmail(email) {
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return emailRegex.test(email);
-    }
-
-    $('#addToTeam').on('click', function (e) {
-        e.preventDefault();
-
-        // Clear previous error messages
-        $('.error-message').remove();
-
-        let isValid = true;
-
-        // Check Required Skills
-        if ($('#required_skills').val() === '') {
-            isValid = false;
-            showError($('#required_skills'), 'Please select a required skill.');
-        }
-
-        // Check Technology
-        if ($('#technology').val() === '') {
-            isValid = false;
-            showError($('#technology'), 'Please select a technology.');
-        }
-
-        // Check Experience Levels
-        if (!$('input[name="experience_levels"]:checked').val()) {
-            isValid = false;
-            showError($('input[name="experience_levels"]').closest('.form-group'), 'Please select an experience level.');
-        }
-
-        // Check Time Zone
-        if (!$('input[name="time_zone"]:checked').val()) {
-            isValid = false;
-            showError($('input[name="time_zone"]').closest('.form-group'), 'Please select a time zone.');
-        }
-
-        // Check Engagement Model
-        if (!$('input[name="engagement_model"]:checked').val()) {
-            isValid = false;
-            showError($('input[name="engagement_model"]').closest('.form-group'), 'Please select an engagement model.');
-        }
-
-        // Check Premises
-        if (!$('input[name="select_premises"]:checked').val()) {
-            isValid = false;
-            showError($('input[name="select_premises"]').closest('.form-group'), 'Please select a premises option.');
-        }
-
-        // Check Contract Period
-        if ($('#contract_period').val() === '') {
-            isValid = false;
-            showError($('#contract_period'), 'Please select a contract period.');
-        }
-
-        // Check Currency
-        if ($('#currency').val() === '') {
-            isValid = false;
-            showError($('#currency'), 'Please select a currency.');
-        }
-
-        // Check Number of Resources
-        if ($('#no_of_resources').val() === '') {
-            isValid = false;
-            showError($('#no_of_resources'), 'Please select the number of resources.');
-        }
-
-        // If all fields are valid, proceed with the AJAX request
-        if (isValid) {
-            const formData = {
-                skills: $('#required_skills').val(),
-                technology: $('#technology').val(),
-                experience_levels: $('input[name="experience_levels"]:checked').attr('value'),
-                time_zone: $('input[name="time_zone"]:checked').attr('value'),
-                engagement_model: $('input[name="engagement_model"]:checked').attr('value'),
-                select_premises: $('input[name="select_premises"]:checked').attr('value'),
-                contract_period: $('#contract_period').val(),
-                currency: $('#currency').val(),
-                resources: $('#no_of_resources').val(),
-            };
-
-            $.ajax({
-                url: '<?=base_url()?>calculator/calculate_budget',
-                type: 'POST',
-                data: formData,
-                success: function (response) {
-                    const data = JSON.parse(response);
-                    //renderTeamSummary(data);
-                    //saveToLocalStorage(data);
-
-                    if(data.skills){
-
-                        const teamDetails = getTeamDetails();
-
-                        // Extract freebies from the data and ensure they're unique
-                        let newFreebies = data.freebies || [];
-                        if (!Array.isArray(newFreebies)) {
-                            newFreebies = [];
-                        }
-
-                        // Ensure the freebies array only contains unique items
-                        const existingFreebies = teamDetails.flatMap(item => item.freebies || []);
-                        const uniqueFreebies = [...new Set([...existingFreebies, ...newFreebies])];
-
-                        teamDetails.push({
-                            base_budget: data.base_budget,
-                            total_discount: data.total_discount,
-                            final_budget: data.final_budget,
-                            freebies: data.freebies,
-                            currency: data.currency, // Include currency in the response
-                            skills: data.skills,
-                            technology: data.technology,
-                            experience_levels: data.experience_levels,
-                            resources: data.resources,
-                            contract_period: data.contract_period,
-                            time_zone: data.time_zone,
-                            engagement_model: data.engagement_model,
-                            premises: data.premises,
-                            currency: data.currency,
-                            additional_costs: data.additional_costs,
-                            freebies: uniqueFreebies, // Save the updated unique freebies
-                        });
-                        saveTeamDetails(teamDetails);
-                        renderTeamSummary();
-                    }
-                },
-                error: function () {
-                    $('#teamSummary').html('<p class="text-danger">An error occurred while calculating the budget.</p>');
-                }
-            });
-        }
-    });
-
-    $('#send_it_me').on('click', function (e) {
-        e.preventDefault();
-
-        // Retrieve all data from localStorage
-        const teamDetails = JSON.parse(localStorage.getItem('teamDetails')) || [];
-
-        if (teamDetails.length === 0) {
-            //alert('No team details found to send.');
-            $(' .errorMessage').show().html("<i>No team details found to send. Please add some team first!</i>");
-            setTimeout(function(){ $('.errorMessage').hide(); }, 5000);
-            return;
-        }
-
-        /*// Collect additional form data if needed
-        const additionalData = {
-            user_email: $('#email').val(), // Example: email input field (add it to your form)
-        };*/
-
-
-        // Clear previous error messages
-        $('.error-message').remove();
-
-        let isValid = true;
-
-        // Check email
-        if ($('#email').val() === '') {
-            isValid = false;
-            showError($('#email'), 'Please required an email.');
-        }
-
-        // Check if email is valid
-        if (!isValidEmail($('#email').val())) {
-            showError('#email', 'Please enter a valid email address.');
-            return;
-        }
-
-        if(isValid){
-            // Combine local storage data and additional form data
-            const formData = {
-                user_email: $('#email').val(),
-                form_data: teamDetails
-            };
-
-            // Send data to the server
-            $.ajax({
-                url: '<?=base_url()?>calculator/send_team_details', // Replace with your server endpoint
-                type: 'POST',
-                data: formData,
-                /*cache: false,
-                contentType: false,
-                processData: false,*/
-                success: function (response) {
-                    const res = typeof response === "string" ? JSON.parse(response) : response;
-                    console.log(res);
-                    if (res.s == 's') {
-                        $("#quote_calculator")[0].reset();
-                        $('.successMessage').show().html("<i>"+ res.m +"</i>");
-                        $('#email').val('');
-                        // Clear local storage
-                        localStorage.removeItem('teamDetails');
-                        renderTeamSummary();
-                        setTimeout(function(){ 
-                            $('.successMessage').hide();
-                        }, 5000);
-                        //swal("Success!", res.m, "success");
-                    } else if (res.error) {
-                        var erros = '';
-                        $.each(res.error,function(i,v){
-                            erros +='<small><b>'+i+'</b>: '+v+'</small><br>';
-                        });
-                       // swal({html: true,title:"Warning!", text:erros, icon:"warning"});
-                        $('.errorMessage').show().html("<i>"+erros+"</i>");
-                        setTimeout(function(){ $('.errorMessage').hide(); }, 5000);
-                    } else {
-                        $(' .errorMessage').show().html("<i>"+ res.m +"</i>");
-                        setTimeout(function(){ $('.errorMessage').hide(); }, 5000);
-                        //swal("Error!", res.m, "error");
-                    }
-                },
-                error: function(response) { console.log(response); }
-            });
-        }  
-    });
-
-});
-</script>
 
 
 </html>
