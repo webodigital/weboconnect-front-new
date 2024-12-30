@@ -107,7 +107,6 @@ class Calculator extends CI_Controller {
 
     private function calculate_freebies($total_resources, $contract_period) {
 
-
         $freebies = [];
 
         // Default: 1 Project Coordinator free
@@ -132,13 +131,9 @@ class Calculator extends CI_Controller {
         return $freebies;
     }
 
-
-    public function send_team_details1()
+    
+    public function send_team_details()
     {
-        // Load email library and helpers
-        //$this->load->library('email');
-        //$this->load->helper('url');
-
         // Retrieve POST data
         $email = $this->input->post('user_email');
         //print_r($this->input->post('email'));
@@ -172,41 +167,16 @@ class Calculator extends CI_Controller {
             $freebies = !empty($detail['freebies']) ? implode(', ', array_map('htmlspecialchars', $detail['freebies'])) : 'None';
 
             $emailContent .= "<tr>
-                                <td>{$skills}</td>
-                                <td>{$resources}</td>
-                                <td>{$currency}{$finalBudget}</td>
-                                <td>{$contract_period} Month</td>
-                                <td>{$freebies}</td>
-                              </tr>";
+                <td>{$skills}</td>
+                <td>{$resources}</td>
+                <td>{$currency}{$finalBudget}</td>
+                <td>{$contract_period} Month</td>
+                <td>{$freebies}</td>
+              </tr>";
         }
 
         $emailContent .= "</table>";
 
-        // Email configuration
-        /*$config = [
-            'protocol'  => 'smtp',
-            'smtp_host' => 'smtp.yourdomain.com', // Replace with your SMTP host
-            'smtp_port' => 587,                  // Replace with your SMTP port
-            'smtp_user' => 'your-email@domain.com', // Replace with your email address
-            'smtp_pass' => 'your-email-password',   // Replace with your email password
-            'mailtype'  => 'html',
-            'charset'   => 'utf-8',
-            'wordwrap'  => true
-        ];
-
-        $this->email->initialize($config);
-        $this->email->set_newline("\r\n");
-
-        // Set email details
-        $this->email->from('your-email@domain.com', 'Your Name');
-        $this->email->to($email); // Sending email to the provided email
-        $this->email->subject('Team Details Submission');
-        $this->email->message($emailContent);*/
-
-        //if (mail('info@weboconnect.com', 'Application for Job', $body, $headers)){
-
-        // Send email and handle response
-        //if ($this->email->send()) {
         $headers = "From: Weboconnect <info@weboconnect.com>\r\n";
         //$headers = "From: info@weboconnect.com" . "\r\n";
         $headers .= "Reply-To: info@weboconnect.com" . "\r\n";

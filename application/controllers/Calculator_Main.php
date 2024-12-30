@@ -102,4 +102,96 @@ class Calculator extends CI_Controller {
 
         return $freebies;
     }
+
+    public function send_team_details()
+    {
+        // Load email library and helpers
+        //$this->load->library('email');
+        //$this->load->helper('url');
+
+        // Retrieve POST data
+        $email = $this->input->post('user_email');
+        //print_r($this->input->post('email'));
+        //$form_data = json_decode($this->input->post('form_data'), true);
+        $form_data = $this->input->post('form_data');
+
+        // Validate inputs
+        if (empty($email) || empty($form_data)) {
+            echo json_encode(['s' => 'f', 'm' => 'Invalid data provided.']);
+            return;
+        }
+
+        // Prepare email content
+        $emailContent = "<h1>Team Details Submission</h1>";
+        $emailContent .= "<p><strong>Email:</strong> {$email}</p>";
+        $emailContent .= "<table border='1' cellspacing='0' cellpadding='5'>";
+        $emailContent .= "<tr>
+                            <th>Skills</th>
+                            <th>Resources</th>
+                            <th>Final Budget</th>
+                            <th>Contract Period</th>
+                            <th>Freebies</th>
+                          </tr>";
+
+        foreach ($form_data as $detail) {
+            $skills = htmlspecialchars($detail['skills']);
+            $resources = htmlspecialchars($detail['resources']);
+            $finalBudget = htmlspecialchars($detail['final_budget']);
+            $currency = htmlspecialchars($detail['currency']);
+            $contract_period = htmlspecialchars($detail['contract_period']);
+            $freebies = !empty($detail['freebies']) ? implode(', ', array_map('htmlspecialchars', $detail['freebies'])) : 'None';
+
+            $emailContent .= "<tr>
+                                <td>{$skills}</td>
+                                <td>{$resources}</td>
+                                <td>{$currency}{$finalBudget}</td>
+                                <td>{$contract_period} Month</td>
+                                <td>{$freebies}</td>
+                              </tr>";
+        }
+
+        $emailContent .= "</table>";
+
+        // Email configuration
+        /*$config = [
+            'protocol'  => 'smtp',
+            'smtp_host' => 'smtp.yourdomain.com', // Replace with your SMTP host
+            'smtp_port' => 587,                  // Replace with your SMTP port
+            'smtp_user' => 'your-email@domain.com', // Replace with your email address
+            'smtp_pass' => 'your-email-password',   // Replace with your email password
+            'mailtype'  => 'html',
+            'charset'   => 'utf-8',
+            'wordwrap'  => true
+        ];
+
+        $this->email->initialize($config);
+        $this->email->set_newline("\r\n");
+
+        // Set email details
+        $this->email->from('your-email@domain.com', 'Your Name');
+        $this->email->to($email); // Sending email to the provided email
+        $this->email->subject('Team Details Submission');
+        $this->email->message($emailContent);*/
+
+        //if (mail('info@weboconnect.com', 'Application for Job', $body, $headers)){
+
+        // Send email and handle response
+        //if ($this->email->send()) {
+        $headers = "From: Weboconnect <info@weboconnect.com>\r\n";
+        //$headers = "From: info@weboconnect.com" . "\r\n";
+        $headers .= "Reply-To: info@weboconnect.com" . "\r\n";
+        $headers .= "MIME-Version: 1.0\r\n";
+        $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+
+        //print_r($emailContent);
+
+        if (mail($email, 'Quote Calculator Team Details Submission', $emailContent, $headers)) {
+            //echo json_encode(['s' => 's', 'm' => 'Email sent successfully.']);
+            $result = ['s' => 's', 'm' => 'Email sent successfully.'];
+        } else {
+            //echo json_encode(['s' => 's', 'm' => 'Failed to send email.']);
+            $result = ['s' => 'f', 'm' => 'Something went wrong. Please try again later.'];
+        }
+        echo json_encode($result);
+    }
 }
