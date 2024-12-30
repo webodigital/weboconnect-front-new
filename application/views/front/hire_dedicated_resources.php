@@ -881,7 +881,7 @@
             `;*/
 
             if(!responseHtml){
-                responseHtml = '<tr><td colspan="4" class="text-center">No team members added yet.</td></tr>';
+                responseHtml = '<tr><td colspan="4" class="text-center fs-18">No team members added yet.</td></tr>';
             }
 
             $('#teamSummary').html(responseHtml);
@@ -944,7 +944,7 @@
             localStorage.removeItem('teamDetails');
 
             // Clear the team summary table
-            $('#teamSummary').html('<tr><td colspan="4" class="text-center">No team members added yet.</td></tr>');
+            $('#teamSummary').html('<tr><td colspan="4" class="text-center fs-18">No team members added yet.</td></tr>');
             $('#total_budget').html('$0.00');
             $('.freebies_card').html('');
         });

@@ -683,34 +683,182 @@
 
       <div class="col-lg-6">
         <div class="d-lg-block d-none">
-          <div class="row text-center align-items-center justify-content-center g-4 g-lg-5">        
-            <div class="col-6 col-md-4">
-              <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances1.png" alt="Angela Simeone" class="alliance-logo img-fluid">
+          <div class="owl-carousel owl-theme single_slider_zooming">  
+
+            <div class="item">
+              <div class="row g-4 my-5">
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo1.webp" alt="Angela Simeone" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo2.webp" alt="One Hope" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo3.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo4.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo5.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo6.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo7.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo8.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo9.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+              </div>
             </div>
-            <div class="col-6 col-md-4">
-              <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances2.jpg" alt="One Hope" class="alliance-logo img-fluid">
+
+            <div class="item">
+              <div class="row g-4 my-5">
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo10.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo11.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo12.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo13.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo14.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo15.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo16.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo17.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo18.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+              </div>
             </div>
-            <div class="col-6 col-md-4">
-              <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances3.svg" alt="Pro Rider" class="alliance-logo img-fluid">
+
+            <div class="item">
+              <div class="row g-4 my-5">
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo19.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo20.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo21.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo22.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo23.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo24.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo25.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo26.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo27.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+              </div>
             </div>
-            <div class="col-6 col-md-4">
-              <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances4.jpg" alt="LuLu Diamonds" class="alliance-logo img-fluid">
+
+            <div class="item">
+              <div class="row g-4 my-5">
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo28.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo29.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo30.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo31.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo32.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo33.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo34.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo35.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo36.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+              </div>
             </div>
-            <div class="col-6 col-md-4">
-              <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances5.svg" alt="Philcoin" class="alliance-logo img-fluid">
+
+            <div class="item">
+              <div class="row g-4 my-5">
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo37.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo38.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo39.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo40.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo41.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo42.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo43.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo44.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo45.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+              </div>
             </div>
-            <div class="col-6 col-md-4">
-              <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances6.svg" alt="Wallet Cab" class="alliance-logo img-fluid">
+
+            <div class="item">
+              <div class="row g-4 my-5">
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo46.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo47.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo48.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+              </div>
             </div>
-            <div class="col-6 col-md-4">
-              <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances7.svg" alt="Venturewell" class="alliance-logo img-fluid">
-            </div>
-            <div class="col-6 col-md-4">
-              <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances8.svg" alt="Nurseify" class="alliance-logo img-fluid">
-            </div>
-            <div class="col-6 col-md-4">
-              <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances9.svg" alt="ICNA" class="alliance-logo img-fluid">
-            </div>
+
           </div>
         </div>
 
@@ -719,44 +867,180 @@
             <div class="item">
               <div class="row g-4 my-5">
                 <div class="col-6 col-md-4">
-                  <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances1.png" alt="Angela Simeone" class="alliance-logo img-fluid">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo1.webp" alt="Angela Simeone" class="alliance-logo img-fluid">
                 </div>
                 <div class="col-6 col-md-4">
-                  <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances2.jpg" alt="One Hope" class="alliance-logo img-fluid">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo2.webp" alt="One Hope" class="alliance-logo img-fluid">
                 </div>
                 <div class="col-6 col-md-4">
-                  <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances3.svg" alt="Pro Rider" class="alliance-logo img-fluid">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo3.webp" alt="Pro Rider" class="alliance-logo img-fluid">
                 </div>
                 <div class="col-6 col-md-4">
-                  <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances4.jpg" alt="LuLu Diamonds" class="alliance-logo img-fluid">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo4.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo5.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo6.webp" alt="Pro Rider" class="alliance-logo img-fluid">
                 </div>
               </div>
             </div>
             <div class="item">
               <div class="row g-4 my-5">
-
                 <div class="col-6 col-md-4">
-                <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances5.svg" alt="Philcoin" class="alliance-logo img-fluid">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo7.webp" alt="Pro Rider" class="alliance-logo img-fluid">
                 </div>
                 <div class="col-6 col-md-4">
-                  <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances6.svg" alt="Wallet Cab" class="alliance-logo img-fluid">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo8.webp" alt="Pro Rider" class="alliance-logo img-fluid">
                 </div>
                 <div class="col-6 col-md-4">
-                  <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances7.svg" alt="Venturewell" class="alliance-logo img-fluid">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo9.webp" alt="Pro Rider" class="alliance-logo img-fluid">
                 </div>
                 <div class="col-6 col-md-4">
-                  <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances8.svg" alt="Nurseify" class="alliance-logo img-fluid">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo10.webp" alt="Pro Rider" class="alliance-logo img-fluid">
                 </div>
-
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo11.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo12.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
               </div>
             </div>
             <div class="item">
               <div class="row g-4 my-5">
                 <div class="col-6 col-md-4">
-                  <img src="<?=base_url()?>assets/images/trusted_partners/Trusted Alliances9.svg" alt="ICNA" class="alliance-logo img-fluid">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo13.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo14.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo15.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo16.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo17.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo18.webp" alt="Pro Rider" class="alliance-logo img-fluid">
                 </div>
               </div>
             </div>
+            <div class="item">
+              <div class="row g-4 my-5">
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo19.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo20.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo21.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo22.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo23.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo24.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row g-4 my-5">
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo25.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo26.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo27.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo28.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo29.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo30.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row g-4 my-5">
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo31.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo32.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo33.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo34.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo35.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo36.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row g-4 my-5">
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo37.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo38.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo39.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo40.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo41.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo42.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row g-4 my-5">
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo43.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo44.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo45.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo46.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo47.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="<?=base_url()?>assets/images/trusted_partners/logo48.webp" alt="Pro Rider" class="alliance-logo img-fluid">
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
