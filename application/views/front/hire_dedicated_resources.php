@@ -673,7 +673,7 @@
                             <table class="table bg-transparent">
                                 <tbody id="teamSummary">
                                     <tr>
-                                        <td colspan="4" class="text-center">No team members added yet.</td>
+                                        <td colspan="4" class="text-center fs-18">No team members added yet.</td>
                                     </tr>
                                     <!-- <tr>
                                         <td colspan="4">
