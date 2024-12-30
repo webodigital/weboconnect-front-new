@@ -258,9 +258,9 @@ class Home extends CI_Controller {
             'Backend Development' => ['PHP', 'Node.js', 'Python', 'Ruby', 'Java'],
             'Mobile Development' => ['Swift', 'Kotlin', 'React Native', 'Flutter'],
             'Database Management' => ['MySQL', 'PostgreSQL', 'MongoDB'],
-            'Project Management' => [],
+            'Project Management' => ['Project Manager', 'Project Coordinator'],
             'Design' => ['UI/UX Design', 'Graphic Design'],
-            'Testing' => [],
+            'Testing' => ['Manual', 'Automation'],
         ];
 		$this->load->view('front/hire_dedicated_resources', $data);
 	}
