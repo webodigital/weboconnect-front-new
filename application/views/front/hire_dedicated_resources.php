@@ -489,9 +489,12 @@
                                     </label>
                                     <select id="required_skills" name="required_skills" class="form-select" required> 
                                         <option value="">Select Required Skills</option>
-                                        <option value="Social Media Management">Social Media Management</option>
+                                        <!-- <option value="Social Media Management">Social Media Management</option>
                                         <option value="Database Management">Database Management</option>
-                                        <option value="Coding">Coding</option>
+                                        <option value="Coding">Coding</option> -->
+                                        <?php foreach ($skills as $skill => $technologies): ?>
+                                            <option value="<?= $skill; ?>"><?= $skill; ?></option>
+                                        <?php endforeach; ?>
                                     </select>
                                 </div>
                             </div>
@@ -505,11 +508,11 @@
                                     </label>
                                     <select id="technology" name="technology" class="form-select" required> 
                                         <option value="">Select Technology </option>
-                                        <option value="PHP">PHP</option>
+                                        <!-- <option value="PHP">PHP</option>
                                         <option value="Angular JS">Angular JS</option>
                                         <option value="React Js">React Js</option>
                                         <option value="Python">Python</option>
-                                        <option value="Laravel">Laravel</option>
+                                        <option value="Laravel">Laravel</option> -->
                                     </select>
                                 </div>
                             </div>
@@ -790,385 +793,405 @@
 
 
 <script>
-$(document).ready(function () {
 
-    // Attach hideError to all relevant input fields
-    $('input, select').on('focus input', function () {
-        hideError(this);
+    // Static mapping of skills to technologies
+    const skillsTechnologies = <?= json_encode($skills); ?>;
+
+    // Populate technologies dropdown based on selected skill
+    document.getElementById('required_skills').addEventListener('change', function() {
+        const selectedSkill = this.value;
+        const techDropdown = document.getElementById('technology');
+
+        // Clear the current technologies dropdown
+        techDropdown.innerHTML = '<option value="">Select Technology</option>';
+
+        // Populate with relevant technologies
+        if (skillsTechnologies[selectedSkill]) {
+            skillsTechnologies[selectedSkill].forEach(tech => {
+                techDropdown.innerHTML += `<option value="${tech}">${tech}</option>`;
+            });
+        }
     });
 
-    const localStorageKey = 'teamDetails';
+    $(document).ready(function () {
 
-    // Function to retrieve data from localStorage
-    function getTeamDetails() {
-        return JSON.parse(localStorage.getItem(localStorageKey)) || [];
-    }
-
-    // Function to save data to localStorage
-    function saveTeamDetails(details) {
-        localStorage.setItem(localStorageKey, JSON.stringify(details));
-    }
-
-    // Function to display team summary
-    function renderTeamSummary() {
-        const teamDetails = getTeamDetails();
-        let responseHtml = '';
-        let totalBudget = 0;
-        let currency = '$';
-        let freebiesHtml = '';
-
-        teamDetails.forEach((item, index) => {
-
-            // Generate freebies HTML if freebies array is not empty
-            if (item.freebies && item.freebies.length > 0) {
-                freebiesHtml = `
-                    <ul>
-                        ${item.freebies.map(freebie => `<li>${freebie}</li>`).join('')}
-                    </ul>
-                `;
-            }
-
-            totalBudget += parseFloat(item.final_budget);
-
-            responseHtml += `
-                <tr data-index="${index}">
-                    <td scope="col" class="fs-14 fw-500">${item.skills}</td>
-                    <td scope="col" class="fs-14 fw-500">${item.resources}</td>
-                    <td scope="col" class="fs-14 fw-500 editable" data-index="${index}">
-                        ${item.currency}${item.final_budget}
-                    </td>
-                    <td scope="col">
-                        <button class="edit-button btn btn-sm btn-warning" data-index="${index}">
-                            <img width="20" src="<?=base_url()?>assets/images/icons/edit.webp" alt="edit">
-                        </button>
-                        <button class="delete-button btn btn-sm btn-danger" data-index="${index}">
-                            <img width="20" src="<?=base_url()?>assets/images/icons/delete.webp" alt="delete">
-                        </button>
-                    </td>
-                </tr>
-            `;
-            currency = item.currency;
+        // Attach hideError to all relevant input fields
+        $('input, select').on('focus input', function () {
+            hideError(this);
         });
 
-        /*responseHtml += `
-            <tr>
-                <td colspan="2" class="text-end fs-14 fw-700">Total Budget:</td>
-                <td colspan="2" class="fs-14 fw-700">${teamDetails[0]?.currency || ''}${totalBudget.toFixed(2)}</td>
-            </tr>
-        `;*/
+        const localStorageKey = 'teamDetails';
 
-        if(!responseHtml){
-            responseHtml = '<tr><td colspan="4" class="text-center">No team members added yet.</td></tr>';
+        // Function to retrieve data from localStorage
+        function getTeamDetails() {
+            return JSON.parse(localStorage.getItem(localStorageKey)) || [];
         }
 
-        $('#teamSummary').html(responseHtml);
+        // Function to save data to localStorage
+        function saveTeamDetails(details) {
+            localStorage.setItem(localStorageKey, JSON.stringify(details));
+        }
 
-        $('#total_budget').html(currency+''+totalBudget.toFixed(2));
+        // Function to display team summary
+        function renderTeamSummary() {
+            const teamDetails = getTeamDetails();
+            let responseHtml = '';
+            let totalBudget = 0;
+            let currency = '$';
+            let freebiesHtml = '';
 
-        $('.freebies_card').html(freebiesHtml);
-    }
+            teamDetails.forEach((item, index) => {
 
-    // Initialize the team summary
-    renderTeamSummary();
+                // Generate freebies HTML if freebies array is not empty
+                if (item.freebies && item.freebies.length > 0) {
+                    freebiesHtml = `
+                        <ul>
+                            ${item.freebies.map(freebie => `<li>${freebie}</li>`).join('')}
+                        </ul>
+                    `;
+                }
 
-    // Inline Edit Budget Price
-    $('#teamSummary').on('click', '.editable', function () {
-        const index = $(this).data('index');
-        const teamDetails = getTeamDetails();
-        const currentItem = teamDetails[index];
+                totalBudget += parseFloat(item.final_budget);
 
-        // Convert cell to input for inline editing
-        const currentBudget = currentItem.final_budget;
-        $(this).html(`
-            <input type="number" class="faedit form-control form-control-sm budget-input btn b_rds_10 btn-light btn-secondary" value="${currentBudget}" data-index="${index}">
-        `);
+                responseHtml += `
+                    <tr data-index="${index}">
+                        <td scope="col" class="fs-14 fw-500">${item.skills}</td>
+                        <td scope="col" class="fs-14 fw-500">${item.resources}</td>
+                        <td scope="col" class="fs-14 fw-500 editable" data-index="${index}">
+                            ${item.currency}${item.final_budget}
+                        </td>
+                        <td scope="col">
+                            <button class="edit-button btn btn-sm btn-warning" data-index="${index}">
+                                <img width="20" src="<?=base_url()?>assets/images/icons/edit.webp" alt="edit">
+                            </button>
+                            <button class="delete-button btn btn-sm btn-danger" data-index="${index}">
+                                <img width="20" src="<?=base_url()?>assets/images/icons/delete.webp" alt="delete">
+                            </button>
+                        </td>
+                    </tr>
+                `;
+                currency = item.currency;
+            });
 
-        // Focus on the input field
-        $(this).find('.budget-input').focus();
-    });
+            /*responseHtml += `
+                <tr>
+                    <td colspan="2" class="text-end fs-14 fw-700">Total Budget:</td>
+                    <td colspan="2" class="fs-14 fw-700">${teamDetails[0]?.currency || ''}${totalBudget.toFixed(2)}</td>
+                </tr>
+            `;*/
 
-    // Save updated budget on blur or Enter key
-    $('#teamSummary').on('blur keyup', '.budget-input', function (e) {
-        if (e.type === 'blur' || (e.type === 'keyup' && e.key === 'Enter')) {
+            if(!responseHtml){
+                responseHtml = '<tr><td colspan="4" class="text-center">No team members added yet.</td></tr>';
+            }
+
+            $('#teamSummary').html(responseHtml);
+
+            $('#total_budget').html(currency+''+totalBudget.toFixed(2));
+
+            $('.freebies_card').html(freebiesHtml);
+        }
+
+        // Initialize the team summary
+        renderTeamSummary();
+
+        // Inline Edit Budget Price
+        $('#teamSummary').on('click', '.editable', function () {
             const index = $(this).data('index');
-            const newBudget = parseFloat($(this).val()) || 0;
+            const teamDetails = getTeamDetails();
+            const currentItem = teamDetails[index];
+
+            // Convert cell to input for inline editing
+            const currentBudget = currentItem.final_budget;
+            $(this).html(`
+                <input type="number" class="faedit form-control form-control-sm budget-input btn b_rds_10 btn-light btn-secondary" value="${currentBudget}" data-index="${index}">
+            `);
+
+            // Focus on the input field
+            $(this).find('.budget-input').focus();
+        });
+
+        // Save updated budget on blur or Enter key
+        $('#teamSummary').on('blur keyup', '.budget-input', function (e) {
+            if (e.type === 'blur' || (e.type === 'keyup' && e.key === 'Enter')) {
+                const index = $(this).data('index');
+                const newBudget = parseFloat($(this).val()) || 0;
+                const teamDetails = getTeamDetails();
+
+                // Update the budget in localStorage
+                teamDetails[index].final_budget = newBudget.toFixed(2);
+                saveTeamDetails(teamDetails);
+
+                // Re-render the summary table
+                renderTeamSummary();
+            }
+        });
+
+        // Handle Delete button click
+        $('#teamSummary').on('click', '.delete-button', function () {
+            const index = $(this).data('index');
             const teamDetails = getTeamDetails();
 
-            // Update the budget in localStorage
-            teamDetails[index].final_budget = newBudget.toFixed(2);
+            teamDetails.splice(index, 1);
             saveTeamDetails(teamDetails);
-
-            // Re-render the summary table
             renderTeamSummary();
-        }
-    });
+        });
 
-    // Handle Delete button click
-    $('#teamSummary').on('click', '.delete-button', function () {
-        const index = $(this).data('index');
-        const teamDetails = getTeamDetails();
+        $('#reset-button').on('click', function (e) {
 
-        teamDetails.splice(index, 1);
-        saveTeamDetails(teamDetails);
-        renderTeamSummary();
-    });
+            e.preventDefault(); // Prevent the default anchor behavior
 
-    $('#reset-button').on('click', function (e) {
+            // Clear local storage
+            localStorage.removeItem('teamDetails');
 
-        e.preventDefault(); // Prevent the default anchor behavior
+            // Clear the team summary table
+            $('#teamSummary').html('<tr><td colspan="4" class="text-center">No team members added yet.</td></tr>');
+            $('#total_budget').html('$0.00');
+            $('.freebies_card').html('');
+        });
 
-        // Clear local storage
-        localStorage.removeItem('teamDetails');
-
-        // Clear the team summary table
-        $('#teamSummary').html('<tr><td colspan="4" class="text-center">No team members added yet.</td></tr>');
-        $('#total_budget').html('$0.00');
-        $('.freebies_card').html('');
-    });
-
-    // Function to show error message after an element
-    function showError1(element, message) {
-        const errorHtml = `<p class="error-message text-danger error">${message}</p>`;
-        if (element.next('.error-message').length === 0) {
-            element.after(errorHtml);
-        }
-    }
-
-    function hideError(input) {
-        const errorElement = $(input).next('.error-message');
-        if (errorElement.length) {
-            errorElement.remove(); // Remove the error message element
-        }
-        $(input).removeClass('is-invalid'); // Remove invalid styling if any
-    }
-
-
-    // Show error helper function
-    function showError(input, message) {
-        hideError(input); // Remove any existing errors
-        $(input).addClass('is-invalid'); // Add invalid class for styling
-        $(input).after(`<span class="error-message text-danger error">${message}</span>`); // Add error message
-    }
-
-    // Utility function to validate email
-    function isValidEmail(email) {
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return emailRegex.test(email);
-    }
-
-    $('#addToTeam').on('click', function (e) {
-        e.preventDefault();
-
-        // Clear previous error messages
-        $('.error-message').remove();
-
-        let isValid = true;
-
-        // Check Required Skills
-        if ($('#required_skills').val() === '') {
-            isValid = false;
-            showError($('#required_skills'), 'Please select a required skill.');
+        // Function to show error message after an element
+        function showError1(element, message) {
+            const errorHtml = `<p class="error-message text-danger error">${message}</p>`;
+            if (element.next('.error-message').length === 0) {
+                element.after(errorHtml);
+            }
         }
 
-        // Check Technology
-        if ($('#technology').val() === '') {
-            isValid = false;
-            showError($('#technology'), 'Please select a technology.');
+        function hideError(input) {
+            const errorElement = $(input).next('.error-message');
+            if (errorElement.length) {
+                errorElement.remove(); // Remove the error message element
+            }
+            $(input).removeClass('is-invalid'); // Remove invalid styling if any
         }
 
-        // Check Experience Levels
-        if (!$('input[name="experience_levels"]:checked').val()) {
-            isValid = false;
-            showError($('input[name="experience_levels"]').closest('.form-group'), 'Please select an experience level.');
+
+        // Show error helper function
+        function showError(input, message) {
+            hideError(input); // Remove any existing errors
+            $(input).addClass('is-invalid'); // Add invalid class for styling
+            $(input).after(`<span class="error-message text-danger error">${message}</span>`); // Add error message
         }
 
-        // Check Time Zone
-        if (!$('input[name="time_zone"]:checked').val()) {
-            isValid = false;
-            showError($('input[name="time_zone"]').closest('.form-group'), 'Please select a time zone.');
+        // Utility function to validate email
+        function isValidEmail(email) {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
         }
 
-        // Check Engagement Model
-        if (!$('input[name="engagement_model"]:checked').val()) {
-            isValid = false;
-            showError($('input[name="engagement_model"]').closest('.form-group'), 'Please select an engagement model.');
-        }
+        $('#addToTeam').on('click', function (e) {
+            e.preventDefault();
 
-        // Check Premises
-        if (!$('input[name="select_premises"]:checked').val()) {
-            isValid = false;
-            showError($('input[name="select_premises"]').closest('.form-group'), 'Please select a premises option.');
-        }
+            // Clear previous error messages
+            $('.error-message').remove();
 
-        // Check Contract Period
-        if ($('#contract_period').val() === '') {
-            isValid = false;
-            showError($('#contract_period'), 'Please select a contract period.');
-        }
+            let isValid = true;
 
-        // Check Currency
-        if ($('#currency').val() === '') {
-            isValid = false;
-            showError($('#currency'), 'Please select a currency.');
-        }
+            // Check Required Skills
+            if ($('#required_skills').val() === '') {
+                isValid = false;
+                showError($('#required_skills'), 'Please select a required skill.');
+            }
 
-        // Check Number of Resources
-        if ($('#no_of_resources').val() === '') {
-            isValid = false;
-            showError($('#no_of_resources'), 'Please select the number of resources.');
-        }
+            // Check Technology
+            /*if ($('#technology').val() === '') {
+                isValid = false;
+                showError($('#technology'), 'Please select a technology.');
+            }*/
 
-        // If all fields are valid, proceed with the AJAX request
-        if (isValid) {
-            const formData = {
-                skills: $('#required_skills').val(),
-                technology: $('#technology').val(),
-                experience_levels: $('input[name="experience_levels"]:checked').attr('value'),
-                time_zone: $('input[name="time_zone"]:checked').attr('value'),
-                engagement_model: $('input[name="engagement_model"]:checked').attr('value'),
-                select_premises: $('input[name="select_premises"]:checked').attr('value'),
-                contract_period: $('#contract_period').val(),
-                currency: $('#currency').val(),
-                resources: $('#no_of_resources').val(),
-            };
+            // Check Experience Levels
+            if (!$('input[name="experience_levels"]:checked').val()) {
+                isValid = false;
+                showError($('input[name="experience_levels"]').closest('.form-group'), 'Please select an experience level.');
+            }
 
-            $.ajax({
-                url: '<?=base_url()?>calculator/calculate_budget',
-                type: 'POST',
-                data: formData,
-                success: function (response) {
-                    const data = JSON.parse(response);
-                    //renderTeamSummary(data);
-                    //saveToLocalStorage(data);
+            // Check Time Zone
+            if (!$('input[name="time_zone"]:checked').val()) {
+                isValid = false;
+                showError($('input[name="time_zone"]').closest('.form-group'), 'Please select a time zone.');
+            }
 
-                    if(data.skills){
+            // Check Engagement Model
+            if (!$('input[name="engagement_model"]:checked').val()) {
+                isValid = false;
+                showError($('input[name="engagement_model"]').closest('.form-group'), 'Please select an engagement model.');
+            }
 
-                        const teamDetails = getTeamDetails();
+            // Check Premises
+            if (!$('input[name="select_premises"]:checked').val()) {
+                isValid = false;
+                showError($('input[name="select_premises"]').closest('.form-group'), 'Please select a premises option.');
+            }
 
-                        // Extract freebies from the data and ensure they're unique
-                        let newFreebies = data.freebies || [];
-                        if (!Array.isArray(newFreebies)) {
-                            newFreebies = [];
+            // Check Contract Period
+            if ($('#contract_period').val() === '') {
+                isValid = false;
+                showError($('#contract_period'), 'Please select a contract period.');
+            }
+
+            // Check Currency
+            if ($('#currency').val() === '') {
+                isValid = false;
+                showError($('#currency'), 'Please select a currency.');
+            }
+
+            // Check Number of Resources
+            if ($('#no_of_resources').val() === '') {
+                isValid = false;
+                showError($('#no_of_resources'), 'Please select the number of resources.');
+            }
+
+            // If all fields are valid, proceed with the AJAX request
+            if (isValid) {
+                const formData = {
+                    skills: $('#required_skills').val(),
+                    technology: $('#technology').val(),
+                    experience_levels: $('input[name="experience_levels"]:checked').attr('value'),
+                    time_zone: $('input[name="time_zone"]:checked').attr('value'),
+                    engagement_model: $('input[name="engagement_model"]:checked').attr('value'),
+                    select_premises: $('input[name="select_premises"]:checked').attr('value'),
+                    contract_period: $('#contract_period').val(),
+                    currency: $('#currency').val(),
+                    resources: $('#no_of_resources').val(),
+                };
+
+                $.ajax({
+                    url: '<?=base_url()?>calculator/calculate_budget',
+                    type: 'POST',
+                    data: formData,
+                    success: function (response) {
+                        const data = JSON.parse(response);
+                        //renderTeamSummary(data);
+                        //saveToLocalStorage(data);
+
+                        if(data.skills){
+
+                            const teamDetails = getTeamDetails();
+
+                            // Extract freebies from the data and ensure they're unique
+                            let newFreebies = data.freebies || [];
+                            if (!Array.isArray(newFreebies)) {
+                                newFreebies = [];
+                            }
+
+                            // Ensure the freebies array only contains unique items
+                            const existingFreebies = teamDetails.flatMap(item => item.freebies || []);
+                            const uniqueFreebies = [...new Set([...existingFreebies, ...newFreebies])];
+
+                            teamDetails.push({
+                                base_budget: data.base_budget,
+                                total_discount: data.total_discount,
+                                final_budget: data.final_budget,
+                                freebies: data.freebies,
+                                currency: data.currency, // Include currency in the response
+                                skills: data.skills,
+                                technology: data.technology,
+                                experience_levels: data.experience_levels,
+                                resources: data.resources,
+                                contract_period: data.contract_period,
+                                time_zone: data.time_zone,
+                                engagement_model: data.engagement_model,
+                                premises: data.premises,
+                                currency: data.currency,
+                                additional_costs: data.additional_costs,
+                                freebies: uniqueFreebies, // Save the updated unique freebies
+                            });
+                            saveTeamDetails(teamDetails);
+                            renderTeamSummary();
                         }
-
-                        // Ensure the freebies array only contains unique items
-                        const existingFreebies = teamDetails.flatMap(item => item.freebies || []);
-                        const uniqueFreebies = [...new Set([...existingFreebies, ...newFreebies])];
-
-                        teamDetails.push({
-                            base_budget: data.base_budget,
-                            total_discount: data.total_discount,
-                            final_budget: data.final_budget,
-                            freebies: data.freebies,
-                            currency: data.currency, // Include currency in the response
-                            skills: data.skills,
-                            technology: data.technology,
-                            experience_levels: data.experience_levels,
-                            resources: data.resources,
-                            contract_period: data.contract_period,
-                            time_zone: data.time_zone,
-                            engagement_model: data.engagement_model,
-                            premises: data.premises,
-                            currency: data.currency,
-                            additional_costs: data.additional_costs,
-                            freebies: uniqueFreebies, // Save the updated unique freebies
-                        });
-                        saveTeamDetails(teamDetails);
-                        renderTeamSummary();
+                    },
+                    error: function () {
+                        $('#teamSummary').html('<p class="text-danger">An error occurred while calculating the budget.</p>');
                     }
-                },
-                error: function () {
-                    $('#teamSummary').html('<p class="text-danger">An error occurred while calculating the budget.</p>');
-                }
-            });
-        }
+                });
+            }
+        });
+
+        $('#send_it_me').on('click', function (e) {
+            e.preventDefault();
+
+            // Retrieve all data from localStorage
+            const teamDetails = JSON.parse(localStorage.getItem('teamDetails')) || [];
+
+            if (teamDetails.length === 0) {
+                //alert('No team details found to send.');
+                $(' .errorMessage').show().html("<i>No team details found to send. Please add some team first!</i>");
+                setTimeout(function(){ $('.errorMessage').hide(); }, 5000);
+                return;
+            }
+
+            /*// Collect additional form data if needed
+            const additionalData = {
+                user_email: $('#email').val(), // Example: email input field (add it to your form)
+            };*/
+
+
+            // Clear previous error messages
+            $('.error-message').remove();
+
+            let isValid = true;
+
+            // Check email
+            if ($('#email').val() === '') {
+                isValid = false;
+                showError($('#email'), 'Please required an email.');
+            }
+
+            // Check if email is valid
+            if (!isValidEmail($('#email').val())) {
+                showError('#email', 'Please enter a valid email address.');
+                return;
+            }
+
+            if(isValid){
+                // Combine local storage data and additional form data
+                const formData = {
+                    user_email: $('#email').val(),
+                    form_data: teamDetails
+                };
+
+                // Send data to the server
+                $.ajax({
+                    url: '<?=base_url()?>calculator/send_team_details', // Replace with your server endpoint
+                    type: 'POST',
+                    data: formData,
+                    /*cache: false,
+                    contentType: false,
+                    processData: false,*/
+                    success: function (response) {
+                        const res = typeof response === "string" ? JSON.parse(response) : response;
+                        console.log(res);
+                        if (res.s == 's') {
+                            $("#quote_calculator")[0].reset();
+                            $('.successMessage').show().html("<i>"+ res.m +"</i>");
+                            $('#email').val('');
+                            // Clear local storage
+                            localStorage.removeItem('teamDetails');
+                            renderTeamSummary();
+                            setTimeout(function(){ 
+                                $('.successMessage').hide();
+                            }, 5000);
+                            //swal("Success!", res.m, "success");
+                        } else if (res.error) {
+                            var erros = '';
+                            $.each(res.error,function(i,v){
+                                erros +='<small><b>'+i+'</b>: '+v+'</small><br>';
+                            });
+                           // swal({html: true,title:"Warning!", text:erros, icon:"warning"});
+                            $('.errorMessage').show().html("<i>"+erros+"</i>");
+                            setTimeout(function(){ $('.errorMessage').hide(); }, 5000);
+                        } else {
+                            $(' .errorMessage').show().html("<i>"+ res.m +"</i>");
+                            setTimeout(function(){ $('.errorMessage').hide(); }, 5000);
+                            //swal("Error!", res.m, "error");
+                        }
+                    },
+                    error: function(response) { console.log(response); }
+                });
+            }  
+        });
+
     });
-
-    $('#send_it_me').on('click', function (e) {
-        e.preventDefault();
-
-        // Retrieve all data from localStorage
-        const teamDetails = JSON.parse(localStorage.getItem('teamDetails')) || [];
-
-        if (teamDetails.length === 0) {
-            //alert('No team details found to send.');
-            $(' .errorMessage').show().html("<i>No team details found to send. Please add some team first!</i>");
-            setTimeout(function(){ $('.errorMessage').hide(); }, 5000);
-            return;
-        }
-
-        /*// Collect additional form data if needed
-        const additionalData = {
-            user_email: $('#email').val(), // Example: email input field (add it to your form)
-        };*/
-
-
-        // Clear previous error messages
-        $('.error-message').remove();
-
-        let isValid = true;
-
-        // Check email
-        if ($('#email').val() === '') {
-            isValid = false;
-            showError($('#email'), 'Please required an email.');
-        }
-
-        // Check if email is valid
-        if (!isValidEmail($('#email').val())) {
-            showError('#email', 'Please enter a valid email address.');
-            return;
-        }
-
-        if(isValid){
-            // Combine local storage data and additional form data
-            const formData = {
-                user_email: $('#email').val(),
-                form_data: teamDetails
-            };
-
-            // Send data to the server
-            $.ajax({
-                url: '<?=base_url()?>calculator/send_team_details', // Replace with your server endpoint
-                type: 'POST',
-                data: formData,
-                /*cache: false,
-                contentType: false,
-                processData: false,*/
-                success: function (response) {
-                    const res = typeof response === "string" ? JSON.parse(response) : response;
-                    console.log(res);
-                    if (res.s == 's') {
-                        $("#quote_calculator")[0].reset();
-                        $('.successMessage').show().html("<i>"+ res.m +"</i>");
-                        $('#email').val('');
-                        // Clear local storage
-                        localStorage.removeItem('teamDetails');
-                        renderTeamSummary();
-                        setTimeout(function(){ 
-                            $('.successMessage').hide();
-                        }, 5000);
-                        //swal("Success!", res.m, "success");
-                    } else if (res.error) {
-                        var erros = '';
-                        $.each(res.error,function(i,v){
-                            erros +='<small><b>'+i+'</b>: '+v+'</small><br>';
-                        });
-                       // swal({html: true,title:"Warning!", text:erros, icon:"warning"});
-                        $('.errorMessage').show().html("<i>"+erros+"</i>");
-                        setTimeout(function(){ $('.errorMessage').hide(); }, 5000);
-                    } else {
-                        $(' .errorMessage').show().html("<i>"+ res.m +"</i>");
-                        setTimeout(function(){ $('.errorMessage').hide(); }, 5000);
-                        //swal("Error!", res.m, "error");
-                    }
-                },
-                error: function(response) { console.log(response); }
-            });
-        }  
-    });
-
-});
 </script>
 
 

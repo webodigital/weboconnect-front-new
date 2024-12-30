@@ -152,6 +152,7 @@ class Calculator extends CI_Controller {
         $emailContent .= "<table border='1' cellspacing='0' cellpadding='5'>";
         $emailContent .= "<tr>
                             <th>Skills</th>
+                            <th>Technology</th>
                             <th>Resources</th>
                             <th>Final Budget</th>
                             <th>Contract Period</th>
@@ -160,6 +161,7 @@ class Calculator extends CI_Controller {
 
         foreach ($form_data as $detail) {
             $skills = htmlspecialchars($detail['skills']);
+            $technology = ($detail['technology'])?htmlspecialchars($detail['technology']):'--';
             $resources = htmlspecialchars($detail['resources']);
             $finalBudget = htmlspecialchars($detail['final_budget']);
             $currency = htmlspecialchars($detail['currency']);
@@ -168,6 +170,7 @@ class Calculator extends CI_Controller {
 
             $emailContent .= "<tr>
                 <td>{$skills}</td>
+                <td>{$technology}</td>
                 <td>{$resources}</td>
                 <td>{$currency}{$finalBudget}</td>
                 <td>{$contract_period} Month</td>

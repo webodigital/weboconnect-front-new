@@ -244,7 +244,25 @@ class Home extends CI_Controller {
 	}
 	public function hire_dedicated_resources()
 	{
-		$this->load->view('front/hire_dedicated_resources');
+        /*[
+            'Frontend Development' => ['HTML', 'CSS', 'JavaScript', 'React', 'Angular'],
+            'Backend Development' => ['PHP', 'Node.js', 'Python', 'Ruby', 'Java'],
+            'Mobile Development' => ['Swift', 'Kotlin', 'React Native', 'Flutter'],
+            'Database Management' => ['MySQL', 'PostgreSQL', 'MongoDB', 'Oracle'],
+            'Project Management' => ['Jira', 'Trello', 'Asana', 'Microsoft Project', 'Monday.com'],
+            'Testing' => ['Selenium', 'JMeter', 'Postman', 'TestRail', 'Cypress'],
+            'Design' => ['Figma', 'Adobe XD', 'Sketch', 'Photoshop', 'Illustrator'],
+        ]*/
+        $data['skills'] = [
+            'Frontend Development' => ['HTML', 'CSS', 'JavaScript', 'React', 'Angular'],
+            'Backend Development' => ['PHP', 'Node.js', 'Python', 'Ruby', 'Java'],
+            'Mobile Development' => ['Swift', 'Kotlin', 'React Native', 'Flutter'],
+            'Database Management' => ['MySQL', 'PostgreSQL', 'MongoDB'],
+            'Project Management' => [],
+            'Design' => ['UI/UX Design', 'Graphic Design'],
+            'Testing' => [],
+        ];
+		$this->load->view('front/hire_dedicated_resources', $data);
 	}
 	public function testimonials()
 	{

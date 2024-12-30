@@ -321,7 +321,7 @@ class Blog extends CI_Controller
             // $user = $this->ensure_admin();
 
             $this->form_validation->set_rules('title', 'Title', 'required');
-            $this->form_validation->set_rules('content', 'Content', 'required|min_length[150]|max_length[500]');
+            $this->form_validation->set_rules('content', 'Content', 'required|min_length[150]');
             $this->form_validation->set_rules('tags', 'Tags', 'required');
             $this->form_validation->set_rules('publish_date', 'Publish Date', 'required');
             $this->form_validation->set_rules('publish_time', 'Publish Time', 'required');
@@ -718,7 +718,7 @@ class Blog extends CI_Controller
             // $user = $this->ensure_admin();
 
             $this->form_validation->set_rules('title', 'Title', 'required');
-            $this->form_validation->set_rules('content', 'Content', 'required|min_length[150]|max_length[500]');
+            $this->form_validation->set_rules('content', 'Content', 'required|min_length[150]');
             $this->form_validation->set_rules('tags', 'Tags', 'required');
             $this->form_validation->set_rules('publish_date', 'Publish Date', 'required');
             $this->form_validation->set_rules('publish_time', 'Publish Time', 'required');
