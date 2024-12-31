@@ -372,49 +372,49 @@
       <div class="icon-box" >
           <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Listen.png" alt="We Listen To Our Clients">
           <h5 class="">We Listen and Understand</h5>
-          <p class="fs-14">Your goals shape our solutions.</p>
+          <!-- <p class="fs-14">Your goals shape our solutions.</p> -->
         </div>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
         <div class="icon-box">
           <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Focus.png" alt="We Focus On Solutionss<">
           <h5 class="">We Offer Real Solutions</h5>
-          <p class="fs-14">Smart ideas that deliver real-world impact.</p>
+          <!-- <p class="fs-14">Smart ideas that deliver real-world impact.</p> -->
         </div>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
       <div class="icon-box">
         <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/create-stratgies.png" alt="We Develop Straggles First"> 
         <h5 class="">We Prioritize Strategic Thinking</h5>
-        <p class="fs-14">Strong foundations lead to stronger outcomes.</p>
+        <!-- <p class="fs-14">Strong foundations lead to stronger outcomes.</p> -->
       </div>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
       <div class="icon-box">
         <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Deliver.png" alt="We Deliver what we promise">  
         <h5 class="">We Deliver Without Compromise</h5>
-        <p class="fs-14">Results that exceed expectations every time.</p>
+        <!-- <p class="fs-14">Results that exceed expectations every time.</p> -->
       </div>
     </div>
     <div class="col-lg-4 col-md-4 col-6">
       <div class="icon-box">
         <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Teamwork.png" alt="We believe in teamwork">  
           <h5 class="">We Believe inUnified <br>  Efforts</h5>
-          <p class="fs-14">Collaboration is key to innovation.</p>
+          <!-- <p class="fs-14">Collaboration is key to innovation.</p> -->
       </div>
     </div>
     <div class="col-lg-4 col-md-4 col-6">
       <div class="icon-box">
         <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Friendly.png" alt="We are friendly">  
         <h5 class="">We Are Supportive and Accessible</h5>
-        <p class="fs-14">Always here to guide and help.</p>
+        <!-- <p class="fs-14">Always here to guide and help.</p> -->
       </div>
     </div>
     <div class="col-lg-4 col-md-4 col-6">
       <div class="icon-box">
         <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/logical.png" alt="We are methodical & logical">
         <h5 class="">We Think Strategically <br> and Logically</h5>
-        <p class="fs-14">Balanced approaches to tackle challenges effectively.</p>              
+        <!-- <p class="fs-14">Balanced approaches to tackle challenges effectively.</p>               -->
       </div>
     </div>
   <div>
