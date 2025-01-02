@@ -683,7 +683,7 @@
 
       <div class="col-lg-6">
         <div class="d-lg-block d-none">
-          <div class="owl-carousel owl-theme single_slider_zooming">  
+          <div class="owl-carousel owl-theme single_slider">  
 
             <div class="item">
               <div class="row g-4 my-5">
@@ -863,7 +863,7 @@
         </div>
 
         <div class="d-block d-lg-none">
-          <div class="owl-carousel owl-theme single_slider_zooming">
+          <div class="owl-carousel owl-theme single_slider">
             <div class="item">
               <div class="row g-4 my-5">
                 <div class="col-6 col-md-4">
