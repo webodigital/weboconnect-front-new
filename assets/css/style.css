@@ -2135,7 +2135,10 @@ footer {
     margin-right: 15px;
   }
 }
+
 .whfw_card_list{
+  position: relative;
+  z-index: +1;
   list-style: none;
   li:nth-child(odd){
     margin-top: 10px;
@@ -2153,6 +2156,20 @@ footer {
 }
 
 
+span.round_bg_webo_logo{
+  position: absolute;
+  right: 50px;
+  top: -45px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding: 40px 20px;
+  border-radius: 100%;
+  background-image: linear-gradient(244.35deg, #001123 -28%, #004489 66.22%);
+
+}
 .sphdd_{
   position: relative;
   min-height: 500px;
@@ -2749,4 +2766,23 @@ footer {
     font-size: 1.75rem;
     font-weight: 400;
   }
+}
+
+/* ================== */
+.web_development{
+  background-image: linear-gradient(to right, rgba(0, 20, 49, 0), rgba(0, 20, 49, 0)), url('../images/web_development/banner.webp');
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+}
+.tqci{
+  background-image: url("./../images/web_development/tqci_bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  z-index: -2;
+  
 }

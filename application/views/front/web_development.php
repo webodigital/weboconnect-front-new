@@ -18,13 +18,13 @@
 <?php $this->load->view('front/common/header') ?>
 
 
-<section class="section_padding mobile_app_development">
+<section class="section_padding web_development">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <h1 class="fs-30 fw-600 text-white">Mobile Apps Development</h1>
-                <h6 class="fs-18 fw-500 text-white">With customers constantly connected, mobile apps are the ultimate bridge between your brand and their needs. They create opportunities for deeper engagement and are key to boosting your business growth.</h6>
-                <h6 class="fs-18 fw-500 text-white">Our team crafts user-friendly, bespoke apps tailored to reflect your brand’s identity. Designed to enhance customer experiences, our apps ensure your business stands out and drives success.</h6>
+                <h1 class="fs-30 fw-600 text-white">Web Development Company</h1>
+                <h6 class="fs-18 fw-500 text-white mb-4">Elevate your digital presence with Weboconnect, a renowned web development company trusted by over 350+ clients worldwide.</h6>
+                <h6 class="fs-18 fw-500 text-white">Our expert web development team delivers cutting-edge web solutions, ensuring your project is next in our 95% client satisfaction legacy.</h6>
             </div>
         </div>
         <div class="row mt-4">
@@ -42,12 +42,12 @@
     <div class="container">
         <div class="row align-items-center g-4">
             <div class="col">
-                <h2 class="page_hdng fs-30 fw-600 text_brand_color2 m-0">A Portfolio That Defines Our Expertise</h2>
-                <h5 class="page_hdng fs-16 fw-500 text_brand_color1 m-0">Browse through WebOConnect’s success stories, where innovation meets functionality. We’ve delivered cutting-edge mobile apps for clients across various industries, driving growth and redefining digital engagement.</h5>
+                <h2 class="page_hdng fs-30 fw-600 text_brand_color2 m-0">Our Diverse Portfolio Speaks Volumes</h2>
+                <h5 class="page_hdng fs-16 fw-500 text_brand_color1 m-0">Explore our vast array of successful projects that showcase our prowess in Web Devlopment. From startups to enterprises, Weboconnect has empowered businesses across various domains.</h5>
             </div>
             <div class="col-md-auto d-none d-lg-block">
                 <div>
-                    <a class="btn btn-outline-primary fs-16 fw-600 btn-rounded px-4" href="<?= base_url() ?>testimonials">View All</a>
+                    <a class="btn btn-outline-primary fs-16 fw-600 btn-rounded px-4" href="<?= base_url() ?>portfolio">View All</a>
                 </div>
             </div>
         </div>
@@ -235,56 +235,56 @@
     </div>
 </section>
 
-<section class="section_padding crafting_excellence bg_azure">
+<section class="section_padding tqci">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-10">
-                <div class="text-center">
-                    <h2 class="fs-30 fw-600">The Features of Our Mobile Applications</h2>
-                    <h6 class="fs-18 fw-500 mb-3">Our apps are more than just software—they’re crafted tools designed to elevate your business. Here’s why WebOConnect’s mobile apps make a difference: </h6>
+        <div class="row align-items-center g-4">
+            <div class="col-md-6">
+                <div class="b_rds_15 bg_dark_gradient p-4 text-white mt-5">
+                    <h4 class="fs-30 fw-600">Unleashing Digital Excellence with Weboconnect</h4>
+                    <p class="fs-18 fw-500">At Weboconnect, we're not just a web development company; we're your partners in the journey towards digital transcendence. Our commitment to transparency, unmatched quality, seamless communication, and relentless innovation forms the cornerstone of our ethos. With us, you're not just building a web application; you're crafting a digital experience that stands the test of time.</p>
                 </div>
             </div>
-        </div>
-
-        <div class="row g-4 mt-4">
-
-            <div class="col-lg-4 col-6">
-                <div class="crafting_excellence_card text-center">
-                    <h4 class="fs-20 fw-700">Intuitive Navigation</h4>
-                    <h6 class="fs-14 fw-500">Designed for a seamless experience, making it easy for users to interact and explore.</h6>
+            <div class="col-md-6">
+                <div class="position-relative">
+                    <span class="round_bg_webo_logo">
+                        <img src="<?= base_url() ?>assets/images/thnk_logo.webp" alt="weboconect logo">
+                    </span>
+                    <ul class="whfw_card_list">
+                        <li class="">
+                            <div class="whfw_card">
+                                <div>
+                                    <h4 class="fs-14 fw-600">Transparency</h4>
+                                    <h6 class="fs-12 fw-400">We drive clear and honest interactions form the foundation of our partnerships.</h6>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="">
+                            <div class="whfw_card">
+                                <div>
+                                    <h4 class="fs-14 fw-600">Quality</h4>
+                                    <h6 class="fs-12 fw-400">We strive for excellence in every line of code, ensuring top-tier web development services.</h6>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="">
+                            <div class="whfw_card">
+                                <div>
+                                    <h4 class="fs-14 fw-600">Communication</h4>
+                                    <h6 class="fs-12 fw-400">Constant, open channels ensure your vision and our execution align perfectly.</h6>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="">
+                            <div class="whfw_card">
+                                <div>
+                                    <h4 class="fs-14 fw-600">Innovation</h4>
+                                    <h6 class="fs-12 fw-400">We push the boundaries of web app development to bring your groundbreaking ideas to life.</h6>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="col-lg-4 col-6">
-                <div class="crafting_excellence_card text-center">
-                    <h4 class="fs-20 fw-700">Superior Performance</h4>
-                    <h6 class="fs-14 fw-500">Built for speed and precision, ensuring zero interruptions and consistent responsiveness.</h6>
-                </div>
-            </div>
-            <div class="col-lg-4 col-6">
-                <div class="crafting_excellence_card text-center">
-                    <h4 class="fs-20 fw-700">Advanced Security Measures</h4>
-                    <h6 class="fs-14 fw-500">From encryption to data privacy protocols, we take every measure to protect your app's integrity.</h6>
-                </div>
-            </div>
-            <div class="col-lg-4 col-6">
-                <div class="crafting_excellence_card text-center">
-                    <h4 class="fs-20 fw-700">Cross-Platform Agility</h4>
-                    <h6 class="fs-14 fw-500">Apps that adapt perfectly to every platform, maintaining a uniform user experience.</h6>
-                </div>
-            </div>
-            <div class="col-lg-4 col-6">
-                <div class="crafting_excellence_card text-center">
-                    <h4 class="fs-20 fw-700">Feature Customization</h4>
-                    <h6 class="fs-14 fw-500">Tailored to your needs, our apps offer functionality that aligns with your business goals.</h6>
-                </div>
-            </div>
-            <div class="col-lg-4 col-6">
-                <div class="crafting_excellence_card text-center">
-                    <h4 class="fs-20 fw-700">Long-Term App Management</h4>
-                    <h6 class="fs-14 fw-500">We ensure your app remains up-to-date and competitive with regular improvements and updates.</h6>
-                </div>
-            </div>
-
         </div>
     </div>
 </section>
@@ -294,9 +294,9 @@
         <div class="row align-items-center">
             <div class="col-lg-8">
                 <div class=" text-center text-lg-start">
-                    <h2 class="fs-30 fw-600 text-white">Bring Your Vision to Life</h2>
-                    <h6 class="fs-18 fw-500 text-white mb-3">Collaborate with WebOConnect to create mobile applications that leave a lasting impact, turning your business goals into engaging and practical digital solutions.</h6>
-                    <a href="<?= base_url() ?>contact" class="btn btn-outline-light btn-rounded">Contact Us</a>
+                    <h2 class="fs-30 fw-600 text-white">Expertise at Your Fingertips</h2>
+                    <h6 class="fs-18 fw-500 text-white mb-3">Hire web developers renowned for custom web app development and seamless digital experiences.</h6>
+                    <a href="<?= base_url() ?>contact" class="btn btn-outline-light btn-rounded">Hire Our Experts</a>
                 </div>
             </div>
         </div>
@@ -307,67 +307,21 @@
 <section class="section_padding bg_azure">
     <div class="container">
         <div class="row align-items-center justify-content-between g-4">
+            <div class="col-lg-5">
+                <img src="<?= base_url() ?>assets/images/web_development/image_1.webp" alt="Empowering Businesses through Innovative Mobile Apps">
+            </div>
             <div class="col-lg-6">
                 <div class="b_rds_15 bg-white p-3">
-                    <h3 class="fs-26 fw-700">Innovating Businesses with Mobile Apps</h3>
-                    <p class="fs-16 fw-500">Mobile apps are essential in today’s fast-moving world. At WebOConnect, we deliver apps that help you connect with customers, expand your reach, and enhance your operations. Together, we’ll achieve extraordinary results.</p>
+                    <h3 class="fs-30 fw-600">Elevate Your Online Presence</h3>
+                    <p class="fs-18 fw-500">Leverage Weboconnect's comprehensive web development services to transform and scale your digital landscape effortlessly. From develop eCommerce solutions that drive online sells and confidence among customers to develop custom web apps that are lighting fast, we have got it all covered. Here’s how we deliver innovation in web based software.</p>
                 </div>
-            </div>
-            <div class="col-lg-5">
-                <img src="<?= base_url() ?>assets/images/mob_app_devl/empowering_businesses.webp" alt="Empowering Businesses through Innovative Mobile Apps">
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="section_padding">
-    <div class="container">
-        <div class="row mb-5">
-            <div class="col-lg-12">
-                <div class="text-center text-lg-start">
-                    <h2 class="fs-30 fw-600">Benefits of Choosing WebOConnect</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row align-items-center g-4">
-            <div class="col-lg-7 order-last order-sm-first">
-
-                <div class="row justify-content-center g-4">
-                    <div class="col-6 col-lg-4">
-                        <div class="advantages_options fs-16 fw-500">Custom Design</div>
-                    </div>
-                    <div class="col-6 col-lg-4">
-                        <div class="advantages_options fs-16 fw-500">Admin panel included</div>
-                    </div>
-                    <div class="col-6 col-lg-4">
-                        <div class="advantages_options fs-16 fw-500">Native/Hybrid Solutions</div>
-                    </div>
-                    <div class="col-6 col-lg-4">
-                        <div class="advantages_options fs-16 fw-500">Top-Notch Quality</div>
-                    </div>
-                    <div class="col-6 col-lg-4">
-                        <div class="advantages_options fs-16 fw-500">Comprehensive Security</div>
-                    </div>
-                    <div class="col-6 col-lg-4">
-                        <div class="advantages_options fs-16 fw-500">Play Store Assistance</div>
-                    </div>
-                    <div class="col-6 col-lg-4">
-                        <div class="advantages_options fs-16 fw-500">One-Month Free Support</div>
-                    </div>
-                    <div class="col-6 col-lg-4">
-                        <div class="advantages_options fs-16 fw-500">Affordable Budget Options</div>
-                    </div>
-                    <div class="col-6 col-lg-4">
-                        <div class="advantages_options fs-16 fw-500">Secure & Interactive</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5">
-                <div class="our_advantages_card">
-                    <h3 class="fs-28 fw-700">Why WebOConnect?</h3>
-                    <p class="fs-16 fw-500">At WebOConnect, we craft apps that your users will adore. With a team of innovative designers and skilled developers, we deliver solutions that exceed expectations and set benchmarks in mobile app development.</p>
-                </div>
+                <ul class="fs-18 mt-4">
+                    <li><b class="text_brand_color2 fw-500">Enhanced User Experience:</b> Intuitive designs, seamless navigation.</li>
+                    <li><b class="text_brand_color2 fw-500">Robust Performance:</b> Fast, reliable, and secure websites.</li>
+                    <li><b class="text_brand_color2 fw-500">Scalable Solutions:</b> Grow and adapt with your business.</li>
+                    <li><b class="text_brand_color2 fw-500">SEO-Optimized:</b> Higher visibility, better rankings.</li>
+                    <li><b class="text_brand_color2 fw-500">Continuous Support:</b> Web maintenance and updates ensured.</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -381,7 +335,26 @@
     </div>
 </section>
 
+
 <section class="section_padding">
+    <div class="container">
+        <div class="row align-items-center justify-content-between g-4">
+            <div class="col-lg-6">
+                <div class="b_rds_15 bg_azure p-3">
+                    <h3 class="fs-30 fw-600">Expert Web Developers at Your Service</h3>
+                    <p class="fs-18 fw-500">Tap into the pool of highly skilled web developers from Weboconnect to bring your digital vision to life. Our web developers for hire, renowned for their expertise in diverse web technologies and industries, are dedicated to delivering custom, scalable, and innovative web solutions. With a commitment to quality and efficiency, our developers ensure your project not only meets but exceeds expectations.</p>
+                    <p class="fs-18 fw-500">Hire web developers and partner with us to leverage the talent of expert web designers & developers for your next project. Experience the difference that professional craftsmanship can make in your digital journey.</p>
+                    <a class="btn btn-outline-primary btn-rounded px-4" href="<?= base_url() ?>hire-dedicated-resources">Hire Developer</a>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <img src="<?= base_url() ?>assets/images/web_development/image_4.webp" alt="Empowering Businesses through Innovative Mobile Apps">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section_padding bg_azure">
     <?php $this->load->view('front/common/our_clients_videos') ?>
 </section>
 

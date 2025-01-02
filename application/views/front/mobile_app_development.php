@@ -47,7 +47,7 @@
             </div>
             <div class="col-md-auto d-none d-lg-block">
                 <div>
-                    <a class="btn btn-outline-primary fs-16 fw-600 btn-rounded px-4" href="<?= base_url() ?>testimonials">View All</a>
+                    <a class="btn btn-outline-primary fs-16 fw-600 btn-rounded px-4" href="<?= base_url() ?>portfolio">View All</a>
                 </div>
             </div>
         </div>
