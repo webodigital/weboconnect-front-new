@@ -101,19 +101,19 @@
             <div class="row justify-content-between align-items-center my-3">
                 <div class="col-auto">
                     <div>
-                        <h4 class="fs-30 fw-700">App Type</h4>
+                        <h4 class="fs-30 fw-600">App Type</h4>
                         <h5 class="fs-20 fw-500"><?php echo htmlspecialchars($casestudy->app_application, ENT_QUOTES, 'UTF-8'); ?></h5>
                     </div>
                 </div>
                 <div class="col-auto">
                     <div>
-                        <h4 class="fs-30 fw-700">Status</h4>
+                        <h4 class="fs-30 fw-600">Status</h4>
                         <h5 class="fs-20 fw-500"><?php echo htmlspecialchars($casestudy->app_application, ENT_QUOTES, 'UTF-8'); ?></h5>
                     </div>
                 </div>
                 <div class="col-auto">
                     <div>
-                        <h4 class="fs-34 fw-600">Available Now</h4>
+                        <h4 class="fs-30 fw-600">Available Now</h4>
                         <div>
                             
                             <a href="<?php echo $casestudy->android_url; ?>" class="btn btn_dark_primary btn-rounded px-4">
@@ -143,7 +143,7 @@
             <div class="row justify-content-between align-items-center my-3">
                 <div class="col-12">
                     <div>
-                        <h4 class="fs-30 fw-700">Technologies</h4>
+                        <h4 class="fs-30 fw-600">Technologies</h4>
                         <h5 class="fs-20 fw-500"><?php echo $casestudy->technologies??''; ?></h5>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
             <div class="row justify-content-between align-items-center my-3">
                 <div class="col-12">
                     <div>
-                        <h4 class="fs-30 fw-700">Client Overview</h4>
+                        <h4 class="fs-30 fw-600">Client Overview</h4>
                         <h5 class="fs-20 fw-500"><?php echo $casestudy->client_overview??''; ?></h5>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
         <div class="bg-white how_does_work p-lg-5 p-sm-4">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="fs-34 fw-600">How Does It Work?</h2>
+                    <h2 class="fs-30 fw-600">How Does It Work?</h2>
                 </div>
             </div>
 

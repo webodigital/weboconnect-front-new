@@ -41,7 +41,7 @@
 <section class="section_padding">
     <div class="container">
         <div class="text-center">
-            <h2 class="fs-30 fw-700">Trusted By Top Companies</h2>
+            <h2 class="fs-30 fw-600">Trusted By Top Companies</h2>
         </div>
     </div>
     <div class="ccontainer-fluid mt-3">
@@ -69,7 +69,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h3 class="fs-30 fw-700 text_brand_color2">Why Weboconnect?</h3>
+                <h3 class="fs-30 fw-600 text_brand_color2">Why Weboconnect?</h3>
             </div>
         </div>
         <div class="row g-4 mt-4">
@@ -104,7 +104,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-7 text-center text-lg-start">
-                <h3 class="fs-30 fw-700 text-white">Wondering which type of collaboration suits your business needs better?</h3>
+                <h3 class="fs-30 fw-600 text-white">Wondering which type of collaboration suits your business needs better?</h3>
                 <button class="btn btn-primary-gradient btn-rounded mt-4 px-4" data-bs-toggle="modal" data-bs-target="#lets_call_popup_modal">Talk To Our Experts</button>
                 <!-- <a href="https://calendly.com/schedulemeetingwithweboconnect/30min?back=1&month=2024-12" class="btn btn-primary-gradient btn-rounded px-5 mt-4">Talk To Our Experts</a> -->
             </div>
@@ -156,7 +156,7 @@
             <div class="col-lg-10">
                 <div class="text-center">
                     <h6 class="fs-18 fw-500">Achievements That Define Us</h6>
-                    <h3 class="fs-30 fw-700">Setting New Standards in Software Support and Maintenance</h3>
+                    <h3 class="fs-30 fw-600">Setting New Standards in Software Support and Maintenance</h3>
                 </div>
             </div>
         </div>
@@ -233,7 +233,7 @@
         <div class="row justify-content-center">
             <div class="col-12">
                 <div class="text-center">
-                    <h2 class="fs-30 fw-700 text-white">Solutions for Every Industry Landscape</h2>
+                    <h2 class="fs-30 fw-600 text-white">Solutions for Every Industry Landscape</h2>
                     <h6 class="fs-18 fw-500 text-white mb-3">WebOConnect takes pride in delivering tailored and results-oriented solutions across a variety of sectors. No matter the industry, we create strategies that elevate businesses and achieve measurable success.</h6>
                 </div>
             </div>

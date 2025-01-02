@@ -37,7 +37,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="b_rds_15 bg-white p-3">
-                    <h3 class="fs-30 fw-700">What WebOConnect Brings to You</h3>
+                    <h3 class="fs-30 fw-600">What WebOConnect Brings to You</h3>
                     <p class="fs-16 fw-500">At WebOConnect, we bridge the gap between ambition and innovation by delivering world-class AI and Machine Learning solutions. From conversational chatbots that enhance customer experiences to AI platforms that unlock business intelligence, we ensure your organization stays ahead.</p>
                     <p class="fs-16 fw-500">We excel in machine learning, image recognition, and speech recognition (ASR), helping businesses simplify processes, reduce operational costs, and unlock measurable results. WebOConnect partners with you to ensure smarter workflows and greater efficiency.</p>
                 </div>
@@ -52,7 +52,7 @@
         <div class="row align-items-center justify-content-between g-4">
             <div class="col-lg-6 order-last order-sm-first">
                 <div class="b_rds_15 bg_azure p-3">
-                    <h3 class="fs-30 fw-700">Why WebOConnect Is Your AI Partner</h3>
+                    <h3 class="fs-30 fw-600">Why WebOConnect Is Your AI Partner</h3>
                     <p class="fs-16 fw-500">WebOConnect combines innovation with expertise to deliver cutting-edge Artificial Intelligence solutions that maximize your business potential. By streamlining workflows, enhancing digital products, and providing scalable solutions, we ensure high ROI with minimum infrastructure and labor investments.</p>
                     <p class="fs-16 fw-500">Our personalized approach has empowered numerous clients to achieve efficiency, growth, and digital transformation. Let’s build your next success story together.</p>
                 </div>
@@ -116,7 +116,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <h3 class="fs-30 fw-700 text_brand_color2">What do clients like about us ?</h3>
+                <h3 class="fs-30 fw-600 text_brand_color2">What do clients like about us ?</h3>
             </div>
         </div>
         <div class="row align-items-center mt-4 g-4">

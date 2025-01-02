@@ -42,7 +42,7 @@
     <div class="container">
         <div class="row align-items-center g-4">
             <div class="col">
-                <h2 class="page_hdng fs-30 fw-700 text_brand_color2 m-0">A Portfolio That Defines Our Expertise</h2>
+                <h2 class="page_hdng fs-30 fw-600 text_brand_color2 m-0">A Portfolio That Defines Our Expertise</h2>
                 <h5 class="page_hdng fs-16 fw-500 text_brand_color1 m-0">Browse through WebOConnect’s success stories, where innovation meets functionality. We’ve delivered cutting-edge mobile apps for clients across various industries, driving growth and redefining digital engagement.</h5>
             </div>
             <div class="col-md-auto d-none d-lg-block">
@@ -93,7 +93,7 @@
         <div class="row justify-content-center">
             <div class="col-12">
                 <div class="text-center">
-                    <h2 class="fs-30 fw-700 text-white">Comprehensive Expertise Across Business Sectors</h2>
+                    <h2 class="fs-30 fw-600 text-white">Comprehensive Expertise Across Business Sectors</h2>
                     <h6 class="fs-18 fw-500 text-white mb-3">From fintech and healthcare to e-commerce and beyond, WebOConnect excels in crafting  innovative apps. Our industry-focused approach ensures each solution meets the unique requirements of your business.</h6>
                 </div>
             </div>
@@ -240,7 +240,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="text-center">
-                    <h2 class="fs-30 fw-700">The Features of Our Mobile Applications</h2>
+                    <h2 class="fs-30 fw-600">The Features of Our Mobile Applications</h2>
                     <h6 class="fs-18 fw-500 mb-3">Our apps are more than just software—they’re crafted tools designed to elevate your business. Here’s why WebOConnect’s mobile apps make a difference: </h6>
                 </div>
             </div>
@@ -294,7 +294,7 @@
         <div class="row align-items-center">
             <div class="col-lg-8">
                 <div class=" text-center text-lg-start">
-                    <h2 class="fs-30 fw-700 text-white">Bring Your Vision to Life</h2>
+                    <h2 class="fs-30 fw-600 text-white">Bring Your Vision to Life</h2>
                     <h6 class="fs-18 fw-500 text-white mb-3">Collaborate with WebOConnect to create mobile applications that leave a lasting impact, turning your business goals into engaging and practical digital solutions.</h6>
                     <a href="<?= base_url() ?>contact" class="btn btn-outline-light btn-rounded">Contact Us</a>
                 </div>
@@ -326,7 +326,7 @@
         <div class="row mb-5">
             <div class="col-lg-12">
                 <div class="text-center text-lg-start">
-                    <h2 class="fs-30 fw-700">Benefits of Choosing WebOConnect</h2>
+                    <h2 class="fs-30 fw-600">Benefits of Choosing WebOConnect</h2>
                 </div>
             </div>
         </div>
@@ -375,7 +375,7 @@
 
 <section class="section_padding op_bg">
     <div class="container text-center text-white">
-        <h3 class="fs-30 fw-700">Our Portfolio</h3>
+        <h3 class="fs-30 fw-600">Our Portfolio</h3>
         <h6 class="fs-20 fw-600">We doesn't just make claims, our work speaks for itself.</h6>
         <a href="<?=base_url()?>portfolio" class="btn btn-outline-light btn-rounded mt-4 px-4">Checkout our portfolio</a>
     </div>

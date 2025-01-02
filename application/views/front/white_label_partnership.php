@@ -81,7 +81,7 @@
         <div class="row justify-content-center">
             <div class="col-11">
                 <div class="text-center">
-                    <h2 class="fs-30 fw-700 text_brand_color1">What Makes WebOConnect the Ideal Choice?</h2>
+                    <h2 class="fs-30 fw-600 text_brand_color1">What Makes WebOConnect the Ideal Choice?</h2>
                     <h6 class="fs-18 fw-500 text_brand_color1">Ready to create outstanding White Label solutions for your brand?</h6>
                     <h6 class="fs-18 fw-500 text_brand_color1">Get in touch with us today to explore how our services can help grow your business.</h6>
                 </div>

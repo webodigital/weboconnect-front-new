@@ -28,7 +28,7 @@
         <div class="blog_details_img_card">
           <img class="w-100" src="<?php echo base_url('assets/images/blogs/uploads/' . $blog->image); ?>" alt="<?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?>" />
           <div class="p-3">
-            <h1 class="fs-26 fw-600 my-3"><?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?></h1>
+            <h1 class="fs-30 fw-600 my-3"><?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?></h1>
           </div>
         </div>
         <div class="blog_details_content">
@@ -257,7 +257,7 @@
 
           <div class="row g-4 mt-1">
             <div class="col-12">
-                <h3 class="fs-24 fw-700 m-0">Latest</h3>
+                <h3 class="fs-24 fw-600 m-0">Latest</h3>
             </div>
 
             <?php foreach ($recentblogs as $blog) : ?>
@@ -268,10 +268,10 @@
                       <img class="w-100" src="<?php echo base_url('assets/images/blogs/uploads/thumbnails/' . $blog->thumbnail); ?>" alt="<?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?>" />
                     </div>
                     <div class="col-sm-8">
-                      <small class="fs-8 fw-400"><?php echo date('d M Y', strtotime($blog->publish_date)); ?></small>
-                      <h4 class="fs-12 fw-600"><?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?></h4>
-                      <p class="fs-10 fw-400 m-0"><?php echo htmlspecialchars(substr($blog->content, 0, 100), ENT_QUOTES, 'UTF-8'); ?>...</p>
-                      <a class="fs-10 fw-500 text_brand_color2" href="<?php echo base_url('blog/' . $blog->slug); ?>">Read More</a>
+                      <small class="fs-10 fw-400"><?php echo date('d M Y', strtotime($blog->publish_date)); ?></small>
+                      <h4 class="fs-14 fw-600"><?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?></h4>
+                      <p class="fs-12 fw-400 m-0"><?php echo htmlspecialchars(substr($blog->content, 0, 100), ENT_QUOTES, 'UTF-8'); ?>...</p>
+                      <a class="fs-12 fw-500 text_brand_color2" href="<?php echo base_url('blog/' . $blog->slug); ?>">Read More</a>
                     </div>
                   </div>
                 </div>
@@ -315,7 +315,7 @@
 <section class="section_padding">
     <div class="container">
       <div class="text-center">
-        <h2 class="fs-34 fw-700 text_brand_color1">Our latest Blogs</h2>
+        <h2 class="fs-30 fw-600 text_brand_color1">Our latest Blogs</h2>
       </div>
         <div class="row">
           <?php foreach ($bottom_blogs as $bblog) : ?>

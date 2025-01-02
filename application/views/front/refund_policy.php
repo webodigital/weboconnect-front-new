@@ -21,7 +21,7 @@
 
     <section class="section_padding">           
         <div class="container privacy-content">
-            <h1 class="fs-30 fw-700 text-center">Cancellation And Refund Policy</h1>
+            <h1 class="fs-30 fw-600 text-center">Cancellation And Refund Policy</h1>
             <h3>STANDARD REFUND TERMS</h3>
             <!--<hr style="height: 2px;background-color: #00458e;">-->
             <p class="fs-16 fw-400">This Policy is provided in the English language. To the extent any translation is provided to you, it is provided for convenience purposes only, and in the event of any conflict between the English and translated version, the English version will control and prevail.</p>

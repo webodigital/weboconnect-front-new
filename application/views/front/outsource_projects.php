@@ -137,7 +137,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-10 text-center">
-                <h3 class="fs-30 fw-700 text_brand_color2">The Benefits of Outsourcing for Your Success</h3>
+                <h3 class="fs-30 fw-600 text_brand_color2">The Benefits of Outsourcing for Your Success</h3>
             </div>
         </div>
         <div class="row align-items-center mt-4 g-4">

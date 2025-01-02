@@ -39,7 +39,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="b_rds_15 bg-white p-3">
-                    <h3 class="fs-30 fw-700">Why Choose Us?</h3>
+                    <h3 class="fs-30 fw-600">Why Choose Us?</h3>
                     <p class="fs-16 fw-500">When innovation meets expertise, the result is WebOConnect’s proven IoT solutions. We work closely with clients to understand their challenges and deliver smart, secure and simplified IoT applications that revolutionize industries.</p>
                     <p class="fs-16 fw-500">From enabling businesses to track performance metrics in real-time to creating interactive user experiences, we have empowered companies to embrace smarter workflows. With WebOConnect, achieving operational excellence through IoT is no longer a dream, it's your next reality.</p>
                 </div>
@@ -73,7 +73,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-10 text-center">
-                <h3 class="fs-30 fw-700 text_brand_color2">What Sets Our IoT Services Apart</h3>
+                <h3 class="fs-30 fw-600 text_brand_color2">What Sets Our IoT Services Apart</h3>
                 <h6 class="fs-18 fw-500 mb-4">WebOConnect provides a full range of IoT development solutions tailored to your needs. Our highly skilled IoT professionals leverage advanced technologies to create smart, scalable, and connected systems that enhance performance, reduce costs, and drive innovation.</h6>
             </div>
         </div>

@@ -282,7 +282,7 @@
                                                         <div class="">
                                                             <h5>Our Portfolio</h5>
                                                             <p>We worked with some of the best platforms in the market, delivering business success. Dive into case studies.</p>
-                                                            <button class="btn view_more_btn">View More</button>
+                                                            <button class="btn view_more_btn">View All</button>
                                                         </div>
                                                     </div>
                                                 </a>
@@ -297,7 +297,7 @@
                                                         <div class="">
                                                             <h5>Case Studies</h5>
                                                             <p>Go through to the brilliant and star studded portfolio of Weboconnect filled with amazing web solutions, web apps, and mobile apps.</p>
-                                                            <button class="btn view_more_btn">View More</button>
+                                                            <button class="btn view_more_btn">View All</button>
                                                         </div>
                                                     </div>
                                                 </a>

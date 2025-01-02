@@ -26,7 +26,7 @@
       <div class="col-lg-6">
         <div class="about_corner_content text-lg-start text-center">
           <p class="fs-16 fw-600" style="color:#01448A;">ABOUT US</p>
-          <h1 class="fs-30 fw-700 my-4">Driving Transformation Through Innovation and Dedication</h1>
+          <h1 class="fs-30 fw-600 my-4">Driving Transformation Through Innovation and Dedication</h1>
           <p class="fs-18 fw-500">WebOConnect brings together technology and imagination to shape tomorrow’s digital experiences. From our vibrant London base to clients across the globe, we partner with businesses to create scalable, user-driven solutions that redefine possibilities.</p>
         </div>
       </div>
@@ -406,7 +406,7 @@
       </div>
       <div class="col-md-6">
         <div class="about_corner_content">
-          <h2 class="fs-30 fw-700 my-4">Innovation You Can Rely On</h2>
+          <h2 class="fs-30 fw-600 my-4">Innovation You Can Rely On</h2>
           <p class="fs-18 fw-500">At WebOConnect, we redefine innovation by delivering reliable, client-first solutions. Our approach ensures seamless integration of creativity, quality, and success for every project.</p>
         </div>
       </div>
