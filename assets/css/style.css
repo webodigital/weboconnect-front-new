@@ -1067,11 +1067,16 @@ footer {
 .csd_banner{ 
   background: radial-gradient(50% 50% at 50% 50%, #744ACC 0%, rgba(116, 74, 204, 0.9) 100%);
   position: relative;
+  h5{
+    font-size: 1.75rem;
+    font-weight: 500;
+  }
 }
 .over_banner{
   position: relative;
   z-index: +1;
-  margin-top: -125px;
+  /* margin-top: -125px; */
+  padding-bottom: 10px;
   background-color: transparent;
   .over_banner_card{
     height: 125px;
@@ -1080,7 +1085,8 @@ footer {
     align-items: center;
     border-radius: 32px;
     background: #FFFFFF;
-    box-shadow: 0px 16px 32px 0px #bdbdbd;
+    /* box-shadow: 0px 16px 32px 0px #bdbdbd; */
+    box-shadow: 0px 16px 32px 0px #6D46BD0D;
   }
 }
 .app_status{
@@ -2737,5 +2743,10 @@ footer {
     strong{
       font-weight: 600;
     }
+  }
+  ul li{
+
+    font-size: 1.75rem;
+    font-weight: 400;
   }
 }

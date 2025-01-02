@@ -24,7 +24,7 @@
     <div class="container">
         <div class="row align-items-center justify-content-between">
             <div class="col-lg-5 h-100">
-                <span style="margin-left: -40px;">
+                <span class="d-md-block d-none" style="margin-left: -40px;">
                     <img src="<?=base_url()?>assets/images/shapes/4_corner.webp" alt="shapes">
                 </span>
                 <div class="text-white my-5">
@@ -33,20 +33,20 @@
                             <button class="btn btn-light">
                                 <i class="bi bi-chevron-left"></i>
                             </button>
-                            <span class="fs-16 fw-600 ms-3">Case Studies</span>
+                            <span class="fs-20 fw-600 ms-3">Case Studies</span>
                             <h1 class="fs-65 fw-700 my-4"><?php echo htmlspecialchars($casestudy->title, ENT_QUOTES, 'UTF-8'); ?></h1>
-                            <h5 class="fs-24 fw-500"><?php echo $casestudy->description; ?></h5>
+                            <h5 class="fs-20 fw-500"><?php echo $casestudy->description; ?>
                             <div class="d-flex align-items-center mt-4">
                                 <span>
                                     <i class="fs-16 bi bi-geo-alt"></i>
                                 </span>
-                                <span class="fs-14 fw-600 ms-3"><?php echo htmlspecialchars($casestudy->location, ENT_QUOTES, 'UTF-8'); ?></span>
+                                <span class="fs-20 fw-500 ms-3"><?php echo htmlspecialchars($casestudy->location, ENT_QUOTES, 'UTF-8'); ?></span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-5 d-lg-block d-none">
                 <img src="<?php echo base_url('assets/images/case_studies/uploads/' . $casestudy->background_top_img); ?>" alt="<?php echo htmlspecialchars($casestudy->title, ENT_QUOTES, 'UTF-8'); ?>">
             </div>
         </div>
@@ -66,7 +66,7 @@
                         </span>
                         <div class="text_brand_color1 ms-4">
                             <h5 class="fs-24 fw-600 m-0">Front-end</h5>
-                            <h6 class="fs-16 fw-600 m-0"><?php echo htmlspecialchars($casestudy->front_end, ENT_QUOTES, 'UTF-8'); ?></h6>
+                            <h6 class="fs-20 fw-500 m-0"><?php echo htmlspecialchars($casestudy->front_end, ENT_QUOTES, 'UTF-8'); ?></h6>
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                         </span>
                         <div class="text_brand_color1 ms-4">
                             <h5 class="fs-24 fw-600 m-0">Back-end</h5>
-                            <h6 class="fs-16 fw-600 m-0"><?php echo htmlspecialchars($casestudy->back_end, ENT_QUOTES, 'UTF-8'); ?></h6>
+                            <h6 class="fs-20 fw-500 m-0"><?php echo htmlspecialchars($casestudy->back_end, ENT_QUOTES, 'UTF-8'); ?></h6>
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
                         </span>
                         <div class="text_brand_color1 ms-4">
                             <h5 class="fs-24 fw-600 m-0">App Type</h5>
-                            <h6 class="fs-16 fw-600 m-0"><?php echo htmlspecialchars($casestudy->app_application, ENT_QUOTES, 'UTF-8'); ?></h6>
+                            <h6 class="fs-20 fw-500 m-0"><?php echo htmlspecialchars($casestudy->app_application, ENT_QUOTES, 'UTF-8'); ?></h6>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
     </div>
 
     <div class="container mt-5">
-        <div class="bg-white app_status p-lg-5 p-sm-4">
+        <div class="bg-white app_status p-lg-5 p-4">
             <div class="row justify-content-between align-items-center my-3">
                 <div class="col-auto">
                     <div>
@@ -159,7 +159,7 @@
         </div>
     </div>
     <div class="container mt-5">
-        <div class="bg-white how_does_work p-lg-5 p-sm-4">
+        <div class="bg-white how_does_work p-lg-5 p-4">
             <div class="row">
                 <div class="col-12">
                     <h2 class="fs-30 fw-600">How Does It Work?</h2>
@@ -219,8 +219,8 @@
                 <div class="row g-4 mt-3">
                     <?php foreach ($challenges as $challenge) : ?>
                         <div class="col-12 ">
-                            <h4 class="fs-20 fw-600 text_brand_color1"><?php echo $challenge->title??''; ?></h4>
-                            <p class="fs-14 fw-500 text_brand_color1"><?php echo $challenge->description??''; ?></p>
+                            <h4 class="fs-20 fw-500 text_brand_color1"><?php echo $challenge->title??''; ?></h4>
+                            <p class="fs-15 fw-500 text_brand_color1"><?php echo $challenge->description??''; ?></p>
                         </div>
                     <?php endforeach; ?>
                 </div>
@@ -240,7 +240,7 @@
         <div class="row align-items-center justify-content-center g-4">
             <div class="12">
                 <h2 class="fs-30 fw-600 text_brand_color1">Solution & Implementation</h2>
-                <h6 class="fs-20 fw-600 text_brand_color1"><?php echo $casestudy->solution_implementation_title??'To meet these objectives and overcome challenges, we developed the Nurseify platform with key features that included'; ?></h6>
+                <h6 class="fs-20 fw-500 text_brand_color1"><?php echo $casestudy->solution_implementation_title??'To meet these objectives and overcome challenges, we developed the Nurseify platform with key features that included'; ?></h6>
             </div>
             <div class="col-lg-6">
                 <div class="">
@@ -267,7 +267,7 @@
     <div class="container">
         <div class="text-center">
             <h2 class="fs-30 fw-600 text_brand_color1">Outcome</h2>
-            <h6 class="fs-20 fw-600 text_brand_color1"><?php echo $casestudy->solution_implementation_title??'Since its launch, Nurseify has achieved the following Nurseify app were to'; ?></h6>
+            <h6 class="fs-20 fw-500 text_brand_color1"><?php echo $casestudy->solution_implementation_title??'Since its launch, Nurseify has achieved the following Nurseify app were to'; ?></h6>
         </div>
         
         <div class="row align-items-center justify-content-center g-4 mt-5">
@@ -275,7 +275,7 @@
                 <div class="col-lg-6">
                     <div class="project_objectives_card">
                         <h5 class="fs-20 fw-600 text_brand_color1"><?php echo $outc->title??''; ?></h5>
-                        <p class="fs-14 fw-500 text_brand_color1"><?php echo $outc->description??''; ?></p>
+                        <p class="fs-15 fw-500 text_brand_color1"><?php echo $outc->description??''; ?></p>
                     </div>
                 </div>
             <?php endforeach; ?>
@@ -295,7 +295,10 @@
     </div>
 </section>
 
-<?php $this->load->view('front/common/testimonials') ?>
+<section class="section_padding bg_azure">
+    <?php $this->load->view('front/common/our_clients_videos') ?>
+</section>
+
 <?php $this->load->view('front/common/footer_form') ?>
 <?php $this->load->view('front/common/footer') ?>
 </body> 
