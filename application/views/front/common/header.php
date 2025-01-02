@@ -101,7 +101,7 @@
                                 <div class="container">
                                     <div class="row g-4">
 
-                                        <div class="col-md-3">
+                                        <div class="col">
                                             <div class="mega_menu_card">
                                                 <a href="<?=base_url()?>saas-development">
                                                     <img height="150" src="<?=base_url()?>assets/images/mega_menu/s_d.webp" alt="SaaS Development">
@@ -112,7 +112,18 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col">
+                                            <div class="mega_menu_card">
+                                                <a href="<?=base_url()?>web-development">
+                                                    <img height="150" src="<?=base_url()?>assets/images/web_development/banner.webp" alt="Web Development">
+                                                    <div class="_menu_">
+                                                        <h5>Web Development</h5>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col">
                                             <div class="mega_menu_card">
                                                 <a href="<?=base_url()?>mobile-app-development">
                                                     <img height="150" src="<?=base_url()?>assets/images/mega_menu/mob_app.webp" alt="Mobile App Development">
@@ -123,7 +134,8 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+
+                                        <div class="col">
                                             <div class="mega_menu_card">
                                                 <a href="<?=base_url()?>hire-dedicated-resources">
                                                     <img height="150" src="<?=base_url()?>assets/images/mega_menu/h_d_r.webp" alt="Hire Dedicated Resources">
@@ -134,7 +146,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col">
                                             <div class="mega_menu_card">
                                                 <a href="<?=base_url()?>maintenance-and-support">
                                                     <img height="150" src="<?=base_url()?>assets/images/mega_menu/m_s.webp" alt="Maintenance & Support">
