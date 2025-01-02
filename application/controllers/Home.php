@@ -238,6 +238,10 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('front/mobile_app_development');
 	}
+	public function web_development()
+	{
+		$this->load->view('front/web_development');
+	}
 	public function maintenance_and_support()
 	{
 		$this->load->view('front/maintenance_support');

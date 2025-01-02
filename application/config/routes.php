@@ -61,6 +61,7 @@ $route['blogs/(:num)'] = 'home/blogs/$1';
 $route['blog/(:any)'] = 'home/blog_details/$1';
 $route['saas-development'] = 'home/saas_development';
 $route['mobile-app-development'] = 'home/mobile_app_development';
+$route['web-development'] = 'home/web_development';
 $route['maintenance-and-support'] = 'home/maintenance_and_support';
 $route['hire-dedicated-resources'] = 'home/hire_dedicated_resources';
 $route['testimonials'] = 'home/testimonials';
