@@ -129,7 +129,7 @@ class Casestudies extends CI_Controller
         $this->load->library('pagination');
 
         $config = array();
-        $config['base_url'] = site_url('admin-case-studiess');
+        $config['base_url'] = site_url('admin-case-studies');
         $config['total_rows'] = $this->CasestudiesModel->getCasestudiesCount();
         // $config['per_page'] = 20;
         $config['per_page'] = 10;

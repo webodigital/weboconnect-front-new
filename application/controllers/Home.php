@@ -23,10 +23,10 @@ class Home extends CI_Controller {
 		$this->load->library('pagination');
         $this->load->model('CasestudiesModel');
         $config = array();
-        $config['base_url'] = site_url('blogs');
+        $config['base_url'] = site_url('case_study');
         $config['total_rows'] = $this->CasestudiesModel->getCasestudiesCount();
         // $config['per_page'] = 20;
-        $config['per_page'] = 9;
+        $config['per_page'] =; 0
         $config['uri_segment'] = 2;
 
         // Bootstrap 4 Pagination Configuration
