@@ -75,3 +75,222 @@ INFO - 2025-01-03 11:13:29 --> File loaded: F:\xampp\htdocs\weboconnect-front-ne
 INFO - 2025-01-03 11:13:29 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/footer.php
 INFO - 2025-01-03 11:13:29 --> Final output sent to browser
 DEBUG - 2025-01-03 11:13:29 --> Total execution time: 0.1210
+INFO - 2025-01-03 11:23:16 --> Config Class Initialized
+INFO - 2025-01-03 11:23:16 --> Hooks Class Initialized
+DEBUG - 2025-01-03 11:23:16 --> UTF-8 Support Enabled
+INFO - 2025-01-03 11:23:16 --> Utf8 Class Initialized
+INFO - 2025-01-03 11:23:16 --> URI Class Initialized
+INFO - 2025-01-03 11:23:16 --> Router Class Initialized
+INFO - 2025-01-03 11:23:16 --> Output Class Initialized
+INFO - 2025-01-03 11:23:16 --> Security Class Initialized
+DEBUG - 2025-01-03 11:23:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-03 11:23:17 --> Input Class Initialized
+INFO - 2025-01-03 11:23:17 --> Language Class Initialized
+INFO - 2025-01-03 11:23:17 --> Loader Class Initialized
+INFO - 2025-01-03 11:23:17 --> Helper loaded: url_helper
+INFO - 2025-01-03 11:23:17 --> Database Driver Class Initialized
+DEBUG - 2025-01-03 11:23:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-01-03 11:23:17 --> Session: Class initialized using 'files' driver.
+INFO - 2025-01-03 11:23:17 --> Controller Class Initialized
+INFO - 2025-01-03 11:23:17 --> Helper loaded: form_helper
+INFO - 2025-01-03 11:23:17 --> Helper loaded: auth_helper
+DEBUG - 2025-01-03 11:23:17 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-01-03 11:23:17 --> Form Validation Class Initialized
+INFO - 2025-01-03 11:23:17 --> Model "User" initialized
+INFO - 2025-01-03 11:23:17 --> Config Class Initialized
+INFO - 2025-01-03 11:23:17 --> Hooks Class Initialized
+DEBUG - 2025-01-03 11:23:17 --> UTF-8 Support Enabled
+INFO - 2025-01-03 11:23:17 --> Utf8 Class Initialized
+INFO - 2025-01-03 11:23:17 --> URI Class Initialized
+INFO - 2025-01-03 11:23:17 --> Router Class Initialized
+INFO - 2025-01-03 11:23:17 --> Output Class Initialized
+INFO - 2025-01-03 11:23:17 --> Security Class Initialized
+DEBUG - 2025-01-03 11:23:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-03 11:23:17 --> Input Class Initialized
+INFO - 2025-01-03 11:23:17 --> Language Class Initialized
+INFO - 2025-01-03 11:23:17 --> Loader Class Initialized
+INFO - 2025-01-03 11:23:17 --> Helper loaded: url_helper
+INFO - 2025-01-03 11:23:17 --> Database Driver Class Initialized
+DEBUG - 2025-01-03 11:23:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-01-03 11:23:17 --> Session: Class initialized using 'files' driver.
+INFO - 2025-01-03 11:23:17 --> Controller Class Initialized
+INFO - 2025-01-03 11:23:17 --> Helper loaded: form_helper
+INFO - 2025-01-03 11:23:17 --> Helper loaded: auth_helper
+DEBUG - 2025-01-03 11:23:17 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-01-03 11:23:17 --> Form Validation Class Initialized
+INFO - 2025-01-03 11:23:17 --> Model "User" initialized
+INFO - 2025-01-03 11:23:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/header.php
+INFO - 2025-01-03 11:23:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\auth/login.php
+INFO - 2025-01-03 11:23:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/footer.php
+INFO - 2025-01-03 11:23:17 --> Final output sent to browser
+DEBUG - 2025-01-03 11:23:17 --> Total execution time: 0.1209
+INFO - 2025-01-03 11:23:18 --> Config Class Initialized
+INFO - 2025-01-03 11:23:18 --> Hooks Class Initialized
+DEBUG - 2025-01-03 11:23:18 --> UTF-8 Support Enabled
+INFO - 2025-01-03 11:23:18 --> Utf8 Class Initialized
+INFO - 2025-01-03 11:23:18 --> URI Class Initialized
+DEBUG - 2025-01-03 11:23:18 --> No URI present. Default controller set.
+INFO - 2025-01-03 11:23:18 --> Router Class Initialized
+INFO - 2025-01-03 11:23:18 --> Output Class Initialized
+INFO - 2025-01-03 11:23:18 --> Security Class Initialized
+DEBUG - 2025-01-03 11:23:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-03 11:23:18 --> Input Class Initialized
+INFO - 2025-01-03 11:23:18 --> Language Class Initialized
+ERROR - 2025-01-03 11:23:18 --> Severity: error --> Exception: syntax error, unexpected ';' F:\xampp\htdocs\weboconnect-front-new\application\controllers\Home.php 29
+INFO - 2025-01-03 11:23:20 --> Config Class Initialized
+INFO - 2025-01-03 11:23:20 --> Hooks Class Initialized
+DEBUG - 2025-01-03 11:23:20 --> UTF-8 Support Enabled
+INFO - 2025-01-03 11:23:20 --> Utf8 Class Initialized
+INFO - 2025-01-03 11:23:20 --> URI Class Initialized
+DEBUG - 2025-01-03 11:23:20 --> No URI present. Default controller set.
+INFO - 2025-01-03 11:23:20 --> Router Class Initialized
+INFO - 2025-01-03 11:23:20 --> Output Class Initialized
+INFO - 2025-01-03 11:23:20 --> Security Class Initialized
+DEBUG - 2025-01-03 11:23:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-03 11:23:20 --> Input Class Initialized
+INFO - 2025-01-03 11:23:20 --> Language Class Initialized
+ERROR - 2025-01-03 11:23:20 --> Severity: error --> Exception: syntax error, unexpected ';' F:\xampp\htdocs\weboconnect-front-new\application\controllers\Home.php 29
+INFO - 2025-01-03 11:23:23 --> Config Class Initialized
+INFO - 2025-01-03 11:23:23 --> Hooks Class Initialized
+DEBUG - 2025-01-03 11:23:23 --> UTF-8 Support Enabled
+INFO - 2025-01-03 11:23:23 --> Utf8 Class Initialized
+INFO - 2025-01-03 11:23:23 --> URI Class Initialized
+DEBUG - 2025-01-03 11:23:23 --> No URI present. Default controller set.
+INFO - 2025-01-03 11:23:23 --> Router Class Initialized
+INFO - 2025-01-03 11:23:23 --> Output Class Initialized
+INFO - 2025-01-03 11:23:23 --> Security Class Initialized
+DEBUG - 2025-01-03 11:23:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-03 11:23:23 --> Input Class Initialized
+INFO - 2025-01-03 11:23:23 --> Language Class Initialized
+ERROR - 2025-01-03 11:23:23 --> Severity: error --> Exception: syntax error, unexpected ';' F:\xampp\htdocs\weboconnect-front-new\application\controllers\Home.php 29
+INFO - 2025-01-03 11:23:24 --> Config Class Initialized
+INFO - 2025-01-03 11:23:24 --> Hooks Class Initialized
+DEBUG - 2025-01-03 11:23:24 --> UTF-8 Support Enabled
+INFO - 2025-01-03 11:23:24 --> Utf8 Class Initialized
+INFO - 2025-01-03 11:23:24 --> URI Class Initialized
+DEBUG - 2025-01-03 11:23:24 --> No URI present. Default controller set.
+INFO - 2025-01-03 11:23:24 --> Router Class Initialized
+INFO - 2025-01-03 11:23:24 --> Output Class Initialized
+INFO - 2025-01-03 11:23:24 --> Security Class Initialized
+DEBUG - 2025-01-03 11:23:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-03 11:23:24 --> Input Class Initialized
+INFO - 2025-01-03 11:23:24 --> Language Class Initialized
+ERROR - 2025-01-03 11:23:24 --> Severity: error --> Exception: syntax error, unexpected ';' F:\xampp\htdocs\weboconnect-front-new\application\controllers\Home.php 29
+INFO - 2025-01-03 11:23:24 --> Config Class Initialized
+INFO - 2025-01-03 11:23:24 --> Hooks Class Initialized
+DEBUG - 2025-01-03 11:23:24 --> UTF-8 Support Enabled
+INFO - 2025-01-03 11:23:24 --> Utf8 Class Initialized
+INFO - 2025-01-03 11:23:24 --> URI Class Initialized
+DEBUG - 2025-01-03 11:23:24 --> No URI present. Default controller set.
+INFO - 2025-01-03 11:23:24 --> Router Class Initialized
+INFO - 2025-01-03 11:23:24 --> Output Class Initialized
+INFO - 2025-01-03 11:23:24 --> Security Class Initialized
+DEBUG - 2025-01-03 11:23:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-03 11:23:24 --> Input Class Initialized
+INFO - 2025-01-03 11:23:24 --> Language Class Initialized
+ERROR - 2025-01-03 11:23:24 --> Severity: error --> Exception: syntax error, unexpected ';' F:\xampp\htdocs\weboconnect-front-new\application\controllers\Home.php 29
+INFO - 2025-01-03 11:23:24 --> Config Class Initialized
+INFO - 2025-01-03 11:23:24 --> Hooks Class Initialized
+DEBUG - 2025-01-03 11:23:24 --> UTF-8 Support Enabled
+INFO - 2025-01-03 11:23:24 --> Utf8 Class Initialized
+INFO - 2025-01-03 11:23:24 --> URI Class Initialized
+DEBUG - 2025-01-03 11:23:24 --> No URI present. Default controller set.
+INFO - 2025-01-03 11:23:24 --> Router Class Initialized
+INFO - 2025-01-03 11:23:24 --> Output Class Initialized
+INFO - 2025-01-03 11:23:24 --> Security Class Initialized
+DEBUG - 2025-01-03 11:23:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-03 11:23:24 --> Input Class Initialized
+INFO - 2025-01-03 11:23:24 --> Language Class Initialized
+ERROR - 2025-01-03 11:23:24 --> Severity: error --> Exception: syntax error, unexpected ';' F:\xampp\htdocs\weboconnect-front-new\application\controllers\Home.php 29
+INFO - 2025-01-03 11:23:35 --> Config Class Initialized
+INFO - 2025-01-03 11:23:35 --> Hooks Class Initialized
+DEBUG - 2025-01-03 11:23:35 --> UTF-8 Support Enabled
+INFO - 2025-01-03 11:23:35 --> Utf8 Class Initialized
+INFO - 2025-01-03 11:23:35 --> URI Class Initialized
+DEBUG - 2025-01-03 11:23:35 --> No URI present. Default controller set.
+INFO - 2025-01-03 11:23:35 --> Router Class Initialized
+INFO - 2025-01-03 11:23:35 --> Output Class Initialized
+INFO - 2025-01-03 11:23:35 --> Security Class Initialized
+DEBUG - 2025-01-03 11:23:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-03 11:23:35 --> Input Class Initialized
+INFO - 2025-01-03 11:23:35 --> Language Class Initialized
+ERROR - 2025-01-03 11:23:35 --> Severity: error --> Exception: syntax error, unexpected ';' F:\xampp\htdocs\weboconnect-front-new\application\controllers\Home.php 29
+INFO - 2025-01-03 11:23:46 --> Config Class Initialized
+INFO - 2025-01-03 11:23:46 --> Hooks Class Initialized
+DEBUG - 2025-01-03 11:23:46 --> UTF-8 Support Enabled
+INFO - 2025-01-03 11:23:46 --> Utf8 Class Initialized
+INFO - 2025-01-03 11:23:46 --> URI Class Initialized
+INFO - 2025-01-03 11:23:46 --> Router Class Initialized
+INFO - 2025-01-03 11:23:46 --> Output Class Initialized
+INFO - 2025-01-03 11:23:46 --> Security Class Initialized
+DEBUG - 2025-01-03 11:23:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-03 11:23:46 --> Input Class Initialized
+INFO - 2025-01-03 11:23:46 --> Language Class Initialized
+INFO - 2025-01-03 11:23:46 --> Loader Class Initialized
+INFO - 2025-01-03 11:23:46 --> Helper loaded: url_helper
+INFO - 2025-01-03 11:23:46 --> Database Driver Class Initialized
+DEBUG - 2025-01-03 11:23:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-01-03 11:23:46 --> Session: Class initialized using 'files' driver.
+INFO - 2025-01-03 11:23:46 --> Controller Class Initialized
+INFO - 2025-01-03 11:23:46 --> Helper loaded: form_helper
+INFO - 2025-01-03 11:23:46 --> Helper loaded: auth_helper
+DEBUG - 2025-01-03 11:23:46 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-01-03 11:23:46 --> Form Validation Class Initialized
+INFO - 2025-01-03 11:23:46 --> Model "User" initialized
+INFO - 2025-01-03 11:23:46 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/header.php
+INFO - 2025-01-03 11:23:46 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\auth/login.php
+INFO - 2025-01-03 11:23:46 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/footer.php
+INFO - 2025-01-03 11:23:46 --> Final output sent to browser
+DEBUG - 2025-01-03 11:23:46 --> Total execution time: 0.1080
+INFO - 2025-01-03 11:23:49 --> Config Class Initialized
+INFO - 2025-01-03 11:23:49 --> Hooks Class Initialized
+DEBUG - 2025-01-03 11:23:49 --> UTF-8 Support Enabled
+INFO - 2025-01-03 11:23:49 --> Utf8 Class Initialized
+INFO - 2025-01-03 11:23:49 --> URI Class Initialized
+DEBUG - 2025-01-03 11:23:49 --> No URI present. Default controller set.
+INFO - 2025-01-03 11:23:49 --> Router Class Initialized
+INFO - 2025-01-03 11:23:49 --> Output Class Initialized
+INFO - 2025-01-03 11:23:49 --> Security Class Initialized
+DEBUG - 2025-01-03 11:23:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-03 11:23:49 --> Input Class Initialized
+INFO - 2025-01-03 11:23:49 --> Language Class Initialized
+ERROR - 2025-01-03 11:23:49 --> Severity: error --> Exception: syntax error, unexpected ';' F:\xampp\htdocs\weboconnect-front-new\application\controllers\Home.php 29
+INFO - 2025-01-03 11:23:58 --> Config Class Initialized
+INFO - 2025-01-03 11:23:58 --> Hooks Class Initialized
+DEBUG - 2025-01-03 11:23:58 --> UTF-8 Support Enabled
+INFO - 2025-01-03 11:23:58 --> Utf8 Class Initialized
+INFO - 2025-01-03 11:23:58 --> URI Class Initialized
+DEBUG - 2025-01-03 11:23:58 --> No URI present. Default controller set.
+INFO - 2025-01-03 11:23:58 --> Router Class Initialized
+INFO - 2025-01-03 11:23:58 --> Output Class Initialized
+INFO - 2025-01-03 11:23:58 --> Security Class Initialized
+DEBUG - 2025-01-03 11:23:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-03 11:23:58 --> Input Class Initialized
+INFO - 2025-01-03 11:23:58 --> Language Class Initialized
+ERROR - 2025-01-03 11:23:58 --> Severity: error --> Exception: syntax error, unexpected ';' F:\xampp\htdocs\weboconnect-front-new\application\controllers\Home.php 29
+INFO - 2025-01-03 11:23:58 --> Config Class Initialized
+INFO - 2025-01-03 11:23:58 --> Hooks Class Initialized
+DEBUG - 2025-01-03 11:23:58 --> UTF-8 Support Enabled
+INFO - 2025-01-03 11:23:58 --> Utf8 Class Initialized
+INFO - 2025-01-03 11:23:58 --> URI Class Initialized
+DEBUG - 2025-01-03 11:23:58 --> No URI present. Default controller set.
+INFO - 2025-01-03 11:23:58 --> Router Class Initialized
+INFO - 2025-01-03 11:23:58 --> Output Class Initialized
+INFO - 2025-01-03 11:23:58 --> Security Class Initialized
+DEBUG - 2025-01-03 11:23:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-03 11:23:58 --> Input Class Initialized
+INFO - 2025-01-03 11:23:58 --> Language Class Initialized
+ERROR - 2025-01-03 11:23:58 --> Severity: error --> Exception: syntax error, unexpected ';' F:\xampp\htdocs\weboconnect-front-new\application\controllers\Home.php 29
+INFO - 2025-01-03 11:23:59 --> Config Class Initialized
+INFO - 2025-01-03 11:23:59 --> Hooks Class Initialized
+DEBUG - 2025-01-03 11:23:59 --> UTF-8 Support Enabled
+INFO - 2025-01-03 11:23:59 --> Utf8 Class Initialized
+INFO - 2025-01-03 11:23:59 --> URI Class Initialized
+DEBUG - 2025-01-03 11:23:59 --> No URI present. Default controller set.
+INFO - 2025-01-03 11:23:59 --> Router Class Initialized
+INFO - 2025-01-03 11:23:59 --> Output Class Initialized
+INFO - 2025-01-03 11:23:59 --> Security Class Initialized
+DEBUG - 2025-01-03 11:23:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-03 11:23:59 --> Input Class Initialized
+INFO - 2025-01-03 11:23:59 --> Language Class Initialized
+ERROR - 2025-01-03 11:23:59 --> Severity: error --> Exception: syntax error, unexpected ';' F:\xampp\htdocs\weboconnect-front-new\application\controllers\Home.php 29

@@ -26,7 +26,7 @@ class Home extends CI_Controller {
         $config['base_url'] = site_url('case_study');
         $config['total_rows'] = $this->CasestudiesModel->getCasestudiesCount();
         // $config['per_page'] = 20;
-        $config['per_page'] =; 0
+        $config['per_page'] = 0;
         $config['uri_segment'] = 2;
 
         // Bootstrap 4 Pagination Configuration
