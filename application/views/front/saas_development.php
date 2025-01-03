@@ -43,7 +43,7 @@
 <section class="section_padding">
     <div class="container">
         <div class="text-center">
-            <h2 class="fs-30 fw-700">Trusted By Top Companies</h2>
+            <h2 class="fs-30 fw-600">Trusted By Top Companies</h2>
         </div>
     </div>
     <div class="ccontainer-fluid mt-3">
@@ -81,7 +81,7 @@
 
 <section class="section_padding op_bg">
     <div class="container text-center text-white">
-        <h3 class="fs-30 fw-700">Our Portfolio</h3>
+        <h3 class="fs-30 fw-600">Our Portfolio</h3>
         <h6 class="fs-20 fw-600">We let our results do the talking. See how we’ve delivered success for our clients.</h6>
         <a href="<?= base_url() ?>portfolio" class="btn btn-outline-light btn-rounded mt-4 px-4">Check Out Our Portfolio</a>
     </div>
@@ -140,7 +140,7 @@
         <div class="row justify-content-center">
             <div class="col-11">
                 <div class="text-center">
-                    <h2 class="fs-30 fw-700 text_brand_color1">Building Intelligent Systems with the Latest Technologies</h2>
+                    <h2 class="fs-30 fw-600 text_brand_color1">Building Intelligent Systems with the Latest Technologies</h2>
                     <h6 class="fs-18 fw-700 text_brand_color1">At WebOConnect, we harness industry-leading technologies to craft solutions that are robust, scalable, and geared for business growth.</h6>
                 </div>
             </div>
@@ -180,7 +180,7 @@
         <div class="row justify-content-between align-items-center g-5">
             <div class="col-lg-6">
                 <div class="">
-                    <h2 class="fs-30 fw-700 text-white">The Missing Link to Your Success</h2>
+                    <h2 class="fs-30 fw-600 text-white">The Missing Link to Your Success</h2>
                     <h6 class="fs-18 fw-500 text-white mb-3">At WebOConnect, we bridge the gap between your vision and reality. With extensive experience and a stellar record of success, we’re here to help you achieve your goals seamlessly.</h6>
                     <a class="btn btn-outline-light btn-rounded px-5" href="<?=base_url()?>contact">Contact Us</a>
                 </div>
@@ -244,7 +244,7 @@
         <div class="row justify-content-center">
             <div class="col-md-9">
                 <div class="text-center">
-                    <h2 class="fs-30 fw-700 text_brand_color1">Our SaaS Development Process</h2>
+                    <h2 class="fs-30 fw-600 text_brand_color1">Our SaaS Development Process</h2>
                     <h6 class="fs-18 fw-500 text_brand_color1 mb-3">We being a leading enterprise & SaaS development agency, we follow planned out the enterprise software development process.</h6>
                 </div>
             </div>

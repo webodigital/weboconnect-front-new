@@ -45,7 +45,7 @@
                               </div>
                               <p> <?php echo $casestudy->description??''; ?></p>
                           </div>
-                          <a class="read_more_btn" href="<?php echo base_url('case-study-details/' . $casestudy->slug); ?>">Read More</a>
+                          <a class="read_more_btn" href="<?php echo base_url('case-study-details/' . $casestudy->slug); ?>">View Case Study</a>
                       </div>
                   </div>
               </div>

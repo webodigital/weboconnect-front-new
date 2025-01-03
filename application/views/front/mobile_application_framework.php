@@ -376,7 +376,7 @@
         <div class="row align-items-center">
             <div class="col-lg-8">
                 <div class=" text-center text-lg-start">
-                    <h2 class="fs-30 fw-700 text-white">Shape the Future of Your Business with WebOConnect’s Mobile Expertise</h2>
+                    <h2 class="fs-30 fw-600 text-white">Shape the Future of Your Business with WebOConnect’s Mobile Expertise</h2>
                     <h6 class="fs-18 fw-500 text-white mb-3">Partner with WebOConnect to create mobile applications that deliver unmatched performance, seamless user experiences, and future-ready solutions. Whether native or cross-platform, our frameworks ensure your app drives results and leaves a lasting impact.</h6>
                     <a href="<?= base_url() ?>contact" class="btn btn-outline-light btn-rounded px-4">Contact Us</a>
                 </div>

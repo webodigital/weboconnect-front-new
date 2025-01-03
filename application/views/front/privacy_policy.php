@@ -21,7 +21,7 @@
     <section class="section_padding">
         
         <div class="container privacy-content">
-            <h1 class="fs-30 fw-700 text-center">Privacy Policy</h1>
+            <h1 class="fs-30 fw-600 text-center">Privacy Policy</h1>
                 <h3>What information do we collect?</h3>
             <!--<hr style="height: 2px;background-color: #00458e;">-->
             <p class="fs-16 fw-400">We collect information from you when you register on our site, subscribe to our newsletter or fill out a form.</p>

@@ -101,7 +101,7 @@
                                 <div class="container">
                                     <div class="row g-4">
 
-                                        <div class="col-md-3">
+                                        <div class="col">
                                             <div class="mega_menu_card">
                                                 <a href="<?=base_url()?>saas-development">
                                                     <img height="150" src="<?=base_url()?>assets/images/mega_menu/s_d.webp" alt="SaaS Development">
@@ -112,7 +112,18 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col">
+                                            <div class="mega_menu_card">
+                                                <a href="<?=base_url()?>web-development">
+                                                    <img height="150" src="<?=base_url()?>assets/images/web_development/banner.webp" alt="Web Development">
+                                                    <div class="_menu_">
+                                                        <h5>Web Development</h5>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col">
                                             <div class="mega_menu_card">
                                                 <a href="<?=base_url()?>mobile-app-development">
                                                     <img height="150" src="<?=base_url()?>assets/images/mega_menu/mob_app.webp" alt="Mobile App Development">
@@ -123,7 +134,8 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+
+                                        <div class="col">
                                             <div class="mega_menu_card">
                                                 <a href="<?=base_url()?>hire-dedicated-resources">
                                                     <img height="150" src="<?=base_url()?>assets/images/mega_menu/h_d_r.webp" alt="Hire Dedicated Resources">
@@ -134,7 +146,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col">
                                             <div class="mega_menu_card">
                                                 <a href="<?=base_url()?>maintenance-and-support">
                                                     <img height="150" src="<?=base_url()?>assets/images/mega_menu/m_s.webp" alt="Maintenance & Support">
@@ -282,7 +294,7 @@
                                                         <div class="">
                                                             <h5>Our Portfolio</h5>
                                                             <p>We worked with some of the best platforms in the market, delivering business success. Dive into case studies.</p>
-                                                            <button class="btn view_more_btn">View More</button>
+                                                            <button class="btn view_more_btn">View All</button>
                                                         </div>
                                                     </div>
                                                 </a>
@@ -297,7 +309,7 @@
                                                         <div class="">
                                                             <h5>Case Studies</h5>
                                                             <p>Go through to the brilliant and star studded portfolio of Weboconnect filled with amazing web solutions, web apps, and mobile apps.</p>
-                                                            <button class="btn view_more_btn">View More</button>
+                                                            <button class="btn view_more_btn">View All</button>
                                                         </div>
                                                     </div>
                                                 </a>
@@ -347,10 +359,91 @@
                             Get An Estimate 
                         </a>
                     </li>
-                    <li class="">
-                        <a href="#" class="b_rds_5 ms-4 btn btn-danger px-3"  data-bs-toggle="modal" data-bs-target="#lets_call_popup_modal">
+                    <li class="phone_call">
+                        <a href="#" class="b_rds_5 ms-4 btn btn-danger px-3">
                             <i class="bi bi-telephone-fill"></i>
                         </a>
+                        <div class="phone_call_popup">
+                            <!-- <button type="button" class="btn_close" data-bs-dismiss="modal" aria-label="Close" style="background: #004489;">
+                                <i class="fs-16 bi bi-x-lg"></i>
+                            </button> -->
+                            <div class="contact_details">
+                                <div class="text-center d-none d-lg-block">
+                                    <h2 class="fs-24 fw-600 ">Talk To Our  <span class="text-danger">Experts!</span> </h2>
+                                    <!-- <h6 class="fs-18 fw-700 text-white">Partner with seasoned experts to transform your vision into a seamless, innovative app.</h6> -->
+                                </div>
+                                <div class="row justify-content-center g-4 mt-2">
+                                    <div class="col-6">
+                                        <div class="contact_details_list_card">
+                                            <div>
+                                            <div class="d-flex align-items-center">
+                                                <span class="me-2">
+                                                    <img src="<?=base_url()?>assets/images/icons/text.webp" width="30" alt="call" title="call">
+                                                </span>
+                                                <h4 class="fs-20 fw-600">Text</h4>
+                                            </div>
+                                            <!-- <a href="tel:+1 419 405 7399">+1 419 405 7399</a>
+                                            <a href="tel:+91 8076 654 834">+91 8076 654 834</a> -->
+                                            <a class="d-block fs-12 fw-600" href="sms:+1 419 405 7399">+1 419 405 7399</a>
+                                            <a class="d-block fs-12 fw-600" href="sms:+91 8076 654 834">+91 8076 654 834</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="contact_details_list_card">
+                                        <div>
+                                            <div class="d-flex align-items-center">
+                                                <span class="me-2">
+                                                    <img src="<?=base_url()?>assets/images/icons/whatsapp.webp " width="30" alt="whatsapp" title="whatsapp">
+                                                </span>
+                                                <h4 class="fs-20 fw-600">Whatsapp</h4>
+                                            </div>
+                                            <a class="d-block fs-12 fw-600" href="https://wa.me/+14194057399?text=Hello%20there!">+1 419 405 7399</a>
+                                            <a  class="d-block fs-12 fw-600" href="https://wa.me/+918076654834?text=Hello%20there!">+91 8076 654 834</a>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="contact_details_list_card">
+                                        <div>
+                                            <div class="d-flex align-items-center">
+                                                <span class="me-2">
+                                                    <img src="<?=base_url()?>assets/images/icons/telegram.webp " width="30" alt="Telegram" title="Telegram">
+                                                </span>
+                                                <h4 class="fs-20 fw-600">Telegram</h4>
+                                            </div>
+                                            <a class="d-block fs-12 fw-600" href="https://t.me/weboconnect">+1 419 405 7399</a>
+                                            <!-- <a href="https://t.me/+1 419 405 7399">+1 419 405 7399</a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="contact_details_list_card">
+                                            <div>
+                                            <div class="d-flex align-items-center">
+                                                <span class="me-2">
+                                                    <img src="<?=base_url()?>assets/images/icons/email.webp " width="30" alt="Email" title="Email">
+                                                </span>
+                                                <h4 class="fs-20 fw-600">Email us</h4>
+                                            </div>
+                                            <a class="d-block fs-12 fw-600" href="mailto:Info@weboconnect.com">Info@weboconnect.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-center my-4">
+                                    <div class="align-items-center justify-content-center">
+                                        <div class="text_white fs-20 fw-600 mb-3 ">OR</div>
+                                        <a href="https://calendly.com/schedulemeetingwithweboconnect/30min?back=1&month=2024-11" class="btn btn-dark btn-rounded px-5">
+                                            <span>
+                                            <img src="<?=base_url()?>assets/images/icons/group-discussion-meeting_svg.svg" alt="Schedule A Meeting">
+                                            </span>    
+                                            <span class="text_white ms-2">Schedule A Meeting</span>
+                                        </a>
+                                        </div>
+                                    </div>                        
+                                </div>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>

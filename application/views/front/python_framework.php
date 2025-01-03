@@ -144,7 +144,7 @@
         <div class="row align-items-center justify-content-between g-4">
             <div class="col-lg-6">
                 <div class="b_rds_15 bg_azure p-3">
-                    <h3 class="fs-30 fw-700">Why are we the most sought after Python developers?</h3>
+                    <h3 class="fs-30 fw-600">Why are we the most sought after Python developers?</h3>
                     <p class="fs-16 fw-500">Working with Python is not everybody’s cup of tea. While Python may be an easy language to learn, it takes much of experience to master the same. We have a team of highly efficient Python developers who have experience in working with Frameworks like Django, Pyramid, TurboGas, Web2py Flask, Sanic, CherryPy,etc. Along with Pythin Frameworks, we are also competent with various Data Management tools.</p>
                     <p class="fs-16 fw-500">It’s not just the knowledge but the experience and the ability to work on different frameworks which sets us apart from the rest of Python development companies.</p>
                 </div>

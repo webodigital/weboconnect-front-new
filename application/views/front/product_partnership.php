@@ -42,7 +42,7 @@
         <div class="row justify-content-center">
             <div class="col-11">
                 <div class="text-center">
-                    <h2 class="fs-30 fw-700 text_brand_color1">WebOConnect Drives Your Vision to Unmatched Success</h2>
+                    <h2 class="fs-30 fw-600 text_brand_color1">WebOConnect Drives Your Vision to Unmatched Success</h2>
                     <h6 class="fs-18 fw-500 text_brand_color1">Bring your product idea to life with WebOConnect’s Product Partnership. We make it happen with minimal investment, so you can focus on growing your market presence.</h6>
                     <h6 class="fs-18 fw-500 text_brand_color1">Here’s our approach…</h6>
                 </div>
@@ -99,7 +99,7 @@
         <div class="row justify-content-center">
             <div class="col-11">
                 <div class="text-center">
-                    <h2 class="fs-30 fw-700 text_brand_color2">Ready to Bring Your Product to Life with Minimal Investment?</h2>
+                    <h2 class="fs-30 fw-600 text_brand_color2">Ready to Bring Your Product to Life with Minimal Investment?</h2>
                     <h6 class="fs-18 fw-500 text_brand_color2">Looking to create an impactful product without the burden of heavy technical setup? WebOConnect’s Product Partnership is your perfect solution. We provide the support and technology needed to bring your idea to market with minimal upfront investment.</h6>
                 </div>
             </div>

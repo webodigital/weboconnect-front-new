@@ -22,7 +22,7 @@
       <!-- Text Content Column -->
         <div class="col-lg-6 col-12" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
             <div class="b_rds_15 bg-white p-4">
-            <h1 class="fs-30 fw-700 text_brand_color2">Build Your Dream Team with WebOConnect's Dedicated Resources</h1>
+            <h1 class="fs-30 fw-600 text_brand_color2">Build Your Dream Team with WebOConnect's Dedicated Resources</h1>
             <ul class="text_brand_color2">
                 <li class="fs-20 fw-500">Premium Developers & Designers to Elevate Your Projects</li>
                 <li class="fs-20 fw-500">3+ Years of Proven Experience in Diverse Domains</li>
@@ -348,9 +348,9 @@
     <div class="container">
         <div class="row align-items-center g-4">
             <div class="col-md-6">
-                <h3 class="fs-30 fw-700">Why Hire From Weboconnect?</h3>
+                <h3 class="fs-30 fw-600">Why Hire From Weboconnect?</h3>
                 <div class="b_rds_15 bg_dark_gradient p-4 text-white mt-5">
-                    <h4 class="fs-30 fw-700">Our Resource Hiring Models</h4>
+                    <h4 class="fs-30 fw-600">Our Resource Hiring Models</h4>
                     <p class="fs-18 fw-500">WebOConnect offers flexible and tailored hiring models to suit your business needs, ensuring you have the right expertise, the right way.</p>
                 </div>
             </div>
@@ -397,7 +397,7 @@
 <section class="section_padding bg_dark">
     <div class="container">
         <div class="text-center">
-            <h2 class="fs-30 fw-700 text-white">Trusted By Top Companies</h2>
+            <h2 class="fs-30 fw-600 text-white">Trusted By Top Companies</h2>
         </div>
     </div>
     <div class="ccontainer-fluid mt-3">

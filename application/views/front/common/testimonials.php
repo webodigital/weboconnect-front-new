@@ -2,7 +2,7 @@
 <section class="section_padding testimonials">
     <div class="container">
         <h5 class="fs-20 fw-600 text_brand_color2">Testimonials</h5>
-        <h5 class="fs-42 fw-600 text_brand_color2"><?php echo $casestudy->testimonial_title??'What our clients say about us'; ?></h5>
+        <h5 class="fs-40 fw-600 text_brand_color2"><?php echo $casestudy->testimonial_title??'What our clients say about us'; ?></h5>
 
         <div class="owl-carousel owl-theme testimonials_slider mt-5">
             <?php foreach ($testimonials as $testimonial) : ?>

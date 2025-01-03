@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row align-items-center justify-cotent-center g-4">
             <div class="col-12 text-center">
-                <h2 class="fs-30 fw-700 text_brand_color1 m-0">Our Clients Love Us! Here’s What They Have to Say</h2>
+                <h2 class="fs-30 fw-600 text_brand_color1 m-0">Our Clients Love Us! Here’s What They Have to Say</h2>
             </div>
         </div>
 

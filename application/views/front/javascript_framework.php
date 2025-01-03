@@ -147,7 +147,7 @@
         <div class="row justify-content-center g-4">
             <div class="col-11">
                 <div class="text-center">
-                    <h2 class="fs-30 fw-700 text_brand_color1">Advanced JavaScript Development Services We Offer</h2>
+                    <h2 class="fs-30 fw-600 text_brand_color1">Advanced JavaScript Development Services We Offer</h2>
                 </div>
             </div>
         </div>
@@ -211,7 +211,7 @@
         <div class="row align-items-center justify-content-between g-4">
             <div class="col-lg-6">
                 <div class="b_rds_15 bg_azure p-3">
-                    <h3 class="fs-30 fw-700">Why WebOConnect is Your Premier Choice for JavaScript Excellence</h3>
+                    <h3 class="fs-30 fw-600">Why WebOConnect is Your Premier Choice for JavaScript Excellence</h3>
                     <p class="fs-16 fw-500">Our team at WebOConnect brings you unmatched JavaScript development expertise. With a deep understanding of frameworks like React, Angular, Node.js, and Vue.js, we craft innovative and scalable solutions tailored to meet your objectives</p>
                     <p class="fs-16 fw-500">We prioritize knowledge-sharing, education, and technical growth, ensuring our developers remain at the forefront of technology. Our agile process, meticulous execution, and passion for excellence allow us to deliver superior web solutions every time.</p>
                     <p class="fs-16 fw-500">Partner with WebOConnect to redefine your online presence with exceptional JavaScript development services that drive results and deliver value.</p>

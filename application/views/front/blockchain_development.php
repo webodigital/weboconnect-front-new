@@ -40,7 +40,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="b_rds_15 bg-white p-3">
-                    <h3 class="fs-30 fw-700">Why WebOConnect is the Leader in Blockchain Development</h3>
+                    <h3 class="fs-30 fw-600">Why WebOConnect is the Leader in Blockchain Development</h3>
                     <p class="fs-16 fw-500">WebOConnect has earned its reputation as a leader in blockchain development by offering cutting-edge solutions that redefine how businesses operate. Our blockchain systems focus on delivering unmatched security, reliability, and performance while ensuring seamless integration into your workflows. With our smart contract capabilities and cryptographic expertise, we provide businesses with tools that safeguard transactions, reduce errors, and improve efficiency. Our deep understanding of blockchain’s transformative potential makes us stand out! We don’t just build solutions; we create growth engines. At WebOConnect, we ensure your blockchain applications are functional and strategic assets that give you a competitive edge.</p>
                 </div>
             </div>
@@ -71,7 +71,7 @@
         <div class="row justify-content-center g-4">
             <div class="col-lg-8">
                 <div class="text-center">
-                    <h2 class="fs-30 fw-700 text_brand_color1">Our Blockchain Development Solutions</h2>
+                    <h2 class="fs-30 fw-600 text_brand_color1">Our Blockchain Development Solutions</h2>
                     <h6 class="fs-18 fw-500 text_brand_color1">WebOConnect transforms businesses by delivering blockchain solutions that are efficient, secure, and scalable. From startups to global enterprises, we’ve helped companies innovate, adapt, and grow using blockchain’s full potential.</h6>
                 </div>
             </div>
