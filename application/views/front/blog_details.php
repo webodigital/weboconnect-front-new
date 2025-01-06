@@ -259,24 +259,25 @@
             <div class="col-12">
                 <h3 class="fs-24 fw-600 m-0">Latest</h3>
             </div>
-
-            <?php foreach ($recentblogs as $blog) : ?>
-              <div class="col-12">
-                <div class="side_latest_blog_card">
-                  <div class="row align-items-center">
-                    <div class="col-sm-4">
-                      <img class="w-100" src="<?php echo base_url('assets/images/blogs/uploads/thumbnails/' . $blog->thumbnail); ?>" alt="<?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?>" />
-                    </div>
-                    <div class="col-sm-8">
-                      <small class="fs-10 fw-400"><?php echo date('d M Y', strtotime($blog->publish_date)); ?></small>
-                      <h4 class="fs-14 fw-600"><?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?></h4>
-                      <p class="fs-12 fw-400 m-0"><?php echo htmlspecialchars(substr($blog->content, 0, 100), ENT_QUOTES, 'UTF-8'); ?>...</p>
-                      <a class="fs-12 fw-500 text_brand_color2" href="<?php echo base_url('blog/' . $blog->slug); ?>">Read More</a>
+            <div class="latest_blogs_list">
+              <?php foreach ($recentblogs as $blog) : ?>
+                <div class="col-12">
+                  <div class="side_latest_blog_card">
+                    <div class="row align-items-center">
+                      <div class="col-sm-4">
+                        <img class="w-100" src="<?php echo base_url('assets/images/blogs/uploads/thumbnails/' . $blog->thumbnail); ?>" alt="<?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?>" />
+                      </div>
+                      <div class="col-sm-8">
+                        <small class="fs-10 fw-400"><?php echo date('d M Y', strtotime($blog->publish_date)); ?></small>
+                        <h4 class="fs-14 fw-600"><?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?></h4>
+                        <p class="fs-12 fw-400 m-0"><?php echo htmlspecialchars(substr($blog->content, 0, 100), ENT_QUOTES, 'UTF-8'); ?>...</p>
+                        <a class="fs-12 fw-500 text_brand_color2" href="<?php echo base_url('blog/' . $blog->slug); ?>">Read More</a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            <?php endforeach; ?>  
+              <?php endforeach; ?>  
+            </div>
           </div>
         </div>
       </div>
