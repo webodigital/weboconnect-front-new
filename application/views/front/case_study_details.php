@@ -102,13 +102,13 @@
                 <div class="col-auto">
                     <div>
                         <h4 class="fs-30 fw-600">App Type</h4>
-                        <h5 class="fs-20 fw-500"><?php echo htmlspecialchars($casestudy->app_application, ENT_QUOTES, 'UTF-8'); ?></h5>
+                        <h5 class="fs-20 fw-500"><?php echo htmlspecialchars($casestudy->app_type, ENT_QUOTES, 'UTF-8'); ?></h5>
                     </div>
                 </div>
                 <div class="col-auto">
                     <div>
                         <h4 class="fs-30 fw-600">Status</h4>
-                        <h5 class="fs-20 fw-500"><?php echo htmlspecialchars($casestudy->app_application, ENT_QUOTES, 'UTF-8'); ?></h5>
+                        <h5 class="fs-20 fw-500"><?php echo htmlspecialchars($casestudy->display_status, ENT_QUOTES, 'UTF-8'); ?></h5>
                     </div>
                 </div>
                 <div class="col-auto">

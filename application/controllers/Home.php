@@ -739,7 +739,8 @@ class Home extends CI_Controller {
             $data['description'] = $message;
             //$data['budget'] = $budget?$budget:'Not Sure';
             
-            $body = $this->load->view('front/emailer/newenquiry',$data,TRUE);
+            //$body = $this->load->view('front/emailer/newenquiry',$data,TRUE);
+            $body = $this->load->view('front/email_temp/email_temp',$data,TRUE);
 
             $this->load->database();
             $this->load->model('Contact_Model');

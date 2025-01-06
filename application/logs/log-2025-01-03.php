@@ -294,3 +294,108 @@ DEBUG - 2025-01-03 11:23:59 --> Global POST, GET and COOKIE data sanitized
 INFO - 2025-01-03 11:23:59 --> Input Class Initialized
 INFO - 2025-01-03 11:23:59 --> Language Class Initialized
 ERROR - 2025-01-03 11:23:59 --> Severity: error --> Exception: syntax error, unexpected ';' F:\xampp\htdocs\weboconnect-front-new\application\controllers\Home.php 29
+INFO - 2025-01-03 11:24:50 --> Config Class Initialized
+INFO - 2025-01-03 11:24:50 --> Hooks Class Initialized
+DEBUG - 2025-01-03 11:24:50 --> UTF-8 Support Enabled
+INFO - 2025-01-03 11:24:50 --> Utf8 Class Initialized
+INFO - 2025-01-03 11:24:50 --> URI Class Initialized
+DEBUG - 2025-01-03 11:24:50 --> No URI present. Default controller set.
+INFO - 2025-01-03 11:24:50 --> Router Class Initialized
+INFO - 2025-01-03 11:24:50 --> Output Class Initialized
+INFO - 2025-01-03 11:24:50 --> Security Class Initialized
+DEBUG - 2025-01-03 11:24:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-03 11:24:50 --> Input Class Initialized
+INFO - 2025-01-03 11:24:50 --> Language Class Initialized
+INFO - 2025-01-03 11:24:50 --> Loader Class Initialized
+INFO - 2025-01-03 11:24:50 --> Helper loaded: url_helper
+INFO - 2025-01-03 11:24:50 --> Database Driver Class Initialized
+DEBUG - 2025-01-03 11:24:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-01-03 11:24:50 --> Session: Class initialized using 'files' driver.
+INFO - 2025-01-03 11:24:50 --> Controller Class Initialized
+INFO - 2025-01-03 11:24:50 --> Model "BlogModel" initialized
+INFO - 2025-01-03 11:24:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2025-01-03 11:24:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2025-01-03 11:24:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/common_portfolio.php
+INFO - 2025-01-03 11:24:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/common_blogs.php
+INFO - 2025-01-03 11:24:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/our_clients_videos.php
+INFO - 2025-01-03 11:24:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2025-01-03 11:24:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2025-01-03 11:24:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2025-01-03 11:24:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2025-01-03 11:24:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2025-01-03 11:24:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2025-01-03 11:24:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2025-01-03 11:24:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2025-01-03 11:24:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2025-01-03 11:24:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2025-01-03 11:24:50 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/home.php
+INFO - 2025-01-03 11:24:50 --> Final output sent to browser
+DEBUG - 2025-01-03 11:24:50 --> Total execution time: 0.3023
+INFO - 2025-01-03 11:24:53 --> Config Class Initialized
+INFO - 2025-01-03 11:24:53 --> Hooks Class Initialized
+DEBUG - 2025-01-03 11:24:53 --> UTF-8 Support Enabled
+INFO - 2025-01-03 11:24:53 --> Utf8 Class Initialized
+INFO - 2025-01-03 11:24:53 --> URI Class Initialized
+INFO - 2025-01-03 11:24:53 --> Router Class Initialized
+INFO - 2025-01-03 11:24:53 --> Output Class Initialized
+INFO - 2025-01-03 11:24:53 --> Security Class Initialized
+DEBUG - 2025-01-03 11:24:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-03 11:24:53 --> Input Class Initialized
+INFO - 2025-01-03 11:24:53 --> Language Class Initialized
+INFO - 2025-01-03 11:24:53 --> Loader Class Initialized
+INFO - 2025-01-03 11:24:53 --> Helper loaded: url_helper
+INFO - 2025-01-03 11:24:53 --> Database Driver Class Initialized
+DEBUG - 2025-01-03 11:24:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-01-03 11:24:53 --> Session: Class initialized using 'files' driver.
+INFO - 2025-01-03 11:24:53 --> Controller Class Initialized
+INFO - 2025-01-03 11:24:53 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2025-01-03 11:24:53 --> Pagination Class Initialized
+INFO - 2025-01-03 11:24:53 --> Model "CasestudiesModel" initialized
+INFO - 2025-01-03 11:24:53 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2025-01-03 11:24:53 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2025-01-03 11:24:53 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2025-01-03 11:24:53 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2025-01-03 11:24:53 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2025-01-03 11:24:53 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2025-01-03 11:24:53 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2025-01-03 11:24:53 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2025-01-03 11:24:53 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2025-01-03 11:24:53 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2025-01-03 11:24:53 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2025-01-03 11:24:53 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2025-01-03 11:24:53 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/case_study.php
+INFO - 2025-01-03 11:24:53 --> Final output sent to browser
+DEBUG - 2025-01-03 11:24:53 --> Total execution time: 0.1678
+INFO - 2025-01-03 11:25:00 --> Config Class Initialized
+INFO - 2025-01-03 11:25:00 --> Hooks Class Initialized
+DEBUG - 2025-01-03 11:25:00 --> UTF-8 Support Enabled
+INFO - 2025-01-03 11:25:00 --> Utf8 Class Initialized
+INFO - 2025-01-03 11:25:00 --> URI Class Initialized
+INFO - 2025-01-03 11:25:00 --> Router Class Initialized
+INFO - 2025-01-03 11:25:00 --> Output Class Initialized
+INFO - 2025-01-03 11:25:00 --> Security Class Initialized
+DEBUG - 2025-01-03 11:25:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-03 11:25:00 --> Input Class Initialized
+INFO - 2025-01-03 11:25:00 --> Language Class Initialized
+INFO - 2025-01-03 11:25:00 --> Loader Class Initialized
+INFO - 2025-01-03 11:25:00 --> Helper loaded: url_helper
+INFO - 2025-01-03 11:25:00 --> Database Driver Class Initialized
+DEBUG - 2025-01-03 11:25:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-01-03 11:25:00 --> Session: Class initialized using 'files' driver.
+INFO - 2025-01-03 11:25:00 --> Controller Class Initialized
+INFO - 2025-01-03 11:25:00 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2025-01-03 11:25:00 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2025-01-03 11:25:00 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/our_clients_videos.php
+INFO - 2025-01-03 11:25:00 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2025-01-03 11:25:00 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2025-01-03 11:25:00 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2025-01-03 11:25:00 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2025-01-03 11:25:00 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2025-01-03 11:25:00 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2025-01-03 11:25:00 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2025-01-03 11:25:00 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2025-01-03 11:25:00 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2025-01-03 11:25:00 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2025-01-03 11:25:00 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/web_development.php
+INFO - 2025-01-03 11:25:00 --> Final output sent to browser
+DEBUG - 2025-01-03 11:25:00 --> Total execution time: 0.0932
