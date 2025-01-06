@@ -1202,7 +1202,7 @@
                                     </div>
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">legacy83business</h4>                                    
-                                        <a target="_blank" href="http://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <a target="_blank" href="https://legacy83business.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
                                             </span>
@@ -1223,7 +1223,7 @@
                                     </div>
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">Angela Simeone</h4>                                    
-                                        <a target="_blank" href="http://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <a target="_blank" href="https://angelasimeone.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
                                             </span>
@@ -1244,7 +1244,7 @@
                                     </div>
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">cycle exchange</h4>                                    
-                                        <a target="_blank" href="http://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <a target="_blank" href="https://www.cycleexchange.co.uk/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
                                             </span>
@@ -1264,8 +1264,8 @@
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
                                     </div>
                                     <div class="dnld_and_links">
-                                        <h4 class="fs-20 fw-700">national light</h4>                                    
-                                        <a target="_blank" href="http://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <h4 class="fs-20 fw-700">National Light</h4>                                    
+                                        <a target="_blank" href="https://www.nationallighting.co.uk/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
                                             </span>
@@ -1286,7 +1286,7 @@
                                     </div>
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">onehopewine</h4>                                    
-                                        <a target="_blank" href="http://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <a target="_blank" href="https://www.onehopewine.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
                                             </span>
@@ -1328,7 +1328,7 @@
                                     </div>
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">miami</h4>                                    
-                                        <a target="_blank" href="http://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <a target="_blank" href="https://miamitropicalplants.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
                                             </span>
@@ -1349,7 +1349,7 @@
                                     </div>
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">ronlearyreach</h4>                                    
-                                        <a target="_blank" href="http://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <a target="_blank" href="https://www.ronlearyreach.org/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
                                             </span>
@@ -1370,7 +1370,7 @@
                                     </div>
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">servare</h4>                                    
-                                        <a target="_blank" href="http://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <a target="_blank" href="https://servare.app/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
                                             </span>
@@ -1391,7 +1391,7 @@
                                     </div>
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">venturevell</h4>                                    
-                                        <a target="_blank" href="http://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <a target="_blank" href="https://venturewell.org/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
                                             </span>
@@ -1412,7 +1412,7 @@
                                     </div>
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">terp2go</h4>                                    
-                                        <a target="_blank" href="http://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <a target="_blank" href="https://www.terp2go.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
                                             </span>
@@ -1433,7 +1433,7 @@
                                     </div>
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">nurseify</h4>                                    
-                                        <a target="_blank" href="http://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <a target="_blank" href="https://www.nurseify.app/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
                                             </span>
@@ -1454,7 +1454,7 @@
                                     </div>
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">weddingwire</h4>                                    
-                                        <a target="_blank" href="http://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <a target="_blank" href="https://www.weddingwire.in/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
                                             </span>
@@ -1475,7 +1475,7 @@
                                     </div>
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">India On Track</h4>                                    
-                                        <a target="_blank" href="http://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <a target="_blank" href="https://indiaontrack.in/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
                                             </span>
@@ -1496,7 +1496,7 @@
                                     </div>
                                     <div class="dnld_and_links">
                                         <h4 class="fs-20 fw-700">goodwork</h4>                                    
-                                        <a target="_blank" href="http://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <a target="_blank" href="https://www.goodwork.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
                                             <span>
                                                 <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
                                             </span>
