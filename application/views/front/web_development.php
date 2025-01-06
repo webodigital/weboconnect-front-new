@@ -57,22 +57,47 @@
                 <div class="owl-carousel owl-theme mob_app_portfolio_slider">
                     <div class="item">
                         <div class="">
-                            <img src="<?= base_url() ?>/assets/images/mob_app_devl/doctor_locums.webp" alt="doctor locums">
+                            
+                        <a href="https://www.fundlink.co.zm/">
+                            <img src="<?= base_url() ?>assets/images/portfolio/web/fundlink_web.webp" alt="fundlink">
+                        </a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="">
-                            <img src="<?= base_url() ?>/assets/images/mob_app_devl/anyshyft.webp" alt="doctor locums">
+                            <a href="https://angelasimeone.com/">
+                                <img src="<?= base_url() ?>/assets/images/portfolio/web/angela_web.webp" alt="angela simeone">
+                            </a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="">
-                            <img src="<?= base_url() ?>/assets/images/mob_app_devl/liebe_agency.webp" alt="doctor locums">
+                            <a href="https://www.cycleexchange.co.uk/">
+                                <img src="<?= base_url() ?>/assets/images/portfolio/web/cycle_exchange_web.webp" alt="cycle exchange">
+                            </a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="">
-                            <img src="<?= base_url() ?>/assets/images/mob_app_devl/anyshyft.webp" alt="doctor locums">
+                            <a href="https://legacy83business.com/">
+                                <img src="<?= base_url() ?>/assets/images/portfolio/web/legacy83business_web.webp" alt="legacy83business">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="">
+                            <a href="https://www.nationallighting.co.uk/">
+                                <img src="<?= base_url() ?>/assets/images/portfolio/web/national_light_web.webp" alt="national light">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="">
+                            <a href="https://www.onehopewine.com/">
+                                <img src="<?= base_url() ?>/assets/images/portfolio/web/Onehopewine_web.webp" alt="onehopewine">
+                            </a>
                         </div>
                     </div>
                 </div>
