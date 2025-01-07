@@ -56,48 +56,192 @@
             <div class="col-12">
                 <div class="owl-carousel owl-theme mob_app_portfolio_slider">
                     <div class="item">
-                        <div class="">
-                            
-                        <a href="https://www.fundlink.co.zm/">
-                            <img src="<?= base_url() ?>assets/images/portfolio/web/fundlink_web.webp" alt="fundlink">
-                        </a>
+                        <div class="image">
+                            <div class="img-wrapper cursor-pointer">
+                                <a href="<?=base_url()?>assets/images/portfolio/web/fundlink_web.webp">
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/fundlink_web.webp" class="img-responsive" />
+                                </a>
+                                <div class="img-overlay">
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">Fundlink</h4>                                    
+                                    <a target="_blank" href="http://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="item">
-                        <div class="">
-                            <a href="https://angelasimeone.com/">
-                                <img src="<?= base_url() ?>/assets/images/portfolio/web/angela_web.webp" alt="angela simeone">
-                            </a>
+                        <div class="image">
+                            <div class="img-wrapper cursor-pointer">
+                                <a href="<?=base_url()?>assets/images/portfolio/web/legacy83business_web.webp">
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/legacy83business_web.webp" class="img-responsive" />
+                                </a>
+                                <div class="img-overlay">
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">legacy83business</h4>                                    
+                                    <a target="_blank" href="https://legacy83business.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="item">
-                        <div class="">
-                            <a href="https://www.cycleexchange.co.uk/">
-                                <img src="<?= base_url() ?>/assets/images/portfolio/web/cycle_exchange_web.webp" alt="cycle exchange">
-                            </a>
+                        <div class="image">
+                            <div class="img-wrapper cursor-pointer">
+                                <a href="<?=base_url()?>assets/images/portfolio/web/angela_web.webp">
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/angela_web.webp" class="img-responsive" />
+                                </a>
+                                <div class="img-overlay">
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">Angela Simeone</h4>                                    
+                                    <a target="_blank" href="https://angelasimeone.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="item">
-                        <div class="">
-                            <a href="https://legacy83business.com/">
-                                <img src="<?= base_url() ?>/assets/images/portfolio/web/legacy83business_web.webp" alt="legacy83business">
-                            </a>
+                        <div class="image">
+                            <div class="img-wrapper cursor-pointer">
+                                <a href="<?=base_url()?>assets/images/portfolio/web/cycle_exchange_web.webp">
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/cycle_exchange_web.webp" class="img-responsive" />
+                                </a>
+                                <div class="img-overlay">
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">cycle exchange</h4>                                    
+                                    <a target="_blank" href="https://www.cycleexchange.co.uk/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
                     <div class="item">
-                        <div class="">
-                            <a href="https://www.nationallighting.co.uk/">
-                                <img src="<?= base_url() ?>/assets/images/portfolio/web/national_light_web.webp" alt="national light">
-                            </a>
+                        <div class="image">
+                            <div class="img-wrapper cursor-pointer">
+                                <a href="<?=base_url()?>assets/images/portfolio/web/national_light_web.webp">
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/national_light_web.webp" class="img-responsive" />
+                                </a>
+                                <div class="img-overlay">
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">National Light</h4>                                    
+                                    <a target="_blank" href="https://www.nationallighting.co.uk/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
                     <div class="item">
-                        <div class="">
-                            <a href="https://www.onehopewine.com/">
-                                <img src="<?= base_url() ?>/assets/images/portfolio/web/Onehopewine_web.webp" alt="onehopewine">
-                            </a>
+                        <div class="image">
+                            <div class="img-wrapper cursor-pointer">
+                                <a href="<?=base_url()?>assets/images/portfolio/web/onehopewine_web.webp">
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/onehopewine_web.webp" class="img-responsive" />
+                                </a>
+                                <div class="img-overlay">
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">onehopewine</h4>                                    
+                                    <a target="_blank" href="https://www.onehopewine.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <div class="img-wrapper cursor-pointer">
+                                <a href="<?=base_url()?>assets/images/portfolio/web/db_alliance_web.webp" alt="Design 7">
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/db_alliance_web.webp" alt="Design 7" class="img-responsive" />
+                                </a>
+                                <div class="img-overlay">
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">DB Alliance</h4>                                    
+                                    <a target="_blank" href="http://www.dba.ie/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <div class="img-wrapper cursor-pointer">
+                                <a href="<?=base_url()?>assets/images/portfolio/web/miami_web.webp">
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/miami_web.webp" class="img-responsive" />
+                                </a>
+                                <div class="img-overlay">
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">miami</h4>                                    
+                                    <a target="_blank" href="https://miamitropicalplants.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <div class="img-wrapper cursor-pointer">
+                                <a href="<?=base_url()?>assets/images/portfolio/web/ronlearyreach_web.webp">
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/ronlearyreach_web.webp" class="img-responsive" />
+                                </a>
+                                <div class="img-overlay">
+                                    <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
+                                </div>
+                                <div class="dnld_and_links">
+                                    <h4 class="fs-20 fw-700">ronlearyreach</h4>                                    
+                                    <a target="_blank" href="https://www.ronlearyreach.org/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
+                                        <span>
+                                            <img src="<?=base_url()?>assets/images/icons/web.webp" alt="web">
+                                        </span>
+                                        <span class="">Web</span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

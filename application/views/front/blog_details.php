@@ -305,7 +305,7 @@
                     <div class="col-auto">
                         <button type="submit" class="btn btn-light px-4">Subscribe</button>
                     </div>
-                    <p class="fs-10 fw-400 text-white">By clicking Sign Up you're confirming that you agree with our Terms and Conditions.</p>
+                    <!-- <p class="fs-10 fw-400 text-white">By clicking Sign Up you're confirming that you agree with our Terms and Conditions.</p> -->
                 </form>
             </div>
         </div>
