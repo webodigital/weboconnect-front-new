@@ -111,7 +111,7 @@
                   <tr>
                     <td bgcolor="#00458E"  style="font-size: 30px; text-align:center;border-radius: 40px 40px 0px 0px;">
                       <br>
-                        <img src="assets/logo.webp" width="" height="80" alt="logo">
+                        <img src="<?=base_url()?>assets/emailer/logo.webp" width="" height="80" alt="logo">
                       <br>
                       <br>
                     </td>
@@ -126,7 +126,7 @@
                           <tr>
                             <td class="">
                               <br>
-                              <p style="font-size: 15px; font-weight: 500;line-height: 1.5;">Hello [Client's Name], </p>
+                              <p style="font-size: 15px; font-weight: 500;line-height: 1.5;">Hello <?= $name ?>, </p>
                             </td>
                           </tr>
                           <tr>
@@ -160,19 +160,19 @@
                             <table cellpadding="0" cellspacing="0" width="100%">
                               <tr>
                                 <td style="text-align: center;">
-                                  <img src="assets/good_firm.png" width="" height="50" alt="logo">
+                                  <img src="<?=base_url()?>assets/emailer/good_firm.png" width="" height="50" alt="logo">
                                 </td>
                                 <td style="text-align: center;">
-                                  <img src="assets/google_rating.png" width="" height="50" alt="logo">
+                                  <img src="<?=base_url()?>assets/emailer/google_rating.png" width="" height="50" alt="logo">
                                 </td>
                                 <td style="text-align: center;">
-                                  <img src="assets/cluch.png" width="" height="50" alt="logo">
+                                  <img src="<?=base_url()?>assets/emailer/cluch.png" width="" height="50" alt="logo">
                                 </td>
                                 <td style="text-align: center;">
-                                  <img src="assets/trustpilot.png" width="" height="50" alt="logo">
+                                  <img src="<?=base_url()?>assets/emailer/trustpilot.png" width="" height="50" alt="logo">
                                 </td>
                                 <td style="text-align: center;">
-                                  <img src="assets/design_rush.png" width="" height="50" alt="logo">
+                                  <img src="<?=base_url()?>assets/emailer/design_rush.png" width="" height="50" alt="logo">
                                 </td>
                               </tr>
                             </table>
@@ -211,7 +211,7 @@
                         <table style="margin: 0 auto;">
                           <tr>
                             <td>
-                              <img src="assets/dark_logo.png" width="" height="80" alt="logo">
+                              <img src="<?=base_url()?>assets/emailer/dark_logo.png" width="" height="80" alt="logo">
                             </td>
                           </tr>
                           <tr>
