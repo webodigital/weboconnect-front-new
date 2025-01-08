@@ -36,9 +36,9 @@
                     <h4>Company</h4>
                     <ul class="links">
                       <li><a href="<?=base_url()?>about">About Us</a></li>
+                      <li><a href="<?=base_url()?>blogs">Blogs</a></li>
                       <li><a href="<?=base_url()?>our-team">Our Team</a></li>
                       <li><a href="<?=base_url()?>contact">Contact Us</a></li>
-                      <li><a target="_blank" href="https://bihar.weboconnect.com/">Startup Bihar</a></li>
                     </ul>
                   </div>
                 </div>
@@ -49,7 +49,7 @@
                       <li><a href="<?=base_url()?>portfolio">Portfolio</a></li>
                       <li><a href="<?=base_url()?>case-studies">Case Studies</a></li>
                       <li><a href="<?=base_url()?>testimonials">Testimonials</a></li>
-                      <li><a href="<?=base_url()?>blogs">Blogs</a></li>
+                      <li><a target="_blank" href="https://bihar.weboconnect.com/">Startup Bihar</a></li>
                     </ul>
                   </div>
                 </div>
@@ -57,8 +57,9 @@
                   <div class="footerbtm">
                     <h4>Services</h4>
                     <ul class="links">
-                      <li><a href="<?=base_url()?>saas-development">SaaS Development</a></li>
+                      <li><a href="<?=base_url()?>web-development">Web Development</a></li>
                       <li><a href="<?=base_url()?>mobile-app-development">Mobile App Development</a></li>
+                      <li><a href="<?=base_url()?>saas-development">SaaS Development</a></li>
                       <li><a href="<?=base_url()?>hire-dedicated-resources">Hire Dedicated Resources</a></li>
                       <li><a href="<?=base_url()?>maintenance-and-support">Maintenance &amp; Support</a></li>
                     </ul>
