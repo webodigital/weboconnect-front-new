@@ -357,7 +357,7 @@ $(document).ready(function () {
     items:1,
     autoplay:true,
     animateOut: 'fadeOut',
-    animateIn: 'zoomIn',
+    animateIn: 'fadeIn',
   });
 
 
