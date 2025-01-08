@@ -133,7 +133,6 @@
                             <td>
                               <p style="font-size: 15px; font-weight: 500;line-height: 1.5;">Thank you for considering WebOConnect! We specialize in delivering customized, unique solutions that bring your ideas to life with exceptional brilliance. Whether it's <?= $development ?> designed for scalability and innovation, mobile apps crafted to refine user experiences, healthcare staffing platforms built for efficiency, or 24/7 maintenance and support to keep your systems thriving, we combine technical expertise with creative artistry. At WebOConnect, we don't just meet expectations; we create extraordinary solutions that leave a lasting impact.
                                     Hang tight! Our team will connect with you shortly to bring your vision to life.  </p>
-
                             </td>
                           </tr>
                           <tr>
