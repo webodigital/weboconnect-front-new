@@ -93,7 +93,8 @@
         </div>
         <div class="tab-pane fade" id="pills-mobile" role="tabpanel" aria-labelledby="pills-mobile-tab">
           
-          <div class="row g-4 g-lg-5">
+            <div class="row g-4 g-lg-5">
+
 
                 <div class="col-sm-6 image">
                     <div class="img-wrapper cursor-pointer">
@@ -123,7 +124,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-sm-6 image">
                     <div class="img-wrapper cursor-pointer">
                         <a href="<?=base_url()?>assets/images/portfolio/mobile/wallet_cab.webp">
@@ -152,7 +153,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-sm-6 image">
                     <div class="img-wrapper cursor-pointer">
                         <a href="<?=base_url()?>assets/images/portfolio/mobile/anyshyft.webp">
@@ -181,7 +182,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-sm-6 image">
                     <div class="img-wrapper cursor-pointer">
                         <a href="<?=base_url()?>assets/images/portfolio/mobile/theIslandMarket.webp">
@@ -210,8 +211,7 @@
                         </div>
                     </div>
                 </div>
-
-          </div>
+            </div>
 
         </div>
       </div>
@@ -432,7 +432,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
 
         </div>
