@@ -142,6 +142,8 @@ $route['submit-case-studies'] = 'casestudies/submitCaseStudies';
 $route['delete-case-studies/(:num)'] = 'casestudies/deleteCaseStudies/$1';
 $route['edit-case-studies/(:any)'] = 'casestudies/editCaseStudies/$1';
 $route['update-case-studies'] = 'casestudies/updateCaseStudies';
+$route['update-case-studies-sequence'] = 'casestudies/update_sequence';
+
 
 $route['case-studies-details/(:num)'] = 'casestudies/adminCaseStudiesDetails/$1';
 $route['submit-case-studies-details'] = 'casestudies/submitCaseStudiesDetails';

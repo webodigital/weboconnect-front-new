@@ -561,6 +561,14 @@ class Casestudies extends CI_Controller
             echo json_encode(['status' => 'error', 'message' => 'Failed to delete case_studies.']);
         }
     }
+
+    public function update_sequence() {
+        $order = $this->input->post('order');
+        foreach ($order as $item) {
+            $this->CasestudiesModel->update_sequence($item['id'], $item['sequence']);
+        }
+        echo json_encode(['status' => 'success']);
+    }
     
     /////////////////////////////////////////////////////////////////////////
     public function adminCaseStudiesDetails($id)
@@ -745,4 +753,5 @@ class Casestudies extends CI_Controller
             echo json_encode(['status' => 'error', 'message' => 'Failed to delete case_studies.']);
         }
     }
+
 }

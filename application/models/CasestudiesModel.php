@@ -24,7 +24,8 @@ class CasestudiesModel extends CI_Model
             $this->db->where('case_studies.id !=', $exclude_id);
         }
         //$this->db->where('status' ,'publish');
-        $this->db->order_by('case_studies.created_at', 'DESC');
+        //$this->db->order_by('case_studies.created_at', 'DESC');
+        $this->db->order_by('case_studies.sequence', 'ASC'); // Sort by sequence
         if($limit != 0){
             $this->db->limit($limit, $offset);    
         }
@@ -42,7 +43,8 @@ class CasestudiesModel extends CI_Model
         $this->db->from('case_studies');
         $this->db->join('users', 'users.id = case_studies.user_id');
         $this->db->where('status', 'publish');
-        $this->db->order_by('case_studies.created_at', 'DESC');
+        //$this->db->order_by('case_studies.created_at', 'DESC');
+        $this->db->order_by('case_studies.sequence', 'ASC'); // Sort by sequence
         $this->db->limit(3, 0);
         $query = $this->db->get();
         // Debugging: Uncomment for debugging in development only.
@@ -67,7 +69,8 @@ class CasestudiesModel extends CI_Model
             $this->db->where('case_studies.id !=', $exclude_id);
         }
         //$this->db->where('status' ,'publish');
-        $this->db->order_by('case_studies.created_at', 'DESC');
+        //$this->db->order_by('case_studies.created_at', 'DESC');
+        $this->db->order_by('case_studies.sequence', 'ASC'); // Sort by sequence
         if($limit != 0){
             $this->db->limit($limit, $offset);    
         }
@@ -135,6 +138,11 @@ class CasestudiesModel extends CI_Model
                           ->from('case_studies')
                           ->get();
         return $query->result_array();
+    }
+    
+    public function update_sequence($id, $sequence) {
+        $this->db->where('id', $id);
+        $this->db->update('case_studies', ['sequence' => $sequence]);
     }
 
     ///////////////////////////////////////////////////////////

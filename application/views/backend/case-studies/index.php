@@ -20,10 +20,10 @@
                         <th>Action</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody id="sortable">
                     <?php if (!empty($case_studies)) : ?>
                         <?php foreach ($case_studies as $key => $case_studie) : ?>
-                            <tr>
+                            <tr data-id="<?php echo $case_studie->id; ?>">
                                 <td><?php echo $key+1; ?></td>
                                 <td><?php echo $case_studie->title; ?></td>
                                 <td><?php echo substr($case_studie->description, 0, 100); ?>...</td>
@@ -111,4 +111,34 @@
         });
 
     });
+</script>
+
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+<script>
+$(function() {
+    $("#sortable").sortable({
+        update: function(event, ui) {
+            var order = [];
+            $("#sortable tr").each(function(index, element) {
+                order.push({
+                    id: $(element).data("id"),
+                    sequence: index + 1
+                });
+            });
+
+            // Send the updated sequence to the server
+            $.ajax({
+                url: "<?php echo base_url('update-case-studies-sequence'); ?>",
+                method: "POST",
+                data: { order: order },
+                success: function(response) {
+                    console.log("Sequence updated successfully");
+                },
+                error: function() {
+                    console.log("Error updating sequence");
+                }
+            });
+        }
+    });
+});
 </script>
