@@ -827,16 +827,22 @@ body {
   gap: 10px;
   height: 8rem;
   width: 100%;
+  .col-auto{
+    width: 70px;
+    text-align: center;
+  }
 
   p {
     /* text-align: center; */
+    margin: 0px;
   }
 }
 
 .industry-card img {
-  width: 50px;
-  height: 50px;
+  max-width: 50px;
+  max-height: 50px;
   margin-bottom: 0.5rem;
+  /* margin-left: 20px; */
 }
 
 .industry-card p {

@@ -1511,100 +1511,147 @@
   </div>
   <div class="container d-lg-block d-none">
     <div class="row g-4 g-lg-5 my-4">
-        <!-- Healthcare Card -->
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
+      <!-- Healthcare Card -->
+      <div class="col-md-3 col-sm-6 col-6">
+          <div class="industry-card row g-0">
+              <div class="col-auto">
                 <img src="<?=base_url()?>assets/images/icons/dr.webp" alt="Healthcare Icon">
+              </div>
+              <div class="col text-center">
                 <p>Healthcare</p>
-            </div>
+              </div>
+          </div>
+      </div>
+      
+      <!-- Finance Card -->
+      <div class="col-md-3 col-sm-6 col-6">
+        <div class="industry-card row g-0">
+          <div class="col-auto">
+            <img src="<?=base_url()?>assets/images/icons/business.webp" alt="Finance Icon">
+          </div>
+          <div class="col text-center">
+            <p>Finance</p>
+          </div>
         </div>
-        
-        <!-- Finance Card -->
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/business.webp" alt="Finance Icon">
-                <p>Finance</p>
-            </div>
+      </div>
+      
+      <!-- Retail & E-commerce Card -->
+      <div class="col-md-3 col-sm-6 col-6">
+        <div class="industry-card row g-0">
+          <div class="col-auto">
+            <img src="<?=base_url()?>assets/images/icons/ecommerce-website.webp" alt="Retail & E-commerce Icon">
+          </div>
+          <div class="col text-center">
+            <p>Retail & E-commerce</p>
+          </div>
         </div>
-        
-        <!-- Retail & E-commerce Card -->
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/ecommerce-website.webp" alt="Retail & E-commerce Icon">
-                <p>Retail & E-commerce</p>
-            </div>
+      </div>
+      
+      <!-- Education Card -->
+      <div class="col-md-3 col-sm-6 col-6">
+        <div class="industry-card row g-0">
+          <div class="col-auto">
+            <img src="<?=base_url()?>assets/images/icons/education.webp" alt="Education Icon">
+          </div>
+          <div class="col text-center">
+            <p>Education</p>
+          </div>
         </div>
-        
-        <!-- Education Card -->
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/education.webp" alt="Education Icon">
-                <p>Education</p>
-            </div>
+      </div>
+      
+      <!-- Travel & Tourism Card -->
+      <div class="col-md-3 col-sm-6 col-6">
+        <div class="industry-card row g-0">
+          <div class="col-auto">
+            <img src="<?=base_url()?>assets/images/icons/travel.webp" alt="Travel & Tourism Icon">
+          </div>
+          <div class="col text-center">
+            <p>Travel & Tourism</p>
+          </div>
         </div>
-        
-        <!-- Travel & Tourism Card -->
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/travel.webp" alt="Travel & Tourism Icon">
-                <p>Travel & Tourism</p>
-            </div>
+      </div>
+      
+      <!-- Real Estate Card -->
+      <div class="col-md-3 col-sm-6 col-6">
+        <div class="industry-card row g-0">
+          <div class="col-auto">
+            <img src="<?=base_url()?>assets/images/icons/home.webp" alt="Real Estate Icon">
+          </div>
+          <div class="col text-center">
+            <p>Real Estate</p>
+          </div>
         </div>
-        
-        <!-- Real Estate Card -->
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/home.webp" alt="Real Estate Icon">
-                <p>Real Estate</p>
-            </div>
+      </div>
+      
+      <!-- Media & Entertainment Card -->
+      <div class="col-md-3 col-sm-6 col-6">            
+        <div class="industry-card row g-0">
+          <div class="col-auto">
+            <img src="<?=base_url()?>assets/images/icons/avatar.webp" alt="Media & Entertainment Icon">
+          </div>
+          <div class="col text-center">
+            <p>Media & Entertainment</p>
+          </div>
         </div>
-        
-        <!-- Media & Entertainment Card -->
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/avatar.webp" alt="Media & Entertainment Icon">
-                <p>Media & Entertainment</p>
-            </div>
+      </div>
+      
+      <!-- Automotive Card -->
+      <div class="col-md-3 col-sm-6 col-6">
+        <div class="industry-card row g-0">
+          <div class="col-auto">
+            <img src="<?=base_url()?>assets/images/icons/car_svg.webp" alt="Automotive Icon"></div>
+          <div class="col text-center">
+            <p>Automotive</p>
+          </div>
         </div>
-        
-        <!-- Automotive Card -->
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/car_svg.webp" alt="Automotive Icon">
-                <p>Automotive</p>
-            </div>
+      </div>
+      
+      <div class="col-md-3 col-sm-6 col-6">
+        <div class="industry-card row g-0">
+          <div class="col-auto">
+            <img src="<?=base_url()?>assets/images/icons/lifestyle.webp" alt="Lifestyle">
+          </div>
+          <div class="col text-center">
+            <p>Lifestyle</p>
+          </div>
         </div>
-        
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/lifestyle.webp" alt="Lifestyle">
-                <p>Lifestyle</p>
-            </div>
+      </div>
+      
+      <!-- Real Estate Card -->
+      <div class="col-md-3 col-sm-6 col-6">
+        <div class="industry-card row g-0">
+          <div class="col-auto">
+            <img src="<?=base_url()?>assets/images/icons/dating.webp" alt="Productivity">
+          </div>
+          <div class="col text-center">
+            <p>Productivity</p>
+          </div>
         </div>
-        
-        <!-- Real Estate Card -->
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/dating.webp" alt="Productivity">
-                <p>Productivity</p>
-            </div>
+      </div>
+      
+      <!-- Media & Entertainment Card -->
+      <div class="col-md-3 col-sm-6 col-6"> 
+        <div class="industry-card row g-0">
+          <div class="col-auto">
+            <img src="<?=base_url()?>assets/images/icons/beauty.webp" alt="Beauty Icon">
+          </div>
+          <div class="col text-center">
+            <p>Beauty</p>
+          </div>
         </div>
-        
-        <!-- Media & Entertainment Card -->
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/beauty.webp" alt="Beauty Icon">
-                <p>Beauty</p>
-            </div>
-        </div>
-        
-        <!-- Automotive Card -->
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
+      </div>
+      
+      <!-- Automotive Card -->
+      <div class="col-md-3 col-sm-6 col-6">
+        <div class="industry-card row g-0">
+          <div class="col-auto">
             <img src="<?= base_url() ?>/assets/images/icons/communication.webp" alt="Communication">
-                <p>Communication</p>
-            </div>
+          </div>
+          <div class="col text-center">
+            <p>Communication</p>
+          </div>
         </div>
+      </div>
         
     </div>
   </div>
@@ -1616,31 +1663,31 @@
             <div class="row g-4 g-lg-5 my-4">
 
                 <div class="col-md-3 col-sm-6 col-6">
-                    <div class="industry-card">
-                        <img src="<?=base_url()?>assets/images/icons/dr.webp" alt="Healthcare Icon">
-                        <p>Healthcare</p>
-                    </div>
+                  <div class="industry-card">
+                      <img src="<?=base_url()?>assets/images/icons/dr.webp" alt="Healthcare Icon">
+                      <p>Healthcare</p>
+                  </div>
                 </div>
                 
                 <div class="col-md-3 col-sm-6 col-6">
-                    <div class="industry-card">
-                        <img src="<?=base_url()?>assets/images/icons/business.webp" alt="Finance Icon">
-                        <p>Finance</p>
-                    </div>
+                  <div class="industry-card">
+                      <img src="<?=base_url()?>assets/images/icons/business.webp" alt="Finance Icon">
+                      <p>Finance</p>
+                  </div>
                 </div>
                 
                 <div class="col-md-3 col-sm-6 col-6">
-                    <div class="industry-card">
-                        <img src="<?=base_url()?>assets/images/icons/ecommerce-website.webp" alt="Retail & E-commerce Icon">
-                        <p>Retail & E-commerce</p>
-                    </div>
+                  <div class="industry-card">
+                    <img src="<?=base_url()?>assets/images/icons/ecommerce-website.webp" alt="Retail & E-commerce Icon">
+                    <p>Retail & E-commerce</p>
+                  </div>
                 </div>
                 
                 <div class="col-md-3 col-sm-6 col-6">
-                    <div class="industry-card">
-                        <img src="<?=base_url()?>assets/images/icons/education.webp" alt="Education Icon">
-                        <p>Education</p>
-                    </div>
+                  <div class="industry-card">
+                    <img src="<?=base_url()?>assets/images/icons/education.webp" alt="Education Icon">
+                    <p>Education</p>
+                  </div>
                 </div>
             </div>
             </div>
@@ -1649,29 +1696,29 @@
 
                 <div class="col-md-3 col-sm-6 col-6">
                     <div class="industry-card">
-                        <img src="<?=base_url()?>assets/images/icons/travel.webp" alt="Travel & Tourism Icon">
-                        <p>Travel & Tourism</p>
+                      <img src="<?=base_url()?>assets/images/icons/travel.webp" alt="Travel & Tourism Icon">
+                      <p>Travel & Tourism</p>
                     </div>
                 </div>
                 
                 <div class="col-md-3 col-sm-6 col-6">
                     <div class="industry-card">
-                        <img src="<?=base_url()?>assets/images/icons/home.webp" alt="Real Estate Icon">
-                        <p>Real Estate</p>
+                      <img src="<?=base_url()?>assets/images/icons/home.webp" alt="Real Estate Icon">
+                      <p>Real Estate</p>
                     </div>
                 </div>
                 
                 <div class="col-md-3 col-sm-6 col-6">
                     <div class="industry-card">
-                        <img src="<?=base_url()?>assets/images/icons/avatar.webp" alt="Media & Entertainment Icon">
-                        <p>Media & Entertainment</p>
+                      <img src="<?=base_url()?>assets/images/icons/avatar.webp" alt="Media & Entertainment Icon">
+                      <p>Media & Entertainment</p>
                     </div>
                 </div>
                 
                 <div class="col-md-3 col-sm-6 col-6">
                     <div class="industry-card">
-                        <img src="<?=base_url()?>assets/images/icons/car_svg.webp" alt="Automotive Icon">
-                        <p>Automotive</p>
+                      <img src="<?=base_url()?>assets/images/icons/car_svg.webp" alt="Automotive Icon">
+                      <p>Automotive</p>
                     </div>
                 </div>
                 </div>
@@ -1679,31 +1726,31 @@
             <div class="item">
                 <div class="row g-4 g-lg-5 my-4">
                   <div class="col-md-3 col-sm-6 col-6">
-                      <div class="industry-card">
-                          <img src="<?=base_url()?>assets/images/icons/lifestyle.webp" alt="Lifestyle">
-                          <p>Lifestyle</p>
-                      </div>
+                    <div class="industry-card">
+                      <img src="<?=base_url()?>assets/images/icons/lifestyle.webp" alt="Lifestyle">
+                      <p>Lifestyle</p>
+                    </div>
                   </div>
                   
                   <div class="col-md-3 col-sm-6 col-6">
-                      <div class="industry-card">
-                          <img src="<?=base_url()?>assets/images/icons/dating.webp" alt="Productivity">
-                          <p>Productivity</p>
-                      </div>
+                    <div class="industry-card">
+                      <img src="<?=base_url()?>assets/images/icons/dating.webp" alt="Productivity">
+                      <p>Productivity</p>
+                    </div>
                   </div>
                   
                   <div class="col-md-3 col-sm-6 col-6">
-                      <div class="industry-card">
-                          <img src="<?=base_url()?>assets/images/icons/beauty.webp" alt="Beauty Icon">
-                          <p>Beauty</p>
-                      </div>
+                    <div class="industry-card">
+                      <img src="<?=base_url()?>assets/images/icons/beauty.webp" alt="Beauty Icon">
+                      <p>Beauty</p>
+                    </div>
                   </div>
                   
                   <div class="col-md-3 col-sm-6 col-6">
-                      <div class="industry-card">
+                    <div class="industry-card">
                       <img src="<?= base_url() ?>/assets/images/icons/communication.webp" alt="Communication">
-                          <p>Communication</p>
-                      </div>
+                      <p>Communication</p>
+                    </div>
                   </div>
                 
             </div>
