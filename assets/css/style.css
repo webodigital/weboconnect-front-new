@@ -502,6 +502,7 @@ footer {
       margin-left: auto;
       padding: 15px;
       position: relative;
+      height: calc(100% - 50px);
       .logo_bar{
           display: flex;
           align-items: center;
@@ -530,10 +531,10 @@ footer {
           color: #ffffff;
       }
       .read_more_btn{
-        /* position: absolute; */
-          /* left: 50%;
-          transform: translateX(-50%); */
-          bottom: 10px;
+        position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: 0px;
           background: #FFFFFF;
           width: 130px;
           height: 25px;

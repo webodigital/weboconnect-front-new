@@ -1184,7 +1184,8 @@
         <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingTen">
             <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-              <i class="fas fa-thumbs-up me-2"></i>Inspired Team
+              <img class="me-2" height="15" src="<?=base_url()?>assets/images/icons/inspired_team.svg" alt="Inspired Team">
+              Inspired Team
             </button>
           </h2>
           <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#whyChooseAccordion">
@@ -1210,7 +1211,8 @@
         <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingTwelve">
             <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-              <i class="fas fa-thumbs-up me-2"></i>Smart Management
+              <img class="me-2" height="15" src="<?=base_url()?>assets/images/icons/smart_management.svg" alt="Smart Management">
+              Smart Management
             </button>
           </h2>
           <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#whyChooseAccordion">
@@ -1223,7 +1225,8 @@
         <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingThirteen">
             <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
-              <i class="fas fa-thumbs-up me-2"></i>Result-Oriented Project Managers
+            <img class="me-2" height="15" src="<?=base_url()?>assets/images/icons/result_oriented_project_managers.svg" alt="Result-Oriented Project Managers">
+            Result-Oriented Project Managers
             </button>
           </h2>
           <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#whyChooseAccordion">
@@ -1236,7 +1239,8 @@
         <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingFourteen">
             <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
-              <i class="fas fa-thumbs-up me-2"></i>Affordable Excellence
+              <img class="me-2" height="15" src="<?=base_url()?>assets/images/icons/affordable_excellence.svg" alt="Affordable Excellence"> 
+              Affordable Excellence
             </button>
           </h2>
           <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#whyChooseAccordion">
@@ -1249,7 +1253,8 @@
         <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingFifteen">
             <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
-              <i class="fas fa-thumbs-up me-2"></i>Attention That Matters
+              <img class="me-2" height="15" src="<?=base_url()?>assets/images/icons/attention_that_matters.svg" alt="Attention That Matters"> 
+              Attention That Matters
             </button>
           </h2>
           <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen" data-bs-parent="#whyChooseAccordion">
@@ -1262,7 +1267,8 @@
         <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingSixteen">
             <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
-              <i class="fas fa-thumbs-up me-2"></i>Cutting-Edge Technology
+              <img class="me-2" height="15" src="<?=base_url()?>assets/images/icons/cutting_edge_technology.svg" alt="Cutting-Edge Technology"> 
+              Cutting-Edge Technology
             </button>
           </h2>
           <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingSixteen" data-bs-parent="#whyChooseAccordion">
