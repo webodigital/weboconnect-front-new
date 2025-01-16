@@ -65,7 +65,7 @@
                   <span>.</span>
                   <span>5/5</span>
                   <span>.</span>
-                  <span>36 REVIEWS</span>
+                  <span>38 REVIEWS</span>
                 </div>
               </a>
             </div>
@@ -103,7 +103,7 @@
                 <div class="d-flex flex-wrap">
                   <span>4.6/5</span>
                   <span>.</span>
-                  <span>23 Reviews</span>
+                  <span>17 Reviews</span>
                   <span>.</span>
                   <span>Excellent</span>
                 </div>
@@ -119,7 +119,7 @@
                 <div class="d-flex flex-wrap">
                   <span>4.8</span>
                   <span>.</span>
-                  <span>(18 Reviews)</span>
+                  <span>(19 Reviews)</span>
                 </div>
               </a>
             </div>
@@ -1184,7 +1184,8 @@
         <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingTen">
             <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-              <i class="fas fa-thumbs-up me-2"></i>Inspired Team
+              <img class="me-2" height="15" src="<?=base_url()?>assets/images/icons/inspired_team.svg" alt="Inspired Team">
+              Inspired Team
             </button>
           </h2>
           <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#whyChooseAccordion">
@@ -1210,7 +1211,8 @@
         <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingTwelve">
             <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-              <i class="fas fa-thumbs-up me-2"></i>Smart Management
+              <img class="me-2" height="15" src="<?=base_url()?>assets/images/icons/smart_management.svg" alt="Smart Management">
+              Smart Management
             </button>
           </h2>
           <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#whyChooseAccordion">
@@ -1223,7 +1225,8 @@
         <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingThirteen">
             <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
-              <i class="fas fa-thumbs-up me-2"></i>Result-Oriented Project Managers
+            <img class="me-2" height="15" src="<?=base_url()?>assets/images/icons/result_oriented_project_managers.svg" alt="Result-Oriented Project Managers">
+            Result-Oriented Project Managers
             </button>
           </h2>
           <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#whyChooseAccordion">
@@ -1236,7 +1239,8 @@
         <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingFourteen">
             <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
-              <i class="fas fa-thumbs-up me-2"></i>Affordable Excellence
+              <img class="me-2" height="15" src="<?=base_url()?>assets/images/icons/affordable_excellence.svg" alt="Affordable Excellence"> 
+              Affordable Excellence
             </button>
           </h2>
           <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#whyChooseAccordion">
@@ -1249,7 +1253,8 @@
         <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingFifteen">
             <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
-              <i class="fas fa-thumbs-up me-2"></i>Attention That Matters
+              <img class="me-2" height="15" src="<?=base_url()?>assets/images/icons/attention_that_matters.svg" alt="Attention That Matters"> 
+              Attention That Matters
             </button>
           </h2>
           <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen" data-bs-parent="#whyChooseAccordion">
@@ -1262,7 +1267,8 @@
         <div class="accordion-item mb-4">
           <h2 class="accordion-header" id="headingSixteen">
             <button class="accordion-button collapsed fs-4 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
-              <i class="fas fa-thumbs-up me-2"></i>Cutting-Edge Technology
+              <img class="me-2" height="15" src="<?=base_url()?>assets/images/icons/cutting_edge_technology.svg" alt="Cutting-Edge Technology"> 
+              Cutting-Edge Technology
             </button>
           </h2>
           <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingSixteen" data-bs-parent="#whyChooseAccordion">
@@ -1511,100 +1517,147 @@
   </div>
   <div class="container d-lg-block d-none">
     <div class="row g-4 g-lg-5 my-4">
-        <!-- Healthcare Card -->
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
+      <!-- Healthcare Card -->
+      <div class="col-md-3 col-sm-6 col-6">
+          <div class="industry-card row g-0">
+              <div class="col-auto">
                 <img src="<?=base_url()?>assets/images/icons/dr.webp" alt="Healthcare Icon">
+              </div>
+              <div class="col text-center">
                 <p>Healthcare</p>
-            </div>
+              </div>
+          </div>
+      </div>
+      
+      <!-- Finance Card -->
+      <div class="col-md-3 col-sm-6 col-6">
+        <div class="industry-card row g-0">
+          <div class="col-auto">
+            <img src="<?=base_url()?>assets/images/icons/business.webp" alt="Finance Icon">
+          </div>
+          <div class="col text-center">
+            <p>Finance</p>
+          </div>
         </div>
-        
-        <!-- Finance Card -->
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/business.webp" alt="Finance Icon">
-                <p>Finance</p>
-            </div>
+      </div>
+      
+      <!-- Retail & E-commerce Card -->
+      <div class="col-md-3 col-sm-6 col-6">
+        <div class="industry-card row g-0">
+          <div class="col-auto">
+            <img src="<?=base_url()?>assets/images/icons/ecommerce-website.webp" alt="Retail & E-commerce Icon">
+          </div>
+          <div class="col text-center">
+            <p>Retail & E-commerce</p>
+          </div>
         </div>
-        
-        <!-- Retail & E-commerce Card -->
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/ecommerce-website.webp" alt="Retail & E-commerce Icon">
-                <p>Retail & E-commerce</p>
-            </div>
+      </div>
+      
+      <!-- Education Card -->
+      <div class="col-md-3 col-sm-6 col-6">
+        <div class="industry-card row g-0">
+          <div class="col-auto">
+            <img src="<?=base_url()?>assets/images/icons/education.webp" alt="Education Icon">
+          </div>
+          <div class="col text-center">
+            <p>Education</p>
+          </div>
         </div>
-        
-        <!-- Education Card -->
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/education.webp" alt="Education Icon">
-                <p>Education</p>
-            </div>
+      </div>
+      
+      <!-- Travel & Tourism Card -->
+      <div class="col-md-3 col-sm-6 col-6">
+        <div class="industry-card row g-0">
+          <div class="col-auto">
+            <img src="<?=base_url()?>assets/images/icons/travel.webp" alt="Travel & Tourism Icon">
+          </div>
+          <div class="col text-center">
+            <p>Travel & Tourism</p>
+          </div>
         </div>
-        
-        <!-- Travel & Tourism Card -->
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/travel.webp" alt="Travel & Tourism Icon">
-                <p>Travel & Tourism</p>
-            </div>
+      </div>
+      
+      <!-- Real Estate Card -->
+      <div class="col-md-3 col-sm-6 col-6">
+        <div class="industry-card row g-0">
+          <div class="col-auto">
+            <img src="<?=base_url()?>assets/images/icons/home.webp" alt="Real Estate Icon">
+          </div>
+          <div class="col text-center">
+            <p>Real Estate</p>
+          </div>
         </div>
-        
-        <!-- Real Estate Card -->
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/home.webp" alt="Real Estate Icon">
-                <p>Real Estate</p>
-            </div>
+      </div>
+      
+      <!-- Media & Entertainment Card -->
+      <div class="col-md-3 col-sm-6 col-6">            
+        <div class="industry-card row g-0">
+          <div class="col-auto">
+            <img src="<?=base_url()?>assets/images/icons/avatar.webp" alt="Media & Entertainment Icon">
+          </div>
+          <div class="col text-center">
+            <p>Media & Entertainment</p>
+          </div>
         </div>
-        
-        <!-- Media & Entertainment Card -->
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/avatar.webp" alt="Media & Entertainment Icon">
-                <p>Media & Entertainment</p>
-            </div>
+      </div>
+      
+      <!-- Automotive Card -->
+      <div class="col-md-3 col-sm-6 col-6">
+        <div class="industry-card row g-0">
+          <div class="col-auto">
+            <img src="<?=base_url()?>assets/images/icons/car_svg.webp" alt="Automotive Icon"></div>
+          <div class="col text-center">
+            <p>Automotive</p>
+          </div>
         </div>
-        
-        <!-- Automotive Card -->
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/car_svg.webp" alt="Automotive Icon">
-                <p>Automotive</p>
-            </div>
+      </div>
+      
+      <div class="col-md-3 col-sm-6 col-6">
+        <div class="industry-card row g-0">
+          <div class="col-auto">
+            <img src="<?=base_url()?>assets/images/icons/lifestyle.webp" alt="Lifestyle">
+          </div>
+          <div class="col text-center">
+            <p>Lifestyle</p>
+          </div>
         </div>
-        
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/lifestyle.webp" alt="Lifestyle">
-                <p>Lifestyle</p>
-            </div>
+      </div>
+      
+      <!-- Real Estate Card -->
+      <div class="col-md-3 col-sm-6 col-6">
+        <div class="industry-card row g-0">
+          <div class="col-auto">
+            <img src="<?=base_url()?>assets/images/icons/dating.webp" alt="Productivity">
+          </div>
+          <div class="col text-center">
+            <p>Productivity</p>
+          </div>
         </div>
-        
-        <!-- Real Estate Card -->
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/dating.webp" alt="Productivity">
-                <p>Productivity</p>
-            </div>
+      </div>
+      
+      <!-- Media & Entertainment Card -->
+      <div class="col-md-3 col-sm-6 col-6"> 
+        <div class="industry-card row g-0">
+          <div class="col-auto">
+            <img src="<?=base_url()?>assets/images/icons/beauty.webp" alt="Beauty Icon">
+          </div>
+          <div class="col text-center">
+            <p>Beauty</p>
+          </div>
         </div>
-        
-        <!-- Media & Entertainment Card -->
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
-                <img src="<?=base_url()?>assets/images/icons/beauty.webp" alt="Beauty Icon">
-                <p>Beauty</p>
-            </div>
-        </div>
-        
-        <!-- Automotive Card -->
-        <div class="col-md-3 col-sm-6 col-6">
-            <div class="industry-card">
+      </div>
+      
+      <!-- Automotive Card -->
+      <div class="col-md-3 col-sm-6 col-6">
+        <div class="industry-card row g-0">
+          <div class="col-auto">
             <img src="<?= base_url() ?>/assets/images/icons/communication.webp" alt="Communication">
-                <p>Communication</p>
-            </div>
+          </div>
+          <div class="col text-center">
+            <p>Communication</p>
+          </div>
         </div>
+      </div>
         
     </div>
   </div>
@@ -1616,31 +1669,31 @@
             <div class="row g-4 g-lg-5 my-4">
 
                 <div class="col-md-3 col-sm-6 col-6">
-                    <div class="industry-card">
-                        <img src="<?=base_url()?>assets/images/icons/dr.webp" alt="Healthcare Icon">
-                        <p>Healthcare</p>
-                    </div>
+                  <div class="industry-card">
+                      <img src="<?=base_url()?>assets/images/icons/dr.webp" alt="Healthcare Icon">
+                      <p>Healthcare</p>
+                  </div>
                 </div>
                 
                 <div class="col-md-3 col-sm-6 col-6">
-                    <div class="industry-card">
-                        <img src="<?=base_url()?>assets/images/icons/business.webp" alt="Finance Icon">
-                        <p>Finance</p>
-                    </div>
+                  <div class="industry-card">
+                      <img src="<?=base_url()?>assets/images/icons/business.webp" alt="Finance Icon">
+                      <p>Finance</p>
+                  </div>
                 </div>
                 
                 <div class="col-md-3 col-sm-6 col-6">
-                    <div class="industry-card">
-                        <img src="<?=base_url()?>assets/images/icons/ecommerce-website.webp" alt="Retail & E-commerce Icon">
-                        <p>Retail & E-commerce</p>
-                    </div>
+                  <div class="industry-card">
+                    <img src="<?=base_url()?>assets/images/icons/ecommerce-website.webp" alt="Retail & E-commerce Icon">
+                    <p>Retail & E-commerce</p>
+                  </div>
                 </div>
                 
                 <div class="col-md-3 col-sm-6 col-6">
-                    <div class="industry-card">
-                        <img src="<?=base_url()?>assets/images/icons/education.webp" alt="Education Icon">
-                        <p>Education</p>
-                    </div>
+                  <div class="industry-card">
+                    <img src="<?=base_url()?>assets/images/icons/education.webp" alt="Education Icon">
+                    <p>Education</p>
+                  </div>
                 </div>
             </div>
             </div>
@@ -1649,29 +1702,29 @@
 
                 <div class="col-md-3 col-sm-6 col-6">
                     <div class="industry-card">
-                        <img src="<?=base_url()?>assets/images/icons/travel.webp" alt="Travel & Tourism Icon">
-                        <p>Travel & Tourism</p>
+                      <img src="<?=base_url()?>assets/images/icons/travel.webp" alt="Travel & Tourism Icon">
+                      <p>Travel & Tourism</p>
                     </div>
                 </div>
                 
                 <div class="col-md-3 col-sm-6 col-6">
                     <div class="industry-card">
-                        <img src="<?=base_url()?>assets/images/icons/home.webp" alt="Real Estate Icon">
-                        <p>Real Estate</p>
+                      <img src="<?=base_url()?>assets/images/icons/home.webp" alt="Real Estate Icon">
+                      <p>Real Estate</p>
                     </div>
                 </div>
                 
                 <div class="col-md-3 col-sm-6 col-6">
                     <div class="industry-card">
-                        <img src="<?=base_url()?>assets/images/icons/avatar.webp" alt="Media & Entertainment Icon">
-                        <p>Media & Entertainment</p>
+                      <img src="<?=base_url()?>assets/images/icons/avatar.webp" alt="Media & Entertainment Icon">
+                      <p>Media & Entertainment</p>
                     </div>
                 </div>
                 
                 <div class="col-md-3 col-sm-6 col-6">
                     <div class="industry-card">
-                        <img src="<?=base_url()?>assets/images/icons/car_svg.webp" alt="Automotive Icon">
-                        <p>Automotive</p>
+                      <img src="<?=base_url()?>assets/images/icons/car_svg.webp" alt="Automotive Icon">
+                      <p>Automotive</p>
                     </div>
                 </div>
                 </div>
@@ -1679,31 +1732,31 @@
             <div class="item">
                 <div class="row g-4 g-lg-5 my-4">
                   <div class="col-md-3 col-sm-6 col-6">
-                      <div class="industry-card">
-                          <img src="<?=base_url()?>assets/images/icons/lifestyle.webp" alt="Lifestyle">
-                          <p>Lifestyle</p>
-                      </div>
+                    <div class="industry-card">
+                      <img src="<?=base_url()?>assets/images/icons/lifestyle.webp" alt="Lifestyle">
+                      <p>Lifestyle</p>
+                    </div>
                   </div>
                   
                   <div class="col-md-3 col-sm-6 col-6">
-                      <div class="industry-card">
-                          <img src="<?=base_url()?>assets/images/icons/dating.webp" alt="Productivity">
-                          <p>Productivity</p>
-                      </div>
+                    <div class="industry-card">
+                      <img src="<?=base_url()?>assets/images/icons/dating.webp" alt="Productivity">
+                      <p>Productivity</p>
+                    </div>
                   </div>
                   
                   <div class="col-md-3 col-sm-6 col-6">
-                      <div class="industry-card">
-                          <img src="<?=base_url()?>assets/images/icons/beauty.webp" alt="Beauty Icon">
-                          <p>Beauty</p>
-                      </div>
+                    <div class="industry-card">
+                      <img src="<?=base_url()?>assets/images/icons/beauty.webp" alt="Beauty Icon">
+                      <p>Beauty</p>
+                    </div>
                   </div>
                   
                   <div class="col-md-3 col-sm-6 col-6">
-                      <div class="industry-card">
+                    <div class="industry-card">
                       <img src="<?= base_url() ?>/assets/images/icons/communication.webp" alt="Communication">
-                          <p>Communication</p>
-                      </div>
+                      <p>Communication</p>
+                    </div>
                   </div>
                 
             </div>
