@@ -65,7 +65,7 @@
                   <span>.</span>
                   <span>5/5</span>
                   <span>.</span>
-                  <span>36 REVIEWS</span>
+                  <span>38 REVIEWS</span>
                 </div>
               </a>
             </div>
@@ -103,7 +103,7 @@
                 <div class="d-flex flex-wrap">
                   <span>4.6/5</span>
                   <span>.</span>
-                  <span>23 Reviews</span>
+                  <span>17 Reviews</span>
                   <span>.</span>
                   <span>Excellent</span>
                 </div>
@@ -119,7 +119,7 @@
                 <div class="d-flex flex-wrap">
                   <span>4.8</span>
                   <span>.</span>
-                  <span>(18 Reviews)</span>
+                  <span>(19 Reviews)</span>
                 </div>
               </a>
             </div>
