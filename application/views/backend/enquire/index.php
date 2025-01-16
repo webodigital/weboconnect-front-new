@@ -9,47 +9,49 @@
                     <!-- <a href="<?php echo base_url('create-blog'); ?>" class="btn btn-primary submit-button">Add New Blog</a> -->
                 </div>
             </div>
-            <table class="table table-responsive">
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Name</th>
-                        <th>Email</th>
-                        <th>Phone</th>
-                        <th>Purpose</th>
-                        <th>Message</th>
-                        <!-- <th>Status</th> -->
-                        <th>Date</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <?php if (!empty($enquires)) : ?>
-                        <?php foreach ($enquires as $key => $enquire) : ?>
-                            <tr>
-                                <td><?php echo $key+1; ?></td>
-                                <td><?php echo $enquire->name; ?></td>
-                                <td><?php echo $enquire->email; ?></td>
-                                <td><?php echo $enquire->phone; ?></td>
-                                <td><?php echo $enquire->purpose; ?></td>
-                                <td><?php echo substr($enquire->message, 0, 100); ?>...</td>
-                                <!-- <td><?php echo ucfirst($enquire->contact_status); ?></td> -->
-                                <td><?php echo date('d-m-Y h:i A', strtotime($enquire->created_at)); ?></td>
-                                <td>
-                                    <a href="<?php echo base_url("view-enquiry").'/'.$enquire->contact_id ?>"><i class="fas fa-eye"></i></a>
-                                    <!-- <i class="me-2 fas fa-edit edit" style="cursor: pointer;"></i> -->
-                                    <!-- <i class="me-2 fas fa-edit edit" data-id="<?php echo $blog->id; ?>" style="cursor: pointer;"></i>
-                                    <i class="fas fa-trash-alt" data-id="<?php echo $blog->id; ?>" style="cursor: pointer;"></i> -->
-                                </td>
-                            </tr>
-                        <?php endforeach; ?>
-                    <?php else : ?>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
                         <tr>
-                            <td colspan="4">No enquires found</td>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Purpose</th>
+                            <th>Message</th>
+                            <!-- <th>Status</th> -->
+                            <th>Date</th>
+                            <th>Action</th>
                         </tr>
-                    <?php endif; ?>
-                </tbody>
-            </table>
+                    </thead>
+                    <tbody>
+                        <?php if (!empty($enquires)) : ?>
+                            <?php foreach ($enquires as $key => $enquire) : ?>
+                                <tr>
+                                    <td><?php echo $key+1; ?></td>
+                                    <td><?php echo $enquire->name; ?></td>
+                                    <td><?php echo $enquire->email; ?></td>
+                                    <td><?php echo $enquire->phone; ?></td>
+                                    <td><?php echo $enquire->purpose; ?></td>
+                                    <td><?php echo substr($enquire->message, 0, 50); ?>...</td>
+                                    <!-- <td><?php echo ucfirst($enquire->contact_status); ?></td> -->
+                                    <td><?php echo date('d-m-Y h:i A', strtotime($enquire->created_at)); ?></td>
+                                    <td>
+                                        <a href="<?php echo base_url("view-enquiry").'/'.$enquire->contact_id ?>"><i class="fas fa-eye"></i></a>
+                                        <!-- <i class="me-2 fas fa-edit edit" style="cursor: pointer;"></i> -->
+                                        <!-- <i class="me-2 fas fa-edit edit" data-id="<?php echo $blog->id; ?>" style="cursor: pointer;"></i>
+                                        <i class="fas fa-trash-alt" data-id="<?php echo $blog->id; ?>" style="cursor: pointer;"></i> -->
+                                    </td>
+                                </tr>
+                            <?php endforeach; ?>
+                        <?php else : ?>
+                            <tr>
+                                <td colspan="4">No enquires found</td>
+                            </tr>
+                        <?php endif; ?>
+                    </tbody>
+                </table>
+            </div>
             <div>
                 <?php echo $pagination; ?>
             </div>

@@ -111,7 +111,7 @@
                   <tr>
                     <td bgcolor="#00458E"  style="font-size: 30px; text-align:center;border-radius: 40px 40px 0px 0px;">
                       <br>
-                        <img src="<?=base_url()?>assets/emailer/logo.webp" width="" height="80" alt="logo">
+                        <img src="<?=base_url()?>assets/emailer/white-logo.png" width="" height="80" alt="logo">
                       <br>
                       <br>
                     </td>
@@ -137,7 +137,7 @@
                           </tr>
                           <tr>
                             <td class="">
-                              <p style="font-size: 15px; font-weight: 500;line-height: 1.5; color: #1E1E1E;">Best regards,
+                              <p style="font-size: 15px; font-weight: 500;line-height: 1.5; color: #1E1E1E;">Best Regards,
                                   <br>
                                   Weboconnect Team
                               </p>
@@ -193,9 +193,10 @@
                             </td>
                           </tr>
                           <tr>
-                            <td colspan="5" style="padding: 20px; text-decoration: underline; text-align: center; color:#00458E; font-size:12px;">
-                              <a style="font-size: 15px; font-weight: 400;" href="#">Unsubscribe</a>
-                            </td>
+                            <td colspan="5"></td>
+                            <!-- <td colspan="5" style="padding: 20px; text-decoration: underline; text-align: center; color:#00458E; font-size:12px;">
+                              <a style="font-size: 15px; font-weight: 400;" href="#">Unsubscribe</a> 
+                            </td>-->
                           </tr>
                         </table>
                       </center>

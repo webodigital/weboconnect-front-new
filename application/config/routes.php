@@ -134,6 +134,15 @@ $route['edit-blog/(:any)'] = 'blog/editBlog/$1';
 $route['update-blog'] = 'blog/updateBlog';
 $route['update-all-blog'] = 'blog/updateAllBlogsInSitemap';
 
+// Admin blog categories
+$route['admin-blogs-category'] = 'blogcategory/adminBlogCategory';
+$route['admin-blogs-category/(:num)'] = 'blogcategory/adminBlogCategory/$1';
+$route['create-blog-category'] = 'blogcategory/createBlogCategory';
+$route['submit-blog-category'] = 'blogcategory/submitBlogCategory';
+$route['delete-blog-category/(:num)'] = 'blogcategory/deleteBlogCategory/$1';
+$route['edit-blog-category/(:any)'] = 'blogcategory/editBlogCategory/$1';
+$route['update-blog-category'] = 'blogcategory/updateBlogCategory';
+
 // Admin case studies
 $route['admin-case-studies'] = 'casestudies/adminCaseStudies';
 $route['admin-case-studies/(:num)'] = 'casestudies/adminCaseStudies/$1';
@@ -144,12 +153,13 @@ $route['edit-case-studies/(:any)'] = 'casestudies/editCaseStudies/$1';
 $route['update-case-studies'] = 'casestudies/updateCaseStudies';
 $route['update-case-studies-sequence'] = 'casestudies/update_sequence';
 
-
+// Admin case studies details
 $route['case-studies-details/(:num)'] = 'casestudies/adminCaseStudiesDetails/$1';
 $route['submit-case-studies-details'] = 'casestudies/submitCaseStudiesDetails';
 $route['case-studies-detailsbyid/(:num)'] = 'casestudies/adminCaseStudiesDetailsById/$1';
 $route['delete-case-studies-details/(:num)'] = 'casestudies/deleteCaseStudiesDetails/$1';
 
+// Admin case studies testimonials
 $route['case-studies-testimonials/(:num)'] = 'casestudies/adminCaseStudiesTestimonials/$1';
 $route['submit-case-studies-testimonials'] = 'casestudies/submitCaseStudiesTestimonials';
 $route['case-studies-testimonialsbyid/(:num)'] = 'casestudies/adminCaseStudiesTestimonialsById/$1';

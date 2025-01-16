@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class BlogModel extends CI_Model
+class BlogcategoryModel extends CI_Model
 {
 
     public function __construct()
@@ -9,28 +9,32 @@ class BlogModel extends CI_Model
         parent::__construct();
     }
 
-    // Get the total number of blogs
-    public function getBlogCount()
-    {
-        return $this->db->count_all('blogs');
+    public function getAllCategory() {
+        $query = $this->db->get_where('blog_category', ['status' => 1]);
+        return $query->result_array();
     }
 
-    // Fetch the blogs with limit and offset for pagination
-    // public function getBlogs($limit, $offset) {
+    // Get the total number of blog_category
+    public function getBlogsCategoryCount()
+    {
+        return $this->db->count_all('blog_category');
+    }
+
+    // Fetch the blog_category with limit and offset for pagination
+    // public function getblog_category($limit, $offset) {
     //     $this->db->limit($limit, $offset);
-    //     $query = $this->db->get('blogs');
+    //     $query = $this->db->get('blog_category');
     //     return $query->result();
     // }
-    public function getAdminBlogs($limit, $offset, $exclude_id = null)
+    public function getAdminBlogCategory($limit, $offset, $exclude_id = null)
     {
-        $this->db->select('blogs.*, users.name AS author_name');
-        $this->db->from('blogs');
-        $this->db->join('users', 'users.id = blogs.user_id');
+        $this->db->select('blog_category.*');
+        $this->db->from('blog_category');
         if ($exclude_id !== null) {
-            $this->db->where('blogs.id !=', $exclude_id);
+            $this->db->where('blog_category.id !=', $exclude_id);
         }
-        //$this->db->where('status' ,'publish');
-        $this->db->order_by('blogs.created_at', 'DESC');
+        //$this->db->where('status' ,1);
+        $this->db->order_by('blog_category.created_at', 'DESC');
         if($limit != 0){
             $this->db->limit($limit, $offset);    
         }
@@ -42,13 +46,12 @@ class BlogModel extends CI_Model
         return $result;
     }
 
-    public function getHomeBlogs()
+    public function getHomeBlogCategory()
     {
-        $this->db->select('blogs.*, users.name AS author_name');
-        $this->db->from('blogs');
-        $this->db->join('users', 'users.id = blogs.user_id');
-        $this->db->where('status', 'publish');
-        $this->db->order_by('blogs.created_at', 'DESC');
+        $this->db->select('blog_category.*');
+        $this->db->from('blog_category');
+        $this->db->where('status', 1);
+        $this->db->order_by('blog_category.created_at', 'DESC');
         $this->db->limit(3, 0);
         $query = $this->db->get();
         // Debugging: Uncomment for debugging in development only.
@@ -64,16 +67,15 @@ class BlogModel extends CI_Model
         return $result;
     }
 
-    public function getBlogs($limit, $offset, $exclude_id = null)
+    public function getBlogCategory($limit, $offset, $exclude_id = null)
     {
-        $this->db->select('blogs.*, users.name AS author_name');
-        $this->db->from('blogs');
-        $this->db->join('users', 'users.id = blogs.user_id');
+        $this->db->select('blog_category.*');
+        $this->db->from('blog_category');
         if ($exclude_id !== null) {
-            $this->db->where('blogs.id !=', $exclude_id);
+            $this->db->where('blog_category.id !=', $exclude_id);
         }
-        $this->db->where('status' ,'publish');
-        $this->db->order_by('blogs.created_at', 'DESC');
+        $this->db->where('status' ,1);
+        $this->db->order_by('blog_category.created_at', 'DESC');
         if($limit != 0){
             $this->db->limit($limit, $offset);    
         }
@@ -86,20 +88,15 @@ class BlogModel extends CI_Model
     }
     
     // Insert a new blog into the database
-    public function insertBlog($data)
+    public function insertBlogsCategory($data)
     {
-        return $this->db->insert('blogs', $data);
+        return $this->db->insert('blog_category', $data);
     }
-    public function insertComment($data)
+    public function getBlogsCategoryById($id)
     {
-        return $this->db->insert('comments', $data);
-    }
-    public function getBlogById($id)
-    {
-        $this->db->select('blogs.*, users.name AS author_name');
-        $this->db->from('blogs');
-        $this->db->join('users', 'users.id = blogs.user_id');
-        $this->db->where('blogs.id', $id);
+        $this->db->select('blog_category.*');
+        $this->db->from('blog_category');
+        $this->db->where('blog_category.id', $id);
         //$this->db->where('status' ,'publish');
         $query = $this->db->get();
 
@@ -109,12 +106,11 @@ class BlogModel extends CI_Model
             return false;
         }
     }
-    public function getBlogBySlug($id)
+    public function getBlogsCategoryBySlug($id)
     {
-        $this->db->select('blogs.*, users.name AS author_name');
-        $this->db->from('blogs');
-        $this->db->join('users', 'users.id = blogs.user_id');
-        $this->db->where('blogs.slug', $id);
+        $this->db->select('blog_category.*');
+        $this->db->from('blog_category');
+        $this->db->where('blog_category.slug', $id);
         $this->db->where('status' ,'publish');
         $query = $this->db->get();
 
@@ -136,7 +132,7 @@ class BlogModel extends CI_Model
         return $this->db->insert('blog_comments', $data);
     }
 
-    public function getCommentsByBlogId($blog_id)
+    public function getCommentsByBlogsCategoryId($blog_id)
     {
         $this->db->select('blog_comments.comment, users.name as user_name, blog_comments.created_at');
         $this->db->from('blog_comments');
@@ -147,18 +143,18 @@ class BlogModel extends CI_Model
         return $query->result_array();
     }
 
-    public function deleteBlogById($id)
+    public function deleteBlogsCategoryById($id)
     {
-        return $this->db->delete('blogs', ['id' => $id]);
+        return $this->db->delete('blog_category', ['id' => $id]);
     }
 
-    public function updateBlog($id, $data)
+    public function updateBlogsCategory($id, $data)
     {
         $this->db->where('id', $id);
-        return $this->db->update('blogs', $data);
+        return $this->db->update('blog_category', $data);
     }
     
-    public function updateBlog1($id, $title, $content, $tags, $publish_date, $publish_time, $image_path, $sponsor, $slug, $meta_title, $meta_description, $thumbnail_file_name, $status, $schedule_datetime)
+    public function updateBlogsCategory1($id, $title, $content, $tags, $publish_date, $publish_time, $image_path, $sponsor, $slug, $meta_title, $meta_description, $thumbnail_file_name, $status, $schedule_datetime)
     {
         $data = [
             'title' => $title,
@@ -181,7 +177,7 @@ class BlogModel extends CI_Model
         }
 
         $this->db->where('id', $id);
-        return $this->db->update('blogs', $data);
+        return $this->db->update('blog_category', $data);
     }
 
     // public function blogLike($userId, $blogId) {
@@ -242,45 +238,35 @@ class BlogModel extends CI_Model
     public function slugExists($slug)
     {
         $this->db->where('slug', $slug);
-        $query = $this->db->get('blogs');
+        $query = $this->db->get('blog_category');
         return $query->num_rows() > 0;
     }
 
-    public function getAllBlogs() {
+    public function getAllBlogsCategory() {
         $query = $this->db->select('slug')
-                          ->from('blogs')
+                          ->from('blog_category')
                           ->get();
         return $query->result_array();
     }
 
-    public function getBlogCategoryId($category)
-    {
-        $query = $this->db->select('blog_category.id')->from('blog_category')->where('blog_category.slug', $category)->get();
-
-        // Check if the category exists and return the ID
-        $row = $query->row();
-        return $row ? $row->id : null; // Return null if no matching category is found
-    }
-
-    public function getFilteredBlogs($category, $limit, $start, $exclude_id = null)
+    public function getFilteredBlogCategory($category, $limit, $start, $exclude_id = null)
     {
         // Select columns and join users table for author name
-        $this->db->select('blogs.*, users.name AS author_name');
-        $this->db->from('blogs');
-        $this->db->join('users', 'users.id = blogs.user_id', 'left'); // Use 'left' join to include blogs without authors if needed
+        $this->db->select('blog_category.*');
+        $this->db->from('blog_category');
 
         
-        $this->db->where('blogs.status', 'publish');
-        $this->db->order_by('blogs.created_at', 'DESC');
+        $this->db->where('status', 1);
+        $this->db->order_by('blog_category.created_at', 'DESC');
 
         // Exclude a specific blog ID, if provided
         if ($exclude_id !== null) {
-            $this->db->where('blogs.id !=', $exclude_id);
+            $this->db->where('blog_category.id !=', $exclude_id);
         }
 
         // Filter by category if not "all"
         if ($category !== 'all') {
-            $this->db->where('blogs.category', $category);
+            $this->db->where('blog_category.category', $category);
         }
 
         // Limit results for pagination
@@ -301,12 +287,12 @@ class BlogModel extends CI_Model
     }
 
 
-    public function getFilteredBlogCount($category)
+    public function getFilteredBlogsCategoryCount($category)
     {
         if ($category !== 'all') {
             $this->db->where('category', $category);
         }
-        return $this->db->count_all_results('blogs');
+        return $this->db->count_all_results('blog_category');
     }
 
 

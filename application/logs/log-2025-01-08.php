@@ -991,3 +991,95 @@ INFO - 2025-01-08 11:20:20 --> File loaded: F:\xampp\htdocs\weboconnect-front-ne
 INFO - 2025-01-08 11:20:20 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/footer.php
 INFO - 2025-01-08 11:20:20 --> Final output sent to browser
 DEBUG - 2025-01-08 11:20:20 --> Total execution time: 0.1040
+INFO - 2025-01-08 11:46:51 --> Config Class Initialized
+INFO - 2025-01-08 11:46:51 --> Hooks Class Initialized
+DEBUG - 2025-01-08 11:46:51 --> UTF-8 Support Enabled
+INFO - 2025-01-08 11:46:51 --> Utf8 Class Initialized
+INFO - 2025-01-08 11:46:51 --> URI Class Initialized
+INFO - 2025-01-08 11:46:51 --> Router Class Initialized
+INFO - 2025-01-08 11:46:51 --> Output Class Initialized
+INFO - 2025-01-08 11:46:51 --> Security Class Initialized
+DEBUG - 2025-01-08 11:46:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-08 11:46:51 --> Input Class Initialized
+INFO - 2025-01-08 11:46:51 --> Language Class Initialized
+INFO - 2025-01-08 11:46:51 --> Loader Class Initialized
+INFO - 2025-01-08 11:46:51 --> Helper loaded: url_helper
+INFO - 2025-01-08 11:46:51 --> Database Driver Class Initialized
+DEBUG - 2025-01-08 11:46:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-01-08 11:46:51 --> Session: Class initialized using 'files' driver.
+INFO - 2025-01-08 11:46:51 --> Controller Class Initialized
+INFO - 2025-01-08 11:46:51 --> Helper loaded: form_helper
+INFO - 2025-01-08 11:46:51 --> Helper loaded: auth_helper
+INFO - 2025-01-08 11:46:51 --> Model "CasestudiesModel" initialized
+INFO - 2025-01-08 11:46:51 --> Model "User" initialized
+INFO - 2025-01-08 11:46:51 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2025-01-08 11:46:51 --> Pagination Class Initialized
+INFO - 2025-01-08 11:46:51 --> Form Validation Class Initialized
+INFO - 2025-01-08 11:46:51 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/header.php
+INFO - 2025-01-08 11:46:51 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/sidemenu.php
+INFO - 2025-01-08 11:46:51 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\backend/case-studies/details.php
+INFO - 2025-01-08 11:46:51 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/footer.php
+INFO - 2025-01-08 11:46:51 --> Final output sent to browser
+DEBUG - 2025-01-08 11:46:51 --> Total execution time: 0.4933
+INFO - 2025-01-08 11:49:27 --> Config Class Initialized
+INFO - 2025-01-08 11:49:27 --> Hooks Class Initialized
+DEBUG - 2025-01-08 11:49:27 --> UTF-8 Support Enabled
+INFO - 2025-01-08 11:49:27 --> Utf8 Class Initialized
+INFO - 2025-01-08 11:49:27 --> URI Class Initialized
+INFO - 2025-01-08 11:49:27 --> Router Class Initialized
+INFO - 2025-01-08 11:49:27 --> Output Class Initialized
+INFO - 2025-01-08 11:49:27 --> Security Class Initialized
+DEBUG - 2025-01-08 11:49:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-08 11:49:27 --> Input Class Initialized
+INFO - 2025-01-08 11:49:27 --> Language Class Initialized
+INFO - 2025-01-08 11:49:27 --> Loader Class Initialized
+INFO - 2025-01-08 11:49:27 --> Helper loaded: url_helper
+INFO - 2025-01-08 11:49:27 --> Database Driver Class Initialized
+DEBUG - 2025-01-08 11:49:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-01-08 11:49:27 --> Session: Class initialized using 'files' driver.
+INFO - 2025-01-08 11:49:27 --> Controller Class Initialized
+INFO - 2025-01-08 11:49:27 --> Helper loaded: form_helper
+INFO - 2025-01-08 11:49:27 --> Helper loaded: auth_helper
+INFO - 2025-01-08 11:49:27 --> Model "Career_Model" initialized
+INFO - 2025-01-08 11:49:27 --> Model "User" initialized
+INFO - 2025-01-08 11:49:27 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2025-01-08 11:49:27 --> Pagination Class Initialized
+INFO - 2025-01-08 11:49:27 --> Form Validation Class Initialized
+DEBUG - 2025-01-08 11:49:27 --> Pagination class already loaded. Second attempt ignored.
+INFO - 2025-01-08 11:49:27 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/header.php
+INFO - 2025-01-08 11:49:27 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/sidemenu.php
+INFO - 2025-01-08 11:49:27 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\backend/career/index.php
+INFO - 2025-01-08 11:49:27 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/footer.php
+INFO - 2025-01-08 11:49:27 --> Final output sent to browser
+DEBUG - 2025-01-08 11:49:27 --> Total execution time: 0.5490
+INFO - 2025-01-08 11:49:30 --> Config Class Initialized
+INFO - 2025-01-08 11:49:30 --> Hooks Class Initialized
+DEBUG - 2025-01-08 11:49:30 --> UTF-8 Support Enabled
+INFO - 2025-01-08 11:49:30 --> Utf8 Class Initialized
+INFO - 2025-01-08 11:49:30 --> URI Class Initialized
+INFO - 2025-01-08 11:49:30 --> Router Class Initialized
+INFO - 2025-01-08 11:49:30 --> Output Class Initialized
+INFO - 2025-01-08 11:49:30 --> Security Class Initialized
+DEBUG - 2025-01-08 11:49:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-08 11:49:30 --> Input Class Initialized
+INFO - 2025-01-08 11:49:30 --> Language Class Initialized
+INFO - 2025-01-08 11:49:30 --> Loader Class Initialized
+INFO - 2025-01-08 11:49:30 --> Helper loaded: url_helper
+INFO - 2025-01-08 11:49:30 --> Database Driver Class Initialized
+DEBUG - 2025-01-08 11:49:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-01-08 11:49:30 --> Session: Class initialized using 'files' driver.
+INFO - 2025-01-08 11:49:30 --> Controller Class Initialized
+INFO - 2025-01-08 11:49:30 --> Helper loaded: form_helper
+INFO - 2025-01-08 11:49:30 --> Helper loaded: auth_helper
+INFO - 2025-01-08 11:49:30 --> Model "CasestudiesModel" initialized
+INFO - 2025-01-08 11:49:30 --> Model "User" initialized
+INFO - 2025-01-08 11:49:30 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2025-01-08 11:49:30 --> Pagination Class Initialized
+INFO - 2025-01-08 11:49:30 --> Form Validation Class Initialized
+DEBUG - 2025-01-08 11:49:30 --> Pagination class already loaded. Second attempt ignored.
+INFO - 2025-01-08 11:49:31 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/header.php
+INFO - 2025-01-08 11:49:31 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/sidemenu.php
+INFO - 2025-01-08 11:49:31 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\backend/case-studies/index.php
+INFO - 2025-01-08 11:49:31 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/footer.php
+INFO - 2025-01-08 11:49:31 --> Final output sent to browser
+DEBUG - 2025-01-08 11:49:31 --> Total execution time: 0.4418

@@ -94,9 +94,14 @@ class Home extends CI_Controller {
     {
         $this->load->library('pagination');
         $this->load->model('BlogModel');
+        $this->load->model('BlogcategoryModel');
 
         // Get the category from the query string (default to 'all')
         $category = $this->input->get('category') ?? 'all';
+        $category_slug = $category;
+        if ($category !== 'all') {
+            $category = $this->BlogModel->getBlogCategoryId($category);
+        }
 
         $config = array();
         $config['base_url'] = site_url('blogs'); // Base URL for pagination
@@ -130,7 +135,7 @@ class Home extends CI_Controller {
         $data['pagination'] = $this->pagination->create_links();
 
         // Pass available categories to the view
-        $data['categories'] = [
+        /*$data['categories'] = [
             'emerging_tech_trends' => 'Emerging Tech & Trends',
             'solutions_best_practices' => 'Solutions & Best Practices',
             'cybersecurity' => 'Cybersecurity',
@@ -141,9 +146,12 @@ class Home extends CI_Controller {
             'app_development' => 'App Development',
             'web_development' => 'Web Development',
             'language_based_apps' => 'Language-Based Apps'
-        ];
+        ];*/
 
-        $data['selected_category'] = $category; // To retain the selected category in the dropdown or buttons
+        $categories = $this->BlogcategoryModel->getAllCategory();
+        $data['categories'] = $categories;
+
+        $data['selected_category'] = $category_slug; // To retain the selected category in the dropdown or buttons
 
         $this->load->view('front/blogs', $data);
     }

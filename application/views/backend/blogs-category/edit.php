@@ -4,7 +4,7 @@
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 main-content h-100 p-5" style="min-height: calc(100vh - 100px);">
             <div class="">
                 <div class="">
-                    <h2 class="fs-24 mb-3">Edit Blog</h2>
+                    <h2 class="fs-24 mb-3">Edit Blog Category</h2>
                 </div>
                 <div id="toaster-container"></div>
                 <div class="card-body">
@@ -20,13 +20,20 @@
                                 <label for="slug">Slug:</label>
                                 <input type="text" class="form-control" id="slug" name="slug" value="<?php echo $blog->slug; ?>">
                             </div>
-                            <div class="form-group col-md-12">
+                            <div class="form-group col-md-6">
+                                <label for="status">Status:</label>
+                                <select name="status" id="status" class="form-control" required>
+                                    <option value="">Select your status...</option>
+                                    <option value="1" <?php echo ($blog->status)?'selected':''; ?>>Active</option>
+                                    <option value="0" <?php echo (!$blog->status)?'selected':''; ?>>InActive</option>
+                                </select>
+                            </div>
+                            <!-- <div class="form-group col-md-12">
                                 <label for="content">Content:</label>
                                 <textarea id="content" class="form-control" name="content" rows="5" minlength="150"><?php echo $blog->content; ?></textarea>
                             </div>
                             <div class="form-group col-md-12">
                                 <img src="<?php echo base_url('assets/images/blogs/uploads/thumbnails/' . $blog->thumbnail); ?>" height="100px" alt="banner" class="d-block mb-2">
-                                <!--<img src="<?php echo base_url('assets/images/blogs/uploads/' . $blog->image); ?>" height="100px" alt="banner" class="d-block mb-2">-->
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="image">Image:</label>
@@ -55,8 +62,8 @@
                                     <option value="">Select your Category...</option>
                                     <?php if (!empty($categories)) : ?>
                                         <?php foreach ($categories as $key => $category) : ?>
-                                            <option value="<?php echo $category['id']; ?>"  <?php echo (isset($blog->category) && $blog->category == $category['id']) ? 'selected' : ''; ?>>
-                                                <?php echo htmlspecialchars($category['title']); ?>
+                                            <option value="<?php echo htmlspecialchars($key); ?>" <?php echo (isset($blog->category) && $blog->category == $key) ? 'selected' : ''; ?>>
+                                                <?php echo htmlspecialchars($category); ?>
                                             </option>
                                         <?php endforeach; ?>
                                     <?php else : ?>
@@ -82,9 +89,6 @@
                                     <?php endif; ?>
                                 </select>
                             </div>
-                            <!-- <div class="form-group col-md-6">
-                                <h6>Add Schedule Date and simply click on update and publish for scheduled publish the post.</h6>
-                            </div> -->
                             <div class="col-md-12 mt-2">
                                 <h4 class="fs-18">Add Metas</h2>
                             </div>
@@ -95,13 +99,13 @@
                             <div class="form-group col-md-6">
                                 <label for="metadescription">Meta Description:</label>
                                 <input type="text" class="form-control" name="metadescription" id="metadescription"  value="<?php echo $blog->meta_description; ?>">
-                            </div>
+                            </div> -->
                             <!-- <div class="col-md-12">
                                 <button class="btn btn-primary submit-button" type="submit">Update Blog</button>
                             </div> -->
                             <div class="col-12">
-                                <button type="submit" class="btn btn-secondary submit-button" id="saveDraft">Update as Draft</button>
-                                <button type="submit" class="btn btn-primary submit-button pull-right" id="savePublish">Update and Publish/Schedule</button>
+                                <!-- <button type="submit" class="btn btn-secondary submit-button" id="saveDraft">Update as Draft</button> -->
+                                <button type="submit" class="btn btn-primary submit-button pull-right" id="savePublish">Update</button>
                             </div>
                         </div>
                     </form>
@@ -160,7 +164,7 @@
         let status = '';
 
         // Attach click events to set the status variable based on the button clicked
-        $('#saveDraft').click(function(event) {
+        /*$('#saveDraft').click(function(event) {
             event.preventDefault();
             status = 'draft';
             $('#editForm').submit();
@@ -170,21 +174,21 @@
             event.preventDefault();
             status = 'publish';
             $('#editForm').submit();
-        });
+        });*/
 
         $('#editForm').on('submit', function(event) {
             event.preventDefault();
 
             // Update CKEditor textarea with the content
-            for (instance in CKEDITOR.instances) {
+            /*for (instance in CKEDITOR.instances) {
                 CKEDITOR.instances[instance].updateElement();
-            }
+            }*/
 
             var formData = new FormData(this);
-            formData.append('status', status);
+            //formData.append('status', status);
 
             $.ajax({
-                url: '<?php echo base_url("update-blog"); ?>',
+                url: '<?php echo base_url("update-blog-category"); ?>',
                 type: 'POST',
                 data: formData,
                 processData: false,

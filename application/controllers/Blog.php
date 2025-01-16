@@ -12,6 +12,7 @@ class Blog extends CI_Controller
         $this->load->helper('auth_helper');
         $this->load->model('BlogModel'); // Load the Blog model
         $this->load->model('SponsorModel');
+        $this->load->model('BlogcategoryModel');
         $this->load->model('User');
         $this->load->library('pagination');
         $this->load->library('form_validation');
@@ -195,7 +196,7 @@ class Blog extends CI_Controller
 
     public function createBlog()
     {
-        $data['categories'] = [
+        /*$data['categories'] = [
             'emerging_tech_trends' => 'Emerging Tech & Trends',
             'solutions_best_practices' => 'Solutions & Best Practices',
             'cybersecurity' => 'Cybersecurity',
@@ -206,10 +207,12 @@ class Blog extends CI_Controller
             'app_development' => 'App Development',
             'web_development' => 'Web Development',
             'language_based_apps' => 'Language Based Apps'
-        ];
+        ];*/
         $data['title'] = 'Create Blog';
         $sponsors = $this->SponsorModel->getAllSponsors();
         $data['sponsors'] = $sponsors;
+        $categories = $this->BlogcategoryModel->getAllCategory();
+        $data['categories'] = $categories;
         $this->load_view('backend/blogs/createblog', $data);
     }
 
@@ -692,7 +695,7 @@ class Blog extends CI_Controller
 
     public function editBlog($id)
     {
-        $data['categories'] = [
+        /*$data['categories'] = [
             'emerging_tech_trends' => 'Emerging Tech & Trends',
             'solutions_best_practices' => 'Solutions & Best Practices',
             'cybersecurity' => 'Cybersecurity',
@@ -703,10 +706,12 @@ class Blog extends CI_Controller
             'app_development' => 'App Development',
             'web_development' => 'Web Development',
             'language_based_apps' => 'Language Based Apps'
-        ];
+        ];*/
         $data['blog'] = $this->BlogModel->getBlogById($id);
         $sponsors = $this->SponsorModel->getAllSponsors();
         $data['sponsors'] = $sponsors;
+        $categories = $this->BlogcategoryModel->getAllCategory();
+        $data['categories'] = $categories;
         $this->load_view('backend/blogs/edit', $data);
     }
 

@@ -50,8 +50,8 @@
                                     <option value="">Select your Category...</option>
                                     <?php if (!empty($categories)) : ?>
                                         <?php foreach ($categories as $key => $category) : ?>
-                                            <option value="<?php echo htmlspecialchars($key); ?>">
-                                                <?php echo htmlspecialchars($category); ?>
+                                            <option value="<?php echo $category['id']; ?>">
+                                                <?php echo htmlspecialchars($category['title']); ?>
                                             </option>
                                         <?php endforeach; ?>
                                     <?php else : ?>
