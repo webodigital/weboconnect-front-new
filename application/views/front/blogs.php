@@ -36,9 +36,9 @@
                     <?php foreach ($categories as $key => $value) : ?>
                         <div class="item">
                             <button 
-                                class="btn btn-light slides_btn <?php echo ($selected_category === $key) ? 'active' : ''; ?>" 
-                                onclick="filterCategory('<?php echo $key; ?>')">
-                                <?php echo $value['title']; ?>
+                                class="btn btn-light slides_btn <?php echo ($selected_category === $value['slug']) ? 'active' : ''; ?>" 
+                                onclick="filterCategory('<?php echo $value['slug']; ?>')">
+                                <?php print_r($value['title']); ?>
                             </button>
                         </div>
                     <?php endforeach; ?>   
