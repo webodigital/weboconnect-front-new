@@ -13,6 +13,11 @@ body {
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
   line-height: 1.5;
 }
+@media (min-width: 992px) {
+  .gx-lg-7 {
+      --bs-gutter-x: 4rem;
+  }
+}
 .b_rds_5{
   border-radius: 5px !important;
 }
@@ -1354,9 +1359,61 @@ footer {
 .active {
   display: block;
 }
-
+.blog_details_banner_bg{
+  /* background: #F5F5F5; */
+}
 .blog_details_img_card{
-  background: #F5F5F5;
+  position: relative;
+  padding: 25px;
+  z-index: +1;
+  img{
+    position: relative;
+    /* z-index: +1; */
+  }
+  &::after{
+    content: '';
+    width: 130px;
+    height: 130px;
+    background-color: #FF492C;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+  &::before{
+    content: '';
+    width: 130px;
+    height: 130px;
+    background-color: #01458E;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 0;
+  }
+  
+}
+.blog_details_table_content_side_bar{
+  position: sticky;
+  top: 100px;
+  ul{
+    list-style: none;
+    border-left: 4px solid #FC4C02;
+    max-height: 325px;
+    overflow: auto;
+    li{
+    }
+    a{
+
+      margin: 15px 0px;
+      font-size: 18px;
+      font-weight: 600;
+      text-decoration: none;
+      display: block;
+      &.active{
+        color: #FC4C02;;
+      }
+    }
+  }
 }
 .blog_details_content{
   .webo_logo{
@@ -1379,6 +1436,40 @@ footer {
     border-radius: 15px;
   }
 }
+.table_of_content_section{
+  /* padding-top: 100px; */
+  /* min-height: 100vh; */
+  /* display: flex; */
+  width: 100%;
+}
+
+.blog_details_content{
+  p{
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: #282938;
+    margin-bottom: 0px;
+    a{
+      color: #01458E;
+    }
+    strong{
+      font-weight: 600;
+    }
+  }
+  h2 {
+    text-transform: capitalize;
+    strong{
+      font-weight: 600;
+    }
+  }
+  ul li{
+    font-size: 1.75rem;
+    font-weight: 400;
+  }
+}
+
+
+
 .likes_cmnt_card{
   box-shadow: 0px 0px 12.22px 0px #0000001A;
   max-width: 203px;
@@ -2747,32 +2838,6 @@ span.round_bg_webo_logo{
   justify-content: space-between;
 }
 
-
-
-.blog_details_content{
-  p{
-    font-size: 1.75rem;
-    font-weight: 400;
-    color: #282938;
-    margin-bottom: 25px;
-    a{
-      color: #01458E;
-    }
-    strong{
-      font-weight: 600;
-    }
-  }
-  h2 {
-    strong{
-      font-weight: 600;
-    }
-  }
-  ul li{
-
-    font-size: 1.75rem;
-    font-weight: 400;
-  }
-}
 
 /* ================== */
 .web_development{

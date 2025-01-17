@@ -159,7 +159,7 @@
             </span>
             <div class="stat-number" data-target="250">250+</div>
           </div>
-            <p class="fs-16 fw-600">Successfully Delivered</p>
+            <p class="fs-16 fw-600">Successfully Projects</p>
           </div>
         </div>
       </div>

@@ -36,9 +36,9 @@
                     <?php foreach ($categories as $key => $value) : ?>
                         <div class="item">
                             <button 
-                                class="btn btn-light slides_btn <?php echo ($selected_category === $value['slug']) ? 'active' : ''; ?>" 
-                                onclick="filterCategory('<?php echo $value['slug']; ?>')">
-                                <?php print_r($value['title']); ?>
+                                class="btn btn-light slides_btn <?php echo ($selected_category === $key) ? 'active' : ''; ?>" 
+                                onclick="filterCategory('<?php echo $key; ?>')">
+                                <?php echo $value; ?>
                             </button>
                         </div>
                     <?php endforeach; ?>   
@@ -82,13 +82,15 @@
                 <?php foreach ($blogs as $blog) : ?>
                     <div class="col-lg-4 col-sm-6 blogs_item">
                         <div class="blogs_card">
-                            <img class="w-100" src="<?php echo base_url('assets/images/blogs/uploads/thumbnails/' . $blog->thumbnail); ?>" alt="<?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?>" />
-                            <div class="blogs_card_content">
-                                <small class="fs-12 fw-400"><?php echo date('d M Y', strtotime($blog->publish_date)); ?></small>
-                                <h4 class="fs-18 fw-600"><?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?></h4>
-                                <p class="fs-14 fw-400"><?php echo htmlspecialchars($blog->content, ENT_QUOTES, 'UTF-8'); ?></p>
-                                <a class="fs-14 fw-500" href="<?php echo base_url('blog/' . $blog->slug); ?>">Read More</a>
-                            </div>
+                            <a class="fs-14 fw-500" href="<?php echo base_url('blog/' . $blog->slug); ?>">
+                                <img class="w-100" src="<?php echo base_url('assets/images/blogs/uploads/thumbnails/' . $blog->thumbnail); ?>" alt="<?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?>" />
+                                <div class="blogs_card_content">
+                                    <small class="fs-12 fw-400"><?php echo date('d M Y', strtotime($blog->publish_date)); ?></small>
+                                    <h4 class="fs-18 fw-600"><?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?></h4>
+                                    <p class="fs-14 fw-400"><?php echo htmlspecialchars($blog->content, ENT_QUOTES, 'UTF-8'); ?></p>
+                                    <a class="fs-14 fw-500" href="<?php echo base_url('blog/' . $blog->slug); ?>">Read More</a>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 <?php endforeach; ?>
