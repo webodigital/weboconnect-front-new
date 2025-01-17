@@ -149,6 +149,7 @@ class Home extends CI_Controller {
         ];*/
 
         $categories = $this->BlogcategoryModel->getAllCategory();
+        //print_r($categories);
         $data['categories'] = $categories;
 
         $data['selected_category'] = $category_slug; // To retain the selected category in the dropdown or buttons

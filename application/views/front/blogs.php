@@ -38,7 +38,7 @@
                             <button 
                                 class="btn btn-light slides_btn <?php echo ($selected_category === $key) ? 'active' : ''; ?>" 
                                 onclick="filterCategory('<?php echo $key; ?>')">
-                                <?php echo $value; ?>
+                                <?php echo $value['title']; ?>
                             </button>
                         </div>
                     <?php endforeach; ?>   
