@@ -1364,13 +1364,13 @@ footer {
 }
 .blog_details_img_card{
   position: relative;
-  padding: 25px;
+  /* padding: 25px; */
   z-index: +1;
   img{
     position: relative;
     /* z-index: +1; */
   }
-  &::after{
+  /* &::after{
     content: '';
     width: 130px;
     height: 130px;
@@ -1388,8 +1388,8 @@ footer {
     position: absolute;
     left: 0px;
     bottom: 0px;
-    z-index: 0;
-  }
+    z-index: -1;
+  } */
   
 }
 .blog_details_table_content_side_bar{

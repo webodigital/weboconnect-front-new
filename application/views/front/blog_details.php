@@ -1,48 +1,109 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Weboconnect</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+<meta charset="utf-8">
+    <title>WebOConnect|web development|software</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="utf-8">
+    <meta name="author" content="Roman Kirichik">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
   <?php $this->load->view('front/common/styles') ?>
   <!-- ================================================= -->
 </head>
 
-<body data-bs-spy="scroll">
+<body>
+    
+<?php $this->load->view('front/common/header') ?>
+
+<section class="py-4">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-8">
+        <div class="blog_details_img_card">
+        <!-- <img class="w-100" src="<?= base_url() ?>assets/images/blogs/blogs_img5.webp" alt="blogs images" /> -->
+          <img class="w-100" src="<?php echo base_url('assets/images/blogs/uploads/' . $blog->image); ?>" alt="<?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?>" />
+          <div class="p-3">
+            <h1 class="fs-30 fw-600 my-3"><?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?></h1>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4">
+        <div class="latest_blogs_container">
+          
+          <div class="social_links_share_card">
+            <div class="row">
+              <div class="col-7">
+                <div class="social_links">
+                  <a class="" href="#" target="_blank" onclick="shareOnFacebook()">
+                    <i class="fs-20 bi bi-facebook"></i>
+                  </a>
+
+                  <a class="" href="#" target="_blank" onclick="shareOnLinkedIn()">
+                    <i class="fs-20 bi bi-linkedin"></i>
+                  </a>
+
+                  <a class="" href="#" target="_blank" class="" onclick="shareOnInstagram()">
+                    <i class="fs-20 bi bi-instagram"></i>
+                  </a>
+  
+                  <a class="" href="#" target="_blank" onclick="shareOnTwitter()">
+                    <i class="fs-20 bi bi-twitter-x"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="col-5">
+                <div class="d-flex align-items-center">
+                  <span class="fs-14 fw-600">0</span> 
+                  <span class="fs-14 fw-600 text_brand_color2 ms-1">Share</span>
+                  <i class="fs-16 bi bi-share-fill ms-3"></i>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="row g-4 mt-1">
+            <div class="col-12">
+                <h3 class="fs-24 fw-600 m-0">Latest</h3>
+            </div>
+            <div class="latest_blogs_list">
+              <?php foreach ($recentblogs as $blog) : ?>
+                <div class="col-12">
+                  <div class="side_latest_blog_card">
+                    <div class="row align-items-center">
+                      <div class="col-sm-4">
+                        <img class="w-100" src="<?php echo base_url('assets/images/blogs/uploads/thumbnails/' . $blog->thumbnail); ?>" alt="<?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?>" />
+                      </div>
+                      <div class="col-sm-8">
+                        <small class="fs-10 fw-400"><?php echo date('d M Y', strtotime($blog->publish_date)); ?></small>
+                        <h4 class="fs-14 fw-600"><?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?></h4>
+                        <p class="fs-12 fw-400 m-0"><?php echo htmlspecialchars(substr($blog->content, 0, 100), ENT_QUOTES, 'UTF-8'); ?>...</p>
+                        <a class="fs-12 fw-500 text_brand_color2" href="<?php echo base_url('blog/' . $blog->slug); ?>">Read More</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <?php endforeach; ?>  
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
 
 
 
 <section class="">
-  <div class="blog_details_banner_bg section_padding">
-    <div class="container">
-      <div class="row gx-lg-7 g-sm-3">
-        <div class="col-sm-5">
-          <div>
-            <h6 class="fs-12 fw-700 text_brand_color2 mb-3">Web and App Development</h6>
-            <ul class="nav gap-3">
-              <li class="fs-14 fw-500 text_dark_color1">Jan 15, 2025 </li>
-              <li class="fs-14 fw-500 text_dark_color1">|</li>
-              <li class="fs-14 fw-500 text_dark_color1"> 3 Minute Ago</li>
-            </ul>
-          </div>
-          <div class="">
-            <h1 class="fs-54 fw-600 my-3">Unlocking the Future: 
-            Cloud Computing in Modern Web and App Development</h1>
-          </div>
-        </div>
-        <div class="col-sm-7">
-          <div class="blog_details_img_card">
-            <img class="w-100" src="<?php echo base_url('assets/images/blogs/uploads/' . $blog->image); ?>" alt="<?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?>" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <div class="container">
 
     <div class="row">
@@ -427,6 +488,7 @@
         </div>
     </div>
 </section>
+
 
 
 <?php $this->load->view('front/common/footer_form') ?>

@@ -1,13 +1,14 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Weboconnect</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+<meta charset="utf-8">
+<title>Our Team -Dedicated Software Development Team</title>
+<meta name="description" content="Hire dedicated developers team WebOConnect for Web & Software App development. Team has broad skills experience to create robust application for your business"/>
+<meta name="keywords" content="Dedicated Development Team, Hire Development Team, Dedicated Development Team, Software Development Team, Dedicated apps Development team"/>
+<meta name="author" content="Roman Kirichik">
+<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
   <!-- ====================== Links =========================== -->
   <?php $this->load->view('front/common/styles') ?>

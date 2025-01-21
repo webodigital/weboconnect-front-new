@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Weboconnect</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <head>
+<meta charset="utf-8"/>
+<title>Best Software Development |  Web Design Company- WebOConnect</title>
+<!--<meta name="description" content="We offer best website development in USA and India, along with quality web design, software development, Mobile Apps, CMS development Company"/>
+<meta name="keywords" content="software development company, custom web portal development, apps development, Mobile Application Development, application development, ecommerce development, Website Designing Company, Crypto Development"/>
+<meta name="robots" content="index, follow" />-->
+<meta name="description" content="Mobile apps are ahead of mobile websites on most KPIs! From better client experience to personalized content recommendations, mobile apps offer benefits that mobile websites simply cannot match. But there's one advantage that truly sets apps apart, and you won't believe how powerful it is. Find out more..."/>
+<meta name="description" content="Mobile app development relies heavily on user experience (UX) for success. A well-designed UX boosts retention rates, makes customers happy, and increases brand recognition. Meeting user requirements and effective communication are vital aspects of UX. Prioritizing UX and UI ensures a successful and engaging app experience."/>
+<meta name="keywords" content="software development company, custom web portal development, apps development, Mobile Application Development, application development, ecommerce development, Website Designing Company, Crypto Development"/>
+<meta name="robots" content="index, follow" />
+<meta name="author" content="Roman Kirichik"/>
+<meta name="distribution" content="Global" />
+<meta name="language" content="EN-US" />
+<meta name="doc-type" content="Public" />
+<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
   <!-- ====================== Links =========================== -->
   <?php $this->load->view('front/common/styles') ?>
@@ -1767,7 +1775,7 @@
       <div class="row">
           <div class="col-12 mt-5">
             <div class="text-center">
-              <button class="btn btn-light btn-rounded px-4" data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal">Discuss Your Project</button>
+              <button class="btn btn-light btn-rounded px-5" data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal">Discuss Your Project</button>
             </div>
           </div>
       </div>
