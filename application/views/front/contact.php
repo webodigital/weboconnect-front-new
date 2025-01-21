@@ -1,13 +1,18 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Weboconnect</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <head>
+<meta charset="utf-8">
+<title>Contact Us-: eCommerce Web Development Contact | Applications Development USA -Weboconnect</title>
+<meta name="description" content="Contact for website design and development company in USA. Best Applications Development Company in India Base Get in Touch with us for your Website Designing."/>
+<meta name="keywords" content="website design company in USA, website designing in USA, web development companies in USA, Applications Development USA, eCommerce Web Development USA, Mobile App Development USA"/>
+<meta name="robots" content="index, follow" />
+<meta name="author" content="Roman Kirichik"/>
+<meta name="distribution" content="Global" />
+<meta name="language" content="EN-US" />
+<meta name="doc-type" content="Public" />
+<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
   <?php $this->load->view('front/common/styles') ?>
   <!-- ================================================= -->

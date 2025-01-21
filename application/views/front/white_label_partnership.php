@@ -1,13 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Weboconnect</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+<meta charset="utf-8">
+<title>White Label Partnership | Software Partner Program -WebOConnect</title>
+<meta name="description" content="White Label Software Partners offer our identity management systems under their brand. They apply their logos and style sheets to our tools."/>
+<meta name="keywords" content="information technology partners, White Label Partnership, Software Partner Program, technology partners "/>
+<meta charset="utf-8">
+<meta name="author" content="Roman Kirichik">
+<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
   <?php $this->load->view('front/common/styles') ?>
   <!-- ================================================= -->

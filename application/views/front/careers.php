@@ -1,13 +1,20 @@
 <!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta charset="utf-8">
+<title>Careers : WebOconnect Technologies</title>
+<meta name="description" content="Learn more about job and career opportunities at Weboconnect. Search our current openings today to find the best fit for you and your career goals."/>
+<meta name="keywords" content="career opportunity, job openings, jobs, careers, php developers Job, Android Developer Job, Web Developer Job, Software developers Job,"/>
+<meta name="robots" content="index, follow" />
+<meta name="author" content="Roman Kirichik"/>
+<meta name="distribution" content="Global" />
+<meta name="language" content="EN-US" />
+<meta name="doc-type" content="Public" />
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
-  <title>Weboconnect</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
 
   <?php $this->load->view('front/common/styles') ?>
   <!-- ================================================= -->
