@@ -15,6 +15,274 @@
 
 <body data-bs-spy="scroll">
 
+<section class="py-4">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-8">
+        <div class="blog_details_img_card">
+        <!-- <img class="w-100" src="<?= base_url() ?>assets/images/blogs/blogs_img5.webp" alt="blogs images" /> -->
+          <img class="w-100" src="<?php echo base_url('assets/images/blogs/uploads/' . $blog->image); ?>" alt="<?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?>" />
+          <div class="p-3">
+            <h1 class="fs-30 fw-600 my-3"><?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?></h1>
+          </div>
+        </div>
+        <div class="blog_details_content">
+
+          <div class="row align-items-center g-4 mt-1">
+
+            <div class="col">
+              <div class="d-flex align-items-center">
+                <span class="webo_logo">
+                  <img src="<?= base_url() ?>assets/images/thnk_logo.webp" alt="logo" />
+                </span>
+                <div class="ms-3">
+                  <h3 class="fs-24 fw-600 m-0"><?php echo htmlspecialchars($blog->author_name, ENT_QUOTES, 'UTF-8'); ?></h3>
+                  <small class="fs-12 fw-400"><?php echo date('d M Y', strtotime($blog->publish_date)); ?></small>
+                </div>
+              </div>
+            </div>
+            <div class="col-auto">
+              <div class="likes_cmnt_card">
+                <div class="d-flex flex-wrap align-items-center likeBtn">
+                  <i class="text_brand_color2 fs-16 bi bi-hand-thumbs-up-fill"></i>
+                  <span class="fs-12 fw-500 ms-2 likebtncount">0</span>
+                </div>
+                <div class="d-flex flex-wrap align-items-center">
+                  <i class="text-black fs-16 bi bi-chat-text-fill"></i>
+                  <span class="fs-12 fw-500 ms-2">0</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <div class="d-flex flex-wrap gap-2 mt-4">
+                <!-- <span class="badge fs-14 fw-400">Technology</span>
+                <span class="badge fs-14 fw-400">CLOUD COMPUTING</span>
+                <span class="badge fs-14 fw-400">MODERN WEB DEVELOPMENT</span>
+                <span class="badge fs-14 fw-400">Business</span>
+                <span class="badge fs-14 fw-400">Productivity</span>
+                <span class="badge fs-14 fw-400">Art</span>
+                <span class="badge fs-14 fw-400">Mindfullness</span> -->
+                <?php 
+                  $tags = explode(', ', $blog->tags); 
+                  foreach($tags as $tag) { 
+                      echo '<span class="badge fs-14 fw-400">' . htmlspecialchars($tag) . '</span>'; 
+                  }
+                ?>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <div class="mt-4">
+                <?php echo $blog->content ?>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row align-items-center g-4 mt-1 d-none">
+            <div class="col">
+              <div class="d-flex align-items-center">
+                <h3 class="fs-24 fw-600 m-0">Comments</h3>
+                <span class="badge py-3 ms-3" style="background: #01458E;">
+                  <i class="text-white fs-16 bi bi-pencil-square"></i>
+                </span>
+              </div>
+            </div>
+            <div class="col-auto">
+              <div class="likes_cmnt_card">
+                <div class="d-flex flex-wrap align-items-center likeBtn">
+                  <i class="text_brand_color2 fs-16 bi bi-hand-thumbs-up-fill"></i>
+                  <span class="fs-12 fw-500 ms-2 likebtncount">0</span>
+                </div>
+                <div class="d-flex flex-wrap align-items-center">
+                  <i class="text-black fs-16 bi bi-chat-text-fill"></i>
+                  <span class="fs-12 fw-500 ms-2" id="commentbtncount">0</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row g-4 mt-4">
+
+            <!-- <div class="col-12">
+              <div class="comments_card">
+                <div class="row">
+                  <div class="col-auto">
+                    <div class="user" style="width:50px;">
+                      <span>
+                        <img src="<?= base_url() ?>assets/images/icons/user.webp" alt="Outsource Project">
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <p class="fs-18 fw-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula nibh, interdum non enim sit amet, iaculis aliquet nunc.</p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-auto">
+                    <div class="" style="width:50px;">
+                      <h5 class="fs-18 fw-400">user</h5>
+                    </div>
+                  </div>
+                  <div class="col">
+                      <div class="d-flex">
+                        <h5 class="fs-18 fw-600 text_gray">Reply</h5>
+                        <span class="fs-18 fw-400 text_brand_color3 ms-3">a min ago</span>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="comments_card">
+                <div class="row">
+                  <div class="col-auto">
+                    <div class="user" style="width:50px;">
+                      <span>
+                        <img src="<?= base_url() ?>assets/images/icons/user.webp" alt="Outsource Project">
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <p class="fs-18 fw-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula nibh, interdum non enim sit amet, iaculis aliquet nunc.</p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-auto">
+                    <div class="" style="width:50px;">
+                      <h5 class="fs-18 fw-400">user</h5>
+                    </div>
+                  </div>
+                  <div class="col">
+                      <div class="d-flex">
+                        <h5 class="fs-18 fw-600 text_gray">Reply</h5>
+                        <span class="fs-18 fw-400 text_brand_color3 ms-3">a min ago</span>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="comments_card">
+                <div class="row">
+                  <div class="col-auto">
+                    <div class="user" style="width:50px;">
+                      <span>
+                        <img src="<?= base_url() ?>assets/images/icons/user.webp" alt="Outsource Project">
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <p class="fs-18 fw-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula nibh, interdum non enim sit amet, iaculis aliquet nunc.</p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-auto">
+                    <div class="" style="width:50px;">
+                      <h5 class="fs-18 fw-400">user</h5>
+                    </div>
+                  </div>
+                  <div class="col">
+                      <div class="d-flex">
+                        <h5 class="fs-18 fw-600 text_gray">Reply</h5>
+                        <span class="fs-18 fw-400 text_brand_color3 ms-3">a min ago</span>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 text-center my-4">
+              <a class="btn view_all_button fs-16 fw-600 " href="<?= base_url() ?>">View All</a>
+            </div> -->
+
+            <div id="commentsContainer"></div>
+
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="col-lg-4">
+        <div class="latest_blogs_container">
+          
+          <div class="social_links_share_card">
+            <div class="row">
+              <div class="col-7">
+                <div class="social_links">
+                  <a class="" href="#" target="_blank" onclick="shareOnFacebook()">
+                    <i class="fs-20 bi bi-facebook"></i>
+                  </a>
+
+                  <a class="" href="#" target="_blank" onclick="shareOnLinkedIn()">
+                    <i class="fs-20 bi bi-linkedin"></i>
+                  </a>
+
+                  <a class="" href="#" target="_blank" class="" onclick="shareOnInstagram()">
+                    <i class="fs-20 bi bi-instagram"></i>
+                  </a>
+  
+                  <a class="" href="#" target="_blank" onclick="shareOnTwitter()">
+                    <i class="fs-20 bi bi-twitter-x"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="col-5">
+                <div class="d-flex align-items-center">
+                  <span class="fs-14 fw-600">0</span> 
+                  <span class="fs-14 fw-600 text_brand_color2 ms-1">Share</span>
+                  <i class="fs-16 bi bi-share-fill ms-3"></i>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="row g-4 mt-1">
+            <div class="col-12">
+                <h3 class="fs-24 fw-600 m-0">Latest</h3>
+            </div>
+            <div class="latest_blogs_list">
+              <?php foreach ($recentblogs as $blog) : ?>
+                <div class="col-12">
+                  <div class="side_latest_blog_card">
+                    <div class="row align-items-center">
+                      <div class="col-sm-4">
+                        <img class="w-100" src="<?php echo base_url('assets/images/blogs/uploads/thumbnails/' . $blog->thumbnail); ?>" alt="<?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?>" />
+                      </div>
+                      <div class="col-sm-8">
+                        <small class="fs-10 fw-400"><?php echo date('d M Y', strtotime($blog->publish_date)); ?></small>
+                        <h4 class="fs-14 fw-600"><?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?></h4>
+                        <p class="fs-12 fw-400 m-0"><?php echo htmlspecialchars(substr($blog->content, 0, 100), ENT_QUOTES, 'UTF-8'); ?>...</p>
+                        <a class="fs-12 fw-500 text_brand_color2" href="<?php echo base_url('blog/' . $blog->slug); ?>">Read More</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <?php endforeach; ?>  
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
 
 
 <section class="">
