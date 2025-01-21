@@ -69,12 +69,9 @@ $route['javascript-framework'] = 'home/javascript_framework';
 $route['python-framework'] = 'home/python_framework';
 $route['php-framework'] = 'home/php_framework';
 $route['mobile-application-framework'] = 'home/mobile_application_framework';
-
-
 $route['blockchain-development'] = 'home/blockchain_development';
 $route['artificial-intelligence'] = 'home/artificial_intelligence';
 $route['IOT'] = 'home/iot_development';
-
 $route['our-team'] = 'home/our_team';
 $route['careers'] = 'home/careers';
 $route['privacy-policy'] = 'home/privacy_policy';

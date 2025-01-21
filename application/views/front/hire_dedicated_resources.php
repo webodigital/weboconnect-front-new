@@ -69,8 +69,8 @@
                     <div class="">
                         <h4 class="d-flex fs-30 justify-content-center">
                             <span>
-                                <img class="dark" src="<?=base_url()?>assets/images/icons/dark_it_experts.webp" alt="">
-                                <img class="light" src="<?=base_url()?>assets/images/icons/it_experts.webp" alt="">
+                                <img class="dark" src="<?=base_url()?>assets/images/icons/dark_it_experts.webp" alt="IT Experts">
+                                <img class="light" src="<?=base_url()?>assets/images/icons/it_experts.webp" alt="IT Experts">
                             </span>
                             <span class="ms-2">100+</span>
                         </h4>
@@ -83,8 +83,8 @@
                     <div class="text-center">
                         <h4 class="d-flex fs-30 justify-content-center">
                             <span>
-                                <img class="dark" src="<?=base_url()?>assets/images/icons/dark_completed_projects.webp" alt="">
-                                <img class="light" src="<?=base_url()?>assets/images/icons/completed_projects.webp" alt="">
+                                <img class="dark" src="<?=base_url()?>assets/images/icons/dark_completed_projects.webp" alt="Projects">
+                                <img class="light" src="<?=base_url()?>assets/images/icons/completed_projects.webp" alt="Projects">
                             </span>
                             <span class="ms-2">250+</span>
                         </h4>
@@ -97,8 +97,8 @@
                     <div class="">
                         <h4 class="d-flex fs-30 justify-content-center">
                             <span>
-                                <img class="dark" src="<?=base_url()?>assets/images/icons/dark_global_clients.webp" alt="">
-                                <img class="light" src="<?=base_url()?>assets/images/icons/global_clients.webp" alt="">
+                                <img class="dark" src="<?=base_url()?>assets/images/icons/dark_global_clients.webp" alt="Clients & Partners">
+                                <img class="light" src="<?=base_url()?>assets/images/icons/global_clients.webp" alt="Clients & Partners">
                             </span>
                             <span class="ms-2">200+</span>
                         </h4>
@@ -111,8 +111,8 @@
                     <div class="text-center">
                         <h4 class="d-flex fs-30 justify-content-center">
                             <span>
-                                <img class="dark" src="<?=base_url()?>assets/images/icons/dark_yrs_experiences.webp" alt="">
-                                <img class="light" src="<?=base_url()?>assets/images/icons/yrs_experiences.webp" alt="">
+                                <img class="dark" src="<?=base_url()?>assets/images/icons/dark_yrs_experiences.webp" alt="Years Of Experiences">
+                                <img class="light" src="<?=base_url()?>assets/images/icons/yrs_experiences.webp" alt="Years Of Experiences">
                             </span>
                             <span class="ms-2">8+</span>
                         </h4>
@@ -125,8 +125,8 @@
                     <div class="">
                         <h4 class="d-flex fs-30 justify-content-center">
                             <span>
-                                <img class="dark" src="<?=base_url()?>assets/images/icons/dark_client_retention.webp" alt="">
-                                <img class="light" src="<?=base_url()?>assets/images/icons/client_retention.webp" alt="">
+                                <img class="dark" src="<?=base_url()?>assets/images/icons/dark_client_retention.webp" alt="Client Retention">
+                                <img class="light" src="<?=base_url()?>assets/images/icons/client_retention.webp" alt="Client Retention">
                             </span>
                             <span class="ms-2">97%</span>
                         </h4>
@@ -465,7 +465,7 @@
 
         <div class="row justify-content-center g-4 mt-5">
             <div class="col-2 d-grid">
-                <a href="" class="btn btn-rounded btn-md btn-light px-5">Hire Now</a>
+                <a href="javascript:void(0)"  class="btn btn-rounded btn-md btn-light px-5">Hire Now</a>
             </div>
         </div>
     </div>
