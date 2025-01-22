@@ -32,7 +32,7 @@
           </div>
         </div>
       </div>
-
+      <?php //echo $blog->content; ?>
 
       <div class="col-lg-4">
         <div class="latest_blogs_container">
@@ -74,18 +74,18 @@
                 <h3 class="fs-24 fw-600 m-0">Latest</h3>
             </div>
             <div class="latest_blogs_list">
-              <?php foreach ($recentblogs as $blog) : ?>
+              <?php foreach ($recentblogs as $rblog) : ?>
                 <div class="col-12">
                   <div class="side_latest_blog_card">
                     <div class="row align-items-center">
                       <div class="col-sm-4">
-                        <img class="w-100" src="<?php echo base_url('assets/images/blogs/uploads/thumbnails/' . $blog->thumbnail); ?>" alt="<?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?>" />
+                        <img class="w-100" src="<?php echo base_url('assets/images/blogs/uploads/thumbnails/' . $rblog->thumbnail); ?>" alt="<?php echo htmlspecialchars($rblog->title, ENT_QUOTES, 'UTF-8'); ?>" />
                       </div>
                       <div class="col-sm-8">
-                        <small class="fs-10 fw-400"><?php echo date('d M Y', strtotime($blog->publish_date)); ?></small>
-                        <h4 class="fs-14 fw-600"><?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?></h4>
-                        <p class="fs-12 fw-400 m-0"><?php echo htmlspecialchars(substr($blog->content, 0, 100), ENT_QUOTES, 'UTF-8'); ?>...</p>
-                        <a class="fs-12 fw-500 text_brand_color2" href="<?php echo base_url('blog/' . $blog->slug); ?>">Read More</a>
+                        <small class="fs-10 fw-400"><?php echo date('d M Y', strtotime($rblog->publish_date)); ?></small>
+                        <h4 class="fs-14 fw-600"><?php echo htmlspecialchars($rblog->title, ENT_QUOTES, 'UTF-8'); ?></h4>
+                        <p class="fs-12 fw-400 m-0"><?php echo htmlspecialchars(substr($rblog->content, 0, 100), ENT_QUOTES, 'UTF-8'); ?>...</p>
+                        <a class="fs-12 fw-500 text_brand_color2" href="<?php echo base_url('blog/' . $rblog->slug); ?>">Read More</a>
                       </div>
                     </div>
                   </div>
@@ -112,81 +112,23 @@
       <div class="blog_details_table_content_side_bar">
         <h4 class="fs-28 fw-700">Table of Contents</h4>
         <nav class="table_of_contents">
-          <ul id="list-example">
+          <!-- <ul id="list-example">
               <a href="#introduction">Introduction</a>
               <a href="#what_is_cloud_computing">What Is Cloud Computing?</a>
               <a href="#modern_web_development">Modern Web Development with Cloud: Build Better, Faster</a>
               <a href="#cloud_solutions_for_developers">Cloud Solutions for Developers: A Toolbox of Possibilities</a>
               <a href="#conclusion">Conclusion</a>
               <a href="#faqs">FAQs </a>
-          </ul>
+          </ul> -->
+          
+          <?php echo $toc; ?>
+
         </nav>
       </div>
     </div>
       <div class="col-lg-8">
-
         <div class="blog_details_content"  data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" tabindex="0">
-
-
-            <section class="table_of_content_section" id="introduction">
-              <h2 class="fs-24 fw-600">Introduction</h2>
-              <p>In today's digital world, every second counts. But with the looming increased pressure on modernizing solutions to faster, more scalable, and innovative ways, one solution has changed the face of web and app development-just that; cloud computing. Forget the drawbacks of server crashes, high hardware costs, and painfully slow implementation times. Cloud computing is going to change the face of application growth and deployment permanently. </p>
-            </section>
-
-            <section class="table_of_content_section" id="what_is_cloud_computing">
-                <h2 class="fs-24 fw-600">What Is Cloud Computing?</h2>
-                <p>Cloud computing is the on-demand delivery of computing services such as servers, storage, databases, networking, software, and analytics. Rather than keeping files on a proprietary hard drive or local storage device, it makes it possible to save remotely. Cloud computing is a popular option for people and businesses, allowing for cost savings, increased productivity, speed and efficiency, performance, and security.</p>
-                <p>Scalability in Apps Using Cloud Computing</p>
-                <p>What if you build an app that becomes a viral sensation overnight? With traditional hosting, you'll experience server crashes and cranky users. With cloud computing for the scalability of applications, it's effortless to scale up or down with demand. Your traffic might be booming one minute or tanking the next; the cloud adjusts to scale with you. And that keeps your application responsive and reliable.</p>
-                <p>It does not take much to focus on the major benefits of cloud computing in web development:</p>
-                <p>Faster time to market- You can spin up new instances or retire them in seconds, allowing developers to accelerate development with quick deployments. Cloud computing supports new innovations by making it easy to test new ideas and design new applications without hardware limitations or slow procurement processes. <br>
-                Scalability and flexibility- Cloud computing gives your business more flexibility. You can quickly scale resources and storage up to meet business demands without having to invest in physical infrastructure.</p>
-                <p>Cost savings- Whatever cloud service model you choose, you only pay for the resources you actually use. This helps you avoid overbuilding and overprovisioning your data center and gives your IT teams back valuable time to focus on more strategic work.</p>
-                <p>Better collaboration- Cloud storage enables you to make data available anywhere you are, anytime you need it. Instead of being tied to a location or specific device, people can access data from anywhere in the world from any device—as long as they have an internet connection.</p>
-                <p>Advanced security- Despite popular perceptions, cloud computing can actually strengthen your security posture because of the depth and breadth of security features, automatic maintenance, and centralized management.</p>
-                <p>Reputable cloud providers also hire top security experts and employ the most advanced solutions, providing more robust protection. </p>
-                <p>Data loss prevention: Cloud providers offer backup and disaster recovery features. Storing data in the cloud rather than locally can help prevent data loss in the event of an emergency, such as hardware malfunction, malicious threats, or even simple user error. </p>                
-            </section>
-
-            <section class="table_of_content_section" id="modern_web_development">
-              <h2 class="fs-24 fw-600">Modern Web Development with Cloud: Build Better, Faster</h2>
-              <p>Cloud computing is more of a tool but has indeed proven itself as a great ally in modern web development. With platforms like React, Angular, and Node.js, developers can easily build dynamic, responsive applications hosted flawlessly on the cloud.</p>
-              <p>Imagine managing cloud databases like Firebase or AWS DynamoDB in an absolutely hassle-free way. You will build applications that go real-time and get your user to the best experiences and engagement.</p>
-            </section>
-
-            <section class="table_of_content_section" id="cloud_solutions_for_developers">
-                <h2 class="fs-24 fw-600">Cloud Solutions for Developers: A Toolbox of Possibilities</h2>
-                <p>The cloud has a huge range of solutions to accommodate the needs of the developer:</p>
-                <p>PaaS- Heroku, Google App Engine, and so on. The services make development easier for you so that you can code applications without having to deal with the underlying infrastructure.</p>
-                <p>IaaS- Providers, including AWS EC2, and Microsoft Azure, allow you to rent virtual machines and storage resources for maximum control over your infrastructure.</p>
-                <p>SaaS- Take advantage of applications running through Google Workspace and Microsoft 365 to collaborate and be productive without local installations.</p>
-            </section>
-            <section class="table_of_content_section" id="conclusion">
-              <h2 class="fs-24 fw-600">Conclusion</h2>
-              <p>Cloud computing has transformed from being just a trend into becoming a whole and fundamental shift in the approach for web and application development. Its ability to provide scalability, cost-effectiveness, and access has changed the face of development, and allows developers to produce more innovative applications.</p>
-            </section>
-            <section class="table_of_content_section" id="faqs">
-              <div class="mt-5">
-                <h2 class="fs-24 fw-600">FAQs</h2>
-                <h5 class="fs-20 fw-400">Q1. How would you define the role of cloud computing in app development?</h5>
-                <p>1. Fast Go-to-Market- The acceleration of the process of development is possible on account of cloud solutions. Developers would be able to roll out products very quickly and would be able to quickly respond to market needs.</p>
-                <p>2. The cloud collaboration: Here, the developers, designers, and other contributors can work together in real-time, which leads to innovation and teamwork.</p>
-                <p>3. Highly secure: Advanced security features are taken care of by the cloud providers; thus your applications remain highly secure from their malicious threats.</p>
-                <p>4. Explore New Technology: Cloud computing unfolds emerging technologies like Artificial Intelligence, Machine Learning, and IoT before you. Integration with this technology can give users an experience like never before.</p>
-              </div>
-
-              <div class="mt-5">
-                <h5 class="fs-20 fw-400">Q2. Which of the big cloud providers stands out for their service, and how are such services benefiting application developers in that regard?</h5>
-                <p>Ans. The likes of Amazon Web Services, Microsoft Azure, and Google Cloud Platform are top cloud providers as they offer an all-encompassing set of services suitable for the average developer. From virtual machines to container orchestration and serverless computing, there are certain features with each that no other platform offers for a specific task. For instance, AWS has deep resources for machine learning use cases, and Azure has capabilities that can integrate well with other Microsoft products. </p>
-              </div>
-              <div class="mt-5">
-                <h5 class="fs-20 fw-400">Q3. How does the use of cloud computing facilitate cooperative efforts by the different development teams, and why is this cooperation important in today's increasingly dynamic technology landscape?</h5>
-                <p>Ans. Cloud computing also enables developers and other members of your team to collaborate with one another in real-time. One does not have to be in the same room, even in the same country, since access is given to shared resources, tools, and applications all around the world. This means that if your team's members are spread across the globe or working from a common office, the possibility of making simultaneous contributions exists. </p>
-              </div>
-            </section>
-
-
-
+          
           <div class="row align-items-center g-4 mt-1">
             <div class="col">
               <div class="d-flex align-items-center">
@@ -211,7 +153,6 @@
                 </div>
               </div>
             </div>
-
           </div>
 
           <div class="row">
@@ -237,7 +178,8 @@
           <div class="row">
             <div class="col-12">
               <div class="mt-4">
-                <?php echo $blog->content ?>
+                <?php //echo $blog->content ?>
+                <?php echo $content ?>
               </div>
             </div>
           </div>
@@ -496,7 +438,20 @@
 
 </body> 
 <?php $this->load->view('front/common/script') ?>
+
 <script>
+document.querySelectorAll('a[href^="#section"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+
+<script>
+
     $(document).ready(function() {
 
         var comments = <?php echo json_encode($comments); ?>;

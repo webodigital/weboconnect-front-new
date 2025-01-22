@@ -210,6 +210,114 @@ class Home extends CI_Controller {
 
 		$this->load->view('front/blogs', $data);
 	}
+
+    function buildTocHierarchy($headings) {
+        $toc = '';
+        $prevLevel = 0;
+
+        foreach ($headings as $heading) {
+            //echo $heading;
+            $level = $heading['level'];
+            $text = htmlspecialchars($heading['text']);
+            $id = $heading['id'];
+
+            if ($level > $prevLevel) {
+                $toc .= '<ul>';
+            } elseif ($level < $prevLevel) {
+                $toc .= str_repeat('</ul></li>', $prevLevel - $level);
+            } else {
+                $toc .= '</li>';
+            }
+
+            $toc .= '<li><a href="#' . $id . '">' . $text . '</a>';
+            $prevLevel = $level;
+        }
+
+        // Close remaining tags
+        $toc .= str_repeat('</li></ul>', $prevLevel);
+
+        return $toc;
+    }
+
+    function get_all_headings( $content ) {
+
+        // Fix encoding issues
+        libxml_use_internal_errors(true);  // Suppress warnings
+        $dom = new DOMDocument();
+        $dom->loadHTML(mb_convert_encoding($content, 'HTML-ENTITIES', 'UTF-8'));
+        libxml_clear_errors();
+
+        //print_r($content);
+
+        // Array to store headings
+        $headings = [];
+
+        for ($i = 1; $i <= 6; $i++) {
+            $tags = $dom->getElementsByTagName("h$i");
+            foreach ($tags as $tag) {
+                //$headings[] = trim($tag->textContent);  // Get and trim heading text
+
+                // Generate unique ID and assign to heading
+                $id = "section" . $idCounter++;
+                //$id = "section";
+                $tag->setAttribute('id', $id);
+
+                // Store heading details for TOC
+                $headings[] = [
+                    'level' => $i,
+                    'text' => trim($tag->textContent),
+                    'id' => $id
+                ];
+            }
+        }
+        // Convert the updated DOM back to HTML
+        //$updated_content = $dom->saveHTML();
+
+        $toc = $this->buildTocHierarchy($headings);
+
+        return $toc;
+
+    }
+
+    public function get_all_headings_content($content)
+    {
+        // Sample content from the database (replace with actual content)
+        //$content = $blog->content;
+
+        // Fix encoding issues
+        libxml_use_internal_errors(true);
+        $dom = new DOMDocument();
+        $dom->loadHTML(mb_convert_encoding($content, 'HTML-ENTITIES', 'UTF-8'));
+        libxml_clear_errors();
+
+        // Array to store headings
+        $headings = [];
+        $idCounter = 0;
+
+        for ($i = 1; $i <= 6; $i++) {
+            $tags = $dom->getElementsByTagName("h$i");
+            foreach ($tags as $tag) {
+                // Generate unique ID and assign to heading
+                $id = "section" . $idCounter++;
+                $tag->setAttribute('id', $id);
+
+                // Store heading details for TOC
+                $headings[] = [
+                    'level' => $i,
+                    'text' => trim($tag->textContent),
+                    'id' => $id
+                ];
+            }
+        }
+
+        // Convert the updated DOM back to HTML
+        $updated_content = $dom->saveHTML();
+
+        //print_r($updated_content);
+
+        return $updated_content;
+    }
+
 	public function blog_details($id)
 	{
         $this->load->model('BlogModel');
@@ -228,6 +336,8 @@ class Home extends CI_Controller {
         // Pass blog data to the view
         $data['title'] = 'Single Blog';
         $data['blog'] = $blog;
+        $data['toc'] = $this->get_all_headings($blog->content);
+        $data['content'] = $this->get_all_headings_content($blog->content);
         $data['comments'] = $comments;
         $data['recentblogs'] = $recentblogs;
         $data['meta_title'] = $blog->meta_title ?? 'Single Blog Page';
