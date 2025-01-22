@@ -61,7 +61,7 @@
                     <div class="item">
                         <div class="image">
                             <div class="img-wrapper cursor-pointer">
-                                <img src="<?=base_url()?>assets/images/portfolio/web/fundlink_web.webp" class="img-responsive" />
+                                <img src="<?=base_url()?>assets/images/portfolio/web/fundlink_web.webp" class="img-responsive" alt="Fundlink" />
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">Fundlink</h4>                                    
                                     <a target="_blank" href="http://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
@@ -77,7 +77,7 @@
                     <div class="item">
                         <div class="image">
                             <div class="img-wrapper cursor-pointer">
-                                <img src="<?=base_url()?>assets/images/portfolio/web/legacy83business_web.webp" class="img-responsive" />
+                                <img src="<?=base_url()?>assets/images/portfolio/web/legacy83business_web.webp" class="img-responsive" alt="legacy83business" />
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">legacy83business</h4>                                    
                                     <a target="_blank" href="https://legacy83business.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
@@ -93,7 +93,7 @@
                     <div class="item">
                         <div class="image">
                             <div class="img-wrapper cursor-pointer">
-                                <img src="<?=base_url()?>assets/images/portfolio/web/angela_web.webp" class="img-responsive" />
+                                <img src="<?=base_url()?>assets/images/portfolio/web/angela_web.webp" class="img-responsive" alt="Angela Simeone" />
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">Angela Simeone</h4>                                    
                                     <a target="_blank" href="https://angelasimeone.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
@@ -109,7 +109,7 @@
                     <div class="item">
                         <div class="image">
                             <div class="img-wrapper cursor-pointer">
-                                <img src="<?=base_url()?>assets/images/portfolio/web/cycle_exchange_web.webp" class="img-responsive" />
+                                <img src="<?=base_url()?>assets/images/portfolio/web/cycle_exchange_web.webp" class="img-responsive" alt="cycle exchange" />
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">cycle exchange</h4>                                    
                                     <a target="_blank" href="https://www.cycleexchange.co.uk/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
@@ -125,7 +125,7 @@
                     <div class="item">
                         <div class="image">
                             <div class="img-wrapper cursor-pointer">
-                                <img src="<?=base_url()?>assets/images/portfolio/web/national_light_web.webp" class="img-responsive" />
+                                <img src="<?=base_url()?>assets/images/portfolio/web/national_light_web.webp" class="img-responsive" alt="National Light" />
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">National Light</h4>                                    
                                     <a target="_blank" href="https://www.nationallighting.co.uk/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
@@ -141,7 +141,7 @@
                     <div class="item">
                         <div class="image">
                             <div class="img-wrapper cursor-pointer">
-                                <img src="<?=base_url()?>assets/images/portfolio/web/onehopewine_web.webp" class="img-responsive" />
+                                <img src="<?=base_url()?>assets/images/portfolio/web/onehopewine_web.webp" class="img-responsive" alt="onehopewine" />
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">onehopewine</h4>                                    
                                     <a target="_blank" href="https://www.onehopewine.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
@@ -157,7 +157,7 @@
                     <div class="item">
                         <div class="image">
                             <div class="img-wrapper cursor-pointer">
-                                <img src="<?=base_url()?>assets/images/portfolio/web/db_alliance_web.webp" alt="Design 7" class="img-responsive" />
+                                <img src="<?=base_url()?>assets/images/portfolio/web/db_alliance_web.webp" alt="Design 7" class="img-responsive" alt="DB Alliance" />
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">DB Alliance</h4>                                    
                                     <a target="_blank" href="http://www.dba.ie/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
@@ -173,7 +173,7 @@
                     <div class="item">
                         <div class="image">
                             <div class="img-wrapper cursor-pointer">
-                                <img src="<?=base_url()?>assets/images/portfolio/web/miami_web.webp" class="img-responsive" />
+                                <img src="<?=base_url()?>assets/images/portfolio/web/miami_web.webp" class="img-responsive" alt="miami" />
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">miami</h4>                                    
                                     <a target="_blank" href="https://miamitropicalplants.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
@@ -189,7 +189,7 @@
                     <div class="item">
                         <div class="image">
                             <div class="img-wrapper cursor-pointer">
-                                <img src="<?=base_url()?>assets/images/portfolio/web/ronlearyreach_web.webp" class="img-responsive" />
+                                <img src="<?=base_url()?>assets/images/portfolio/web/ronlearyreach_web.webp" class="img-responsive" alt="ronlearyreach" />
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">ronlearyreach</h4>                                    
                                     <a target="_blank" href="https://www.ronlearyreach.org/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
