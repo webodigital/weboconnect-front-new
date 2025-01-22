@@ -200,8 +200,8 @@
                                         </div>
                                         <div class="col-md-3">
                                             <div class="_menu_ center d-grid text-center">
-                                                <a class="nav-link text-dark fs-16 fw-600 mb-3" href="www.Staffing.Io">www.Staffing.Io</a>
-                                                <button class="btn btn-rounded btn-light btn_thick_bdr">Visit Now</button>
+                                                <a class="nav-link text-dark fs-16 fw-600 mb-3" href="https://staffinc.io/" target="_blank">www.Staffing.Io</a>
+                                                <a href="https://staffinc.io/" target="_blank" class="btn btn-rounded btn-light btn_thick_bdr">Visit Now</a>
                                             </div>
                                         </div>
 
