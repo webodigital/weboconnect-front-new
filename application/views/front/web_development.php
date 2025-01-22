@@ -61,7 +61,7 @@
                     <div class="item">
                         <div class="image">
                             <div class="img-wrapper cursor-pointer">
-                                <img src="<?=base_url()?>assets/images/portfolio/web/fundlink_web.webp" class="img-responsive" />
+                                <img src="<?=base_url()?>assets/images/portfolio/web/fundlink_web.webp" class="img-responsive" alt="Fundlink" />
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">Fundlink</h4>                                    
                                     <a target="_blank" href="http://www.fundlink.co.zm/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
@@ -77,7 +77,7 @@
                     <div class="item">
                         <div class="image">
                             <div class="img-wrapper cursor-pointer">
-                                <img src="<?=base_url()?>assets/images/portfolio/web/legacy83business_web.webp" class="img-responsive" />
+                                <img src="<?=base_url()?>assets/images/portfolio/web/legacy83business_web.webp" class="img-responsive" alt="legacy83business" />
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">legacy83business</h4>                                    
                                     <a target="_blank" href="https://legacy83business.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
@@ -93,7 +93,7 @@
                     <div class="item">
                         <div class="image">
                             <div class="img-wrapper cursor-pointer">
-                                <img src="<?=base_url()?>assets/images/portfolio/web/angela_web.webp" class="img-responsive" />
+                                <img src="<?=base_url()?>assets/images/portfolio/web/angela_web.webp" class="img-responsive" alt="Angela Simeone" />
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">Angela Simeone</h4>                                    
                                     <a target="_blank" href="https://angelasimeone.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
@@ -109,7 +109,7 @@
                     <div class="item">
                         <div class="image">
                             <div class="img-wrapper cursor-pointer">
-                                <img src="<?=base_url()?>assets/images/portfolio/web/cycle_exchange_web.webp" class="img-responsive" />
+                                <img src="<?=base_url()?>assets/images/portfolio/web/cycle_exchange_web.webp" class="img-responsive" alt="cycle exchange" />
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">cycle exchange</h4>                                    
                                     <a target="_blank" href="https://www.cycleexchange.co.uk/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
@@ -125,7 +125,7 @@
                     <div class="item">
                         <div class="image">
                             <div class="img-wrapper cursor-pointer">
-                                <img src="<?=base_url()?>assets/images/portfolio/web/national_light_web.webp" class="img-responsive" />
+                                <img src="<?=base_url()?>assets/images/portfolio/web/national_light_web.webp" class="img-responsive" alt="National Light" />
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">National Light</h4>                                    
                                     <a target="_blank" href="https://www.nationallighting.co.uk/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
@@ -141,7 +141,7 @@
                     <div class="item">
                         <div class="image">
                             <div class="img-wrapper cursor-pointer">
-                                <img src="<?=base_url()?>assets/images/portfolio/web/onehopewine_web.webp" class="img-responsive" />
+                                <img src="<?=base_url()?>assets/images/portfolio/web/onehopewine_web.webp" class="img-responsive" alt="onehopewine" />
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">onehopewine</h4>                                    
                                     <a target="_blank" href="https://www.onehopewine.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
@@ -157,7 +157,7 @@
                     <div class="item">
                         <div class="image">
                             <div class="img-wrapper cursor-pointer">
-                                <img src="<?=base_url()?>assets/images/portfolio/web/db_alliance_web.webp" alt="Design 7" class="img-responsive" />
+                                <img src="<?=base_url()?>assets/images/portfolio/web/db_alliance_web.webp" alt="Design 7" class="img-responsive" alt="DB Alliance" />
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">DB Alliance</h4>                                    
                                     <a target="_blank" href="http://www.dba.ie/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
@@ -173,7 +173,7 @@
                     <div class="item">
                         <div class="image">
                             <div class="img-wrapper cursor-pointer">
-                                <img src="<?=base_url()?>assets/images/portfolio/web/miami_web.webp" class="img-responsive" />
+                                <img src="<?=base_url()?>assets/images/portfolio/web/miami_web.webp" class="img-responsive" alt="miami" />
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">miami</h4>                                    
                                     <a target="_blank" href="https://miamitropicalplants.com/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
@@ -189,7 +189,7 @@
                     <div class="item">
                         <div class="image">
                             <div class="img-wrapper cursor-pointer">
-                                <img src="<?=base_url()?>assets/images/portfolio/web/ronlearyreach_web.webp" class="img-responsive" />
+                                <img src="<?=base_url()?>assets/images/portfolio/web/ronlearyreach_web.webp" class="img-responsive" alt="ronlearyreach" />
                                 <div class="dnld_and_links">
                                     <h4 class="fs-20 fw-700">ronlearyreach</h4>                                    
                                     <a target="_blank" href="https://www.ronlearyreach.org/" class="btn btn-sm btn_dark_primary btn-rounded px-4">
@@ -239,7 +239,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/ecommerce-website.webp" alt="Retail & E-commerce">
+                        <img src="<?= base_url() ?>assets/images/icons/ecommerce-website.webp" alt="Retail & E-commerce">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Retail & E-commerce</h5>
                 </div>
@@ -247,7 +247,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/education.webp" alt="Education">
+                        <img src="<?= base_url() ?>assets/images/icons/education.webp" alt="Education">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Education</h5>
                 </div>
@@ -255,7 +255,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/travel.webp" alt="travel">
+                        <img src="<?= base_url() ?>assets/images/icons/travel.webp" alt="travel">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Travel & Tourism</h5>
                 </div>
@@ -263,7 +263,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/home.webp" alt="Real Estate">
+                        <img src="<?= base_url() ?>assets/images/icons/home.webp" alt="Real Estate">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Real Estate</h5>
                 </div>
@@ -271,7 +271,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/beauty.webp" alt="Beauty">
+                        <img src="<?= base_url() ?>assets/images/icons/beauty.webp" alt="Beauty">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Beauty</h5>
                 </div>
@@ -279,7 +279,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/communication.webp" alt="Communication">
+                        <img src="<?= base_url() ?>assets/images/icons/communication.webp" alt="Communication">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Communication</h5>
                 </div>
@@ -287,7 +287,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/food_delivery.webp" alt="Food Delivery">
+                        <img src="<?= base_url() ?>assets/images/icons/food_delivery.webp" alt="Food Delivery">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Food Delivery & Ordering</h5>
                 </div>
@@ -295,7 +295,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/booking_appointment.webp" alt="Booking & Appointment">
+                        <img src="<?= base_url() ?>assets/images/icons/booking_appointment.webp" alt="Booking & Appointment">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Booking & Appointment</h5>
                 </div>
@@ -303,7 +303,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/beauty.webp" alt="Niche & Specialized">
+                        <img src="<?= base_url() ?>assets/images/icons/beauty.webp" alt="Niche & Specialized">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Niche & Specialized</h5>
                 </div>
@@ -311,7 +311,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/caller_image.webp" alt="Caller Image Identifier">
+                        <img src="<?= base_url() ?>assets/images/icons/caller_image.webp" alt="Caller Image Identifier">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Caller Image Identifier</h5>
                 </div>
@@ -319,7 +319,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/brand_identifier.webp" alt="Brand Identifier">
+                        <img src="<?= base_url() ?>assets/images/icons/brand_identifier.webp" alt="Brand Identifier">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Brand Identifier</h5>
                 </div>
@@ -327,7 +327,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/virtual_time_capsule.webp" alt="Virtual Time Capsule">
+                        <img src="<?= base_url() ?>assets/images/icons/virtual_time_capsule.webp" alt="Virtual Time Capsule">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Virtual Time Capsule</h5>
                 </div>
@@ -335,7 +335,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/story_writing.webp" alt="Story Writing & Sharing">
+                        <img src="<?= base_url() ?>assets/images/icons/story_writing.webp" alt="Story Writing & Sharing">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Story Writing & Sharing</h5>
                 </div>
@@ -343,7 +343,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/party_planning_invitation.webp" alt="Party Planning & Invitation">
+                        <img src="<?= base_url() ?>assets/images/icons/party_planning_invitation.webp" alt="Party Planning & Invitation">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Party Planning & Invitation</h5>
                 </div>
@@ -351,7 +351,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/event_management.webp" alt="Event Management">
+                        <img src="<?= base_url() ?>assets/images/icons/event_management.webp" alt="Event Management">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Event Management</h5>
                 </div>
@@ -359,7 +359,7 @@
             <div class="col-6 col-lg-3">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/dating.webp" alt="Dating">
+                        <img src="<?= base_url() ?>assets/images/icons/dating.webp" alt="Dating">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Dating</h5>
                 </div>

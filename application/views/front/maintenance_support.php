@@ -170,8 +170,8 @@
                             <div class="">
                                 <h4 class="d-flex fs-30 justify-content-center">
                                     <span>
-                                        <img class="dark" src="<?=base_url()?>assets/images/icons/dark_client_retention.webp" alt="">
-                                        <img class="light" src="<?=base_url()?>assets/images/icons/client_retention.webp" alt="">
+                                        <img class="dark" src="<?=base_url()?>assets/images/icons/dark_client_retention.webp" alt="Client Retention">
+                                        <img class="light" src="<?=base_url()?>assets/images/icons/client_retention.webp" alt="Client Retention">
                                     </span>
                                     <span class="ms-2">97%</span>
                                 </h4>
@@ -184,8 +184,8 @@
                             <div class="text-center">
                                 <h4 class="d-flex fs-30 justify-content-center">
                                     <span>
-                                        <img class="dark" src="<?=base_url()?>assets/images/icons/dark_completed_projects.webp" alt="">
-                                        <img class="light" src="<?=base_url()?>assets/images/icons/completed_projects.webp" alt="">
+                                        <img class="dark" src="<?=base_url()?>assets/images/icons/dark_completed_projects.webp" alt="Completed Projects">
+                                        <img class="light" src="<?=base_url()?>assets/images/icons/completed_projects.webp" alt="Completed Projects">
                                     </span>
                                     <span class="ms-2">250+</span>
                                 </h4>
@@ -198,8 +198,8 @@
                             <div class="">
                                 <h4 class="d-flex fs-30 justify-content-center">
                                     <span>
-                                        <img class="dark" src="<?=base_url()?>assets/images/icons/dark_global_clients.webp" alt="">
-                                        <img class="light" src="<?=base_url()?>assets/images/icons/global_clients.webp" alt="">
+                                        <img class="dark" src="<?=base_url()?>assets/images/icons/dark_global_clients.webp" alt="Happy Clients">
+                                        <img class="light" src="<?=base_url()?>assets/images/icons/global_clients.webp" alt="Happy Clients">
                                     </span>
                                     <span class="ms-2">200+</span>
                                 </h4>
@@ -212,8 +212,8 @@
                             <div class="text-center">
                                 <h4 class="d-flex fs-30 justify-content-center">
                                     <span>
-                                        <img class="dark" src="<?=base_url()?>assets/images/icons/dark_yrs_experiences.webp" alt="">
-                                        <img class="light" src="<?=base_url()?>assets/images/icons/yrs_experiences.webp" alt="">
+                                        <img class="dark" src="<?=base_url()?>assets/images/icons/dark_yrs_experiences.webp" alt="Years of Proven Expertise">
+                                        <img class="light" src="<?=base_url()?>assets/images/icons/yrs_experiences.webp" alt="Years of Proven Expertise">
                                     </span>
                                     <span class="ms-2">8+</span>
                                 </h4>
@@ -244,7 +244,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/dr.webp" alt="Healthcare">
+                        <img src="<?= base_url() ?>assets/images/icons/dr.webp" alt="Healthcare">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Healthcare</h5>
                 </div>
@@ -252,7 +252,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/business.webp" alt="Finance">
+                        <img src="<?= base_url() ?>assets/images/icons/business.webp" alt="Finance">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Banking & Finance</h5>
                 </div>
@@ -260,7 +260,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/ecommerce-website.webp" alt="Retail & E-commerce">
+                        <img src="<?= base_url() ?>assets/images/icons/ecommerce-website.webp" alt="Retail & E-commerce">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Retail &
                     E-commerce</h5>
@@ -269,7 +269,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/education.webp" alt="Education">
+                        <img src="<?= base_url() ?>assets/images/icons/education.webp" alt="Education">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">EdTech</h5>
                 </div>
@@ -277,7 +277,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/travel.webp" alt="Travel & Tourism">
+                        <img src="<?= base_url() ?>assets/images/icons/travel.webp" alt="Travel & Tourism">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Travel & Leisure</h5>
                 </div>
@@ -285,7 +285,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/home.webp" alt="Real Estate">
+                        <img src="<?= base_url() ?>assets/images/icons/home.webp" alt="Real Estate">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Real Estate</h5>
                 </div>
@@ -293,7 +293,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/media_entertainment.webp" alt="Media & Entertainment">
+                        <img src="<?= base_url() ?>assets/images/icons/media_entertainment.webp" alt="Media & Entertainment">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Entertainment</h5>
                 </div>
@@ -301,7 +301,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/car_svg.webp" alt="Automotive">
+                        <img src="<?= base_url() ?>assets/images/icons/car_svg.webp" alt="Automotive">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Automotive</h5>
                 </div>
@@ -309,7 +309,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/lifestyle.webp" alt="Lifestyle">
+                        <img src="<?= base_url() ?>assets/images/icons/lifestyle.webp" alt="Lifestyle">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Wellness & Lifestyle</h5>
                 </div>
@@ -317,7 +317,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/dating.webp" alt="Productivity">
+                        <img src="<?= base_url() ?>assets/images/icons/dating.webp" alt="Productivity">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Efficiency Solutions</h5>
                 </div>
@@ -325,7 +325,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/beauty.webp" alt="Beauty">
+                        <img src="<?= base_url() ?>assets/images/icons/beauty.webp" alt="Beauty">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Beauty Tech</h5>
                 </div>
@@ -333,7 +333,7 @@
             <div class="col-lg-3 col-6">
                 <div class="vsai_card">
                     <span>
-                        <img src="<?= base_url() ?>/assets/images/icons/communication.webp" alt="Communication">
+                        <img src="<?= base_url() ?>assets/images/icons/communication.webp" alt="Communication">
                     </span>
                     <h5 class="fs-18 fw-500 text_brand_color1 mb-0">Communication</h5>
                 </div>

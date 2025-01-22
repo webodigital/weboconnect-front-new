@@ -172,7 +172,7 @@
                 <div class="row my-1 g-3">
                     <div class="col-md-3">
                         <div class="d-grid">
-                            <a href="" class="btn btn_outline_dark_primary btn-rounded fs-20 fw-600"><?php echo $hdiw->title??''; ?></a>
+                            <button href="" class="btn btn_outline_dark_primary btn-rounded fs-20 fw-600"><?php echo $hdiw->title??''; ?></button>
                         </div>
                     </div>
                     <div class="col-md-9">

@@ -94,14 +94,14 @@
                 <table class="table table-bordered">
                     <tr class="row">
                         <td class="col">
-                            <a href="" class="fs-16">Google Tag Manager</a>
+                            <a href="javascript:void(0)"  class="fs-16">Google Tag Manager</a>
                             <p class="fs-16 fw-400">This cookie is associated with Google Tag Manager which we use to load scripts into our website pages.</p>
                         </td>
                         <td class="col">GTM-PDR264D</td>
                     </tr>
                     <tr class="row">
                         <td class="col">
-                            <a href="" class="fs-16">WordPress</a>
+                            <a href="javascript:void(0)"  class="fs-16">WordPress</a>
                             <p class="fs-16 fw-400">This cookie is set by WordPress for performance optimization.</p>
                         </td>
                         <td class="col">no-cache</td>
@@ -117,7 +117,7 @@
                 <table class="table table-bordered">
                     <tr class="row">
                         <td class="col">
-                            <a href="" class="fs-16">Google Analytics</a>
+                            <a href="javascript:void(0)"  class="fs-16">Google Analytics</a>
                             <p class="fs-16 fw-400">Google Analytics gathers information allowing us to understand interactions with our websites and ultimately refine that experience to better serve you.</p>
                         </td>
                         <td class="col">
@@ -146,7 +146,7 @@
                 <table class="table table-bordered">
                     <tr class="row">
                         <td class="col">
-                            <a href="" class="fs-16">Google</a>
+                            <a href="javascript:void(0)"  class="fs-16">Google</a>
                         </td>
                         <td class="col">
                             <p class="fs-16 fw-400">APISID</p>
@@ -161,7 +161,7 @@
                     </tr>
                     <tr class="row">
                         <td class="col">
-                            <a href="" class="fs-16">LinkedIn</a>
+                            <a href="javascript:void(0)"  class="fs-16">LinkedIn</a>
                         </td>
                         <td class="col">
                             <p class="fs-16 fw-400">BizoID</p>
@@ -179,7 +179,7 @@
                     </tr>
                     <tr class="row">
                         <td class="col">
-                            <a href="" class="fs-16">Facebook</a>
+                            <a href="javascript:void(0)"  class="fs-16">Facebook</a>
                         </td>
                         <td class="col">
                             <p class="fs-16 fw-400">BizoID</p>

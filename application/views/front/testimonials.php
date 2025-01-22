@@ -24,7 +24,7 @@
         <div class="container">
             <div class="row align-items-center justify-cotent-center g-4">
                 <div class="col-12 text-center">
-                    <h2 class="fs-24 fw-700 text_brand_color1 m-0">Testimonials</h2>
+                    <h1 class="fs-24 fw-700 text_brand_color1 m-0">Testimonials</h1>
                     <h6 class="fs-20 fw-400 text_brand_color1 m-0">Our clients love us! Here is what they have to say</h6>
                 </div>
             </div>

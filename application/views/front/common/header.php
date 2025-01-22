@@ -24,7 +24,7 @@
                         </a>
                     </span>
                     <div class="nav_toggle_btn">
-                        <img src="<?= base_url() ?>/assets/images/icons/nav_toggle.webp" alt="toggle">
+                        <img src="<?= base_url() ?>assets/images/icons/nav_toggle.webp" alt="toggle">
                     </div>
                 </div>
             </div>
@@ -182,10 +182,8 @@
                     </li>
 
                     <li class="menu_list">
-                        <a href="#">Solutions</a>
+                        <a href="javascript:void(0)">Solutions</a>
                         <div class="megamenu-panel nav-submenu">
-
-
                             <div class="full_width_mega_menu">
                                 <div class="container">
                                     <div class="row g-4 align-items-center">
@@ -217,7 +215,7 @@
                         </div>
                     </li>
                     <li class="menu_list">
-                        <a href="<?=base_url()?>contact">Technologies</a>
+                        <a href="javascript:void(0)">Technologies</a>
                         <div class="megamenu-panel nav-submenu">
 
 
@@ -282,7 +280,7 @@
                         </div>
                     </li>
                     <li class="menu_list">
-                        <a href="">Our Works</a>
+                        <a href="javascript:void(0)">Our Works</a>
                         <div class="megamenu-panel nav-submenu">
 
 

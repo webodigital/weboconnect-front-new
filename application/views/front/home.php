@@ -6,7 +6,7 @@
 <!--<meta name="description" content="We offer best website development in USA and India, along with quality web design, software development, Mobile Apps, CMS development Company"/>
 <meta name="keywords" content="software development company, custom web portal development, apps development, Mobile Application Development, application development, ecommerce development, Website Designing Company, Crypto Development"/>
 <meta name="robots" content="index, follow" />-->
-<meta name="description" content="Mobile apps are ahead of mobile websites on most KPIs! From better client experience to personalized content recommendations, mobile apps offer benefits that mobile websites simply cannot match. But there's one advantage that truly sets apps apart, and you won't believe how powerful it is. Find out more..."/>
+<!-- <meta name="description" content="Mobile apps are ahead of mobile websites on most KPIs! From better client experience to personalized content recommendations, mobile apps offer benefits that mobile websites simply cannot match. But there's one advantage that truly sets apps apart, and you won't believe how powerful it is. Find out more..."/> -->
 <meta name="description" content="Mobile app development relies heavily on user experience (UX) for success. A well-designed UX boosts retention rates, makes customers happy, and increases brand recognition. Meeting user requirements and effective communication are vital aspects of UX. Prioritizing UX and UI ensures a successful and engaging app experience."/>
 <meta name="keywords" content="software development company, custom web portal development, apps development, Mobile Application Development, application development, ecommerce development, Website Designing Company, Crypto Development"/>
 <meta name="robots" content="index, follow" />
@@ -380,49 +380,49 @@
   <div class="row g-5 w-100 justify-content-center mt-2">
     <div class="col-lg-3 col-md-4 col-6">
       <div class="icon-box" >
-          <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Listen.png" alt="We Listen To Our Clients">
+          <img class="px-5 mb-3" src="<?=base_url()?>assets/images/icon/Listen.png" alt="We Listen To Our Clients">
           <h5 class="">We Listen and Understand</h5>
           <!-- <p class="fs-14">Your goals shape our solutions.</p> -->
         </div>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
         <div class="icon-box">
-          <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Focus.png" alt="We Focus On Solutionss<">
+          <img class="px-5 mb-3" src="<?=base_url()?>assets/images/icon/Focus.png" alt="We Focus On Solutionss<">
           <h5 class="">We Offer Real Solutions</h5>
           <!-- <p class="fs-14">Smart ideas that deliver real-world impact.</p> -->
         </div>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
       <div class="icon-box">
-        <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/create-stratgies.png" alt="We Develop Straggles First"> 
+        <img class="px-5 mb-3" src="<?=base_url()?>assets/images/icon/create-stratgies.png" alt="We Develop Straggles First"> 
         <h5 class="">We Prioritize Strategic Thinking</h5>
         <!-- <p class="fs-14">Strong foundations lead to stronger outcomes.</p> -->
       </div>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
       <div class="icon-box">
-        <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Deliver.png" alt="We Deliver what we promise">  
+        <img class="px-5 mb-3" src="<?=base_url()?>assets/images/icon/Deliver.png" alt="We Deliver what we promise">  
         <h5 class="">We Deliver Without Compromise</h5>
         <!-- <p class="fs-14">Results that exceed expectations every time.</p> -->
       </div>
     </div>
     <div class="col-lg-4 col-md-4 col-6">
       <div class="icon-box">
-        <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Teamwork.png" alt="We believe in teamwork">  
+        <img class="px-5 mb-3" src="<?=base_url()?>assets/images/icon/Teamwork.png" alt="We believe in teamwork">  
           <h5 class="">We Believe inUnified <br>  Efforts</h5>
           <!-- <p class="fs-14">Collaboration is key to innovation.</p> -->
       </div>
     </div>
     <div class="col-lg-4 col-md-4 col-6">
       <div class="icon-box">
-        <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/Friendly.png" alt="We are friendly">  
+        <img class="px-5 mb-3" src="<?=base_url()?>assets/images/icon/Friendly.png" alt="We are friendly">  
         <h5 class="">We Are Supportive and Accessible</h5>
         <!-- <p class="fs-14">Always here to guide and help.</p> -->
       </div>
     </div>
     <div class="col-lg-4 col-md-4 col-6">
       <div class="icon-box">
-        <img class="px-5 mb-3" src="https://weboconnect.com/assets/images/icon/logical.png" alt="We are methodical & logical">
+        <img class="px-5 mb-3" src="<?=base_url()?>assets/images/icon/logical.png" alt="We are methodical & logical">
         <h5 class="">We Think Strategically <br> and Logically</h5>
         <!-- <p class="fs-14">Balanced approaches to tackle challenges effectively.</p>               -->
       </div>
@@ -1659,7 +1659,7 @@
       <div class="col-md-3 col-sm-6 col-6">
         <div class="industry-card row g-0">
           <div class="col-auto">
-            <img src="<?= base_url() ?>/assets/images/icons/communication.webp" alt="Communication">
+            <img src="<?= base_url() ?>assets/images/icons/communication.webp" alt="Communication">
           </div>
           <div class="col text-center">
             <p>Communication</p>
@@ -1762,7 +1762,7 @@
                   
                   <div class="col-md-3 col-sm-6 col-6">
                     <div class="industry-card">
-                      <img src="<?= base_url() ?>/assets/images/icons/communication.webp" alt="Communication">
+                      <img src="<?= base_url() ?>assets/images/icons/communication.webp" alt="Communication">
                       <p>Communication</p>
                     </div>
                   </div>
