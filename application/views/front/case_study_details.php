@@ -229,7 +229,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="">
-                    <img src="<?php echo base_url('assets/images/case_studies/uploads/' . $casestudy->challenges_img); ?>" alt="<?php echo $casestudy->challenges_title??'Challenges'; ?>">
+                    <img src="<?php echo base_url('assets/images/case_studies/uploads/' . $casestudy->challenges_img); ?>" alt="<?php echo (!empty($casestudy->challenges_title))?$casestudy->challenges_title:'Challenges'; ?>">
                 </div>
             </div>
         </div>

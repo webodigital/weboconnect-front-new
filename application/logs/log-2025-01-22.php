@@ -3724,3 +3724,861 @@ DEBUG - 2025-01-22 13:13:18 --> Global POST, GET and COOKIE data sanitized
 INFO - 2025-01-22 13:13:18 --> Input Class Initialized
 INFO - 2025-01-22 13:13:18 --> Language Class Initialized
 ERROR - 2025-01-22 13:13:18 --> 404 Page Not Found: Assets/css
+INFO - 2025-01-22 13:15:29 --> Config Class Initialized
+INFO - 2025-01-22 13:15:29 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:15:29 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:15:29 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:15:29 --> URI Class Initialized
+INFO - 2025-01-22 13:15:29 --> Router Class Initialized
+INFO - 2025-01-22 13:15:29 --> Output Class Initialized
+INFO - 2025-01-22 13:15:29 --> Security Class Initialized
+DEBUG - 2025-01-22 13:15:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:15:29 --> Input Class Initialized
+INFO - 2025-01-22 13:15:29 --> Language Class Initialized
+INFO - 2025-01-22 13:15:29 --> Loader Class Initialized
+INFO - 2025-01-22 13:15:29 --> Helper loaded: url_helper
+INFO - 2025-01-22 13:15:29 --> Database Driver Class Initialized
+DEBUG - 2025-01-22 13:15:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-01-22 13:15:29 --> Session: Class initialized using 'files' driver.
+INFO - 2025-01-22 13:15:29 --> Controller Class Initialized
+INFO - 2025-01-22 13:15:29 --> Model "BlogModel" initialized
+INFO - 2025-01-22 13:15:29 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2025-01-22 13:15:29 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2025-01-22 13:15:29 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2025-01-22 13:15:29 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2025-01-22 13:15:29 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2025-01-22 13:15:29 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2025-01-22 13:15:29 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2025-01-22 13:15:29 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2025-01-22 13:15:29 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2025-01-22 13:15:29 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2025-01-22 13:15:29 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2025-01-22 13:15:29 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2025-01-22 13:15:29 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/blog_details.php
+INFO - 2025-01-22 13:15:29 --> Final output sent to browser
+DEBUG - 2025-01-22 13:15:29 --> Total execution time: 0.1234
+INFO - 2025-01-22 13:15:29 --> Config Class Initialized
+INFO - 2025-01-22 13:15:29 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:15:29 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:15:29 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:15:29 --> URI Class Initialized
+INFO - 2025-01-22 13:15:29 --> Router Class Initialized
+INFO - 2025-01-22 13:15:29 --> Output Class Initialized
+INFO - 2025-01-22 13:15:29 --> Security Class Initialized
+DEBUG - 2025-01-22 13:15:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:15:29 --> Input Class Initialized
+INFO - 2025-01-22 13:15:29 --> Language Class Initialized
+ERROR - 2025-01-22 13:15:29 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:15:29 --> Config Class Initialized
+INFO - 2025-01-22 13:15:29 --> Hooks Class Initialized
+INFO - 2025-01-22 13:15:29 --> Config Class Initialized
+INFO - 2025-01-22 13:15:29 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:15:29 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:15:29 --> Utf8 Class Initialized
+DEBUG - 2025-01-22 13:15:29 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:15:29 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:15:29 --> URI Class Initialized
+INFO - 2025-01-22 13:15:29 --> Config Class Initialized
+INFO - 2025-01-22 13:15:29 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:15:29 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:15:29 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:15:29 --> URI Class Initialized
+INFO - 2025-01-22 13:15:29 --> Router Class Initialized
+INFO - 2025-01-22 13:15:29 --> Output Class Initialized
+INFO - 2025-01-22 13:15:29 --> Security Class Initialized
+DEBUG - 2025-01-22 13:15:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:15:29 --> Input Class Initialized
+INFO - 2025-01-22 13:15:29 --> Language Class Initialized
+ERROR - 2025-01-22 13:15:29 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:15:29 --> Router Class Initialized
+INFO - 2025-01-22 13:15:29 --> Output Class Initialized
+INFO - 2025-01-22 13:15:29 --> Security Class Initialized
+INFO - 2025-01-22 13:15:29 --> URI Class Initialized
+DEBUG - 2025-01-22 13:15:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:15:29 --> Input Class Initialized
+INFO - 2025-01-22 13:15:29 --> Config Class Initialized
+INFO - 2025-01-22 13:15:29 --> Hooks Class Initialized
+INFO - 2025-01-22 13:15:29 --> Language Class Initialized
+DEBUG - 2025-01-22 13:15:29 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:15:29 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:15:29 --> URI Class Initialized
+ERROR - 2025-01-22 13:15:29 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:15:29 --> Router Class Initialized
+INFO - 2025-01-22 13:15:29 --> Output Class Initialized
+INFO - 2025-01-22 13:15:29 --> Security Class Initialized
+DEBUG - 2025-01-22 13:15:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:15:29 --> Input Class Initialized
+INFO - 2025-01-22 13:15:29 --> Language Class Initialized
+ERROR - 2025-01-22 13:15:29 --> 404 Page Not Found: Assets/css
+INFO - 2025-01-22 13:15:29 --> Router Class Initialized
+INFO - 2025-01-22 13:15:29 --> Output Class Initialized
+INFO - 2025-01-22 13:15:30 --> Security Class Initialized
+DEBUG - 2025-01-22 13:15:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:15:30 --> Input Class Initialized
+INFO - 2025-01-22 13:15:30 --> Language Class Initialized
+ERROR - 2025-01-22 13:15:30 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:15:30 --> Config Class Initialized
+INFO - 2025-01-22 13:15:30 --> Hooks Class Initialized
+INFO - 2025-01-22 13:15:30 --> Config Class Initialized
+INFO - 2025-01-22 13:15:30 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:15:30 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:15:30 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:15:30 --> URI Class Initialized
+INFO - 2025-01-22 13:15:30 --> Router Class Initialized
+INFO - 2025-01-22 13:15:30 --> Output Class Initialized
+INFO - 2025-01-22 13:15:30 --> Security Class Initialized
+DEBUG - 2025-01-22 13:15:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:15:30 --> Input Class Initialized
+INFO - 2025-01-22 13:15:30 --> Language Class Initialized
+ERROR - 2025-01-22 13:15:30 --> 404 Page Not Found: Assets/js
+DEBUG - 2025-01-22 13:15:30 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:15:30 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:15:30 --> URI Class Initialized
+INFO - 2025-01-22 13:15:30 --> Router Class Initialized
+INFO - 2025-01-22 13:15:30 --> Output Class Initialized
+INFO - 2025-01-22 13:15:30 --> Security Class Initialized
+DEBUG - 2025-01-22 13:15:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:15:30 --> Input Class Initialized
+INFO - 2025-01-22 13:15:30 --> Language Class Initialized
+ERROR - 2025-01-22 13:15:30 --> 404 Page Not Found: Assets/js
+INFO - 2025-01-22 13:45:43 --> Config Class Initialized
+INFO - 2025-01-22 13:45:43 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:45:43 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:43 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:43 --> URI Class Initialized
+INFO - 2025-01-22 13:45:43 --> Router Class Initialized
+INFO - 2025-01-22 13:45:43 --> Output Class Initialized
+INFO - 2025-01-22 13:45:43 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:43 --> Input Class Initialized
+INFO - 2025-01-22 13:45:43 --> Language Class Initialized
+INFO - 2025-01-22 13:45:43 --> Loader Class Initialized
+INFO - 2025-01-22 13:45:43 --> Helper loaded: url_helper
+INFO - 2025-01-22 13:45:43 --> Database Driver Class Initialized
+DEBUG - 2025-01-22 13:45:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-01-22 13:45:43 --> Session: Class initialized using 'files' driver.
+INFO - 2025-01-22 13:45:43 --> Controller Class Initialized
+INFO - 2025-01-22 13:45:43 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2025-01-22 13:45:43 --> Pagination Class Initialized
+INFO - 2025-01-22 13:45:43 --> Model "CasestudiesModel" initialized
+INFO - 2025-01-22 13:45:43 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2025-01-22 13:45:43 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2025-01-22 13:45:43 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2025-01-22 13:45:43 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2025-01-22 13:45:44 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2025-01-22 13:45:44 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2025-01-22 13:45:44 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2025-01-22 13:45:44 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2025-01-22 13:45:44 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2025-01-22 13:45:44 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2025-01-22 13:45:44 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2025-01-22 13:45:44 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2025-01-22 13:45:44 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/case_study.php
+INFO - 2025-01-22 13:45:44 --> Final output sent to browser
+DEBUG - 2025-01-22 13:45:44 --> Total execution time: 0.2996
+INFO - 2025-01-22 13:45:45 --> Config Class Initialized
+INFO - 2025-01-22 13:45:45 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:45:45 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:45 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:45 --> URI Class Initialized
+INFO - 2025-01-22 13:45:45 --> Router Class Initialized
+INFO - 2025-01-22 13:45:45 --> Output Class Initialized
+INFO - 2025-01-22 13:45:45 --> Config Class Initialized
+INFO - 2025-01-22 13:45:45 --> Security Class Initialized
+INFO - 2025-01-22 13:45:45 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:45:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:45 --> Input Class Initialized
+INFO - 2025-01-22 13:45:45 --> Language Class Initialized
+DEBUG - 2025-01-22 13:45:45 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:45 --> Utf8 Class Initialized
+ERROR - 2025-01-22 13:45:45 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:45 --> Config Class Initialized
+INFO - 2025-01-22 13:45:45 --> URI Class Initialized
+INFO - 2025-01-22 13:45:45 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:45 --> Router Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:46 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:46 --> Output Class Initialized
+INFO - 2025-01-22 13:45:46 --> URI Class Initialized
+INFO - 2025-01-22 13:45:46 --> Security Class Initialized
+INFO - 2025-01-22 13:45:46 --> Router Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:46 --> Input Class Initialized
+INFO - 2025-01-22 13:45:46 --> Config Class Initialized
+INFO - 2025-01-22 13:45:46 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:46 --> Language Class Initialized
+INFO - 2025-01-22 13:45:46 --> Output Class Initialized
+ERROR - 2025-01-22 13:45:46 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:46 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:46 --> Input Class Initialized
+INFO - 2025-01-22 13:45:46 --> Language Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:46 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:46 --> URI Class Initialized
+ERROR - 2025-01-22 13:45:46 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:46 --> Router Class Initialized
+INFO - 2025-01-22 13:45:46 --> Output Class Initialized
+INFO - 2025-01-22 13:45:46 --> Security Class Initialized
+INFO - 2025-01-22 13:45:46 --> Config Class Initialized
+INFO - 2025-01-22 13:45:46 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:46 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:46 --> URI Class Initialized
+INFO - 2025-01-22 13:45:46 --> Config Class Initialized
+INFO - 2025-01-22 13:45:46 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:46 --> Config Class Initialized
+INFO - 2025-01-22 13:45:46 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:46 --> Router Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:46 --> Utf8 Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:46 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:46 --> URI Class Initialized
+INFO - 2025-01-22 13:45:46 --> URI Class Initialized
+INFO - 2025-01-22 13:45:46 --> Output Class Initialized
+INFO - 2025-01-22 13:45:46 --> Router Class Initialized
+INFO - 2025-01-22 13:45:46 --> Router Class Initialized
+INFO - 2025-01-22 13:45:46 --> Security Class Initialized
+INFO - 2025-01-22 13:45:46 --> Output Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:46 --> Output Class Initialized
+INFO - 2025-01-22 13:45:46 --> Input Class Initialized
+INFO - 2025-01-22 13:45:46 --> Security Class Initialized
+INFO - 2025-01-22 13:45:46 --> Language Class Initialized
+INFO - 2025-01-22 13:45:46 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:46 --> Input Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:46 --> Input Class Initialized
+ERROR - 2025-01-22 13:45:46 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:46 --> Language Class Initialized
+INFO - 2025-01-22 13:45:46 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:46 --> 404 Page Not Found: Assets/images
+ERROR - 2025-01-22 13:45:46 --> 404 Page Not Found: Assets/images
+DEBUG - 2025-01-22 13:45:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:46 --> Input Class Initialized
+INFO - 2025-01-22 13:45:46 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:46 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:46 --> Config Class Initialized
+INFO - 2025-01-22 13:45:46 --> Config Class Initialized
+INFO - 2025-01-22 13:45:46 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:46 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:46 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:46 --> URI Class Initialized
+INFO - 2025-01-22 13:45:46 --> Router Class Initialized
+INFO - 2025-01-22 13:45:46 --> Config Class Initialized
+INFO - 2025-01-22 13:45:46 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:46 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:46 --> URI Class Initialized
+INFO - 2025-01-22 13:45:46 --> Router Class Initialized
+INFO - 2025-01-22 13:45:46 --> Config Class Initialized
+INFO - 2025-01-22 13:45:46 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:46 --> Output Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:46 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:46 --> Output Class Initialized
+INFO - 2025-01-22 13:45:46 --> URI Class Initialized
+INFO - 2025-01-22 13:45:46 --> Router Class Initialized
+INFO - 2025-01-22 13:45:46 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:46 --> Output Class Initialized
+INFO - 2025-01-22 13:45:46 --> Input Class Initialized
+INFO - 2025-01-22 13:45:46 --> Config Class Initialized
+INFO - 2025-01-22 13:45:46 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:46 --> Language Class Initialized
+INFO - 2025-01-22 13:45:46 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:46 --> Input Class Initialized
+ERROR - 2025-01-22 13:45:46 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:46 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:46 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:46 --> Config Class Initialized
+INFO - 2025-01-22 13:45:46 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:46 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:46 --> URI Class Initialized
+INFO - 2025-01-22 13:45:46 --> Router Class Initialized
+INFO - 2025-01-22 13:45:46 --> Output Class Initialized
+INFO - 2025-01-22 13:45:46 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:46 --> Input Class Initialized
+INFO - 2025-01-22 13:45:46 --> Language Class Initialized
+INFO - 2025-01-22 13:45:46 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:46 --> Utf8 Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:46 --> URI Class Initialized
+INFO - 2025-01-22 13:45:46 --> Input Class Initialized
+INFO - 2025-01-22 13:45:46 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:46 --> 404 Page Not Found: Assets/images
+ERROR - 2025-01-22 13:45:46 --> 404 Page Not Found: Assets/images
+DEBUG - 2025-01-22 13:45:46 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:46 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:46 --> URI Class Initialized
+INFO - 2025-01-22 13:45:46 --> Router Class Initialized
+INFO - 2025-01-22 13:45:46 --> Output Class Initialized
+INFO - 2025-01-22 13:45:46 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:46 --> Input Class Initialized
+INFO - 2025-01-22 13:45:46 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:46 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:46 --> Config Class Initialized
+INFO - 2025-01-22 13:45:46 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:46 --> Config Class Initialized
+INFO - 2025-01-22 13:45:46 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:46 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:46 --> URI Class Initialized
+INFO - 2025-01-22 13:45:46 --> Router Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:46 --> Output Class Initialized
+INFO - 2025-01-22 13:45:46 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:46 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:46 --> Input Class Initialized
+INFO - 2025-01-22 13:45:46 --> URI Class Initialized
+INFO - 2025-01-22 13:45:46 --> Language Class Initialized
+INFO - 2025-01-22 13:45:46 --> Config Class Initialized
+INFO - 2025-01-22 13:45:46 --> Config Class Initialized
+INFO - 2025-01-22 13:45:46 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:46 --> Hooks Class Initialized
+ERROR - 2025-01-22 13:45:46 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:46 --> Config Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> UTF-8 Support Enabled
+DEBUG - 2025-01-22 13:45:46 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:46 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:46 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:46 --> URI Class Initialized
+INFO - 2025-01-22 13:45:46 --> URI Class Initialized
+INFO - 2025-01-22 13:45:46 --> Router Class Initialized
+INFO - 2025-01-22 13:45:46 --> Router Class Initialized
+INFO - 2025-01-22 13:45:46 --> Output Class Initialized
+INFO - 2025-01-22 13:45:46 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:46 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:46 --> Input Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:46 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:46 --> Language Class Initialized
+INFO - 2025-01-22 13:45:46 --> URI Class Initialized
+ERROR - 2025-01-22 13:45:46 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:46 --> Output Class Initialized
+INFO - 2025-01-22 13:45:46 --> Router Class Initialized
+INFO - 2025-01-22 13:45:46 --> Router Class Initialized
+INFO - 2025-01-22 13:45:46 --> Output Class Initialized
+INFO - 2025-01-22 13:45:46 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:46 --> Input Class Initialized
+INFO - 2025-01-22 13:45:46 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:46 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:46 --> Security Class Initialized
+INFO - 2025-01-22 13:45:46 --> Output Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:46 --> Security Class Initialized
+INFO - 2025-01-22 13:45:46 --> Router Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:46 --> Input Class Initialized
+INFO - 2025-01-22 13:45:46 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:46 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:46 --> Input Class Initialized
+INFO - 2025-01-22 13:45:46 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:46 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:46 --> Output Class Initialized
+INFO - 2025-01-22 13:45:46 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:46 --> Input Class Initialized
+INFO - 2025-01-22 13:45:46 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:46 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:46 --> Config Class Initialized
+INFO - 2025-01-22 13:45:46 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:46 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:46 --> Config Class Initialized
+INFO - 2025-01-22 13:45:46 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:46 --> URI Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:46 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:46 --> Router Class Initialized
+INFO - 2025-01-22 13:45:46 --> URI Class Initialized
+INFO - 2025-01-22 13:45:46 --> Output Class Initialized
+INFO - 2025-01-22 13:45:46 --> Config Class Initialized
+INFO - 2025-01-22 13:45:46 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:46 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:46 --> Input Class Initialized
+INFO - 2025-01-22 13:45:46 --> Language Class Initialized
+DEBUG - 2025-01-22 13:45:46 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:46 --> Utf8 Class Initialized
+ERROR - 2025-01-22 13:45:46 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:46 --> URI Class Initialized
+INFO - 2025-01-22 13:45:47 --> Config Class Initialized
+INFO - 2025-01-22 13:45:47 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:45:47 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:47 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:47 --> Config Class Initialized
+INFO - 2025-01-22 13:45:47 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:47 --> Router Class Initialized
+DEBUG - 2025-01-22 13:45:47 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:47 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:47 --> URI Class Initialized
+INFO - 2025-01-22 13:45:47 --> Router Class Initialized
+INFO - 2025-01-22 13:45:47 --> Output Class Initialized
+INFO - 2025-01-22 13:45:47 --> URI Class Initialized
+INFO - 2025-01-22 13:45:47 --> Security Class Initialized
+INFO - 2025-01-22 13:45:47 --> Router Class Initialized
+DEBUG - 2025-01-22 13:45:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:47 --> Input Class Initialized
+INFO - 2025-01-22 13:45:47 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:47 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:47 --> Output Class Initialized
+INFO - 2025-01-22 13:45:47 --> Config Class Initialized
+INFO - 2025-01-22 13:45:47 --> Config Class Initialized
+INFO - 2025-01-22 13:45:47 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:47 --> Output Class Initialized
+DEBUG - 2025-01-22 13:45:47 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:47 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:47 --> Security Class Initialized
+INFO - 2025-01-22 13:45:47 --> URI Class Initialized
+INFO - 2025-01-22 13:45:47 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:47 --> Security Class Initialized
+INFO - 2025-01-22 13:45:47 --> Router Class Initialized
+DEBUG - 2025-01-22 13:45:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:47 --> Input Class Initialized
+DEBUG - 2025-01-22 13:45:47 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:47 --> Language Class Initialized
+INFO - 2025-01-22 13:45:47 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:47 --> Output Class Initialized
+INFO - 2025-01-22 13:45:47 --> URI Class Initialized
+ERROR - 2025-01-22 13:45:47 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:47 --> Security Class Initialized
+INFO - 2025-01-22 13:45:47 --> Router Class Initialized
+INFO - 2025-01-22 13:45:47 --> Output Class Initialized
+INFO - 2025-01-22 13:45:47 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:47 --> Input Class Initialized
+DEBUG - 2025-01-22 13:45:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:47 --> Input Class Initialized
+INFO - 2025-01-22 13:45:47 --> Language Class Initialized
+INFO - 2025-01-22 13:45:47 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:47 --> 404 Page Not Found: Assets/images
+ERROR - 2025-01-22 13:45:47 --> 404 Page Not Found: Assets/images
+DEBUG - 2025-01-22 13:45:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:47 --> Input Class Initialized
+INFO - 2025-01-22 13:45:47 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:47 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:47 --> Router Class Initialized
+INFO - 2025-01-22 13:45:47 --> Config Class Initialized
+INFO - 2025-01-22 13:45:47 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:45:47 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:47 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:47 --> URI Class Initialized
+INFO - 2025-01-22 13:45:47 --> Router Class Initialized
+INFO - 2025-01-22 13:45:47 --> Output Class Initialized
+INFO - 2025-01-22 13:45:47 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:47 --> Input Class Initialized
+INFO - 2025-01-22 13:45:47 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:47 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:47 --> Output Class Initialized
+INFO - 2025-01-22 13:45:47 --> Config Class Initialized
+INFO - 2025-01-22 13:45:47 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:45:47 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:47 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:47 --> Security Class Initialized
+INFO - 2025-01-22 13:45:47 --> URI Class Initialized
+INFO - 2025-01-22 13:45:47 --> Router Class Initialized
+INFO - 2025-01-22 13:45:47 --> Output Class Initialized
+INFO - 2025-01-22 13:45:47 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:47 --> Input Class Initialized
+DEBUG - 2025-01-22 13:45:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:47 --> Input Class Initialized
+INFO - 2025-01-22 13:45:47 --> Language Class Initialized
+INFO - 2025-01-22 13:45:47 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:47 --> 404 Page Not Found: Assets/images
+ERROR - 2025-01-22 13:45:47 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:47 --> Config Class Initialized
+INFO - 2025-01-22 13:45:47 --> Config Class Initialized
+INFO - 2025-01-22 13:45:47 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:47 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:45:47 --> UTF-8 Support Enabled
+DEBUG - 2025-01-22 13:45:47 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:47 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:47 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:47 --> URI Class Initialized
+INFO - 2025-01-22 13:45:47 --> Router Class Initialized
+INFO - 2025-01-22 13:45:47 --> Output Class Initialized
+INFO - 2025-01-22 13:45:47 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:47 --> Input Class Initialized
+INFO - 2025-01-22 13:45:47 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:47 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:47 --> URI Class Initialized
+INFO - 2025-01-22 13:45:47 --> Router Class Initialized
+INFO - 2025-01-22 13:45:47 --> Config Class Initialized
+INFO - 2025-01-22 13:45:47 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:47 --> Output Class Initialized
+INFO - 2025-01-22 13:45:47 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:47 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:47 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:47 --> URI Class Initialized
+INFO - 2025-01-22 13:45:47 --> Router Class Initialized
+INFO - 2025-01-22 13:45:47 --> Output Class Initialized
+INFO - 2025-01-22 13:45:47 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:47 --> Input Class Initialized
+INFO - 2025-01-22 13:45:47 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:47 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:47 --> Config Class Initialized
+INFO - 2025-01-22 13:45:47 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:45:47 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:47 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:47 --> URI Class Initialized
+DEBUG - 2025-01-22 13:45:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:47 --> Input Class Initialized
+INFO - 2025-01-22 13:45:47 --> Language Class Initialized
+INFO - 2025-01-22 13:45:47 --> Config Class Initialized
+INFO - 2025-01-22 13:45:47 --> Hooks Class Initialized
+ERROR - 2025-01-22 13:45:47 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:47 --> Router Class Initialized
+INFO - 2025-01-22 13:45:47 --> Output Class Initialized
+INFO - 2025-01-22 13:45:47 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:47 --> Input Class Initialized
+INFO - 2025-01-22 13:45:47 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:47 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:47 --> Config Class Initialized
+INFO - 2025-01-22 13:45:47 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:45:47 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:47 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:47 --> URI Class Initialized
+DEBUG - 2025-01-22 13:45:47 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:47 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:48 --> URI Class Initialized
+INFO - 2025-01-22 13:45:48 --> Router Class Initialized
+INFO - 2025-01-22 13:45:48 --> Config Class Initialized
+INFO - 2025-01-22 13:45:48 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:48 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:48 --> Config Class Initialized
+INFO - 2025-01-22 13:45:48 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:48 --> URI Class Initialized
+INFO - 2025-01-22 13:45:48 --> Config Class Initialized
+INFO - 2025-01-22 13:45:48 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:48 --> Router Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:48 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:48 --> URI Class Initialized
+INFO - 2025-01-22 13:45:48 --> Output Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:48 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:48 --> Router Class Initialized
+INFO - 2025-01-22 13:45:48 --> Security Class Initialized
+INFO - 2025-01-22 13:45:48 --> URI Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:48 --> Output Class Initialized
+INFO - 2025-01-22 13:45:48 --> Input Class Initialized
+INFO - 2025-01-22 13:45:48 --> Router Class Initialized
+INFO - 2025-01-22 13:45:48 --> Language Class Initialized
+INFO - 2025-01-22 13:45:48 --> Security Class Initialized
+ERROR - 2025-01-22 13:45:48 --> 404 Page Not Found: Assets/images
+DEBUG - 2025-01-22 13:45:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:48 --> Output Class Initialized
+INFO - 2025-01-22 13:45:48 --> Input Class Initialized
+INFO - 2025-01-22 13:45:48 --> Language Class Initialized
+INFO - 2025-01-22 13:45:48 --> Security Class Initialized
+ERROR - 2025-01-22 13:45:48 --> 404 Page Not Found: Assets/images
+DEBUG - 2025-01-22 13:45:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:48 --> Input Class Initialized
+INFO - 2025-01-22 13:45:48 --> Output Class Initialized
+INFO - 2025-01-22 13:45:48 --> Language Class Initialized
+INFO - 2025-01-22 13:45:48 --> Security Class Initialized
+ERROR - 2025-01-22 13:45:48 --> 404 Page Not Found: Assets/images
+DEBUG - 2025-01-22 13:45:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:48 --> Input Class Initialized
+INFO - 2025-01-22 13:45:48 --> Language Class Initialized
+INFO - 2025-01-22 13:45:48 --> Router Class Initialized
+ERROR - 2025-01-22 13:45:48 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:48 --> Output Class Initialized
+INFO - 2025-01-22 13:45:48 --> Config Class Initialized
+INFO - 2025-01-22 13:45:48 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:48 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:48 --> Input Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:48 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:48 --> Config Class Initialized
+INFO - 2025-01-22 13:45:48 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:48 --> Language Class Initialized
+INFO - 2025-01-22 13:45:48 --> URI Class Initialized
+ERROR - 2025-01-22 13:45:48 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:48 --> Router Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:48 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:48 --> Config Class Initialized
+INFO - 2025-01-22 13:45:48 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:48 --> URI Class Initialized
+INFO - 2025-01-22 13:45:48 --> Output Class Initialized
+INFO - 2025-01-22 13:45:48 --> Security Class Initialized
+INFO - 2025-01-22 13:45:48 --> Router Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:48 --> Utf8 Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:48 --> Input Class Initialized
+INFO - 2025-01-22 13:45:48 --> URI Class Initialized
+INFO - 2025-01-22 13:45:48 --> Output Class Initialized
+INFO - 2025-01-22 13:45:48 --> Security Class Initialized
+INFO - 2025-01-22 13:45:48 --> Router Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:48 --> Input Class Initialized
+INFO - 2025-01-22 13:45:48 --> Output Class Initialized
+INFO - 2025-01-22 13:45:48 --> Language Class Initialized
+INFO - 2025-01-22 13:45:48 --> Security Class Initialized
+ERROR - 2025-01-22 13:45:48 --> 404 Page Not Found: Assets/images
+DEBUG - 2025-01-22 13:45:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:48 --> Input Class Initialized
+INFO - 2025-01-22 13:45:48 --> Language Class Initialized
+INFO - 2025-01-22 13:45:48 --> Config Class Initialized
+INFO - 2025-01-22 13:45:48 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:48 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:48 --> Language Class Initialized
+INFO - 2025-01-22 13:45:48 --> URI Class Initialized
+ERROR - 2025-01-22 13:45:48 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:48 --> Router Class Initialized
+ERROR - 2025-01-22 13:45:48 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:48 --> Output Class Initialized
+INFO - 2025-01-22 13:45:48 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:48 --> Input Class Initialized
+INFO - 2025-01-22 13:45:48 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:48 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:48 --> Config Class Initialized
+INFO - 2025-01-22 13:45:48 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:48 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:48 --> URI Class Initialized
+INFO - 2025-01-22 13:45:48 --> Router Class Initialized
+INFO - 2025-01-22 13:45:48 --> Output Class Initialized
+INFO - 2025-01-22 13:45:48 --> Config Class Initialized
+INFO - 2025-01-22 13:45:48 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:48 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2025-01-22 13:45:48 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:48 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:48 --> Input Class Initialized
+INFO - 2025-01-22 13:45:48 --> URI Class Initialized
+INFO - 2025-01-22 13:45:48 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:48 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:48 --> Router Class Initialized
+INFO - 2025-01-22 13:45:48 --> Output Class Initialized
+INFO - 2025-01-22 13:45:48 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:48 --> Input Class Initialized
+INFO - 2025-01-22 13:45:48 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:48 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:48 --> Config Class Initialized
+INFO - 2025-01-22 13:45:48 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:48 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:48 --> URI Class Initialized
+INFO - 2025-01-22 13:45:48 --> Router Class Initialized
+INFO - 2025-01-22 13:45:48 --> Output Class Initialized
+INFO - 2025-01-22 13:45:48 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:48 --> Config Class Initialized
+INFO - 2025-01-22 13:45:48 --> Input Class Initialized
+INFO - 2025-01-22 13:45:48 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:48 --> Language Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:48 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:48 --> URI Class Initialized
+INFO - 2025-01-22 13:45:48 --> Router Class Initialized
+INFO - 2025-01-22 13:45:48 --> Config Class Initialized
+INFO - 2025-01-22 13:45:48 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:48 --> Loader Class Initialized
+INFO - 2025-01-22 13:45:48 --> Helper loaded: url_helper
+INFO - 2025-01-22 13:45:48 --> Database Driver Class Initialized
+INFO - 2025-01-22 13:45:48 --> Output Class Initialized
+INFO - 2025-01-22 13:45:48 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:48 --> Input Class Initialized
+INFO - 2025-01-22 13:45:48 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:48 --> 404 Page Not Found: Assets/images
+DEBUG - 2025-01-22 13:45:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-01-22 13:45:48 --> Session: Class initialized using 'files' driver.
+INFO - 2025-01-22 13:45:48 --> Controller Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:48 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:48 --> Config Class Initialized
+INFO - 2025-01-22 13:45:48 --> Hooks Class Initialized
+INFO - 2025-01-22 13:45:48 --> Model "CasestudiesModel" initialized
+INFO - 2025-01-22 13:45:48 --> URI Class Initialized
+INFO - 2025-01-22 13:45:48 --> Router Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:48 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:48 --> Output Class Initialized
+INFO - 2025-01-22 13:45:48 --> URI Class Initialized
+INFO - 2025-01-22 13:45:48 --> Security Class Initialized
+INFO - 2025-01-22 13:45:48 --> Router Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:48 --> Input Class Initialized
+INFO - 2025-01-22 13:45:48 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:48 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:48 --> Config Class Initialized
+INFO - 2025-01-22 13:45:48 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:48 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:48 --> URI Class Initialized
+INFO - 2025-01-22 13:45:48 --> Output Class Initialized
+INFO - 2025-01-22 13:45:48 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2025-01-22 13:45:48 --> Severity: error --> Exception: syntax error, unexpected '$casestudy' (T_VARIABLE), expecting ',' or ';' F:\xampp\htdocs\weboconnect-front-new\application\views\front\case_study_details.php 232
+INFO - 2025-01-22 13:45:48 --> Input Class Initialized
+INFO - 2025-01-22 13:45:48 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:48 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:48 --> Router Class Initialized
+INFO - 2025-01-22 13:45:48 --> Output Class Initialized
+INFO - 2025-01-22 13:45:48 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:48 --> Input Class Initialized
+INFO - 2025-01-22 13:45:48 --> Language Class Initialized
+ERROR - 2025-01-22 13:45:48 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:45:49 --> Config Class Initialized
+INFO - 2025-01-22 13:45:49 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:45:49 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:45:49 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:45:49 --> URI Class Initialized
+INFO - 2025-01-22 13:45:49 --> Router Class Initialized
+INFO - 2025-01-22 13:45:49 --> Output Class Initialized
+INFO - 2025-01-22 13:45:49 --> Security Class Initialized
+DEBUG - 2025-01-22 13:45:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:45:49 --> Input Class Initialized
+INFO - 2025-01-22 13:45:49 --> Language Class Initialized
+INFO - 2025-01-22 13:45:49 --> Loader Class Initialized
+INFO - 2025-01-22 13:45:49 --> Helper loaded: url_helper
+INFO - 2025-01-22 13:45:49 --> Database Driver Class Initialized
+DEBUG - 2025-01-22 13:45:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-01-22 13:45:49 --> Session: Class initialized using 'files' driver.
+INFO - 2025-01-22 13:45:49 --> Controller Class Initialized
+INFO - 2025-01-22 13:45:49 --> Model "CasestudiesModel" initialized
+ERROR - 2025-01-22 13:45:49 --> Severity: error --> Exception: syntax error, unexpected '$casestudy' (T_VARIABLE), expecting ',' or ';' F:\xampp\htdocs\weboconnect-front-new\application\views\front\case_study_details.php 232
+INFO - 2025-01-22 13:48:56 --> Config Class Initialized
+INFO - 2025-01-22 13:48:56 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:48:56 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:48:56 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:48:56 --> URI Class Initialized
+INFO - 2025-01-22 13:48:56 --> Router Class Initialized
+INFO - 2025-01-22 13:48:56 --> Output Class Initialized
+INFO - 2025-01-22 13:48:56 --> Security Class Initialized
+DEBUG - 2025-01-22 13:48:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:48:56 --> Input Class Initialized
+INFO - 2025-01-22 13:48:56 --> Language Class Initialized
+INFO - 2025-01-22 13:48:56 --> Loader Class Initialized
+INFO - 2025-01-22 13:48:56 --> Helper loaded: url_helper
+INFO - 2025-01-22 13:48:56 --> Database Driver Class Initialized
+DEBUG - 2025-01-22 13:48:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-01-22 13:48:56 --> Session: Class initialized using 'files' driver.
+INFO - 2025-01-22 13:48:56 --> Controller Class Initialized
+INFO - 2025-01-22 13:48:56 --> Model "CasestudiesModel" initialized
+INFO - 2025-01-22 13:48:56 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2025-01-22 13:48:56 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2025-01-22 13:48:56 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/our_clients_videos.php
+INFO - 2025-01-22 13:48:56 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2025-01-22 13:48:56 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2025-01-22 13:48:56 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2025-01-22 13:48:56 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2025-01-22 13:48:56 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2025-01-22 13:48:56 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2025-01-22 13:48:56 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2025-01-22 13:48:56 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2025-01-22 13:48:56 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2025-01-22 13:48:56 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2025-01-22 13:48:56 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/case_study_details.php
+INFO - 2025-01-22 13:48:56 --> Final output sent to browser
+DEBUG - 2025-01-22 13:48:56 --> Total execution time: 0.1280
+INFO - 2025-01-22 13:48:56 --> Config Class Initialized
+INFO - 2025-01-22 13:48:56 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:48:56 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:48:56 --> Config Class Initialized
+INFO - 2025-01-22 13:48:56 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:48:56 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:48:56 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:48:56 --> URI Class Initialized
+INFO - 2025-01-22 13:48:56 --> Config Class Initialized
+INFO - 2025-01-22 13:48:56 --> Hooks Class Initialized
+INFO - 2025-01-22 13:48:56 --> Router Class Initialized
+DEBUG - 2025-01-22 13:48:56 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:48:56 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:48:56 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:48:56 --> URI Class Initialized
+INFO - 2025-01-22 13:48:56 --> URI Class Initialized
+INFO - 2025-01-22 13:48:56 --> Router Class Initialized
+INFO - 2025-01-22 13:48:56 --> Router Class Initialized
+INFO - 2025-01-22 13:48:56 --> Output Class Initialized
+INFO - 2025-01-22 13:48:56 --> Output Class Initialized
+INFO - 2025-01-22 13:48:56 --> Security Class Initialized
+INFO - 2025-01-22 13:48:56 --> Security Class Initialized
+DEBUG - 2025-01-22 13:48:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:48:56 --> Input Class Initialized
+DEBUG - 2025-01-22 13:48:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:48:56 --> Input Class Initialized
+INFO - 2025-01-22 13:48:56 --> Language Class Initialized
+INFO - 2025-01-22 13:48:56 --> Language Class Initialized
+ERROR - 2025-01-22 13:48:56 --> 404 Page Not Found: Assets/images
+ERROR - 2025-01-22 13:48:56 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:48:56 --> Output Class Initialized
+INFO - 2025-01-22 13:48:56 --> Config Class Initialized
+INFO - 2025-01-22 13:48:56 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:48:56 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:48:56 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:48:56 --> URI Class Initialized
+INFO - 2025-01-22 13:48:56 --> Router Class Initialized
+INFO - 2025-01-22 13:48:56 --> Output Class Initialized
+INFO - 2025-01-22 13:48:56 --> Security Class Initialized
+DEBUG - 2025-01-22 13:48:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:48:56 --> Input Class Initialized
+INFO - 2025-01-22 13:48:56 --> Language Class Initialized
+INFO - 2025-01-22 13:48:57 --> Security Class Initialized
+ERROR - 2025-01-22 13:48:57 --> 404 Page Not Found: Assets/images
+DEBUG - 2025-01-22 13:48:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:48:57 --> Input Class Initialized
+INFO - 2025-01-22 13:48:57 --> Language Class Initialized
+ERROR - 2025-01-22 13:48:57 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-22 13:49:01 --> Config Class Initialized
+INFO - 2025-01-22 13:49:01 --> Hooks Class Initialized
+DEBUG - 2025-01-22 13:49:01 --> UTF-8 Support Enabled
+INFO - 2025-01-22 13:49:01 --> Utf8 Class Initialized
+INFO - 2025-01-22 13:49:01 --> URI Class Initialized
+INFO - 2025-01-22 13:49:01 --> Router Class Initialized
+INFO - 2025-01-22 13:49:01 --> Output Class Initialized
+INFO - 2025-01-22 13:49:01 --> Security Class Initialized
+DEBUG - 2025-01-22 13:49:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-22 13:49:01 --> Input Class Initialized
+INFO - 2025-01-22 13:49:01 --> Language Class Initialized
+INFO - 2025-01-22 13:49:01 --> Loader Class Initialized
+INFO - 2025-01-22 13:49:01 --> Helper loaded: url_helper
+INFO - 2025-01-22 13:49:01 --> Database Driver Class Initialized
+DEBUG - 2025-01-22 13:49:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-01-22 13:49:01 --> Session: Class initialized using 'files' driver.
+INFO - 2025-01-22 13:49:01 --> Controller Class Initialized
+INFO - 2025-01-22 13:49:01 --> Model "CasestudiesModel" initialized
+INFO - 2025-01-22 13:49:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2025-01-22 13:49:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2025-01-22 13:49:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/our_clients_videos.php
+INFO - 2025-01-22 13:49:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2025-01-22 13:49:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2025-01-22 13:49:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2025-01-22 13:49:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2025-01-22 13:49:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2025-01-22 13:49:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2025-01-22 13:49:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2025-01-22 13:49:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2025-01-22 13:49:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2025-01-22 13:49:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2025-01-22 13:49:01 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/case_study_details.php
+INFO - 2025-01-22 13:49:01 --> Final output sent to browser
+DEBUG - 2025-01-22 13:49:01 --> Total execution time: 0.1774
