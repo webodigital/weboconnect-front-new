@@ -27,7 +27,7 @@
 
 <section id="gallery" class="section_padding homeSection7 container">
   <div class="text-center mb-4">
-    <h3 class="fs-30 fw-600">UNIQUE DESIGNS. OUTSTANDING SERVICES</h3>
+    <h1 class="fs-30 fw-600">UNIQUE DESIGNS. OUTSTANDING SERVICES</h1>
     <p class="fs-20 fw-400 text_brand_color2 my-4">When excellence matters, choose WebOConnect. We combine creativity and precision to deliver superior web and mobile solutions, tailored for your success.</p>
   </div>
   
