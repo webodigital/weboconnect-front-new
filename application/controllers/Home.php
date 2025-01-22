@@ -251,6 +251,7 @@ class Home extends CI_Controller {
 
         // Array to store headings
         $headings = [];
+        $idCounter = 0;
 
         for ($i = 1; $i <= 6; $i++) {
             $tags = $dom->getElementsByTagName("h$i");
