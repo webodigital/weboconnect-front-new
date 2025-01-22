@@ -49,7 +49,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/web/fundlink_web.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/web/fundlink_web.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/fundlink_web.webp" class="img-responsive" alt="Fundlink" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -68,7 +68,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/web/legacy83business_web.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/web/legacy83business_web.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/legacy83business_web.webp" class="img-responsive" alt="legacy83business" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -87,7 +87,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/web/angela_web.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/web/angela_web.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/angela_web.webp" class="img-responsive" alt="Angela Simeone" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -106,7 +106,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/web/cycle_exchange_web.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/web/cycle_exchange_web.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/cycle_exchange_web.webp" class="img-responsive" alt="Cycle Exchange" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -125,7 +125,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/web/national_light_web.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/web/national_light_web.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/national_light_web.webp" class="img-responsive" alt="National Lighting" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -144,7 +144,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/web/onehopewine_web.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/web/onehopewine_web.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/onehopewine_web.webp" class="img-responsive" alt="Onehopewine" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -163,7 +163,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/web/db_alliance_web.webp" alt="Design 7">
-                                    <img src="<?=base_url()?>assets/images/portfolio/web/db_alliance_web.webp" alt="Design 7" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/db_alliance_web.webp" alt="Design 7" class="img-responsive" alt="Db Alliance" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -182,7 +182,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/web/miami_web.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/web/miami_web.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/miami_web.webp" class="img-responsive" alt="Miami Tropical Plants" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -201,7 +201,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/web/ronlearyreach_web.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/web/ronlearyreach_web.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/ronlearyreach_web.webp" class="img-responsive" alt="Ronlearyreach" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -220,7 +220,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/web/servare_cms_web.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/web/servare_cms_web.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/servare_cms_web.webp" class="img-responsive" alt="Servare" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -239,7 +239,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/web/venturevell_web.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/web/venturevell_web.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/venturevell_web.webp" class="img-responsive" alt="Venturewell" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -258,7 +258,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/web/terp2go_web.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/web/terp2go_web.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/terp2go_web.webp" class="img-responsive" alt="Terp2go" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -277,7 +277,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/web/nurseify_web.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/web/nurseify_web.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/nurseify_web.webp" class="img-responsive" alt="Nurseify" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -296,7 +296,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/web/weddingwire_web.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/web/weddingwire_web.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/weddingwire_web.webp" class="img-responsive" alt="Weddingwire" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -315,7 +315,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/web/iot_web.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/web/iot_web.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/iot_web.webp" class="img-responsive" alt="India On Track" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -334,7 +334,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/web/goodwork_web.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/web/goodwork_web.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/goodwork_web.webp" class="img-responsive" alt="Goodwork" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -353,7 +353,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/web/vaffix_web.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/web/vaffix_web.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/vaffix_web.webp" class="img-responsive" alt="Vaffix" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -372,7 +372,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/web/smartlinks_web.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/web/smartlinks_web.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/web/smartlinks_web.webp" class="img-responsive" alt="Smart Linkscs" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -399,7 +399,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/airix.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/airix.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/airix.webp" class="img-responsive" alt="airix" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -428,7 +428,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/wallet_cab.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/wallet_cab.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/wallet_cab.webp" class="img-responsive" alt="wallet cab" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -457,7 +457,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/anyshyft.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/anyshyft.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/anyshyft.webp" class="img-responsive" alt="anyshyft" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -486,7 +486,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/theIslandMarket.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/theIslandMarket.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/theIslandMarket.webp" class="img-responsive" alt="theIslandMarket" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -515,7 +515,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/thinkndo.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/thinkndo.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/thinkndo.webp" class="img-responsive" alt="thinkndonow" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -544,7 +544,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/nurseify.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/nurseify.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/nurseify.webp" class="img-responsive" alt="nurseify" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -573,7 +573,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/book_a_ride.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/book_a_ride.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/book_a_ride.webp" class="img-responsive" alt="book a ride" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -603,7 +603,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/doctor_locam.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/doctor_locam.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/doctor_locam.webp" class="img-responsive" alt="doctor locum" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -632,7 +632,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/finowiz.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/finowiz.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/finowiz.webp" class="img-responsive" alt="finowiz" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -661,7 +661,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/fixd.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/fixd.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/fixd.webp" class="img-responsive" alt="fixd" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -690,7 +690,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/golf_me.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/golf_me.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/golf_me.webp" class="img-responsive" alt="golf me" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -719,7 +719,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/good_work.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/good_work.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/good_work.webp" class="img-responsive" alt="goodwork" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -748,7 +748,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/icna.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/icna.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/icna.webp" class="img-responsive" alt="ICNA" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -777,7 +777,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/iot.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/iot.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/iot.webp" class="img-responsive" alt="India On Track" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -806,7 +806,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/liebe_live.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/liebe_live.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/liebe_live.webp" class="img-responsive" alt="liebeLive" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -835,7 +835,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/loppekortet.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/loppekortet.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/loppekortet.webp" class="img-responsive" alt="loppekortet" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -864,7 +864,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/monkyshine.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/monkyshine.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/monkyshine.webp" class="img-responsive" alt="monkyshine" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -893,7 +893,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/musicfix.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/musicfix.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/musicfix.webp" class="img-responsive" alt="musicfix" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -922,7 +922,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/personality.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/personality.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/personality.webp" class="img-responsive" alt="personality" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -951,7 +951,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/prorider.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/prorider.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/prorider.webp" class="img-responsive" alt="prorider" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -980,7 +980,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/qoach.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/qoach.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/qoach.webp" class="img-responsive" alt="qoach" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1009,7 +1009,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/quality_couriers.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/quality_couriers.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/quality_couriers.webp" class="img-responsive" alt="quality couriers" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1038,7 +1038,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/staffinc.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/staffinc.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/staffinc.webp" class="img-responsive" alt="staffinc" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1067,7 +1067,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/terp2go.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/terp2go.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/terp2go.webp" class="img-responsive" alt="terp2go" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1096,7 +1096,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/vafffix_app.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/vafffix_app.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/vafffix_app.webp" class="img-responsive" alt="vafffix" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1125,7 +1125,7 @@
                         <div class="col-sm-6 image">
                             <div class="img-wrapper cursor-pointer">
                                 <a href="<?=base_url()?>assets/images/portfolio/mobile/work_timer.webp">
-                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/work_timer.webp" class="img-responsive" />
+                                    <img src="<?=base_url()?>assets/images/portfolio/mobile/work_timer.webp" class="img-responsive" alt="worktimer" />
                                 </a>
                                 <div class="img-overlay">
                                     <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1177,7 +1177,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/web/fundlink_web.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/web/fundlink_web.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/web/fundlink_web.webp" class="img-responsive" alt="Fundlink" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1198,7 +1198,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/web/legacy83business_web.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/web/legacy83business_web.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/web/legacy83business_web.webp" class="img-responsive" alt="legacy83business" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1219,7 +1219,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/web/angela_web.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/web/angela_web.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/web/angela_web.webp" class="img-responsive" alt="Angela Simeone" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1240,7 +1240,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/web/cycle_exchange_web.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/web/cycle_exchange_web.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/web/cycle_exchange_web.webp" class="img-responsive" alt="cycle exchange" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1261,7 +1261,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/web/national_light_web.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/web/national_light_web.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/web/national_light_web.webp" class="img-responsive" alt="National Light" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1282,7 +1282,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/web/onehopewine_web.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/web/onehopewine_web.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/web/onehopewine_web.webp" class="img-responsive" alt="onehopewine" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1303,7 +1303,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/web/db_alliance_web.webp" alt="Design 7">
-                                        <img src="<?=base_url()?>assets/images/portfolio/web/db_alliance_web.webp" alt="Design 7" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/web/db_alliance_web.webp" alt="Design 7" class="img-responsive" alt="DB Alliance" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1324,7 +1324,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/web/miami_web.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/web/miami_web.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/web/miami_web.webp" class="img-responsive" alt="miami" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1345,7 +1345,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/web/ronlearyreach_web.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/web/ronlearyreach_web.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/web/ronlearyreach_web.webp" class="img-responsive" alt="ronlearyreach" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1366,7 +1366,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/web/servare_cms_web.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/web/servare_cms_web.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/web/servare_cms_web.webp" class="img-responsive" alt="servare" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1387,7 +1387,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/web/venturevell_web.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/web/venturevell_web.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/web/venturevell_web.webp" class="img-responsive" alt="venturevell" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1408,7 +1408,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/web/terp2go_web.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/web/terp2go_web.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/web/terp2go_web.webp" class="img-responsive" alt="terp2go" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1429,7 +1429,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/web/nurseify_web.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/web/nurseify_web.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/web/nurseify_web.webp" class="img-responsive" alt="nurseify" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1450,7 +1450,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/web/weddingwire_web.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/web/weddingwire_web.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/web/weddingwire_web.webp" class="img-responsive" alt="weddingwire" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1471,7 +1471,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/web/iot_web.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/web/iot_web.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/web/iot_web.webp" class="img-responsive" alt="India On Track" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1492,7 +1492,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/web/goodwork_web.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/web/goodwork_web.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/web/goodwork_web.webp" class="img-responsive" alt="goodwork" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1513,7 +1513,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/web/vaffix_web.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/web/vaffix_web.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/web/vaffix_web.webp" class="img-responsive" alt="vaffix" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1534,7 +1534,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/web/smartlinks_web.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/web/smartlinks_web.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/web/smartlinks_web.webp" class="img-responsive" alt="Smart Linkscs" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1562,7 +1562,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/airix.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/airix.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/airix.webp" class="img-responsive" alt="Airix" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1589,7 +1589,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/wallet_cab.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/wallet_cab.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/wallet_cab.webp" class="img-responsive" alt="wallet Cab" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1616,7 +1616,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/anyshyft.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/anyshyft.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/anyshyft.webp" class="img-responsive" alt="anyshyft" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1643,7 +1643,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/theIslandMarket.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/theIslandMarket.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/theIslandMarket.webp" class="img-responsive" alt="The Island Market" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1670,7 +1670,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/thinkndo.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/thinkndo.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/thinkndo.webp" class="img-responsive" alt="thinkndoNow" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1697,7 +1697,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/nurseify.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/nurseify.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/nurseify.webp" class="img-responsive" alt="nurseify" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1724,7 +1724,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/book_a_ride.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/book_a_ride.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/book_a_ride.webp" class="img-responsive" alt="book a ride" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1751,7 +1751,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/doctor_locam.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/doctor_locam.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/doctor_locam.webp" class="img-responsive" alt="doctor Locum" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1778,7 +1778,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/finowiz.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/finowiz.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/finowiz.webp" class="img-responsive" alt="finowiz" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1805,7 +1805,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/fixd.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/fixd.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/fixd.webp" class="img-responsive" alt="Fixd" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1832,7 +1832,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/golf_me.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/golf_me.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/golf_me.webp" class="img-responsive" alt="Golf Me" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1859,7 +1859,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/good_work.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/good_work.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/good_work.webp" class="img-responsive" alt="Goodwork" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1886,7 +1886,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/icna.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/icna.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/icna.webp" class="img-responsive" alt="ICNA" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1913,7 +1913,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/iot.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/iot.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/iot.webp" class="img-responsive" alt="India On Track" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1940,7 +1940,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/liebe_live.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/liebe_live.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/liebe_live.webp" class="img-responsive" alt="LiebeLive" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1967,7 +1967,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/loppekortet.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/loppekortet.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/loppekortet.webp" class="img-responsive" alt="loppekortet" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -1994,7 +1994,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/monkyshine.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/monkyshine.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/monkyshine.webp" class="img-responsive" alt="monkyshine" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -2021,7 +2021,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/musicfix.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/musicfix.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/musicfix.webp" class="img-responsive" alt="musicfix" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -2048,7 +2048,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/personality.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/personality.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/personality.webp" class="img-responsive" alt="personality" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -2075,7 +2075,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/prorider.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/prorider.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/prorider.webp" class="img-responsive" alt="prorider" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -2102,7 +2102,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/qoach.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/qoach.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/qoach.webp" class="img-responsive" alt="qoach" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -2129,7 +2129,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/quality_couriers.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/quality_couriers.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/quality_couriers.webp" class="img-responsive" alt="quality couriers" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -2156,7 +2156,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/staffinc.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/staffinc.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/staffinc.webp" class="img-responsive" alt="staffinc" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -2183,7 +2183,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/terp2go.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/terp2go.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/terp2go.webp" class="img-responsive" alt="terp2go" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -2210,7 +2210,7 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/vafffix_app.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/vafffix_app.webp" class="img-responsive" />
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/vafffix_app.webp" class="img-responsive" alt="vafffix" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
@@ -2237,7 +2237,8 @@
                             <div class="image">
                                 <div class="img-wrapper cursor-pointer">
                                     <a href="<?=base_url()?>assets/images/portfolio/mobile/work_timer.webp">
-                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/work_timer.webp" class="img-responsive" />
+                                        <h4 class="fs-20 fw-700">worktimer</h4>
+                                        <img src="<?=base_url()?>assets/images/portfolio/mobile/work_timer.webp" class="img-responsive" alt="worktimer" />
                                     </a>
                                     <div class="img-overlay">
                                         <img src="<?=base_url()?>assets/images/icons/zoom2.webp" alt="web">
