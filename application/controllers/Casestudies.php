@@ -268,6 +268,9 @@ class Casestudies extends CI_Controller
             );
 
             if ($this->CasestudiesModel->insertCasestudies($data)) {
+
+                $this->updateSitemap($slug);
+
                 echo json_encode(['status' => 'success', 'message' => 'Casestudies added successfully.']);
             } else {
                 echo json_encode(['status' => 'error', 'message' => 'Failed to add case_studies.']);
@@ -372,6 +375,24 @@ class Casestudies extends CI_Controller
         } else {
             return ['status' => false, 'message' => 'Failed to process image.'];
         }
+    }
+
+    private function updateSitemap($slug) {
+        //
+        $url = base_url('case-study-details/' . $slug); // Adjust based on your URL structure
+        $sitemap_path = './sitemap.xml'; // Adjust path as necessary
+
+        // Load the existing sitemap
+        $sitemap = simplexml_load_file($sitemap_path);
+
+        // Add a new URL entry
+        $new_url = $sitemap->addChild('url');
+        $new_url->addChild('loc', htmlspecialchars($url));
+        $new_url->addChild('lastmod', date('Y-m-d\TH:i:sP')); // Format: 2024-06-12T11:14:33+00:00
+        $new_url->addChild('priority', '0.64'); // Adjust priority as needed
+
+        // Save the updated sitemap
+        $sitemap->asXML($sitemap_path);
     }
 
     private function createSlug($slug_input, $title)
@@ -490,7 +511,7 @@ class Casestudies extends CI_Controller
             $data = array(
                 'background_color' => $this->input->post('background_color'),
                 'title' => $this->input->post('title'),
-                //'slug' => $slug,
+                'slug' => $slug,
                 'description' => $this->input->post('description'),
                 'location' => $this->input->post('location'),
                 'front_end' => $this->input->post('front_end'),
@@ -538,7 +559,16 @@ class Casestudies extends CI_Controller
                 $data['solution_implementation_img'] = $solution_implementation_img['file_name'];
             }
 
+
+
+            //Fetch case_study record by id to update xml matching old slug
+            $casestudiesrow = $this->CasestudiesModel->getCasestudiesById($this->input->post('id'));
+            $old_slug = $casestudiesrow->slug;
+
             if ($this->CasestudiesModel->updateCasestudies($this->input->post('id'), $data)) {
+
+                $this->updateSitemapSlug($old_slug, $slug); // Update sitemap slug
+
                 echo json_encode(['status' => 'success', 'message' => 'Casestudies updated successfully.']);
             } else {
                 echo json_encode(['status' => 'error', 'message' => 'Failed to update case_studies.']);
@@ -546,6 +576,37 @@ class Casestudies extends CI_Controller
         } catch (\Throwable $th) {
             echo json_encode(['status' => 'error', 'message' => $th->getMessage()]);
         }
+    }
+
+    private function updateSitemapSlug($old_slug, $new_slug) {
+        $sitemap_path = './sitemap.xml'; // Adjust path as necessary
+        $sitemap = simplexml_load_file($sitemap_path);
+
+        // Track whether the old URL exists
+        $url_found = false;
+
+        // Find the existing URL entry with the old slug
+        foreach ($sitemap->url as $url) {
+            if ((string)$url->loc === base_url('case-study-details/' . $old_slug)) {
+                // Update the <loc> element
+                $url->loc = base_url('case-study-details/' . $new_slug);
+                $url->lastmod = date('Y-m-d\TH:i:sP'); // Update last modified date
+                $url_found = true;
+                break;
+            }
+        }
+
+        // If the old URL wasn't found, add a new URL entry
+        if (!$url_found) {
+            $new_url = $sitemap->addChild('url');
+            $new_url->addChild('loc', base_url('case-study-details/' . $new_slug));
+            $new_url->addChild('lastmod', date('Y-m-d\TH:i:sP'));
+            $new_url->addChild('changefreq', 'monthly'); // Optional, adjust frequency
+            $new_url->addChild('priority', '0.8'); // Optional, adjust priority
+        }
+
+        // Save the updated sitemap
+        $sitemap->asXML($sitemap_path);
     }
     
     public function deleteCasestudies($id)
@@ -562,12 +623,76 @@ class Casestudies extends CI_Controller
         }
     }
 
+    private function removeFromSitemap($slug) {
+        $sitemap_path = './sitemap.xml'; // Adjust path as necessary
+        $sitemap = simplexml_load_file($sitemap_path);
+
+        // Create a new SimpleXMLElement to hold the updated sitemap
+        $new_sitemap = new SimpleXMLElement('<urlset/>');
+
+        // Loop through existing URLs and copy them to the new sitemap, except the one to remove
+        foreach ($sitemap->url as $url) {
+            if ((string)$url->loc !== base_url('case-study-details/' . $slug)) {
+                $new_url = $new_sitemap->addChild('url');
+                $new_url->addChild('loc', htmlspecialchars($url->loc));
+                $new_url->addChild('lastmod', $url->lastmod);
+                $new_url->addChild('priority', $url->priority);
+            }
+        }
+
+        // Save the updated sitemap
+        $new_sitemap->asXML($sitemap_path);
+    }
+
     public function update_sequence() {
         $order = $this->input->post('order');
         foreach ($order as $item) {
             $this->CasestudiesModel->update_sequence($item['id'], $item['sequence']);
         }
         echo json_encode(['status' => 'success']);
+    }
+
+    public function updateAllCasestudiesInSitemap() 
+    {
+        $sitemap_path = './sitemap.xml'; // Path to the sitemap
+        $base_case_studies_url = base_url('case-study-details/'); // Base URL for case_study posts
+    
+        // Load existing sitemap
+        if (file_exists($sitemap_path)) {
+            $sitemap = simplexml_load_file($sitemap_path);
+        } else {
+            return false;
+            // Create new sitemap structure if the file doesn't exist
+            /* $sitemap = new SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"></urlset>'); */
+
+        }
+    
+        // Get all case_studys from the database
+        $case_studys = $this->CasestudiesModel->getAllCasestudiess(); // Make sure this function returns all case_studys
+    
+        // Collect all existing URLs from sitemap
+        $existing_urls = [];
+        foreach ($sitemap->url as $url_entry) {
+            $existing_urls[] = (string) $url_entry->loc;
+        }
+    
+        // Add missing case_studys to the sitemap
+        foreach ($case_studys as $case_study) {
+            $case_study_url = $base_case_studies_url . $case_study['slug'];
+    
+            if (!in_array(htmlspecialchars($case_study_url), $existing_urls)) {
+                // If the case_study URL is not in the sitemap, add it
+                $new_url = $sitemap->addChild('url');
+                $new_url->addChild('loc', htmlspecialchars($case_study_url));
+                $new_url->addChild('lastmod', date('Y-m-d\TH:i:sP')); // Last modified time
+                $new_url->addChild('priority', '0.64'); // Set priority if needed
+            }
+        }
+    
+        // Save the updated sitemap
+        $sitemap->asXML($sitemap_path);
+    
+        echo json_encode(['status' => 'success', 'message' => 'All Case Studies added to sitemap.']);
     }
     
     /////////////////////////////////////////////////////////////////////////
