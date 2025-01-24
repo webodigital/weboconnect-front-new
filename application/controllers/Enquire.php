@@ -10,7 +10,7 @@ class Enquire extends CI_Controller
         $this->load->helper('url');
         $this->load->helper('form');
         $this->load->helper('auth_helper');
-        $this->load->model('Contact_Model'); // Load the Contact model
+        $this->load->model('Enquiry_Model'); // Load the Contact model
         $this->load->model('User');
         $this->load->library('pagination');
         $this->load->library('form_validation');
@@ -58,7 +58,7 @@ class Enquire extends CI_Controller
 
         $config = array();
         $config['base_url'] = site_url('admin-enquires');
-        $config['total_rows'] = $this->Contact_Model->getEnquiresCount();
+        $config['total_rows'] = $this->Enquiry_Model->getEnquiresCount();
         // $config['per_page'] = 20;
         $config['per_page'] = 10;
         $config['uri_segment'] = 2;
@@ -87,7 +87,7 @@ class Enquire extends CI_Controller
 
         $page = ($this->uri->segment(2)) ? $this->uri->segment(2) : 0;
         //echo "string".$page;
-        $data['enquires'] = $this->Contact_Model->getAdminEnquires($config['per_page'], $page);
+        $data['enquires'] = $this->Enquiry_Model->getAdminEnquires($config['per_page'], $page);
 
         //print_r($data);
         $data['pagination'] = $this->pagination->create_links();
@@ -97,7 +97,7 @@ class Enquire extends CI_Controller
 
     public function viewEnquiry($id)
     {
-        $data['enquiry'] = $this->Contact_Model->getEnquiryById($id);
+        $data['enquiry'] = $this->Enquiry_Model->getEnquiryById($id);
         $this->load_view('backend/enquire/view', $data);
     }
 

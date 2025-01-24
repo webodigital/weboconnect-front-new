@@ -30,12 +30,12 @@
                             <div class="form-group col-md-12">
                                 <label for="content">Purpose:</label>
                                 <!-- <textarea id="content" class="form-control" name="content" rows="5"></textarea> -->
-                                <?php echo $enquiry->purpose; ?>
+                                <?php echo $enquiry->development; ?>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="content">Message:</label>
                                 <!-- <textarea id="content" class="form-control" name="content" rows="5"></textarea> -->
-                                <?php echo $enquiry->message; ?>
+                                <?php echo $enquiry->description; ?>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="publish_date">Enquiry Date:</label>

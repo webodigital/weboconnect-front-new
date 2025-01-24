@@ -3743,3 +3743,76 @@ INFO - 2025-01-23 10:46:42 --> File loaded: F:\xampp\htdocs\weboconnect-front-ne
 INFO - 2025-01-23 10:46:42 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\frontend/common/footer.php
 INFO - 2025-01-23 10:46:42 --> Final output sent to browser
 DEBUG - 2025-01-23 10:46:42 --> Total execution time: 0.1135
+INFO - 2025-01-23 14:05:16 --> Config Class Initialized
+INFO - 2025-01-23 14:05:16 --> Hooks Class Initialized
+DEBUG - 2025-01-23 14:05:16 --> UTF-8 Support Enabled
+INFO - 2025-01-23 14:05:16 --> Utf8 Class Initialized
+INFO - 2025-01-23 14:05:16 --> URI Class Initialized
+DEBUG - 2025-01-23 14:05:16 --> No URI present. Default controller set.
+INFO - 2025-01-23 14:05:16 --> Router Class Initialized
+INFO - 2025-01-23 14:05:16 --> Output Class Initialized
+INFO - 2025-01-23 14:05:16 --> Security Class Initialized
+DEBUG - 2025-01-23 14:05:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-23 14:05:16 --> Input Class Initialized
+INFO - 2025-01-23 14:05:16 --> Language Class Initialized
+INFO - 2025-01-23 14:05:16 --> Loader Class Initialized
+INFO - 2025-01-23 14:05:16 --> Helper loaded: url_helper
+INFO - 2025-01-23 14:05:16 --> Database Driver Class Initialized
+DEBUG - 2025-01-23 14:05:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-01-23 14:05:17 --> Session: Class initialized using 'files' driver.
+INFO - 2025-01-23 14:05:17 --> Controller Class Initialized
+INFO - 2025-01-23 14:05:17 --> Model "BlogModel" initialized
+INFO - 2025-01-23 14:05:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/styles.php
+INFO - 2025-01-23 14:05:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/header.php
+INFO - 2025-01-23 14:05:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/common_portfolio.php
+INFO - 2025-01-23 14:05:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/common_blogs.php
+INFO - 2025-01-23 14:05:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/our_clients_videos.php
+INFO - 2025-01-23 14:05:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer_form.php
+INFO - 2025-01-23 14:05:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2025-01-23 14:05:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/thankyou_modal.php
+INFO - 2025-01-23 14:05:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/all_reviews_ratings.php
+INFO - 2025-01-23 14:05:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/lets_discuss_project_modal.php
+INFO - 2025-01-23 14:05:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/call_popup_modal.php
+INFO - 2025-01-23 14:05:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/need_help_modal.php
+INFO - 2025-01-23 14:05:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/apply_now_modal.php
+INFO - 2025-01-23 14:05:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/footer.php
+INFO - 2025-01-23 14:05:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/common/script.php
+INFO - 2025-01-23 14:05:17 --> File loaded: F:\xampp\htdocs\weboconnect-front-new\application\views\front/home.php
+INFO - 2025-01-23 14:05:17 --> Final output sent to browser
+DEBUG - 2025-01-23 14:05:17 --> Total execution time: 1.4356
+INFO - 2025-01-23 14:05:18 --> Config Class Initialized
+INFO - 2025-01-23 14:05:18 --> Hooks Class Initialized
+DEBUG - 2025-01-23 14:05:18 --> UTF-8 Support Enabled
+INFO - 2025-01-23 14:05:18 --> Utf8 Class Initialized
+INFO - 2025-01-23 14:05:18 --> Config Class Initialized
+INFO - 2025-01-23 14:05:18 --> Hooks Class Initialized
+INFO - 2025-01-23 14:05:18 --> Config Class Initialized
+INFO - 2025-01-23 14:05:18 --> Hooks Class Initialized
+DEBUG - 2025-01-23 14:05:18 --> UTF-8 Support Enabled
+INFO - 2025-01-23 14:05:18 --> Utf8 Class Initialized
+DEBUG - 2025-01-23 14:05:18 --> UTF-8 Support Enabled
+INFO - 2025-01-23 14:05:18 --> URI Class Initialized
+INFO - 2025-01-23 14:05:18 --> Utf8 Class Initialized
+INFO - 2025-01-23 14:05:18 --> Router Class Initialized
+INFO - 2025-01-23 14:05:18 --> URI Class Initialized
+INFO - 2025-01-23 14:05:18 --> URI Class Initialized
+INFO - 2025-01-23 14:05:18 --> Output Class Initialized
+INFO - 2025-01-23 14:05:18 --> Router Class Initialized
+INFO - 2025-01-23 14:05:18 --> Security Class Initialized
+INFO - 2025-01-23 14:05:18 --> Output Class Initialized
+DEBUG - 2025-01-23 14:05:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-23 14:05:18 --> Input Class Initialized
+INFO - 2025-01-23 14:05:18 --> Language Class Initialized
+INFO - 2025-01-23 14:05:18 --> Security Class Initialized
+INFO - 2025-01-23 14:05:18 --> Router Class Initialized
+DEBUG - 2025-01-23 14:05:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-23 14:05:18 --> Input Class Initialized
+INFO - 2025-01-23 14:05:18 --> Language Class Initialized
+INFO - 2025-01-23 14:05:18 --> Output Class Initialized
+INFO - 2025-01-23 14:05:18 --> Security Class Initialized
+DEBUG - 2025-01-23 14:05:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-01-23 14:05:18 --> Input Class Initialized
+ERROR - 2025-01-23 14:05:18 --> 404 Page Not Found: Assets/images
+INFO - 2025-01-23 14:05:18 --> Language Class Initialized
+ERROR - 2025-01-23 14:05:18 --> 404 Page Not Found: Assets/images
+ERROR - 2025-01-23 14:05:18 --> 404 Page Not Found: Assets/images

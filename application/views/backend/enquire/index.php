@@ -32,12 +32,12 @@
                                     <td><?php echo $enquire->name; ?></td>
                                     <td><?php echo $enquire->email; ?></td>
                                     <td><?php echo $enquire->phone; ?></td>
-                                    <td><?php echo $enquire->purpose; ?></td>
-                                    <td><?php echo substr($enquire->message, 0, 50); ?>...</td>
+                                    <td><?php echo $enquire->development; ?></td>
+                                    <td><?php echo substr($enquire->description, 0, 35); ?>...</td>
                                     <!-- <td><?php echo ucfirst($enquire->contact_status); ?></td> -->
                                     <td><?php echo date('d-m-Y h:i A', strtotime($enquire->created_at)); ?></td>
                                     <td>
-                                        <a href="<?php echo base_url("view-enquiry").'/'.$enquire->contact_id ?>"><i class="fas fa-eye"></i></a>
+                                        <a href="<?php echo base_url("view-enquiry").'/'.$enquire->enquiry_now_id ?>"><i class="fas fa-eye"></i></a>
                                         <!-- <i class="me-2 fas fa-edit edit" style="cursor: pointer;"></i> -->
                                         <!-- <i class="me-2 fas fa-edit edit" data-id="<?php echo $blog->id; ?>" style="cursor: pointer;"></i>
                                         <i class="fas fa-trash-alt" data-id="<?php echo $blog->id; ?>" style="cursor: pointer;"></i> -->
