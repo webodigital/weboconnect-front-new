@@ -15,7 +15,7 @@
   <!-- ================================================= -->
 </head>
 
-<body>
+<body  class="container" data-spy="scroll" data-target=".blog_details_table_content_side_bar" data-offset="70"> 
     
 <?php $this->load->view('front/common/header') ?>
 
@@ -127,7 +127,7 @@
       </div>
     </div>
       <div class="col-lg-8">
-        <div class="blog_details_content"  data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" tabindex="0">
+        <div class="blog_details_content"  data-bs-spy="scroll" data-bs-target="#table_of_contents" data-bs-offset="100" tabindex="0">
           
           <div class="row align-items-center g-4 mt-1">
             <div class="col">
@@ -607,6 +607,24 @@ document.querySelectorAll('a[href^="#section"]').forEach(anchor => {
     function shareOnInstagram() {
         alert("Instagram does not support direct URL sharing. You can share this page by copying the URL and pasting it in your Instagram bio or story.");
     }
+</script>
+<script>
+
+
+
+
+var navOffset = 100;
+
+$('.table_of_contents').click(function(event) {
+    var href = $(this).attr('href');
+
+    event.preventDefault();
+    window.location.hash = href;
+
+    $(href)[0].scrollIntoView();
+    window.scrollBy(0, -navOffset);
+});
+
 </script>
 </html>
 
