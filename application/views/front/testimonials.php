@@ -64,7 +64,7 @@
                         <div class="tab-pane fade show active" id="pills-weboconnect" role="tabpanel" aria-labelledby="pills-weboconnect-tab">
 
                             <div class="list_testimonial my-5">
-                                <div class="row justify-content-center g-4">
+                                <div class="row justify-content-center g-5">
                                     <div class="col-sm-6">
                                         <div class="testimonial_video_card">
                                             <video controls="" name="media" poster="<?=base_url()?>assets/videos/clients/nicholas_video_poster.webp">
@@ -1439,7 +1439,7 @@
                         </div>
 
                         <div class="tab-pane fade" id="pills-goodfirm" role="tabpanel" aria-labelledby="pills-goodfirm-tab">
-                            <div class="row my-5 g-4">
+                            <div class="row my-5 g-5">
                                 <div class="col-12">
                                     <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/goodfirm_reveiw1.webp" alt="weboconnect testimonials">
                                 </div>
@@ -1528,7 +1528,7 @@
                         </div>
 
                         <div class="tab-pane fade" id="pills-trustpilot" role="tabpanel" aria-labelledby="pills-trustpilot-tab">
-                            <div class="row my-5 g-4">
+                            <div class="row my-5 g-5">
                                 <div class="col-12">
                                     <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/trustpilot_review1.webp" alt="weboconnect testimonials">
                                 </div>
@@ -1593,7 +1593,7 @@
                         </div>
 
                         <div class="tab-pane fade" id="pills-clutch" role="tabpanel" aria-labelledby="pills-clutch-tab">
-                            <div class="row my-5 g-4">
+                            <div class="row my-5 g-5">
                                 <div class="col-12">
                                     <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/clutch_review1.webp" alt="weboconnect testimonials">
                                 </div>
@@ -1628,7 +1628,7 @@
                         </div>
 
                         <div class="tab-pane fade" id="pills-google" role="tabpanel" aria-labelledby="pills-google-tab">
-                            <div class="row my-5 g-4">
+                            <div class="row my-5 g-5">
                                 <div class="col-12">
                                     <img class="w-100" src="<?=base_url()?>assets/images/weboconnect_assets/google_review1.webp" alt="weboconnect testimonials">
                                 </div>
