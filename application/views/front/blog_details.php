@@ -608,23 +608,5 @@ document.querySelectorAll('a[href^="#section"]').forEach(anchor => {
         alert("Instagram does not support direct URL sharing. You can share this page by copying the URL and pasting it in your Instagram bio or story.");
     }
 </script>
-<script>
-
-
-
-
-var navOffset = 100;
-
-$('.table_of_contents').click(function(event) {
-    var href = $(this).attr('href');
-
-    event.preventDefault();
-    window.location.hash = href;
-
-    $(href)[0].scrollIntoView();
-    window.scrollBy(0, -navOffset);
-});
-
-</script>
 </html>
 
