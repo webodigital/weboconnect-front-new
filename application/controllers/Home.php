@@ -253,7 +253,8 @@ class Home extends CI_Controller {
         $headings = [];
         $idCounter = 0;
 
-        for ($i = 1; $i <= 6; $i++) {
+        //for ($i = 1; $i <= 6; $i++) {
+        for ($i = 1; $i <= 2; $i++) {
             $tags = $dom->getElementsByTagName("h$i");
             foreach ($tags as $tag) {
                 //$headings[] = trim($tag->textContent);  // Get and trim heading text
@@ -295,7 +296,8 @@ class Home extends CI_Controller {
         $headings = [];
         $idCounter = 0;
 
-        for ($i = 1; $i <= 6; $i++) {
+        //for ($i = 1; $i <= 6; $i++) {
+        for ($i = 1; $i <= 2; $i++) {    
             $tags = $dom->getElementsByTagName("h$i");
             foreach ($tags as $tag) {
                 // Generate unique ID and assign to heading
