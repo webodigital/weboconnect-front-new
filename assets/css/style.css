@@ -2863,3 +2863,50 @@ span.round_bg_webo_logo{
   z-index: -2;
   
 }
+
+.home_vertical_tab{
+  width: 100%;
+  .nav-item{
+    width: 100%;
+    .nav-link{
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      text-align: center;
+      justify-content: space-between;
+      border: 1px solid rgba(1, 69, 142, 1);
+      width: 100%;
+      border-radius: 15px;
+      height: 85px;
+      span img.wht_icon{
+        display: none;
+      }
+      p{
+        margin: 0px;
+        font-size: 15px;
+        font-weight: 500;
+        color: rgba(0, 20, 49, 1);
+      }
+      span img{
+        display: block;
+        max-height: 80px;
+      }
+      span img.wht_icon{
+        display: none;
+        max-height: 80px;
+      }
+      &.active{
+        background: rgba(1, 69, 142, 1);
+        span img{
+          display: none;
+        }
+        span img.wht_icon{
+          display: block;
+        }
+        p{
+          color: rgb(255, 255, 255);
+        }
+      }
+    }
+  }
+}
