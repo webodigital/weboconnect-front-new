@@ -1,4 +1,6 @@
 
+
+<link rel="icon" type="image/png" href="<?=base_url()?>assets/images/icons/fevicon.png">
 <link rel="shortcut icon" href="<?=base_url()?>assets/css/images/logoicon.svg">
 
 <!-- font -->
@@ -23,10 +25,10 @@
 
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-<link rel="stylesheet" href="<?=base_url()?>assets/css/navigation.css">
+<link rel="stylesheet" href="<?=base_url()?>assets/css/navigation.min.css">
 <!--vendor css end -->
 
-<link rel="stylesheet" href="<?=base_url()?>assets/css/font.css">
-<link rel="stylesheet" href="<?=base_url()?>assets/css/style.css">
-<link rel="stylesheet" href="<?=base_url()?>assets/css/style_m.css">
-<link rel="stylesheet" href="<?=base_url()?>assets/css/responsive.css">
+<link rel="stylesheet" href="<?=base_url()?>assets/css/font.min.css">
+<link rel="stylesheet" href="<?=base_url()?>assets/css/style.min.css">
+<link rel="stylesheet" href="<?=base_url()?>assets/css/style_m.min.css">
+<link rel="stylesheet" href="<?=base_url()?>assets/css/responsive.min.css">

@@ -14,9 +14,9 @@
 <script src="<?=base_url()?>assets/js/bootstrap.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <!-- <script src="<?=base_url()?>assets/js/owl.carousel.js"></script>    -->
-<script src="<?=base_url()?>assets/js/navigation.js"></script>
-<script src="<?=base_url()?>assets/js/header.js"></script> 
-<script src="<?=base_url()?>assets/js/main.js"></script>
+<script src="<?=base_url()?>assets/js/navigation.min.js"></script>
+<script src="<?=base_url()?>assets/js/header.min.js"></script> 
+<script src="<?=base_url()?>assets/js/main.min.js"></script>
 
 
 <script src="<?=base_url()?>assets/jquery-validate/jquery.validate.min.js"></script>

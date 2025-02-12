@@ -765,7 +765,7 @@
                 <h5 class="fs-16 fw-700">We prioritize your project’s confidentiality and security. All our engagements are backed by strict non-disclosure agreements to ensure your intellectual property is protected.</h5>
             </div>
             <div class="col-md-5 position-relative" style="z-index: +1">
-                <img src="<?=base_url()?>assets/images/hire_dedicated/data_security.png" alt="Data Security and NDA">
+                <img src="<?=base_url()?>assets/images/hire_dedicated/data_security.webp" alt="Data Security and NDA">
             </div>
         </div>
     </div>

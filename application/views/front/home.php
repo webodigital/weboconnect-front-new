@@ -212,7 +212,7 @@
     <div class="row justify-content-between g-4 g-lg-5">
       <div class="col-lg-3 col-md-12 col-12">
         <div class="overflow_x_auto">
-          <ul class="nav nav-flex justify-content-center nav-pills sidebar gap-4" id="myTab" role="tablist">
+          <ul class="nav nav-flex justify-content-center nav-pills home_vertical_tab gap-4" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
               <button class="nav-link active" id="saas-tab1" data-bs-toggle="tab" data-bs-target="#saas1" type="button" role="tab" aria-controls="saas1" aria-selected="true">
                 <span>

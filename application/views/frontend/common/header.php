@@ -11,9 +11,9 @@
     <meta name="description" content="">
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="<?= base_url() ?>assets/css/font-admin.css">
-    <link rel="stylesheet" href="<?= base_url() ?>assets/css/style-admin.css">
-    <link rel="stylesheet" href="<?= base_url() ?>assets/css/blogstyle.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/css/font-admin.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/css/style-admin.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/css/blogstyle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <script src="https://cdn.ckeditor.com/4.17.1/standard/ckeditor.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
