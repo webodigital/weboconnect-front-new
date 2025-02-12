@@ -15,7 +15,7 @@
   <!-- ================================================= -->
 </head>
 
-<body  class="container" data-spy="scroll" data-target=".blog_details_table_content_side_bar" data-offset="70"> 
+<body  class="" data-spy="scroll" data-target=".blog_details_table_content_side_bar" data-offset="70"> 
     
 <?php $this->load->view('front/common/header') ?>
 
