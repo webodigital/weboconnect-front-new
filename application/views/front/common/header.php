@@ -186,9 +186,9 @@
                         <div class="megamenu-panel nav-submenu">
                             <div class="full_width_mega_menu">
                                 <div class="container">
-                                    <div class="row g-4 align-items-center">
+                                    <div class="row align-items-center">
 
-                                        <div class="col-md-9">
+                                        <div class="col-md-6">
                                             <div class="">
                                                 <a href="https://staffinc.io/" target="_blank">
                                                     <img height="" src="<?=base_url()?>assets/images/mega_menu/h_c_f.webp" alt="Health Care Staffing">
@@ -198,12 +198,23 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-md-3">
+
+                                        <div class="col-md-6">
+                                            <div class="">
+                                                <a href="<?=base_url()?>assistive-technology-solutions" target="">
+                                                    <img height="" src="<?=base_url()?>assets/images/mega_menu/a_t_s.webp" alt="Health Care Staffing">
+                                                    <!-- <div class="_menu_">
+                                                        <h5>Health Care Staffing</h5>
+                                                    </div> -->
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="col-md-3">
                                             <div class="_menu_ center d-grid text-center">
                                                 <a class="nav-link text-dark fs-16 fw-600 mb-3" href="https://staffinc.io/" target="_blank">www.Staffing.Io</a>
                                                 <a href="https://staffinc.io/" target="_blank" class="btn btn-rounded btn-light btn_thick_bdr">Visit Now</a>
                                             </div>
-                                        </div>
+                                        </div> -->
 
                                     </div>
                                 </div>

@@ -25,16 +25,16 @@
       <!-- Text Content Column -->
         <div class="col-lg-6 col-12" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
             <div class="b_rds_15 bg-white p-4">
-            <h1 class="fs-30 fw-600 text_brand_color2">Build Your Dream Team with WebOConnect's Dedicated Resources</h1>
-            <ul class="text_brand_color2">
-                <li class="fs-20 fw-500">Premium Developers & Designers to Elevate Your Projects</li>
-                <li class="fs-20 fw-500">3+ Years of Proven Experience in Diverse Domains</li>
-                <li class="fs-20 fw-500">Time Zone-Friendly Support for Maximum Productivity</li>
-                <li class="fs-20 fw-500">Budget-Friendly Solutions Starting at $15/Hour</li>
-                <li class="fs-20 fw-500">Efficient, Cost-Effective, and Scalable Engagements</li>
-                <li class="fs-20 fw-500">Focus on Growth with Our Reliable Experts</li>
-            </ul>
-            <button class="btn btn-primary-gradient btn-rounded px-4" data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal">Request 3 Days Free Trial</button>
+                <h1 class="fs-30 fw-600 text_brand_color2">Build Your Dream Team with WebOConnect's Dedicated Resources</h1>
+                <ul class="text_brand_color2">
+                    <li class="fs-20 fw-500">Premium Developers & Designers to Elevate Your Projects</li>
+                    <li class="fs-20 fw-500">3+ Years of Proven Experience in Diverse Domains</li>
+                    <li class="fs-20 fw-500">Time Zone-Friendly Support for Maximum Productivity</li>
+                    <li class="fs-20 fw-500">Budget-Friendly Solutions Starting at $15/Hour</li>
+                    <li class="fs-20 fw-500">Efficient, Cost-Effective, and Scalable Engagements</li>
+                    <li class="fs-20 fw-500">Focus on Growth with Our Reliable Experts</li>
+                </ul>
+                <button class="btn btn-primary-gradient btn-rounded px-4" data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal">Request 3 Days Free Trial</button>
             </div>
         </div>       
 

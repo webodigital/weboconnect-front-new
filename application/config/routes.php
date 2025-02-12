@@ -80,6 +80,7 @@ $route['portfolio'] = 'home/portfolio';
 $route['outsource-projects'] = 'home/outsource_projects';
 $route['white-label-partnership'] = 'home/white_label_partnership';
 $route['product-partnership'] = 'home/product_partnership';
+$route['assistive-technology-solutions'] = 'home/assistive_technology_solutions';
 
 
 // $route['default_controller'] = 'welcome';

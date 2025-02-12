@@ -18,6 +18,10 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('front/contact');
 	}
+	public function assistive_technology_solutions()
+	{
+		$this->load->view('front/assistive_technology_solutions');
+	}
 	public function case_study()
 	{
 		$this->load->library('pagination');
