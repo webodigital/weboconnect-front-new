@@ -87,6 +87,12 @@ class Home extends CI_Controller {
         $data['screens'] = $this->CasestudiesModel->getCasestudiesDetailsByIdWithSType($casestudy->id, 'screens');
         $data['testimonials'] = $this->CasestudiesModel->getCasestudiesTestimonialsByCSId($casestudy->id);
 
+        $data['keywords'] = $casestudy->title;
+        $data['meta_title'] = $casestudy->title;
+        $data['meta_description'] = $casestudy->title;
+        $data['meta_og_img'] = base_url('assets/images/case_studies/uploads/thumbnails/' . $casestudy->front_logo);
+        $data['meta_og_url'] = base_url('case-study-details/' . $casestudy->slug);
+
 		$this->load->view('front/case_study_details', $data);
 	}
 
@@ -349,6 +355,12 @@ class Home extends CI_Controller {
         $data['meta_og_url'] = $blog->slug ?? '';
 
 		$data['bottom_blogs'] = $this->BlogModel->getHomeBlogs();
+
+        $data['keywords'] = $blog->title;
+        $data['meta_title'] = $blog->meta_title;
+        $data['meta_description'] = $blog->meta_description;
+        $data['meta_og_img'] = base_url('assets/images/blogs/uploads/' . $blog->image);
+        $data['meta_og_url'] = base_url('blog/' . $blog->slug);
 
 		$this->load->view('front/blog_details', $data);
 	}

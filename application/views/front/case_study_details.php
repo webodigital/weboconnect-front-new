@@ -3,13 +3,32 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-    <title>WebOConnect|web development|software</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta charset="utf-8">
-    <meta name="author" content="Roman Kirichik">
-    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+  <title><?php echo isset($meta_title) ? $meta_title : 'WebOConnect|web development|software'; ?></title>
+  <meta charset="utf-8">
+  <meta name="author" content="">
+
+  <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <meta name="description" content="<?php echo isset($meta_description) ? $meta_description : 'WebOConnect|web development|software'; ?>">
+  <meta name="keywords" content="<?php echo isset($keywords) ? $keywords : 'WebOConnect, web development, software'; ?>">
+  
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="<?php echo isset($meta_og_img) ? $meta_og_img : ''; ?>">
+  <meta name="twitter:site" content="@weboconnect">
+  <meta name="twitter:title" content="<?php echo isset($meta_title) ? $meta_title : 'WebOConnect|web development|software'; ?>">
+  <meta name="twitter:description" content="<?php echo isset($meta_description) ? $meta_description : 'WebOConnect|web development|software'; ?>">
+  <meta name="twitter:image" content="<?php echo isset($meta_og_img) ? $meta_og_img : ''; ?>">
+
+  <!-- Other meta tags (for example, Open Graph or Facebook) -->
+  <meta property="og:site_name" content="<?php echo isset($meta_title) ? $meta_title : 'WebOConnect|web development|software'; ?>">
+  <meta property="og:title" content="<?php echo isset($meta_title) ? $meta_title : 'WebOConnect|web development|software'; ?>">
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="<?php echo isset($meta_description) ? $meta_description : 'WebOConnect|web development|software'; ?>">
+  <meta property="og:image" content="<?php echo isset($meta_og_img) ? $meta_og_img : ''; ?>">
+  <meta property="og:url" content="<?php echo isset($meta_og_url) ? $meta_og_url : ''; ?>" />
+  <meta property="og:image:width" content="64">
+  <meta property="og:image:height" content="64">
 
   <!-- ====================== Links =========================== -->
   <?php $this->load->view('front/common/styles') ?>
