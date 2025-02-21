@@ -1532,6 +1532,7 @@ footer {
   }
 }
 .side_latest_blog_card{
+  margin-bottom: 20px;
   img{
     height: 100px;
     object-fit: cover;

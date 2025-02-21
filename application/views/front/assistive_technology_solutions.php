@@ -47,8 +47,8 @@
   <div class="container">
     <div class="row mb-4">
         <div class="col-12 text-center">
-            <h3 class="fs-24 fw-600 mb-3">Custom Assistive Technology Development</h3>
-            <p class="fs-18 fw-500">We help businesses conceptualize and develop assistive technology software that ensures accessibility and inclusivity for all users.</p>
+            <h3 class="fs-24 fw-600 mb-3">Assistive Tech Development That’s All About Real-World Impact </h3>
+            <p class="fs-18 fw-500">We are passionate about bringing ideas to life. Let’s design and develop assistive technology that opens up digital experiences for everyone. </p>
         </div>
     </div>
     <div class="row justify-content-between align-items-center g-4">
@@ -64,7 +64,8 @@
                 </li>
                 
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link justify-content-start" id="v-pills-data-management-tab" data-bs-toggle="pill" data-bs-target="#v-pills-data-management" type="button" role="tab" aria-controls="v-pills-data-management" aria-selected="true">•	Adaptive UI/UX Design</button>
+                    <button class="nav-link justify-content-start" id="v-pills-data-management-tab" data-bs-toggle="pill" data-bs-target="#v-pills-data-management" type="button" role="tab" aria-controls="v-pills-data-management" aria-selected="true">•	User-Centric UI/UX 
+                    </button>
                 </li>
                 
                 <li class="nav-item" role="presentation">
@@ -87,7 +88,8 @@
                 <div class="content-area" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
                     <img src="<?=base_url()?>assets/images/a_t_s/s_l_i.webp" alt="FRAMEWORKS" class="content-image w-100 rounded-5">
                     <div class="content-overlay text-start">
-                        <p class="fs-16 fw-600 m-0">Enabling platforms to integrate sign language video overlays for better accessibility.</p>
+                        <p class="fs-16 fw-600 m-0">Providing sign language and content on the same screen for better accessibility.</p>
+                        <!-- <p class="fs-16 fw-600 m-0">Enabling platforms to integrate sign language video overlays for better accessibility.</p> -->
                     </div>
                 </div>
             </div>
@@ -135,7 +137,7 @@
             <div class="col-6">
                 <!-- <h3 class="fs-30 fw-600">Our Portfolio</h3> -->
                 <h6 class="fs-20 fw-600">WebOConnect is open to various engagement models to develop and implement assistive technology solutions:</h6>
-                <a href="<?=base_url()?>portfolio" class="btn btn-outline-light btn-rounded mt-4 px-4">Request a Consultation</a>
+                <a href="https://calendly.com/schedulemeetingwithweboconnect/30min?back=1&month=2024-12" target="_blank" class="btn btn-outline-light btn-rounded mt-4 px-4">Request a Consultation</a>
             </div>
         </div>
     </div>
@@ -158,8 +160,8 @@
                 <div class="collaboration_business_opportunities_card">
                     <div class="row align-items-center">
                         <div class="col">
-                            <h4 class="">Paid Development Services </h4>
-                            <h5 class="">Businesses can hire us to build tailored accessibility software.</h5>
+                            <h4 class="">Your Own Development Team</h4>
+                            <h5 class="">Hire us to develop your custom accessibility software.</h5>
                         </div>
                         <div class="col-auto">
                             <svg width="165" height="165" viewBox="0 0 165 165" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -177,8 +179,8 @@
                 <div class="collaboration_business_opportunities_card">
                     <div class="row align-items-center">
                         <div class="col">
-                            <h4 class="">Hiring Expert Developers </h4>
-                            <h5 class="">We provide dedicated teams or individual experts for accessibility-focused projects.</h5>
+                            <h4 class="">Flexible Team Options</h4>
+                            <h5 class="">Choose between dedicated teams or individual experts at your convenience</h5>
                         </div>
                         <div class="col-auto">
                             <svg width="165" height="140" viewBox="0 0 165 140" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -195,7 +197,7 @@
                     <div class="row align-items-center">
                         <div class="col">
                             <h4 class="">Collaborations & Partnerships</h4>
-                            <h5 class="">We work with startups, enterprises, and NGOs to co-develop innovative assistive technology solutions.</h5>
+                            <h5 class="">Dear startups, enterprises, and NGOs, join hands with us to co-develop innovative assistive technology solutions.</h5>
                         </div>
                         <div class="col-auto">
                             <svg width="165" height="134" viewBox="0 0 165 134" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -222,7 +224,7 @@
                     <div class="row align-items-center">
                         <div class="col">
                             <h4 class="">Grants & Funding Projects</h4>
-                            <h5 class="">We are open to partnering with organizations on funded projects that promote digital accessibility.</h5>
+                            <h5 class="">We’re eager to collaborate on funded projects to advance digital accessibility. </h5>
                         </div>
                         <div class="col-auto">
                             <svg width="165" height="134" viewBox="0 0 165 134" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -349,10 +351,10 @@
 <section class="section_padding pg_bnr bg-white back_cover" style="background-image: url('<?= base_url() ?>assets/images/a_t_s/get_in_touch.webp'); min-height:200px;">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-8">
+            <div class="col-auto">
                 <div class="text-center text-md-start">
                     <h3 class="fs-24 fw-600 text-white">Let’s work together to make technology <br> inclusive for all!</h3>
-                    <a href="<?=base_url()?>contact" class="btn btn-outline-light btn-rounded mt-4 px-4">Get in Touch</a>
+                    <a href="<?=base_url()?>contact" class="float-end btn btn-outline-light btn-rounded mt-4 px-4">Get in Touch</a>
                 </div>
             </div>
         </div>

@@ -20,7 +20,7 @@
       <div class="d-flex flex-wrap">
         <span>4.7/5</span>
         <span>.</span>
-        <span>26 Google reviews</span>
+        <span>31 Google reviews</span>
       </div>
     </a>
   </div>
@@ -32,7 +32,7 @@
       <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/clutch.webp" alt="clutch" title="clutch">
       <div class="d-flex flex-wrap">
         <span>5/5</span>
-        <span>12 REVIEWS</span>
+        <span>14 REVIEWS</span>
       </div>
     </a>
   </div>
@@ -60,7 +60,7 @@
       <div class="d-flex flex-wrap">
         <span>4.8</span>
         <span>.</span>
-        <span>(19 Reviews)</span>
+        <span>(21 Reviews)</span>
       </div>
     </a>
   </div>

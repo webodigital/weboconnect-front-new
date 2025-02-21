@@ -22,7 +22,16 @@
   <!-- Owl Carousel CSS -->
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"> -->
+<!-- Google tag (gtag.js) -->
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J3RFM7ZSSR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J3RFM7ZSSR');
+</script>
 </head>
 <body>
 
@@ -86,7 +95,7 @@
                 <div class="d-flex flex-wrap">
                   <span>4.7/5</span>
                   <span>.</span>
-                  <span>26 Google reviews</span>
+                  <span>31 Google reviews</span>
                 </div>
               </a>
             </div>
@@ -98,7 +107,7 @@
                 <img style="" class="w-100" height="80" src="<?=base_url()?>assets/images/weboconnect_assets/clutch.webp" alt="clutch" title="clutch">
                 <div class="d-flex flex-wrap">
                   <span>5/5</span>
-                  <span>12 REVIEWS</span>
+                  <span>14 REVIEWS</span>
                 </div>
               </a>
             </div>
@@ -127,7 +136,7 @@
                 <div class="d-flex flex-wrap">
                   <span>4.8</span>
                   <span>.</span>
-                  <span>(19 Reviews)</span>
+                  <span>(21 Reviews)</span>
                 </div>
               </a>
             </div>
