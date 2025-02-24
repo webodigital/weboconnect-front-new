@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8"/>
+    <title>Master Javascript Frameworks with Weboconnect Development Services</title>
+    <meta name="description" content="Explore Angular, React, Node, and more with our certified Javascript framework developers. Elevate your web projects with our proven expertise. Learn more! "/>
+    <meta name="keywords" content="JavaScript framework , Best JavaScript frameworks , JavaScript development services , Frontend JavaScript frameworks , JavaScript frameworks for web development , javascript testing framework "/>
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Roman Kirichik"/>
+    <meta name="distribution" content="Global" />
+    <meta name="language" content="EN-US" />
+    <meta name="doc-type" content="Public" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
-  <title>Weboconnect</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
 
   <?php $this->load->view('front/common/styles') ?>
   <!-- ================================================= -->

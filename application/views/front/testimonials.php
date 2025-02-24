@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-    <title>WebOConnect|web development|software</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta charset="utf-8">
-    <meta name="author" content="Roman Kirichik">
-    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta charset="utf-8"/>
+    <title>Client Testimonials Weboconnect | Success Stories & Reviews</title>
+    <meta name="description" content="Discover what our clients say about Weboconnect's exceptional Software solutions. Look into our testimonials from satisfied clients across various industries. "/>
+    <meta name="keywords" content="testimonials , Customer reviews , Client feedback , Client success stories , Testimonials and reviews , Customer testimonials"/>
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Roman Kirichik"/>
+    <meta name="distribution" content="Global" />
+    <meta name="language" content="EN-US" />
+    <meta name="doc-type" content="Public" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
 
   <?php $this->load->view('front/common/styles') ?>
   <!-- ================================================= -->

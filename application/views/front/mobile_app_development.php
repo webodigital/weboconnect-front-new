@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-    <title>WebOConnect|web development|software</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta charset="utf-8">
-    <meta name="author" content="Roman Kirichik">
-    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta charset="utf-8"/>
+    <title>Transform your business with our Mobile App Development Services</title>
+    <meta name="description" content="Discover how Weboconnect crafts interactive iOS and Android mobile app development for your brand. Boost your business with our user-friendly solutions today."/>
+    <meta name="keywords" content="Mobile app development , Mobile app development services ,Custom mobile app development , iOS app development , mobile app development company in india , Mobile application development"/>
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Roman Kirichik"/>
+    <meta name="distribution" content="Global" />
+    <meta name="language" content="EN-US" />
+    <meta name="doc-type" content="Public" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
 
   <?php $this->load->view('front/common/styles') ?>
   <!-- ================================================= -->

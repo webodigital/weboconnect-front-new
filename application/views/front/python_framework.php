@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-    <title>WebOConnect|web development|software</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta charset="utf-8">
-    <meta name="author" content="Roman Kirichik">
-    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta charset="utf-8"/>
+    <title>Python framework development Services | Weboconnect</title>
+    <meta name="description" content="Discover Django and Flask expertise with our skilled Python developers. Get your next Python framework development project done effectively with us. Learn more!" />
+    <meta name="keywords" content="Python framework , Best Python frameworks , Python web frameworks , Python development services ,Top Python frameworks , Python frameworks for web development"/>
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Roman Kirichik"/>
+    <meta name="distribution" content="Global" />
+    <meta name="language" content="EN-US" />
+    <meta name="doc-type" content="Public" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
   <?php $this->load->view('front/common/styles') ?>

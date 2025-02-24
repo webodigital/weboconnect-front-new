@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-    <title>WebOConnect|web development|software</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta charset="utf-8">
-    <meta name="author" content="Roman Kirichik">
-    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta charset="utf-8"/>
+    <title>Trusted SaaS Application Development Services | Weboconnect</title>
+    <meta name="description" content="Weboconnect provides SaaS application development services for various-sized companies. Elevate your business with our experts. Learn more about our solutions!"/>
+    <meta name="keywords" content="SaaS application development , saas application development solutions ,Custom SaaS development , SaaS development company ,SaaS product development , "/>
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Roman Kirichik"/>
+    <meta name="distribution" content="Global" />
+    <meta name="language" content="EN-US" />
+    <meta name="doc-type" content="Public" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
   <?php $this->load->view('front/common/styles') ?>

@@ -2,13 +2,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>About Us-: Software Development | Web Designing | Custom Software Development-Weboconnect</title>
-<meta name="description" content="Weboconnect is one of the leading Software Development and Web Development India Based Company. Weboconnect offers Custom Software Development, web design, website development, mobile apps etc."/>
-<meta name="keywords" content="Weboconnect Technologies, software development company, software development companies, software company, Custom Software Development, Mobile Apps Development"/>
-<meta name="author" content="Roman Kirichik">
-<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta charset="utf-8"/>
+    <title>Premier Custom Software Development Company | About Us</title>
+    <meta name="description" content="Discover Weboconncect is a leading software development company specializing in custom solutions for various industries. Click on to Learn more about us now!" />
+    <meta name="keywords" content="About us , Company overview , Our team , About WeboConnect , Company background , Our Story"/>
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Roman Kirichik"/>
+    <meta name="distribution" content="Global" />
+    <meta name="language" content="EN-US" />
+    <meta name="doc-type" content="Public" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
 
   <?php $this->load->view('front/common/styles') ?>
   <!-- ================================================= -->

@@ -2950,6 +2950,7 @@ span.round_bg_webo_logo{
     box-shadow: 0px 4px 8.9px 0px #00458E4D;
     background: rgba(235, 241, 245, 1);
     text-align: left;
+    min-height: 150px;
     height: 100%;
     color: #000;
     overflow: hidden;

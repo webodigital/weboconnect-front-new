@@ -1,14 +1,15 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-    <title>WebOConnect|web development|software</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta charset="utf-8">
-    <meta name="author" content="Roman Kirichik">
-    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta charset="utf-8"/>
+    <title>Hire a Dedicated Team for Custom Development | WebOconnect</title>
+    <meta name="description" content="Hire a dedicated team of developers, designers, and tech experts for your project. Quality work, affordable rates, and personalized support, Contact us today!"/>
+    <meta name="keywords" content="Hire dedicated team , Dedicated development team , Hire remote developers , Dedicated software team , Offshore development team , Hire dedicated team"/>
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Roman Kirichik"/>
+    <meta name="distribution" content="Global" />
+    <meta name="language" content="EN-US" />
+    <meta name="doc-type" content="Public" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
 
