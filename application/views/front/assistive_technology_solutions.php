@@ -158,7 +158,7 @@
         <div class="row justify-content-center g-4 mt-4">
             <div class="col-md-6">
                 <div class="collaboration_business_opportunities_card">
-                    <div class="row align-items-center">
+                    <div class="row align-items-center justify-content-center">
                         <div class="col">
                             <h4 class="">Your Own Development Team</h4>
                             <h5 class="">Hire us to develop your custom accessibility software.</h5>
@@ -177,7 +177,7 @@
             </div>
             <div class="col-md-6">
                 <div class="collaboration_business_opportunities_card">
-                    <div class="row align-items-center">
+                    <div class="row align-items-center justify-content-center">
                         <div class="col">
                             <h4 class="">Flexible Team Options</h4>
                             <h5 class="">Choose between dedicated teams or individual experts at your convenience</h5>
@@ -194,7 +194,7 @@
             </div>
             <div class="col-md-6">
                 <div class="collaboration_business_opportunities_card">
-                    <div class="row align-items-center">
+                    <div class="row align-items-center justify-content-center">
                         <div class="col">
                             <h4 class="">Collaborations & Partnerships</h4>
                             <h5 class="">Dear startups, enterprises, and NGOs, join hands with us to co-develop innovative assistive technology solutions.</h5>
@@ -221,7 +221,7 @@
             </div>
             <div class="col-md-6">
                 <div class="collaboration_business_opportunities_card">
-                    <div class="row align-items-center">
+                    <div class="row align-items-center justify-content-center">
                         <div class="col">
                             <h4 class="">Grants & Funding Projects</h4>
                             <h5 class="">We’re eager to collaborate on funded projects to advance digital accessibility. </h5>

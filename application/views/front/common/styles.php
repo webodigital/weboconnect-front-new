@@ -32,4 +32,5 @@
  <link rel="stylesheet" href="<?=base_url()?>assets/css/style.css"> 
 <!--<link rel="stylesheet" href="<?=base_url()?>assets/css/style.min.css">-->
 <link rel="stylesheet" href="<?=base_url()?>assets/css/style_m.min.css">
-<link rel="stylesheet" href="<?=base_url()?>assets/css/responsive.min.css">
+<link rel="stylesheet" href="<?=base_url()?>assets/css/responsive.css">
+<!-- <link rel="stylesheet" href="<?=base_url()?>assets/css/responsive.min.css"> -->

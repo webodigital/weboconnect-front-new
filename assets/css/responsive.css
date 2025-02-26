@@ -107,6 +107,14 @@
       width: 135px;
     }
   }
+  .assistive_technology_solutions{
+    background-image: linear-gradient(rgba(235, 241, 245, 1), rgba(235, 241, 245, 1));
+  }
+  .collaboration_business_opportunities_card{
+    svg{
+      max-height: 100px;
+    }
+  }
 }
 @media (max-width: 500px) {
 .discuss_project_modal {

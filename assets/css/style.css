@@ -3006,6 +3006,6 @@ span.round_bg_webo_logo{
   .accordion-collapse.collapsing .accordion-body ,
   .accordion-collapse.collapse.show .accordion-body{
     background-color:  rgba(1, 69, 142, 1);
-      color: #ffffff;
+      color: #ffffff !important;
   }
 }

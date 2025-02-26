@@ -14,6 +14,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
 
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="<?= base_url() ?>assets/images/about/empowering_digital_futures.webp">
+  <meta name="twitter:site" content="@weboconnect">
+  <meta name="twitter:title" content="Premier Custom Software Development Company | About Us">
+  <meta name="twitter:description" content="Discover Weboconncect is a leading software development company specializing in custom solutions for various industries. Click on to Learn more about us now!">
+  <meta name="twitter:image" content="<?= base_url() ?>assets/images/about/empowering_digital_futures.webp">
+
+  <!-- Other meta tags (for example, Open Graph or Facebook) -->
+  <meta property="og:site_name" content="Premier Custom Software Development Company | About Us">
+  <meta property="og:title" content="Premier Custom Software Development Company | About Us">
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Discover Weboconncect is a leading software development company specializing in custom solutions for various industries. Click on to Learn more about us now!">
+  <meta property="og:image" content="<?= base_url() ?>assets/images/about/empowering_digital_futures.webp">
+  <meta property="og:url" content="<?= base_url() ?>about" />
+  <meta property="og:image:width" content="64">
+  <meta property="og:image:height" content="64">
+
   <?php $this->load->view('front/common/styles') ?>
   <!-- ================================================= -->
 </head>
