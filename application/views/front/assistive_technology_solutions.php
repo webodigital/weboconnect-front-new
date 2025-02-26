@@ -26,7 +26,7 @@
           <h1 class="fs-30 fw-600 my-4">Empowering Digital Accessibility Through Custom Development</h1>
           <p class="fs-18 fw-500">At WebOConnect, we specialize in custom software development to improve digital accessibility. While we haven’t built assistive technology solutions yet, we are open to collaborating with businesses, organizations, and institutions to create tailored accessibility solutions that enhance digital inclusivity for individuals with hearing, speech, mobility, and other challenges.</p>
 
-          <div class="row">
+          <div class="row g-3">
             <div class="col-sm-5 d-grid">
                 <button class="btn btn-md btn-outline-primary btn-rounded" data-bs-toggle="modal" data-bs-target="#lets_discuss_project_modal">Get a Quote</button>
             </div>

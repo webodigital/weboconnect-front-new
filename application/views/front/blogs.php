@@ -87,8 +87,8 @@
                                 <img class="w-100" src="<?php echo base_url('assets/images/blogs/uploads/thumbnails/' . $blog->thumbnail); ?>" alt="<?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?>" />
                                 <div class="blogs_card_content">
                                     <small class="fs-12 fw-400"><?php echo date('d M Y', strtotime($blog->publish_date)); ?></small>
-                                    <h4 class="fs-18 fw-600"><?php echo htmlspecialchars($blog->title, ENT_QUOTES, 'UTF-8'); ?></h4>
-                                    <p class="fs-14 fw-400"><?php echo htmlspecialchars($blog->content, ENT_QUOTES, 'UTF-8'); ?></p>
+                                    <h4 class="fs-18 fw-600"><?php echo htmlspecialchars(substr($blog->title,0, 100), ENT_QUOTES, 'UTF-8'); ?></h4>
+                                    <p class="fs-14 fw-400"><?php echo htmlspecialchars(substr($blog->content, 0, 150), ENT_QUOTES, 'UTF-8'); ?>...</p>
                                     <a class="fs-14 fw-500" href="<?php echo base_url('blog/' . $blog->slug); ?>">Read More</a>
                                 </div>
                             </a>
